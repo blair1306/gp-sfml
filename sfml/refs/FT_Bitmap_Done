@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftbitmap.h' l='228' type='FT_Error FT_Bitmap_Done(FT_Library library, FT_Bitmap * bitmap)'/>
+<doc f='include/freetype2/freetype/ftbitmap.h' l='226'>/*                                                                       */</doc>

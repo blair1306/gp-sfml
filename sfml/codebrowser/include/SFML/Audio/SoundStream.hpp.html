@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SoundStream.hpp source code [codebrowser/include/SFML/Audio/SoundStream.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::SoundStream "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Audio/SoundStream.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Audio</a>/<a href='SoundStream.hpp.html'>SoundStream.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_SOUNDSTREAM_HPP">SFML_SOUNDSTREAM_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_SOUNDSTREAM_HPP" data-ref="_M/SFML_SOUNDSTREAM_HPP">SFML_SOUNDSTREAM_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Audio/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="SoundSource.hpp.html">&lt;SFML/Audio/SoundSource.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../System/Thread.hpp.html">&lt;SFML/System/Thread.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../System/Time.hpp.html">&lt;SFML/System/Time.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../System/Mutex.hpp.html">&lt;SFML/System/Mutex.hpp&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../../../include/c++/5/cstdlib.html">&lt;cstdlib&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="42">42</th><td><i>/// \brief Abstract base class for streamed audio sources</i></td></tr>
+<tr><th id="43">43</th><td><i>///</i></td></tr>
+<tr><th id="44">44</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="45">45</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_AUDIO_API">SFML_AUDIO_API</a> <dfn class="type def" id="sf::SoundStream" title='sf::SoundStream' data-ref="sf::SoundStream">SoundStream</dfn> : <b>public</b> <a class="type" href="SoundSource.hpp.html#sf::SoundSource" title='sf::SoundSource' data-ref="sf::SoundSource">SoundSource</a></td></tr>
+<tr><th id="46">46</th><td>{</td></tr>
+<tr><th id="47">47</th><td><b>public</b>:</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="50">50</th><td><i>    /// \brief Structure defining a chunk of audio data to stream</i></td></tr>
+<tr><th id="51">51</th><td><i>    ///</i></td></tr>
+<tr><th id="52">52</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="53">53</th><td>    <b>struct</b> <dfn class="type def" id="sf::SoundStream::Chunk" title='sf::SoundStream::Chunk' data-ref="sf::SoundStream::Chunk">Chunk</dfn></td></tr>
+<tr><th id="54">54</th><td>    {</td></tr>
+<tr><th id="55">55</th><td>        <em>const</em> <a class="typedef" href="../Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>* <dfn class="decl" id="sf::SoundStream::Chunk::samples" title='sf::SoundStream::Chunk::samples' data-ref="sf::SoundStream::Chunk::samples">samples</dfn>;     <i class="doc">///&lt; Pointer to the audio samples</i></td></tr>
+<tr><th id="56">56</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>  <dfn class="decl" id="sf::SoundStream::Chunk::sampleCount" title='sf::SoundStream::Chunk::sampleCount' data-ref="sf::SoundStream::Chunk::sampleCount">sampleCount</dfn>; <i class="doc">///&lt; Number of samples pointed by Samples</i></td></tr>
+<tr><th id="57">57</th><td>    };</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="61">61</th><td><i>    ///</i></td></tr>
+<tr><th id="62">62</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td>    <b>virtual</b> <dfn class="virtual decl" id="_ZN2sf11SoundStreamD1Ev" title='sf::SoundStream::~SoundStream' data-ref="_ZN2sf11SoundStreamD1Ev">~SoundStream</dfn>();</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="66">66</th><td><i>    /// \brief Start or resume playing the audio stream</i></td></tr>
+<tr><th id="67">67</th><td><i>    ///</i></td></tr>
+<tr><th id="68">68</th><td><i>    /// This function starts the stream if it was stopped, resumes</i></td></tr>
+<tr><th id="69">69</th><td><i>    /// it if it was paused, and restarts it from the beginning if</i></td></tr>
+<tr><th id="70">70</th><td><i>    /// it was already playing.</i></td></tr>
+<tr><th id="71">71</th><td><i>    /// This function uses its own thread so that it doesn't block</i></td></tr>
+<tr><th id="72">72</th><td><i>    /// the rest of the program while the stream is played.</i></td></tr>
+<tr><th id="73">73</th><td><i>    ///</i></td></tr>
+<tr><th id="74">74</th><td><i>    /// \see pause, stop</i></td></tr>
+<tr><th id="75">75</th><td><i>    ///</i></td></tr>
+<tr><th id="76">76</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="77">77</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream4playEv" title='sf::SoundStream::play' data-ref="_ZN2sf11SoundStream4playEv">play</dfn>();</td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// \brief Pause the audio stream</i></td></tr>
+<tr><th id="81">81</th><td><i>    ///</i></td></tr>
+<tr><th id="82">82</th><td><i>    /// This function pauses the stream if it was playing,</i></td></tr>
+<tr><th id="83">83</th><td><i>    /// otherwise (stream already paused or stopped) it has no effect.</i></td></tr>
+<tr><th id="84">84</th><td><i>    ///</i></td></tr>
+<tr><th id="85">85</th><td><i>    /// \see play, stop</i></td></tr>
+<tr><th id="86">86</th><td><i>    ///</i></td></tr>
+<tr><th id="87">87</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="88">88</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream5pauseEv" title='sf::SoundStream::pause' data-ref="_ZN2sf11SoundStream5pauseEv">pause</dfn>();</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="91">91</th><td><i>    /// \brief Stop playing the audio stream</i></td></tr>
+<tr><th id="92">92</th><td><i>    ///</i></td></tr>
+<tr><th id="93">93</th><td><i>    /// This function stops the stream if it was playing or paused,</i></td></tr>
+<tr><th id="94">94</th><td><i>    /// and does nothing if it was already stopped.</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// It also resets the playing position (unlike pause()).</i></td></tr>
+<tr><th id="96">96</th><td><i>    ///</i></td></tr>
+<tr><th id="97">97</th><td><i>    /// \see play, pause</i></td></tr>
+<tr><th id="98">98</th><td><i>    ///</i></td></tr>
+<tr><th id="99">99</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="100">100</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream4stopEv" title='sf::SoundStream::stop' data-ref="_ZN2sf11SoundStream4stopEv">stop</dfn>();</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// \brief Return the number of channels of the stream</i></td></tr>
+<tr><th id="104">104</th><td><i>    ///</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// 1 channel means a mono sound, 2 means stereo, etc.</i></td></tr>
+<tr><th id="106">106</th><td><i>    ///</i></td></tr>
+<tr><th id="107">107</th><td><i>    /// \return Number of channels</i></td></tr>
+<tr><th id="108">108</th><td><i>    ///</i></td></tr>
+<tr><th id="109">109</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="110">110</th><td>    <em>unsigned</em> <em>int</em> <dfn class="decl" id="_ZNK2sf11SoundStream15getChannelCountEv" title='sf::SoundStream::getChannelCount' data-ref="_ZNK2sf11SoundStream15getChannelCountEv">getChannelCount</dfn>() <em>const</em>;</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="113">113</th><td><i>    /// \brief Get the stream sample rate of the stream</i></td></tr>
+<tr><th id="114">114</th><td><i>    ///</i></td></tr>
+<tr><th id="115">115</th><td><i>    /// The sample rate is the number of audio samples played per</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// second. The higher, the better the quality.</i></td></tr>
+<tr><th id="117">117</th><td><i>    ///</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// \return Sample rate, in number of samples per second</i></td></tr>
+<tr><th id="119">119</th><td><i>    ///</i></td></tr>
+<tr><th id="120">120</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="121">121</th><td>    <em>unsigned</em> <em>int</em> <dfn class="decl" id="_ZNK2sf11SoundStream13getSampleRateEv" title='sf::SoundStream::getSampleRate' data-ref="_ZNK2sf11SoundStream13getSampleRateEv">getSampleRate</dfn>() <em>const</em>;</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="124">124</th><td><i>    /// \brief Get the current status of the stream (stopped, paused, playing)</i></td></tr>
+<tr><th id="125">125</th><td><i>    ///</i></td></tr>
+<tr><th id="126">126</th><td><i>    /// \return Current status</i></td></tr>
+<tr><th id="127">127</th><td><i>    ///</i></td></tr>
+<tr><th id="128">128</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="129">129</th><td>    <a class="type" href="SoundSource.hpp.html#sf::SoundSource::Status" title='sf::SoundSource::Status' data-ref="sf::SoundSource::Status">Status</a> <dfn class="decl" id="_ZNK2sf11SoundStream9getStatusEv" title='sf::SoundStream::getStatus' data-ref="_ZNK2sf11SoundStream9getStatusEv">getStatus</dfn>() <em>const</em>;</td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="132">132</th><td><i>    /// \brief Change the current playing position of the stream</i></td></tr>
+<tr><th id="133">133</th><td><i>    ///</i></td></tr>
+<tr><th id="134">134</th><td><i>    /// The playing position can be changed when the stream is</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// either paused or playing. Changing the playing position</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// when the stream is stopped has no effect, since playing</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// the stream would reset its position.</i></td></tr>
+<tr><th id="138">138</th><td><i>    ///</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// \param timeOffset New playing position, from the beginning of the stream</i></td></tr>
+<tr><th id="140">140</th><td><i>    ///</i></td></tr>
+<tr><th id="141">141</th><td><i>    /// \see getPlayingOffset</i></td></tr>
+<tr><th id="142">142</th><td><i>    ///</i></td></tr>
+<tr><th id="143">143</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="144">144</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE" title='sf::SoundStream::setPlayingOffset' data-ref="_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE">setPlayingOffset</dfn>(<a class="type" href="../System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col7 decl" id="27timeOffset" title='timeOffset' data-type='sf::Time' data-ref="27timeOffset">timeOffset</dfn>);</td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// \brief Get the current playing position of the stream</i></td></tr>
+<tr><th id="148">148</th><td><i>    ///</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// \return Current playing position, from the beginning of the stream</i></td></tr>
+<tr><th id="150">150</th><td><i>    ///</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// \see setPlayingOffset</i></td></tr>
+<tr><th id="152">152</th><td><i>    ///</i></td></tr>
+<tr><th id="153">153</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="154">154</th><td>    <a class="type" href="../System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl" id="_ZNK2sf11SoundStream16getPlayingOffsetEv" title='sf::SoundStream::getPlayingOffset' data-ref="_ZNK2sf11SoundStream16getPlayingOffsetEv">getPlayingOffset</dfn>() <em>const</em>;</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// \brief Set whether or not the stream should loop after reaching the end</i></td></tr>
+<tr><th id="158">158</th><td><i>    ///</i></td></tr>
+<tr><th id="159">159</th><td><i>    /// If set, the stream will restart from beginning after</i></td></tr>
+<tr><th id="160">160</th><td><i>    /// reaching the end and so on, until it is stopped or</i></td></tr>
+<tr><th id="161">161</th><td><i>    /// setLoop(false) is called.</i></td></tr>
+<tr><th id="162">162</th><td><i>    /// The default looping state for streams is false.</i></td></tr>
+<tr><th id="163">163</th><td><i>    ///</i></td></tr>
+<tr><th id="164">164</th><td><i>    /// \param loop True to play in loop, false to play once</i></td></tr>
+<tr><th id="165">165</th><td><i>    ///</i></td></tr>
+<tr><th id="166">166</th><td><i>    /// \see getLoop</i></td></tr>
+<tr><th id="167">167</th><td><i>    ///</i></td></tr>
+<tr><th id="168">168</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="169">169</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream7setLoopEb" title='sf::SoundStream::setLoop' data-ref="_ZN2sf11SoundStream7setLoopEb">setLoop</dfn>(<em>bool</em> <dfn class="local col8 decl" id="28loop" title='loop' data-type='bool' data-ref="28loop">loop</dfn>);</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// \brief Tell whether or not the stream is in loop mode</i></td></tr>
+<tr><th id="173">173</th><td><i>    ///</i></td></tr>
+<tr><th id="174">174</th><td><i>    /// \return True if the stream is looping, false otherwise</i></td></tr>
+<tr><th id="175">175</th><td><i>    ///</i></td></tr>
+<tr><th id="176">176</th><td><i>    /// \see setLoop</i></td></tr>
+<tr><th id="177">177</th><td><i>    ///</i></td></tr>
+<tr><th id="178">178</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="179">179</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf11SoundStream7getLoopEv" title='sf::SoundStream::getLoop' data-ref="_ZNK2sf11SoundStream7getLoopEv">getLoop</dfn>() <em>const</em>;</td></tr>
+<tr><th id="180">180</th><td></td></tr>
+<tr><th id="181">181</th><td><b>protected</b>:</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td>    <b>enum</b></td></tr>
+<tr><th id="184">184</th><td>    {</td></tr>
+<tr><th id="185">185</th><td>        <dfn class="enum" id="sf::SoundStream::NoLoop" title='sf::SoundStream::NoLoop' data-ref="sf::SoundStream::NoLoop">NoLoop</dfn> = -<var>1</var> <i class="doc">///&lt; "Invalid" endSeeks value, telling us to continue uninterrupted</i></td></tr>
+<tr><th id="186">186</th><td>    };</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="189">189</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="190">190</th><td><i>    ///</i></td></tr>
+<tr><th id="191">191</th><td><i>    /// This constructor is only meant to be called by derived classes.</i></td></tr>
+<tr><th id="192">192</th><td><i>    ///</i></td></tr>
+<tr><th id="193">193</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="194">194</th><td>    <dfn class="decl" id="_ZN2sf11SoundStreamC1Ev" title='sf::SoundStream::SoundStream' data-ref="_ZN2sf11SoundStreamC1Ev">SoundStream</dfn>();</td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="197">197</th><td><i>    /// \brief Define the audio stream parameters</i></td></tr>
+<tr><th id="198">198</th><td><i>    ///</i></td></tr>
+<tr><th id="199">199</th><td><i>    /// This function must be called by derived classes as soon</i></td></tr>
+<tr><th id="200">200</th><td><i>    /// as they know the audio settings of the stream to play.</i></td></tr>
+<tr><th id="201">201</th><td><i>    /// Any attempt to manipulate the stream (play(), ...) before</i></td></tr>
+<tr><th id="202">202</th><td><i>    /// calling this function will fail.</i></td></tr>
+<tr><th id="203">203</th><td><i>    /// It can be called multiple times if the settings of the</i></td></tr>
+<tr><th id="204">204</th><td><i>    /// audio stream change, but only when the stream is stopped.</i></td></tr>
+<tr><th id="205">205</th><td><i>    ///</i></td></tr>
+<tr><th id="206">206</th><td><i>    /// \param channelCount Number of channels of the stream</i></td></tr>
+<tr><th id="207">207</th><td><i>    /// \param sampleRate   Sample rate, in samples per second</i></td></tr>
+<tr><th id="208">208</th><td><i>    ///</i></td></tr>
+<tr><th id="209">209</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="210">210</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream10initializeEjj" title='sf::SoundStream::initialize' data-ref="_ZN2sf11SoundStream10initializeEjj">initialize</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col9 decl" id="29channelCount" title='channelCount' data-type='unsigned int' data-ref="29channelCount">channelCount</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col0 decl" id="30sampleRate" title='sampleRate' data-type='unsigned int' data-ref="30sampleRate">sampleRate</dfn>);</td></tr>
+<tr><th id="211">211</th><td></td></tr>
+<tr><th id="212">212</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="213">213</th><td><i>    /// \brief Request a new chunk of audio samples from the stream source</i></td></tr>
+<tr><th id="214">214</th><td><i>    ///</i></td></tr>
+<tr><th id="215">215</th><td><i>    /// This function must be overridden by derived classes to provide</i></td></tr>
+<tr><th id="216">216</th><td><i>    /// the audio samples to play. It is called continuously by the</i></td></tr>
+<tr><th id="217">217</th><td><i>    /// streaming loop, in a separate thread.</i></td></tr>
+<tr><th id="218">218</th><td><i>    /// The source can choose to stop the streaming loop at any time, by</i></td></tr>
+<tr><th id="219">219</th><td><i>    /// returning false to the caller.</i></td></tr>
+<tr><th id="220">220</th><td><i>    /// If you return true (i.e. continue streaming) it is important that</i></td></tr>
+<tr><th id="221">221</th><td><i>    /// the returned array of samples is not empty; this would stop the stream</i></td></tr>
+<tr><th id="222">222</th><td><i>    /// due to an internal limitation.</i></td></tr>
+<tr><th id="223">223</th><td><i>    ///</i></td></tr>
+<tr><th id="224">224</th><td><i>    /// \param data Chunk of data to fill</i></td></tr>
+<tr><th id="225">225</th><td><i>    ///</i></td></tr>
+<tr><th id="226">226</th><td><i>    /// \return True to continue playback, false to stop</i></td></tr>
+<tr><th id="227">227</th><td><i>    ///</i></td></tr>
+<tr><th id="228">228</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="229">229</th><td>    <b>virtual</b> <em>bool</em> <dfn class="virtual decl" id="_ZN2sf11SoundStream9onGetDataERNS0_5ChunkE" title='sf::SoundStream::onGetData' data-ref="_ZN2sf11SoundStream9onGetDataERNS0_5ChunkE">onGetData</dfn>(<a class="type" href="#sf::SoundStream::Chunk" title='sf::SoundStream::Chunk' data-ref="sf::SoundStream::Chunk">Chunk</a>&amp; <dfn class="local col1 decl" id="31data" title='data' data-type='sf::SoundStream::Chunk &amp;' data-ref="31data">data</dfn>) = <var>0</var>;</td></tr>
+<tr><th id="230">230</th><td></td></tr>
+<tr><th id="231">231</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="232">232</th><td><i>    /// \brief Change the current playing position in the stream source</i></td></tr>
+<tr><th id="233">233</th><td><i>    ///</i></td></tr>
+<tr><th id="234">234</th><td><i>    /// This function must be overridden by derived classes to</i></td></tr>
+<tr><th id="235">235</th><td><i>    /// allow random seeking into the stream source.</i></td></tr>
+<tr><th id="236">236</th><td><i>    ///</i></td></tr>
+<tr><th id="237">237</th><td><i>    /// \param timeOffset New playing position, relative to the beginning of the stream</i></td></tr>
+<tr><th id="238">238</th><td><i>    ///</i></td></tr>
+<tr><th id="239">239</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="240">240</th><td>    <b>virtual</b> <em>void</em> <dfn class="virtual decl" id="_ZN2sf11SoundStream6onSeekENS_4TimeE" title='sf::SoundStream::onSeek' data-ref="_ZN2sf11SoundStream6onSeekENS_4TimeE">onSeek</dfn>(<a class="type" href="../System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col2 decl" id="32timeOffset" title='timeOffset' data-type='sf::Time' data-ref="32timeOffset">timeOffset</dfn>) = <var>0</var>;</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="243">243</th><td><i>    /// \brief Change the current playing position in the stream source to the beginning of the loop</i></td></tr>
+<tr><th id="244">244</th><td><i>    ///</i></td></tr>
+<tr><th id="245">245</th><td><i>    /// This function can be overridden by derived classes to</i></td></tr>
+<tr><th id="246">246</th><td><i>    /// allow implementation of custom loop points. Otherwise,</i></td></tr>
+<tr><th id="247">247</th><td><i>    /// it just calls onSeek(Time::Zero) and returns 0.</i></td></tr>
+<tr><th id="248">248</th><td><i>    ///</i></td></tr>
+<tr><th id="249">249</th><td><i>    /// \return The seek position after looping (or -1 if there's no loop)</i></td></tr>
+<tr><th id="250">250</th><td><i>    ///</i></td></tr>
+<tr><th id="251">251</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="252">252</th><td>    <b>virtual</b> <a class="typedef" href="../Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="virtual decl" id="_ZN2sf11SoundStream6onLoopEv" title='sf::SoundStream::onLoop' data-ref="_ZN2sf11SoundStream6onLoopEv">onLoop</dfn>();</td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><b>private</b>:</td></tr>
+<tr><th id="255">255</th><td></td></tr>
+<tr><th id="256">256</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="257">257</th><td><i>    /// \brief Function called as the entry point of the thread</i></td></tr>
+<tr><th id="258">258</th><td><i>    ///</i></td></tr>
+<tr><th id="259">259</th><td><i>    /// This function starts the streaming loop, and returns</i></td></tr>
+<tr><th id="260">260</th><td><i>    /// only when the sound is stopped.</i></td></tr>
+<tr><th id="261">261</th><td><i>    ///</i></td></tr>
+<tr><th id="262">262</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="263">263</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream10streamDataEv" title='sf::SoundStream::streamData' data-ref="_ZN2sf11SoundStream10streamDataEv">streamData</dfn>();</td></tr>
+<tr><th id="264">264</th><td></td></tr>
+<tr><th id="265">265</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="266">266</th><td><i>    /// \brief Fill a new buffer with audio samples, and append</i></td></tr>
+<tr><th id="267">267</th><td><i>    ///        it to the playing queue</i></td></tr>
+<tr><th id="268">268</th><td><i>    ///</i></td></tr>
+<tr><th id="269">269</th><td><i>    /// This function is called as soon as a buffer has been fully</i></td></tr>
+<tr><th id="270">270</th><td><i>    /// consumed; it fills it again and inserts it back into the</i></td></tr>
+<tr><th id="271">271</th><td><i>    /// playing queue.</i></td></tr>
+<tr><th id="272">272</th><td><i>    ///</i></td></tr>
+<tr><th id="273">273</th><td><i>    /// \param bufferNum Number of the buffer to fill (in [0, BufferCount])</i></td></tr>
+<tr><th id="274">274</th><td><i>    /// \param immediateLoop Treat empty buffers as spent, and act on loops immediately</i></td></tr>
+<tr><th id="275">275</th><td><i>    ///</i></td></tr>
+<tr><th id="276">276</th><td><i>    /// \return True if the stream source has requested to stop, false otherwise</i></td></tr>
+<tr><th id="277">277</th><td><i>    ///</i></td></tr>
+<tr><th id="278">278</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="279">279</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf11SoundStream17fillAndPushBufferEjb" title='sf::SoundStream::fillAndPushBuffer' data-ref="_ZN2sf11SoundStream17fillAndPushBufferEjb">fillAndPushBuffer</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col3 decl" id="33bufferNum" title='bufferNum' data-type='unsigned int' data-ref="33bufferNum">bufferNum</dfn>, <em>bool</em> <dfn class="local col4 decl" id="34immediateLoop" title='immediateLoop' data-type='bool' data-ref="34immediateLoop">immediateLoop</dfn> = <b>false</b>);</td></tr>
+<tr><th id="280">280</th><td></td></tr>
+<tr><th id="281">281</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="282">282</th><td><i>    /// \brief Fill the audio buffers and put them all into the playing queue</i></td></tr>
+<tr><th id="283">283</th><td><i>    ///</i></td></tr>
+<tr><th id="284">284</th><td><i>    /// This function is called when playing starts and the</i></td></tr>
+<tr><th id="285">285</th><td><i>    /// playing queue is empty.</i></td></tr>
+<tr><th id="286">286</th><td><i>    ///</i></td></tr>
+<tr><th id="287">287</th><td><i>    /// \return True if the derived class has requested to stop, false otherwise</i></td></tr>
+<tr><th id="288">288</th><td><i>    ///</i></td></tr>
+<tr><th id="289">289</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="290">290</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf11SoundStream9fillQueueEv" title='sf::SoundStream::fillQueue' data-ref="_ZN2sf11SoundStream9fillQueueEv">fillQueue</dfn>();</td></tr>
+<tr><th id="291">291</th><td></td></tr>
+<tr><th id="292">292</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="293">293</th><td><i>    /// \brief Clear all the audio buffers and empty the playing queue</i></td></tr>
+<tr><th id="294">294</th><td><i>    ///</i></td></tr>
+<tr><th id="295">295</th><td><i>    /// This function is called when the stream is stopped.</i></td></tr>
+<tr><th id="296">296</th><td><i>    ///</i></td></tr>
+<tr><th id="297">297</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="298">298</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf11SoundStream10clearQueueEv" title='sf::SoundStream::clearQueue' data-ref="_ZN2sf11SoundStream10clearQueueEv">clearQueue</dfn>();</td></tr>
+<tr><th id="299">299</th><td></td></tr>
+<tr><th id="300">300</th><td>    <b>enum</b></td></tr>
+<tr><th id="301">301</th><td>    {</td></tr>
+<tr><th id="302">302</th><td>        <dfn class="enum" id="sf::SoundStream::BufferCount" title='sf::SoundStream::BufferCount' data-ref="sf::SoundStream::BufferCount">BufferCount</dfn> = <var>3</var>,    <i class="doc">///&lt; Number of audio buffers used by the streaming loop</i></td></tr>
+<tr><th id="303">303</th><td>        <dfn class="enum" id="sf::SoundStream::BufferRetries" title='sf::SoundStream::BufferRetries' data-ref="sf::SoundStream::BufferRetries">BufferRetries</dfn> = <var>2</var>   <i class="doc">///&lt; Number of retries (excluding initial try) for onGetData()</i></td></tr>
+<tr><th id="304">304</th><td>    };</td></tr>
+<tr><th id="305">305</th><td></td></tr>
+<tr><th id="306">306</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="307">307</th><td><i>    // Member data</i></td></tr>
+<tr><th id="308">308</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="309">309</th><td>    <a class="type" href="../System/Thread.hpp.html#sf::Thread" title='sf::Thread' data-ref="sf::Thread">Thread</a>        <dfn class="decl" id="sf::SoundStream::m_thread" title='sf::SoundStream::m_thread' data-ref="sf::SoundStream::m_thread">m_thread</dfn>;                   <i class="doc">///&lt; Thread running the background tasks</i></td></tr>
+<tr><th id="310">310</th><td>    <em>mutable</em> <a class="type" href="../System/Mutex.hpp.html#sf::Mutex" title='sf::Mutex' data-ref="sf::Mutex">Mutex</a> <dfn class="decl" id="sf::SoundStream::m_threadMutex" title='sf::SoundStream::m_threadMutex' data-ref="sf::SoundStream::m_threadMutex">m_threadMutex</dfn>;              <i class="doc">///&lt; Thread mutex</i></td></tr>
+<tr><th id="311">311</th><td>    <a class="type" href="SoundSource.hpp.html#sf::SoundSource::Status" title='sf::SoundSource::Status' data-ref="sf::SoundSource::Status">Status</a>        <dfn class="decl" id="sf::SoundStream::m_threadStartState" title='sf::SoundStream::m_threadStartState' data-ref="sf::SoundStream::m_threadStartState">m_threadStartState</dfn>;         <i class="doc">///&lt; State the thread starts in (Playing, Paused, Stopped)</i></td></tr>
+<tr><th id="312">312</th><td>    <em>bool</em>          <dfn class="decl" id="sf::SoundStream::m_isStreaming" title='sf::SoundStream::m_isStreaming' data-ref="sf::SoundStream::m_isStreaming">m_isStreaming</dfn>;              <i class="doc">///&lt; Streaming state (true = playing, false = stopped)</i></td></tr>
+<tr><th id="313">313</th><td>    <em>unsigned</em> <em>int</em>  <dfn class="decl" id="sf::SoundStream::m_buffers" title='sf::SoundStream::m_buffers' data-ref="sf::SoundStream::m_buffers">m_buffers</dfn>[<a class="enum" href="#sf::SoundStream::BufferCount" title='sf::SoundStream::BufferCount' data-ref="sf::SoundStream::BufferCount">BufferCount</a>];     <i class="doc">///&lt; Sound buffers used to store temporary audio data</i></td></tr>
+<tr><th id="314">314</th><td>    <em>unsigned</em> <em>int</em>  <dfn class="decl" id="sf::SoundStream::m_channelCount" title='sf::SoundStream::m_channelCount' data-ref="sf::SoundStream::m_channelCount">m_channelCount</dfn>;             <i class="doc">///&lt; Number of channels (1 = mono, 2 = stereo, ...)</i></td></tr>
+<tr><th id="315">315</th><td>    <em>unsigned</em> <em>int</em>  <dfn class="decl" id="sf::SoundStream::m_sampleRate" title='sf::SoundStream::m_sampleRate' data-ref="sf::SoundStream::m_sampleRate">m_sampleRate</dfn>;               <i class="doc">///&lt; Frequency (samples / second)</i></td></tr>
+<tr><th id="316">316</th><td>    <a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a>        <dfn class="decl" id="sf::SoundStream::m_format" title='sf::SoundStream::m_format' data-ref="sf::SoundStream::m_format">m_format</dfn>;                   <i class="doc">///&lt; Format of the internal sound buffers</i></td></tr>
+<tr><th id="317">317</th><td>    <em>bool</em>          <dfn class="decl" id="sf::SoundStream::m_loop" title='sf::SoundStream::m_loop' data-ref="sf::SoundStream::m_loop">m_loop</dfn>;                     <i class="doc">///&lt; Loop flag (true to loop, false to play once)</i></td></tr>
+<tr><th id="318">318</th><td>    <a class="typedef" href="../Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a>        <dfn class="decl" id="sf::SoundStream::m_samplesProcessed" title='sf::SoundStream::m_samplesProcessed' data-ref="sf::SoundStream::m_samplesProcessed">m_samplesProcessed</dfn>;         <i class="doc">///&lt; Number of buffers processed since beginning of the stream</i></td></tr>
+<tr><th id="319">319</th><td>    <a class="typedef" href="../Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a>         <dfn class="decl" id="sf::SoundStream::m_bufferSeeks" title='sf::SoundStream::m_bufferSeeks' data-ref="sf::SoundStream::m_bufferSeeks">m_bufferSeeks</dfn>[<a class="enum" href="#sf::SoundStream::BufferCount" title='sf::SoundStream::BufferCount' data-ref="sf::SoundStream::BufferCount">BufferCount</a>]; <i class="doc">///&lt; If buffer is an "end buffer", holds next seek position, else NoLoop. For play offset calculation.</i></td></tr>
+<tr><th id="320">320</th><td>};</td></tr>
+<tr><th id="321">321</th><td></td></tr>
+<tr><th id="322">322</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="323">323</th><td></td></tr>
+<tr><th id="324">324</th><td></td></tr>
+<tr><th id="325">325</th><td><u>#<span data-ppcond="25">endif</span> // SFML_SOUNDSTREAM_HPP</u></td></tr>
+<tr><th id="326">326</th><td></td></tr>
+<tr><th id="327">327</th><td></td></tr>
+<tr><th id="328">328</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="329">329</th><td><i>/// \class sf::SoundStream</i></td></tr>
+<tr><th id="330">330</th><td><i>/// \ingroup audio</i></td></tr>
+<tr><th id="331">331</th><td><i>///</i></td></tr>
+<tr><th id="332">332</th><td><i>/// Unlike audio buffers (see sf::SoundBuffer), audio streams</i></td></tr>
+<tr><th id="333">333</th><td><i>/// are never completely loaded in memory. Instead, the audio</i></td></tr>
+<tr><th id="334">334</th><td><i>/// data is acquired continuously while the stream is playing.</i></td></tr>
+<tr><th id="335">335</th><td><i>/// This behavior allows to play a sound with no loading delay,</i></td></tr>
+<tr><th id="336">336</th><td><i>/// and keeps the memory consumption very low.</i></td></tr>
+<tr><th id="337">337</th><td><i>///</i></td></tr>
+<tr><th id="338">338</th><td><i>/// Sound sources that need to be streamed are usually big files</i></td></tr>
+<tr><th id="339">339</th><td><i>/// (compressed audio musics that would eat hundreds of MB in memory)</i></td></tr>
+<tr><th id="340">340</th><td><i>/// or files that would take a lot of time to be received</i></td></tr>
+<tr><th id="341">341</th><td><i>/// (sounds played over the network).</i></td></tr>
+<tr><th id="342">342</th><td><i>///</i></td></tr>
+<tr><th id="343">343</th><td><i>/// sf::SoundStream is a base class that doesn't care about the</i></td></tr>
+<tr><th id="344">344</th><td><i>/// stream source, which is left to the derived class. SFML provides</i></td></tr>
+<tr><th id="345">345</th><td><i>/// a built-in specialization for big files (see sf::Music).</i></td></tr>
+<tr><th id="346">346</th><td><i>/// No network stream source is provided, but you can write your own</i></td></tr>
+<tr><th id="347">347</th><td><i>/// by combining this class with the network module.</i></td></tr>
+<tr><th id="348">348</th><td><i>///</i></td></tr>
+<tr><th id="349">349</th><td><i>/// A derived class has to override two virtual functions:</i></td></tr>
+<tr><th id="350">350</th><td><i>/// \li onGetData fills a new chunk of audio data to be played</i></td></tr>
+<tr><th id="351">351</th><td><i>/// \li onSeek changes the current playing position in the source</i></td></tr>
+<tr><th id="352">352</th><td><i>///</i></td></tr>
+<tr><th id="353">353</th><td><i>/// It is important to note that each SoundStream is played in its</i></td></tr>
+<tr><th id="354">354</th><td><i>/// own separate thread, so that the streaming loop doesn't block the</i></td></tr>
+<tr><th id="355">355</th><td><i>/// rest of the program. In particular, the OnGetData and OnSeek</i></td></tr>
+<tr><th id="356">356</th><td><i>/// virtual functions may sometimes be called from this separate thread.</i></td></tr>
+<tr><th id="357">357</th><td><i>/// It is important to keep this in mind, because you may have to take</i></td></tr>
+<tr><th id="358">358</th><td><i>/// care of synchronization issues if you share data between threads.</i></td></tr>
+<tr><th id="359">359</th><td><i>///</i></td></tr>
+<tr><th id="360">360</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="361">361</th><td><i>/// \code</i></td></tr>
+<tr><th id="362">362</th><td><i>/// class CustomStream : public sf::SoundStream</i></td></tr>
+<tr><th id="363">363</th><td><i>/// {</i></td></tr>
+<tr><th id="364">364</th><td><i>/// public:</i></td></tr>
+<tr><th id="365">365</th><td><i>///</i></td></tr>
+<tr><th id="366">366</th><td><i>///     bool open(const std::string&amp; location)</i></td></tr>
+<tr><th id="367">367</th><td><i>///     {</i></td></tr>
+<tr><th id="368">368</th><td><i>///         // Open the source and get audio settings</i></td></tr>
+<tr><th id="369">369</th><td><i>///         ...</i></td></tr>
+<tr><th id="370">370</th><td><i>///         unsigned int channelCount = ...;</i></td></tr>
+<tr><th id="371">371</th><td><i>///         unsigned int sampleRate = ...;</i></td></tr>
+<tr><th id="372">372</th><td><i>///</i></td></tr>
+<tr><th id="373">373</th><td><i>///         // Initialize the stream -- important!</i></td></tr>
+<tr><th id="374">374</th><td><i>///         initialize(channelCount, sampleRate);</i></td></tr>
+<tr><th id="375">375</th><td><i>///     }</i></td></tr>
+<tr><th id="376">376</th><td><i>///</i></td></tr>
+<tr><th id="377">377</th><td><i>/// private:</i></td></tr>
+<tr><th id="378">378</th><td><i>///</i></td></tr>
+<tr><th id="379">379</th><td><i>///     virtual bool onGetData(Chunk&amp; data)</i></td></tr>
+<tr><th id="380">380</th><td><i>///     {</i></td></tr>
+<tr><th id="381">381</th><td><i>///         // Fill the chunk with audio data from the stream source</i></td></tr>
+<tr><th id="382">382</th><td><i>///         // (note: must not be empty if you want to continue playing)</i></td></tr>
+<tr><th id="383">383</th><td><i>///         data.samples = ...;</i></td></tr>
+<tr><th id="384">384</th><td><i>///         data.sampleCount = ...;</i></td></tr>
+<tr><th id="385">385</th><td><i>///</i></td></tr>
+<tr><th id="386">386</th><td><i>///         // Return true to continue playing</i></td></tr>
+<tr><th id="387">387</th><td><i>///         return true;</i></td></tr>
+<tr><th id="388">388</th><td><i>///     }</i></td></tr>
+<tr><th id="389">389</th><td><i>///</i></td></tr>
+<tr><th id="390">390</th><td><i>///     virtual void onSeek(Uint32 timeOffset)</i></td></tr>
+<tr><th id="391">391</th><td><i>///     {</i></td></tr>
+<tr><th id="392">392</th><td><i>///         // Change the current position in the stream source</i></td></tr>
+<tr><th id="393">393</th><td><i>///         ...</i></td></tr>
+<tr><th id="394">394</th><td><i>///     }</i></td></tr>
+<tr><th id="395">395</th><td><i>/// }</i></td></tr>
+<tr><th id="396">396</th><td><i>///</i></td></tr>
+<tr><th id="397">397</th><td><i>/// // Usage</i></td></tr>
+<tr><th id="398">398</th><td><i>/// CustomStream stream;</i></td></tr>
+<tr><th id="399">399</th><td><i>/// stream.open("path/to/stream");</i></td></tr>
+<tr><th id="400">400</th><td><i>/// stream.play();</i></td></tr>
+<tr><th id="401">401</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="402">402</th><td><i>///</i></td></tr>
+<tr><th id="403">403</th><td><i>/// \see sf::Music</i></td></tr>
+<tr><th id="404">404</th><td><i>///</i></td></tr>
+<tr><th id="405">405</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="406">406</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Audio/Music.cpp.html'>codebrowser/src/SFML/Audio/Music.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

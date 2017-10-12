@@ -1,0 +1,16 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='862' ll='870' type='int stbi__addsizes_valid(int a, int b)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='885' u='c' c='_ZL21stbi__mad2sizes_validiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='892' u='c' c='_ZL21stbi__mad3sizes_validiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='899' u='c' c='_ZL21stbi__mad4sizes_validiiiii'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='850'>// stb_image uses ints pervasively, including for offset calculations.
+// therefore the largest decoded image size we can support with the
+// current code, even on 64-bit targets, is INT_MAX. this is not a
+// significant limitation for the intended use case.
+//
+// we do, however, need to make sure our size calculations don&apos;t
+// overflow. hence a few helper functions for size calculations that
+// multiply integers together, making sure that they&apos;re non-negative
+// and no overflow occurs.
+
+// return 1 if the sum is valid, 0 on overflow.
+// negative terms are considered invalid.</doc>

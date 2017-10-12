@@ -1,0 +1,3 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2253'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2387' u='w'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2252'>// butterfly a/b, add bias, then shift by &quot;s&quot; and pack</doc>

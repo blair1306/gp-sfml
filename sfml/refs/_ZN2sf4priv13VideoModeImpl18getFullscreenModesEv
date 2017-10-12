@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/VideoModeImpl.hpp' l='52' type='static std::vector&lt;VideoMode&gt; sf::priv::VideoModeImpl::getFullscreenModes()'/>
+<def f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='41' ll='120' type='static std::vector&lt;VideoMode&gt; sf::priv::VideoModeImpl::getFullscreenModes()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='40'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/VideoModeImpl.hpp' l='46'>////////////////////////////////////////////////////////////
+    /// \brief Get the list of all the supported fullscreen video modes
+    ///
+    /// \return Array filled with the fullscreen video modes
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='72' u='c' c='_ZN2sf9VideoMode18getFullscreenModesEv'/>

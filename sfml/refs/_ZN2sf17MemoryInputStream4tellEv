@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='92' type='Int64 sf::MemoryInputStream::tell()'/>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Get the current reading position in the stream
+    ///
+    /// \return The current position, or -1 on error.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='81' c='_ZN2sf11InputStream4tellEv'/>
+<def f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='83' ll='89' type='Int64 sf::MemoryInputStream::tell()'/>
+<doc f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='82'>////////////////////////////////////////////////////////////</doc>

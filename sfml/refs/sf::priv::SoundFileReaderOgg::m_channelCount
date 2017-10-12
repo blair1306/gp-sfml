@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='119' type='unsigned int'/>
+<offset>7616</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='119'>// number of channels of the open sound file</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='92' u='w' c='_ZN2sf4priv18SoundFileReaderOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='123' u='w' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='134' u='r' c='_ZN2sf4priv18SoundFileReaderOgg4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='173' u='w' c='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>

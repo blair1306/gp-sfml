@@ -1,0 +1,7 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2620'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2661' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2691' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2722' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2751' u='c'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2618'>// in each scan, we&apos;ll have scan_n components, and the order
+// of the components is specified by order[]</doc>

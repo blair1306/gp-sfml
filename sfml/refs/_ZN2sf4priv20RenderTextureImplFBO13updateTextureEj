@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='100' type='void sf::priv::RenderTextureImplFBO::updateTexture(unsigned int textureId)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Update the pixels of the target texture
+    ///
+    /// \param textureId OpenGL identifier of the target texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='81' c='_ZN2sf4priv17RenderTextureImpl13updateTextureEj'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='142' ll='145' type='void sf::priv::RenderTextureImplFBO::updateTexture(unsigned int )'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='141'>////////////////////////////////////////////////////////////</doc>

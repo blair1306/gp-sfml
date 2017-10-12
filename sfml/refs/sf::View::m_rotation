@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='274' type='float'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='274'>///&lt; Angle of rotation of the view rectangle, in degrees</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='38' u='w' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='51' u='w' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='64' u='w' c='_ZN2sf4ViewC1ERKNS_7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='111' u='w' c='_ZN2sf4View11setRotationEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='112' u='r' c='_ZN2sf4View11setRotationEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='113' u='w' c='_ZN2sf4View11setRotationEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='134' u='w' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='158' u='r' c='_ZNK2sf4View11getRotationEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='186' u='r' c='_ZN2sf4View6rotateEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='204' u='r' c='_ZNK2sf4View12getTransformEv'/>

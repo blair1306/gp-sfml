@@ -1,0 +1,4 @@
+<dec f='include/X11/X.h' l='323'/>
+<doc f='include/X11/X.h' l='321'>/* GrabPointer, GrabKeyboard reply status */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1088' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1605' u='c'/>

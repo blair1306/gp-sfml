@@ -1,0 +1,6 @@
+<dec f='include/FLAC/format.h' l='524' type='const char *const []'/>
+<doc f='include/FLAC/format.h' l='519'>/** Maps a FLAC__MetadataType to a C string.
+ *
+ *  Using a FLAC__MetadataType as the index to this array will
+ *  give the string equivalent.  The contents should not be modified.
+ */</doc>

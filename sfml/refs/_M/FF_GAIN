@@ -1,0 +1,4 @@
+<dec f='include/linux/input.h' l='472'/>
+<doc f='include/linux/input.h' l='468'>/*
+ * Set ff device properties
+ */</doc>

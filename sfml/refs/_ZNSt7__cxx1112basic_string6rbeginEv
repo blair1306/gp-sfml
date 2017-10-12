@@ -1,0 +1,8 @@
+<def f='include/c++/5/bits/basic_string.h' l='643' ll='645' type='reverse_iterator std::__cxx11::basic_string::rbegin()'/>
+<doc f='include/c++/5/bits/basic_string.h' l='638'>/**
+       *  Returns a read/write reverse iterator that points to the last
+       *  character in the %string.  Iteration is done in reverse element
+       *  order.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='290' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='341' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>

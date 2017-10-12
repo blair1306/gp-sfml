@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='346' type='void sf::RenderTarget::resetGLStates()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='221' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='344' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='368' ll='412' type='void sf::RenderTarget::resetGLStates()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='367'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='325'>////////////////////////////////////////////////////////////
+    /// \brief Reset the internal OpenGL states so that the target is ready for drawing
+    ///
+    /// This function can be used when you mix SFML drawing
+    /// and direct OpenGL rendering, if you choose not to use
+    /// pushGLStates/popGLStates. It makes sure that all OpenGL
+    /// states needed by SFML are set, so that subsequent draw()
+    /// calls will work as expected.
+    ///
+    /// Example:
+    /// \code
+    /// // OpenGL code here...
+    /// glPushAttrib(...);
+    /// window.resetGLStates();
+    /// window.draw(...);
+    /// window.draw(...);
+    /// glPopAttrib(...);
+    /// // OpenGL code here...
+    /// \endcode
+    ///
+    ////////////////////////////////////////////////////////////</doc>

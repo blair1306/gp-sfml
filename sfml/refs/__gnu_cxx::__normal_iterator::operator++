@@ -1,0 +1,14 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='760' ll='765' type='__normal_iterator&lt;_Iterator, _Container&gt; &amp; __gnu_cxx::__normal_iterator::operator++()'/>
+<def f='include/c++/5/bits/stl_iterator.h' l='767' ll='769' type='__normal_iterator&lt;_Iterator, _Container&gt; __gnu_cxx::__normal_iterator::operator++(int )'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='65' u='c' c='_ZN2sf16SoundFileFactory16unregisterReaderEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='96' u='c' c='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='79' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='103' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='123' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='143' u='c' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='682' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='43' u='c' c='_ZN12_GLOBAL__N_17toLowerENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='42' u='c' c='_ZN12_GLOBAL__N_17toLowerENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='547' u='c' c='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='565' u='c' c='_ZN2sf6PacketlsERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1125' u='c' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>

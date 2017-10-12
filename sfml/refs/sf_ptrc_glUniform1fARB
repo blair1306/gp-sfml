@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1064' type='void (*)(GLint, GLfloat)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='275' type='void (*)(GLint, GLfloat)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='373' u='w' c='_ZL23Load_ARB_shader_objectsv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='374' u='r' c='_ZL23Load_ARB_shader_objectsv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='430' macro='1' u='r'/>

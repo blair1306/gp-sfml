@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='114' type='float'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='36' u='w' c='_ZN2sf11CircleShapeC1Efm'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='46' u='w' c='_ZN2sf11CircleShape9setRadiusEf'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='54' u='r' c='_ZNK2sf11CircleShape9getRadiusEv'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='78' u='r' c='_ZNK2sf11CircleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='79' u='r' c='_ZNK2sf11CircleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='81' u='r' c='_ZNK2sf11CircleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='81' u='r' c='_ZNK2sf11CircleShape8getPointEm'/>
+<offset>2688</offset>
+<doc f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='111'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='114'>///&lt; Radius of the circle</doc>

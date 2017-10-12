@@ -1,0 +1,19 @@
+<dec f='include/X11/Xlib.h' l='976' type='XKeyEvent'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='88' u='m' c='_ZN12_GLOBAL__N_115KeyRepeatFinderclERK7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='88' u='m' c='_ZN12_GLOBAL__N_115KeyRepeatFinderclERK7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1565' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1565' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1709' u='a' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1720' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1721' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1722' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1723' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1737' u='a' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1762' u='a' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1772' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1786' u='a' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1796' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1797' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1798' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1799' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

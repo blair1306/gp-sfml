@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='301' type='void sf::Shape::updateOutlineColors()'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='297'>////////////////////////////////////////////////////////////
+    /// \brief Update the outline vertices&apos; color
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='119' u='c' c='_ZN2sf5Shape15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='291' u='c' c='_ZN2sf5Shape13updateOutlineEv'/>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='299' ll='303' type='void sf::Shape::updateOutlineColors()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='298'>////////////////////////////////////////////////////////////</doc>

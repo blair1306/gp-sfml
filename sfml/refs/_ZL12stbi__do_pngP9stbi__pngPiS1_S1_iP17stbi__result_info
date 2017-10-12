@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4852' ll='4880' type='void * stbi__do_png(stbi__png * p, int * x, int * y, int * n, int req_comp, stbi__result_info * ri)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4886' u='c' c='_ZL14stbi__png_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>

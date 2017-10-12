@@ -1,0 +1,7 @@
+<dec f='include/c++/5/ostream' l='189' type='__ostream_type &amp; std::basic_ostream::operator&lt;&lt;(int __n)'/>
+<def f='include/c++/5/bits/ostream.tcc' l='103' ll='115' type='basic_ostream&lt;_CharT, _Traits&gt; &amp; std::basic_ostream::operator&lt;&lt;(int __n)'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='77' u='c' c='_ZN2sf4priv10SocketImpl11setBlockingEib'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='82' u='c' c='_ZN2sf4priv10SocketImpl11setBlockingEib'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='473' u='c' c='_ZN2sf4priv12JoystickImpl10initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='484' u='c' c='_ZN2sf4priv12JoystickImpl10initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='578' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>

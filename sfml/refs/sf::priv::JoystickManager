@@ -1,0 +1,15 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='44' ll='122'/>
+<size>2368</size>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Global joystick manager
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv15JoystickManager11getInstanceEv'/>
+<fun r='_ZNK2sf4priv15JoystickManager15getCapabilitiesEj'/>
+<fun r='_ZNK2sf4priv15JoystickManager8getStateEj'/>
+<fun r='_ZNK2sf4priv15JoystickManager17getIdentificationEj'/>
+<fun r='_ZN2sf4priv15JoystickManager6updateEv'/>
+<fun r='_ZN2sf4priv15JoystickManagerC1Ev'/>
+<fun r='_ZN2sf4priv15JoystickManagerD1Ev'/>
+<mbr r='sf::priv::JoystickManager::m_joysticks' o='0' t='sf::priv::JoystickManager::Item [8]'/>

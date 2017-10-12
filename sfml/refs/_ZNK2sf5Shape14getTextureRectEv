@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='156' type='const IntRect &amp; sf::Shape::getTextureRect() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='148'>////////////////////////////////////////////////////////////
+    /// \brief Get the sub-rectangle of the texture displayed by the shape
+    ///
+    /// \return Texture rectangle of the shape
+    ///
+    /// \see setTextureRect
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='94' ll='97' type='const IntRect &amp; sf::Shape::getTextureRect() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='93'>////////////////////////////////////////////////////////////</doc>

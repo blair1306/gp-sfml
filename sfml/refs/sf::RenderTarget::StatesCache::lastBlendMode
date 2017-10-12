@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='415' type='sf::BlendMode'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='250' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='490' u='w' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='415'>///&lt; Cached blending mode</doc>

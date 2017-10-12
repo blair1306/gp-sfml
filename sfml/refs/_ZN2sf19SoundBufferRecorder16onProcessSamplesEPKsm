@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='86' type='bool sf::SoundBufferRecorder::onProcessSamples(const Int16 * samples, std::size_t sampleCount)'/>
+<inh f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='243' c='_ZN2sf13SoundRecorder16onProcessSamplesEPKsm'/>
+<def f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='54' ll='59' type='bool sf::SoundBufferRecorder::onProcessSamples(const Int16 * samples, std::size_t sampleCount)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='53'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='77'>////////////////////////////////////////////////////////////
+    /// \brief Process a new chunk of recorded samples
+    ///
+    /// \param samples     Pointer to the new chunk of recorded samples
+    /// \param sampleCount Number of samples pointed by \a samples
+    ///
+    /// \return True to continue the capture, or false to stop it
+    ///
+    ////////////////////////////////////////////////////////////</doc>

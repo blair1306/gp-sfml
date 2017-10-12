@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1576' type='GLboolean glAreTexturesResident(GLsizei , const GLuint * , GLboolean * )'/>
+<dec f='include/GL/gl.h' l='1317' type='GLboolean glAreTexturesResident(GLsizei n, const GLuint * textures, GLboolean * residences)'/>

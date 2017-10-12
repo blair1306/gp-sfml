@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='99' type='void sf::Music::~Music()'/>
+<inh f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='63' c='_ZN2sf11SoundStreamD1Ev'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='47' ll='51' type='void sf::Music::~Music()'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='46'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

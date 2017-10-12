@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1322' type='void glDepthRange(GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='850' type='void glDepthRange(GLclampd near_val, GLclampd far_val)'/>

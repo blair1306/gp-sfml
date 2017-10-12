@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='280' type='bool'/>
+<offset>6848</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='280'>///&lt; Is the KeyRepeat feature enabled?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='491' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='539' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1111' u='w' c='_ZN2sf4priv13WindowImplX1119setKeyRepeatEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1571' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

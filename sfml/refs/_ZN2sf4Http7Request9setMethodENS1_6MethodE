@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='109' type='void sf::Http::Request::setMethod(sf::Http::Request::Method method)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='54' u='c' c='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='69' ll='72' type='void sf::Http::Request::setMethod(Http::Request::Method method)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='68'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='99'>////////////////////////////////////////////////////////////
+        /// \brief Set the request method
+        ///
+        /// See the Method enumeration for a complete list of all
+        /// the availale methods.
+        /// The method is Http::Request::Get by default.
+        ///
+        /// \param method Method to use for the request
+        ///
+        ////////////////////////////////////////////////////////////</doc>

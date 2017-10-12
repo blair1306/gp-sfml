@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3812' type='FT_UInt32 * FT_Face_GetVariantsOfChar(FT_Face face, FT_ULong charcode)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3810'>/*                                                                       */</doc>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='257' type='void sf::Packet::onReceive(const void * data, std::size_t size)'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='591' ll='594' type='void sf::Packet::onReceive(const void * data, std::size_t size)'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='590'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='240'>////////////////////////////////////////////////////////////
+    /// \brief Called after the packet is received over the network
+    ///
+    /// This function can be defined by derived classes to
+    /// transform the data after it is received; this can be
+    /// used for decompression, decryption, etc.
+    /// The function receives a pointer to the received data,
+    /// and must fill the packet with the transformed bytes.
+    /// The default implementation fills the packet directly
+    /// without transforming the data.
+    ///
+    /// \param data Pointer to the received bytes
+    /// \param size Number of bytes
+    ///
+    /// \see onSend
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='395' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='191' u='c' c='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>

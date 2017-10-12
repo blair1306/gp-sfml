@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='283' type='void sf::Shape::updateFillColors()'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='279'>////////////////////////////////////////////////////////////
+    /// \brief Update the fill vertices&apos; color
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='104' u='c' c='_ZN2sf5Shape12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='202' u='c' c='_ZN2sf5Shape6updateEv'/>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='231' ll='235' type='void sf::Shape::updateFillColors()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='230'>////////////////////////////////////////////////////////////</doc>

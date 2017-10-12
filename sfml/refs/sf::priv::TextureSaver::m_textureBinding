@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='67' type='GLint'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='64'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='67'>///&lt; Texture binding to restore</doc>
+<use f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='38' u='a' c='_ZN2sf4priv12TextureSaverC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='45' u='r' c='_ZN2sf4priv12TextureSaverD1Ev'/>

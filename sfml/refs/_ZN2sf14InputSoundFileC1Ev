@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='55' type='void sf::InputSoundFile::InputSoundFile()'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='40' ll='49' type='void sf::InputSoundFile::InputSoundFile()'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='39'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='39' u='c' c='_ZN2sf5MusicC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='87' u='c' c='_ZN2sf11SoundBuffer12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='98' u='c' c='_ZN2sf11SoundBuffer14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='109' u='c' c='_ZN2sf11SoundBuffer14loadFromStreamERNS_11InputStreamE'/>

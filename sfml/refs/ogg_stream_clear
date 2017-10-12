@@ -1,0 +1,2 @@
+<dec f='include/ogg/ogg.h' l='185' type='int ogg_stream_clear(ogg_stream_state * os)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='209' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>

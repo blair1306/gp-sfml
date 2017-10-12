@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='285' type='bool'/>
+<offset>6968</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='285'>///&lt; Has the window been mapped by the window manager?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='496' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='544' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1041' u='r' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1052' u='r' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1930' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1950' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1306' type='void glColor4iv(const GLint * )'/>
+<dec f='include/GL/gl.h' l='1029' type='void glColor4iv(const GLint * v)'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1323' type='void glDisable(GLenum )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='386' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='387' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='388' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='389' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<dec f='include/GL/gl.h' l='798' type='void glDisable(GLenum cap)'/>

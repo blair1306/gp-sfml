@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='261' type='void sf::priv::GlContext::checkSettings(const sf::ContextSettings &amp; requestedSettings)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='256'>////////////////////////////////////////////////////////////
+    /// \brief Check whether the context is compatible with the requested settings
+    /// \param requestedSettings Requested settings during context creation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='396' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='425' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='691' ll='738' type='void sf::priv::GlContext::checkSettings(const sf::ContextSettings &amp; requestedSettings)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='690'>////////////////////////////////////////////////////////////</doc>

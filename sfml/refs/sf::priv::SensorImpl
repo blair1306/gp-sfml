@@ -1,0 +1,13 @@
+<def f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='37' ll='94'/>
+<size>1</size>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='33'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of sensors
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv10SensorImpl10initializeEv'/>
+<fun r='_ZN2sf4priv10SensorImpl7cleanupEv'/>
+<fun r='_ZN2sf4priv10SensorImpl11isAvailableENS_6Sensor4TypeE'/>
+<fun r='_ZN2sf4priv10SensorImpl4openENS_6Sensor4TypeE'/>
+<fun r='_ZN2sf4priv10SensorImpl5closeEv'/>
+<fun r='_ZN2sf4priv10SensorImpl6updateEv'/>
+<fun r='_ZN2sf4priv10SensorImpl10setEnabledEb'/>

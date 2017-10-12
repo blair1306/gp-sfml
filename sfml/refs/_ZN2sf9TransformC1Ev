@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='52' type='void sf::Transform::Transform()'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='46'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Creates an identity transform (a transform that does nothing).
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='45' u='c' c='_ZN2sf12RenderStatesC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='65' u='c' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='75' u='c' c='_ZN2sf12RenderStatesC1EPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='85' u='c' c='_ZN2sf12RenderStatesC1EPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='35' u='c'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='39' ll='46' type='void sf::Transform::Transform()'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='38'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='40' u='c' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='42' u='c' c='_ZN2sf13TransformableC1Ev'/>

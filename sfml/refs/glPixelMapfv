@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1438' type='void glPixelMapfv(GLenum , GLsizei , const GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1199' type='void glPixelMapfv(GLenum map, GLsizei mapsize, const GLfloat * values)'/>

@@ -1,0 +1,2 @@
+<dec f='include/vorbis/codec.h' l='168' type='void vorbis_comment_init(vorbis_comment * vc)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='100' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>

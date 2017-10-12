@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='736' ll='737' type='void __gnu_cxx::__normal_iterator::__normal_iterator&lt;_Iterator, _Container&gt;()'/>
+<def f='include/c++/5/bits/stl_iterator.h' l='739' ll='741' type='void __gnu_cxx::__normal_iterator::__normal_iterator&lt;_Iterator, _Container&gt;(const _Iterator &amp; __i)'/>
+<def f='include/c++/5/bits/stl_iterator.h' l='745' ll='749' type='void __gnu_cxx::__normal_iterator::__normal_iterator&lt;_Iterator, _Container&gt;(const __normal_iterator&lt;_Iter, typename __enable_if&lt;(std::__are_same&lt;_Iter, typename _Container::pointer&gt;::__value), _Container&gt;::__type&gt; &amp; __i)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='79' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='103' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='123' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='143' u='c' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

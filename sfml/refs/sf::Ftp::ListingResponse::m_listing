@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='247' type='std::vector&lt;std::string&gt;'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='129' u='m' c='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='139' u='a' c='_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev'/>
+<offset>320</offset>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='244'>////////////////////////////////////////////////////////////
+        // Member data
+        ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='247'>///&lt; Directory/file names extracted from the data</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1492' type='void glScaled(GLdouble , GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='896' type='void glScaled(GLdouble x, GLdouble y, GLdouble z)'/>

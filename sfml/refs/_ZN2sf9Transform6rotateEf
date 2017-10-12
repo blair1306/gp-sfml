@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='207' type='sf::Transform &amp; sf::Transform::rotate(float angle)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='190'>////////////////////////////////////////////////////////////
+    /// \brief Combine the current transform with a rotation
+    ///
+    /// This function returns a reference to *this, so that calls
+    /// can be chained.
+    /// \code
+    /// sf::Transform transform;
+    /// transform.rotate(90).translate(50, 20);
+    /// \endcode
+    ///
+    /// \param angle Rotation angle, in degrees
+    ///
+    /// \return Reference to *this
+    ///
+    /// \see translate, scale
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='180' ll='191' type='sf::Transform &amp; sf::Transform::rotate(float angle)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='179'>////////////////////////////////////////////////////////////</doc>

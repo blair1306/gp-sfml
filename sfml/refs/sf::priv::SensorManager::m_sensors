@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='130' type='sf::priv::SensorManager::Item [6]'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='127'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='130'>///&lt; Sensors information and state</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='47' u='m' c='_ZN2sf4priv13SensorManager11isAvailableENS_6Sensor4TypeE'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='54' u='m' c='_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='56' u='m' c='_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='57' u='m' c='_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='69' u='m' c='_ZNK2sf4priv13SensorManager9isEnabledENS_6Sensor4TypeE'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='76' u='m' c='_ZNK2sf4priv13SensorManager8getValueENS_6Sensor4TypeE'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='86' u='m' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='87' u='m' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='87' u='m' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='102' u='m' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='105' u='m' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='107' u='m' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='108' u='m' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='119' u='m' c='_ZN2sf4priv13SensorManagerD1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='120' u='m' c='_ZN2sf4priv13SensorManagerD1Ev'/>

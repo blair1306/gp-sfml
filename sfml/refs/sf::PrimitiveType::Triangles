@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='44' type='3'/>
+<doc f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='44'>///&lt; List of individual triangles</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='84' u='r' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='85' u='r' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='102' u='r' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='103' u='r' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>

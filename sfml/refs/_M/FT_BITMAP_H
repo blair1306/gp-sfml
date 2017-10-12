@@ -1,0 +1,12 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='515'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='39' u='c'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='505'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_BITMAP_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   API of the optional bitmap conversion component.
+   *
+   */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='208' type='205'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='208'>///&lt; The server informs the client that it should clear the view (form) that caused the request to be sent</doc>

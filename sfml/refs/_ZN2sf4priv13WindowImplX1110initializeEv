@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='243' type='void sf::priv::WindowImplX11::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='239'>////////////////////////////////////////////////////////////
+    /// \brief Do some common initializations after the window has been created
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='524' u='c' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='705' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1435' ll='1489' type='void sf::priv::WindowImplX11::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1434'>////////////////////////////////////////////////////////////</doc>

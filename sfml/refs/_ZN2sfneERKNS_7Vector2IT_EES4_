@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Vector2.hpp' l='248' type='bool sf::operator!=(const Vector2&lt;T&gt; &amp; left, const Vector2&lt;T&gt; &amp; right)'/>
+<def f='codebrowser/include/SFML/System/Vector2.inl' l='158' ll='161' type='bool sf::operator!=(const Vector2&lt;T&gt; &amp; left, const Vector2&lt;T&gt; &amp; right)'/>

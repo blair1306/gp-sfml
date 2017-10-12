@@ -1,0 +1,2 @@
+_ZNKSt6vector8capacityEv|std::vector::capacity
+_ZNK2sf12RenderWindow7captureEv|sf::RenderWindow::capture

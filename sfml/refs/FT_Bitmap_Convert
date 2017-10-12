@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftbitmap.h' l='179' type='FT_Error FT_Bitmap_Convert(FT_Library library, const FT_Bitmap * source, FT_Bitmap * target, FT_Int alignment)'/>
+<doc f='include/freetype2/freetype/ftbitmap.h' l='177'>/*                                                                       */</doc>

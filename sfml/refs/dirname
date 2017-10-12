@@ -1,0 +1,2 @@
+<dec f='include/libgen.h' l='26' type='char * dirname(char * __path)'/>
+<doc f='include/libgen.h' l='25'>/* Return directory part of PATH or &quot;.&quot; if none is available.  */</doc>

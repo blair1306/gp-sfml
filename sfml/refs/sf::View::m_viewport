@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='275' type='FloatRect'/>
+<offset>160</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='275'>///&lt; Viewport rectangle, expressed as a factor of the render-target&apos;s size</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='39' u='w' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='52' u='w' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='65' u='w' c='_ZN2sf4ViewC1ERKNS_7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='123' u='w' c='_ZN2sf4View11setViewportERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='165' u='a' c='_ZNK2sf4View11getViewportEv'/>

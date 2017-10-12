@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='514' type='static In sf::Utf&lt;32&gt;::next(In begin, In end)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='524' ll='527' type='static In sf::Utf&lt;32&gt;::next(In begin, In )'/>
+<doc f='codebrowser/include/SFML/System/Utf.inl' l='524'>/*end*/</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='70' type='void sf::RenderTarget::clear(const sf::Color &amp; color = sf::Color(0, 0, 0, 255))'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='99' ll='109' type='void sf::RenderTarget::clear(const sf::Color &amp; color = sf::Color(0, 0, 0, 255))'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='98'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='61'>////////////////////////////////////////////////////////////
+    /// \brief Clear the entire target with a single color
+    ///
+    /// This function is usually called once every frame,
+    /// to clear the previous contents of the target.
+    ///
+    /// \param color Fill color to use to clear the render target
+    ///
+    ////////////////////////////////////////////////////////////</doc>

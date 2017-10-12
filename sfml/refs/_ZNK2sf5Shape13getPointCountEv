@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='196' type='std::size_t sf::Shape::getPointCount() const'/>
+<ovr f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='66' c='_ZNK2sf11CircleShape13getPointCountEv'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='188'>////////////////////////////////////////////////////////////
+    /// \brief Get the total number of points of the shape
+    ///
+    /// \return Number of points of the shape
+    ///
+    /// \see getPoint
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='49' c='_ZNK2sf11ConvexShape13getPointCountEv'/>
+<ovr f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='57' c='_ZNK2sf14RectangleShape13getPointCountEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='178' u='c' c='_ZN2sf5Shape6updateEv'/>

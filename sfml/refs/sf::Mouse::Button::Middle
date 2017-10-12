@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='55' type='2'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='55'>///&lt; The middle (wheel) mouse button</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='210' c='_ZN2sf4priv9InputImpl20isMouseButtonPressedENS_5Mouse6ButtonE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1824' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1854' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

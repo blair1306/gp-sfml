@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='56' type='3'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='56'>///&lt; The first extra mouse button</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='211' c='_ZN2sf4priv9InputImpl20isMouseButtonPressedENS_5Mouse6ButtonE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1826' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1856' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

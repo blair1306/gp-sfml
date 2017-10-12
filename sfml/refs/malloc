@@ -1,0 +1,9 @@
+<dec f='include/stdlib.h' l='466' type='void * malloc(size_t __size)'/>
+<doc f='include/stdlib.h' l='465'>/* Allocate SIZE bytes of memory.  */</doc>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='572' u='c' c='_ZL12stbi__mallocm'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='189' u='c' c='_ZL19stbi_write_hdr_coreP19stbi__write_contextiiiPf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='189' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='189' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='189' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='189' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='940' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>

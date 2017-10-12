@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='43' type='4'/>
+<use f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='46' u='r'/>
+<doc f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='43'>///&lt; Title bar + close button</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='649' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='119' u='r' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>

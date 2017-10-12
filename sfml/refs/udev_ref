@@ -1,0 +1,1 @@
+<dec f='include/libudev.h' l='37' type='struct udev * udev_ref(struct udev * udev)'/>

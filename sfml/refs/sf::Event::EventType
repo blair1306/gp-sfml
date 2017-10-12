@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='187' ll='214'/>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='183'>////////////////////////////////////////////////////////////
+    /// \brief Enumeration of the different types of events
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='98' type='static void sf::priv::AudioDevice::setGlobalVolume(float volume)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Change the global volume of all the sounds and musics
+    ///
+    /// The volume is a number between 0 and 100; it is combined with
+    /// the individual volume of each sound / music.
+    /// The default value for the volume is 100 (maximum).
+    ///
+    /// \param volume New global volume, in the range [0, 100]
+    ///
+    /// \see getGlobalVolume
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='154' ll='160' type='static void sf::priv::AudioDevice::setGlobalVolume(float volume)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='153'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='37' u='c' c='_ZN2sf8Listener15setGlobalVolumeEf'/>

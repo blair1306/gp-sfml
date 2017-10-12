@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='63' type='void sf::priv::SoundFileReaderWav::SoundFileReaderWav()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='110' ll='116' type='void sf::priv::SoundFileReaderWav::SoundFileReaderWav()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='109'>////////////////////////////////////////////////////////////</doc>

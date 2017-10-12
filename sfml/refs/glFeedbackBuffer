@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1343' type='void glFeedbackBuffer(GLsizei , GLenum , GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1431' type='void glFeedbackBuffer(GLsizei size, GLenum type, GLfloat * buffer)'/>

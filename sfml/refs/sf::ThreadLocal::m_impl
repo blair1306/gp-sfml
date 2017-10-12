@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='86' type='priv::ThreadLocalImpl *'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='42' u='w' c='_ZN2sf11ThreadLocalC1EPv'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='50' u='r' c='_ZN2sf11ThreadLocalD1Ev'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='57' u='r' c='_ZN2sf11ThreadLocal8setValueEPv'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='64' u='r' c='_ZNK2sf11ThreadLocal8getValueEv'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='83'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='86'>///&lt; Pointer to the OS specific implementation</doc>

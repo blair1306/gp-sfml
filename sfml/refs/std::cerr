@@ -1,0 +1,8 @@
+<dec f='include/c++/5/iostream' l='62' type='ostream'/>
+<doc f='include/c++/5/iostream' l='62'>/// Linked to standard error (unbuffered)</doc>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='45' u='a' c='_ZN2sf4priv10ThreadImplC1EPNS_6ThreadE'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='79' u='a' c='_ZN12_GLOBAL__N_113initClipboardEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='86' u='a' c='_ZN12_GLOBAL__N_113initClipboardEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='93' u='a' c='_ZN12_GLOBAL__N_113initClipboardEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='197' u='a' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='245' u='a' c='_ZN2sf4priv13ClipboardImpl9setStringERKNS_6StringE'/>

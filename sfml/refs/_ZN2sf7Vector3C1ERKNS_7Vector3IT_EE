@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Vector3.hpp' l='71' type='void sf::Vector3::Vector3&lt;T&gt;(const Vector3&lt;U&gt; &amp; vector)'/>
+<def f='codebrowser/include/SFML/System/Vector3.inl' l='49' ll='56' type='void sf::Vector3::Vector3&lt;T&gt;(const Vector3&lt;U&gt; &amp; vector)'/>
+<doc f='codebrowser/include/SFML/System/Vector3.inl' l='48'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='514' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IbEE'/>

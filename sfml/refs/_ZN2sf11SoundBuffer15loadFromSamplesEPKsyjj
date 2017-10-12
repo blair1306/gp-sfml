@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='135' type='bool sf::SoundBuffer::loadFromSamples(const Int16 * samples, Uint64 sampleCount, unsigned int channelCount, unsigned int sampleRate)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='119'>////////////////////////////////////////////////////////////
+    /// \brief Load the sound buffer from an array of audio samples
+    ///
+    /// The assumed format of the audio samples is 16 bits signed integer
+    /// (sf::Int16).
+    ///
+    /// \param samples      Pointer to the array of samples in memory
+    /// \param sampleCount  Number of samples in the array
+    /// \param channelCount Number of channels (1 = mono, 2 = stereo, ...)
+    /// \param sampleRate   Sample rate (number of samples to play per second)
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromFile, loadFromMemory, saveToFile
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='118' ll='140' type='bool sf::SoundBuffer::loadFromSamples(const Int16 * samples, Uint64 sampleCount, unsigned int channelCount, unsigned int sampleRate)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='117'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='c' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>

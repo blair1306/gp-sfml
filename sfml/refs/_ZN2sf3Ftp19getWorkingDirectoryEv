@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='340' type='sf::Ftp::DirectoryResponse sf::Ftp::getWorkingDirectory()'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='200' ll='203' type='Ftp::DirectoryResponse sf::Ftp::getWorkingDirectory()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='199'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='329'>////////////////////////////////////////////////////////////
+    /// \brief Get the current working directory
+    ///
+    /// The working directory is the root path for subsequent
+    /// operations involving directories and/or filenames.
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see getDirectoryListing, changeDirectory, parentDirectory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

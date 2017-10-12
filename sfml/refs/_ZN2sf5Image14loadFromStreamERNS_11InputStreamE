@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='139' type='bool sf::Image::loadFromStream(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='124'>////////////////////////////////////////////////////////////
+    /// \brief Load the image from a custom stream
+    ///
+    /// The supported image formats are bmp, png, tga, jpg, gif,
+    /// psd, hdr and pic. Some format options are not supported,
+    /// like progressive jpeg.
+    /// If this function fails, the image is left unchanged.
+    ///
+    /// \param stream Source stream to read from
+    ///
+    /// \return True if loading was successful
+    ///
+    /// \see loadFromFile, loadFromMemory
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='156' ll='159' type='bool sf::Image::loadFromStream(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='155'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='241' u='c' c='_ZN2sf7Texture14loadFromStreamERNS_11InputStreamERKNS_4RectIiEE'/>

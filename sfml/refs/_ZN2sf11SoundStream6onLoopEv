@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='252' type='Int64 sf::SoundStream::onLoop()'/>
+<ovr f='codebrowser/src/SFML/Audio/Music.cpp' l='212' c='_ZN2sf5Music6onLoopEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='242'>////////////////////////////////////////////////////////////
+    /// \brief Change the current playing position in the stream source to the beginning of the loop
+    ///
+    /// This function can be overridden by derived classes to
+    /// allow implementation of custom loop points. Otherwise,
+    /// it just calls onSeek(Time::Zero) and returns 0.
+    ///
+    /// \return The seek position after looping (or -1 if there&apos;s no loop)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='261' ll='265' type='Int64 sf::SoundStream::onLoop()'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='426' u='c' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='260'>////////////////////////////////////////////////////////////</doc>

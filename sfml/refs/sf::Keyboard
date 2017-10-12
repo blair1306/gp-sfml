@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Window/Keyboard.hpp' l='40' ll='180'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='36'>////////////////////////////////////////////////////////////
+/// \brief Give access to the real-time state of the keyboard
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf8Keyboard12isKeyPressedENS0_3KeyE'/>
+<fun r='_ZN2sf8Keyboard25setVirtualKeyboardVisibleEb'/>
+<fun r='_ZN2sf8Keyboard12isKeyPressedENS0_3KeyE'/>
+<fun r='_ZN2sf8Keyboard25setVirtualKeyboardVisibleEb'/>

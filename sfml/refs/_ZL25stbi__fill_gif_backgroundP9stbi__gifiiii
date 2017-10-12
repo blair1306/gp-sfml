@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6239' ll='6252' type='void stbi__fill_gif_background(stbi__gif * g, int x0, int y0, int x1, int y1)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6272' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6280' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>

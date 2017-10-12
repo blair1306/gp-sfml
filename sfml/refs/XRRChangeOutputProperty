@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='327' type='void XRRChangeOutputProperty(Display * dpy, RROutput output, Atom property, Atom type, int format, int mode, const unsigned char * data, int nelements)'/>

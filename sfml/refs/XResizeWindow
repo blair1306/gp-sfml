@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='3099' type='int XResizeWindow(Display * , Window , unsigned int , unsigned int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='883' u='c' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>

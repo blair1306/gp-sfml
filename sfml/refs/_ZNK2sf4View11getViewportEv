@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='193' type='const FloatRect &amp; sf::View::getViewport() const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='139' u='c' c='_ZNK2sf12RenderTarget11getViewportERKNS_4ViewE'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='185'>////////////////////////////////////////////////////////////
+    /// \brief Get the target viewport rectangle of the view
+    ///
+    /// \return Viewport rectangle, expressed as a factor of the target size
+    ///
+    /// \see setViewport
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='163' ll='166' type='const FloatRect &amp; sf::View::getViewport() const'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='162'>////////////////////////////////////////////////////////////</doc>

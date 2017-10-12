@@ -1,0 +1,11 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='42' ll='76'/>
+<size>40</size>
+<doc f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of mutexes
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv9MutexImplC1Ev'/>
+<fun r='_ZN2sf4priv9MutexImplD1Ev'/>
+<fun r='_ZN2sf4priv9MutexImpl4lockEv'/>
+<fun r='_ZN2sf4priv9MutexImpl6unlockEv'/>
+<mbr r='sf::priv::MutexImpl::m_mutex' o='0' t='pthread_mutex_t'/>

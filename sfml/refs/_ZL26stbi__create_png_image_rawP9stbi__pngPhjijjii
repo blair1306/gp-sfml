@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4281' ll='4489' type='int stbi__create_png_image_raw(stbi__png * a, stbi_uc * raw, stbi__uint32 raw_len, int out_n, stbi__uint32 x, stbi__uint32 y, int depth, int color)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4498' u='c' c='_ZL22stbi__create_png_imageP9stbi__pngPhjiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4513' u='c' c='_ZL22stbi__create_png_imageP9stbi__pngPhjiiii'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4280'>// create the png data from post-deflated data</doc>

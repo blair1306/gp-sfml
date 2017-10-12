@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='116' type='sf::BlendMode::Factor'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='47' u='w' c='_ZN2sf9BlendModeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='60' u='w' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='75' u='w' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='89' u='r' c='_ZN2sfeqERKNS_9BlendModeES2_'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='89' u='r' c='_ZN2sfeqERKNS_9BlendModeES2_'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='116'>///&lt; Destination blending factor for the color channels</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='453' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='460' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>

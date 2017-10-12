@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='283' type='bool'/>
+<offset>6952</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='283'>///&lt; Is the window in fullscreen?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='494' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='542' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='543' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='558' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='559' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='570' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='601' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='708' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1078' u='r' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>

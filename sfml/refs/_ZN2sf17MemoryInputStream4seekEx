@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='84' type='Int64 sf::MemoryInputStream::seek(Int64 position)'/>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Change the current reading position
+    ///
+    /// \param position The position to seek to, from the beginning
+    ///
+    /// \return The position actually sought to, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='105' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='73' c='_ZN2sf11InputStream4seekEx'/>
+<def f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='72' ll='79' type='Int64 sf::MemoryInputStream::seek(Int64 position)'/>
+<doc f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='71'>////////////////////////////////////////////////////////////</doc>

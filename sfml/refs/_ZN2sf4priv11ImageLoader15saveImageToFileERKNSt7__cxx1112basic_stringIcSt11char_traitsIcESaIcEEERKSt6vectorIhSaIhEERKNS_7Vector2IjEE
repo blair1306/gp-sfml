@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='106' type='bool sf::priv::ImageLoader::saveImageToFile(const std::string &amp; filename, const std::vector&lt;Uint8&gt; &amp; pixels, const Vector2u &amp; size)'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='165' u='c' c='_ZNK2sf5Image10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='96'>////////////////////////////////////////////////////////////
+    /// \brief Save an array of pixels as an image file
+    ///
+    /// \param filename Path of image file to save
+    /// \param pixels   Array of pixels to save to image
+    /// \param size     Size of image to save, in pixels
+    ///
+    /// \return True if saving was successful
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='234' ll='273' type='bool sf::priv::ImageLoader::saveImageToFile(const std::string &amp; filename, const std::vector&lt;Uint8&gt; &amp; pixels, const Vector2u &amp; size)'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='233'>////////////////////////////////////////////////////////////</doc>

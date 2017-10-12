@@ -1,0 +1,41 @@
+<dec f='include/FLAC/format.h' l='794' type='FLAC__uint32'/>
+<offset>224</offset>
+<doc f='include/FLAC/format.h' l='792'>/**&lt; Picture&apos;s width in pixels. */</doc>
+<dec f='include/X11/Xlib.h' l='261' type='int'/>
+<dec f='include/X11/Xlib.h' l='310' type='int'/>
+<dec f='include/X11/Xlib.h' l='401' type='int'/>
+<dec f='include/X11/Xlib.h' l='432' type='unsigned short'/>
+<dec f='include/X11/Xlib.h' l='437' type='unsigned short'/>
+<dec f='include/X11/Xlib.h' l='669' type='int'/>
+<dec f='include/X11/Xlib.h' l='680' type='int'/>
+<dec f='include/X11/Xlib.h' l='713' type='int'/>
+<dec f='include/X11/Xlib.h' l='776' type='int'/>
+<dec f='include/X11/Xlib.h' l='798' type='int'/>
+<dec f='include/X11/Xlib.h' l='809' type='int'/>
+<offset>480</offset>
+<dec f='include/X11/Xutil.h' l='84' type='int'/>
+<dec f='include/GL/glx.h' l='420' type='int'/>
+<offset>480</offset>
+<dec f='include/X11/extensions/Xrandr.h' l='45' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='66' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='106' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='76' u='r' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='152' u='r' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<offset>640</offset>
+<dec f='include/X11/Xproto.h' l='473' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='821' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1341' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1614' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1665' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1675' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1685' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1745' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1907' type='CARD16'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='559' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='865' u='r' c='_ZNK2sf4priv13WindowImplX117getSizeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1268' u='a' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1270' u='r' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1657' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1662' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1666' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<offset>80</offset>

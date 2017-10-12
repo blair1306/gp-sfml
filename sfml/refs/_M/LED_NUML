@@ -1,0 +1,4 @@
+<dec f='include/linux/input-event-codes.h' l='772'/>
+<doc f='include/linux/input-event-codes.h' l='768'>/*
+ * LEDs
+ */</doc>

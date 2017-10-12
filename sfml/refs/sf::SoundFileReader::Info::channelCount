@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='54' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='93' u='r' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='129' u='r' c='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='168' u='r' c='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='54'>///&lt; Number of channels of the sound</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='167' u='w' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='267' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='272' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='118' u='w' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='123' u='r' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='246' u='w' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>

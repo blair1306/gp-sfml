@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='403' type='void sf::RenderTarget::applyShader(const sf::Shader * shader)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='260' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='303' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='403' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='513' ll='516' type='void sf::RenderTarget::applyShader(const sf::Shader * shader)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='512'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='397'>////////////////////////////////////////////////////////////
+    /// \brief Apply a new shader
+    ///
+    /// \param shader Shader to apply
+    ///
+    ////////////////////////////////////////////////////////////</doc>

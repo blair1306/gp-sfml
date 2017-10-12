@@ -1,0 +1,37 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='768' type='FT_Error FT_Glyph_StrokeBorder(FT_Glyph * pglyph, FT_Stroker stroker, FT_Bool inside, FT_Bool destroy)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='731'>/**************************************************************
+   *
+   * @function:
+   *   FT_Glyph_StrokeBorder
+   *
+   * @description:
+   *   Stroke a given outline glyph object with a given stroker, but
+   *   only return either its inside or outside border.
+   *
+   * @inout:
+   *   pglyph ::
+   *     Source glyph handle on input, new glyph handle on output.
+   *
+   * @input:
+   *   stroker ::
+   *     A stroker handle.
+   *
+   *   inside ::
+   *     A Boolean.  If~1, return the inside border, otherwise
+   *     the outside border.
+   *
+   *   destroy ::
+   *     A Boolean.  If~1, the source glyph object is destroyed
+   *     on success.
+   *
+   * @return:
+   *    FreeType error code.  0~means success.
+   *
+   * @note:
+   *   The source glyph is untouched in case of error.
+   *
+   *   Adding stroke may yield a significantly wider and taller glyph
+   *   depending on how large of a radius was used to stroke the glyph.  You
+   *   may need to manually adjust horizontal and vertical advance amounts
+   *   to account for this added size.
+   */</doc>

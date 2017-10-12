@@ -1,0 +1,17 @@
+<inh f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='41' c='sf::SoundFileWriter'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='44' ll='118'/>
+<size>536</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Implementation of sound file writer that handles wav files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv18SoundFileWriterWav5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4priv18SoundFileWriterWavC1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileWriterWavD1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<fun r='_ZN2sf4priv18SoundFileWriterWav5writeEPKsy'/>
+<fun r='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<fun r='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<mbr r='sf::priv::SoundFileWriterWav::m_file' o='64' t='std::ofstream'/>
+<mbr r='sf::priv::SoundFileWriterWav::m_sampleCount' o='4160' t='Uint64'/>
+<mbr r='sf::priv::SoundFileWriterWav::m_channelCount' o='4224' t='unsigned int'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='212' type='int (*)(int)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='291' macro='1' u='r'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='72' type='int (*)(int)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='77' u='w' c='_ZL21Load_SGI_swap_controlv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='78' u='r' c='_ZL21Load_SGI_swap_controlv'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='272' type='int'/>
+<offset>5824</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='272'>///&lt; Screen identifier</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='484' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='507' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='532' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='555' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='558' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='559' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='950' u='r' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='951' u='r' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='965' u='r' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1245' u='r' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1273' u='r' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1292' u='r' c='_ZN2sf4priv13WindowImplX1114resetVideoModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1300' u='r' c='_ZN2sf4priv13WindowImplX1114resetVideoModeEv'/>

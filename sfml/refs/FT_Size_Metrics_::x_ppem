@@ -1,0 +1,4 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1503' type='FT_UShort'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='751' u='r' c='_ZNK2sf4Font14setCurrentSizeEj'/>
+<offset>0</offset>
+<doc f='include/freetype2/freetype/freetype.h' l='1503'>/* horizontal pixels per EM               */</doc>

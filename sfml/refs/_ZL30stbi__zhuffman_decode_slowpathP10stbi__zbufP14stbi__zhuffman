@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3864' ll='3880' type='int stbi__zhuffman_decode_slowpath(stbi__zbuf * a, stbi__zhuffman * z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3893' u='c' c='_ZL21stbi__zhuffman_decodeP10stbi__zbufP14stbi__zhuffman'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/VideoMode.hpp' l='103' type='unsigned int'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/VideoMode.hpp' l='103'>///&lt; Video mode height, in pixels</doc>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='82' u='a' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='158' u='a' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='559' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='561' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1270' u='r' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='39' u='w' c='_ZN2sf9VideoModeC1Ev'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='49' u='w' c='_ZN2sf9VideoModeC1Ejjj'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='93' u='r' c='_ZN2sfeqERKNS_9VideoModeES2_'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='93' u='r' c='_ZN2sfeqERKNS_9VideoModeES2_'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='112' u='r' c='_ZN2sfltERKNS_9VideoModeES2_'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='112' u='r' c='_ZN2sfltERKNS_9VideoModeES2_'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='98' type='static sf::SoundFileReader * sf::SoundFileFactory::createReaderFromFilename(const std::string &amp; filename)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='67' u='c' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Instantiate the right reader for the given file on disk
+    ///
+    /// It&apos;s up to the caller to release the returned reader
+    ///
+    /// \param filename Path of the sound file
+    ///
+    /// \return A new sound file reader that can read the given file, or null if no reader can handle it
+    ///
+    /// \see createReaderFromMemory, createReaderFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='66' ll='89' type='static sf::SoundFileReader * sf::SoundFileFactory::createReaderFromFilename(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='65'>////////////////////////////////////////////////////////////</doc>

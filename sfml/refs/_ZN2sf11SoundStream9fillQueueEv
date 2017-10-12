@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='290' type='bool sf::SoundStream::fillQueue()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='281'>////////////////////////////////////////////////////////////
+    /// \brief Fill the audio buffers and put them all into the playing queue
+    ///
+    /// This function is called when playing starts and the
+    /// playing queue is empty.
+    ///
+    /// \return True if the derived class has requested to stop, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='290' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='466' ll='479' type='bool sf::SoundStream::fillQueue()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='465'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='142' type='int stbi_write_hdr(const char * filename, int w, int h, int comp, const float * data)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='647' ll='656' macro='1' type='int stbi_write_hdr(const char * filename, int x, int y, int comp, const float * data)'/>

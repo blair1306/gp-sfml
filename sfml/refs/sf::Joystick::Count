@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='51' type='8'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='121'/>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='51'>///&lt; Maximum number of supported joysticks</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='67' u='r' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='112' u='r' c='_ZN2sf4priv15JoystickManagerD1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='274'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='88' u='r' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='164' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

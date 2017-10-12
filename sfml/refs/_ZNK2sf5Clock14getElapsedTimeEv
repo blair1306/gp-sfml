@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/Clock.hpp' l='63' type='sf::Time sf::Clock::getElapsedTime() const'/>
+<doc f='codebrowser/include/SFML/System/Clock.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Get the elapsed time
+    ///
+    /// This function returns the time elapsed since the last call
+    /// to restart() (or the construction of the instance if restart()
+    /// has not been called).
+    ///
+    /// \return Time elapsed
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Clock.cpp' l='47' ll='50' type='sf::Time sf::Clock::getElapsedTime() const'/>
+<doc f='codebrowser/src/SFML/System/Clock.cpp' l='46'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='381' u='c' c='_ZN2sf6Window7displayEv'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='215' type='void sf::Image::setPixel(unsigned int x, unsigned int y, const sf::Color &amp; color)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='791' u='c' c='_ZN2sf4Font4PageC1Ev'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='201'>////////////////////////////////////////////////////////////
+    /// \brief Change the color of a pixel
+    ///
+    /// This function doesn&apos;t check the validity of the pixel
+    /// coordinates, using out-of-range values will result in
+    /// an undefined behavior.
+    ///
+    /// \param x     X coordinate of pixel to change
+    /// \param y     Y coordinate of pixel to change
+    /// \param color New color of the pixel
+    ///
+    /// \see getPixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='275' ll='282' type='void sf::Image::setPixel(unsigned int x, unsigned int y, const sf::Color &amp; color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='274'>////////////////////////////////////////////////////////////</doc>

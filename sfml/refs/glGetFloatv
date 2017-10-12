@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1357' type='void glGetFloatv(GLenum , GLfloat * )'/>
+<dec f='include/GL/gl.h' l='812' type='void glGetFloatv(GLenum pname, GLfloat * params)'/>

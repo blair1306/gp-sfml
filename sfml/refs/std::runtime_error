@@ -1,0 +1,18 @@
+<inh f='include/c++/5/exception' l='60' c='std::exception'/>
+<def f='include/c++/5/stdexcept' l='192' ll='217'/>
+<ovr f='include/c++/5/stdexcept' l='220' c='std::range_error'/>
+<ovr f='include/c++/5/stdexcept' l='231' c='std::overflow_error'/>
+<ovr f='include/c++/5/stdexcept' l='242' c='std::underflow_error'/>
+<ovr f='include/c++/5/bits/ios_base.h' l='233' c='std::ios_base::system_error'/>
+<size>16</size>
+<doc f='include/c++/5/stdexcept' l='187'>/** Runtime errors represent problems outside the scope of a program;
+   *  they cannot be easily predicted and can generally only be caught as
+   *  the program executes.
+   *  @brief One of two subclasses of exception.
+   */</doc>
+<mbr r='std::runtime_error::_M_msg' o='64' t='std::__cow_string'/>
+<fun r='_ZNSt13runtime_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNSt13runtime_errorC1ERKS_'/>
+<fun r='_ZNSt13runtime_erroraSERKS_'/>
+<fun r='_ZNSt13runtime_errorD1Ev'/>
+<fun r='_ZNKSt13runtime_error4whatEv'/>

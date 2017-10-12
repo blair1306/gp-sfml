@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='69' type='void sf::priv::SoundFileReaderOgg::~SoundFileReaderOgg()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='62' c='_ZN2sf15SoundFileReaderD1Ev'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='99' ll='102' type='void sf::priv::SoundFileReaderOgg::~SoundFileReaderOgg()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='98'>////////////////////////////////////////////////////////////</doc>

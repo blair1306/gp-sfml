@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/System/Vector3.hpp' l='57' type='void sf::Vector3::Vector3&lt;T&gt;(T X, T Y, T Z)'/>
+<def f='codebrowser/include/SFML/System/Vector3.inl' l='38' ll='45' type='void sf::Vector3::Vector3&lt;T&gt;(T X, T Y, T Z)'/>
+<doc f='codebrowser/include/SFML/System/Vector3.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Construct the vector from its coordinates
+    ///
+    /// \param X X coordinate
+    /// \param Y Y coordinate
+    /// \param Z Z coordinate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Vector3.inl' l='37'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='41' u='c'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='42' u='c'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='43' u='c'/>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='51' u='c' c='_ZN2sf8Listener11setPositionEfff'/>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='72' u='c' c='_ZN2sf8Listener12setDirectionEfff'/>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='93' u='c' c='_ZN2sf8Listener11setUpVectorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='680' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEfff'/>
+<use f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='76' u='c' c='_ZN2sf4priv10SensorImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='93' u='c' c='_ZN2sf4priv10WindowImplC1Ev'/>

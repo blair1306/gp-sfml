@@ -1,0 +1,5 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4131' u='c' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4152' u='c' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4168' u='c' c='stbi_zlib_decode_buffer'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4179' u='c' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4195' u='c' c='stbi_zlib_decode_noheader_buffer'/>

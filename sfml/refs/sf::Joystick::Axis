@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Window/Joystick.hpp' l='60' ll='70'/>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='56'>////////////////////////////////////////////////////////////
+    /// \brief Axes supported by SFML joysticks
+    ///
+    ////////////////////////////////////////////////////////////</doc>

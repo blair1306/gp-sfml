@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='238' type='bool sf::SoundBuffer::initialize(sf::InputSoundFile &amp; file)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='230'>////////////////////////////////////////////////////////////
+    /// \brief Initialize the internal state after loading a new sound
+    ///
+    /// \param file Sound file providing access to the new loaded sound
+    ///
+    /// \return True on successful initialization, false on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='89' u='c' c='_ZN2sf11SoundBuffer12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='100' u='c' c='_ZN2sf11SoundBuffer14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='111' u='c' c='_ZN2sf11SoundBuffer14loadFromStreamERNS_11InputStreamE'/>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='218' ll='236' type='bool sf::SoundBuffer::initialize(sf::InputSoundFile &amp; file)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='217'>////////////////////////////////////////////////////////////</doc>

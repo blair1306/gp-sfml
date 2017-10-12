@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='211' type='Uint64'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='44' u='w' c='_ZN2sf14InputSoundFileC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='214' u='r' c='_ZNK2sf14InputSoundFile13getTimeOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='221' u='r' c='_ZNK2sf14InputSoundFile15getSampleOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='232' u='w' c='_ZN2sf14InputSoundFile4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='233' u='r' c='_ZN2sf14InputSoundFile4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='251' u='w' c='_ZN2sf14InputSoundFile4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='270' u='w' c='_ZN2sf14InputSoundFile5closeEv'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='211'>///&lt; Sample Read Position</doc>

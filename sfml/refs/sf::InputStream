@@ -1,0 +1,13 @@
+<def f='codebrowser/include/SFML/System/InputStream.hpp' l='41' ll='90'/>
+<ovr f='codebrowser/include/SFML/System/FileInputStream.hpp' l='55' c='sf::FileInputStream'/>
+<ovr f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='43' c='sf::MemoryInputStream'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/InputStream.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Abstract class for custom file input streams
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11InputStreamD1Ev'/>
+<fun r='_ZN2sf11InputStream4readEPvx'/>
+<fun r='_ZN2sf11InputStream4seekEx'/>
+<fun r='_ZN2sf11InputStream4tellEv'/>
+<fun r='_ZN2sf11InputStream7getSizeEv'/>

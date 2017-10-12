@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='232' type='GLXContext (*)(Display *, GLXFBConfig, GLXContext, int, const int *)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='705' macro='1' u='r'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='110' type='GLXContext (*)(Display *, GLXFBConfig, GLXContext, int, const int *)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='115' u='w' c='_ZL23Load_ARB_create_contextv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='116' u='r' c='_ZL23Load_ARB_create_contextv'/>

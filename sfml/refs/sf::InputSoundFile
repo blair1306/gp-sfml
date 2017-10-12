@@ -1,0 +1,44 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='47' ll='215'/>
+<size>48</size>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Provide read access to sound files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf14InputSoundFileC1Ev'/>
+<fun r='_ZN2sf14InputSoundFileD1Ev'/>
+<fun r='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<fun r='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf14InputSoundFile14getSampleCountEv'/>
+<fun r='_ZNK2sf14InputSoundFile15getChannelCountEv'/>
+<fun r='_ZNK2sf14InputSoundFile13getSampleRateEv'/>
+<fun r='_ZNK2sf14InputSoundFile11getDurationEv'/>
+<fun r='_ZNK2sf14InputSoundFile13getTimeOffsetEv'/>
+<fun r='_ZNK2sf14InputSoundFile15getSampleOffsetEv'/>
+<fun r='_ZN2sf14InputSoundFile4seekEy'/>
+<fun r='_ZN2sf14InputSoundFile4seekENS_4TimeE'/>
+<fun r='_ZN2sf14InputSoundFile4readEPsy'/>
+<fun r='_ZN2sf14InputSoundFile5closeEv'/>
+<mbr r='sf::InputSoundFile::m_reader' o='0' t='sf::SoundFileReader *'/>
+<mbr r='sf::InputSoundFile::m_stream' o='64' t='sf::InputStream *'/>
+<mbr r='sf::InputSoundFile::m_streamOwned' o='128' t='bool'/>
+<mbr r='sf::InputSoundFile::m_sampleOffset' o='192' t='Uint64'/>
+<mbr r='sf::InputSoundFile::m_sampleCount' o='256' t='Uint64'/>
+<mbr r='sf::InputSoundFile::m_channelCount' o='320' t='unsigned int'/>
+<mbr r='sf::InputSoundFile::m_sampleRate' o='352' t='unsigned int'/>
+<fun r='_ZN2sf14InputSoundFileC1Ev'/>
+<fun r='_ZN2sf14InputSoundFileD1Ev'/>
+<fun r='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<fun r='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf14InputSoundFile14getSampleCountEv'/>
+<fun r='_ZNK2sf14InputSoundFile15getChannelCountEv'/>
+<fun r='_ZNK2sf14InputSoundFile13getSampleRateEv'/>
+<fun r='_ZNK2sf14InputSoundFile11getDurationEv'/>
+<fun r='_ZNK2sf14InputSoundFile13getTimeOffsetEv'/>
+<fun r='_ZNK2sf14InputSoundFile15getSampleOffsetEv'/>
+<fun r='_ZN2sf14InputSoundFile4seekEy'/>
+<fun r='_ZN2sf14InputSoundFile4seekENS_4TimeE'/>
+<fun r='_ZN2sf14InputSoundFile4readEPsy'/>
+<fun r='_ZN2sf14InputSoundFile5closeEv'/>

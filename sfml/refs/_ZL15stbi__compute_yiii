@@ -1,0 +1,18 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1466' ll='1469' type='stbi_uc stbi__compute_y(int r, int g, int b)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1501' u='c' c='_ZL20stbi__convert_formatPhiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1502' u='c' c='_ZL20stbi__convert_formatPhiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1503' u='c' c='_ZL20stbi__convert_formatPhiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1504' u='c' c='_ZL20stbi__convert_formatPhiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3643' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3646' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3656' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1455'>//////////////////////////////////////////////////////////////////////////////
+//
+//  generic converter from built-in img_n to req_comp
+//    individual types do this automatically as much as possible (e.g. jpeg
+//    does all cases internally since it needs to colorspace convert anyway,
+//    and it never has alpha, so very few cases ). png can automatically
+//    interleave an alpha=255 channel, but falls back to this for other cases
+//
+//  assume data buffer is malloced, so malloc a new one and free that one
+//  only failure mode is malloc failing</doc>

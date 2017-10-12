@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='61' type='static bool sf::priv::SensorImpl::isAvailable(Sensor::Type sensor)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Check if a sensor is available
+    ///
+    /// \param sensor Sensor to check
+    ///
+    /// \return True if the sensor is available, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='102' u='c' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='50' ll='54' type='static bool sf::priv::SensorImpl::isAvailable(Sensor::Type )'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='49'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='50'>/*sensor*/</doc>

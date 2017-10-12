@@ -1,0 +1,8 @@
+<def f='include/c++/5/bits/stl_map.h' l='346' ll='348' type='const_iterator std::map::begin() const'/>
+<doc f='include/c++/5/bits/stl_map.h' l='341'>/**
+       *  Returns a read-only (constant) iterator that points to the first pair
+       *  in the %map.  Iteration is done in ascending order according to the
+       *  keys.
+       */</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='974' u='c' c='_ZNK2sf6Shader12bindTexturesEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='122' u='c' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>

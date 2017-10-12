@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='159' type='void sf::Socket::create(SocketHandle handle)'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='150'>////////////////////////////////////////////////////////////
+    /// \brief Create the internal representation of the socket
+    ///        from a socket handle
+    ///
+    /// This function can only be accessed by derived classes.
+    ///
+    /// \param handle OS-specific handle of the socket to wrap
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='92' u='c' c='_ZN2sf6Socket6createEv'/>
+<def f='codebrowser/src/SFML/Network/Socket.cpp' l='98' ll='137' type='void sf::Socket::create(SocketHandle handle)'/>
+<doc f='codebrowser/src/SFML/Network/Socket.cpp' l='97'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='123' u='c' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1140' type='void (*)(GLuint, GLdouble, GLdouble)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='475' type='void (*)(GLuint, GLdouble, GLdouble)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='571' u='w' c='_ZL22Load_ARB_vertex_shaderv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='572' u='r' c='_ZL22Load_ARB_vertex_shaderv'/>

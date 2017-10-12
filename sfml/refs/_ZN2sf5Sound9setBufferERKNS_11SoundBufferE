@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='126' type='void sf::Sound::setBuffer(const sf::SoundBuffer &amp; buffer)'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='46' u='c' c='_ZN2sf5SoundC1ERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='56' u='c' c='_ZN2sf5SoundC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='92' ll='105' type='void sf::Sound::setBuffer(const sf::SoundBuffer &amp; buffer)'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='176' u='c' c='_ZN2sf5SoundaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='91'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='114'>////////////////////////////////////////////////////////////
+    /// \brief Set the source buffer containing the audio data to play
+    ///
+    /// It is important to note that the sound buffer is not copied,
+    /// thus the sf::SoundBuffer instance must remain alive as long
+    /// as it is attached to the sound.
+    ///
+    /// \param buffer Sound buffer to attach to the sound
+    ///
+    /// \see getBuffer
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='272' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>

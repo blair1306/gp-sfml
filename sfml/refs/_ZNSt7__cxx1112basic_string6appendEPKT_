@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/basic_string.h' l='1023' ll='1030' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::append(const _CharT * __s)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1018'>/**
+       *  @brief  Append a C string.
+       *  @param __s  The C string to append.
+       *  @return  Reference to this string.
+       */</doc>

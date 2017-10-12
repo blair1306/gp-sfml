@@ -1,0 +1,5 @@
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='49' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6949' u='c'/>
+<dec f='include/unistd.h' l='314'/>
+<dec f='include/fcntl.h' l='136'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='98' u='c'/>

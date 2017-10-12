@@ -1,0 +1,10 @@
+<dec f='include/netinet/in.h' l='402'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='99' u='c'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='118' u='c'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='137' u='c'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='171' u='c'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='184' u='c'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='90' u='c'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='366' u='c'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='371' u='c'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='152' u='c'/>

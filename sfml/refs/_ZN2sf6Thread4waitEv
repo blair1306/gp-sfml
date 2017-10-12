@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='159' type='void sf::Thread::wait()'/>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='148'>////////////////////////////////////////////////////////////
+    /// \brief Wait until the thread finishes
+    ///
+    /// This function will block the execution until the
+    /// thread&apos;s function ends.
+    /// Warning: if the thread function never ends, the calling
+    /// thread will block forever.
+    /// If this function is called from its owner thread, it
+    /// returns without doing anything.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='131' u='c' c='_ZN2sf13SoundRecorder4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='185' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='72' u='c' c='_ZN2sf11SoundStreamD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='166' u='c' c='_ZN2sf11SoundStream4stopEv'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='43' u='c' c='_ZN2sf6ThreadD1Ev'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='51' u='c' c='_ZN2sf6Thread6launchEv'/>
+<def f='codebrowser/src/SFML/System/Thread.cpp' l='57' ll='65' type='void sf::Thread::wait()'/>
+<doc f='codebrowser/src/SFML/System/Thread.cpp' l='56'>////////////////////////////////////////////////////////////</doc>

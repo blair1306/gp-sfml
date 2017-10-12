@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='345' type='void (*)(void *, int)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1391' u='r' c='_ZL10stbi__skipP13stbi__contexti'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='196' u='w' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<offset>64</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='345'>// skip the next &apos;n&apos; bytes, or &apos;unget&apos; the last -n bytes if negative</doc>

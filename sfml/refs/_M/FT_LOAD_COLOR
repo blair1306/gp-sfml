@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='2800'/>
+<doc f='include/freetype2/freetype/freetype.h' l='2799'>/* Bits 16..19 are used by `FT_LOAD_TARGET_&apos; */</doc>

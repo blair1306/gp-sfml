@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='79' type='static void * sf::priv::ThreadImpl::entryPoint(void * userData)'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Global entry point for all threads
+    ///
+    /// \param userData User-defined data (contains the Thread instance)
+    ///
+    /// \return Os specific error code
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='42' u='a' c='_ZN2sf4priv10ThreadImplC1EPNS_6ThreadE'/>
+<def f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='76' ll='90' type='static void * sf::priv::ThreadImpl::entryPoint(void * userData)'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='75'>////////////////////////////////////////////////////////////</doc>

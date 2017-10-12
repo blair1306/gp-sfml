@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='76' type='static SocketHandle sf::priv::SocketImpl::invalidSocket()'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='114' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='70'>////////////////////////////////////////////////////////////
+    /// \brief Return the value of the invalid socket
+    ///
+    /// \return Special value of the invalid socket
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='38' u='c' c='_ZN2sf6SocketC1ENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='57' u='c' c='_ZN2sf6Socket11setBlockingEb'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='82' u='c' c='_ZN2sf6Socket6createEv'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='86' u='c' c='_ZN2sf6Socket6createEv'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='101' u='c' c='_ZN2sf6Socket6createEi'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='144' u='c' c='_ZN2sf6Socket5closeEv'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='147' u='c' c='_ZN2sf6Socket5closeEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='79' u='c' c='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='121' u='c' c='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='178' u='c' c='_ZNK2sf14SocketSelector7isReadyERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='47' u='c' c='_ZNK2sf11TcpListener12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='106' u='c' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='118' u='c' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='64' u='c' c='_ZNK2sf9TcpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='83' u='c' c='_ZNK2sf9TcpSocket16getRemoteAddressEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='102' u='c' c='_ZNK2sf9TcpSocket13getRemotePortEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='50' u='c' c='_ZNK2sf9UdpSocket12getLocalPortEv'/>
+<def f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='57' ll='60' type='static SocketHandle sf::priv::SocketImpl::invalidSocket()'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='56'>////////////////////////////////////////////////////////////</doc>

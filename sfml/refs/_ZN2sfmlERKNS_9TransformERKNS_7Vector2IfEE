@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='404' type='Vector2f sf::operator*(const sf::Transform &amp; left, const Vector2f &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='231' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='267' ll='270' type='Vector2f sf::operator*(const sf::Transform &amp; left, const Vector2f &amp; right)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='266'>////////////////////////////////////////////////////////////</doc>

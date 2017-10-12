@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Glsl.inl' l='31' type='void sf::priv::copyMatrix(const sf::Transform &amp; source, Matrix&lt;4, 4&gt; &amp; dest)'/>
+<def f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='52' ll='56' type='void sf::priv::copyMatrix(const sf::Transform &amp; source, Matrix&lt;4, 4&gt; &amp; dest)'/>
+<doc f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='51'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1277' type='void glClearAccum(GLfloat , GLfloat , GLfloat , GLfloat )'/>
+<dec f='include/GL/gl.h' l='857' type='void glClearAccum(GLfloat red, GLfloat green, GLfloat blue, GLfloat alpha)'/>

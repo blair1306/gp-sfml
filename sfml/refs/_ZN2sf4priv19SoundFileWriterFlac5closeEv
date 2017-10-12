@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='99' type='void sf::priv::SoundFileWriterFlac::close()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Close the file
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='61' u='c' c='_ZN2sf4priv19SoundFileWriterFlacD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='85' u='c' c='_ZN2sf4priv19SoundFileWriterFlac4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='118' ll='129' type='void sf::priv::SoundFileWriterFlac::close()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='117'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftoutln.h' l='268' type='void FT_Outline_Translate(const FT_Outline * outline, FT_Pos xOffset, FT_Pos yOffset)'/>
+<doc f='include/freetype2/freetype/ftoutln.h' l='266'>/*                                                                       */</doc>

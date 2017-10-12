@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='78' type='Uint32 sf::Color::toInteger() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Retrieve the color as a 32-bit unsigned integer
+    ///
+    /// \return Color represented as a 32-bit unsigned integer
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Color.cpp' l='82' ll='85' type='Uint32 sf::Color::toInteger() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Color.cpp' l='81'>////////////////////////////////////////////////////////////</doc>

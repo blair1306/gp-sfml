@@ -1,0 +1,25 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='157' type='bool sf::Ftp::Response::isOk() const'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='78' ll='81' type='bool sf::Ftp::Response::isOk() const'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='102' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='123' u='c' c='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='173' u='c' c='_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='185' u='c' c='_ZN2sf3Ftp10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='213' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='217' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='263' u='c' c='_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='283' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='287' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='315' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='346' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='350' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='538' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='77'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='148'>////////////////////////////////////////////////////////////
+        /// \brief Check if the status code means a success
+        ///
+        /// This function is defined for convenience, it is
+        /// equivalent to testing if the status code is &lt; 400.
+        ///
+        /// \return True if the status is a success, false if it is a failure
+        ///
+        ////////////////////////////////////////////////////////////</doc>

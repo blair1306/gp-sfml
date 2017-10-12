@@ -1,0 +1,4 @@
+<dec f='include/linux/input-event-codes.h' l='790'/>
+<doc f='include/linux/input-event-codes.h' l='786'>/*
+ * Autorepeat values
+ */</doc>

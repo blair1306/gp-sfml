@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='224' type='void sf::View::rotate(float angle)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='216'>////////////////////////////////////////////////////////////
+    /// \brief Rotate the view relatively to its current orientation
+    ///
+    /// \param angle Angle to rotate, in degrees
+    ///
+    /// \see setRotation, move, zoom
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='184' ll='187' type='void sf::View::rotate(float angle)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='183'>////////////////////////////////////////////////////////////</doc>

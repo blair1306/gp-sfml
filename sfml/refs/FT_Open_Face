@@ -1,0 +1,3 @@
+<dec f='include/freetype2/freetype/freetype.h' l='2193' type='FT_Error FT_Open_Face(FT_Library library, const FT_Open_Args * args, FT_Long face_index, FT_Face * aface)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='282' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<doc f='include/freetype2/freetype/freetype.h' l='2191'>/*                                                                       */</doc>

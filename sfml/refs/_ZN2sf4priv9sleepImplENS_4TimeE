@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/System/Unix/SleepImpl.hpp' l='45' type='void sf::priv::sleepImpl(sf::Time time)'/>
+<use f='codebrowser/src/SFML/System/Sleep.cpp' l='43' u='c' c='_ZN2sf5sleepENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/System/Unix/SleepImpl.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of sf::Sleep
+///
+/// \param time Time to sleep
+///
+////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='38' ll='55' type='void sf::priv::sleepImpl(sf::Time time)'/>
+<doc f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='37'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='310' type='sf::Color'/>
+<offset>1664</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='310'>///&lt; Fill color</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='103' u='w' c='_ZN2sf5Shape12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='111' u='a' c='_ZNK2sf5Shape12getFillColorEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='163' u='w' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='234' u='r' c='_ZN2sf5Shape16updateFillColorsEv'/>

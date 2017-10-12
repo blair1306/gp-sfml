@@ -1,0 +1,3 @@
+_ZN2sf4FontD1Ev|sf::Font::~Font
+_ZN2sf3FtpD1Ev|sf::Ftp::~Ftp
+_ZN2sf15FileInputStreamD1Ev|sf::FileInputStream::~FileInputStream

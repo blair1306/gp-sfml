@@ -1,0 +1,5 @@
+<dec f='include/FLAC/format.h' l='424' type='unsigned int'/>
+<dec f='include/FLAC/format.h' l='534' type='unsigned int'/>
+<offset>192</offset>
+<doc f='include/FLAC/format.h' l='422'>/**&lt; The channel assignment for the frame. */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='122' u='r' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>

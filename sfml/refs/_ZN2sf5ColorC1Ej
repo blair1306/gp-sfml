@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='70' type='void sf::Color::Color(Uint32 color)'/>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='64'>////////////////////////////////////////////////////////////
+    /// \brief Construct the color from 32-bit unsigned integer
+    ///
+    /// \param color Number containing the RGBA components (in that order)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Color.cpp' l='71' ll='78' type='void sf::Color::Color(Uint32 color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Color.cpp' l='70'>////////////////////////////////////////////////////////////</doc>

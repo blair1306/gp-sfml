@@ -1,0 +1,15 @@
+<def f='include/X11/extensions/Xrandr.h' l='453' ll='467'/>
+<size>56</size>
+<mbr r='_XRRPanning::timestamp' o='0' t='Time'/>
+<mbr r='_XRRPanning::left' o='64' t='unsigned int'/>
+<mbr r='_XRRPanning::top' o='96' t='unsigned int'/>
+<mbr r='_XRRPanning::width' o='128' t='unsigned int'/>
+<mbr r='_XRRPanning::height' o='160' t='unsigned int'/>
+<mbr r='_XRRPanning::track_left' o='192' t='unsigned int'/>
+<mbr r='_XRRPanning::track_top' o='224' t='unsigned int'/>
+<mbr r='_XRRPanning::track_width' o='256' t='unsigned int'/>
+<mbr r='_XRRPanning::track_height' o='288' t='unsigned int'/>
+<mbr r='_XRRPanning::border_left' o='320' t='int'/>
+<mbr r='_XRRPanning::border_top' o='352' t='int'/>
+<mbr r='_XRRPanning::border_right' o='384' t='int'/>
+<mbr r='_XRRPanning::border_bottom' o='416' t='int'/>

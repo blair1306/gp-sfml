@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='229' type='void sf::priv::WindowImplX11::setProtocols()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='225'>////////////////////////////////////////////////////////////
+    /// \brief Set the WM protocols we support
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='521' u='c' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='590' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1369' ll='1431' type='void sf::priv::WindowImplX11::setProtocols()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1368'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3845' ll='3852' type='void stbi__fill_bits(stbi__zbuf * z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3857' u='c' c='_ZL14stbi__zreceiveP10stbi__zbufi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3885' u='c' c='_ZL21stbi__zhuffman_decodeP10stbi__zbufP14stbi__zhuffman'/>

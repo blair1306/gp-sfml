@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Glsl.inl' l='40' type='void sf::priv::copyMatrix(const float * source, std::size_t elements, float * dest)'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='55' u='c' c='_ZN2sf4priv10copyMatrixERKNS_9TransformERNS0_6MatrixILm4ELm4EEE'/>
+<def f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='60' ll='63' type='void sf::priv::copyMatrix(const float * source, std::size_t elements, float * dest)'/>
+<doc f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='59'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='33'>////////////////////////////////////////////////////////////
+/// \brief Copy array-based matrix with given number of elements
+///
+/// Indirection to std::copy() to avoid inclusion of
+/// &lt;algorithm&gt; and MSVC&apos;s annoying 4996 warning in header
+///
+////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='640' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='655' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='250'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='249'>// Core since 3.0 - EXT_framebuffer_blit</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='464' u='c'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5349' ll='5366' type='void stbi__tga_read_rgb16(stbi__context * s, stbi_uc * out)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5447' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5495' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5348'>// read 16bit value and convert to 24bit RGB</doc>

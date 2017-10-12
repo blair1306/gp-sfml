@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='276' type='void XRenderComposite(Display * dpy, int op, Picture src, Picture mask, Picture dst, int src_x, int src_y, int mask_x, int mask_y, int dst_x, int dst_y, unsigned int width, unsigned int height)'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='154' type='sf::Time sf::SoundStream::getPlayingOffset() const'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='160' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='146'>////////////////////////////////////////////////////////////
+    /// \brief Get the current playing position of the stream
+    ///
+    /// \return Current playing position, from the beginning of the stream
+    ///
+    /// \see setPlayingOffset
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='230' ll='243' type='sf::Time sf::SoundStream::getPlayingOffset() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='229'>////////////////////////////////////////////////////////////</doc>

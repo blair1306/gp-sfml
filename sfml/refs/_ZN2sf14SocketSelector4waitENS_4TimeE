@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='123' type='bool sf::SocketSelector::wait(sf::Time timeout = Time::Zero)'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='156' ll='171' type='bool sf::SocketSelector::wait(sf::Time timeout = Time::Zero)'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='155'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='107'>////////////////////////////////////////////////////////////
+    /// \brief Wait until one or more sockets are ready to receive
+    ///
+    /// This function returns as soon as at least one socket has
+    /// some data available to be received. To know which sockets are
+    /// ready, use the isReady function.
+    /// If you use a timeout and no socket is ready before the timeout
+    /// is over, the function returns false.
+    ///
+    /// \param timeout Maximum time to wait, (use Time::Zero for infinity)
+    ///
+    /// \return True if there are sockets ready, false otherwise
+    ///
+    /// \see isReady
+    ///
+    ////////////////////////////////////////////////////////////</doc>

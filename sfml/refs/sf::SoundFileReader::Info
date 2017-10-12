@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='51' ll='56'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Structure holding the audio properties of a sound file
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::SoundFileReader::Info::sampleCount' o='0' t='Uint64'/>
+<mbr r='sf::SoundFileReader::Info::channelCount' o='64' t='unsigned int'/>
+<mbr r='sf::SoundFileReader::Info::sampleRate' o='96' t='unsigned int'/>

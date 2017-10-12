@@ -1,0 +1,2 @@
+<dec f='include/libudev.h' l='38' type='struct udev * udev_unref(struct udev * udev)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='510' u='c' c='_ZN2sf4priv12JoystickImpl7cleanupEv'/>

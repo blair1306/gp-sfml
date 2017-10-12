@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='187' type='bool sf::priv::WindowImplX11::hasFocus() const'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='181'>////////////////////////////////////////////////////////////
+    /// \brief Check whether the window has the input focus
+    ///
+    /// \return True if window has focus, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1127' u='c' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='228' c='_ZNK2sf4priv10WindowImpl8hasFocusEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1169' ll='1176' type='bool sf::priv::WindowImplX11::hasFocus() const'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1168'>////////////////////////////////////////////////////////////</doc>

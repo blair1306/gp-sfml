@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='52' type='void sf::Shape::~Shape()'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Virtual destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='52' c='_ZN2sf8DrawableD1Ev'/>
+<inh f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='55' c='_ZN2sf13TransformableD1Ev'/>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='58' ll='60' type='void sf::Shape::~Shape()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='57'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,9 @@
+<dec f='include/string.h' l='140' type='int strcmp(const char * __s1, const char * __s2)'/>
+<doc f='include/string.h' l='139'>/* Compare S1 and S2.  */</doc>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6492' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6492' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6499' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6623' u='c' c='_ZL14stbi__hdr_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='701' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='701' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='149' u='c' c='_ZL12FindExtEntryPKc'/>

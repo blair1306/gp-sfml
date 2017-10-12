@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1407' type='void glLoadMatrixf(const GLfloat * )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='437' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='499' u='c' c='_ZN2sf12RenderTarget14applyTransformERKNS_9TransformE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='755' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<dec f='include/GL/gl.h' l='886' type='void glLoadMatrixf(const GLfloat * m)'/>

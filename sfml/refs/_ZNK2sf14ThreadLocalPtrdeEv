@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='62' type='T &amp; sf::ThreadLocalPtr::operator*() const'/>
+<def f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='37' ll='41' type='T &amp; sf::ThreadLocalPtr::operator*() const'/>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Overload of unary operator *
+    ///
+    /// Like raw pointers, applying the * operator returns a
+    /// reference to the pointed-to object.
+    ///
+    /// \return Reference to the thread-local variable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='36'>////////////////////////////////////////////////////////////</doc>

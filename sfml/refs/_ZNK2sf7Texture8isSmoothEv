@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='414' type='bool sf::Texture::isSmooth() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='406'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether the smooth filter is enabled or not
+    ///
+    /// \return True if smoothing is enabled, false if it is disabled
+    ///
+    /// \see setSmooth
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='101' u='c' c='_ZNK2sf13RenderTexture8isSmoothEv'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='610' ll='613' type='bool sf::Texture::isSmooth() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='609'>////////////////////////////////////////////////////////////</doc>

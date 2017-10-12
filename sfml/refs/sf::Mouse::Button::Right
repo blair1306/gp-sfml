@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='54' type='1'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='54'>///&lt; The right mouse button</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='209' c='_ZN2sf4priv9InputImpl20isMouseButtonPressedENS_5Mouse6ButtonE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1825' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1855' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='75' type='pthread_mutex_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='72'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='75'>///&lt; pthread handle of the mutex</doc>
+<use f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='43' u='a' c='_ZN2sf4priv9MutexImplC1Ev'/>
+<use f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='50' u='a' c='_ZN2sf4priv9MutexImplD1Ev'/>
+<use f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='57' u='a' c='_ZN2sf4priv9MutexImpl4lockEv'/>
+<use f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='64' u='a' c='_ZN2sf4priv9MutexImpl6unlockEv'/>

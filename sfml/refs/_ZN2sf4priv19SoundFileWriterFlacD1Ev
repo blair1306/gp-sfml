@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='70' type='void sf::priv::SoundFileWriterFlac::~SoundFileWriterFlac()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='66'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='49' c='_ZN2sf15SoundFileWriterD1Ev'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='59' ll='62' type='void sf::priv::SoundFileWriterFlac::~SoundFileWriterFlac()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='58'>////////////////////////////////////////////////////////////</doc>

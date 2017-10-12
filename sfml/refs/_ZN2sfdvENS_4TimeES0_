@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='412' type='float sf::operator/(sf::Time left, sf::Time right)'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='241' ll='244' type='float sf::operator/(sf::Time left, sf::Time right)'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='240'>////////////////////////////////////////////////////////////</doc>

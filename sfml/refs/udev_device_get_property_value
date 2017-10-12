@@ -1,0 +1,11 @@
+<dec f='include/libudev.h' l='102' type='const char * udev_device_get_property_value(struct udev_device * udev_device, const char * key)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='73' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='80' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='81' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='82' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='83' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='84' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='85' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='86' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='91' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='268' u='c' c='_ZN12_GLOBAL__N_116getUdevAttributeEP11udev_deviceRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

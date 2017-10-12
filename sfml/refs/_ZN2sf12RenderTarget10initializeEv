@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='363' type='void sf::RenderTarget::initialize()'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='416' ll='424' type='void sf::RenderTarget::initialize()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='415'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='356'>////////////////////////////////////////////////////////////
+    /// \brief Performs the common initialization step after creation
+    ///
+    /// The derived classes must call this function after the
+    /// target is created and ready for drawing.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='85' u='c' c='_ZN2sf13RenderTexture6createEjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='95' u='c' c='_ZN2sf12RenderWindow8onCreateEv'/>

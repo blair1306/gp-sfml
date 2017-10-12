@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Vector3.hpp' l='162' type='Vector3&lt;T&gt; sf::operator*(const Vector3&lt;T&gt; &amp; left, T right)'/>
+<def f='codebrowser/include/SFML/System/Vector3.inl' l='109' ll='112' type='Vector3&lt;T&gt; sf::operator*(const Vector3&lt;T&gt; &amp; left, T right)'/>

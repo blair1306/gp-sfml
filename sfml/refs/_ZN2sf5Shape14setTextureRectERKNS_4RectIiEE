@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='88' type='void sf::Shape::setTextureRect(const IntRect &amp; rect)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Set the sub-rectangle of the texture that the shape will display
+    ///
+    /// The texture rect is useful when you don&apos;t want to display
+    /// the whole texture, but rather a part of it.
+    /// By default, the texture rect covers the entire texture.
+    ///
+    /// \param rect Rectangle defining the region of the texture to display
+    ///
+    /// \see getTextureRect, setTexture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='70' u='c' c='_ZN2sf5Shape10setTextureEPKNS_7TextureEb'/>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='86' ll='90' type='void sf::Shape::setTextureRect(const IntRect &amp; rect)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='85'>////////////////////////////////////////////////////////////</doc>

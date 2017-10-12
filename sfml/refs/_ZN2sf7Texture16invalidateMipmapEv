@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='612' type='void sf::Texture::invalidateMipmap()'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='605'>////////////////////////////////////////////////////////////
+    /// \brief Invalidate the mipmap if one exists
+    ///
+    /// This also resets the texture&apos;s minifying function.
+    /// This function is mainly for internal use by RenderTexture.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='141' u='c' c='_ZN2sf13RenderTexture7displayEv'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='703' ll='717' type='void sf::Texture::invalidateMipmap()'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='702'>////////////////////////////////////////////////////////////</doc>

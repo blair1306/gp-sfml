@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='57' type='static void sf::priv::JoystickImpl::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Perform the global initialization of the joystick module
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='105' u='c' c='_ZN2sf4priv15JoystickManagerC1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='451' ll='494' type='static void sf::priv::JoystickImpl::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='450'>////////////////////////////////////////////////////////////</doc>

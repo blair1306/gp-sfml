@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='93' type='static bool sf::Joystick::isConnected(unsigned int joystick)'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='35' ll='38' type='static bool sf::Joystick::isConnected(unsigned int joystick)'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='34'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='85'>////////////////////////////////////////////////////////////
+    /// \brief Check if a joystick is connected
+    ///
+    /// \param joystick Index of the joystick to check
+    ///
+    /// \return True if the joystick is connected, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>

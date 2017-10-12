@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='255' type='void sf::Texture::update(const Uint8 * pixels)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='239'>////////////////////////////////////////////////////////////
+    /// \brief Update the whole texture from an array of pixels
+    ///
+    /// The \a pixel array is assumed to have the same size as
+    /// the \a area rectangle, and to contain 32-bits RGBA pixels.
+    ///
+    /// No additional check is performed on the size of the pixel
+    /// array, passing invalid arguments will lead to an undefined
+    /// behavior.
+    ///
+    /// This function does nothing if \a pixels is null or if the
+    /// texture was not previously created.
+    ///
+    /// \param pixels Array of pixels to copy to the texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='403' ll='407' type='void sf::Texture::update(const Uint8 * pixels)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='402'>////////////////////////////////////////////////////////////</doc>

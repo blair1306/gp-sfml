@@ -1,0 +1,2 @@
+<dec f='include/libudev.h' l='105' type='const char * udev_device_get_action(struct udev_device * udev_device)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='119' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>

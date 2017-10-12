@@ -1,0 +1,11 @@
+<def f='include/c++/5/bits/stl_multimap.h' l='633' ll='635' type='void std::multimap::erase(iterator __position)'/>
+<doc f='include/c++/5/bits/stl_multimap.h' l='623'>/**
+       *  @brief Erases an element from a %multimap.
+       *  @param  __position  An iterator pointing to the element to be erased.
+       *
+       *  This function erases an element, pointed to by the given iterator,
+       *  from a %multimap.  Note that this function only erases the element,
+       *  and that if the element is itself a pointer, the pointed-to memory is
+       *  not touched in any way.  Managing the pointer is the user&apos;s
+       *  responsibility.
+       */</doc>

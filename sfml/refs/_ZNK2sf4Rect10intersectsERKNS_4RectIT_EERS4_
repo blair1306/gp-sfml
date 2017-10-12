@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='152' type='bool sf::Rect::intersects(const Rect&lt;T&gt; &amp; rectangle, Rect&lt;T&gt; &amp; intersection) const'/>
+<def f='codebrowser/include/SFML/Graphics/Rect.inl' l='108' ll='142' type='bool sf::Rect::intersects(const Rect&lt;T&gt; &amp; rectangle, Rect&lt;T&gt; &amp; intersection) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='138'>////////////////////////////////////////////////////////////
+    /// \brief Check the intersection between two rectangles
+    ///
+    /// This overload returns the overlapped rectangle in the
+    /// \a intersection parameter.
+    ///
+    /// \param rectangle    Rectangle to test
+    /// \param intersection Rectangle to be filled with the intersection
+    ///
+    /// \return True if rectangles overlap, false otherwise
+    ///
+    /// \see contains
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Rect.inl' l='107'>////////////////////////////////////////////////////////////</doc>

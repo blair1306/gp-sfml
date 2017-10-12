@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='238' type='int XRRGetScreenSizeRange(Display * dpy, Window window, int * minWidth, int * minHeight, int * maxWidth, int * maxHeight)'/>

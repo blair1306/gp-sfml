@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='279' type='bool sf::SoundStream::fillAndPushBuffer(unsigned int bufferNum, bool immediateLoop = false)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='265'>////////////////////////////////////////////////////////////
+    /// \brief Fill a new buffer with audio samples, and append
+    ///        it to the playing queue
+    ///
+    /// This function is called as soon as a buffer has been fully
+    /// consumed; it fills it again and inserts it back into the
+    /// playing queue.
+    ///
+    /// \param bufferNum Number of the buffer to fill (in [0, BufferCount])
+    /// \param immediateLoop Treat empty buffers as spent, and act on loops immediately
+    ///
+    /// \return True if the stream source has requested to stop, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='380' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='406' ll='462' type='bool sf::SoundStream::fillAndPushBuffer(unsigned int bufferNum, bool immediateLoop = false)'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='474' u='c' c='_ZN2sf11SoundStream9fillQueueEv'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='405'>////////////////////////////////////////////////////////////</doc>

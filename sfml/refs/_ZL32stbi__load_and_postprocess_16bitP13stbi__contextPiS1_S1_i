@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1081' ll='1104' type='stbi__uint16 * stbi__load_and_postprocess_16bit(stbi__context * s, int * x, int * y, int * comp, int req_comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1159' u='c' c='stbi_load_from_file_16'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1184' u='c' c='stbi_load_16_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1191' u='c' c='stbi_load_16_from_callbacks'/>

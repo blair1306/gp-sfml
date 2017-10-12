@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/stl_pair.h' l='219' ll='222' type='bool std::operator&lt;(const pair&lt;_T1, _T2&gt; &amp; __x, const pair&lt;_T1, _T2&gt; &amp; __y)'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='229' u='c' c='_ZN2sfltERKNS_9IpAddressES2_'/>

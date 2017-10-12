@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='116' type='sf::Transform'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='116'>///&lt; Transform</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='45' u='w' c='_ZN2sf12RenderStatesC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='55' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9TransformE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='65' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='75' u='w' c='_ZN2sf12RenderStatesC1EPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='85' u='w' c='_ZN2sf12RenderStatesC1EPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='96' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeERKNS_9TransformEPKNS_7TextureEPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='231' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='242' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='215' u='w' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='141' u='w' c='_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='334' u='w' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>

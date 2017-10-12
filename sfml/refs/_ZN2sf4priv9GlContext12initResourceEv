@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='59' type='static void sf::priv::GlContext::initResource()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Perform resource initialization
+    ///
+    /// This function is called every time an OpenGL resource is
+    /// created. When the first resource is initialized, it makes
+    /// sure that everything is ready for contexts to work properly.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='210' ll='282' type='static void sf::priv::GlContext::initResource()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='209'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlResource.cpp' l='37' u='c' c='_ZN2sf10GlResourceC1Ev'/>

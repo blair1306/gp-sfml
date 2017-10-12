@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='134' type='static bool sf::priv::GlContext::isExtensionAvailable(const char * name)'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='86' u='c' c='_ZN2sf7Context20isExtensionAvailableEPKc'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='126'>////////////////////////////////////////////////////////////
+    /// \brief Check whether a given OpenGL extension is available
+    ///
+    /// \param name Name of the extension to check for
+    ///
+    /// \return True if available, false if unavailable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='432' ll='435' type='static bool sf::priv::GlContext::isExtensionAvailable(const char * name)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='431'>////////////////////////////////////////////////////////////</doc>

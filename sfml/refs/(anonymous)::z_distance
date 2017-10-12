@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3836' type='stbi__zhuffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3951' u='a' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4016' u='a' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4109' u='a' c='_ZL16stbi__parse_zlibP10stbi__zbufi'/>
+<offset>16576</offset>

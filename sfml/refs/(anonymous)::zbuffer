@@ -1,0 +1,12 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3827' type='stbi_uc *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3841' u='r' c='_ZL11stbi__zget8P10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3842' u='w' c='_ZL11stbi__zget8P10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4040' u='r' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4043' u='r' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4044' u='w' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4134' u='w' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4155' u='w' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4169' u='w' c='stbi_zlib_decode_buffer'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4182' u='w' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4196' u='w' c='stbi_zlib_decode_noheader_buffer'/>
+<offset>0</offset>

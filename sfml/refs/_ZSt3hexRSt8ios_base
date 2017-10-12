@@ -1,0 +1,3 @@
+<def f='include/c++/5/bits/ios_base.h' l='1023' ll='1028' type='std::ios_base &amp; std::hex(std::ios_base &amp; __base)'/>
+<doc f='include/c++/5/bits/ios_base.h' l='1022'>/// Calls base.setf(ios_base::hex, ios_base::basefield).</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='255' u='r' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

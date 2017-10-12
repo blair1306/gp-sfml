@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='211' type='void sf::Music::setLoopPoints(TimeSpan timePoints)'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='120' ll='175' type='void sf::Music::setLoopPoints(TimeSpan timePoints)'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='119'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='191'>////////////////////////////////////////////////////////////
+    /// \brief Sets the beginning and end of the sound&apos;s looping sequence using sf::Time
+    ///
+    /// Loop points allow one to specify a pair of positions such that, when the music
+    /// is enabled for looping, it will seamlessly seek to the beginning whenever it
+    /// encounters the end. Valid ranges for timePoints.offset and timePoints.length are
+    /// [0, Dur) and (0, Dur-offset] respectively, where Dur is the value returned by getDuration().
+    /// Note that the EOF &quot;loop point&quot; from the end to the beginning of the stream is still honored,
+    /// in case the caller seeks to a point after the end of the loop range. This function can be
+    /// safely called at any point after a stream is opened, and will be applied to a playing sound
+    /// without affecting the current playing offset.
+    ///
+    /// \warning Setting the loop points while the stream&apos;s status is Paused
+    /// will set its status to Stopped. The playing offset will be unaffected.
+    ///
+    /// \param timePoints The definition of the loop. Can be any time points within the sound&apos;s length
+    ///
+    /// \see getLoopPoints
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='371' type='void sf::Text::draw(sf::RenderTarget &amp; target, sf::RenderStates states) const'/>
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='69' c='_ZNK2sf8Drawable4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='328' ll='343' type='void sf::Text::draw(sf::RenderTarget &amp; target, sf::RenderStates states) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='327'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='364'>////////////////////////////////////////////////////////////
+    /// \brief Draw the text to a render target
+    ///
+    /// \param target Render target to draw to
+    /// \param states Current render states
+    ///
+    ////////////////////////////////////////////////////////////</doc>

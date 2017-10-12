@@ -1,0 +1,4 @@
+<def f='include/c++/5/limits' l='1139' ll='1140' type='static long std::numeric_limits&lt;long&gt;::max()'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='236' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='258' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='268' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

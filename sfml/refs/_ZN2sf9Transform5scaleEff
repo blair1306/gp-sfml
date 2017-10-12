@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='278' type='sf::Transform &amp; sf::Transform::scale(float scaleX, float scaleY)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='260'>////////////////////////////////////////////////////////////
+    /// \brief Combine the current transform with a scaling
+    ///
+    /// This function returns a reference to *this, so that calls
+    /// can be chained.
+    /// \code
+    /// sf::Transform transform;
+    /// transform.scale(2, 1).rotate(45);
+    /// \endcode
+    ///
+    /// \param scaleX Scaling factor on the X axis
+    /// \param scaleY Scaling factor on the Y axis
+    ///
+    /// \return Reference to *this
+    ///
+    /// \see translate, rotate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='217' ll='224' type='sf::Transform &amp; sf::Transform::scale(float scaleX, float scaleY)'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='241' u='c' c='_ZN2sf9Transform5scaleERKNS_7Vector2IfEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='216'>////////////////////////////////////////////////////////////</doc>

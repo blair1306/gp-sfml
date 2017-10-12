@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='449' type='bool sf::Texture::isSrgb() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='441'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether the texture source is converted from sRGB or not
+    ///
+    /// \return True if the texture source is converted from sRGB, false if not
+    ///
+    /// \see setSrgb
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='624' ll='627' type='bool sf::Texture::isSrgb() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='623'>////////////////////////////////////////////////////////////</doc>

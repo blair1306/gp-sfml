@@ -1,0 +1,17 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1428' ll='1432' type='stbi__uint32 stbi__get32be(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4225' u='c' c='_ZL22stbi__get_chunk_headerP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4226' u='c' c='_ZL22stbi__get_chunk_headerP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4709' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4710' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4848' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5569' u='c' c='_ZL14stbi__psd_testP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5623' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5639' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5640' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5661' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5664' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5667' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5999' u='c' c='_ZL14stbi__pic_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6674' u='c' c='_ZL14stbi__psd_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6688' u='c' c='_ZL14stbi__psd_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6689' u='c' c='_ZL14stbi__psd_infoP13stbi__contextPiS1_S1_'/>

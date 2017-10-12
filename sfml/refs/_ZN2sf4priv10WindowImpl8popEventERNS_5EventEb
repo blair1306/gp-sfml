@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='115' type='bool sf::priv::WindowImpl::popEvent(sf::Event &amp; event, bool block)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='101'>////////////////////////////////////////////////////////////
+    /// \brief Return the next window event available
+    ///
+    /// If there&apos;s no event available, this function calls the
+    /// window&apos;s internal event processing function.
+    /// The \a block parameter controls the behavior of the function
+    /// if no event is available: if it is true then the function
+    /// doesn&apos;t return until a new event is triggered; otherwise it
+    /// returns false to indicate that no event is available.
+    ///
+    /// \param event Event to be returned
+    /// \param block Use true to block the thread until an event arrives
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='187' u='c' c='_ZN2sf6Window9pollEventERNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='201' u='c' c='_ZN2sf6Window9waitEventERNS_5EventE'/>
+<def f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='112' ll='148' type='bool sf::priv::WindowImpl::popEvent(sf::Event &amp; event, bool block)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='111'>////////////////////////////////////////////////////////////</doc>

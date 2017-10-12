@@ -1,0 +1,5 @@
+<dec f='include/X11/extensions/Xrandr.h' l='87' type='RROutput'/>
+<dec f='include/X11/extensions/Xrandr.h' l='116' type='RROutput'/>
+<offset>384</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='87'>/* affected output */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='116'>/* related output */</doc>

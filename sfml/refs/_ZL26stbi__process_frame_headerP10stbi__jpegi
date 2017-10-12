@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2951' ll='3032' type='int stbi__process_frame_header(stbi__jpeg * z, int scan)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3063' u='c' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>

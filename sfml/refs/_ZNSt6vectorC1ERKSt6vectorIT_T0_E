@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/stl_vector.h' l='318' ll='325' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(const vector&lt;_Tp, _Alloc&gt; &amp; __x)'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='309'>/**
+       *  @brief  %Vector copy constructor.
+       *  @param  __x  A %vector of identical element and allocator types.
+       *
+       *  The newly-created %vector uses a copy of the allocation
+       *  object used by @a __x.  All the elements of @a __x are copied,
+       *  but any extra memory in
+       *  @a __x (for fast expansion) will not be copied.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='53' u='c' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='93' u='c' c='_ZN2sf4FontC1ERKS0_'/>

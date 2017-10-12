@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Graphics/Texture.hpp' l='55' ll='59'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Types of texture coordinates that can be used for rendering
+    ///
+    ////////////////////////////////////////////////////////////</doc>

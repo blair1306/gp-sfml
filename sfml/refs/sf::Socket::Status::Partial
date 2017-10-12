@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='57' type='2'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='57'>///&lt; The socket sent a part of the data</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='254' u='r' c='_ZN2sf9TcpSocket4sendEPKvmRm'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='329' u='r' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>

@@ -1,0 +1,19 @@
+<use f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='67' u='w' c='_ZN2sf15ContextSettingsC1Ejjjjjjb'/>
+<dec f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='80' type='unsigned int'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='80'>///&lt; Minor number of the context version to create</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='580' u='w' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='590' u='w' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='596' u='w' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='627' u='r' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='650' u='r' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='708' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='709' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='719' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='728' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='659' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='664' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='716' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='719' u='w' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='727' u='w' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='743' u='w' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

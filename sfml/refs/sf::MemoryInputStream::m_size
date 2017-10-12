@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='108' type='Int64'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='108'>///&lt; Total size of the data</doc>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='37' u='w' c='_ZN2sf17MemoryInputStreamC1Ev'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='47' u='w' c='_ZN2sf17MemoryInputStream4openEPKvm'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='59' u='r' c='_ZN2sf17MemoryInputStream4readEPvx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='59' u='r' c='_ZN2sf17MemoryInputStream4readEPvx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='77' u='r' c='_ZN2sf17MemoryInputStream4seekEx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='77' u='r' c='_ZN2sf17MemoryInputStream4seekEx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='98' u='r' c='_ZN2sf17MemoryInputStream7getSizeEv'/>

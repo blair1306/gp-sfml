@@ -1,0 +1,16 @@
+<use f='codebrowser/include/SFML/Audio/Music.hpp' l='76' u='w' c='_ZN2sf5Music4SpanC1ET_S2_'/>
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='82' type='T'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='115' u='r' c='_ZNK2sf5Music13getLoopPointsEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='122' u='r' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='132' u='w' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='133' u='w' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='133' u='r' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='138' u='r' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='150' u='r' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='153' u='r' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='153' u='r' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='185' u='r' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='217' u='r' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='221' u='r' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='238' u='w' c='_ZN2sf5Music10initializeEv'/>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='82'>///&lt; The beginning offset of the time range</doc>

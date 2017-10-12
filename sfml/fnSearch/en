@@ -1,0 +1,16 @@
+_ZSt4endlRSt13basic_ostreamIT_T0_E|std::endl
+_ZSt4endsRSt13basic_ostreamIT_T0_E|std::ends
+_ZNSt8_Rb_tree3endEv|std::_Rb_tree::end
+_ZNKSt8multiset3endEv|std::multiset::end
+_ZNKSt3set3endEv|std::set::end
+_ZNSt17_Temporary_buffer3endEv|std::_Temporary_buffer::end
+_ZNSt6vector3endEv|std::vector::end
+_ZNSt3map3endEv|std::map::end
+_ZNSt8multimap3endEv|std::multimap::end
+_ZN2sf4priv20ensureExtensionsInitEv|sf::priv::ensureExtensionsInit
+_ZNK2sf4Text20ensureGeometryUpdateEv|sf::Text::ensureGeometryUpdate
+_ZNK2sf6Packet11endOfPacketEv|sf::Packet::endOfPacket
+_ZN2sf6String3endB5cxx11Ev|sf::String::end
+_ZN2sf4priv10ThreadImpl10entryPointEPv|sf::priv::ThreadImpl::entryPoint
+_ZN2sf4priv20ensureExtensionsInitEP9_XDisplayi|sf::priv::ensureExtensionsInit
+_ZNSt5deque3endEv|std::deque::end

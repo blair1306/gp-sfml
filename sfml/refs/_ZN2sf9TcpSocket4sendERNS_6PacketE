@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='192' type='sf::Socket::Status sf::TcpSocket::send(sf::Packet &amp; packet)'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='176'>////////////////////////////////////////////////////////////
+    /// \brief Send a formatted packet of data to the remote peer
+    ///
+    /// In non-blocking mode, if this function returns sf::Socket::Partial,
+    /// you \em must retry sending the same unmodified packet before sending
+    /// anything else in order to guarantee the packet arrives at the remote
+    /// peer uncorrupted.
+    /// This function will fail if the socket is not connected.
+    ///
+    /// \param packet Packet to send
+    ///
+    /// \return Status code
+    ///
+    /// \see receive
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='298' ll='339' type='Socket::Status sf::TcpSocket::send(sf::Packet &amp; packet)'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='297'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='291' type='sf::Time'/>
+<offset>448</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='291'>///&lt; Time period between calls to onProcessSamples</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='52' u='w' c='_ZN2sf13SoundRecorderC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='257' u='w' c='_ZN2sf13SoundRecorder21setProcessingIntervalENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='285' u='r' c='_ZN2sf13SoundRecorder6recordEv'/>

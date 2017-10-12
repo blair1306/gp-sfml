@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='125' type='unsigned int sf::InputSoundFile::getSampleRate() const'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='190' ll='193' type='unsigned int sf::InputSoundFile::getSampleRate() const'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='189'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='119'>////////////////////////////////////////////////////////////
+    /// \brief Get the sample rate of the sound
+    ///
+    /// \return Sample rate, in samples per second
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='242' u='c' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='245' u='c' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='223' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>

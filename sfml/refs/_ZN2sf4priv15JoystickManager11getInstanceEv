@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='54' type='static sf::priv::JoystickManager &amp; sf::priv::JoystickManager::getInstance()'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='37' u='c' c='_ZN2sf8Joystick11isConnectedEj'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='44' u='c' c='_ZN2sf8Joystick14getButtonCountEj'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='51' u='c' c='_ZN2sf8Joystick7hasAxisEjNS0_4AxisE'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='58' u='c' c='_ZN2sf8Joystick15isButtonPressedEjj'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='65' u='c' c='_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='72' u='c' c='_ZN2sf8Joystick17getIdentificationEj'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='79' u='c' c='_ZN2sf8Joystick6updateEv'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Get the global unique instance of the manager
+    ///
+    /// \return Unique instance of the joystick manager
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='36' ll='40' type='static sf::priv::JoystickManager &amp; sf::priv::JoystickManager::getInstance()'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='35'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='87' u='c' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='89' u='c' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='162' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='168' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='169' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

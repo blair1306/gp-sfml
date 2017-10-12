@@ -1,0 +1,10 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='180' ll='218'/>
+<size>16</size>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='179'>////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf6Shader13UniformBinderD1Ev'/>
+<mbr r='sf::Shader::UniformBinder::lock' o='8' t='sf::GlResource::TransientContextLock'/>
+<mbr r='sf::Shader::UniformBinder::savedProgram' o='32' t='GLhandleARB'/>
+<mbr r='sf::Shader::UniformBinder::currentProgram' o='64' t='GLhandleARB'/>
+<mbr r='sf::Shader::UniformBinder::location' o='96' t='GLint'/>

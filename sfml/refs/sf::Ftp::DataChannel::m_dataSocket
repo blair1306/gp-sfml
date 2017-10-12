@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Network/Ftp.cpp' l='64' type='sf::TcpSocket'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='568' u='m' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='600' u='m' c='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='612' u='m' c='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='639' u='m' c='_ZN2sf3Ftp11DataChannel4sendERSi'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='650' u='m' c='_ZN2sf3Ftp11DataChannel4sendERSi'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='64'>///&lt; Socket used for data transfers</doc>

@@ -1,0 +1,3 @@
+<dec f='include/linux/input-event-codes.h' l='686'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='623' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='673' u='c'/>

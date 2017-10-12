@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='123' type='sf::priv::SensorImpl'/>
+<offset>16</offset>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='123'>///&lt; Sensor implementation</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='57' u='m' c='_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='87' u='m' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='107' u='m' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='108' u='m' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='120' u='m' c='_ZN2sf4priv13SensorManagerD1Ev'/>

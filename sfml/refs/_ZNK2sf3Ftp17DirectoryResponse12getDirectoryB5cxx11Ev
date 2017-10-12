@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='206' type='const std::string &amp; sf::Ftp::DirectoryResponse::getDirectory() const'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='113' ll='116' type='const std::string &amp; sf::Ftp::DirectoryResponse::getDirectory() const'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='112'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='200'>////////////////////////////////////////////////////////////
+        /// \brief Get the directory returned in the response
+        ///
+        /// \return Directory name
+        ///
+        ////////////////////////////////////////////////////////////</doc>

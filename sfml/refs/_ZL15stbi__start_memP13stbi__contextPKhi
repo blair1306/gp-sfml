@@ -1,0 +1,7 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='702' ll='708' type='void stbi__start_mem(stbi__context * s, const stbi_uc * buffer, int len)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1183' u='c' c='stbi_load_16_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1197' u='c' c='stbi_load_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1230' u='c' c='stbi_loadf_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1270' u='c' c='stbi_is_hdr_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6957' u='c' c='stbi_info_from_memory'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='701'>// initialize a memory-decode context</doc>

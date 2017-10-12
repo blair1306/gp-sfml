@@ -1,0 +1,12 @@
+<dec f='include/c++/5/debug/debug.h' l='62'/>
+<use f='include/c++/5/bits/basic_string.h' l='854' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1436' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1476' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1495' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1668' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1711' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1754' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1768' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1779' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1790' u='c'/>
+<use f='include/c++/5/bits/basic_string.h' l='1801' u='c'/>

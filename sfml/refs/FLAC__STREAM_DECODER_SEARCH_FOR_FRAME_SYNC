@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='210' type='2'/>
+<doc f='include/FLAC/stream_decoder.h' l='208'>/**&lt; The decoder is ready to or is in the process of reading metadata. */</doc>

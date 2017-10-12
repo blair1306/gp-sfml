@@ -1,0 +1,3 @@
+<dec f='include/X11/extensions/Xrender.h' l='198' type='XFixed'/>
+<offset>64</offset>
+<doc f='include/X11/extensions/Xrender.h' l='198'>/* in degrees */</doc>

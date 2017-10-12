@@ -1,0 +1,13 @@
+<def f='include/c++/5/sstream' l='367' ll='492'/>
+<inh f='include/c++/5/bits/istream.tcc' l='1040' c='std::basic_istream'/>
+<def f='include/c++/5/bits/sstream.tcc' l='273'/>
+<inh f='include/c++/5/bits/istream.tcc' l='1066' c='std::basic_istream'/>
+<def f='include/c++/5/bits/sstream.tcc' l='279'/>
+<size>384</size>
+<mbr r='std::__cxx11::basic_istringstream::_M_stringbuf' t='__stringbuf_type'/>
+<fun r='_ZNSt7__cxx1119basic_istringstreamC1ESt13_Ios_Openmode'/>
+<fun r='_ZNSt7__cxx1119basic_istringstreamC1ERKNS_12basic_stringIT_T0_T1_EESt13_Ios_Openmode'/>
+<fun r='_ZNSt7__cxx1119basic_istringstreamD1Ev'/>
+<fun r='_ZNKSt7__cxx1119basic_istringstream5rdbufEv'/>
+<fun r='_ZNKSt7__cxx1119basic_istringstream3strEv'/>
+<fun r='_ZNSt7__cxx1119basic_istringstream3strERKNS_12basic_stringIT_T0_T1_EE'/>

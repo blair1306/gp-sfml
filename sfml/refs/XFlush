@@ -1,0 +1,14 @@
+<dec f='include/X11/Xlib.h' l='2507' type='int XFlush(Display * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='201' u='c' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='279' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='296' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEERKNS_6WindowE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='743' u='c' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='856' u='c' c='_ZN2sf4priv13WindowImplX1111setPositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='884' u='c' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1026' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1037' u='c' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1048' u='c' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1062' u='c' c='_ZN2sf4priv13WindowImplX1121setMouseCursorVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1214' u='c' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1223' u='c' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1484' u='c' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>

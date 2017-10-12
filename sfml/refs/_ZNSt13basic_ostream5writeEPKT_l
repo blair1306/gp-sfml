@@ -1,0 +1,30 @@
+<dec f='include/c++/5/ostream' l='335' type='__ostream_type &amp; std::basic_ostream::write(const char_type * __s, streamsize __n)'/>
+<def f='include/c++/5/bits/ostream.tcc' l='180' ll='206' type='basic_ostream&lt;_CharT, _Traits&gt; &amp; std::basic_ostream::write(const _CharT * __s, streamsize __n)'/>
+<doc f='include/c++/5/ostream' l='318'>/**
+       *  @brief  Character string insertion.
+       *  @param  __s  The array to insert.
+       *  @param  __n  Maximum number of characters to insert.
+       *  @return  *this
+       *
+       *  Characters are copied from @p __s and inserted into the stream until
+       *  one of the following happens:
+       *
+       *  - @p __n characters are inserted
+       *  - inserting into the output sequence fails (in this case, badbit
+       *    will be set in the stream&apos;s error state)
+       *
+       *  @note  This function is not overloaded on signed char and
+       *         unsigned char.
+      */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='122' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='123' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='184' u='c' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='185' u='c' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='47' u='c' c='_ZN12_GLOBAL__N_16encodeERSos'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='57' u='c' c='_ZN12_GLOBAL__N_16encodeERSot'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='69' u='c' c='_ZN12_GLOBAL__N_16encodeERSoj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='147' u='c' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='153' u='c' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='157' u='c' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='177' u='c' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='602' u='c' c='_ZN2sf3Ftp11DataChannel7receiveERSo'/>

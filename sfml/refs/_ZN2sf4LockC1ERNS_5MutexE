@@ -1,0 +1,49 @@
+<dec f='codebrowser/include/SFML/System/Lock.hpp' l='55' type='void sf::Lock::Lock(sf::Mutex &amp; mutex)'/>
+<use f='codebrowser/src/SFML/Audio/AlResource.cpp' l='53' u='c' c='_ZN2sf10AlResourceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AlResource.cpp' l='68' u='c' c='_ZN2sf10AlResourceD1Ev'/>
+<doc f='codebrowser/include/SFML/System/Lock.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Construct the lock with a target mutex
+    ///
+    /// The mutex passed to sf::Lock is automatically locked.
+    ///
+    /// \param mutex Mutex to lock
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='181' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='206' u='c' c='_ZN2sf5Music6onSeekENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='215' u='c' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='67' u='c' c='_ZN2sf11SoundStreamD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='111' u='c' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='121' u='c' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='144' u='c' c='_ZN2sf11SoundStream5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='161' u='c' c='_ZN2sf11SoundStream4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='195' u='c' c='_ZNK2sf11SoundStream9getStatusEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='274' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='296' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='306' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='322' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='366' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='74' u='c' c='_ZN12_GLOBAL__N_118getMaxTextureUnitsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='776' u='c' c='_ZN2sf6Shader11isAvailableEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='804' u='c' c='_ZN2sf6Shader19isGeometryAvailableEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='50' u='c' c='_ZN12_GLOBAL__N_111getUniqueIdEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='779' u='c' c='_ZN2sf7Texture14getMaximumSizeEv'/>
+<def f='codebrowser/src/SFML/System/Lock.cpp' l='35' ll='39' type='void sf::Lock::Lock(sf::Mutex &amp; mutex)'/>
+<doc f='codebrowser/src/SFML/System/Lock.cpp' l='34'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='168' u='c' c='_ZN12_GLOBAL__N_116TransientContextC1Ev'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='213' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='289' u='c' c='_ZN2sf4priv9GlContext15cleanupResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='311' u='c' c='_ZN2sf4priv9GlContext23acquireTransientContextEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='327' u='c' c='_ZN2sf4priv9GlContext23releaseTransientContextEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='351' u='c' c='_ZN2sf4priv9GlContext6createEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='379' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='408' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='443' u='c' c='_ZN2sf4priv9GlContext11getFunctionEPKc'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='481' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='505' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='56' u='c' c='_ZN2sf4priv11OpenDisplayEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='79' u='c' c='_ZN2sf4priv12CloseDisplayEP9_XDisplay'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='57' u='c' c='_ZN12_GLOBAL__N_115GlxErrorHandlerC1EP9_XDisplay'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='754' u='c' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1124' u='c' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1487' u='c' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>

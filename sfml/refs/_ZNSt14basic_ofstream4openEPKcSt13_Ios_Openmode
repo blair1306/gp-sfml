@@ -1,0 +1,14 @@
+<def f='include/c++/5/fstream' l='798' ll='808' type='void std::basic_ofstream::open(const char * __s, ios_base::openmode __mode = ios_base::out | ios_base::trunc)'/>
+<doc f='include/c++/5/fstream' l='787'>/**
+       *  @brief  Opens an external file.
+       *  @param  __s  The name of the file.
+       *  @param  __mode  The open mode flags.
+       *
+       *  Calls @c std::basic_filebuf::open(__s,__mode|out|trunc).  If that
+       *  function fails, @c failbit is set in the stream&apos;s error state.
+       *
+       *  Tip:  When using std::string to hold the filename, you must use
+       *  .c_str() before passing it to this constructor.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='90' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='107' u='c' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>

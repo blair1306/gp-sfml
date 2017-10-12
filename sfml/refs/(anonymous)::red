@@ -1,0 +1,14 @@
+<dec f='include/X11/Xlib.h' l='412' type='unsigned short'/>
+<offset>64</offset>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='97' u='w' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='98' u='w' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<dec f='include/X11/extensions/Xrender.h' l='36' type='short'/>
+<dec f='include/X11/extensions/Xrender.h' l='84' type='unsigned short'/>
+<offset>0</offset>
+<dec f='include/X11/Xproto.h' l='404' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='411' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='745' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1797' type='CARD16'/>
+<dec f='include/X11/Xproto.h' l='1823' type='CARD16'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1528' u='w' c='_ZN2sf4priv13WindowImplX1118createHiddenCursorEv'/>
+<offset>80</offset>

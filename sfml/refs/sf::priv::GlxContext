@@ -1,0 +1,26 @@
+<inh f='codebrowser/src/SFML/Window/GlContext.hpp' l='47' c='sf::priv::GlContext'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='44' ll='186'/>
+<size>80</size>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Linux (GLX) implementation of OpenGL contexts
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<fun r='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<fun r='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<fun r='_ZN2sf4priv10GlxContextD1Ev'/>
+<fun r='_ZN2sf4priv10GlxContext11getFunctionEPKc'/>
+<fun r='_ZN2sf4priv10GlxContext11makeCurrentEb'/>
+<fun r='_ZN2sf4priv10GlxContext7displayEv'/>
+<fun r='_ZN2sf4priv10GlxContext22setVerticalSyncEnabledEb'/>
+<fun r='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<fun r='_ZN2sf4priv10GlxContext24updateSettingsFromWindowEv'/>
+<fun r='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<fun r='_ZN2sf4priv10GlxContext13createSurfaceEm'/>
+<fun r='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<mbr r='sf::priv::GlxContext::m_display' o='320' t='::Display *'/>
+<mbr r='sf::priv::GlxContext::m_window' o='384' t='::Window'/>
+<mbr r='sf::priv::GlxContext::m_context' o='448' t='GLXContext'/>
+<mbr r='sf::priv::GlxContext::m_pbuffer' o='512' t='GLXPbuffer'/>
+<mbr r='sf::priv::GlxContext::m_ownsWindow' o='576' t='bool'/>

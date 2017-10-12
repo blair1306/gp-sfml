@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='102' type='Uint64 sf::SoundFileReader::read(Int16 * samples, Uint64 maxCount)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='250' u='c' c='_ZN2sf14InputSoundFile4readEPsy'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='93'>////////////////////////////////////////////////////////////
+    /// \brief Read audio samples from the open file
+    ///
+    /// \param samples  Pointer to the sample array to fill
+    /// \param maxCount Maximum number of samples to read
+    ///
+    /// \return Number of samples actually read (may be less than \a maxCount)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='282' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='139' c='_ZN2sf4priv18SoundFileReaderOgg4readEPsy'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='144' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>

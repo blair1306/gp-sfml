@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='212' type='300'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='211'>// 3xx: redirection</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='212'>///&lt; The requested page can be accessed from several locations</doc>

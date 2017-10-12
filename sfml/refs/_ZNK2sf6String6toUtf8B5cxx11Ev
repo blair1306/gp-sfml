@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='276' type='std::basic_string&lt;Uint8&gt; sf::String::toUtf8() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='268'>////////////////////////////////////////////////////////////
+    /// \brief Convert the Unicode string to a UTF-8 string
+    ///
+    /// \return Converted UTF-8 string
+    ///
+    /// \see toUtf16, toUtf32
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='178' ll='188' type='std::basic_string&lt;Uint8&gt; sf::String::toUtf8() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='177'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='137' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>

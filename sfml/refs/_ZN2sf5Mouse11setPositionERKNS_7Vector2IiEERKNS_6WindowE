@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='127' type='static void sf::Mouse::setPosition(const Vector2i &amp; position, const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='117'>////////////////////////////////////////////////////////////
+    /// \brief Set the current position of the mouse in window coordinates
+    ///
+    /// This function sets the current position of the mouse
+    /// cursor, relative to the given window.
+    ///
+    /// \param position New position of the mouse
+    /// \param relativeTo Reference window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Mouse.cpp' l='64' ll='67' type='static void sf::Mouse::setPosition(const Vector2i &amp; position, const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Mouse.cpp' l='63'>////////////////////////////////////////////////////////////</doc>

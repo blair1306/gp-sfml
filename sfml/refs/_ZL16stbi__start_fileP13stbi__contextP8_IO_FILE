@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='746' ll='749' type='void stbi__start_file(stbi__context * s, FILE * f)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1145' u='c' c='stbi_load_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1158' u='c' c='stbi_load_from_file_16'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1255' u='c' c='stbi_loadf_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1295' u='c' c='stbi_is_hdr_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6947' u='c' c='stbi_info_from_file'/>

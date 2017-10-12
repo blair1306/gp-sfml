@@ -1,0 +1,35 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='312' type='void sf::RenderTarget::pushGLStates()'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='317' ll='345' type='void sf::RenderTarget::pushGLStates()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='316'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='280'>////////////////////////////////////////////////////////////
+    /// \brief Save the current OpenGL render states and matrices
+    ///
+    /// This function can be used when you mix SFML drawing
+    /// and direct OpenGL rendering. Combined with popGLStates,
+    /// it ensures that:
+    /// \li SFML&apos;s internal states are not messed up by your OpenGL code
+    /// \li your OpenGL states are not modified by a call to a SFML function
+    ///
+    /// More specifically, it must be used around code that
+    /// calls Draw functions. Example:
+    /// \code
+    /// // OpenGL code here...
+    /// window.pushGLStates();
+    /// window.draw(...);
+    /// window.draw(...);
+    /// window.popGLStates();
+    /// // OpenGL code here...
+    /// \endcode
+    ///
+    /// Note that this function is quite expensive: it saves all the
+    /// possible OpenGL states and matrices, even the ones you
+    /// don&apos;t care about. Therefore it should be used wisely.
+    /// It is provided for convenience, but the best results will
+    /// be achieved if you handle OpenGL states yourself (because
+    /// you know which states have really changed, and need to be
+    /// saved and restored). Take a look at the resetGLStates
+    /// function if you do so.
+    ///
+    /// \see popGLStates
+    ///
+    ////////////////////////////////////////////////////////////</doc>

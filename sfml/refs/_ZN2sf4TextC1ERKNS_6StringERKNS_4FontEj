@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='88' type='void sf::Text::Text(const sf::String &amp; string, const sf::Font &amp; font, unsigned int characterSize = 30)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='94' ll='108' type='void sf::Text::Text(const sf::String &amp; string, const sf::Font &amp; font, unsigned int characterSize = 30)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='93'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='73'>////////////////////////////////////////////////////////////
+    /// \brief Construct the text from a string, font and size
+    ///
+    /// Note that if the used font is a bitmap font, it is not
+    /// scalable, thus not all requested sizes will be available
+    /// to use. This needs to be taken into consideration when
+    /// setting the character size. If you need to display text
+    /// of a certain size, make sure the corresponding bitmap
+    /// font that supports that size is used.
+    ///
+    /// \param string         Text assigned to the string
+    /// \param font           Font used to draw the string
+    /// \param characterSize  Base size of characters, in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>

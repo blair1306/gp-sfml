@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='132' type='bool sf::RenderTexture::isRepeated() const'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='113' ll='116' type='bool sf::RenderTexture::isRepeated() const'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='112'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='124'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether the texture is repeated or not
+    ///
+    /// \return True if texture is repeated
+    ///
+    /// \see setRepeated
+    ///
+    ////////////////////////////////////////////////////////////</doc>

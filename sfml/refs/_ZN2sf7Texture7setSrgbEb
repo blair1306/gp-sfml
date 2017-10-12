@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='439' type='void sf::Texture::setSrgb(bool sRgb)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='416'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable conversion from sRGB
+    ///
+    /// When providing texture data from an image file or memory, it can
+    /// either be stored in a linear color space or an sRGB color space.
+    /// Most digital images account for gamma correction already, so they
+    /// would need to be &quot;uncorrected&quot; back to linear color space before
+    /// being processed by the hardware. The hardware can automatically
+    /// convert it from the sRGB color space to a linear color space when
+    /// it gets sampled. When the rendered image gets output to the final
+    /// framebuffer, it gets converted back to sRGB.
+    ///
+    /// After enabling or disabling sRGB conversion, make sure to reload
+    /// the texture data in order for the setting to take effect.
+    ///
+    /// This option is only useful in conjunction with an sRGB capable
+    /// framebuffer. This can be requested during window creation.
+    ///
+    /// \param sRgb True to enable sRGB conversion, false to disable it
+    ///
+    /// \see isSrgb
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='617' ll='620' type='void sf::Texture::setSrgb(bool sRgb)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='616'>////////////////////////////////////////////////////////////</doc>

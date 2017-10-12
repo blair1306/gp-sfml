@@ -1,0 +1,18 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='234' type='FT_StrokerBorder FT_Outline_GetInsideBorder(FT_Outline * outline)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='216'>/**************************************************************
+   *
+   * @function:
+   *   FT_Outline_GetInsideBorder
+   *
+   * @description:
+   *   Retrieve the @FT_StrokerBorder value corresponding to the
+   *   `inside&apos; borders of a given outline.
+   *
+   * @input:
+   *   outline ::
+   *     The source outline handle.
+   *
+   * @return:
+   *   The border index.  @FT_STROKER_BORDER_RIGHT for empty or invalid
+   *   outlines.
+   */</doc>

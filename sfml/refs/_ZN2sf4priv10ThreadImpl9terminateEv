@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='67' type='void sf::priv::ThreadImpl::terminate()'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='73' u='c' c='_ZN2sf6Thread9terminateEv'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Terminate the thread
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='61' ll='72' type='void sf::priv::ThreadImpl::terminate()'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='60'>////////////////////////////////////////////////////////////</doc>

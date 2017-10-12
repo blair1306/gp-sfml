@@ -1,0 +1,4 @@
+<dec f='include/c++/5/bits/basic_string.h' l='4810' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(_CharT __lhs, const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __rhs)'/>
+<def f='include/c++/5/bits/basic_string.tcc' l='1166' ll='1177' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(_CharT __lhs, const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __rhs)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='438' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='462' u='c' c='_ZN2sf3Ftp11getResponseEv'/>

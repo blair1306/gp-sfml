@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='164' type='static bool sf::Keyboard::isKeyPressed(sf::Keyboard::Key key)'/>
+<def f='codebrowser/src/SFML/Window/Keyboard.cpp' l='35' ll='38' type='static bool sf::Keyboard::isKeyPressed(sf::Keyboard::Key key)'/>
+<doc f='codebrowser/src/SFML/Window/Keyboard.cpp' l='34'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='156'>////////////////////////////////////////////////////////////
+    /// \brief Check if a key is pressed
+    ///
+    /// \param key Key to check
+    ///
+    /// \return True if the key is pressed, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>

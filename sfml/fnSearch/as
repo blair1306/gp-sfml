@@ -1,0 +1,6 @@
+_ZNSt6vector6assignEmRKT_|std::vector::assign
+_ZSt4asinf|std::asin
+_ZNK2sf4Time14asMicrosecondsEv|sf::Time::asMicroseconds
+_ZNK2sf4Time14asMillisecondsEv|sf::Time::asMilliseconds
+_ZNK2sf4Time9asSecondsEv|sf::Time::asSeconds
+_ZNSt5deque6assignEmRKT_|std::deque::assign

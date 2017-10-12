@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='351' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Ivec2 &amp; vector)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='344'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p ivec2 uniform
+    ///
+    /// \param name   Name of the uniform variable in GLSL
+    /// \param vector Value of the ivec2 vector
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='471' ll='476' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Ivec2 &amp; v)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='507' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IbEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='470'>////////////////////////////////////////////////////////////</doc>

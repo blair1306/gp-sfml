@@ -1,0 +1,894 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Shader.hpp source code [codebrowser/include/SFML/Graphics/Shader.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Shader "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Graphics/Shader.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='Shader.hpp.html'>Shader.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_SHADER_HPP">SFML_SHADER_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_SHADER_HPP" data-ref="_M/SFML_SHADER_HPP">SFML_SHADER_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Graphics/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Glsl.hpp.html">&lt;SFML/Graphics/Glsl.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../Window/GlResource.hpp.html">&lt;SFML/Window/GlResource.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../System/NonCopyable.hpp.html">&lt;SFML/System/NonCopyable.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../System/Vector2.hpp.html">&lt;SFML/System/Vector2.hpp&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../System/Vector3.hpp.html">&lt;SFML/System/Vector3.hpp&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="../../../../include/c++/5/map.html">&lt;map&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td><b>class</b> <a class="type" href="Color.hpp.html#sf::Color" title='sf::Color' data-ref="sf::Color" id="sf::Color">Color</a>;</td></tr>
+<tr><th id="44">44</th><td><b>class</b> <dfn class="type" id="sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</dfn>;</td></tr>
+<tr><th id="45">45</th><td><b>class</b> <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture" id="sf::Texture">Texture</a>;</td></tr>
+<tr><th id="46">46</th><td><b>class</b> <a class="type" href="Transform.hpp.html#sf::Transform" title='sf::Transform' data-ref="sf::Transform" id="sf::Transform">Transform</a>;</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td><i>/// \brief Shader class (vertex, geometry and fragment)</i></td></tr>
+<tr><th id="50">50</th><td><i>///</i></td></tr>
+<tr><th id="51">51</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="52">52</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <dfn class="type def" id="sf::Shader" title='sf::Shader' data-ref="sf::Shader">Shader</dfn> : <a class="type" href="../Window/GlResource.hpp.html#sf::GlResource" title='sf::GlResource' data-ref="sf::GlResource">GlResource</a>, <a class="type" href="../System/NonCopyable.hpp.html#sf::NonCopyable" title='sf::NonCopyable' data-ref="sf::NonCopyable">NonCopyable</a></td></tr>
+<tr><th id="53">53</th><td>{</td></tr>
+<tr><th id="54">54</th><td><b>public</b>:</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// \brief Types of shaders</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///</i></td></tr>
+<tr><th id="59">59</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td>    <b>enum</b> <dfn class="type def" id="sf::Shader::Type" title='sf::Shader::Type' data-ref="sf::Shader::Type">Type</dfn></td></tr>
+<tr><th id="61">61</th><td>    {</td></tr>
+<tr><th id="62">62</th><td>        <dfn class="enum" id="sf::Shader::Type::Vertex" title='sf::Shader::Type::Vertex' data-ref="sf::Shader::Type::Vertex">Vertex</dfn>,   <i class="doc">///&lt; %Vertex shader</i></td></tr>
+<tr><th id="63">63</th><td>        <dfn class="enum" id="sf::Shader::Type::Geometry" title='sf::Shader::Type::Geometry' data-ref="sf::Shader::Type::Geometry">Geometry</dfn>, <i class="doc">///&lt; Geometry shader</i></td></tr>
+<tr><th id="64">64</th><td>        <dfn class="enum" id="sf::Shader::Type::Fragment" title='sf::Shader::Type::Fragment' data-ref="sf::Shader::Type::Fragment">Fragment</dfn>  <i class="doc">///&lt; Fragment (pixel) shader</i></td></tr>
+<tr><th id="65">65</th><td>    };</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="68">68</th><td><i>    /// \brief Special type that can be passed to setUniform(),</i></td></tr>
+<tr><th id="69">69</th><td><i>    ///        and that represents the texture of the object being drawn</i></td></tr>
+<tr><th id="70">70</th><td><i>    ///</i></td></tr>
+<tr><th id="71">71</th><td><i>    /// \see setUniform(const std::string&amp;, CurrentTextureType)</i></td></tr>
+<tr><th id="72">72</th><td><i>    ///</i></td></tr>
+<tr><th id="73">73</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td>    <b>struct</b> <dfn class="type def" id="sf::Shader::CurrentTextureType" title='sf::Shader::CurrentTextureType' data-ref="sf::Shader::CurrentTextureType">CurrentTextureType</dfn> {};</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="77">77</th><td><i>    /// \brief Represents the texture of the object being drawn</i></td></tr>
+<tr><th id="78">78</th><td><i>    ///</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// \see setUniform(const std::string&amp;, CurrentTextureType)</i></td></tr>
+<tr><th id="80">80</th><td><i>    ///</i></td></tr>
+<tr><th id="81">81</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="82">82</th><td>    <em>static</em> <a class="type" href="#sf::Shader::CurrentTextureType" title='sf::Shader::CurrentTextureType' data-ref="sf::Shader::CurrentTextureType">CurrentTextureType</a> <dfn class="decl" id="sf::Shader::CurrentTexture" title='sf::Shader::CurrentTexture' data-ref="sf::Shader::CurrentTexture">CurrentTexture</dfn>;</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><b>public</b>:</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="87">87</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="88">88</th><td><i>    ///</i></td></tr>
+<tr><th id="89">89</th><td><i>    /// This constructor creates an invalid shader.</i></td></tr>
+<tr><th id="90">90</th><td><i>    ///</i></td></tr>
+<tr><th id="91">91</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="92">92</th><td>    <dfn class="decl" id="_ZN2sf6ShaderC1Ev" title='sf::Shader::Shader' data-ref="_ZN2sf6ShaderC1Ev">Shader</dfn>();</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="96">96</th><td><i>    ///</i></td></tr>
+<tr><th id="97">97</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="98">98</th><td>    <dfn class="decl" id="_ZN2sf6ShaderD1Ev" title='sf::Shader::~Shader' data-ref="_ZN2sf6ShaderD1Ev">~Shader</dfn>();</td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="101">101</th><td><i>    /// \brief Load the vertex, geometry or fragment shader from a file</i></td></tr>
+<tr><th id="102">102</th><td><i>    ///</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// This function loads a single shader, vertex, geometry or</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// fragment, identified by the second argument.</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// The source must be a text file containing a valid</i></td></tr>
+<tr><th id="106">106</th><td><i>    /// shader in GLSL language. GLSL is a C-like language</i></td></tr>
+<tr><th id="107">107</th><td><i>    /// dedicated to OpenGL shaders; you'll probably need to</i></td></tr>
+<tr><th id="108">108</th><td><i>    /// read a good documentation for it before writing your</i></td></tr>
+<tr><th id="109">109</th><td><i>    /// own shaders.</i></td></tr>
+<tr><th id="110">110</th><td><i>    ///</i></td></tr>
+<tr><th id="111">111</th><td><i>    /// \param filename Path of the vertex, geometry or fragment shader file to load</i></td></tr>
+<tr><th id="112">112</th><td><i>    /// \param type     Type of shader (vertex, geometry or fragment)</i></td></tr>
+<tr><th id="113">113</th><td><i>    ///</i></td></tr>
+<tr><th id="114">114</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="115">115</th><td><i>    ///</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// \see loadFromMemory, loadFromStream</i></td></tr>
+<tr><th id="117">117</th><td><i>    ///</i></td></tr>
+<tr><th id="118">118</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="119">119</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE" title='sf::Shader::loadFromFile' data-ref="_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE">loadFromFile</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="38filename" title='filename' data-type='const std::string &amp;' data-ref="38filename">filename</dfn>, <a class="type" href="#sf::Shader::Type" title='sf::Shader::Type' data-ref="sf::Shader::Type">Type</a> <dfn class="local col9 decl" id="39type" title='type' data-type='sf::Shader::Type' data-ref="39type">type</dfn>);</td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="122">122</th><td><i>    /// \brief Load both the vertex and fragment shaders from files</i></td></tr>
+<tr><th id="123">123</th><td><i>    ///</i></td></tr>
+<tr><th id="124">124</th><td><i>    /// This function loads both the vertex and the fragment</i></td></tr>
+<tr><th id="125">125</th><td><i>    /// shaders. If one of them fails to load, the shader is left</i></td></tr>
+<tr><th id="126">126</th><td><i>    /// empty (the valid shader is unloaded).</i></td></tr>
+<tr><th id="127">127</th><td><i>    /// The sources must be text files containing valid shaders</i></td></tr>
+<tr><th id="128">128</th><td><i>    /// in GLSL language. GLSL is a C-like language dedicated to</i></td></tr>
+<tr><th id="129">129</th><td><i>    /// OpenGL shaders; you'll probably need to read a good documentation</i></td></tr>
+<tr><th id="130">130</th><td><i>    /// for it before writing your own shaders.</i></td></tr>
+<tr><th id="131">131</th><td><i>    ///</i></td></tr>
+<tr><th id="132">132</th><td><i>    /// \param vertexShaderFilename   Path of the vertex shader file to load</i></td></tr>
+<tr><th id="133">133</th><td><i>    /// \param fragmentShaderFilename Path of the fragment shader file to load</i></td></tr>
+<tr><th id="134">134</th><td><i>    ///</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="136">136</th><td><i>    ///</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// \see loadFromMemory, loadFromStream</i></td></tr>
+<tr><th id="138">138</th><td><i>    ///</i></td></tr>
+<tr><th id="139">139</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="140">140</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" title='sf::Shader::loadFromFile' data-ref="_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_">loadFromFile</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="40vertexShaderFilename" title='vertexShaderFilename' data-type='const std::string &amp;' data-ref="40vertexShaderFilename">vertexShaderFilename</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="41fragmentShaderFilename" title='fragmentShaderFilename' data-type='const std::string &amp;' data-ref="41fragmentShaderFilename">fragmentShaderFilename</dfn>);</td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="143">143</th><td><i>    /// \brief Load the vertex, geometry and fragment shaders from files</i></td></tr>
+<tr><th id="144">144</th><td><i>    ///</i></td></tr>
+<tr><th id="145">145</th><td><i>    /// This function loads the vertex, geometry and fragment</i></td></tr>
+<tr><th id="146">146</th><td><i>    /// shaders. If one of them fails to load, the shader is left</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// empty (the valid shader is unloaded).</i></td></tr>
+<tr><th id="148">148</th><td><i>    /// The sources must be text files containing valid shaders</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// in GLSL language. GLSL is a C-like language dedicated to</i></td></tr>
+<tr><th id="150">150</th><td><i>    /// OpenGL shaders; you'll probably need to read a good documentation</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// for it before writing your own shaders.</i></td></tr>
+<tr><th id="152">152</th><td><i>    ///</i></td></tr>
+<tr><th id="153">153</th><td><i>    /// \param vertexShaderFilename   Path of the vertex shader file to load</i></td></tr>
+<tr><th id="154">154</th><td><i>    /// \param geometryShaderFilename Path of the geometry shader file to load</i></td></tr>
+<tr><th id="155">155</th><td><i>    /// \param fragmentShaderFilename Path of the fragment shader file to load</i></td></tr>
+<tr><th id="156">156</th><td><i>    ///</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="158">158</th><td><i>    ///</i></td></tr>
+<tr><th id="159">159</th><td><i>    /// \see loadFromMemory, loadFromStream</i></td></tr>
+<tr><th id="160">160</th><td><i>    ///</i></td></tr>
+<tr><th id="161">161</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="162">162</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_" title='sf::Shader::loadFromFile' data-ref="_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_">loadFromFile</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col2 decl" id="42vertexShaderFilename" title='vertexShaderFilename' data-type='const std::string &amp;' data-ref="42vertexShaderFilename">vertexShaderFilename</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="43geometryShaderFilename" title='geometryShaderFilename' data-type='const std::string &amp;' data-ref="43geometryShaderFilename">geometryShaderFilename</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col4 decl" id="44fragmentShaderFilename" title='fragmentShaderFilename' data-type='const std::string &amp;' data-ref="44fragmentShaderFilename">fragmentShaderFilename</dfn>);</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="165">165</th><td><i>    /// \brief Load the vertex, geometry or fragment shader from a source code in memory</i></td></tr>
+<tr><th id="166">166</th><td><i>    ///</i></td></tr>
+<tr><th id="167">167</th><td><i>    /// This function loads a single shader, vertex, geometry</i></td></tr>
+<tr><th id="168">168</th><td><i>    /// or fragment, identified by the second argument.</i></td></tr>
+<tr><th id="169">169</th><td><i>    /// The source code must be a valid shader in GLSL language.</i></td></tr>
+<tr><th id="170">170</th><td><i>    /// GLSL is a C-like language dedicated to OpenGL shaders;</i></td></tr>
+<tr><th id="171">171</th><td><i>    /// you'll probably need to read a good documentation for</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// it before writing your own shaders.</i></td></tr>
+<tr><th id="173">173</th><td><i>    ///</i></td></tr>
+<tr><th id="174">174</th><td><i>    /// \param shader String containing the source code of the shader</i></td></tr>
+<tr><th id="175">175</th><td><i>    /// \param type   Type of shader (vertex, geometry or fragment)</i></td></tr>
+<tr><th id="176">176</th><td><i>    ///</i></td></tr>
+<tr><th id="177">177</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="178">178</th><td><i>    ///</i></td></tr>
+<tr><th id="179">179</th><td><i>    /// \see loadFromFile, loadFromStream</i></td></tr>
+<tr><th id="180">180</th><td><i>    ///</i></td></tr>
+<tr><th id="181">181</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="182">182</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE" title='sf::Shader::loadFromMemory' data-ref="_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE">loadFromMemory</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="45shader" title='shader' data-type='const std::string &amp;' data-ref="45shader">shader</dfn>, <a class="type" href="#sf::Shader::Type" title='sf::Shader::Type' data-ref="sf::Shader::Type">Type</a> <dfn class="local col6 decl" id="46type" title='type' data-type='sf::Shader::Type' data-ref="46type">type</dfn>);</td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="185">185</th><td><i>    /// \brief Load both the vertex and fragment shaders from source codes in memory</i></td></tr>
+<tr><th id="186">186</th><td><i>    ///</i></td></tr>
+<tr><th id="187">187</th><td><i>    /// This function loads both the vertex and the fragment</i></td></tr>
+<tr><th id="188">188</th><td><i>    /// shaders. If one of them fails to load, the shader is left</i></td></tr>
+<tr><th id="189">189</th><td><i>    /// empty (the valid shader is unloaded).</i></td></tr>
+<tr><th id="190">190</th><td><i>    /// The sources must be valid shaders in GLSL language. GLSL is</i></td></tr>
+<tr><th id="191">191</th><td><i>    /// a C-like language dedicated to OpenGL shaders; you'll</i></td></tr>
+<tr><th id="192">192</th><td><i>    /// probably need to read a good documentation for it before</i></td></tr>
+<tr><th id="193">193</th><td><i>    /// writing your own shaders.</i></td></tr>
+<tr><th id="194">194</th><td><i>    ///</i></td></tr>
+<tr><th id="195">195</th><td><i>    /// \param vertexShader   String containing the source code of the vertex shader</i></td></tr>
+<tr><th id="196">196</th><td><i>    /// \param fragmentShader String containing the source code of the fragment shader</i></td></tr>
+<tr><th id="197">197</th><td><i>    ///</i></td></tr>
+<tr><th id="198">198</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="199">199</th><td><i>    ///</i></td></tr>
+<tr><th id="200">200</th><td><i>    /// \see loadFromFile, loadFromStream</i></td></tr>
+<tr><th id="201">201</th><td><i>    ///</i></td></tr>
+<tr><th id="202">202</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="203">203</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" title='sf::Shader::loadFromMemory' data-ref="_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_">loadFromMemory</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="47vertexShader" title='vertexShader' data-type='const std::string &amp;' data-ref="47vertexShader">vertexShader</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="48fragmentShader" title='fragmentShader' data-type='const std::string &amp;' data-ref="48fragmentShader">fragmentShader</dfn>);</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="206">206</th><td><i>    /// \brief Load the vertex, geometry and fragment shaders from source codes in memory</i></td></tr>
+<tr><th id="207">207</th><td><i>    ///</i></td></tr>
+<tr><th id="208">208</th><td><i>    /// This function loads the vertex, geometry and fragment</i></td></tr>
+<tr><th id="209">209</th><td><i>    /// shaders. If one of them fails to load, the shader is left</i></td></tr>
+<tr><th id="210">210</th><td><i>    /// empty (the valid shader is unloaded).</i></td></tr>
+<tr><th id="211">211</th><td><i>    /// The sources must be valid shaders in GLSL language. GLSL is</i></td></tr>
+<tr><th id="212">212</th><td><i>    /// a C-like language dedicated to OpenGL shaders; you'll</i></td></tr>
+<tr><th id="213">213</th><td><i>    /// probably need to read a good documentation for it before</i></td></tr>
+<tr><th id="214">214</th><td><i>    /// writing your own shaders.</i></td></tr>
+<tr><th id="215">215</th><td><i>    ///</i></td></tr>
+<tr><th id="216">216</th><td><i>    /// \param vertexShader   String containing the source code of the vertex shader</i></td></tr>
+<tr><th id="217">217</th><td><i>    /// \param geometryShader String containing the source code of the geometry shader</i></td></tr>
+<tr><th id="218">218</th><td><i>    /// \param fragmentShader String containing the source code of the fragment shader</i></td></tr>
+<tr><th id="219">219</th><td><i>    ///</i></td></tr>
+<tr><th id="220">220</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="221">221</th><td><i>    ///</i></td></tr>
+<tr><th id="222">222</th><td><i>    /// \see loadFromFile, loadFromStream</i></td></tr>
+<tr><th id="223">223</th><td><i>    ///</i></td></tr>
+<tr><th id="224">224</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="225">225</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_" title='sf::Shader::loadFromMemory' data-ref="_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_">loadFromMemory</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="49vertexShader" title='vertexShader' data-type='const std::string &amp;' data-ref="49vertexShader">vertexShader</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="50geometryShader" title='geometryShader' data-type='const std::string &amp;' data-ref="50geometryShader">geometryShader</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="51fragmentShader" title='fragmentShader' data-type='const std::string &amp;' data-ref="51fragmentShader">fragmentShader</dfn>);</td></tr>
+<tr><th id="226">226</th><td></td></tr>
+<tr><th id="227">227</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="228">228</th><td><i>    /// \brief Load the vertex, geometry or fragment shader from a custom stream</i></td></tr>
+<tr><th id="229">229</th><td><i>    ///</i></td></tr>
+<tr><th id="230">230</th><td><i>    /// This function loads a single shader, vertex, geometry</i></td></tr>
+<tr><th id="231">231</th><td><i>    /// or fragment, identified by the second argument.</i></td></tr>
+<tr><th id="232">232</th><td><i>    /// The source code must be a valid shader in GLSL language.</i></td></tr>
+<tr><th id="233">233</th><td><i>    /// GLSL is a C-like language dedicated to OpenGL shaders;</i></td></tr>
+<tr><th id="234">234</th><td><i>    /// you'll probably need to read a good documentation for it</i></td></tr>
+<tr><th id="235">235</th><td><i>    /// before writing your own shaders.</i></td></tr>
+<tr><th id="236">236</th><td><i>    ///</i></td></tr>
+<tr><th id="237">237</th><td><i>    /// \param stream Source stream to read from</i></td></tr>
+<tr><th id="238">238</th><td><i>    /// \param type   Type of shader (vertex, geometry or fragment)</i></td></tr>
+<tr><th id="239">239</th><td><i>    ///</i></td></tr>
+<tr><th id="240">240</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="241">241</th><td><i>    ///</i></td></tr>
+<tr><th id="242">242</th><td><i>    /// \see loadFromFile, loadFromMemory</i></td></tr>
+<tr><th id="243">243</th><td><i>    ///</i></td></tr>
+<tr><th id="244">244</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="245">245</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE" title='sf::Shader::loadFromStream' data-ref="_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE">loadFromStream</dfn>(<a class="type" href="#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col2 decl" id="52stream" title='stream' data-type='sf::InputStream &amp;' data-ref="52stream">stream</dfn>, <a class="type" href="#sf::Shader::Type" title='sf::Shader::Type' data-ref="sf::Shader::Type">Type</a> <dfn class="local col3 decl" id="53type" title='type' data-type='sf::Shader::Type' data-ref="53type">type</dfn>);</td></tr>
+<tr><th id="246">246</th><td></td></tr>
+<tr><th id="247">247</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="248">248</th><td><i>    /// \brief Load both the vertex and fragment shaders from custom streams</i></td></tr>
+<tr><th id="249">249</th><td><i>    ///</i></td></tr>
+<tr><th id="250">250</th><td><i>    /// This function loads both the vertex and the fragment</i></td></tr>
+<tr><th id="251">251</th><td><i>    /// shaders. If one of them fails to load, the shader is left</i></td></tr>
+<tr><th id="252">252</th><td><i>    /// empty (the valid shader is unloaded).</i></td></tr>
+<tr><th id="253">253</th><td><i>    /// The source codes must be valid shaders in GLSL language.</i></td></tr>
+<tr><th id="254">254</th><td><i>    /// GLSL is a C-like language dedicated to OpenGL shaders;</i></td></tr>
+<tr><th id="255">255</th><td><i>    /// you'll probably need to read a good documentation for</i></td></tr>
+<tr><th id="256">256</th><td><i>    /// it before writing your own shaders.</i></td></tr>
+<tr><th id="257">257</th><td><i>    ///</i></td></tr>
+<tr><th id="258">258</th><td><i>    /// \param vertexShaderStream   Source stream to read the vertex shader from</i></td></tr>
+<tr><th id="259">259</th><td><i>    /// \param fragmentShaderStream Source stream to read the fragment shader from</i></td></tr>
+<tr><th id="260">260</th><td><i>    ///</i></td></tr>
+<tr><th id="261">261</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="262">262</th><td><i>    ///</i></td></tr>
+<tr><th id="263">263</th><td><i>    /// \see loadFromFile, loadFromMemory</i></td></tr>
+<tr><th id="264">264</th><td><i>    ///</i></td></tr>
+<tr><th id="265">265</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="266">266</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_" title='sf::Shader::loadFromStream' data-ref="_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_">loadFromStream</dfn>(<a class="type" href="#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col4 decl" id="54vertexShaderStream" title='vertexShaderStream' data-type='sf::InputStream &amp;' data-ref="54vertexShaderStream">vertexShaderStream</dfn>, <a class="type" href="#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col5 decl" id="55fragmentShaderStream" title='fragmentShaderStream' data-type='sf::InputStream &amp;' data-ref="55fragmentShaderStream">fragmentShaderStream</dfn>);</td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="269">269</th><td><i>    /// \brief Load the vertex, geometry and fragment shaders from custom streams</i></td></tr>
+<tr><th id="270">270</th><td><i>    ///</i></td></tr>
+<tr><th id="271">271</th><td><i>    /// This function loads the vertex, geometry and fragment</i></td></tr>
+<tr><th id="272">272</th><td><i>    /// shaders. If one of them fails to load, the shader is left</i></td></tr>
+<tr><th id="273">273</th><td><i>    /// empty (the valid shader is unloaded).</i></td></tr>
+<tr><th id="274">274</th><td><i>    /// The source codes must be valid shaders in GLSL language.</i></td></tr>
+<tr><th id="275">275</th><td><i>    /// GLSL is a C-like language dedicated to OpenGL shaders;</i></td></tr>
+<tr><th id="276">276</th><td><i>    /// you'll probably need to read a good documentation for</i></td></tr>
+<tr><th id="277">277</th><td><i>    /// it before writing your own shaders.</i></td></tr>
+<tr><th id="278">278</th><td><i>    ///</i></td></tr>
+<tr><th id="279">279</th><td><i>    /// \param vertexShaderStream   Source stream to read the vertex shader from</i></td></tr>
+<tr><th id="280">280</th><td><i>    /// \param geometryShaderStream Source stream to read the geometry shader from</i></td></tr>
+<tr><th id="281">281</th><td><i>    /// \param fragmentShaderStream Source stream to read the fragment shader from</i></td></tr>
+<tr><th id="282">282</th><td><i>    ///</i></td></tr>
+<tr><th id="283">283</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="284">284</th><td><i>    ///</i></td></tr>
+<tr><th id="285">285</th><td><i>    /// \see loadFromFile, loadFromMemory</i></td></tr>
+<tr><th id="286">286</th><td><i>    ///</i></td></tr>
+<tr><th id="287">287</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="288">288</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_" title='sf::Shader::loadFromStream' data-ref="_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_">loadFromStream</dfn>(<a class="type" href="#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col6 decl" id="56vertexShaderStream" title='vertexShaderStream' data-type='sf::InputStream &amp;' data-ref="56vertexShaderStream">vertexShaderStream</dfn>, <a class="type" href="#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col7 decl" id="57geometryShaderStream" title='geometryShaderStream' data-type='sf::InputStream &amp;' data-ref="57geometryShaderStream">geometryShaderStream</dfn>, <a class="type" href="#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col8 decl" id="58fragmentShaderStream" title='fragmentShaderStream' data-type='sf::InputStream &amp;' data-ref="58fragmentShaderStream">fragmentShaderStream</dfn>);</td></tr>
+<tr><th id="289">289</th><td></td></tr>
+<tr><th id="290">290</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="291">291</th><td><i>    /// \brief Specify value for \p float uniform</i></td></tr>
+<tr><th id="292">292</th><td><i>    ///</i></td></tr>
+<tr><th id="293">293</th><td><i>    /// \param name Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="294">294</th><td><i>    /// \param x    Value of the float scalar</i></td></tr>
+<tr><th id="295">295</th><td><i>    ///</i></td></tr>
+<tr><th id="296">296</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="297">297</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="59name" title='name' data-type='const std::string &amp;' data-ref="59name">name</dfn>, <em>float</em> <dfn class="local col0 decl" id="60x" title='x' data-type='float' data-ref="60x">x</dfn>);</td></tr>
+<tr><th id="298">298</th><td></td></tr>
+<tr><th id="299">299</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="300">300</th><td><i>    /// \brief Specify value for \p vec2 uniform</i></td></tr>
+<tr><th id="301">301</th><td><i>    ///</i></td></tr>
+<tr><th id="302">302</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="303">303</th><td><i>    /// \param vector Value of the vec2 vector</i></td></tr>
+<tr><th id="304">304</th><td><i>    ///</i></td></tr>
+<tr><th id="305">305</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="306">306</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="61name" title='name' data-type='const std::string &amp;' data-ref="61name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Vec2" title='sf::Glsl::Vec2' data-type='Vector2&lt;float&gt;' data-ref="sf::Glsl::Vec2">Vec2</a>&amp; <dfn class="local col2 decl" id="62vector" title='vector' data-type='const Glsl::Vec2 &amp;' data-ref="62vector">vector</dfn>);</td></tr>
+<tr><th id="307">307</th><td></td></tr>
+<tr><th id="308">308</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="309">309</th><td><i>    /// \brief Specify value for \p vec3 uniform</i></td></tr>
+<tr><th id="310">310</th><td><i>    ///</i></td></tr>
+<tr><th id="311">311</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="312">312</th><td><i>    /// \param vector Value of the vec3 vector</i></td></tr>
+<tr><th id="313">313</th><td><i>    ///</i></td></tr>
+<tr><th id="314">314</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="315">315</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="63name" title='name' data-type='const std::string &amp;' data-ref="63name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Vec3" title='sf::Glsl::Vec3' data-type='Vector3&lt;float&gt;' data-ref="sf::Glsl::Vec3">Vec3</a>&amp; <dfn class="local col4 decl" id="64vector" title='vector' data-type='const Glsl::Vec3 &amp;' data-ref="64vector">vector</dfn>);</td></tr>
+<tr><th id="316">316</th><td></td></tr>
+<tr><th id="317">317</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="318">318</th><td><i>    /// \brief Specify value for \p vec4 uniform</i></td></tr>
+<tr><th id="319">319</th><td><i>    ///</i></td></tr>
+<tr><th id="320">320</th><td><i>    /// This overload can also be called with sf::Color objects</i></td></tr>
+<tr><th id="321">321</th><td><i>    /// that are converted to sf::Glsl::Vec4.</i></td></tr>
+<tr><th id="322">322</th><td><i>    ///</i></td></tr>
+<tr><th id="323">323</th><td><i>    /// It is important to note that the components of the color are</i></td></tr>
+<tr><th id="324">324</th><td><i>    /// normalized before being passed to the shader. Therefore,</i></td></tr>
+<tr><th id="325">325</th><td><i>    /// they are converted from range [0 .. 255] to range [0 .. 1].</i></td></tr>
+<tr><th id="326">326</th><td><i>    /// For example, a sf::Color(255, 127, 0, 255) will be transformed</i></td></tr>
+<tr><th id="327">327</th><td><i>    /// to a vec4(1.0, 0.5, 0.0, 1.0) in the shader.</i></td></tr>
+<tr><th id="328">328</th><td><i>    ///</i></td></tr>
+<tr><th id="329">329</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="330">330</th><td><i>    /// \param vector Value of the vec4 vector</i></td></tr>
+<tr><th id="331">331</th><td><i>    ///</i></td></tr>
+<tr><th id="332">332</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="333">333</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="65name" title='name' data-type='const std::string &amp;' data-ref="65name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Vec4" title='sf::Glsl::Vec4' data-type='priv::Vector4&lt;float&gt;' data-ref="sf::Glsl::Vec4">Vec4</a>&amp; <dfn class="local col6 decl" id="66vector" title='vector' data-type='const Glsl::Vec4 &amp;' data-ref="66vector">vector</dfn>);</td></tr>
+<tr><th id="334">334</th><td></td></tr>
+<tr><th id="335">335</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="336">336</th><td><i>    /// \brief Specify value for \p int uniform</i></td></tr>
+<tr><th id="337">337</th><td><i>    ///</i></td></tr>
+<tr><th id="338">338</th><td><i>    /// \param name Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="339">339</th><td><i>    /// \param x    Value of the int scalar</i></td></tr>
+<tr><th id="340">340</th><td><i>    ///</i></td></tr>
+<tr><th id="341">341</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="342">342</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="67name" title='name' data-type='const std::string &amp;' data-ref="67name">name</dfn>, <em>int</em> <dfn class="local col8 decl" id="68x" title='x' data-type='int' data-ref="68x">x</dfn>);</td></tr>
+<tr><th id="343">343</th><td></td></tr>
+<tr><th id="344">344</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="345">345</th><td><i>    /// \brief Specify value for \p ivec2 uniform</i></td></tr>
+<tr><th id="346">346</th><td><i>    ///</i></td></tr>
+<tr><th id="347">347</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="348">348</th><td><i>    /// \param vector Value of the ivec2 vector</i></td></tr>
+<tr><th id="349">349</th><td><i>    ///</i></td></tr>
+<tr><th id="350">350</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="351">351</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IiEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IiEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="69name" title='name' data-type='const std::string &amp;' data-ref="69name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Ivec2" title='sf::Glsl::Ivec2' data-type='Vector2&lt;int&gt;' data-ref="sf::Glsl::Ivec2">Ivec2</a>&amp; <dfn class="local col0 decl" id="70vector" title='vector' data-type='const Glsl::Ivec2 &amp;' data-ref="70vector">vector</dfn>);</td></tr>
+<tr><th id="352">352</th><td></td></tr>
+<tr><th id="353">353</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="354">354</th><td><i>    /// \brief Specify value for \p ivec3 uniform</i></td></tr>
+<tr><th id="355">355</th><td><i>    ///</i></td></tr>
+<tr><th id="356">356</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="357">357</th><td><i>    /// \param vector Value of the ivec3 vector</i></td></tr>
+<tr><th id="358">358</th><td><i>    ///</i></td></tr>
+<tr><th id="359">359</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="360">360</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="71name" title='name' data-type='const std::string &amp;' data-ref="71name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Ivec3" title='sf::Glsl::Ivec3' data-type='Vector3&lt;int&gt;' data-ref="sf::Glsl::Ivec3">Ivec3</a>&amp; <dfn class="local col2 decl" id="72vector" title='vector' data-type='const Glsl::Ivec3 &amp;' data-ref="72vector">vector</dfn>);</td></tr>
+<tr><th id="361">361</th><td></td></tr>
+<tr><th id="362">362</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="363">363</th><td><i>    /// \brief Specify value for \p ivec4 uniform</i></td></tr>
+<tr><th id="364">364</th><td><i>    ///</i></td></tr>
+<tr><th id="365">365</th><td><i>    /// This overload can also be called with sf::Color objects</i></td></tr>
+<tr><th id="366">366</th><td><i>    /// that are converted to sf::Glsl::Ivec4.</i></td></tr>
+<tr><th id="367">367</th><td><i>    ///</i></td></tr>
+<tr><th id="368">368</th><td><i>    /// If color conversions are used, the ivec4 uniform in GLSL</i></td></tr>
+<tr><th id="369">369</th><td><i>    /// will hold the same values as the original sf::Color</i></td></tr>
+<tr><th id="370">370</th><td><i>    /// instance. For example, sf::Color(255, 127, 0, 255) is</i></td></tr>
+<tr><th id="371">371</th><td><i>    /// mapped to ivec4(255, 127, 0, 255).</i></td></tr>
+<tr><th id="372">372</th><td><i>    ///</i></td></tr>
+<tr><th id="373">373</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="374">374</th><td><i>    /// \param vector Value of the ivec4 vector</i></td></tr>
+<tr><th id="375">375</th><td><i>    ///</i></td></tr>
+<tr><th id="376">376</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="377">377</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="73name" title='name' data-type='const std::string &amp;' data-ref="73name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Ivec4" title='sf::Glsl::Ivec4' data-type='priv::Vector4&lt;int&gt;' data-ref="sf::Glsl::Ivec4">Ivec4</a>&amp; <dfn class="local col4 decl" id="74vector" title='vector' data-type='const Glsl::Ivec4 &amp;' data-ref="74vector">vector</dfn>);</td></tr>
+<tr><th id="378">378</th><td></td></tr>
+<tr><th id="379">379</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="380">380</th><td><i>    /// \brief Specify value for \p bool uniform</i></td></tr>
+<tr><th id="381">381</th><td><i>    ///</i></td></tr>
+<tr><th id="382">382</th><td><i>    /// \param name Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="383">383</th><td><i>    /// \param x    Value of the bool scalar</i></td></tr>
+<tr><th id="384">384</th><td><i>    ///</i></td></tr>
+<tr><th id="385">385</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="386">386</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="75name" title='name' data-type='const std::string &amp;' data-ref="75name">name</dfn>, <em>bool</em> <dfn class="local col6 decl" id="76x" title='x' data-type='bool' data-ref="76x">x</dfn>);</td></tr>
+<tr><th id="387">387</th><td></td></tr>
+<tr><th id="388">388</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="389">389</th><td><i>    /// \brief Specify value for \p bvec2 uniform</i></td></tr>
+<tr><th id="390">390</th><td><i>    ///</i></td></tr>
+<tr><th id="391">391</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="392">392</th><td><i>    /// \param vector Value of the bvec2 vector</i></td></tr>
+<tr><th id="393">393</th><td><i>    ///</i></td></tr>
+<tr><th id="394">394</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="395">395</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IbEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IbEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="77name" title='name' data-type='const std::string &amp;' data-ref="77name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Bvec2" title='sf::Glsl::Bvec2' data-type='Vector2&lt;bool&gt;' data-ref="sf::Glsl::Bvec2">Bvec2</a>&amp; <dfn class="local col8 decl" id="78vector" title='vector' data-type='const Glsl::Bvec2 &amp;' data-ref="78vector">vector</dfn>);</td></tr>
+<tr><th id="396">396</th><td></td></tr>
+<tr><th id="397">397</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="398">398</th><td><i>    /// \brief Specify value for \p bvec3 uniform</i></td></tr>
+<tr><th id="399">399</th><td><i>    ///</i></td></tr>
+<tr><th id="400">400</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="401">401</th><td><i>    /// \param vector Value of the bvec3 vector</i></td></tr>
+<tr><th id="402">402</th><td><i>    ///</i></td></tr>
+<tr><th id="403">403</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="404">404</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IbEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IbEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="79name" title='name' data-type='const std::string &amp;' data-ref="79name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Bvec3" title='sf::Glsl::Bvec3' data-type='Vector3&lt;bool&gt;' data-ref="sf::Glsl::Bvec3">Bvec3</a>&amp; <dfn class="local col0 decl" id="80vector" title='vector' data-type='const Glsl::Bvec3 &amp;' data-ref="80vector">vector</dfn>);</td></tr>
+<tr><th id="405">405</th><td></td></tr>
+<tr><th id="406">406</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="407">407</th><td><i>    /// \brief Specify value for \p bvec4 uniform</i></td></tr>
+<tr><th id="408">408</th><td><i>    ///</i></td></tr>
+<tr><th id="409">409</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="410">410</th><td><i>    /// \param vector Value of the bvec4 vector</i></td></tr>
+<tr><th id="411">411</th><td><i>    ///</i></td></tr>
+<tr><th id="412">412</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="413">413</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IbEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IbEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="81name" title='name' data-type='const std::string &amp;' data-ref="81name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Bvec4" title='sf::Glsl::Bvec4' data-type='priv::Vector4&lt;bool&gt;' data-ref="sf::Glsl::Bvec4">Bvec4</a>&amp; <dfn class="local col2 decl" id="82vector" title='vector' data-type='const Glsl::Bvec4 &amp;' data-ref="82vector">vector</dfn>);</td></tr>
+<tr><th id="414">414</th><td></td></tr>
+<tr><th id="415">415</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="416">416</th><td><i>    /// \brief Specify value for \p mat3 matrix</i></td></tr>
+<tr><th id="417">417</th><td><i>    ///</i></td></tr>
+<tr><th id="418">418</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="419">419</th><td><i>    /// \param matrix Value of the mat3 matrix</i></td></tr>
+<tr><th id="420">420</th><td><i>    ///</i></td></tr>
+<tr><th id="421">421</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="422">422</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="83name" title='name' data-type='const std::string &amp;' data-ref="83name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Mat3" title='sf::Glsl::Mat3' data-type='priv::Matrix&lt;3, 3&gt;' data-ref="sf::Glsl::Mat3">Mat3</a>&amp; <dfn class="local col4 decl" id="84matrix" title='matrix' data-type='const Glsl::Mat3 &amp;' data-ref="84matrix">matrix</dfn>);</td></tr>
+<tr><th id="423">423</th><td></td></tr>
+<tr><th id="424">424</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="425">425</th><td><i>    /// \brief Specify value for \p mat4 matrix</i></td></tr>
+<tr><th id="426">426</th><td><i>    ///</i></td></tr>
+<tr><th id="427">427</th><td><i>    /// \param name   Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="428">428</th><td><i>    /// \param matrix Value of the mat4 matrix</i></td></tr>
+<tr><th id="429">429</th><td><i>    ///</i></td></tr>
+<tr><th id="430">430</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="431">431</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="85name" title='name' data-type='const std::string &amp;' data-ref="85name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Mat4" title='sf::Glsl::Mat4' data-type='priv::Matrix&lt;4, 4&gt;' data-ref="sf::Glsl::Mat4">Mat4</a>&amp; <dfn class="local col6 decl" id="86matrix" title='matrix' data-type='const Glsl::Mat4 &amp;' data-ref="86matrix">matrix</dfn>);</td></tr>
+<tr><th id="432">432</th><td></td></tr>
+<tr><th id="433">433</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="434">434</th><td><i>    /// \brief Specify a texture as \p sampler2D uniform</i></td></tr>
+<tr><th id="435">435</th><td><i>    ///</i></td></tr>
+<tr><th id="436">436</th><td><i>    /// \a name is the name of the variable to change in the shader.</i></td></tr>
+<tr><th id="437">437</th><td><i>    /// The corresponding parameter in the shader must be a 2D texture</i></td></tr>
+<tr><th id="438">438</th><td><i>    /// (\p sampler2D GLSL type).</i></td></tr>
+<tr><th id="439">439</th><td><i>    ///</i></td></tr>
+<tr><th id="440">440</th><td><i>    /// Example:</i></td></tr>
+<tr><th id="441">441</th><td><i>    /// \code</i></td></tr>
+<tr><th id="442">442</th><td><i>    /// uniform sampler2D the_texture; // this is the variable in the shader</i></td></tr>
+<tr><th id="443">443</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="444">444</th><td><i>    /// \code</i></td></tr>
+<tr><th id="445">445</th><td><i>    /// sf::Texture texture;</i></td></tr>
+<tr><th id="446">446</th><td><i>    /// ...</i></td></tr>
+<tr><th id="447">447</th><td><i>    /// shader.setUniform("the_texture", texture);</i></td></tr>
+<tr><th id="448">448</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="449">449</th><td><i>    /// It is important to note that \a texture must remain alive as long</i></td></tr>
+<tr><th id="450">450</th><td><i>    /// as the shader uses it, no copy is made internally.</i></td></tr>
+<tr><th id="451">451</th><td><i>    ///</i></td></tr>
+<tr><th id="452">452</th><td><i>    /// To use the texture of the object being drawn, which cannot be</i></td></tr>
+<tr><th id="453">453</th><td><i>    /// known in advance, you can pass the special value</i></td></tr>
+<tr><th id="454">454</th><td><i>    /// sf::Shader::CurrentTexture:</i></td></tr>
+<tr><th id="455">455</th><td><i>    /// \code</i></td></tr>
+<tr><th id="456">456</th><td><i>    /// shader.setUniform("the_texture", sf::Shader::CurrentTexture).</i></td></tr>
+<tr><th id="457">457</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="458">458</th><td><i>    ///</i></td></tr>
+<tr><th id="459">459</th><td><i>    /// \param name    Name of the texture in the shader</i></td></tr>
+<tr><th id="460">460</th><td><i>    /// \param texture Texture to assign</i></td></tr>
+<tr><th id="461">461</th><td><i>    ///</i></td></tr>
+<tr><th id="462">462</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="463">463</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="87name" title='name' data-type='const std::string &amp;' data-ref="87name">name</dfn>, <em>const</em> <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>&amp; <dfn class="local col8 decl" id="88texture" title='texture' data-type='const sf::Texture &amp;' data-ref="88texture">texture</dfn>);</td></tr>
+<tr><th id="464">464</th><td></td></tr>
+<tr><th id="465">465</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="466">466</th><td><i>    /// \brief Specify current texture as \p sampler2D uniform</i></td></tr>
+<tr><th id="467">467</th><td><i>    ///</i></td></tr>
+<tr><th id="468">468</th><td><i>    /// This overload maps a shader texture variable to the</i></td></tr>
+<tr><th id="469">469</th><td><i>    /// texture of the object being drawn, which cannot be</i></td></tr>
+<tr><th id="470">470</th><td><i>    /// known in advance. The second argument must be</i></td></tr>
+<tr><th id="471">471</th><td><i>    /// sf::Shader::CurrentTexture.</i></td></tr>
+<tr><th id="472">472</th><td><i>    /// The corresponding parameter in the shader must be a 2D texture</i></td></tr>
+<tr><th id="473">473</th><td><i>    /// (\p sampler2D GLSL type).</i></td></tr>
+<tr><th id="474">474</th><td><i>    ///</i></td></tr>
+<tr><th id="475">475</th><td><i>    /// Example:</i></td></tr>
+<tr><th id="476">476</th><td><i>    /// \code</i></td></tr>
+<tr><th id="477">477</th><td><i>    /// uniform sampler2D current; // this is the variable in the shader</i></td></tr>
+<tr><th id="478">478</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="479">479</th><td><i>    /// \code</i></td></tr>
+<tr><th id="480">480</th><td><i>    /// shader.setUniform("current", sf::Shader::CurrentTexture);</i></td></tr>
+<tr><th id="481">481</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="482">482</th><td><i>    ///</i></td></tr>
+<tr><th id="483">483</th><td><i>    /// \param name Name of the texture in the shader</i></td></tr>
+<tr><th id="484">484</th><td><i>    ///</i></td></tr>
+<tr><th id="485">485</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="486">486</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE" title='sf::Shader::setUniform' data-ref="_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE">setUniform</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="89name" title='name' data-type='const std::string &amp;' data-ref="89name">name</dfn>, <a class="type" href="#sf::Shader::CurrentTextureType" title='sf::Shader::CurrentTextureType' data-ref="sf::Shader::CurrentTextureType">CurrentTextureType</a>);</td></tr>
+<tr><th id="487">487</th><td></td></tr>
+<tr><th id="488">488</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="489">489</th><td><i>    /// \brief Specify values for \p float[] array uniform</i></td></tr>
+<tr><th id="490">490</th><td><i>    ///</i></td></tr>
+<tr><th id="491">491</th><td><i>    /// \param name        Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="492">492</th><td><i>    /// \param scalarArray pointer to array of \p float values</i></td></tr>
+<tr><th id="493">493</th><td><i>    /// \param length      Number of elements in the array</i></td></tr>
+<tr><th id="494">494</th><td><i>    ///</i></td></tr>
+<tr><th id="495">495</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="496">496</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKfm" title='sf::Shader::setUniformArray' data-ref="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKfm">setUniformArray</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="90name" title='name' data-type='const std::string &amp;' data-ref="90name">name</dfn>, <em>const</em> <em>float</em>* <dfn class="local col1 decl" id="91scalarArray" title='scalarArray' data-type='const float *' data-ref="91scalarArray">scalarArray</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col2 decl" id="92length" title='length' data-type='std::size_t' data-ref="92length">length</dfn>);</td></tr>
+<tr><th id="497">497</th><td></td></tr>
+<tr><th id="498">498</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="499">499</th><td><i>    /// \brief Specify values for \p vec2[] array uniform</i></td></tr>
+<tr><th id="500">500</th><td><i>    ///</i></td></tr>
+<tr><th id="501">501</th><td><i>    /// \param name        Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="502">502</th><td><i>    /// \param vectorArray pointer to array of \p vec2 values</i></td></tr>
+<tr><th id="503">503</th><td><i>    /// \param length      Number of elements in the array</i></td></tr>
+<tr><th id="504">504</th><td><i>    ///</i></td></tr>
+<tr><th id="505">505</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="506">506</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector2IfEEm" title='sf::Shader::setUniformArray' data-ref="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector2IfEEm">setUniformArray</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="93name" title='name' data-type='const std::string &amp;' data-ref="93name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Vec2" title='sf::Glsl::Vec2' data-type='Vector2&lt;float&gt;' data-ref="sf::Glsl::Vec2">Vec2</a>* <dfn class="local col4 decl" id="94vectorArray" title='vectorArray' data-type='const Glsl::Vec2 *' data-ref="94vectorArray">vectorArray</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col5 decl" id="95length" title='length' data-type='std::size_t' data-ref="95length">length</dfn>);</td></tr>
+<tr><th id="507">507</th><td></td></tr>
+<tr><th id="508">508</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="509">509</th><td><i>    /// \brief Specify values for \p vec3[] array uniform</i></td></tr>
+<tr><th id="510">510</th><td><i>    ///</i></td></tr>
+<tr><th id="511">511</th><td><i>    /// \param name        Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="512">512</th><td><i>    /// \param vectorArray pointer to array of \p vec3 values</i></td></tr>
+<tr><th id="513">513</th><td><i>    /// \param length      Number of elements in the array</i></td></tr>
+<tr><th id="514">514</th><td><i>    ///</i></td></tr>
+<tr><th id="515">515</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="516">516</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector3IfEEm" title='sf::Shader::setUniformArray' data-ref="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector3IfEEm">setUniformArray</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col6 decl" id="96name" title='name' data-type='const std::string &amp;' data-ref="96name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Vec3" title='sf::Glsl::Vec3' data-type='Vector3&lt;float&gt;' data-ref="sf::Glsl::Vec3">Vec3</a>* <dfn class="local col7 decl" id="97vectorArray" title='vectorArray' data-type='const Glsl::Vec3 *' data-ref="97vectorArray">vectorArray</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col8 decl" id="98length" title='length' data-type='std::size_t' data-ref="98length">length</dfn>);</td></tr>
+<tr><th id="517">517</th><td></td></tr>
+<tr><th id="518">518</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="519">519</th><td><i>    /// \brief Specify values for \p vec4[] array uniform</i></td></tr>
+<tr><th id="520">520</th><td><i>    ///</i></td></tr>
+<tr><th id="521">521</th><td><i>    /// \param name        Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="522">522</th><td><i>    /// \param vectorArray pointer to array of \p vec4 values</i></td></tr>
+<tr><th id="523">523</th><td><i>    /// \param length      Number of elements in the array</i></td></tr>
+<tr><th id="524">524</th><td><i>    ///</i></td></tr>
+<tr><th id="525">525</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="526">526</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv7Vector4IfEEm" title='sf::Shader::setUniformArray' data-ref="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv7Vector4IfEEm">setUniformArray</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="99name" title='name' data-type='const std::string &amp;' data-ref="99name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Vec4" title='sf::Glsl::Vec4' data-type='priv::Vector4&lt;float&gt;' data-ref="sf::Glsl::Vec4">Vec4</a>* <dfn class="local col0 decl" id="100vectorArray" title='vectorArray' data-type='const Glsl::Vec4 *' data-ref="100vectorArray">vectorArray</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col1 decl" id="101length" title='length' data-type='std::size_t' data-ref="101length">length</dfn>);</td></tr>
+<tr><th id="527">527</th><td></td></tr>
+<tr><th id="528">528</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="529">529</th><td><i>    /// \brief Specify values for \p mat3[] array uniform</i></td></tr>
+<tr><th id="530">530</th><td><i>    ///</i></td></tr>
+<tr><th id="531">531</th><td><i>    /// \param name        Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="532">532</th><td><i>    /// \param matrixArray pointer to array of \p mat3 values</i></td></tr>
+<tr><th id="533">533</th><td><i>    /// \param length      Number of elements in the array</i></td></tr>
+<tr><th id="534">534</th><td><i>    ///</i></td></tr>
+<tr><th id="535">535</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="536">536</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm" title='sf::Shader::setUniformArray' data-ref="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm">setUniformArray</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col2 decl" id="102name" title='name' data-type='const std::string &amp;' data-ref="102name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Mat3" title='sf::Glsl::Mat3' data-type='priv::Matrix&lt;3, 3&gt;' data-ref="sf::Glsl::Mat3">Mat3</a>* <dfn class="local col3 decl" id="103matrixArray" title='matrixArray' data-type='const Glsl::Mat3 *' data-ref="103matrixArray">matrixArray</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col4 decl" id="104length" title='length' data-type='std::size_t' data-ref="104length">length</dfn>);</td></tr>
+<tr><th id="537">537</th><td></td></tr>
+<tr><th id="538">538</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="539">539</th><td><i>    /// \brief Specify values for \p mat4[] array uniform</i></td></tr>
+<tr><th id="540">540</th><td><i>    ///</i></td></tr>
+<tr><th id="541">541</th><td><i>    /// \param name        Name of the uniform variable in GLSL</i></td></tr>
+<tr><th id="542">542</th><td><i>    /// \param matrixArray pointer to array of \p mat4 values</i></td></tr>
+<tr><th id="543">543</th><td><i>    /// \param length      Number of elements in the array</i></td></tr>
+<tr><th id="544">544</th><td><i>    ///</i></td></tr>
+<tr><th id="545">545</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="546">546</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm" title='sf::Shader::setUniformArray' data-ref="_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm">setUniformArray</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="105name" title='name' data-type='const std::string &amp;' data-ref="105name">name</dfn>, <em>const</em> <span class="namespace">Glsl::</span><a class="typedef" href="Glsl.hpp.html#sf::Glsl::Mat4" title='sf::Glsl::Mat4' data-type='priv::Matrix&lt;4, 4&gt;' data-ref="sf::Glsl::Mat4">Mat4</a>* <dfn class="local col6 decl" id="106matrixArray" title='matrixArray' data-type='const Glsl::Mat4 *' data-ref="106matrixArray">matrixArray</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col7 decl" id="107length" title='length' data-type='std::size_t' data-ref="107length">length</dfn>);</td></tr>
+<tr><th id="547">547</th><td></td></tr>
+<tr><th id="548">548</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="549">549</th><td><i>    /// \brief Change a float parameter of the shader</i></td></tr>
+<tr><th id="550">550</th><td><i>    ///</i></td></tr>
+<tr><th id="551">551</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, float) instead.</i></td></tr>
+<tr><th id="552">552</th><td><i>    ///</i></td></tr>
+<tr><th id="553">553</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="554">554</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="108name" title='name' data-type='const std::string &amp;' data-ref="108name">name</dfn>, <em>float</em> <dfn class="local col9 decl" id="109x" title='x' data-type='float' data-ref="109x">x</dfn>);</td></tr>
+<tr><th id="555">555</th><td></td></tr>
+<tr><th id="556">556</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="557">557</th><td><i>    /// \brief Change a 2-components vector parameter of the shader</i></td></tr>
+<tr><th id="558">558</th><td><i>    ///</i></td></tr>
+<tr><th id="559">559</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Vec2&amp;) instead.</i></td></tr>
+<tr><th id="560">560</th><td><i>    ///</i></td></tr>
+<tr><th id="561">561</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="562">562</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEff" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEff">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="110name" title='name' data-type='const std::string &amp;' data-ref="110name">name</dfn>, <em>float</em> <dfn class="local col1 decl" id="111x" title='x' data-type='float' data-ref="111x">x</dfn>, <em>float</em> <dfn class="local col2 decl" id="112y" title='y' data-type='float' data-ref="112y">y</dfn>);</td></tr>
+<tr><th id="563">563</th><td></td></tr>
+<tr><th id="564">564</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="565">565</th><td><i>    /// \brief Change a 3-components vector parameter of the shader</i></td></tr>
+<tr><th id="566">566</th><td><i>    ///</i></td></tr>
+<tr><th id="567">567</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Vec3&amp;) instead.</i></td></tr>
+<tr><th id="568">568</th><td><i>    ///</i></td></tr>
+<tr><th id="569">569</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="570">570</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEfff" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEfff">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="113name" title='name' data-type='const std::string &amp;' data-ref="113name">name</dfn>, <em>float</em> <dfn class="local col4 decl" id="114x" title='x' data-type='float' data-ref="114x">x</dfn>, <em>float</em> <dfn class="local col5 decl" id="115y" title='y' data-type='float' data-ref="115y">y</dfn>, <em>float</em> <dfn class="local col6 decl" id="116z" title='z' data-type='float' data-ref="116z">z</dfn>);</td></tr>
+<tr><th id="571">571</th><td></td></tr>
+<tr><th id="572">572</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="573">573</th><td><i>    /// \brief Change a 4-components vector parameter of the shader</i></td></tr>
+<tr><th id="574">574</th><td><i>    ///</i></td></tr>
+<tr><th id="575">575</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Vec4&amp;) instead.</i></td></tr>
+<tr><th id="576">576</th><td><i>    ///</i></td></tr>
+<tr><th id="577">577</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="578">578</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEffff" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEffff">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="117name" title='name' data-type='const std::string &amp;' data-ref="117name">name</dfn>, <em>float</em> <dfn class="local col8 decl" id="118x" title='x' data-type='float' data-ref="118x">x</dfn>, <em>float</em> <dfn class="local col9 decl" id="119y" title='y' data-type='float' data-ref="119y">y</dfn>, <em>float</em> <dfn class="local col0 decl" id="120z" title='z' data-type='float' data-ref="120z">z</dfn>, <em>float</em> <dfn class="local col1 decl" id="121w" title='w' data-type='float' data-ref="121w">w</dfn>);</td></tr>
+<tr><th id="579">579</th><td></td></tr>
+<tr><th id="580">580</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="581">581</th><td><i>    /// \brief Change a 2-components vector parameter of the shader</i></td></tr>
+<tr><th id="582">582</th><td><i>    ///</i></td></tr>
+<tr><th id="583">583</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Vec2&amp;) instead.</i></td></tr>
+<tr><th id="584">584</th><td><i>    ///</i></td></tr>
+<tr><th id="585">585</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="586">586</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col2 decl" id="122name" title='name' data-type='const std::string &amp;' data-ref="122name">name</dfn>, <em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col3 decl" id="123vector" title='vector' data-type='const Vector2f &amp;' data-ref="123vector">vector</dfn>);</td></tr>
+<tr><th id="587">587</th><td></td></tr>
+<tr><th id="588">588</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="589">589</th><td><i>    /// \brief Change a 3-components vector parameter of the shader</i></td></tr>
+<tr><th id="590">590</th><td><i>    ///</i></td></tr>
+<tr><th id="591">591</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Vec3&amp;) instead.</i></td></tr>
+<tr><th id="592">592</th><td><i>    ///</i></td></tr>
+<tr><th id="593">593</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="594">594</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col4 decl" id="124name" title='name' data-type='const std::string &amp;' data-ref="124name">name</dfn>, <em>const</em> <a class="typedef" href="../System/Vector3.hpp.html#sf::Vector3f" title='sf::Vector3f' data-type='Vector3&lt;float&gt;' data-ref="sf::Vector3f">Vector3f</a>&amp; <dfn class="local col5 decl" id="125vector" title='vector' data-type='const Vector3f &amp;' data-ref="125vector">vector</dfn>);</td></tr>
+<tr><th id="595">595</th><td></td></tr>
+<tr><th id="596">596</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="597">597</th><td><i>    /// \brief Change a color parameter of the shader</i></td></tr>
+<tr><th id="598">598</th><td><i>    ///</i></td></tr>
+<tr><th id="599">599</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Vec4&amp;) instead.</i></td></tr>
+<tr><th id="600">600</th><td><i>    ///</i></td></tr>
+<tr><th id="601">601</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="602">602</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_5ColorE" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_5ColorE">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col6 decl" id="126name" title='name' data-type='const std::string &amp;' data-ref="126name">name</dfn>, <em>const</em> <a class="type" href="Color.hpp.html#sf::Color" title='sf::Color' data-ref="sf::Color">Color</a>&amp; <dfn class="local col7 decl" id="127color" title='color' data-type='const sf::Color &amp;' data-ref="127color">color</dfn>);</td></tr>
+<tr><th id="603">603</th><td></td></tr>
+<tr><th id="604">604</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="605">605</th><td><i>    /// \brief Change a matrix parameter of the shader</i></td></tr>
+<tr><th id="606">606</th><td><i>    ///</i></td></tr>
+<tr><th id="607">607</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Glsl::Mat4&amp;) instead.</i></td></tr>
+<tr><th id="608">608</th><td><i>    ///</i></td></tr>
+<tr><th id="609">609</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="610">610</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_9TransformE" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_9TransformE">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="128name" title='name' data-type='const std::string &amp;' data-ref="128name">name</dfn>, <em>const</em> <a class="type" href="Transform.hpp.html#sf::Transform" title='sf::Transform' data-ref="sf::Transform">Transform</a>&amp; <dfn class="local col9 decl" id="129transform" title='transform' data-type='const sf::Transform &amp;' data-ref="129transform">transform</dfn>);</td></tr>
+<tr><th id="611">611</th><td></td></tr>
+<tr><th id="612">612</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="613">613</th><td><i>    /// \brief Change a texture parameter of the shader</i></td></tr>
+<tr><th id="614">614</th><td><i>    ///</i></td></tr>
+<tr><th id="615">615</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, const Texture&amp;) instead.</i></td></tr>
+<tr><th id="616">616</th><td><i>    ///</i></td></tr>
+<tr><th id="617">617</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="618">618</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="130name" title='name' data-type='const std::string &amp;' data-ref="130name">name</dfn>, <em>const</em> <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>&amp; <dfn class="local col1 decl" id="131texture" title='texture' data-type='const sf::Texture &amp;' data-ref="131texture">texture</dfn>);</td></tr>
+<tr><th id="619">619</th><td></td></tr>
+<tr><th id="620">620</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="621">621</th><td><i>    /// \brief Change a texture parameter of the shader</i></td></tr>
+<tr><th id="622">622</th><td><i>    ///</i></td></tr>
+<tr><th id="623">623</th><td><i>    /// \deprecated Use setUniform(const std::string&amp;, CurrentTextureType) instead.</i></td></tr>
+<tr><th id="624">624</th><td><i>    ///</i></td></tr>
+<tr><th id="625">625</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="626">626</th><td>    <a class="macro" href="../Config.hpp.html#186" title="__attribute__ ((deprecated))" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</a> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE" title='sf::Shader::setParameter' data-ref="_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE">setParameter</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col2 decl" id="132name" title='name' data-type='const std::string &amp;' data-ref="132name">name</dfn>, <a class="type" href="#sf::Shader::CurrentTextureType" title='sf::Shader::CurrentTextureType' data-ref="sf::Shader::CurrentTextureType">CurrentTextureType</a>);</td></tr>
+<tr><th id="627">627</th><td></td></tr>
+<tr><th id="628">628</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="629">629</th><td><i>    /// \brief Get the underlying OpenGL handle of the shader.</i></td></tr>
+<tr><th id="630">630</th><td><i>    ///</i></td></tr>
+<tr><th id="631">631</th><td><i>    /// You shouldn't need to use this function, unless you have</i></td></tr>
+<tr><th id="632">632</th><td><i>    /// very specific stuff to implement that SFML doesn't support,</i></td></tr>
+<tr><th id="633">633</th><td><i>    /// or implement a temporary workaround until a bug is fixed.</i></td></tr>
+<tr><th id="634">634</th><td><i>    ///</i></td></tr>
+<tr><th id="635">635</th><td><i>    /// \return OpenGL handle of the shader or 0 if not yet loaded</i></td></tr>
+<tr><th id="636">636</th><td><i>    ///</i></td></tr>
+<tr><th id="637">637</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="638">638</th><td>    <em>unsigned</em> <em>int</em> <dfn class="decl" id="_ZNK2sf6Shader15getNativeHandleEv" title='sf::Shader::getNativeHandle' data-ref="_ZNK2sf6Shader15getNativeHandleEv">getNativeHandle</dfn>() <em>const</em>;</td></tr>
+<tr><th id="639">639</th><td></td></tr>
+<tr><th id="640">640</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="641">641</th><td><i>    /// \brief Bind a shader for rendering</i></td></tr>
+<tr><th id="642">642</th><td><i>    ///</i></td></tr>
+<tr><th id="643">643</th><td><i>    /// This function is not part of the graphics API, it mustn't be</i></td></tr>
+<tr><th id="644">644</th><td><i>    /// used when drawing SFML entities. It must be used only if you</i></td></tr>
+<tr><th id="645">645</th><td><i>    /// mix sf::Shader with OpenGL code.</i></td></tr>
+<tr><th id="646">646</th><td><i>    ///</i></td></tr>
+<tr><th id="647">647</th><td><i>    /// \code</i></td></tr>
+<tr><th id="648">648</th><td><i>    /// sf::Shader s1, s2;</i></td></tr>
+<tr><th id="649">649</th><td><i>    /// ...</i></td></tr>
+<tr><th id="650">650</th><td><i>    /// sf::Shader::bind(&amp;s1);</i></td></tr>
+<tr><th id="651">651</th><td><i>    /// // draw OpenGL stuff that use s1...</i></td></tr>
+<tr><th id="652">652</th><td><i>    /// sf::Shader::bind(&amp;s2);</i></td></tr>
+<tr><th id="653">653</th><td><i>    /// // draw OpenGL stuff that use s2...</i></td></tr>
+<tr><th id="654">654</th><td><i>    /// sf::Shader::bind(NULL);</i></td></tr>
+<tr><th id="655">655</th><td><i>    /// // draw OpenGL stuff that use no shader...</i></td></tr>
+<tr><th id="656">656</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="657">657</th><td><i>    ///</i></td></tr>
+<tr><th id="658">658</th><td><i>    /// \param shader Shader to bind, can be null to use no shader</i></td></tr>
+<tr><th id="659">659</th><td><i>    ///</i></td></tr>
+<tr><th id="660">660</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="661">661</th><td>    <em>static</em> <em>void</em> <dfn class="decl" id="_ZN2sf6Shader4bindEPKS0_" title='sf::Shader::bind' data-ref="_ZN2sf6Shader4bindEPKS0_">bind</dfn>(<em>const</em> <a class="type" href="#sf::Shader" title='sf::Shader' data-ref="sf::Shader">Shader</a>* <dfn class="local col3 decl" id="133shader" title='shader' data-type='const sf::Shader *' data-ref="133shader">shader</dfn>);</td></tr>
+<tr><th id="662">662</th><td></td></tr>
+<tr><th id="663">663</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="664">664</th><td><i>    /// \brief Tell whether or not the system supports shaders</i></td></tr>
+<tr><th id="665">665</th><td><i>    ///</i></td></tr>
+<tr><th id="666">666</th><td><i>    /// This function should always be called before using</i></td></tr>
+<tr><th id="667">667</th><td><i>    /// the shader features. If it returns false, then</i></td></tr>
+<tr><th id="668">668</th><td><i>    /// any attempt to use sf::Shader will fail.</i></td></tr>
+<tr><th id="669">669</th><td><i>    ///</i></td></tr>
+<tr><th id="670">670</th><td><i>    /// \return True if shaders are supported, false otherwise</i></td></tr>
+<tr><th id="671">671</th><td><i>    ///</i></td></tr>
+<tr><th id="672">672</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="673">673</th><td>    <em>static</em> <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader11isAvailableEv" title='sf::Shader::isAvailable' data-ref="_ZN2sf6Shader11isAvailableEv">isAvailable</dfn>();</td></tr>
+<tr><th id="674">674</th><td></td></tr>
+<tr><th id="675">675</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="676">676</th><td><i>    /// \brief Tell whether or not the system supports geometry shaders</i></td></tr>
+<tr><th id="677">677</th><td><i>    ///</i></td></tr>
+<tr><th id="678">678</th><td><i>    /// This function should always be called before using</i></td></tr>
+<tr><th id="679">679</th><td><i>    /// the geometry shader features. If it returns false, then</i></td></tr>
+<tr><th id="680">680</th><td><i>    /// any attempt to use sf::Shader geometry shader features will fail.</i></td></tr>
+<tr><th id="681">681</th><td><i>    ///</i></td></tr>
+<tr><th id="682">682</th><td><i>    /// This function can only return true if isAvailable() would also</i></td></tr>
+<tr><th id="683">683</th><td><i>    /// return true, since shaders in general have to be supported in</i></td></tr>
+<tr><th id="684">684</th><td><i>    /// order for geometry shaders to be supported as well.</i></td></tr>
+<tr><th id="685">685</th><td><i>    ///</i></td></tr>
+<tr><th id="686">686</th><td><i>    /// Note: The first call to this function, whether by your</i></td></tr>
+<tr><th id="687">687</th><td><i>    /// code or SFML will result in a context switch.</i></td></tr>
+<tr><th id="688">688</th><td><i>    ///</i></td></tr>
+<tr><th id="689">689</th><td><i>    /// \return True if geometry shaders are supported, false otherwise</i></td></tr>
+<tr><th id="690">690</th><td><i>    ///</i></td></tr>
+<tr><th id="691">691</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="692">692</th><td>    <em>static</em> <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader19isGeometryAvailableEv" title='sf::Shader::isGeometryAvailable' data-ref="_ZN2sf6Shader19isGeometryAvailableEv">isGeometryAvailable</dfn>();</td></tr>
+<tr><th id="693">693</th><td></td></tr>
+<tr><th id="694">694</th><td><b>private</b>:</td></tr>
+<tr><th id="695">695</th><td></td></tr>
+<tr><th id="696">696</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="697">697</th><td><i>    /// \brief Compile the shader(s) and create the program</i></td></tr>
+<tr><th id="698">698</th><td><i>    ///</i></td></tr>
+<tr><th id="699">699</th><td><i>    /// If one of the arguments is NULL, the corresponding shader</i></td></tr>
+<tr><th id="700">700</th><td><i>    /// is not created.</i></td></tr>
+<tr><th id="701">701</th><td><i>    ///</i></td></tr>
+<tr><th id="702">702</th><td><i>    /// \param vertexShaderCode   Source code of the vertex shader</i></td></tr>
+<tr><th id="703">703</th><td><i>    /// \param geometryShaderCode Source code of the geometry shader</i></td></tr>
+<tr><th id="704">704</th><td><i>    /// \param fragmentShaderCode Source code of the fragment shader</i></td></tr>
+<tr><th id="705">705</th><td><i>    ///</i></td></tr>
+<tr><th id="706">706</th><td><i>    /// \return True on success, false if any error happened</i></td></tr>
+<tr><th id="707">707</th><td><i>    ///</i></td></tr>
+<tr><th id="708">708</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="709">709</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Shader7compileEPKcS2_S2_" title='sf::Shader::compile' data-ref="_ZN2sf6Shader7compileEPKcS2_S2_">compile</dfn>(<em>const</em> <em>char</em>* <dfn class="local col4 decl" id="134vertexShaderCode" title='vertexShaderCode' data-type='const char *' data-ref="134vertexShaderCode">vertexShaderCode</dfn>, <em>const</em> <em>char</em>* <dfn class="local col5 decl" id="135geometryShaderCode" title='geometryShaderCode' data-type='const char *' data-ref="135geometryShaderCode">geometryShaderCode</dfn>, <em>const</em> <em>char</em>* <dfn class="local col6 decl" id="136fragmentShaderCode" title='fragmentShaderCode' data-type='const char *' data-ref="136fragmentShaderCode">fragmentShaderCode</dfn>);</td></tr>
+<tr><th id="710">710</th><td></td></tr>
+<tr><th id="711">711</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="712">712</th><td><i>    /// \brief Bind all the textures used by the shader</i></td></tr>
+<tr><th id="713">713</th><td><i>    ///</i></td></tr>
+<tr><th id="714">714</th><td><i>    /// This function each texture to a different unit, and</i></td></tr>
+<tr><th id="715">715</th><td><i>    /// updates the corresponding variables in the shader accordingly.</i></td></tr>
+<tr><th id="716">716</th><td><i>    ///</i></td></tr>
+<tr><th id="717">717</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="718">718</th><td>    <em>void</em> <dfn class="decl" id="_ZNK2sf6Shader12bindTexturesEv" title='sf::Shader::bindTextures' data-ref="_ZNK2sf6Shader12bindTexturesEv">bindTextures</dfn>() <em>const</em>;</td></tr>
+<tr><th id="719">719</th><td></td></tr>
+<tr><th id="720">720</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="721">721</th><td><i>    /// \brief Get the location ID of a shader uniform</i></td></tr>
+<tr><th id="722">722</th><td><i>    ///</i></td></tr>
+<tr><th id="723">723</th><td><i>    /// \param name Name of the uniform variable to search</i></td></tr>
+<tr><th id="724">724</th><td><i>    ///</i></td></tr>
+<tr><th id="725">725</th><td><i>    /// \return Location ID of the uniform, or -1 if not found</i></td></tr>
+<tr><th id="726">726</th><td><i>    ///</i></td></tr>
+<tr><th id="727">727</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="728">728</th><td>    <em>int</em> <dfn class="decl" id="_ZN2sf6Shader18getUniformLocationERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Shader::getUniformLocation' data-ref="_ZN2sf6Shader18getUniformLocationERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">getUniformLocation</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="137name" title='name' data-type='const std::string &amp;' data-ref="137name">name</dfn>);</td></tr>
+<tr><th id="729">729</th><td></td></tr>
+<tr><th id="730">730</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="731">731</th><td><i>    /// \brief RAII object to save and restore the program</i></td></tr>
+<tr><th id="732">732</th><td><i>    ///        binding while uniforms are being set</i></td></tr>
+<tr><th id="733">733</th><td><i>    ///</i></td></tr>
+<tr><th id="734">734</th><td><i>    /// Implementation is private in the .cpp file.</i></td></tr>
+<tr><th id="735">735</th><td><i>    ///</i></td></tr>
+<tr><th id="736">736</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="737">737</th><td>    <b>struct</b> <dfn class="type" id="sf::Shader::UniformBinder" title='sf::Shader::UniformBinder' data-ref="sf::Shader::UniformBinder">UniformBinder</dfn>;</td></tr>
+<tr><th id="738">738</th><td></td></tr>
+<tr><th id="739">739</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="740">740</th><td><i>    // Types</i></td></tr>
+<tr><th id="741">741</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="742">742</th><td>    <b>typedef</b> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_map.h.html#std::map" title='std::map' data-ref="std::map">map</a>&lt;<em>int</em>, <em>const</em> <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>*&gt; <dfn class="typedef" id="sf::Shader::TextureTable" title='sf::Shader::TextureTable' data-type='std::map&lt;int, const Texture *&gt;' data-ref="sf::Shader::TextureTable">TextureTable</dfn>;</td></tr>
+<tr><th id="743">743</th><td>    <b>typedef</b> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_map.h.html#std::map" title='std::map' data-ref="std::map">map</a>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>, <em>int</em>&gt; <dfn class="typedef" id="sf::Shader::UniformTable" title='sf::Shader::UniformTable' data-type='std::map&lt;std::string, int&gt;' data-ref="sf::Shader::UniformTable">UniformTable</dfn>;</td></tr>
+<tr><th id="744">744</th><td></td></tr>
+<tr><th id="745">745</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="746">746</th><td><i>    // Member data</i></td></tr>
+<tr><th id="747">747</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="748">748</th><td>    <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Shader::m_shaderProgram" title='sf::Shader::m_shaderProgram' data-ref="sf::Shader::m_shaderProgram">m_shaderProgram</dfn>;  <i class="doc">///&lt; OpenGL identifier for the program</i></td></tr>
+<tr><th id="749">749</th><td>    <em>int</em>          <dfn class="decl" id="sf::Shader::m_currentTexture" title='sf::Shader::m_currentTexture' data-ref="sf::Shader::m_currentTexture">m_currentTexture</dfn>; <i class="doc">///&lt; Location of the current texture in the shader</i></td></tr>
+<tr><th id="750">750</th><td>    <a class="typedef" href="#sf::Shader::TextureTable" title='sf::Shader::TextureTable' data-type='std::map&lt;int, const Texture *&gt;' data-ref="sf::Shader::TextureTable">TextureTable</a> <dfn class="decl" id="sf::Shader::m_textures" title='sf::Shader::m_textures' data-ref="sf::Shader::m_textures">m_textures</dfn>;       <i class="doc">///&lt; Texture variables in the shader, mapped to their location</i></td></tr>
+<tr><th id="751">751</th><td>    <a class="typedef" href="#sf::Shader::UniformTable" title='sf::Shader::UniformTable' data-type='std::map&lt;std::string, int&gt;' data-ref="sf::Shader::UniformTable">UniformTable</a> <dfn class="decl" id="sf::Shader::m_uniforms" title='sf::Shader::m_uniforms' data-ref="sf::Shader::m_uniforms">m_uniforms</dfn>;       <i class="doc">///&lt; Parameters location cache</i></td></tr>
+<tr><th id="752">752</th><td>};</td></tr>
+<tr><th id="753">753</th><td></td></tr>
+<tr><th id="754">754</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="755">755</th><td></td></tr>
+<tr><th id="756">756</th><td></td></tr>
+<tr><th id="757">757</th><td><u>#<span data-ppcond="25">endif</span> // SFML_SHADER_HPP</u></td></tr>
+<tr><th id="758">758</th><td></td></tr>
+<tr><th id="759">759</th><td></td></tr>
+<tr><th id="760">760</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="761">761</th><td><i>/// \class sf::Shader</i></td></tr>
+<tr><th id="762">762</th><td><i>/// \ingroup graphics</i></td></tr>
+<tr><th id="763">763</th><td><i>///</i></td></tr>
+<tr><th id="764">764</th><td><i>/// Shaders are programs written using a specific language,</i></td></tr>
+<tr><th id="765">765</th><td><i>/// executed directly by the graphics card and allowing</i></td></tr>
+<tr><th id="766">766</th><td><i>/// to apply real-time operations to the rendered entities.</i></td></tr>
+<tr><th id="767">767</th><td><i>///</i></td></tr>
+<tr><th id="768">768</th><td><i>/// There are three kinds of shaders:</i></td></tr>
+<tr><th id="769">769</th><td><i>/// \li %Vertex shaders, that process vertices</i></td></tr>
+<tr><th id="770">770</th><td><i>/// \li Geometry shaders, that process primitives</i></td></tr>
+<tr><th id="771">771</th><td><i>/// \li Fragment (pixel) shaders, that process pixels</i></td></tr>
+<tr><th id="772">772</th><td><i>///</i></td></tr>
+<tr><th id="773">773</th><td><i>/// A sf::Shader can be composed of either a vertex shader</i></td></tr>
+<tr><th id="774">774</th><td><i>/// alone, a geometry shader alone, a fragment shader alone,</i></td></tr>
+<tr><th id="775">775</th><td><i>/// or any combination of them. (see the variants of the</i></td></tr>
+<tr><th id="776">776</th><td><i>/// load functions).</i></td></tr>
+<tr><th id="777">777</th><td><i>///</i></td></tr>
+<tr><th id="778">778</th><td><i>/// Shaders are written in GLSL, which is a C-like</i></td></tr>
+<tr><th id="779">779</th><td><i>/// language dedicated to OpenGL shaders. You'll probably</i></td></tr>
+<tr><th id="780">780</th><td><i>/// need to learn its basics before writing your own shaders</i></td></tr>
+<tr><th id="781">781</th><td><i>/// for SFML.</i></td></tr>
+<tr><th id="782">782</th><td><i>///</i></td></tr>
+<tr><th id="783">783</th><td><i>/// Like any C/C++ program, a GLSL shader has its own variables</i></td></tr>
+<tr><th id="784">784</th><td><i>/// called \a uniforms that you can set from your C++ application.</i></td></tr>
+<tr><th id="785">785</th><td><i>/// sf::Shader handles different types of uniforms:</i></td></tr>
+<tr><th id="786">786</th><td><i>/// \li scalars: \p float, \p int, \p bool</i></td></tr>
+<tr><th id="787">787</th><td><i>/// \li vectors (2, 3 or 4 components)</i></td></tr>
+<tr><th id="788">788</th><td><i>/// \li matrices (3x3 or 4x4)</i></td></tr>
+<tr><th id="789">789</th><td><i>/// \li samplers (textures)</i></td></tr>
+<tr><th id="790">790</th><td><i>///</i></td></tr>
+<tr><th id="791">791</th><td><i>/// Some SFML-specific types can be converted:</i></td></tr>
+<tr><th id="792">792</th><td><i>/// \li sf::Color as a 4D vector (\p vec4)</i></td></tr>
+<tr><th id="793">793</th><td><i>/// \li sf::Transform as matrices (\p mat3 or \p mat4)</i></td></tr>
+<tr><th id="794">794</th><td><i>///</i></td></tr>
+<tr><th id="795">795</th><td><i>/// Every uniform variable in a shader can be set through one of the</i></td></tr>
+<tr><th id="796">796</th><td><i>/// setUniform() or setUniformArray() overloads. For example, if you</i></td></tr>
+<tr><th id="797">797</th><td><i>/// have a shader with the following uniforms:</i></td></tr>
+<tr><th id="798">798</th><td><i>/// \code</i></td></tr>
+<tr><th id="799">799</th><td><i>/// uniform float offset;</i></td></tr>
+<tr><th id="800">800</th><td><i>/// uniform vec3 point;</i></td></tr>
+<tr><th id="801">801</th><td><i>/// uniform vec4 color;</i></td></tr>
+<tr><th id="802">802</th><td><i>/// uniform mat4 matrix;</i></td></tr>
+<tr><th id="803">803</th><td><i>/// uniform sampler2D overlay;</i></td></tr>
+<tr><th id="804">804</th><td><i>/// uniform sampler2D current;</i></td></tr>
+<tr><th id="805">805</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="806">806</th><td><i>/// You can set their values from C++ code as follows, using the types</i></td></tr>
+<tr><th id="807">807</th><td><i>/// defined in the sf::Glsl namespace:</i></td></tr>
+<tr><th id="808">808</th><td><i>/// \code</i></td></tr>
+<tr><th id="809">809</th><td><i>/// shader.setUniform("offset", 2.f);</i></td></tr>
+<tr><th id="810">810</th><td><i>/// shader.setUniform("point", sf::Vector3f(0.5f, 0.8f, 0.3f));</i></td></tr>
+<tr><th id="811">811</th><td><i>/// shader.setUniform("color", sf::Glsl::Vec4(color));          // color is a sf::Color</i></td></tr>
+<tr><th id="812">812</th><td><i>/// shader.setUniform("matrix", sf::Glsl::Mat4(transform));     // transform is a sf::Transform</i></td></tr>
+<tr><th id="813">813</th><td><i>/// shader.setUniform("overlay", texture);                      // texture is a sf::Texture</i></td></tr>
+<tr><th id="814">814</th><td><i>/// shader.setUniform("current", sf::Shader::CurrentTexture);</i></td></tr>
+<tr><th id="815">815</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="816">816</th><td><i>///</i></td></tr>
+<tr><th id="817">817</th><td><i>/// The old setParameter() overloads are deprecated and will be removed in a</i></td></tr>
+<tr><th id="818">818</th><td><i>/// future version. You should use their setUniform() equivalents instead.</i></td></tr>
+<tr><th id="819">819</th><td><i>///</i></td></tr>
+<tr><th id="820">820</th><td><i>/// The special Shader::CurrentTexture argument maps the</i></td></tr>
+<tr><th id="821">821</th><td><i>/// given \p sampler2D uniform to the current texture of the</i></td></tr>
+<tr><th id="822">822</th><td><i>/// object being drawn (which cannot be known in advance).</i></td></tr>
+<tr><th id="823">823</th><td><i>///</i></td></tr>
+<tr><th id="824">824</th><td><i>/// To apply a shader to a drawable, you must pass it as an</i></td></tr>
+<tr><th id="825">825</th><td><i>/// additional parameter to the \ref Window::draw() draw() function:</i></td></tr>
+<tr><th id="826">826</th><td><i>/// \code</i></td></tr>
+<tr><th id="827">827</th><td><i>/// window.draw(sprite, &amp;shader);</i></td></tr>
+<tr><th id="828">828</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="829">829</th><td><i>///</i></td></tr>
+<tr><th id="830">830</th><td><i>/// ... which is in fact just a shortcut for this:</i></td></tr>
+<tr><th id="831">831</th><td><i>/// \code</i></td></tr>
+<tr><th id="832">832</th><td><i>/// sf::RenderStates states;</i></td></tr>
+<tr><th id="833">833</th><td><i>/// states.shader = &amp;shader;</i></td></tr>
+<tr><th id="834">834</th><td><i>/// window.draw(sprite, states);</i></td></tr>
+<tr><th id="835">835</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="836">836</th><td><i>///</i></td></tr>
+<tr><th id="837">837</th><td><i>/// In the code above we pass a pointer to the shader, because it may</i></td></tr>
+<tr><th id="838">838</th><td><i>/// be null (which means "no shader").</i></td></tr>
+<tr><th id="839">839</th><td><i>///</i></td></tr>
+<tr><th id="840">840</th><td><i>/// Shaders can be used on any drawable, but some combinations are</i></td></tr>
+<tr><th id="841">841</th><td><i>/// not interesting. For example, using a vertex shader on a sf::Sprite</i></td></tr>
+<tr><th id="842">842</th><td><i>/// is limited because there are only 4 vertices, the sprite would</i></td></tr>
+<tr><th id="843">843</th><td><i>/// have to be subdivided in order to apply wave effects.</i></td></tr>
+<tr><th id="844">844</th><td><i>/// Another bad example is a fragment shader with sf::Text: the texture</i></td></tr>
+<tr><th id="845">845</th><td><i>/// of the text is not the actual text that you see on screen, it is</i></td></tr>
+<tr><th id="846">846</th><td><i>/// a big texture containing all the characters of the font in an</i></td></tr>
+<tr><th id="847">847</th><td><i>/// arbitrary order; thus, texture lookups on pixels other than the</i></td></tr>
+<tr><th id="848">848</th><td><i>/// current one may not give you the expected result.</i></td></tr>
+<tr><th id="849">849</th><td><i>///</i></td></tr>
+<tr><th id="850">850</th><td><i>/// Shaders can also be used to apply global post-effects to the</i></td></tr>
+<tr><th id="851">851</th><td><i>/// current contents of the target (like the old sf::PostFx class</i></td></tr>
+<tr><th id="852">852</th><td><i>/// in SFML 1). This can be done in two different ways:</i></td></tr>
+<tr><th id="853">853</th><td><i>/// \li draw everything to a sf::RenderTexture, then draw it to</i></td></tr>
+<tr><th id="854">854</th><td><i>///     the main target using the shader</i></td></tr>
+<tr><th id="855">855</th><td><i>/// \li draw everything directly to the main target, then use</i></td></tr>
+<tr><th id="856">856</th><td><i>///     sf::Texture::update(Window&amp;) to copy its contents to a texture</i></td></tr>
+<tr><th id="857">857</th><td><i>///     and draw it to the main target using the shader</i></td></tr>
+<tr><th id="858">858</th><td><i>///</i></td></tr>
+<tr><th id="859">859</th><td><i>/// The first technique is more optimized because it doesn't involve</i></td></tr>
+<tr><th id="860">860</th><td><i>/// retrieving the target's pixels to system memory, but the</i></td></tr>
+<tr><th id="861">861</th><td><i>/// second one doesn't impact the rendering process and can be</i></td></tr>
+<tr><th id="862">862</th><td><i>/// easily inserted anywhere without impacting all the code.</i></td></tr>
+<tr><th id="863">863</th><td><i>///</i></td></tr>
+<tr><th id="864">864</th><td><i>/// Like sf::Texture that can be used as a raw OpenGL texture,</i></td></tr>
+<tr><th id="865">865</th><td><i>/// sf::Shader can also be used directly as a raw shader for</i></td></tr>
+<tr><th id="866">866</th><td><i>/// custom OpenGL geometry.</i></td></tr>
+<tr><th id="867">867</th><td><i>/// \code</i></td></tr>
+<tr><th id="868">868</th><td><i>/// sf::Shader::bind(&amp;shader);</i></td></tr>
+<tr><th id="869">869</th><td><i>/// ... render OpenGL geometry ...</i></td></tr>
+<tr><th id="870">870</th><td><i>/// sf::Shader::bind(NULL);</i></td></tr>
+<tr><th id="871">871</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="872">872</th><td><i>///</i></td></tr>
+<tr><th id="873">873</th><td><i>/// \see sf::Glsl</i></td></tr>
+<tr><th id="874">874</th><td><i>///</i></td></tr>
+<tr><th id="875">875</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="876">876</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/RenderTarget.cpp.html'>codebrowser/src/SFML/Graphics/RenderTarget.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

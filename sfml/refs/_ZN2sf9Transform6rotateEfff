@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='233' type='sf::Transform &amp; sf::Transform::rotate(float angle, float centerX, float centerY)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='209'>////////////////////////////////////////////////////////////
+    /// \brief Combine the current transform with a rotation
+    ///
+    /// The center of rotation is provided for convenience as a second
+    /// argument, so that you can build rotations around arbitrary points
+    /// more easily (and efficiently) than the usual
+    /// translate(-center).rotate(angle).translate(center).
+    ///
+    /// This function returns a reference to *this, so that calls
+    /// can be chained.
+    /// \code
+    /// sf::Transform transform;
+    /// transform.rotate(90, 8, 3).translate(50, 20);
+    /// \endcode
+    ///
+    /// \param angle Rotation angle, in degrees
+    /// \param centerX X coordinate of the center of rotation
+    /// \param centerY Y coordinate of the center of rotation
+    ///
+    /// \return Reference to *this
+    ///
+    /// \see translate, scale
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='195' ll='206' type='sf::Transform &amp; sf::Transform::rotate(float angle, float centerX, float centerY)'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='212' u='c' c='_ZN2sf9Transform6rotateEfRKNS_7Vector2IfEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='194'>////////////////////////////////////////////////////////////</doc>

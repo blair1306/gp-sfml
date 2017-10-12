@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='749' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='749'>///&lt; Location of the current texture in the shader</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='224' u='w' c='_ZN2sf6ShaderC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='586' u='w' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='762' u='r' c='_ZN2sf6Shader4bindEPKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='763' u='r' c='_ZN2sf6Shader4bindEPKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='854' u='w' c='_ZN2sf6Shader7compileEPKcS2_S2_'/>

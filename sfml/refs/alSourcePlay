@@ -1,0 +1,5 @@
+<dec f='include/AL/al.h' l='537' type='void alSourcePlay(ALuint source)'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='73' u='c' c='_ZN2sf5Sound4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='123' u='c' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='293' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='317' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>

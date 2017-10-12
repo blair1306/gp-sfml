@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/System/Unix/ClockImpl.hpp' l='53' type='static sf::Time sf::priv::ClockImpl::getCurrentTime()'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='41' u='c' c='_ZN2sf5ClockC1Ev'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='49' u='c' c='_ZNK2sf5Clock14getElapsedTimeEv'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='56' u='c' c='_ZN2sf5Clock7restartEv'/>
+<doc f='codebrowser/src/SFML/System/Unix/ClockImpl.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Get the current time
+    ///
+    /// \return Current time
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='41' ll='60' type='static sf::Time sf::priv::ClockImpl::getCurrentTime()'/>
+<doc f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='40'>////////////////////////////////////////////////////////////</doc>

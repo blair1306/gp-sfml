@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='144' type='void sf::Http::Request::setBody(const std::string &amp; body)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='57' u='c' c='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='95' ll='98' type='void sf::Http::Request::setBody(const std::string &amp; body)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='94'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='134'>////////////////////////////////////////////////////////////
+        /// \brief Set the body of the request
+        ///
+        /// The body of a request is optional and only makes sense
+        /// for POST requests. It is ignored for all other methods.
+        /// The body is empty by default.
+        ///
+        /// \param body Content of the body
+        ///
+        ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<dec f='include/GL/glx.h' l='217' type='GLXContext glXGetCurrentContext()'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='182' u='c' c='_ZN2sf4priv10GlxContextD1Ev'/>

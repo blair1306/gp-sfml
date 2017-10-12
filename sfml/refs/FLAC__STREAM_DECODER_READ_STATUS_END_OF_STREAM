@@ -1,0 +1,3 @@
+<dec f='include/FLAC/stream_decoder.h' l='299' type='1'/>
+<doc f='include/FLAC/stream_decoder.h' l='297'>/**&lt; The read was OK and decoding can continue. */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='48' u='r' c='_ZN12_GLOBAL__N_110streamReadEPK19FLAC__StreamDecoderPhPmPv'/>

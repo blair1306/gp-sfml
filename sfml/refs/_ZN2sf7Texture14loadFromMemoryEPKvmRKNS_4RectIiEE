@@ -1,0 +1,33 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='159' type='bool sf::Texture::loadFromMemory(const void * data, std::size_t size, const IntRect &amp; area = IntRect())'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='129'>////////////////////////////////////////////////////////////
+    /// \brief Load the texture from a file in memory
+    ///
+    /// This function is a shortcut for the following code:
+    /// \code
+    /// sf::Image image;
+    /// image.loadFromMemory(data, size);
+    /// texture.loadFromImage(image, area);
+    /// \endcode
+    ///
+    /// The \a area argument can be used to load only a sub-rectangle
+    /// of the whole image. If you want the entire image then leave
+    /// the default value (which is an empty IntRect).
+    /// If the \a area rectangle crosses the bounds of the image, it
+    /// is adjusted to fit the image size.
+    ///
+    /// The maximum size for a texture depends on the graphics
+    /// driver and can be retrieved with the getMaximumSize function.
+    ///
+    /// If this function fails, the texture is left unchanged.
+    ///
+    /// \param data Pointer to the file data in memory
+    /// \param size Size of the data to load, in bytes
+    /// \param area Area of the image to load
+    ///
+    /// \return True if loading was successful
+    ///
+    /// \see loadFromFile, loadFromStream, loadFromImage
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='230' ll='234' type='bool sf::Texture::loadFromMemory(const void * data, std::size_t size, const IntRect &amp; area = IntRect())'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='229'>////////////////////////////////////////////////////////////</doc>

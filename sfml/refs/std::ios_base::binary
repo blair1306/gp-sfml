@@ -1,0 +1,10 @@
+<dec f='include/c++/5/bits/ios_base.h' l='440' type='const openmode'/>
+<doc f='include/c++/5/bits/ios_base.h' l='437'>/// Perform input and output in binary mode (as opposed to text mode).
+    /// This is probably not what you think it is; see
+    /// https://gcc.gnu.org/onlinedocs/libstdc++/manual/fstreams.html#std.io.filestreams.binary</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='90' u='r' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='107' u='r' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='84' u='r' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='301' u='r' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='328' u='r' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='412' u='r' c='_ZN2sf3Ftp11getResponseEv'/>

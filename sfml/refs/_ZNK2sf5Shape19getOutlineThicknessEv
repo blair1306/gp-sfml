@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='186' type='float sf::Shape::getOutlineThickness() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='178'>////////////////////////////////////////////////////////////
+    /// \brief Get the outline thickness of the shape
+    ///
+    /// \return Outline thickness of the shape
+    ///
+    /// \see setOutlineThickness
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='139' ll='142' type='float sf::Shape::getOutlineThickness() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='138'>////////////////////////////////////////////////////////////</doc>

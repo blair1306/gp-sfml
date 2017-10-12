@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='518' type='sf::Texture &amp; sf::Texture::operator=(const sf::Texture &amp; right)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='510'>////////////////////////////////////////////////////////////
+    /// \brief Overload of assignment operator
+    ///
+    /// \param right Instance to assign
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='798' ll='805' type='sf::Texture &amp; sf::Texture::operator=(const sf::Texture &amp; right)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='797'>////////////////////////////////////////////////////////////</doc>

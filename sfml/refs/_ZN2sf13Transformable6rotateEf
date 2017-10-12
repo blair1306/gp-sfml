@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='255' type='void sf::Transformable::rotate(float angle)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='242'>////////////////////////////////////////////////////////////
+    /// \brief Rotate the object
+    ///
+    /// This function adds to the current rotation of the object,
+    /// unlike setRotation which overwrites it.
+    /// Thus, it is equivalent to the following code:
+    /// \code
+    /// object.setRotation(object.getRotation() + angle);
+    /// \endcode
+    ///
+    /// \param angle Angle of rotation, in degrees
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='160' ll='163' type='void sf::Transformable::rotate(float angle)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='159'>////////////////////////////////////////////////////////////</doc>

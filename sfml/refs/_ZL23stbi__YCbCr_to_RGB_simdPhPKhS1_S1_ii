@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3345' ll='3476' type='void stbi__YCbCr_to_RGB_simd(stbi_uc * out, const stbi_uc * y, const stbi_uc * pcb, const stbi_uc * pcr, int count, int step)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3489' u='r' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>

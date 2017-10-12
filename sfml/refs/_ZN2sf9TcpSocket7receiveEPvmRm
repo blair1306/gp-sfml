@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='174' type='sf::Socket::Status sf::TcpSocket::receive(void * data, std::size_t size, std::size_t &amp; received)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='401' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='600' u='c' c='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='158'>////////////////////////////////////////////////////////////
+    /// \brief Receive raw data from the remote peer
+    ///
+    /// In blocking mode, this function will wait until some
+    /// bytes are actually received.
+    /// This function will fail if the socket is not connected.
+    ///
+    /// \param data     Pointer to the array to fill with the received bytes
+    /// \param size     Maximum number of bytes that can be received
+    /// \param received This variable is filled with the actual number of bytes received
+    ///
+    /// \return Status code
+    ///
+    /// \see send
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='398' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='265' ll='294' type='Socket::Status sf::TcpSocket::receive(void * data, std::size_t size, std::size_t &amp; received)'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='358' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='380' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='264'>////////////////////////////////////////////////////////////</doc>

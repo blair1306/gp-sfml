@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='414' type='void stbi_image_free(void * retval_from_stbi_load)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='936' ll='939' macro='1' type='void stbi_image_free(void * retval_from_stbi_load)'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='120' u='c' c='_ZN2sf4priv11ImageLoader17loadImageFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='164' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromMemoryEPKvmRSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='219' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>

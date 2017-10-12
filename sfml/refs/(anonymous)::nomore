@@ -1,0 +1,6 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1685' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1777' u='r' c='_ZL24stbi__grow_buffer_unsafeP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1783' u='w' c='_ZL24stbi__grow_buffer_unsafeP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2628' u='w' c='_ZL16stbi__jpeg_resetP10stbi__jpeg'/>
+<offset>147808</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1685'>// flag if we saw a marker so must stop</doc>

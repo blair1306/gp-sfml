@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1598' type='void glPolygonOffset(GLfloat , GLfloat )'/>
+<dec f='include/GL/gl.h' l='776' type='void glPolygonOffset(GLfloat factor, GLfloat units)'/>

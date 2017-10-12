@@ -1,0 +1,25 @@
+<dec f='include/string.h' l='42' type='void * memcpy(void *__restrict __dest, const void *__restrict __src, size_t __n)'/>
+<use f='include/string.h' l='652' u='c' c='__mempcpy_inline'/>
+<doc f='include/string.h' l='41'>/* Copy N bytes of SRC to DEST.  */</doc>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='266' u='c' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1047' u='c' c='_ZL19stbi__vertical_flipPviii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1048' u='c' c='_ZL19stbi__vertical_flipPviii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1049' u='c' c='_ZL19stbi__vertical_flipPviii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1405' u='c' c='_ZL10stbi__getnP13stbi__contextPhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1415' u='c' c='_ZL10stbi__getnP13stbi__contextPhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4043' u='c' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4365' u='c' c='_ZL26stbi__create_png_image_rawP9stbi__pngPhjijjii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4521' u='c' c='_ZL22stbi__create_png_imageP9stbi__pngPhjiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6275' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6279' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6285' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='116' u='c' c='_ZN2sf4priv11ImageLoader17loadImageFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='160' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromMemoryEPKvmRSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='215' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='386' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='61' u='c' c='_ZN2sf6Packet6appendEPKvm'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='274' u='c' c='_ZN2sf6PacketrsEPc'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='320' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='322' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='389' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='63' u='c' c='_ZN2sf17MemoryInputStream4readEPvx'/>

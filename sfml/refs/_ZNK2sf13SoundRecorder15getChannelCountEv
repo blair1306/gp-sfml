@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='173' type='unsigned int sf::SoundRecorder::getChannelCount() const'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='c' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='162'>////////////////////////////////////////////////////////////
+    /// \brief Get the number of channels used by this recorder
+    ///
+    /// Currently only mono and stereo are supported, so the
+    /// value is either 1 (for mono) or 2 (for stereo).
+    ///
+    /// \return Number of channels
+    ///
+    /// \see setChannelCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='240' ll='243' type='unsigned int sf::SoundRecorder::getChannelCount() const'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='303' u='c' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='239'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,3 @@
+_ZN2sf4HttpC1Ev|sf::Http::Http
+_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE|sf::Http::sendRequest
+_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt|sf::Http::setHost

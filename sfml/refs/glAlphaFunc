@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1270' type='void glAlphaFunc(GLenum , GLfloat )'/>
+<dec f='include/GL/gl.h' l='758' type='void glAlphaFunc(GLenum func, GLclampf ref)'/>

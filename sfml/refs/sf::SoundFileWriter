@@ -1,0 +1,12 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='41' ll='71'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for sound file encoding
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf15SoundFileWriterD1Ev'/>
+<fun r='_ZN2sf15SoundFileWriter4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<fun r='_ZN2sf15SoundFileWriter5writeEPKsy'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='44' c='sf::priv::SoundFileWriterFlac'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='44' c='sf::priv::SoundFileWriterOgg'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='44' c='sf::priv::SoundFileWriterWav'/>

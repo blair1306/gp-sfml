@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='39' ll='53'/>
+<doc f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='30'>////////////////////////////////////////////////////////////
+/// \ingroup graphics
+/// \brief Types of primitives that a sf::VertexArray can render
+///
+/// Points and lines have no area, therefore their thickness
+/// will always be 1 pixel, regardless the current transform
+/// and view.
+///
+////////////////////////////////////////////////////////////</doc>

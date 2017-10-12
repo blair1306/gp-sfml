@@ -1,0 +1,7 @@
+<def f='include/X11/extensions/Xrender.h' l='168' ll='171'/>
+<size>16</size>
+<mbr r='_XIndexValue::pixel' o='0' t='unsigned long'/>
+<mbr r='_XIndexValue::red' o='64' t='unsigned short'/>
+<mbr r='_XIndexValue::green' o='80' t='unsigned short'/>
+<mbr r='_XIndexValue::blue' o='96' t='unsigned short'/>
+<mbr r='_XIndexValue::alpha' o='112' t='unsigned short'/>

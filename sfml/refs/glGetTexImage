@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1376' type='void glGetTexImage(GLenum , GLint , GLenum , GLenum , void * )'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='360' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='369' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<dec f='include/GL/gl.h' l='1300' type='void glGetTexImage(GLenum target, GLint level, GLenum format, GLenum type, GLvoid * pixels)'/>

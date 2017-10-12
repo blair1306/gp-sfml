@@ -1,0 +1,34 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='375' type='FT_Error FT_Stroker_ParseOutline(FT_Stroker stroker, FT_Outline * outline, FT_Bool opened)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='341'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_ParseOutline
+   *
+   * @description:
+   *   A convenience function used to parse a whole outline with
+   *   the stroker.  The resulting outline(s) can be retrieved
+   *   later by functions like @FT_Stroker_GetCounts and @FT_Stroker_Export.
+   *
+   * @input:
+   *   stroker ::
+   *     The target stroker handle.
+   *
+   *   outline ::
+   *     The source outline.
+   *
+   *   opened ::
+   *     A boolean.  If~1, the outline is treated as an open path instead
+   *     of a closed one.
+   *
+   * @return:
+   *   FreeType error code.  0~means success.
+   *
+   * @note:
+   *   If `opened&apos; is~0 (the default), the outline is treated as a closed
+   *   path, and the stroker generates two distinct `border&apos; outlines.
+   *
+   *   If `opened&apos; is~1, the outline is processed as an open path, and the
+   *   stroker generates a single `stroke&apos; outline.
+   *
+   *   This function calls @FT_Stroker_Rewind automatically.
+   */</doc>

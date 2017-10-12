@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1356' type='GLenum glGetError()'/>
+<use f='codebrowser/src/SFML/Graphics/GLCheck.cpp' l='41' u='c' c='_ZN2sf4priv12glCheckErrorEPKcjS2_'/>
+<use f='codebrowser/src/SFML/Graphics/GLExtensions.cpp' l='64' u='c' c='_ZN2sf4priv20ensureExtensionsInitEv'/>
+<dec f='include/GL/gl.h' l='829' type='GLenum glGetError()'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='237' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='577' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>

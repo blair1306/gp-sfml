@@ -1,0 +1,4 @@
+<dec f='include/AL/al.h' l='543' type='void alSourcePause(ALuint source)'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='80' u='c' c='_ZN2sf5Sound5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='152' u='c' c='_ZN2sf11SoundStream5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='300' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>

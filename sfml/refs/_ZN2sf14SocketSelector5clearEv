@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='105' type='void sf::SocketSelector::clear()'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='56' u='c' c='_ZN2sf14SocketSelectorC1Ev'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='145' ll='152' type='void sf::SocketSelector::clear()'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='144'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Remove all the sockets stored in the selector
+    ///
+    /// This function doesn&apos;t destroy any instance, it simply
+    /// removes all the references that the selector has to
+    /// external sockets.
+    ///
+    /// \see add, remove
+    ///
+    ////////////////////////////////////////////////////////////</doc>

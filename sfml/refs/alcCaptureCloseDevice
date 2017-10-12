@@ -1,0 +1,2 @@
+<dec f='include/AL/alc.h' l='206' type='ALCboolean alcCaptureCloseDevice(ALCdevice * device)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='326' u='c' c='_ZN2sf13SoundRecorder7cleanupEv'/>

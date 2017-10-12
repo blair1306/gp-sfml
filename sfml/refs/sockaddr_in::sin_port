@@ -1,0 +1,9 @@
+<dec f='include/netinet/in.h' l='242' type='in_port_t'/>
+<offset>16</offset>
+<doc f='include/netinet/in.h' l='242'>/* Port number.  */</doc>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='54' u='r' c='_ZNK2sf11TcpListener12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='71' u='r' c='_ZNK2sf9TcpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='109' u='r' c='_ZNK2sf9TcpSocket13getRemotePortEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='57' u='r' c='_ZNK2sf9UdpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='153' u='r' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='46' u='w' c='_ZN2sf4priv10SocketImpl13createAddressEjt'/>

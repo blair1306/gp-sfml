@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='156' type='sf::Socket::Status sf::TcpSocket::send(const void * data, std::size_t size, std::size_t &amp; sent)'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='142'>////////////////////////////////////////////////////////////
+    /// \brief Send raw data to the remote peer
+    ///
+    /// This function will fail if the socket is not connected.
+    ///
+    /// \param data Pointer to the sequence of bytes to send
+    /// \param size Number of bytes to send
+    /// \param sent The number of bytes sent will be written here
+    ///
+    /// \return Status code
+    ///
+    /// \see receive
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='227' u='c' c='_ZN2sf9TcpSocket4sendEPKvm'/>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='232' ll='261' type='Socket::Status sf::TcpSocket::send(const void * data, std::size_t size, std::size_t &amp; sent)'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='326' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='231'>////////////////////////////////////////////////////////////</doc>

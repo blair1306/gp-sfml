@@ -1,0 +1,14 @@
+<use f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='69' u='w' c='_ZN2sf15ContextSettingsC1Ejjjjjjb'/>
+<dec f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='82' type='bool'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='82'>///&lt; Whether the context framebuffer is sRGB capable</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='552' u='r' c='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='672' u='r' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='672' u='r' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='680' u='w' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='685' u='w' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='716' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='716' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='726' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='735' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='422' u='w' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>

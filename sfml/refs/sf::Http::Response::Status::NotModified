@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='215' type='304'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='215'>///&lt; For conditional requests, means the requested page hasn&apos;t changed and doesn&apos;t need to be refreshed</doc>

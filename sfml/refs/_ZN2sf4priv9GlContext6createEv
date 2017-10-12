@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='93' type='static sf::priv::GlContext * sf::priv::GlContext::create()'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='44' u='c' c='_ZN2sf7ContextC1Ev'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='84'>////////////////////////////////////////////////////////////
+    /// \brief Create a new context, not associated to a window
+    ///
+    /// This function automatically chooses the specialized class
+    /// to use according to the OS.
+    ///
+    /// \return Pointer to the created context (don&apos;t forget to delete it)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='346' ll='370' type='static sf::priv::GlContext * sf::priv::GlContext::create()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='345'>////////////////////////////////////////////////////////////</doc>

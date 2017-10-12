@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='148' type='void sf::priv::WindowImplX11::setMouseCursorVisible(bool visible)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='142'>////////////////////////////////////////////////////////////
+    /// \brief Show or hide the mouse cursor
+    ///
+    /// \param visible True to show, false to hide
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='189' c='_ZN2sf4priv10WindowImpl21setMouseCursorVisibleEb'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1059' ll='1063' type='void sf::priv::WindowImplX11::setMouseCursorVisible(bool visible)'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1543' u='c' c='_ZN2sf4priv13WindowImplX117cleanupEv'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1058'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='184' type='void sf::Thread::run()'/>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='178'>////////////////////////////////////////////////////////////
+    /// \brief Internal entry point of the thread
+    ///
+    /// This function is called by the thread implementation.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Thread.cpp' l='81' ll='84' type='void sf::Thread::run()'/>
+<doc f='codebrowser/src/SFML/System/Thread.cpp' l='80'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='87' u='c' c='_ZN2sf4priv10ThreadImpl10entryPointEPv'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='130' type='static Vector3f sf::priv::AudioDevice::getPosition()'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='122'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of the listener in the scene
+    ///
+    /// \return Listener&apos;s position
+    ///
+    /// \see setPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='181' ll='184' type='static Vector3f sf::priv::AudioDevice::getPosition()'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='180'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='65' u='c' c='_ZN2sf8Listener11getPositionEv'/>

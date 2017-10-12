@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='199' type='void sf::Image::copy(const sf::Image &amp; source, unsigned int destX, unsigned int destY, const IntRect &amp; sourceRect = IntRect(0, 0, 0, 0), bool applyAlpha = false)'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='179'>////////////////////////////////////////////////////////////
+    /// \brief Copy pixels from another image onto this one
+    ///
+    /// This function does a slow pixel copy and should not be
+    /// used intensively. It can be used to prepare a complex
+    /// static image from several others, but if you need this
+    /// kind of feature in real-time you&apos;d better use sf::RenderTexture.
+    ///
+    /// If \a sourceRect is empty, the whole image is copied.
+    /// If \a applyAlpha is set to true, the transparency of
+    /// source pixels is applied. If it is false, the pixels are
+    /// copied unchanged with their alpha value.
+    ///
+    /// \param source     Source image to copy
+    /// \param destX      X coordinate of the destination position
+    /// \param destY      Y coordinate of the destination position
+    /// \param sourceRect Sub-rectangle of the source image to copy
+    /// \param applyAlpha Should the copy take into account the source transparency?
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='196' ll='271' type='void sf::Image::copy(const sf::Image &amp; source, unsigned int destX, unsigned int destY, const IntRect &amp; sourceRect = IntRect(0, 0, 0, 0), bool applyAlpha = false)'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='195'>////////////////////////////////////////////////////////////</doc>

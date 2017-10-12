@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='32'/>
+<use f='include/GL/glxext.h' l='1' u='a'/>

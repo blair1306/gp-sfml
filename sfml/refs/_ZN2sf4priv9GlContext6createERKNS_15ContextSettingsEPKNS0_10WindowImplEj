@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='108' type='static sf::priv::GlContext * sf::priv::GlContext::create(const sf::ContextSettings &amp; settings, const sf::priv::WindowImpl * owner, unsigned int bitsPerPixel)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Create a new context attached to a window
+    ///
+    /// This function automatically chooses the specialized class
+    /// to use according to the OS.
+    ///
+    /// \param settings     Creation parameters
+    /// \param owner        Pointer to the owner window
+    /// \param bitsPerPixel Pixel depth (in bits per pixel)
+    ///
+    /// \return Pointer to the created context
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='374' ll='399' type='static sf::priv::GlContext * sf::priv::GlContext::create(const sf::ContextSettings &amp; settings, const sf::priv::WindowImpl * owner, unsigned int bitsPerPixel)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='373'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='127' u='c' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='144' u='c' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>

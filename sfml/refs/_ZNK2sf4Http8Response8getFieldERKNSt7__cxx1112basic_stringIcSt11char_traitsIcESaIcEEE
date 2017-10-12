@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='257' type='const std::string &amp; sf::Http::Response::getField(const std::string &amp; field) const'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='155' ll='167' type='const std::string &amp; sf::Http::Response::getField(const std::string &amp; field) const'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='244' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='154'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='245'>////////////////////////////////////////////////////////////
+        /// \brief Get the value of a field
+        ///
+        /// If the field \a field is not found in the response header,
+        /// the empty string is returned. This function uses
+        /// case-insensitive comparisons.
+        ///
+        /// \param field Name of the field to get
+        ///
+        /// \return Value of the field, or empty string if not found
+        ///
+        ////////////////////////////////////////////////////////////</doc>

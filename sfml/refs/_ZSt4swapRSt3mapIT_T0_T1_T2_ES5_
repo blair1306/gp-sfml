@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/stl_map.h' l='1124' ll='1127' type='void std::swap(map&lt;_Key, _Tp, _Compare, _Alloc&gt; &amp; __x, map&lt;_Key, _Tp, _Compare, _Alloc&gt; &amp; __y)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='463' u='c' c='_ZN2sf4FontaSERKS0_'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='73' type='T * sf::ThreadLocalPtr::operator-&gt;() const'/>
+<def f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='45' ll='49' type='T * sf::ThreadLocalPtr::operator-&gt;() const'/>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='64'>////////////////////////////////////////////////////////////
+    /// \brief Overload of operator -&gt;
+    ///
+    /// Similarly to raw pointers, applying the -&gt; operator
+    /// returns the pointed-to object.
+    ///
+    /// \return Pointer to the thread-local variable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='44'>////////////////////////////////////////////////////////////</doc>

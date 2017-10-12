@@ -1,0 +1,17 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='47' ll='87'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Defines variables with thread-local storage
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11ThreadLocalC1EPv'/>
+<fun r='_ZN2sf11ThreadLocalD1Ev'/>
+<fun r='_ZN2sf11ThreadLocal8setValueEPv'/>
+<fun r='_ZNK2sf11ThreadLocal8getValueEv'/>
+<mbr r='sf::ThreadLocal::m_impl' o='0' t='priv::ThreadLocalImpl *'/>
+<fun r='_ZN2sf11ThreadLocalC1EPv'/>
+<fun r='_ZN2sf11ThreadLocalD1Ev'/>
+<fun r='_ZN2sf11ThreadLocal8setValueEPv'/>
+<fun r='_ZNK2sf11ThreadLocal8getValueEv'/>
+<ovr f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='41' c='sf::ThreadLocalPtr'/>

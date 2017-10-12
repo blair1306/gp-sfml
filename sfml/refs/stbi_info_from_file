@@ -1,0 +1,3 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='422' type='int stbi_info_from_file(FILE * f, int * x, int * y, int * comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6937' u='c' c='stbi_info'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6942' ll='6951' macro='1' type='int stbi_info_from_file(FILE * f, int * x, int * y, int * comp)'/>

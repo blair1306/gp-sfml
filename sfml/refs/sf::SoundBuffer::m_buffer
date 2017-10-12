@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='275' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='104' u='r' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='272'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='275'>///&lt; OpenAL buffer identifier</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='42' u='w' c='_ZN2sf11SoundBufferC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='46' u='a' c='_ZN2sf11SoundBufferC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='52' u='w' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='58' u='a' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='79' u='r' c='_ZN2sf11SoundBufferD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='80' u='a' c='_ZN2sf11SoundBufferD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='180' u='r' c='_ZNK2sf11SoundBuffer13getSampleRateEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='190' u='r' c='_ZNK2sf11SoundBuffer15getChannelCountEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='209' u='a' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='209' u='a' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='265' u='r' c='_ZN2sf11SoundBuffer6updateEjj'/>

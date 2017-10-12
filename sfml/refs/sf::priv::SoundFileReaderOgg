@@ -1,0 +1,16 @@
+<inh f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='43' c='sf::SoundFileReader'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='43' ll='120'/>
+<size>960</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Implementation of sound file reader that handles OGG/Vorbis files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv18SoundFileReaderOgg5checkERNS_11InputStreamE'/>
+<fun r='_ZN2sf4priv18SoundFileReaderOggC1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileReaderOggD1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<fun r='_ZN2sf4priv18SoundFileReaderOgg4seekEy'/>
+<fun r='_ZN2sf4priv18SoundFileReaderOgg4readEPsy'/>
+<fun r='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>
+<mbr r='sf::priv::SoundFileReaderOgg::m_vorbis' o='64' t='OggVorbis_File'/>
+<mbr r='sf::priv::SoundFileReaderOgg::m_channelCount' o='7616' t='unsigned int'/>

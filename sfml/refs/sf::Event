@@ -1,0 +1,7 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='44' ll='236'/>
+<size>20</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Defines a system event and its parameters
+///
+////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::type' o='0' t='sf::Event::EventType'/>

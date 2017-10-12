@@ -1,0 +1,5 @@
+<def f='include/X11/extensions/Xrender.h' l='146' ll='150'/>
+<size>12</size>
+<mbr r='_XCircle::x' o='0' t='XFixed'/>
+<mbr r='_XCircle::y' o='32' t='XFixed'/>
+<mbr r='_XCircle::radius' o='64' t='XFixed'/>

@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/fcntl-linux.h' l='43'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='400' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='556' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='107' u='c'/>

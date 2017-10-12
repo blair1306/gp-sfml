@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Graphics/Text.hpp' l='56' ll='63'/>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='52'>////////////////////////////////////////////////////////////
+    /// \brief Enumeration of the string drawing styles
+    ///
+    ////////////////////////////////////////////////////////////</doc>

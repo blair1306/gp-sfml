@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='294' type='unsigned int'/>
+<offset>832</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='294'>///&lt; Number of recording channels</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='55' u='w' c='_ZN2sf13SoundRecorderC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='91' u='r' c='_ZN2sf13SoundRecorder5startEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='188' u='r' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='235' u='w' c='_ZN2sf13SoundRecorder15setChannelCountEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='242' u='r' c='_ZNK2sf13SoundRecorder15getChannelCountEv'/>

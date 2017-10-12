@@ -1,0 +1,10 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='707'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='698'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_SYNTHESIS_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   FreeType~2 API which performs artificial obliquing and emboldening.
+   */</doc>

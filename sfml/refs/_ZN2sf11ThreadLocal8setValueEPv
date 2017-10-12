@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='71' type='void sf::ThreadLocal::setValue(void * value)'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='43' u='c' c='_ZN2sf11ThreadLocalC1EPv'/>
+<def f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='55' ll='58' type='void sf::ThreadLocal::setValue(void * value)'/>
+<doc f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='54'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Set the thread-specific value of the variable
+    ///
+    /// \param value Value of the variable for the current thread
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='64' u='c' c='_ZN2sf14ThreadLocalPtraSEPT_'/>
+<use f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='73' u='c' c='_ZN2sf14ThreadLocalPtraSERKNS_14ThreadLocalPtrIT_EE'/>

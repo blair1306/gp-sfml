@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='64' type='bool sf::priv::SensorManager::isAvailable(Sensor::Type sensor)'/>
+<use f='codebrowser/src/SFML/Window/Sensor.cpp' l='38' u='c' c='_ZN2sf6Sensor11isAvailableENS0_4TypeE'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='56'>////////////////////////////////////////////////////////////
+    /// \brief Check if a sensor is available on the underlying platform
+    ///
+    /// \param sensor Sensor to check
+    ///
+    /// \return True if the sensor is available, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/SensorManager.cpp' l='45' ll='48' type='bool sf::priv::SensorManager::isAvailable(Sensor::Type sensor)'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.cpp' l='44'>////////////////////////////////////////////////////////////</doc>

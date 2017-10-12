@@ -1,0 +1,21 @@
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='186' ll='201' type='void sf::Shader::UniformBinder::UniformBinder(sf::Shader &amp; shader, const std::string &amp; name)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='428' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='437' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='446' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='455' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='464' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='473' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='482' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='491' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='528' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='537' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='594' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKfm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='605' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector2IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='616' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector3IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='627' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv7Vector4IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='642' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='657' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='182'>////////////////////////////////////////////////////////////
+    /// \brief Constructor: set up state before uniform is set
+    ///
+    ////////////////////////////////////////////////////////////</doc>

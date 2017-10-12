@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='134' type='void sf::String::String(const std::wstring &amp; wideString)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='128'>////////////////////////////////////////////////////////////
+    /// \brief Construct from a wide string
+    ///
+    /// \param wideString Wide string to convert
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='106' ll='110' type='void sf::String::String(const std::wstring &amp; wideString)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='105'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='92' type='void sf::Shader::Shader()'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor creates an invalid shader.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='222' ll='228' type='void sf::Shader::Shader()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='221'>////////////////////////////////////////////////////////////</doc>

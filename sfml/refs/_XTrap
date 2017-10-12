@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='182' ll='184'/>
+<size>24</size>
+<mbr r='_XTrap::top' o='0' t='XSpanFix'/>
+<mbr r='_XTrap::bottom' o='96' t='XSpanFix'/>

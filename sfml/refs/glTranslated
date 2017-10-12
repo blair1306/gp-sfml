@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1548' type='void glTranslated(GLdouble , GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='899' type='void glTranslated(GLdouble x, GLdouble y, GLdouble z)'/>

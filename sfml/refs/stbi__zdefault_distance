@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4074' ll='4077' type='const stbi_uc [32]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4109' u='r' c='_ZL16stbi__parse_zlibP10stbi__zbufi'/>

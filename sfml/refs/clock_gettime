@@ -1,0 +1,2 @@
+<dec f='include/time.h' l='342' type='int clock_gettime(clockid_t __clock_id, struct timespec * __tp)'/>
+<use f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='56' u='c' c='_ZN2sf4priv9ClockImpl14getCurrentTimeEv'/>

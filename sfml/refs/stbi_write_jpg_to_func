@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='152' type='int stbi_write_jpg_to_func(stbi_write_func * func, void * context, int x, int y, int comp, const void * data, int quality)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1356' ll='1361' macro='1' type='int stbi_write_jpg_to_func(stbi_write_func * func, void * context, int x, int y, int comp, const void * data, int quality)'/>

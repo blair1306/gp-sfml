@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='191' type='unsigned int sf::SoundBuffer::getSampleRate() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='179'>////////////////////////////////////////////////////////////
+    /// \brief Get the sample rate of the sound
+    ///
+    /// The sample rate is the number of samples played per second.
+    /// The higher, the better the quality (for example, 44100
+    /// samples/s is CD quality).
+    ///
+    /// \return Sample rate (number of samples per second)
+    ///
+    /// \see getChannelCount, getDuration
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='61' u='c' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='148' u='c' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='177' ll='183' type='unsigned int sf::SoundBuffer::getSampleRate() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='176'>////////////////////////////////////////////////////////////</doc>

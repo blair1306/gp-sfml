@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='205' type='void sf::priv::WindowImpl::setMouseCursor(const sf::priv::CursorImpl &amp; cursor)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='199'>////////////////////////////////////////////////////////////
+    /// \brief Set the displayed cursor to a native system cursor
+    ///
+    /// \param cursor Native system cursor type to display
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1067' c='_ZN2sf4priv13WindowImplX1114setMouseCursorERKNS0_10CursorImplE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='303' u='c' c='_ZN2sf6Window14setMouseCursorERKNS_6CursorE'/>

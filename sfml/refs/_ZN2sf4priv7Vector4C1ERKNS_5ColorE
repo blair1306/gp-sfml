@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='145' ll='149' type='void sf::priv::Vector4::Vector4&lt;T&gt;(const sf::Color &amp; color)'/>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='138'>////////////////////////////////////////////////////////////
+    /// \brief Construct float vector implicitly from color
+    ///
+    /// \param color Color instance. Is normalized to [0, 1]
+    ///              for floats, and left as-is for ints.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='708' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_5ColorE'/>

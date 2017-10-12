@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='65' type='void sf::SocketSelector::~SocketSelector()'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='69' ll='72' type='void sf::SocketSelector::~SocketSelector()'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='68'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='61'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

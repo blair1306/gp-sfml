@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1324' type='void glDrawBuffer(GLenum )'/>
+<dec f='include/GL/gl.h' l='792' type='void glDrawBuffer(GLenum mode)'/>

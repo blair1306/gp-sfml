@@ -1,0 +1,25 @@
+<def f='codebrowser/include/SFML/Graphics/Transform.hpp' l='42' ll='362'/>
+<size>64</size>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Define a 3x3 transform matrix
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9TransformC1Ev'/>
+<fun r='_ZN2sf9TransformC1Efffffffff'/>
+<fun r='_ZNK2sf9Transform9getMatrixEv'/>
+<fun r='_ZNK2sf9Transform10getInverseEv'/>
+<fun r='_ZNK2sf9Transform14transformPointEff'/>
+<fun r='_ZNK2sf9Transform14transformPointERKNS_7Vector2IfEE'/>
+<fun r='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<fun r='_ZN2sf9Transform7combineERKS0_'/>
+<fun r='_ZN2sf9Transform9translateEff'/>
+<fun r='_ZN2sf9Transform9translateERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf9Transform6rotateEf'/>
+<fun r='_ZN2sf9Transform6rotateEfff'/>
+<fun r='_ZN2sf9Transform6rotateEfRKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf9Transform5scaleEff'/>
+<fun r='_ZN2sf9Transform5scaleEffff'/>
+<fun r='_ZN2sf9Transform5scaleERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf9Transform5scaleERKNS_7Vector2IfEES4_'/>
+<smbr r='sf::Transform::Identity' t='const sf::Transform'/>
+<mbr r='sf::Transform::m_matrix' o='0' t='float [16]'/>

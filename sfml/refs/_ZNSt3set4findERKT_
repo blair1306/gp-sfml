@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/stl_set.h' l='693' ll='695' type='iterator std::set::find(const key_type &amp; __x)'/>
+<doc f='include/c++/5/bits/stl_set.h' l='682'>/**
+       *  @brief Tries to locate an element in a %set.
+       *  @param  __x  Element to be located.
+       *  @return  Iterator pointing to sought-after element, or end() if not
+       *           found.
+       *
+       *  This function takes a key and tries to locate the element with which
+       *  the key matches.  If successful the function returns an iterator
+       *  pointing to the sought after element.  If unsuccessful it returns the
+       *  past-the-end ( @c end() ) iterator.
+       */</doc>

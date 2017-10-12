@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='71' type='const Vector2f &amp; sf::RectangleShape::getSize() const'/>
+<def f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='50' ll='53' type='const Vector2f &amp; sf::RectangleShape::getSize() const'/>
+<doc f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='49'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Get the size of the rectangle
+    ///
+    /// \return Size of the rectangle
+    ///
+    /// \see setSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>

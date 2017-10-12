@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1846' type='const int [16]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1862' u='r' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1845'>// bias[n] = (-1&lt;&lt;n) + 1</doc>

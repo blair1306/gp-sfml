@@ -1,0 +1,24 @@
+<def f='codebrowser/include/SFML/Graphics/Image.hpp' l='46' ll='271'/>
+<size>32</size>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Class for loading, manipulating and saving images
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5ImageC1Ev'/>
+<fun r='_ZN2sf5ImageD1Ev'/>
+<fun r='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<fun r='_ZN2sf5Image6createEjjPKh'/>
+<fun r='_ZN2sf5Image12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf5Image14loadFromMemoryEPKvm'/>
+<fun r='_ZN2sf5Image14loadFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf5Image10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf5Image7getSizeEv'/>
+<fun r='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<fun r='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<fun r='_ZN2sf5Image8setPixelEjjRKNS_5ColorE'/>
+<fun r='_ZNK2sf5Image8getPixelEjj'/>
+<fun r='_ZNK2sf5Image12getPixelsPtrEv'/>
+<fun r='_ZN2sf5Image16flipHorizontallyEv'/>
+<fun r='_ZN2sf5Image14flipVerticallyEv'/>
+<mbr r='sf::Image::m_size' o='0' t='Vector2u'/>
+<mbr r='sf::Image::m_pixels' o='64' t='std::vector&lt;Uint8&gt;'/>

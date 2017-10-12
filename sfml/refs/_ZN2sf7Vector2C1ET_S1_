@@ -1,0 +1,79 @@
+<dec f='codebrowser/include/SFML/System/Vector2.hpp' l='56' type='void sf::Vector2::Vector2&lt;T&gt;(T X, T Y)'/>
+<def f='codebrowser/include/SFML/System/Vector2.inl' l='37' ll='43' type='void sf::Vector2::Vector2&lt;T&gt;(T X, T Y)'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='81' u='c' c='_ZNK2sf11CircleShape8getPointEm'/>
+<doc f='codebrowser/include/SFML/System/Vector2.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Construct the vector from its coordinates
+    ///
+    /// \param X X coordinate
+    /// \param Y Y coordinate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Vector2.inl' l='36'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='42' u='c' c='_ZN2sf5ImageC1Ev'/>
+<use f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='51' u='c' c='_ZN2sf14RectangleShapeC1ERKNS_7Vector2IfEE'/>
+<use f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='51' u='c' c='_ZN2sf14RectangleShapeC1ERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='69' u='c' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='70' u='c' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='71' u='c' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='72' u='c' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='673' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEff'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='40' u='c' c='_ZN12_GLOBAL__N_113computeNormalERKN2sf7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='153' u='c' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='154' u='c' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='155' u='c' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='156' u='c' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='168' u='c' c='_ZN2sf6Sprite15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='169' u='c' c='_ZN2sf6Sprite15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='170' u='c' c='_ZN2sf6Sprite15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='171' u='c' c='_ZN2sf6Sprite15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='42' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='42' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='43' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='43' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='44' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='44' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='45' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='45' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='46' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='46' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='47' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='47' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='63' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='63' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='64' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='64' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='65' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='65' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='66' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='66' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='67' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='67' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='68' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='68' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='451' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='464' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='63' u='c' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='64' u='c' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='79' u='c' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='80' u='c' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='133' u='c' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='100' u='c' c='_ZNK2sf9Transform14transformPointEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='36' u='c' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='37' u='c' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='39' u='c' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='35' u='c' c='_ZN2sf6VertexC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='37' u='c' c='_ZN2sf6VertexC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='46' u='c' c='_ZN2sf6VertexC1ERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='55' u='c' c='_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='238' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='263' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionERKNS_6WindowE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='492' u='c' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='540' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='710' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='804' u='c' c='_ZNK2sf4priv13WindowImplX1111getPositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='815' u='c' c='_ZNK2sf4priv13WindowImplX1111getPositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='848' u='c' c='_ZNK2sf4priv13WindowImplX1111getPositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='865' u='c' c='_ZNK2sf4priv13WindowImplX117getSizeEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='48' u='c' c='_ZN2sf6WindowC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='59' u='c' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='70' u='c' c='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>

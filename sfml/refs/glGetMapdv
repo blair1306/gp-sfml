@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1361' type='void glGetMapdv(GLenum , GLenum , GLdouble * )'/>
+<dec f='include/GL/gl.h' l='1381' type='void glGetMapdv(GLenum target, GLenum query, GLdouble * v)'/>

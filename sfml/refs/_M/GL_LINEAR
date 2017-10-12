@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='623'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='211' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='212' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='296' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='426' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='567' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='594' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='602' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='714' u='c'/>
+<dec f='include/GL/gl.h' l='392'/>

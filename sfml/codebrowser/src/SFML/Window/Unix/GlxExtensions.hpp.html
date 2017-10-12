@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>GlxExtensions.hpp source code [codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>SFML</a>/<a href='..'>Window</a>/<a href='./'>Unix</a>/<a href='GlxExtensions.hpp.html'>GlxExtensions.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SF_POINTER_C_GENERATED_HEADER_GLXWIN_HPP">SF_POINTER_C_GENERATED_HEADER_GLXWIN_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SF_POINTER_C_GENERATED_HEADER_GLXWIN_HPP" data-ref="_M/SF_POINTER_C_GENERATED_HEADER_GLXWIN_HPP">SF_POINTER_C_GENERATED_HEADER_GLXWIN_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">ifdef</span> <span class="macro" data-ref="_M/__glxext_h_">__glxext_h_</span></u></td></tr>
+<tr><th id="29">29</th><td><u>#error Attempt to include glx_exts after including glxext.h</u></td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/__glxext_h_" data-ref="_M/__glxext_h_">__glxext_h_</dfn></u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../../../../../include/X11/Xlib.h.html">&lt;X11/Xlib.h&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../../../../../include/X11/Xutil.h.html">&lt;X11/Xutil.h&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../../../../include/GL/glx.h.html">&lt;GL/glx.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">ifdef</span> <span class="macro" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</span></u></td></tr>
+<tr><th id="38">38</th><td><u>#undef CODEGEN_FUNCPTR</u></td></tr>
+<tr><th id="39">39</th><td><u>#<span data-ppcond="37">endif</span> // CODEGEN_FUNCPTR</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/CODEGEN_FUNCPTR" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</dfn></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#<span data-ppcond="42">ifndef</span> <span class="macro" data-ref="_M/GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS">GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS</span></u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS" data-ref="_M/GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS">GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS</dfn></u></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><b>typedef</b> <em>unsigned</em> <em>int</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLenum" title='GLenum' data-type='unsigned int' data-ref="GLenum" id="GLenum">GLenum</a>;</td></tr>
+<tr><th id="46">46</th><td><b>typedef</b> <em>unsigned</em> <em>char</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLboolean" title='GLboolean' data-type='unsigned char' data-ref="GLboolean" id="GLboolean">GLboolean</a>;</td></tr>
+<tr><th id="47">47</th><td><b>typedef</b> <em>unsigned</em> <em>int</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLbitfield" title='GLbitfield' data-type='unsigned int' data-ref="GLbitfield" id="GLbitfield">GLbitfield</a>;</td></tr>
+<tr><th id="48">48</th><td><b>typedef</b> <em>signed</em> <em>char</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLbyte" title='GLbyte' data-type='signed char' data-ref="GLbyte" id="GLbyte">GLbyte</a>;</td></tr>
+<tr><th id="49">49</th><td><b>typedef</b> <em>short</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLshort" title='GLshort' data-type='short' data-ref="GLshort" id="GLshort">GLshort</a>;</td></tr>
+<tr><th id="50">50</th><td><b>typedef</b> <em>int</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLint" title='GLint' data-type='int' data-ref="GLint" id="GLint">GLint</a>;</td></tr>
+<tr><th id="51">51</th><td><b>typedef</b> <em>int</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLsizei" title='GLsizei' data-type='int' data-ref="GLsizei" id="GLsizei">GLsizei</a>;</td></tr>
+<tr><th id="52">52</th><td><b>typedef</b> <em>unsigned</em> <em>char</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLubyte" title='GLubyte' data-type='unsigned char' data-ref="GLubyte" id="GLubyte">GLubyte</a>;</td></tr>
+<tr><th id="53">53</th><td><b>typedef</b> <em>unsigned</em> <em>short</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLushort" title='GLushort' data-type='unsigned short' data-ref="GLushort" id="GLushort">GLushort</a>;</td></tr>
+<tr><th id="54">54</th><td><b>typedef</b> <em>unsigned</em> <em>int</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLuint" title='GLuint' data-type='unsigned int' data-ref="GLuint" id="GLuint">GLuint</a>;</td></tr>
+<tr><th id="55">55</th><td><b>typedef</b> <em>float</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLfloat" title='GLfloat' data-type='float' data-ref="GLfloat" id="GLfloat">GLfloat</a>;</td></tr>
+<tr><th id="56">56</th><td><b>typedef</b> <em>float</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLclampf" title='GLclampf' data-type='float' data-ref="GLclampf" id="GLclampf">GLclampf</a>;</td></tr>
+<tr><th id="57">57</th><td><b>typedef</b> <em>double</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLdouble" title='GLdouble' data-type='double' data-ref="GLdouble" id="GLdouble">GLdouble</a>;</td></tr>
+<tr><th id="58">58</th><td><b>typedef</b> <em>double</em> <a class="typedef" href="../../../../../include/GL/gl.h.html#GLclampd" title='GLclampd' data-type='double' data-ref="GLclampd" id="GLclampd">GLclampd</a>;</td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/GLvoid" data-ref="_M/GLvoid">GLvoid</dfn> void</u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u>#<span data-ppcond="42">endif</span> // GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS</u></td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><u>#<span data-ppcond="64">ifndef</span> <a class="macro" href="#43" data-ref="_M/GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS">GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS</a></u></td></tr>
+<tr><th id="65">65</th><td><u>#define GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS</u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><u>#<span data-ppcond="64">endif</span> // GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS</u></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#<span data-ppcond="71">ifndef</span> <a class="macro" href="../../../../../include/GL/glext.h.html#1388" data-ref="_M/GLEXT_64_TYPES_DEFINED">GLEXT_64_TYPES_DEFINED</a></u></td></tr>
+<tr><th id="72">72</th><td><i>// This code block is duplicated in glext.h, so must be protected</i></td></tr>
+<tr><th id="73">73</th><td><u>#define GLEXT_64_TYPES_DEFINED</u></td></tr>
+<tr><th id="74">74</th><td><i>// Define int32_t, int64_t, and uint64_t types for UST/MSC</i></td></tr>
+<tr><th id="75">75</th><td><i>// (as used in the GLX_OML_sync_control extension).</i></td></tr>
+<tr><th id="76">76</th><td><u>#if defined(__STDC_VERSION__) &amp;&amp; __STDC_VERSION__ &gt;= 199901L</u></td></tr>
+<tr><th id="77">77</th><td><u>#include &lt;inttypes.h&gt;</u></td></tr>
+<tr><th id="78">78</th><td><u>#elif defined(__sun__) || defined(__digital__)</u></td></tr>
+<tr><th id="79">79</th><td><u>#include &lt;inttypes.h&gt;</u></td></tr>
+<tr><th id="80">80</th><td><u>#if defined(__STDC__)</u></td></tr>
+<tr><th id="81">81</th><td><u>#if defined(__arch64__) || defined(_LP64)</u></td></tr>
+<tr><th id="82">82</th><td><b>typedef</b> <em>long</em> <em>int</em> int64_t;</td></tr>
+<tr><th id="83">83</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <em>int</em> uint64_t;</td></tr>
+<tr><th id="84">84</th><td><u>#else</u></td></tr>
+<tr><th id="85">85</th><td><b>typedef</b> <em>long</em> <em>long</em> <em>int</em> int64_t;</td></tr>
+<tr><th id="86">86</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <em>long</em> <em>int</em> uint64_t;</td></tr>
+<tr><th id="87">87</th><td><u>#endif // __arch64__</u></td></tr>
+<tr><th id="88">88</th><td><u>#endif // __STDC__</u></td></tr>
+<tr><th id="89">89</th><td><u>#elif defined( __VMS ) || defined(__sgi)</u></td></tr>
+<tr><th id="90">90</th><td><u>#include &lt;inttypes.h&gt;</u></td></tr>
+<tr><th id="91">91</th><td><u>#elif defined(__SCO__) || defined(__USLC__)</u></td></tr>
+<tr><th id="92">92</th><td><u>#include &lt;stdint.h&gt;</u></td></tr>
+<tr><th id="93">93</th><td><u>#elif defined(__UNIXOS2__) || defined(__SOL64__)</u></td></tr>
+<tr><th id="94">94</th><td><b>typedef</b> <em>long</em> <em>int</em> int32_t;</td></tr>
+<tr><th id="95">95</th><td><b>typedef</b> <em>long</em> <em>long</em> <em>int</em> int64_t;</td></tr>
+<tr><th id="96">96</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <em>long</em> <em>int</em> uint64_t;</td></tr>
+<tr><th id="97">97</th><td><u>#elif defined(_WIN32) &amp;&amp; defined(__GNUC__)</u></td></tr>
+<tr><th id="98">98</th><td><u>#include &lt;stdint.h&gt;</u></td></tr>
+<tr><th id="99">99</th><td><u>#elif defined(_WIN32)</u></td></tr>
+<tr><th id="100">100</th><td><b>typedef</b> __int32 int32_t;</td></tr>
+<tr><th id="101">101</th><td><b>typedef</b> __int64 int64_t;</td></tr>
+<tr><th id="102">102</th><td><b>typedef</b> <em>unsigned</em> __int64 uint64_t;</td></tr>
+<tr><th id="103">103</th><td><u>#else</u></td></tr>
+<tr><th id="104">104</th><td><i>// Fallback if nothing above works</i></td></tr>
+<tr><th id="105">105</th><td><u>#include &lt;inttypes.h&gt;</u></td></tr>
+<tr><th id="106">106</th><td><u>#endif</u></td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="71">endif</span></u></td></tr>
+<tr><th id="108">108</th><td>    <b>typedef</b> <b>struct</b> <a class="type" href="../../../../../include/GL/glx.h.html#__GLXFBConfigRec" title='__GLXFBConfigRec' data-ref="__GLXFBConfigRec">__GLXFBConfigRec</a> *<a class="typedef" href="../../../../../include/GL/glx.h.html#GLXFBConfig" title='GLXFBConfig' data-type='struct __GLXFBConfigRec *' data-ref="GLXFBConfig" id="GLXFBConfig">GLXFBConfig</a>;</td></tr>
+<tr><th id="109">109</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXContextID" title='GLXContextID' data-type='XID' data-ref="GLXContextID" id="GLXContextID">GLXContextID</a>;</td></tr>
+<tr><th id="110">110</th><td>    <b>typedef</b> <b>struct</b> <a class="type" href="../../../../../include/GL/glx.h.html#__GLXcontextRec" title='__GLXcontextRec' data-ref="__GLXcontextRec">__GLXcontextRec</a> *<a class="typedef" href="../../../../../include/GL/glx.h.html#GLXContext" title='GLXContext' data-type='struct __GLXcontextRec *' data-ref="GLXContext" id="GLXContext">GLXContext</a>;</td></tr>
+<tr><th id="111">111</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXPixmap" title='GLXPixmap' data-type='XID' data-ref="GLXPixmap" id="GLXPixmap">GLXPixmap</a>;</td></tr>
+<tr><th id="112">112</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXDrawable" title='GLXDrawable' data-type='XID' data-ref="GLXDrawable" id="GLXDrawable">GLXDrawable</a>;</td></tr>
+<tr><th id="113">113</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXPbuffer" title='GLXPbuffer' data-type='XID' data-ref="GLXPbuffer" id="GLXPbuffer">GLXPbuffer</a>;</td></tr>
+<tr><th id="114">114</th><td>    <b>typedef</b> <em>void</em> (<a class="macro" href="../../../../../include/GL/gl.h.html#88" title="" data-ref="_M/APIENTRY">APIENTRY</a> *<a class="typedef" href="../../../../../include/GL/glx.h.html#__GLXextFuncPtr" title='__GLXextFuncPtr' data-type='void (*)()' data-ref="__GLXextFuncPtr" id="__GLXextFuncPtr">__GLXextFuncPtr</a>)(<em>void</em>);</td></tr>
+<tr><th id="115">115</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <dfn class="typedef" id="GLXVideoCaptureDeviceNV" title='GLXVideoCaptureDeviceNV' data-type='XID' data-ref="GLXVideoCaptureDeviceNV">GLXVideoCaptureDeviceNV</dfn>;</td></tr>
+<tr><th id="116">116</th><td>    <b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="GLXVideoDeviceNV" title='GLXVideoDeviceNV' data-type='unsigned int' data-ref="GLXVideoDeviceNV">GLXVideoDeviceNV</dfn>;</td></tr>
+<tr><th id="117">117</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <dfn class="typedef" id="GLXVideoSourceSGIX" title='GLXVideoSourceSGIX' data-type='XID' data-ref="GLXVideoSourceSGIX">GLXVideoSourceSGIX</dfn>;</td></tr>
+<tr><th id="118">118</th><td>    <b>typedef</b> <b>struct</b> <a class="type" href="../../../../../include/GL/glx.h.html#__GLXFBConfigRec" title='__GLXFBConfigRec' data-ref="__GLXFBConfigRec">__GLXFBConfigRec</a> *<dfn class="typedef" id="GLXFBConfigSGIX" title='GLXFBConfigSGIX' data-type='struct __GLXFBConfigRec *' data-ref="GLXFBConfigSGIX">GLXFBConfigSGIX</dfn>;</td></tr>
+<tr><th id="119">119</th><td>    <b>typedef</b> <a class="typedef" href="../../../../../include/X11/X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a> <dfn class="typedef" id="GLXPbufferSGIX" title='GLXPbufferSGIX' data-type='XID' data-ref="GLXPbufferSGIX">GLXPbufferSGIX</dfn>;</td></tr>
+<tr><th id="120">120</th><td>    <b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="121">121</th><td>        <em>char</em>    <dfn class="decl" id="(anonymous)::pipeName" title='(anonymous struct)::pipeName' data-ref="(anonymous)::pipeName">pipeName</dfn>[<var>80</var>]; <i>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</i></td></tr>
+<tr><th id="122">122</th><td>        <em>int</em>     <dfn class="decl" id="(anonymous)::networkId" title='(anonymous struct)::networkId' data-ref="(anonymous)::networkId">networkId</dfn>;</td></tr>
+<tr><th id="123">123</th><td>} <dfn class="typedef" id="GLXHyperpipeNetworkSGIX" title='GLXHyperpipeNetworkSGIX' data-type='struct GLXHyperpipeNetworkSGIX' data-ref="GLXHyperpipeNetworkSGIX">GLXHyperpipeNetworkSGIX</dfn>;</td></tr>
+<tr><th id="124">124</th><td>    <b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="125">125</th><td>        <em>char</em>    <dfn class="decl" id="(anonymous)::pipeName" title='(anonymous struct)::pipeName' data-ref="(anonymous)::pipeName">pipeName</dfn>[<var>80</var>]; <i>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</i></td></tr>
+<tr><th id="126">126</th><td>        <em>int</em>     <dfn class="decl" id="(anonymous)::channel" title='(anonymous struct)::channel' data-ref="(anonymous)::channel">channel</dfn>;</td></tr>
+<tr><th id="127">127</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="(anonymous)::participationType" title='(anonymous struct)::participationType' data-ref="(anonymous)::participationType">participationType</dfn>;</td></tr>
+<tr><th id="128">128</th><td>        <em>int</em>     <dfn class="decl" id="(anonymous)::timeSlice" title='(anonymous struct)::timeSlice' data-ref="(anonymous)::timeSlice">timeSlice</dfn>;</td></tr>
+<tr><th id="129">129</th><td>} <dfn class="typedef" id="GLXHyperpipeConfigSGIX" title='GLXHyperpipeConfigSGIX' data-type='struct GLXHyperpipeConfigSGIX' data-ref="GLXHyperpipeConfigSGIX">GLXHyperpipeConfigSGIX</dfn>;</td></tr>
+<tr><th id="130">130</th><td>    <b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="131">131</th><td>        <em>char</em> <dfn class="decl" id="(anonymous)::pipeName" title='(anonymous struct)::pipeName' data-ref="(anonymous)::pipeName">pipeName</dfn>[<var>80</var>]; <i>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</i></td></tr>
+<tr><th id="132">132</th><td>        <em>int</em> <dfn class="decl" id="(anonymous)::srcXOrigin" title='(anonymous struct)::srcXOrigin' data-ref="(anonymous)::srcXOrigin">srcXOrigin</dfn>, <dfn class="decl" id="(anonymous)::srcYOrigin" title='(anonymous struct)::srcYOrigin' data-ref="(anonymous)::srcYOrigin">srcYOrigin</dfn>, <dfn class="decl" id="(anonymous)::srcWidth" title='(anonymous struct)::srcWidth' data-ref="(anonymous)::srcWidth">srcWidth</dfn>, <dfn class="decl" id="(anonymous)::srcHeight" title='(anonymous struct)::srcHeight' data-ref="(anonymous)::srcHeight">srcHeight</dfn>;</td></tr>
+<tr><th id="133">133</th><td>        <em>int</em> <dfn class="decl" id="(anonymous)::destXOrigin" title='(anonymous struct)::destXOrigin' data-ref="(anonymous)::destXOrigin">destXOrigin</dfn>, <dfn class="decl" id="(anonymous)::destYOrigin" title='(anonymous struct)::destYOrigin' data-ref="(anonymous)::destYOrigin">destYOrigin</dfn>, <dfn class="decl" id="(anonymous)::destWidth" title='(anonymous struct)::destWidth' data-ref="(anonymous)::destWidth">destWidth</dfn>, <dfn class="decl" id="(anonymous)::destHeight" title='(anonymous struct)::destHeight' data-ref="(anonymous)::destHeight">destHeight</dfn>;</td></tr>
+<tr><th id="134">134</th><td>} <dfn class="typedef" id="GLXPipeRect" title='GLXPipeRect' data-type='struct GLXPipeRect' data-ref="GLXPipeRect">GLXPipeRect</dfn>;</td></tr>
+<tr><th id="135">135</th><td>    <b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="136">136</th><td>        <em>char</em> <dfn class="decl" id="(anonymous)::pipeName" title='(anonymous struct)::pipeName' data-ref="(anonymous)::pipeName">pipeName</dfn>[<var>80</var>]; <i>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</i></td></tr>
+<tr><th id="137">137</th><td>        <em>int</em> <dfn class="decl" id="(anonymous)::XOrigin" title='(anonymous struct)::XOrigin' data-ref="(anonymous)::XOrigin">XOrigin</dfn>, <dfn class="decl" id="(anonymous)::YOrigin" title='(anonymous struct)::YOrigin' data-ref="(anonymous)::YOrigin">YOrigin</dfn>, <dfn class="decl" id="(anonymous)::maxHeight" title='(anonymous struct)::maxHeight' data-ref="(anonymous)::maxHeight">maxHeight</dfn>, <dfn class="decl" id="(anonymous)::maxWidth" title='(anonymous struct)::maxWidth' data-ref="(anonymous)::maxWidth">maxWidth</dfn>;</td></tr>
+<tr><th id="138">138</th><td>} <dfn class="typedef" id="GLXPipeRectLimits" title='GLXPipeRectLimits' data-type='struct GLXPipeRectLimits' data-ref="GLXPipeRectLimits">GLXPipeRectLimits</dfn>;</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td><u>#<span data-ppcond="140">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="141">141</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="142">142</th><td><u>#<span data-ppcond="140">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_EXT_swap_control" title='sfglx_ext_EXT_swap_control' data-ref="sfglx_ext_EXT_swap_control">sfglx_ext_EXT_swap_control</dfn>;</td></tr>
+<tr><th id="145">145</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_MESA_swap_control" title='sfglx_ext_MESA_swap_control' data-ref="sfglx_ext_MESA_swap_control">sfglx_ext_MESA_swap_control</dfn>;</td></tr>
+<tr><th id="146">146</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_SGI_swap_control" title='sfglx_ext_SGI_swap_control' data-ref="sfglx_ext_SGI_swap_control">sfglx_ext_SGI_swap_control</dfn>;</td></tr>
+<tr><th id="147">147</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_EXT_framebuffer_sRGB" title='sfglx_ext_EXT_framebuffer_sRGB' data-ref="sfglx_ext_EXT_framebuffer_sRGB">sfglx_ext_EXT_framebuffer_sRGB</dfn>;</td></tr>
+<tr><th id="148">148</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_ARB_framebuffer_sRGB" title='sfglx_ext_ARB_framebuffer_sRGB' data-ref="sfglx_ext_ARB_framebuffer_sRGB">sfglx_ext_ARB_framebuffer_sRGB</dfn>;</td></tr>
+<tr><th id="149">149</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_ARB_multisample" title='sfglx_ext_ARB_multisample' data-ref="sfglx_ext_ARB_multisample">sfglx_ext_ARB_multisample</dfn>;</td></tr>
+<tr><th id="150">150</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_SGIX_pbuffer" title='sfglx_ext_SGIX_pbuffer' data-ref="sfglx_ext_SGIX_pbuffer">sfglx_ext_SGIX_pbuffer</dfn>;</td></tr>
+<tr><th id="151">151</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_ARB_create_context" title='sfglx_ext_ARB_create_context' data-ref="sfglx_ext_ARB_create_context">sfglx_ext_ARB_create_context</dfn>;</td></tr>
+<tr><th id="152">152</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="sfglx_ext_ARB_create_context_profile" title='sfglx_ext_ARB_create_context_profile' data-ref="sfglx_ext_ARB_create_context_profile">sfglx_ext_ARB_create_context_profile</dfn>;</td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/GLX_MAX_SWAP_INTERVAL_EXT" data-ref="_M/GLX_MAX_SWAP_INTERVAL_EXT">GLX_MAX_SWAP_INTERVAL_EXT</dfn> 0x20F2</u></td></tr>
+<tr><th id="155">155</th><td><u>#define <dfn class="macro" id="_M/GLX_SWAP_INTERVAL_EXT" data-ref="_M/GLX_SWAP_INTERVAL_EXT">GLX_SWAP_INTERVAL_EXT</dfn> 0x20F1</u></td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/GLX_FRAMEBUFFER_SRGB_CAPABLE_EXT" data-ref="_M/GLX_FRAMEBUFFER_SRGB_CAPABLE_EXT">GLX_FRAMEBUFFER_SRGB_CAPABLE_EXT</dfn> 0x20B2</u></td></tr>
+<tr><th id="158">158</th><td></td></tr>
+<tr><th id="159">159</th><td><u>#define <dfn class="macro" id="_M/GLX_FRAMEBUFFER_SRGB_CAPABLE_ARB" data-ref="_M/GLX_FRAMEBUFFER_SRGB_CAPABLE_ARB">GLX_FRAMEBUFFER_SRGB_CAPABLE_ARB</dfn> 0x20B2</u></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/GLX_SAMPLES_ARB" data-ref="_M/GLX_SAMPLES_ARB">GLX_SAMPLES_ARB</dfn> 100001</u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/GLX_SAMPLE_BUFFERS_ARB" data-ref="_M/GLX_SAMPLE_BUFFERS_ARB">GLX_SAMPLE_BUFFERS_ARB</dfn> 100000</u></td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><u>#define <dfn class="macro" id="_M/GLX_ACCUM_BUFFER_BIT_SGIX" data-ref="_M/GLX_ACCUM_BUFFER_BIT_SGIX">GLX_ACCUM_BUFFER_BIT_SGIX</dfn> 0x00000080</u></td></tr>
+<tr><th id="165">165</th><td><u>#define <dfn class="macro" id="_M/GLX_AUX_BUFFERS_BIT_SGIX" data-ref="_M/GLX_AUX_BUFFERS_BIT_SGIX">GLX_AUX_BUFFERS_BIT_SGIX</dfn> 0x00000010</u></td></tr>
+<tr><th id="166">166</th><td><u>#define <dfn class="macro" id="_M/GLX_BACK_LEFT_BUFFER_BIT_SGIX" data-ref="_M/GLX_BACK_LEFT_BUFFER_BIT_SGIX">GLX_BACK_LEFT_BUFFER_BIT_SGIX</dfn> 0x00000004</u></td></tr>
+<tr><th id="167">167</th><td><u>#define <dfn class="macro" id="_M/GLX_BACK_RIGHT_BUFFER_BIT_SGIX" data-ref="_M/GLX_BACK_RIGHT_BUFFER_BIT_SGIX">GLX_BACK_RIGHT_BUFFER_BIT_SGIX</dfn> 0x00000008</u></td></tr>
+<tr><th id="168">168</th><td><u>#define <dfn class="macro" id="_M/GLX_BUFFER_CLOBBER_MASK_SGIX" data-ref="_M/GLX_BUFFER_CLOBBER_MASK_SGIX">GLX_BUFFER_CLOBBER_MASK_SGIX</dfn> 0x08000000</u></td></tr>
+<tr><th id="169">169</th><td><u>#define <dfn class="macro" id="_M/GLX_DAMAGED_SGIX" data-ref="_M/GLX_DAMAGED_SGIX">GLX_DAMAGED_SGIX</dfn> 0x8020</u></td></tr>
+<tr><th id="170">170</th><td><u>#define <dfn class="macro" id="_M/GLX_DEPTH_BUFFER_BIT_SGIX" data-ref="_M/GLX_DEPTH_BUFFER_BIT_SGIX">GLX_DEPTH_BUFFER_BIT_SGIX</dfn> 0x00000020</u></td></tr>
+<tr><th id="171">171</th><td><u>#define <dfn class="macro" id="_M/GLX_EVENT_MASK_SGIX" data-ref="_M/GLX_EVENT_MASK_SGIX">GLX_EVENT_MASK_SGIX</dfn> 0x801F</u></td></tr>
+<tr><th id="172">172</th><td><u>#define <dfn class="macro" id="_M/GLX_FRONT_LEFT_BUFFER_BIT_SGIX" data-ref="_M/GLX_FRONT_LEFT_BUFFER_BIT_SGIX">GLX_FRONT_LEFT_BUFFER_BIT_SGIX</dfn> 0x00000001</u></td></tr>
+<tr><th id="173">173</th><td><u>#define <dfn class="macro" id="_M/GLX_FRONT_RIGHT_BUFFER_BIT_SGIX" data-ref="_M/GLX_FRONT_RIGHT_BUFFER_BIT_SGIX">GLX_FRONT_RIGHT_BUFFER_BIT_SGIX</dfn> 0x00000002</u></td></tr>
+<tr><th id="174">174</th><td><u>#define <dfn class="macro" id="_M/GLX_HEIGHT_SGIX" data-ref="_M/GLX_HEIGHT_SGIX">GLX_HEIGHT_SGIX</dfn> 0x801E</u></td></tr>
+<tr><th id="175">175</th><td><u>#define <dfn class="macro" id="_M/GLX_LARGEST_PBUFFER_SGIX" data-ref="_M/GLX_LARGEST_PBUFFER_SGIX">GLX_LARGEST_PBUFFER_SGIX</dfn> 0x801C</u></td></tr>
+<tr><th id="176">176</th><td><u>#define <dfn class="macro" id="_M/GLX_MAX_PBUFFER_HEIGHT_SGIX" data-ref="_M/GLX_MAX_PBUFFER_HEIGHT_SGIX">GLX_MAX_PBUFFER_HEIGHT_SGIX</dfn> 0x8017</u></td></tr>
+<tr><th id="177">177</th><td><u>#define <dfn class="macro" id="_M/GLX_MAX_PBUFFER_PIXELS_SGIX" data-ref="_M/GLX_MAX_PBUFFER_PIXELS_SGIX">GLX_MAX_PBUFFER_PIXELS_SGIX</dfn> 0x8018</u></td></tr>
+<tr><th id="178">178</th><td><u>#define <dfn class="macro" id="_M/GLX_MAX_PBUFFER_WIDTH_SGIX" data-ref="_M/GLX_MAX_PBUFFER_WIDTH_SGIX">GLX_MAX_PBUFFER_WIDTH_SGIX</dfn> 0x8016</u></td></tr>
+<tr><th id="179">179</th><td><u>#define <dfn class="macro" id="_M/GLX_OPTIMAL_PBUFFER_HEIGHT_SGIX" data-ref="_M/GLX_OPTIMAL_PBUFFER_HEIGHT_SGIX">GLX_OPTIMAL_PBUFFER_HEIGHT_SGIX</dfn> 0x801A</u></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/GLX_OPTIMAL_PBUFFER_WIDTH_SGIX" data-ref="_M/GLX_OPTIMAL_PBUFFER_WIDTH_SGIX">GLX_OPTIMAL_PBUFFER_WIDTH_SGIX</dfn> 0x8019</u></td></tr>
+<tr><th id="181">181</th><td><u>#define <dfn class="macro" id="_M/GLX_PBUFFER_BIT_SGIX" data-ref="_M/GLX_PBUFFER_BIT_SGIX">GLX_PBUFFER_BIT_SGIX</dfn> 0x00000004</u></td></tr>
+<tr><th id="182">182</th><td><u>#define <dfn class="macro" id="_M/GLX_PBUFFER_SGIX" data-ref="_M/GLX_PBUFFER_SGIX">GLX_PBUFFER_SGIX</dfn> 0x8023</u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/GLX_PRESERVED_CONTENTS_SGIX" data-ref="_M/GLX_PRESERVED_CONTENTS_SGIX">GLX_PRESERVED_CONTENTS_SGIX</dfn> 0x801B</u></td></tr>
+<tr><th id="184">184</th><td><u>#define <dfn class="macro" id="_M/GLX_SAMPLE_BUFFERS_BIT_SGIX" data-ref="_M/GLX_SAMPLE_BUFFERS_BIT_SGIX">GLX_SAMPLE_BUFFERS_BIT_SGIX</dfn> 0x00000100</u></td></tr>
+<tr><th id="185">185</th><td><u>#define <dfn class="macro" id="_M/GLX_SAVED_SGIX" data-ref="_M/GLX_SAVED_SGIX">GLX_SAVED_SGIX</dfn> 0x8021</u></td></tr>
+<tr><th id="186">186</th><td><u>#define <dfn class="macro" id="_M/GLX_STENCIL_BUFFER_BIT_SGIX" data-ref="_M/GLX_STENCIL_BUFFER_BIT_SGIX">GLX_STENCIL_BUFFER_BIT_SGIX</dfn> 0x00000040</u></td></tr>
+<tr><th id="187">187</th><td><u>#define <dfn class="macro" id="_M/GLX_WIDTH_SGIX" data-ref="_M/GLX_WIDTH_SGIX">GLX_WIDTH_SGIX</dfn> 0x801D</u></td></tr>
+<tr><th id="188">188</th><td><u>#define <dfn class="macro" id="_M/GLX_WINDOW_SGIX" data-ref="_M/GLX_WINDOW_SGIX">GLX_WINDOW_SGIX</dfn> 0x8022</u></td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_DEBUG_BIT_ARB" data-ref="_M/GLX_CONTEXT_DEBUG_BIT_ARB">GLX_CONTEXT_DEBUG_BIT_ARB</dfn> 0x00000001</u></td></tr>
+<tr><th id="191">191</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_FLAGS_ARB" data-ref="_M/GLX_CONTEXT_FLAGS_ARB">GLX_CONTEXT_FLAGS_ARB</dfn> 0x2094</u></td></tr>
+<tr><th id="192">192</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_FORWARD_COMPATIBLE_BIT_ARB" data-ref="_M/GLX_CONTEXT_FORWARD_COMPATIBLE_BIT_ARB">GLX_CONTEXT_FORWARD_COMPATIBLE_BIT_ARB</dfn> 0x00000002</u></td></tr>
+<tr><th id="193">193</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_MAJOR_VERSION_ARB" data-ref="_M/GLX_CONTEXT_MAJOR_VERSION_ARB">GLX_CONTEXT_MAJOR_VERSION_ARB</dfn> 0x2091</u></td></tr>
+<tr><th id="194">194</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_MINOR_VERSION_ARB" data-ref="_M/GLX_CONTEXT_MINOR_VERSION_ARB">GLX_CONTEXT_MINOR_VERSION_ARB</dfn> 0x2092</u></td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_COMPATIBILITY_PROFILE_BIT_ARB" data-ref="_M/GLX_CONTEXT_COMPATIBILITY_PROFILE_BIT_ARB">GLX_CONTEXT_COMPATIBILITY_PROFILE_BIT_ARB</dfn> 0x00000002</u></td></tr>
+<tr><th id="197">197</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_CORE_PROFILE_BIT_ARB" data-ref="_M/GLX_CONTEXT_CORE_PROFILE_BIT_ARB">GLX_CONTEXT_CORE_PROFILE_BIT_ARB</dfn> 0x00000001</u></td></tr>
+<tr><th id="198">198</th><td><u>#define <dfn class="macro" id="_M/GLX_CONTEXT_PROFILE_MASK_ARB" data-ref="_M/GLX_CONTEXT_PROFILE_MASK_ARB">GLX_CONTEXT_PROFILE_MASK_ARB</dfn> 0x9126</u></td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td><u>#<span data-ppcond="200">ifndef</span> <span class="macro" data-ref="_M/GLX_EXT_swap_control">GLX_EXT_swap_control</span></u></td></tr>
+<tr><th id="201">201</th><td><u>#define <dfn class="macro" id="_M/GLX_EXT_swap_control" data-ref="_M/GLX_EXT_swap_control">GLX_EXT_swap_control</dfn> 1</u></td></tr>
+<tr><th id="202">202</th><td><b>extern</b> <em>void</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXSwapIntervalEXT" title='sf_ptrc_glXSwapIntervalEXT' data-ref="sf_ptrc_glXSwapIntervalEXT">sf_ptrc_glXSwapIntervalEXT</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a> *, <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXDrawable" title='GLXDrawable' data-type='XID' data-ref="GLXDrawable">GLXDrawable</a>, <em>int</em>);</td></tr>
+<tr><th id="203">203</th><td><u>#define <dfn class="macro" id="_M/glXSwapIntervalEXT" data-ref="_M/glXSwapIntervalEXT">glXSwapIntervalEXT</dfn> sf_ptrc_glXSwapIntervalEXT</u></td></tr>
+<tr><th id="204">204</th><td><u>#<span data-ppcond="200">endif</span> // GLX_EXT_swap_control</u></td></tr>
+<tr><th id="205">205</th><td></td></tr>
+<tr><th id="206">206</th><td><i>// Declare entry point even if GLX header already provides glXSwapIntervalMESA</i></td></tr>
+<tr><th id="207">207</th><td><i>// We won't make use of an alias here</i></td></tr>
+<tr><th id="208">208</th><td><b>extern</b> <em>int</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXSwapIntervalMESA" title='sf_ptrc_glXSwapIntervalMESA' data-ref="sf_ptrc_glXSwapIntervalMESA">sf_ptrc_glXSwapIntervalMESA</dfn>)(<em>int</em>);</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td><u>#<span data-ppcond="210">ifndef</span> <span class="macro" data-ref="_M/GLX_SGI_swap_control">GLX_SGI_swap_control</span></u></td></tr>
+<tr><th id="211">211</th><td><u>#define <dfn class="macro" id="_M/GLX_SGI_swap_control" data-ref="_M/GLX_SGI_swap_control">GLX_SGI_swap_control</dfn> 1</u></td></tr>
+<tr><th id="212">212</th><td><b>extern</b> <em>int</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXSwapIntervalSGI" title='sf_ptrc_glXSwapIntervalSGI' data-ref="sf_ptrc_glXSwapIntervalSGI">sf_ptrc_glXSwapIntervalSGI</dfn>)(<em>int</em>);</td></tr>
+<tr><th id="213">213</th><td><u>#define <dfn class="macro" id="_M/glXSwapIntervalSGI" data-ref="_M/glXSwapIntervalSGI">glXSwapIntervalSGI</dfn> sf_ptrc_glXSwapIntervalSGI</u></td></tr>
+<tr><th id="214">214</th><td><u>#<span data-ppcond="210">endif</span> // GLX_SGI_swap_control</u></td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td><u>#<span data-ppcond="216">ifndef</span> <span class="macro" data-ref="_M/GLX_SGIX_pbuffer">GLX_SGIX_pbuffer</span></u></td></tr>
+<tr><th id="217">217</th><td><u>#define <dfn class="macro" id="_M/GLX_SGIX_pbuffer" data-ref="_M/GLX_SGIX_pbuffer">GLX_SGIX_pbuffer</dfn> 1</u></td></tr>
+<tr><th id="218">218</th><td><b>extern</b> <a class="typedef" href="#GLXPbufferSGIX" title='GLXPbufferSGIX' data-type='XID' data-ref="GLXPbufferSGIX">GLXPbufferSGIX</a> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXCreateGLXPbufferSGIX" title='sf_ptrc_glXCreateGLXPbufferSGIX' data-ref="sf_ptrc_glXCreateGLXPbufferSGIX">sf_ptrc_glXCreateGLXPbufferSGIX</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a>*, <a class="typedef" href="#GLXFBConfigSGIX" title='GLXFBConfigSGIX' data-type='struct __GLXFBConfigRec *' data-ref="GLXFBConfigSGIX">GLXFBConfigSGIX</a>, <em>unsigned</em> <em>int</em>, <em>unsigned</em> <em>int</em>, <em>int</em>*);</td></tr>
+<tr><th id="219">219</th><td><u>#define <dfn class="macro" id="_M/glXCreateGLXPbufferSGIX" data-ref="_M/glXCreateGLXPbufferSGIX">glXCreateGLXPbufferSGIX</dfn> sf_ptrc_glXCreateGLXPbufferSGIX</u></td></tr>
+<tr><th id="220">220</th><td><b>extern</b> <em>void</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXDestroyGLXPbufferSGIX" title='sf_ptrc_glXDestroyGLXPbufferSGIX' data-ref="sf_ptrc_glXDestroyGLXPbufferSGIX">sf_ptrc_glXDestroyGLXPbufferSGIX</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a>*, <a class="typedef" href="#GLXPbufferSGIX" title='GLXPbufferSGIX' data-type='XID' data-ref="GLXPbufferSGIX">GLXPbufferSGIX</a>);</td></tr>
+<tr><th id="221">221</th><td><u>#define <dfn class="macro" id="_M/glXDestroyGLXPbufferSGIX" data-ref="_M/glXDestroyGLXPbufferSGIX">glXDestroyGLXPbufferSGIX</dfn> sf_ptrc_glXDestroyGLXPbufferSGIX</u></td></tr>
+<tr><th id="222">222</th><td><b>extern</b> <em>void</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXGetSelectedEventSGIX" title='sf_ptrc_glXGetSelectedEventSGIX' data-ref="sf_ptrc_glXGetSelectedEventSGIX">sf_ptrc_glXGetSelectedEventSGIX</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a>*, <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXDrawable" title='GLXDrawable' data-type='XID' data-ref="GLXDrawable">GLXDrawable</a>, <em>unsigned</em> <em>long</em>*);</td></tr>
+<tr><th id="223">223</th><td><u>#define <dfn class="macro" id="_M/glXGetSelectedEventSGIX" data-ref="_M/glXGetSelectedEventSGIX">glXGetSelectedEventSGIX</dfn> sf_ptrc_glXGetSelectedEventSGIX</u></td></tr>
+<tr><th id="224">224</th><td><b>extern</b> <em>int</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXQueryGLXPbufferSGIX" title='sf_ptrc_glXQueryGLXPbufferSGIX' data-ref="sf_ptrc_glXQueryGLXPbufferSGIX">sf_ptrc_glXQueryGLXPbufferSGIX</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a>*, <a class="typedef" href="#GLXPbufferSGIX" title='GLXPbufferSGIX' data-type='XID' data-ref="GLXPbufferSGIX">GLXPbufferSGIX</a>, <em>int</em>, <em>unsigned</em> <em>int</em>*);</td></tr>
+<tr><th id="225">225</th><td><u>#define <dfn class="macro" id="_M/glXQueryGLXPbufferSGIX" data-ref="_M/glXQueryGLXPbufferSGIX">glXQueryGLXPbufferSGIX</dfn> sf_ptrc_glXQueryGLXPbufferSGIX</u></td></tr>
+<tr><th id="226">226</th><td><b>extern</b> <em>void</em> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXSelectEventSGIX" title='sf_ptrc_glXSelectEventSGIX' data-ref="sf_ptrc_glXSelectEventSGIX">sf_ptrc_glXSelectEventSGIX</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a>*, <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXDrawable" title='GLXDrawable' data-type='XID' data-ref="GLXDrawable">GLXDrawable</a>, <em>unsigned</em> <em>long</em>);</td></tr>
+<tr><th id="227">227</th><td><u>#define <dfn class="macro" id="_M/glXSelectEventSGIX" data-ref="_M/glXSelectEventSGIX">glXSelectEventSGIX</dfn> sf_ptrc_glXSelectEventSGIX</u></td></tr>
+<tr><th id="228">228</th><td><u>#<span data-ppcond="216">endif</span> // GLX_SGIX_pbuffer</u></td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td><u>#<span data-ppcond="230">ifndef</span> <span class="macro" data-ref="_M/GLX_ARB_create_context">GLX_ARB_create_context</span></u></td></tr>
+<tr><th id="231">231</th><td><u>#define <dfn class="macro" id="_M/GLX_ARB_create_context" data-ref="_M/GLX_ARB_create_context">GLX_ARB_create_context</dfn> 1</u></td></tr>
+<tr><th id="232">232</th><td><b>extern</b> <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXContext" title='GLXContext' data-type='struct __GLXcontextRec *' data-ref="GLXContext">GLXContext</a> (<a class="macro" href="#40" title="" data-ref="_M/CODEGEN_FUNCPTR">CODEGEN_FUNCPTR</a> *<dfn class="decl" id="sf_ptrc_glXCreateContextAttribsARB" title='sf_ptrc_glXCreateContextAttribsARB' data-ref="sf_ptrc_glXCreateContextAttribsARB">sf_ptrc_glXCreateContextAttribsARB</dfn>)(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a>*, <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXFBConfig" title='GLXFBConfig' data-type='struct __GLXFBConfigRec *' data-ref="GLXFBConfig">GLXFBConfig</a>, <a class="typedef" href="../../../../../include/GL/glx.h.html#GLXContext" title='GLXContext' data-type='struct __GLXcontextRec *' data-ref="GLXContext">GLXContext</a>, <a class="macro" href="../../../../../include/X11/Xlib.h.html#82" title="int" data-ref="_M/Bool">Bool</a>, <em>const</em> <em>int</em>*);</td></tr>
+<tr><th id="233">233</th><td><u>#define <dfn class="macro" id="_M/glXCreateContextAttribsARB" data-ref="_M/glXCreateContextAttribsARB">glXCreateContextAttribsARB</dfn> sf_ptrc_glXCreateContextAttribsARB</u></td></tr>
+<tr><th id="234">234</th><td><u>#<span data-ppcond="230">endif</span> // GLX_ARB_create_context</u></td></tr>
+<tr><th id="235">235</th><td></td></tr>
+<tr><th id="236">236</th><td></td></tr>
+<tr><th id="237">237</th><td><b>enum</b> <dfn class="type def" id="sfglx_LoadStatus" title='sfglx_LoadStatus' data-ref="sfglx_LoadStatus">sfglx_LoadStatus</dfn></td></tr>
+<tr><th id="238">238</th><td>{</td></tr>
+<tr><th id="239">239</th><td>    <dfn class="enum" id="sfglx_LoadStatus::sfglx_LOAD_FAILED" title='sfglx_LoadStatus::sfglx_LOAD_FAILED' data-ref="sfglx_LoadStatus::sfglx_LOAD_FAILED">sfglx_LOAD_FAILED</dfn> = <var>0</var>,</td></tr>
+<tr><th id="240">240</th><td>    <dfn class="enum" id="sfglx_LoadStatus::sfglx_LOAD_SUCCEEDED" title='sfglx_LoadStatus::sfglx_LOAD_SUCCEEDED' data-ref="sfglx_LoadStatus::sfglx_LOAD_SUCCEEDED">sfglx_LOAD_SUCCEEDED</dfn> = <var>1</var></td></tr>
+<tr><th id="241">241</th><td>};</td></tr>
+<tr><th id="242">242</th><td></td></tr>
+<tr><th id="243">243</th><td><em>int</em> <dfn class="decl" id="sfglx_LoadFunctions" title='sfglx_LoadFunctions' data-ref="sfglx_LoadFunctions">sfglx_LoadFunctions</dfn>(<a class="typedef" href="../../../../../include/X11/Xlib.h.html#Display" title='Display' data-type='struct _XDisplay' data-ref="Display">Display</a> *<dfn class="local col3 decl" id="9713display" title='display' data-type='Display *' data-ref="9713display">display</dfn>, <em>int</em> <dfn class="local col4 decl" id="9714screen" title='screen' data-type='int' data-ref="9714screen">screen</dfn>);</td></tr>
+<tr><th id="244">244</th><td></td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td><u>#<span data-ppcond="246">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="247">247</th><td>}</td></tr>
+<tr><th id="248">248</th><td><u>#<span data-ppcond="246">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="249">249</th><td></td></tr>
+<tr><th id="250">250</th><td><u>#<span data-ppcond="25">endif</span> // SF_POINTER_C_GENERATED_HEADER_GLXWIN_HPP</u></td></tr>
+<tr><th id="251">251</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../GlContext.cpp.html'>codebrowser/src/SFML/Window/GlContext.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

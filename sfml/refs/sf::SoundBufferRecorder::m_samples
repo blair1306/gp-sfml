@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='99' type='std::vector&lt;Int16&gt;'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='46' u='m' c='_ZN2sf19SoundBufferRecorder7onStartEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='56' u='a' c='_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='65' u='m' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='m' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='m' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<offset>896</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='96'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='99'>///&lt; Temporary sample buffer to hold the recorded data</doc>

@@ -1,0 +1,25 @@
+_ZN2sf6ThreadC1ET_|sf::Thread::Thread
+_ZN2sf4priv10ThreadFuncD1Ev|sf::priv::ThreadFunc::~ThreadFunc
+_ZN2sf4priv13ThreadFunctor3runEv|sf::priv::ThreadFunctor::run
+_ZN2sf4priv20ThreadFunctorWithArg3runEv|sf::priv::ThreadFunctorWithArg::run
+_ZN2sf4priv16ThreadMemberFunc3runEv|sf::priv::ThreadMemberFunc::run
+_ZN2sf6Thread6launchEv|sf::Thread::launch
+_ZN2sf6Thread3runEv|sf::Thread::run
+_ZN2sf6Thread9terminateEv|sf::Thread::terminate
+_ZN2sf6Thread4waitEv|sf::Thread::wait
+_ZN2sf6ThreadD1Ev|sf::Thread::~Thread
+_ZN2sf11ThreadLocalC1EPv|sf::ThreadLocal::ThreadLocal
+_ZNK2sf11ThreadLocal8getValueEv|sf::ThreadLocal::getValue
+_ZN2sf11ThreadLocal8setValueEPv|sf::ThreadLocal::setValue
+_ZN2sf11ThreadLocalD1Ev|sf::ThreadLocal::~ThreadLocal
+_ZN2sf4priv10ThreadImplC1EPNS_6ThreadE|sf::priv::ThreadImpl::ThreadImpl
+_ZN2sf4priv10ThreadImpl10entryPointEPv|sf::priv::ThreadImpl::entryPoint
+_ZN2sf4priv10ThreadImpl9terminateEv|sf::priv::ThreadImpl::terminate
+_ZN2sf4priv10ThreadImpl4waitEv|sf::priv::ThreadImpl::wait
+_ZN2sf4priv15ThreadLocalImplC1Ev|sf::priv::ThreadLocalImpl::ThreadLocalImpl
+_ZNK2sf4priv15ThreadLocalImpl8getValueEv|sf::priv::ThreadLocalImpl::getValue
+_ZN2sf4priv15ThreadLocalImpl8setValueEPv|sf::priv::ThreadLocalImpl::setValue
+_ZN2sf4priv15ThreadLocalImplD1Ev|sf::priv::ThreadLocalImpl::~ThreadLocalImpl
+_ZNK2sf14ThreadLocalPtrcvPT_Ev|sf::ThreadLocalPtr::operator type-parameter-0-0 *
+_ZNK2sf14ThreadLocalPtrdeEv|sf::ThreadLocalPtr::operator*
+_ZN2sf14ThreadLocalPtraSEPT_|sf::ThreadLocalPtr::operator=

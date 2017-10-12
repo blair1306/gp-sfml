@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='427' type='void sf::String::replace(std::size_t position, std::size_t length, const sf::String &amp; replaceWith)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='415'>////////////////////////////////////////////////////////////
+    /// \brief Replace a substring with another string
+    ///
+    /// This function replaces the substring that starts at index \a position
+    /// and spans \a length characters with the string \a replaceWith.
+    ///
+    /// \param position    Index of the first character to be replaced
+    /// \param length      Number of characters to replace. You can pass InvalidPos to
+    ///                    replace all characters until the end of the string.
+    /// \param replaceWith String that replaces the given substring.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='285' ll='288' type='void sf::String::replace(std::size_t position, std::size_t length, const sf::String &amp; replaceWith)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='301' u='c' c='_ZN2sf6String7replaceERKS0_S2_'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='284'>////////////////////////////////////////////////////////////</doc>

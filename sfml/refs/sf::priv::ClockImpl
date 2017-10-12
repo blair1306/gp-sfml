@@ -1,0 +1,7 @@
+<def f='codebrowser/src/SFML/System/Unix/ClockImpl.hpp' l='43' ll='54'/>
+<size>1</size>
+<doc f='codebrowser/src/SFML/System/Unix/ClockImpl.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of sf::Clock
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv9ClockImpl14getCurrentTimeEv'/>

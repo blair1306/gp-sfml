@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='531' type='XRRPropertyInfo * XRRQueryProviderProperty(Display * dpy, RRProvider provider, Atom property)'/>

@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>UdpSocket.hpp source code [codebrowser/include/SFML/Network/UdpSocket.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::UdpSocket "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Network/UdpSocket.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Network</a>/<a href='UdpSocket.hpp.html'>UdpSocket.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_UDPSOCKET_HPP">SFML_UDPSOCKET_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_UDPSOCKET_HPP" data-ref="_M/SFML_UDPSOCKET_HPP">SFML_UDPSOCKET_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Network/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Socket.hpp.html">&lt;SFML/Network/Socket.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="IpAddress.hpp.html">&lt;SFML/Network/IpAddress.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../../../../include/c++/5/vector.html">&lt;vector&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td><b>class</b> <a class="type" href="Packet.hpp.html#sf::Packet" title='sf::Packet' data-ref="sf::Packet" id="sf::Packet">Packet</a>;</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="42">42</th><td><i>/// \brief Specialized socket using the UDP protocol</i></td></tr>
+<tr><th id="43">43</th><td><i>///</i></td></tr>
+<tr><th id="44">44</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="45">45</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_NETWORK_API">SFML_NETWORK_API</a> <dfn class="type def" id="sf::UdpSocket" title='sf::UdpSocket' data-ref="sf::UdpSocket">UdpSocket</dfn> : <b>public</b> <a class="type" href="Socket.hpp.html#sf::Socket" title='sf::Socket' data-ref="sf::Socket">Socket</a></td></tr>
+<tr><th id="46">46</th><td>{</td></tr>
+<tr><th id="47">47</th><td><b>public</b>:</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="50">50</th><td><i>    // Constants</i></td></tr>
+<tr><th id="51">51</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="52">52</th><td>    <b>enum</b></td></tr>
+<tr><th id="53">53</th><td>    {</td></tr>
+<tr><th id="54">54</th><td>        <dfn class="enum" id="sf::UdpSocket::MaxDatagramSize" title='sf::UdpSocket::MaxDatagramSize' data-ref="sf::UdpSocket::MaxDatagramSize">MaxDatagramSize</dfn> = <var>65507</var> <i class="doc">///&lt; The maximum number of bytes that can be sent in a single UDP datagram</i></td></tr>
+<tr><th id="55">55</th><td>    };</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="58">58</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="59">59</th><td><i>    ///</i></td></tr>
+<tr><th id="60">60</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="61">61</th><td>    <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocketC1Ev" title='sf::UdpSocket::UdpSocket' data-ref="_ZN2sf9UdpSocketC1Ev" id="_ZN2sf9UdpSocketC1Ev">UdpSocket</a>();</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="64">64</th><td><i>    /// \brief Get the port to which the socket is bound locally</i></td></tr>
+<tr><th id="65">65</th><td><i>    ///</i></td></tr>
+<tr><th id="66">66</th><td><i>    /// If the socket is not bound to a port, this function</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// returns 0.</i></td></tr>
+<tr><th id="68">68</th><td><i>    ///</i></td></tr>
+<tr><th id="69">69</th><td><i>    /// \return Port to which the socket is bound</i></td></tr>
+<tr><th id="70">70</th><td><i>    ///</i></td></tr>
+<tr><th id="71">71</th><td><i>    /// \see bind</i></td></tr>
+<tr><th id="72">72</th><td><i>    ///</i></td></tr>
+<tr><th id="73">73</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td>    <em>unsigned</em> <em>short</em> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZNK2sf9UdpSocket12getLocalPortEv" title='sf::UdpSocket::getLocalPort' data-ref="_ZNK2sf9UdpSocket12getLocalPortEv" id="_ZNK2sf9UdpSocket12getLocalPortEv">getLocalPort</a>() <em>const</em>;</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="77">77</th><td><i>    /// \brief Bind the socket to a specific port</i></td></tr>
+<tr><th id="78">78</th><td><i>    ///</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// Binding the socket to a port is necessary for being</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// able to receive data on that port.</i></td></tr>
+<tr><th id="81">81</th><td><i>    /// You can use the special value Socket::AnyPort to tell the</i></td></tr>
+<tr><th id="82">82</th><td><i>    /// system to automatically pick an available port, and then</i></td></tr>
+<tr><th id="83">83</th><td><i>    /// call getLocalPort to retrieve the chosen port.</i></td></tr>
+<tr><th id="84">84</th><td><i>    ///</i></td></tr>
+<tr><th id="85">85</th><td><i>    /// \param port    Port to bind the socket to</i></td></tr>
+<tr><th id="86">86</th><td><i>    /// \param address Address of the interface to bind to</i></td></tr>
+<tr><th id="87">87</th><td><i>    ///</i></td></tr>
+<tr><th id="88">88</th><td><i>    /// \return Status code</i></td></tr>
+<tr><th id="89">89</th><td><i>    ///</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \see unbind, getLocalPort</i></td></tr>
+<tr><th id="91">91</th><td><i>    ///</i></td></tr>
+<tr><th id="92">92</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="93">93</th><td>    <a class="type" href="Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE" title='sf::UdpSocket::bind' data-ref="_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE" id="_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE">bind</a>(<em>unsigned</em> <em>short</em> <dfn class="local col1 decl" id="1port" title='port' data-type='unsigned short' data-ref="1port">port</dfn>, <em>const</em> <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col2 decl" id="2address" title='address' data-type='const sf::IpAddress &amp;' data-ref="2address">address</dfn> = <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>::<a class="ref" href="IpAddress.hpp.html#sf::IpAddress::Any" title='sf::IpAddress::Any' data-ref="sf::IpAddress::Any">Any</a>);</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// \brief Unbind the socket from the local port to which it is bound</i></td></tr>
+<tr><th id="97">97</th><td><i>    ///</i></td></tr>
+<tr><th id="98">98</th><td><i>    /// The port that the socket was previously bound to is immediately</i></td></tr>
+<tr><th id="99">99</th><td><i>    /// made available to the operating system after this function is called.</i></td></tr>
+<tr><th id="100">100</th><td><i>    /// This means that a subsequent call to bind() will be able to re-bind</i></td></tr>
+<tr><th id="101">101</th><td><i>    /// the port if no other process has done so in the mean time.</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// If the socket is not bound to a port, this function has no effect.</i></td></tr>
+<tr><th id="103">103</th><td><i>    ///</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \see bind</i></td></tr>
+<tr><th id="105">105</th><td><i>    ///</i></td></tr>
+<tr><th id="106">106</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="107">107</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocket6unbindEv" title='sf::UdpSocket::unbind' data-ref="_ZN2sf9UdpSocket6unbindEv" id="_ZN2sf9UdpSocket6unbindEv">unbind</a>();</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="110">110</th><td><i>    /// \brief Send raw data to a remote peer</i></td></tr>
+<tr><th id="111">111</th><td><i>    ///</i></td></tr>
+<tr><th id="112">112</th><td><i>    /// Make sure that \a size is not greater than</i></td></tr>
+<tr><th id="113">113</th><td><i>    /// UdpSocket::MaxDatagramSize, otherwise this function will</i></td></tr>
+<tr><th id="114">114</th><td><i>    /// fail and no data will be sent.</i></td></tr>
+<tr><th id="115">115</th><td><i>    ///</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// \param data          Pointer to the sequence of bytes to send</i></td></tr>
+<tr><th id="117">117</th><td><i>    /// \param size          Number of bytes to send</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// \param remoteAddress Address of the receiver</i></td></tr>
+<tr><th id="119">119</th><td><i>    /// \param remotePort    Port of the receiver to send the data to</i></td></tr>
+<tr><th id="120">120</th><td><i>    ///</i></td></tr>
+<tr><th id="121">121</th><td><i>    /// \return Status code</i></td></tr>
+<tr><th id="122">122</th><td><i>    ///</i></td></tr>
+<tr><th id="123">123</th><td><i>    /// \see receive</i></td></tr>
+<tr><th id="124">124</th><td><i>    ///</i></td></tr>
+<tr><th id="125">125</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="126">126</th><td>    <a class="type" href="Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt" title='sf::UdpSocket::send' data-ref="_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt" id="_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt">send</a>(<em>const</em> <em>void</em>* <dfn class="local col3 decl" id="3data" title='data' data-type='const void *' data-ref="3data">data</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col4 decl" id="4size" title='size' data-type='std::size_t' data-ref="4size">size</dfn>, <em>const</em> <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col5 decl" id="5remoteAddress" title='remoteAddress' data-type='const sf::IpAddress &amp;' data-ref="5remoteAddress">remoteAddress</dfn>, <em>unsigned</em> <em>short</em> <dfn class="local col6 decl" id="6remotePort" title='remotePort' data-type='unsigned short' data-ref="6remotePort">remotePort</dfn>);</td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="129">129</th><td><i>    /// \brief Receive raw data from a remote peer</i></td></tr>
+<tr><th id="130">130</th><td><i>    ///</i></td></tr>
+<tr><th id="131">131</th><td><i>    /// In blocking mode, this function will wait until some</i></td></tr>
+<tr><th id="132">132</th><td><i>    /// bytes are actually received.</i></td></tr>
+<tr><th id="133">133</th><td><i>    /// Be careful to use a buffer which is large enough for</i></td></tr>
+<tr><th id="134">134</th><td><i>    /// the data that you intend to receive, if it is too small</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// then an error will be returned and *all* the data will</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// be lost.</i></td></tr>
+<tr><th id="137">137</th><td><i>    ///</i></td></tr>
+<tr><th id="138">138</th><td><i>    /// \param data          Pointer to the array to fill with the received bytes</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// \param size          Maximum number of bytes that can be received</i></td></tr>
+<tr><th id="140">140</th><td><i>    /// \param received      This variable is filled with the actual number of bytes received</i></td></tr>
+<tr><th id="141">141</th><td><i>    /// \param remoteAddress Address of the peer that sent the data</i></td></tr>
+<tr><th id="142">142</th><td><i>    /// \param remotePort    Port of the peer that sent the data</i></td></tr>
+<tr><th id="143">143</th><td><i>    ///</i></td></tr>
+<tr><th id="144">144</th><td><i>    /// \return Status code</i></td></tr>
+<tr><th id="145">145</th><td><i>    ///</i></td></tr>
+<tr><th id="146">146</th><td><i>    /// \see send</i></td></tr>
+<tr><th id="147">147</th><td><i>    ///</i></td></tr>
+<tr><th id="148">148</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="149">149</th><td>    <a class="type" href="Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt" title='sf::UdpSocket::receive' data-ref="_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt" id="_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt">receive</a>(<em>void</em>* <dfn class="local col7 decl" id="7data" title='data' data-type='void *' data-ref="7data">data</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col8 decl" id="8size" title='size' data-type='std::size_t' data-ref="8size">size</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>&amp; <dfn class="local col9 decl" id="9received" title='received' data-type='std::size_t &amp;' data-ref="9received">received</dfn>, <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col0 decl" id="10remoteAddress" title='remoteAddress' data-type='sf::IpAddress &amp;' data-ref="10remoteAddress">remoteAddress</dfn>, <em>unsigned</em> <em>short</em>&amp; <dfn class="local col1 decl" id="11remotePort" title='remotePort' data-type='unsigned short &amp;' data-ref="11remotePort">remotePort</dfn>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="152">152</th><td><i>    /// \brief Send a formatted packet of data to a remote peer</i></td></tr>
+<tr><th id="153">153</th><td><i>    ///</i></td></tr>
+<tr><th id="154">154</th><td><i>    /// Make sure that the packet size is not greater than</i></td></tr>
+<tr><th id="155">155</th><td><i>    /// UdpSocket::MaxDatagramSize, otherwise this function will</i></td></tr>
+<tr><th id="156">156</th><td><i>    /// fail and no data will be sent.</i></td></tr>
+<tr><th id="157">157</th><td><i>    ///</i></td></tr>
+<tr><th id="158">158</th><td><i>    /// \param packet        Packet to send</i></td></tr>
+<tr><th id="159">159</th><td><i>    /// \param remoteAddress Address of the receiver</i></td></tr>
+<tr><th id="160">160</th><td><i>    /// \param remotePort    Port of the receiver to send the data to</i></td></tr>
+<tr><th id="161">161</th><td><i>    ///</i></td></tr>
+<tr><th id="162">162</th><td><i>    /// \return Status code</i></td></tr>
+<tr><th id="163">163</th><td><i>    ///</i></td></tr>
+<tr><th id="164">164</th><td><i>    /// \see receive</i></td></tr>
+<tr><th id="165">165</th><td><i>    ///</i></td></tr>
+<tr><th id="166">166</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="167">167</th><td>    <a class="type" href="Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt" title='sf::UdpSocket::send' data-ref="_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt" id="_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt">send</a>(<a class="type" href="Packet.hpp.html#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <dfn class="local col2 decl" id="12packet" title='packet' data-type='sf::Packet &amp;' data-ref="12packet">packet</dfn>, <em>const</em> <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col3 decl" id="13remoteAddress" title='remoteAddress' data-type='const sf::IpAddress &amp;' data-ref="13remoteAddress">remoteAddress</dfn>, <em>unsigned</em> <em>short</em> <dfn class="local col4 decl" id="14remotePort" title='remotePort' data-type='unsigned short' data-ref="14remotePort">remotePort</dfn>);</td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="170">170</th><td><i>    /// \brief Receive a formatted packet of data from a remote peer</i></td></tr>
+<tr><th id="171">171</th><td><i>    ///</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// In blocking mode, this function will wait until the whole packet</i></td></tr>
+<tr><th id="173">173</th><td><i>    /// has been received.</i></td></tr>
+<tr><th id="174">174</th><td><i>    ///</i></td></tr>
+<tr><th id="175">175</th><td><i>    /// \param packet        Packet to fill with the received data</i></td></tr>
+<tr><th id="176">176</th><td><i>    /// \param remoteAddress Address of the peer that sent the data</i></td></tr>
+<tr><th id="177">177</th><td><i>    /// \param remotePort    Port of the peer that sent the data</i></td></tr>
+<tr><th id="178">178</th><td><i>    ///</i></td></tr>
+<tr><th id="179">179</th><td><i>    /// \return Status code</i></td></tr>
+<tr><th id="180">180</th><td><i>    ///</i></td></tr>
+<tr><th id="181">181</th><td><i>    /// \see send</i></td></tr>
+<tr><th id="182">182</th><td><i>    ///</i></td></tr>
+<tr><th id="183">183</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="184">184</th><td>    <a class="type" href="Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="decl" href="../../../src/SFML/Network/UdpSocket.cpp.html#_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt" title='sf::UdpSocket::receive' data-ref="_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt" id="_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt">receive</a>(<a class="type" href="Packet.hpp.html#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <dfn class="local col5 decl" id="15packet" title='packet' data-type='sf::Packet &amp;' data-ref="15packet">packet</dfn>, <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col6 decl" id="16remoteAddress" title='remoteAddress' data-type='sf::IpAddress &amp;' data-ref="16remoteAddress">remoteAddress</dfn>, <em>unsigned</em> <em>short</em>&amp; <dfn class="local col7 decl" id="17remotePort" title='remotePort' data-type='unsigned short &amp;' data-ref="17remotePort">remotePort</dfn>);</td></tr>
+<tr><th id="185">185</th><td></td></tr>
+<tr><th id="186">186</th><td><b>private</b>:</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="189">189</th><td><i>    // Member data</i></td></tr>
+<tr><th id="190">190</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="191">191</th><td>    <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<em>char</em>&gt; <dfn class="decl" id="sf::UdpSocket::m_buffer" title='sf::UdpSocket::m_buffer' data-ref="sf::UdpSocket::m_buffer">m_buffer</dfn>; <i class="doc">///&lt; Temporary buffer holding the received data in Receive(Packet)</i></td></tr>
+<tr><th id="192">192</th><td>};</td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td><u>#<span data-ppcond="25">endif</span> // SFML_UDPSOCKET_HPP</u></td></tr>
+<tr><th id="198">198</th><td></td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="201">201</th><td><i>/// \class sf::UdpSocket</i></td></tr>
+<tr><th id="202">202</th><td><i>/// \ingroup network</i></td></tr>
+<tr><th id="203">203</th><td><i>///</i></td></tr>
+<tr><th id="204">204</th><td><i>/// A UDP socket is a connectionless socket. Instead of</i></td></tr>
+<tr><th id="205">205</th><td><i>/// connecting once to a remote host, like TCP sockets,</i></td></tr>
+<tr><th id="206">206</th><td><i>/// it can send to and receive from any host at any time.</i></td></tr>
+<tr><th id="207">207</th><td><i>///</i></td></tr>
+<tr><th id="208">208</th><td><i>/// It is a datagram protocol: bounded blocks of data (datagrams)</i></td></tr>
+<tr><th id="209">209</th><td><i>/// are transfered over the network rather than a continuous</i></td></tr>
+<tr><th id="210">210</th><td><i>/// stream of data (TCP). Therefore, one call to send will always</i></td></tr>
+<tr><th id="211">211</th><td><i>/// match one call to receive (if the datagram is not lost),</i></td></tr>
+<tr><th id="212">212</th><td><i>/// with the same data that was sent.</i></td></tr>
+<tr><th id="213">213</th><td><i>///</i></td></tr>
+<tr><th id="214">214</th><td><i>/// The UDP protocol is lightweight but unreliable. Unreliable</i></td></tr>
+<tr><th id="215">215</th><td><i>/// means that datagrams may be duplicated, be lost or</i></td></tr>
+<tr><th id="216">216</th><td><i>/// arrive reordered. However, if a datagram arrives, its</i></td></tr>
+<tr><th id="217">217</th><td><i>/// data is guaranteed to be valid.</i></td></tr>
+<tr><th id="218">218</th><td><i>///</i></td></tr>
+<tr><th id="219">219</th><td><i>/// UDP is generally used for real-time communication</i></td></tr>
+<tr><th id="220">220</th><td><i>/// (audio or video streaming, real-time games, etc.) where</i></td></tr>
+<tr><th id="221">221</th><td><i>/// speed is crucial and lost data doesn't matter much.</i></td></tr>
+<tr><th id="222">222</th><td><i>///</i></td></tr>
+<tr><th id="223">223</th><td><i>/// Sending and receiving data can use either the low-level</i></td></tr>
+<tr><th id="224">224</th><td><i>/// or the high-level functions. The low-level functions</i></td></tr>
+<tr><th id="225">225</th><td><i>/// process a raw sequence of bytes, whereas the high-level</i></td></tr>
+<tr><th id="226">226</th><td><i>/// interface uses packets (see sf::Packet), which are easier</i></td></tr>
+<tr><th id="227">227</th><td><i>/// to use and provide more safety regarding the data that is</i></td></tr>
+<tr><th id="228">228</th><td><i>/// exchanged. You can look at the sf::Packet class to get</i></td></tr>
+<tr><th id="229">229</th><td><i>/// more details about how they work.</i></td></tr>
+<tr><th id="230">230</th><td><i>///</i></td></tr>
+<tr><th id="231">231</th><td><i>/// It is important to note that UdpSocket is unable to send</i></td></tr>
+<tr><th id="232">232</th><td><i>/// datagrams bigger than MaxDatagramSize. In this case, it</i></td></tr>
+<tr><th id="233">233</th><td><i>/// returns an error and doesn't send anything. This applies</i></td></tr>
+<tr><th id="234">234</th><td><i>/// to both raw data and packets. Indeed, even packets are</i></td></tr>
+<tr><th id="235">235</th><td><i>/// unable to split and recompose data, due to the unreliability</i></td></tr>
+<tr><th id="236">236</th><td><i>/// of the protocol (dropped, mixed or duplicated datagrams may</i></td></tr>
+<tr><th id="237">237</th><td><i>/// lead to a big mess when trying to recompose a packet).</i></td></tr>
+<tr><th id="238">238</th><td><i>///</i></td></tr>
+<tr><th id="239">239</th><td><i>/// If the socket is bound to a port, it is automatically</i></td></tr>
+<tr><th id="240">240</th><td><i>/// unbound from it when the socket is destroyed. However,</i></td></tr>
+<tr><th id="241">241</th><td><i>/// you can unbind the socket explicitly with the Unbind</i></td></tr>
+<tr><th id="242">242</th><td><i>/// function if necessary, to stop receiving messages or</i></td></tr>
+<tr><th id="243">243</th><td><i>/// make the port available for other sockets.</i></td></tr>
+<tr><th id="244">244</th><td><i>///</i></td></tr>
+<tr><th id="245">245</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="246">246</th><td><i>/// \code</i></td></tr>
+<tr><th id="247">247</th><td><i>/// // ----- The client -----</i></td></tr>
+<tr><th id="248">248</th><td><i>///</i></td></tr>
+<tr><th id="249">249</th><td><i>/// // Create a socket and bind it to the port 55001</i></td></tr>
+<tr><th id="250">250</th><td><i>/// sf::UdpSocket socket;</i></td></tr>
+<tr><th id="251">251</th><td><i>/// socket.bind(55001);</i></td></tr>
+<tr><th id="252">252</th><td><i>///</i></td></tr>
+<tr><th id="253">253</th><td><i>/// // Send a message to 192.168.1.50 on port 55002</i></td></tr>
+<tr><th id="254">254</th><td><i>/// std::string message = "Hi, I am " + sf::IpAddress::getLocalAddress().toString();</i></td></tr>
+<tr><th id="255">255</th><td><i>/// socket.send(message.c_str(), message.size() + 1, "192.168.1.50", 55002);</i></td></tr>
+<tr><th id="256">256</th><td><i>///</i></td></tr>
+<tr><th id="257">257</th><td><i>/// // Receive an answer (most likely from 192.168.1.50, but could be anyone else)</i></td></tr>
+<tr><th id="258">258</th><td><i>/// char buffer[1024];</i></td></tr>
+<tr><th id="259">259</th><td><i>/// std::size_t received = 0;</i></td></tr>
+<tr><th id="260">260</th><td><i>/// sf::IpAddress sender;</i></td></tr>
+<tr><th id="261">261</th><td><i>/// unsigned short port;</i></td></tr>
+<tr><th id="262">262</th><td><i>/// socket.receive(buffer, sizeof(buffer), received, sender, port);</i></td></tr>
+<tr><th id="263">263</th><td><i>/// std::cout &lt;&lt; sender.ToString() &lt;&lt; " said: " &lt;&lt; buffer &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="264">264</th><td><i>///</i></td></tr>
+<tr><th id="265">265</th><td><i>/// // ----- The server -----</i></td></tr>
+<tr><th id="266">266</th><td><i>///</i></td></tr>
+<tr><th id="267">267</th><td><i>/// // Create a socket and bind it to the port 55002</i></td></tr>
+<tr><th id="268">268</th><td><i>/// sf::UdpSocket socket;</i></td></tr>
+<tr><th id="269">269</th><td><i>/// socket.bind(55002);</i></td></tr>
+<tr><th id="270">270</th><td><i>///</i></td></tr>
+<tr><th id="271">271</th><td><i>/// // Receive a message from anyone</i></td></tr>
+<tr><th id="272">272</th><td><i>/// char buffer[1024];</i></td></tr>
+<tr><th id="273">273</th><td><i>/// std::size_t received = 0;</i></td></tr>
+<tr><th id="274">274</th><td><i>/// sf::IpAddress sender;</i></td></tr>
+<tr><th id="275">275</th><td><i>/// unsigned short port;</i></td></tr>
+<tr><th id="276">276</th><td><i>/// socket.receive(buffer, sizeof(buffer), received, sender, port);</i></td></tr>
+<tr><th id="277">277</th><td><i>/// std::cout &lt;&lt; sender.ToString() &lt;&lt; " said: " &lt;&lt; buffer &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="278">278</th><td><i>///</i></td></tr>
+<tr><th id="279">279</th><td><i>/// // Send an answer</i></td></tr>
+<tr><th id="280">280</th><td><i>/// std::string message = "Welcome " + sender.toString();</i></td></tr>
+<tr><th id="281">281</th><td><i>/// socket.send(message.c_str(), message.size() + 1, sender, port);</i></td></tr>
+<tr><th id="282">282</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="283">283</th><td><i>///</i></td></tr>
+<tr><th id="284">284</th><td><i>/// \see sf::Socket, sf::TcpSocket, sf::Packet</i></td></tr>
+<tr><th id="285">285</th><td><i>///</i></td></tr>
+<tr><th id="286">286</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="287">287</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Network/UdpSocket.cpp.html'>codebrowser/src/SFML/Network/UdpSocket.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

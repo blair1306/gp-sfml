@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='64' type='Keyboard::Key'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='64'>///&lt; Code of the key that has been pressed</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1719' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1795' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='234' type='1001'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='146' u='r' c='_ZN2sf4Http8ResponseC1Ev'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='234'>///&lt; Connection with server failed</doc>

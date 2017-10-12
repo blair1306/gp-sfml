@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='214'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='213'>// Core since 2.0 - ARB_fragment_shader</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='794' u='c'/>

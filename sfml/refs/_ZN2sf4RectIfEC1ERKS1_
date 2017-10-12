@@ -1,0 +1,3 @@
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='148' u='c' c='_ZNK2sf5Shape14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='316' u='c' c='_ZNK2sf4Text14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='376' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>

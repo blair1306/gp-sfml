@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='178' type='float'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='178'>///&lt; Current value of the sensor on X axis</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='246' u='w' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='281' type='Vector2i'/>
+<offset>6880</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='281'>///&lt; Previous size of the window, to find if a ConfigureNotify event is a resize event (could be a move event only)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='492' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='540' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1657' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1657' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1665' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1666' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

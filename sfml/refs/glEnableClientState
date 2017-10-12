@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1589' type='void glEnableClientState(GLenum )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='277' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='393' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='394' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='395' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<dec f='include/GL/gl.h' l='803' type='void glEnableClientState(GLenum cap)'/>

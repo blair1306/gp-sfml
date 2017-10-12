@@ -1,0 +1,19 @@
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='43' ll='124'/>
+<size>176</size>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Linux implementation of joysticks
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv12JoystickImplC1Ev'/>
+<fun r='_ZN2sf4priv12JoystickImpl10initializeEv'/>
+<fun r='_ZN2sf4priv12JoystickImpl7cleanupEv'/>
+<fun r='_ZN2sf4priv12JoystickImpl11isConnectedEj'/>
+<fun r='_ZN2sf4priv12JoystickImpl4openEj'/>
+<fun r='_ZN2sf4priv12JoystickImpl5closeEv'/>
+<fun r='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<fun r='_ZNK2sf4priv12JoystickImpl17getIdentificationEv'/>
+<fun r='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<mbr r='sf::priv::JoystickImpl::m_file' o='0' t='int'/>
+<mbr r='sf::priv::JoystickImpl::m_mapping' o='32' t='char [64]'/>
+<mbr r='sf::priv::JoystickImpl::m_state' o='544' t='sf::priv::JoystickState'/>
+<mbr r='sf::priv::JoystickImpl::m_identification' o='1088' t='sf::Joystick::Identification'/>

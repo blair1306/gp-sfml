@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='73' type='static bool sf::priv::JoystickImpl::isConnected(unsigned int index)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Check if a joystick is currently connected
+    ///
+    /// \param index Index of the joystick to check
+    ///
+    /// \return True if the joystick is connected, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='88' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='517' ll='543' type='static bool sf::priv::JoystickImpl::isConnected(unsigned int index)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='516'>////////////////////////////////////////////////////////////</doc>

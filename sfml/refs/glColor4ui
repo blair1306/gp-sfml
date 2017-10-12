@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1311' type='void glColor4ui(GLuint , GLuint , GLuint , GLuint )'/>
+<dec f='include/GL/gl.h' l='1011' type='void glColor4ui(GLuint red, GLuint green, GLuint blue, GLuint alpha)'/>

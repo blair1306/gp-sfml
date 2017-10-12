@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Sensor.hpp' l='95' type='static Vector3f sf::Sensor::getValue(sf::Sensor::Type sensor)'/>
+<def f='codebrowser/src/SFML/Window/Sensor.cpp' l='48' ll='51' type='static Vector3f sf::Sensor::getValue(sf::Sensor::Type sensor)'/>
+<doc f='codebrowser/src/SFML/Window/Sensor.cpp' l='47'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Sensor.hpp' l='87'>////////////////////////////////////////////////////////////
+    /// \brief Get the current sensor value
+    ///
+    /// \param sensor Sensor to read
+    ///
+    /// \return The current sensor value
+    ///
+    ////////////////////////////////////////////////////////////</doc>

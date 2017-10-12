@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='101' type='bool sf::InputSoundFile::openFromStream(sf::InputStream &amp; stream)'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='137' ll='172' type='bool sf::InputSoundFile::openFromStream(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='136'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='90'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file from a custom stream for reading
+    ///
+    /// The supported audio formats are: WAV (PCM only), OGG/Vorbis, FLAC.
+    /// The supported sample sizes for FLAC and WAV are 8, 16, 24 and 32 bit.
+    ///
+    /// \param stream Source stream to read from
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='95' u='c' c='_ZN2sf5Music14openFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='110' u='c' c='_ZN2sf11SoundBuffer14loadFromStreamERNS_11InputStreamE'/>

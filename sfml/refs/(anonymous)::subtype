@@ -1,0 +1,15 @@
+<dec f='include/X11/extensions/Xrandr.h' l='77' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='86' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='101' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='115' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='128' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='140' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='153' type='int'/>
+<offset>320</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='77'>/* RRNotify_ subtype */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='86'>/* RRNotify_OutputChange */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='101'>/* RRNotify_CrtcChange */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='115'>/* RRNotify_OutputProperty */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='128'>/* RRNotify_ProviderChange */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='140'>/* RRNotify_ProviderProperty */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='153'>/* RRNotify_ResourceChange */</doc>

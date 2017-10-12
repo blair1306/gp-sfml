@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='29' type='2'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='113' macro='1' u='r'/>
+<doc f='include/x86_64-linux-gnu/bits/socket_type.h' l='29'>/* Connectionless, unreliable datagrams
+				   of fixed maximum length.  */</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='84' macro='1' u='r'/>

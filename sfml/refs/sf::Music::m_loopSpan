@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='282' type='Span&lt;Uint64&gt;'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='40' u='w' c='_ZN2sf5MusicC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='115' u='m' c='_ZNK2sf5Music13getLoopPointsEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='115' u='m' c='_ZNK2sf5Music13getLoopPointsEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='153' u='m' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='153' u='m' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='166' u='w' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='185' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='185' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='190' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='199' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='217' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='217' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='217' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='221' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='238' u='m' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='239' u='m' c='_ZN2sf5Music10initializeEv'/>
+<offset>1536</offset>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='282'>///&lt; Loop Range Specifier</doc>

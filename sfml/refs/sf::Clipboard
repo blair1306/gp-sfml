@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Window/Clipboard.hpp' l='41' ll='68'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/Clipboard.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Give access to the system clipboard
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9Clipboard9getStringEv'/>
+<fun r='_ZN2sf9Clipboard9setStringERKNS_6StringE'/>
+<fun r='_ZN2sf9Clipboard9getStringEv'/>
+<fun r='_ZN2sf9Clipboard9setStringERKNS_6StringE'/>

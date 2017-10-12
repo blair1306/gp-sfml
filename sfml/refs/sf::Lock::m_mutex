@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/Lock.hpp' l='70' type='sf::Mutex &amp;'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/System/Lock.hpp' l='67'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Lock.hpp' l='70'>///&lt; Mutex to lock / unlock</doc>
+<use f='codebrowser/src/SFML/System/Lock.cpp' l='36' u='w' c='_ZN2sf4LockC1ERNS_5MutexE'/>
+<use f='codebrowser/src/SFML/System/Lock.cpp' l='38' u='m' c='_ZN2sf4LockC1ERNS_5MutexE'/>
+<use f='codebrowser/src/SFML/System/Lock.cpp' l='45' u='m' c='_ZN2sf4LockD1Ev'/>

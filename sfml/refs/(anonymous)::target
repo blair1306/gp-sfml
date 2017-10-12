@@ -1,0 +1,12 @@
+<dec f='include/X11/Xlib.h' l='865' type='Atom'/>
+<dec f='include/X11/Xlib.h' l='877' type='Atom'/>
+<offset>384</offset>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='134' u='w' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='134' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='139' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='143' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='143' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='147' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='195' u='r' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<dec f='include/X11/Xproto.h' l='1445' type='CARD32'/>
+<offset>96</offset>

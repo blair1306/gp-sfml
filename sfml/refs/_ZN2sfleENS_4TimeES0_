@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='209' type='bool sf::operator&lt;=(sf::Time left, sf::Time right)'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='127' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='122' ll='125' type='bool sf::operator&lt;=(sf::Time left, sf::Time right)'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='121'>////////////////////////////////////////////////////////////</doc>

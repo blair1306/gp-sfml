@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1370' type='const GLubyte * glGetString(GLenum )'/>
+<use f='codebrowser/src/SFML/Graphics/GLExtensions.cpp' l='67' u='c' c='_ZN2sf4priv20ensureExtensionsInitEv'/>
+<dec f='include/GL/gl.h' l='831' type='const GLubyte * glGetString(GLenum name)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='240' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='585' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='696' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='697' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>

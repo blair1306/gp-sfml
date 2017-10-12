@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='219' type='XRenderPictFormat * XRenderFindFormat(Display * dpy, unsigned long mask, const XRenderPictFormat * templ, int count)'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='183' type='void sf::VertexArray::draw(sf::RenderTarget &amp; target, sf::RenderStates states) const'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='176'>////////////////////////////////////////////////////////////
+    /// \brief Draw the vertex array to a render target
+    ///
+    /// \param target Render target to draw to
+    /// \param states Current render states
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='69' c='_ZNK2sf8Drawable4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='144' ll='148' type='void sf::VertexArray::draw(sf::RenderTarget &amp; target, sf::RenderStates states) const'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='143'>////////////////////////////////////////////////////////////</doc>

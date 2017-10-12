@@ -1,0 +1,5 @@
+<dec f='include/FLAC/format.h' l='597' type='const FLAC__uint64'/>
+<doc f='include/FLAC/format.h' l='593'>/** The value used in the \a sample_number field of
+ *  FLAC__StreamMetadataSeekPoint used to indicate a placeholder
+ *  point (== 0xffffffffffffffff).
+ */</doc>

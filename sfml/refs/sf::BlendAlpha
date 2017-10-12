@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='150' type='const sf::BlendMode'/>
+<def f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='36' ll='37' type='const sf::BlendMode'/>
+<doc f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='33'>////////////////////////////////////////////////////////////
+// Commonly used blending modes
+////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='44' u='r' c='_ZN2sf12RenderStatesC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='54' u='r' c='_ZN2sf12RenderStatesC1ERKNS_9TransformE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='74' u='r' c='_ZN2sf12RenderStatesC1EPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='84' u='r' c='_ZN2sf12RenderStatesC1EPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='399' u='r' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='117' type='Uint64'/>
+<offset>256</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='117'>///&lt; Position one byte past the end of the audio data in the open file</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='114' u='w' c='_ZN2sf4priv18SoundFileReaderWavC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='149' u='r' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='291' u='w' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>

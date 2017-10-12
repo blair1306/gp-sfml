@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='233' type='8'/>
+<doc f='include/FLAC/stream_decoder.h' l='231'>/**&lt; The decoder was aborted by the read callback. */</doc>

@@ -1,0 +1,5 @@
+<dec f='include/X11/Xlib.h' l='328' type='int'/>
+<offset>736</offset>
+<doc f='include/X11/Xlib.h' l='328'>/* IsUnmapped, IsUnviewable, IsViewable */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1144' u='r' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1192' u='r' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>

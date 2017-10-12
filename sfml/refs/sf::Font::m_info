@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='354' type='sf::Font::Info'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='76' u='w' c='_ZN2sf4FontC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='91' u='w' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='91' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='172' u='m' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='237' u='m' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='315' u='m' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='324' u='a' c='_ZNK2sf4Font7getInfoEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='462' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='462' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<offset>320</offset>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='354'>///&lt; Information about the font</doc>

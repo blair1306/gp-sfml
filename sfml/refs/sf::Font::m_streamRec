@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='351' type='void *'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='73' u='w' c='_ZN2sf4FontC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='88' u='w' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='88' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='312' u='w' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='459' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='459' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='498' u='r' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='499' u='r' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='511' u='w' c='_ZN2sf4Font7cleanupEv'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='351'>///&lt; Pointer to the stream rec instance (it is typeless to avoid exposing implementation details)</doc>

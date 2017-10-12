@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='308' type='const sf::Texture *'/>
+<offset>1472</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='305'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='308'>///&lt; Texture of the shape</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='69' u='r' c='_ZN2sf5Shape10setTextureEPKNS_7TextureEb'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='74' u='w' c='_ZN2sf5Shape10setTextureEPKNS_7TextureEb'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='81' u='r' c='_ZNK2sf5Shape10getTextureEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='161' u='w' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='218' u='r' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>

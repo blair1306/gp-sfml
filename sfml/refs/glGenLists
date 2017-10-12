@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1352' type='GLuint glGenLists(GLsizei )'/>
+<dec f='include/GL/gl.h' l='911' type='GLuint glGenLists(GLsizei range)'/>

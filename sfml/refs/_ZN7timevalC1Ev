@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='159' u='c' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='173' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>

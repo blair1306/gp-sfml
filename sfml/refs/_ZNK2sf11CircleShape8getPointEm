@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='107' type='Vector2f sf::CircleShape::getPoint(std::size_t index) const'/>
+<inh f='codebrowser/include/SFML/Graphics/Shape.hpp' l='213' c='_ZNK2sf5Shape8getPointEm'/>
+<def f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='73' ll='82' type='Vector2f sf::CircleShape::getPoint(std::size_t index) const'/>
+<doc f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='72'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Get a point of the circle
+    ///
+    /// The returned point is in local coordinates, that is,
+    /// the shape&apos;s transforms (position, rotation, scale) are
+    /// not taken into account.
+    /// The result is undefined if \a index is out of the valid range.
+    ///
+    /// \param index Index of the point to get, in range [0 .. getPointCount() - 1]
+    ///
+    /// \return index-th point of the shape
+    ///
+    ////////////////////////////////////////////////////////////</doc>

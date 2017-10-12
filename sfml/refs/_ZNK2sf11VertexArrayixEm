@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='104' type='const sf::Vertex &amp; sf::VertexArray::operator[](std::size_t index) const'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='90'>////////////////////////////////////////////////////////////
+    /// \brief Get a read-only access to a vertex by its index
+    ///
+    /// This function doesn&apos;t check \a index, it must be in range
+    /// [0, getVertexCount() - 1]. The behavior is undefined
+    /// otherwise.
+    ///
+    /// \param index Index of the vertex to get
+    ///
+    /// \return Const reference to the index-th vertex
+    ///
+    /// \see getVertexCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='65' ll='68' type='const sf::Vertex &amp; sf::VertexArray::operator[](std::size_t index) const'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='64'>////////////////////////////////////////////////////////////</doc>

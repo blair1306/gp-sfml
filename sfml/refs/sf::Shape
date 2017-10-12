@@ -1,0 +1,42 @@
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='44' c='sf::Drawable'/>
+<inh f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='41' c='sf::Transformable'/>
+<def f='codebrowser/include/SFML/Graphics/Shape.hpp' l='44' ll='317'/>
+<ovr f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='41' c='sf::CircleShape'/>
+<size>336</size>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Base class for textured shapes with outline
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5ShapeD1Ev'/>
+<fun r='_ZN2sf5Shape10setTextureEPKNS_7TextureEb'/>
+<fun r='_ZN2sf5Shape14setTextureRectERKNS_4RectIiEE'/>
+<fun r='_ZN2sf5Shape12setFillColorERKNS_5ColorE'/>
+<fun r='_ZN2sf5Shape15setOutlineColorERKNS_5ColorE'/>
+<fun r='_ZN2sf5Shape19setOutlineThicknessEf'/>
+<fun r='_ZNK2sf5Shape10getTextureEv'/>
+<fun r='_ZNK2sf5Shape14getTextureRectEv'/>
+<fun r='_ZNK2sf5Shape12getFillColorEv'/>
+<fun r='_ZNK2sf5Shape15getOutlineColorEv'/>
+<fun r='_ZNK2sf5Shape19getOutlineThicknessEv'/>
+<fun r='_ZNK2sf5Shape13getPointCountEv'/>
+<fun r='_ZNK2sf5Shape8getPointEm'/>
+<fun r='_ZNK2sf5Shape14getLocalBoundsEv'/>
+<fun r='_ZNK2sf5Shape15getGlobalBoundsEv'/>
+<fun r='_ZN2sf5ShapeC1Ev'/>
+<fun r='_ZN2sf5Shape6updateEv'/>
+<fun r='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<fun r='_ZN2sf5Shape16updateFillColorsEv'/>
+<fun r='_ZN2sf5Shape15updateTexCoordsEv'/>
+<fun r='_ZN2sf5Shape13updateOutlineEv'/>
+<fun r='_ZN2sf5Shape19updateOutlineColorsEv'/>
+<mbr r='sf::Shape::m_texture' o='1472' t='const sf::Texture *'/>
+<mbr r='sf::Shape::m_textureRect' o='1536' t='IntRect'/>
+<mbr r='sf::Shape::m_fillColor' o='1664' t='sf::Color'/>
+<mbr r='sf::Shape::m_outlineColor' o='1696' t='sf::Color'/>
+<mbr r='sf::Shape::m_outlineThickness' o='1728' t='float'/>
+<mbr r='sf::Shape::m_vertices' o='1792' t='sf::VertexArray'/>
+<mbr r='sf::Shape::m_outlineVertices' o='2112' t='sf::VertexArray'/>
+<mbr r='sf::Shape::m_insideBounds' o='2432' t='FloatRect'/>
+<mbr r='sf::Shape::m_bounds' o='2560' t='FloatRect'/>
+<ovr f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='42' c='sf::ConvexShape'/>
+<ovr f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='41' c='sf::RectangleShape'/>

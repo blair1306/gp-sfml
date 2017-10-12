@@ -1,0 +1,2 @@
+<dec f='include/X11/extensions/randr.h' l='51'/>
+<doc f='include/X11/extensions/randr.h' l='50'>/* we skip 1 to make old clients fail pretty immediately */</doc>

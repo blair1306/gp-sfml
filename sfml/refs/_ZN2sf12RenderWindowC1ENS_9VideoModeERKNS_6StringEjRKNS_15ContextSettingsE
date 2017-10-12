@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='76' type='void sf::RenderWindow::RenderWindow(sf::VideoMode mode, const sf::String &amp; title, Uint32 style = Style::Default, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<def f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='42' ll='46' type='void sf::RenderWindow::RenderWindow(sf::VideoMode mode, const sf::String &amp; title, Uint32 style = Style::Default, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='57'>////////////////////////////////////////////////////////////
+    /// \brief Construct a new window
+    ///
+    /// This constructor creates the window with the size and pixel
+    /// depth defined in \a mode. An optional style can be passed to
+    /// customize the look and behavior of the window (borders,
+    /// title bar, resizable, closable, ...).
+    ///
+    /// The fourth parameter is an optional structure specifying
+    /// advanced OpenGL context settings such as antialiasing,
+    /// depth-buffer bits, etc. You shouldn&apos;t care about these
+    /// parameters for a regular usage of the graphics module.
+    ///
+    /// \param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)
+    /// \param title    Title of the window
+    /// \param style    %Window style, a bitwise OR combination of sf::Style enumerators
+    /// \param settings Additional settings for the underlying OpenGL context
+    ///
+    ////////////////////////////////////////////////////////////</doc>

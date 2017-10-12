@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='249' type='bool sf::SoundBuffer::update(unsigned int channelCount, unsigned int sampleRate)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='240'>////////////////////////////////////////////////////////////
+    /// \brief Update the internal buffer with the cached audio samples
+    ///
+    /// \param channelCount Number of channels
+    /// \param sampleRate   Sample rate (number of samples per second)
+    ///
+    /// \return True on success, false if any error happened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='61' u='c' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='126' u='c' c='_ZN2sf11SoundBuffer15loadFromSamplesEPKsyjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='230' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='240' ll='275' type='bool sf::SoundBuffer::update(unsigned int channelCount, unsigned int sampleRate)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='239'>////////////////////////////////////////////////////////////</doc>

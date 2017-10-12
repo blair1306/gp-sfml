@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='617' type='Vector2u'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='614'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='617'>///&lt; Public texture size</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='63' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='79' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='147' u='m' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='148' u='m' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='316' u='r' c='_ZNK2sf7Texture7getSizeEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='333' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='333' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='356' u='r' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='375' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='380' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='384' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='396' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='396' u='m' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='406' u='m' c='_ZN2sf7Texture6updateEPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='406' u='m' c='_ZN2sf7Texture6updateEPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='505' u='m' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='505' u='m' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='505' u='m' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='505' u='m' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='750' u='m' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='811' u='a' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='811' u='a' c='_ZN2sf7Texture4swapERS0_'/>

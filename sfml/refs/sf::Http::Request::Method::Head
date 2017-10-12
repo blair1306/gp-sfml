@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='66' type='2'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='112' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='66'>///&lt; Request a page&apos;s header only</doc>

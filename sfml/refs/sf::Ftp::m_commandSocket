@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='532' type='sf::TcpSocket'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='154' u='m' c='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='186' u='m' c='_ZN2sf3Ftp10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='375' u='m' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='401' u='m' c='_ZN2sf3Ftp11getResponseEv'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='529'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='532'>///&lt; Socket holding the control connection with the server</doc>

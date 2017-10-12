@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='604' type='static Out sf::Utf&lt;32&gt;::toWide(In begin, In end, Out output, wchar_t replacement = 0)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='583' ll='589' type='static Out sf::Utf&lt;32&gt;::toWide(In begin, In end, Out output, wchar_t replacement = 0)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='171' u='c' c='_ZNK2sf6String12toWideStringB5cxx11Ev'/>

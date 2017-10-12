@@ -1,0 +1,10 @@
+_ZN2sf6CursorC1Ev|sf::Cursor::Cursor
+_ZNK2sf6Cursor7getImplEv|sf::Cursor::getImpl
+_ZN2sf6Cursor14loadFromPixelsEPKhNS_7Vector2IjEES4_|sf::Cursor::loadFromPixels
+_ZN2sf6Cursor14loadFromSystemENS0_4TypeE|sf::Cursor::loadFromSystem
+_ZN2sf6CursorD1Ev|sf::Cursor::~Cursor
+_ZN2sf4priv10CursorImplC1Ev|sf::priv::CursorImpl::CursorImpl
+_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_|sf::priv::CursorImpl::loadFromPixels
+_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE|sf::priv::CursorImpl::loadFromSystem
+_ZN2sf4priv10CursorImpl7releaseEv|sf::priv::CursorImpl::release
+_ZN2sf4priv10CursorImplD1Ev|sf::priv::CursorImpl::~CursorImpl

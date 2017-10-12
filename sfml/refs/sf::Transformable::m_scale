@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='322' type='Vector2f'/>
+<offset>224</offset>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='322'>///&lt; Scale of the object</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='39' u='w' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='86' u='m' c='_ZN2sf13Transformable8setScaleEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='87' u='m' c='_ZN2sf13Transformable8setScaleEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='134' u='a' c='_ZNK2sf13Transformable8getScaleEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='169' u='m' c='_ZN2sf13Transformable5scaleEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='169' u='m' c='_ZN2sf13Transformable5scaleEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='176' u='m' c='_ZN2sf13Transformable5scaleERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='176' u='m' c='_ZN2sf13Transformable5scaleERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='189' u='m' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='190' u='m' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='191' u='m' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='192' u='m' c='_ZNK2sf13Transformable12getTransformEv'/>

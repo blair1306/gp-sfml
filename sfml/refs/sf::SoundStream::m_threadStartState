@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='311' type='sf::SoundSource::Status'/>
+<offset>320</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='311'>///&lt; State the thread starts in (Playing, Paused, Stopped)</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='46' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='114' u='r' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='122' u='w' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='134' u='w' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='149' u='w' c='_ZN2sf11SoundStream5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='198' u='r' c='_ZNK2sf11SoundStream9getStatusEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='224' u='w' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='277' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='299' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>

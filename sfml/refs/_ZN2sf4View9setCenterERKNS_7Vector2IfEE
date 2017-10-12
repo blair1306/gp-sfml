@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='91' type='void sf::View::setCenter(const Vector2f &amp; center)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='83'>////////////////////////////////////////////////////////////
+    /// \brief Set the center of the view
+    ///
+    /// \param center New center
+    ///
+    /// \see setSize, getCenter
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='84' ll='87' type='void sf::View::setCenter(const Vector2f &amp; center)'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='179' u='c' c='_ZN2sf4View4moveERKNS_7Vector2IfEE'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='83'>////////////////////////////////////////////////////////////</doc>

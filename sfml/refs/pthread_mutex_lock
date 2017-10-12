@@ -1,0 +1,9 @@
+<dec f='include/pthread.h' l='762' type='int pthread_mutex_lock(pthread_mutex_t * __mutex)'/>
+<use f='include/x86_64-linux-gnu/c++/5/bits/gthr-default.h' l='115' c='__gthrw_pthread_mutex_lock'/>
+<doc f='include/pthread.h' l='761'>/* Lock a mutex.  */</doc>
+<use f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='57' u='c' c='_ZN2sf4priv9MutexImpl4lockEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='107' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='115' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='189' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='249' u='c' c='_ZN2sf4priv13ClipboardImpl9setStringERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='254' u='c' c='_ZN2sf4priv13ClipboardImpl9setStringERKNS_6StringE'/>

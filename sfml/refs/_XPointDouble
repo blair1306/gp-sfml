@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='125' ll='127'/>
+<size>16</size>
+<mbr r='_XPointDouble::x' o='0' t='XDouble'/>
+<mbr r='_XPointDouble::y' o='64' t='XDouble'/>

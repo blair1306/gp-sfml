@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='386' type='const sf::Font *'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='78' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='96' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='125' u='r' c='_ZN2sf4Text7setFontERKNS_4FontE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='127' u='w' c='_ZN2sf4Text7setFontERKNS_4FontE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='219' u='r' c='_ZNK2sf4Text7getFontEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='269' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='278' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='279' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='289' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='301' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='330' u='r' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='335' u='r' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='362' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='370' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='371' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='376' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='380' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='381' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='396' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='443' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='461' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>1728</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='386'>///&lt; Font used to display the string</doc>

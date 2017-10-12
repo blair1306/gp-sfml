@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1425' type='void glNewList(GLuint , GLenum )'/>
+<dec f='include/GL/gl.h' l='913' type='void glNewList(GLuint list, GLenum mode)'/>

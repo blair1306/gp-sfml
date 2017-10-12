@@ -1,0 +1,19 @@
+<dec f='include/X11/Xlib.h' l='621' type='int'/>
+<dec f='include/X11/Xlib.h' l='640' type='int'/>
+<offset>320</offset>
+<doc f='include/X11/Xlib.h' l='621'>/* NotifyNormal, NotifyGrab, NotifyUngrab */</doc>
+<doc f='include/X11/Xlib.h' l='640'>/* NotifyNormal, NotifyWhileGrabbed,
+				   NotifyGrab, NotifyUngrab */</doc>
+<dec f='include/X11/extensions/Xrandr.h' l='89' type='RRMode'/>
+<dec f='include/X11/extensions/Xrandr.h' l='103' type='RRMode'/>
+<offset>448</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='89'>/* current mode (or None) */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='103'>/* current mode (or None) */</doc>
+<dec f='include/X11/Xproto.h' l='1361' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='1400' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1535' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1981' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='1996' type='BYTE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1905' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1917' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<offset>8</offset>

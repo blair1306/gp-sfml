@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='442' type='int XRRGetCrtcTransform(Display * dpy, RRCrtc crtc, XRRCrtcTransformAttributes ** attributes)'/>

@@ -1,0 +1,3 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1972' type='FT_Module'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='278' u='w' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<offset>320</offset>

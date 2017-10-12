@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='129' type='sf::SoundSource::Status sf::SoundStream::getStatus() const'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='159' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='123'>////////////////////////////////////////////////////////////
+    /// \brief Get the current status of the stream (stopped, paused, playing)
+    ///
+    /// \return Current status
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='188' ll='202' type='SoundStream::Status sf::SoundStream::getStatus() const'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='209' u='c' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='187'>////////////////////////////////////////////////////////////</doc>

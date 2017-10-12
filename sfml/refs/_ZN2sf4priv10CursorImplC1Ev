@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='56' type='void sf::priv::CursorImpl::CursorImpl()'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='36' u='c' c='_ZN2sf6CursorC1Ev'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='50'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Refer to sf::Cursor::Cursor().
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='42' ll='47' type='void sf::priv::CursorImpl::CursorImpl()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='41'>////////////////////////////////////////////////////////////</doc>

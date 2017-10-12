@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='118' type='OggVorbis_File'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='115'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='118'>// ogg/vorbis file handle</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='91' u='w' c='_ZN2sf4priv18SoundFileReaderOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='94' u='m' c='_ZN2sf4priv18SoundFileReaderOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='109' u='a' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='117' u='a' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='120' u='a' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='134' u='a' c='_ZN2sf4priv18SoundFileReaderOgg4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='148' u='a' c='_ZN2sf4priv18SoundFileReaderOgg4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='169' u='m' c='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='171' u='a' c='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='172' u='m' c='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>

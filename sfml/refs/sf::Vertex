@@ -1,0 +1,14 @@
+<def f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='42' ll='100'/>
+<size>20</size>
+<doc f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Define a point with color and texture coordinates
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6VertexC1Ev'/>
+<fun r='_ZN2sf6VertexC1ERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorE'/>
+<fun r='_ZN2sf6VertexC1ERKNS_7Vector2IfEES4_'/>
+<fun r='_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorES4_'/>
+<mbr r='sf::Vertex::position' o='0' t='Vector2f'/>
+<mbr r='sf::Vertex::color' o='64' t='sf::Color'/>
+<mbr r='sf::Vertex::texCoords' o='96' t='Vector2f'/>

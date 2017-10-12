@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='336' ll='356' type='void stbiw__write_pixels(stbi__write_context * s, int rgb_dir, int vdir, int x, int y, int comp, void * data, int write_alpha, int scanline_pad, int expand_mono)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='367' u='c' c='_ZL14stbiw__outfileP19stbi__write_contextiiiiiiPviiPKcz'/>

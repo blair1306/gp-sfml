@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='177' type='Uint64 sf::SoundBuffer::getSampleCount() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='166'>////////////////////////////////////////////////////////////
+    /// \brief Get the number of samples stored in the buffer
+    ///
+    /// The array of samples can be accessed with the getSamples()
+    /// function.
+    ///
+    /// \return Number of samples
+    ///
+    /// \see getSamples
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='170' ll='173' type='Uint64 sf::SoundBuffer::getSampleCount() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='169'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/VideoMode.hpp' l='61' type='void sf::VideoMode::VideoMode(unsigned int modeWidth, unsigned int modeHeight, unsigned int modeBitsPerPixel = 32)'/>
+<doc f='codebrowser/include/SFML/Window/VideoMode.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Construct the video mode with its attributes
+    ///
+    /// \param modeWidth        Width in pixels
+    /// \param modeHeight       Height in pixels
+    /// \param modeBitsPerPixel Pixel depths in bits per pixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='76' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='152' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<def f='codebrowser/src/SFML/Window/VideoMode.cpp' l='47' ll='53' type='void sf::VideoMode::VideoMode(unsigned int modeWidth, unsigned int modeHeight, unsigned int modeBitsPerPixel = 32)'/>
+<doc f='codebrowser/src/SFML/Window/VideoMode.cpp' l='46'>////////////////////////////////////////////////////////////</doc>

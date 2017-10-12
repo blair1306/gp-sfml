@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='110' type='unsigned int sf::SoundStream::getChannelCount() const'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='125' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='132' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='133' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='134' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='135' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='255' u='c' c='_ZNK2sf5Music13timeToSamplesENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='265' u='c' c='_ZNK2sf5Music13samplesToTimeEy'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='266' u='c' c='_ZNK2sf5Music13samplesToTimeEy'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='102'>////////////////////////////////////////////////////////////
+    /// \brief Return the number of channels of the stream
+    ///
+    /// 1 channel means a mono sound, 2 means stereo, etc.
+    ///
+    /// \return Number of channels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='174' ll='177' type='unsigned int sf::SoundStream::getChannelCount() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='173'>////////////////////////////////////////////////////////////</doc>

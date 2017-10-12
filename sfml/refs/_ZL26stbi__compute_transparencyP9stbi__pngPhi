@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4535' ll='4558' type='int stbi__compute_transparency(stbi__png * z, stbi_uc * tc, int out_n)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4810' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

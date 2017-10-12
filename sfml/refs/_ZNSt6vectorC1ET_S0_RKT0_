@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_vector.h' l='407' ll='414' type='void std::vector::vector&lt;_Tp, _Alloc&gt;(_InputIterator __first, _InputIterator __last, const allocator_type &amp; __a = allocator_type())'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='294' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='108' u='c' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='112' u='c' c='_ZN12_GLOBAL__N_118findExecutableNameB5cxx11Ev'/>

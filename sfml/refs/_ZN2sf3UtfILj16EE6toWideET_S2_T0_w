@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='396' type='static Out sf::Utf&lt;16&gt;::toWide(In begin, In end, Out output, wchar_t replacement = 0)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='437' ll='447' type='static Out sf::Utf&lt;16&gt;::toWide(In begin, In end, Out output, wchar_t replacement = 0)'/>

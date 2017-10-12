@@ -1,0 +1,5 @@
+<dec f='include/libudev.h' l='80' type='struct udev_device * udev_device_new_from_syspath(struct udev * udev, const char * syspath)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='214' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='321' u='c' c='_ZN12_GLOBAL__N_119getJoystickVendorIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='362' u='c' c='_ZN12_GLOBAL__N_120getJoystickProductIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='419' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>

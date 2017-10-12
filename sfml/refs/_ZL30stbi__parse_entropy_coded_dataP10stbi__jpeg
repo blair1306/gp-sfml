@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2637' ll='2759' type='int stbi__parse_entropy_coded_data(stbi__jpeg * z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3081' u='c' c='_ZL23stbi__decode_jpeg_imageP10stbi__jpeg'/>

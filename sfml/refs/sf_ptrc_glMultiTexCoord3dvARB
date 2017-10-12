@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='987' type='void (*)(GLenum, const GLdouble *)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='85' type='void (*)(GLenum, const GLdouble *)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='181' u='w' c='_ZL21Load_ARB_multitexturev'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='182' u='r' c='_ZL21Load_ARB_multitexturev'/>

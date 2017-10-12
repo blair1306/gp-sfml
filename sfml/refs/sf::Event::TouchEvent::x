@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='167' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='167'>///&lt; X position of the touch, relative to the left of the owner window</doc>

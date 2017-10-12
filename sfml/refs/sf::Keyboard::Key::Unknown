@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='50' type='-1'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='50'>///&lt; Unhandled key</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='472' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1703' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1711' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1780' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1788' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

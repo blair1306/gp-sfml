@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='80' type='static bool sf::Mouse::isButtonPressed(sf::Mouse::Button button)'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Check if a mouse button is pressed
+    ///
+    /// \param button Button to check
+    ///
+    /// \return True if the button is pressed, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Mouse.cpp' l='36' ll='39' type='static bool sf::Mouse::isButtonPressed(sf::Mouse::Button button)'/>
+<doc f='codebrowser/src/SFML/Window/Mouse.cpp' l='35'>////////////////////////////////////////////////////////////</doc>

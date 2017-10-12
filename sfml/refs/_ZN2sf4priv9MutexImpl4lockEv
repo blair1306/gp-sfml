@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='62' type='void sf::priv::MutexImpl::lock()'/>
+<use f='codebrowser/src/SFML/System/Mutex.cpp' l='56' u='c' c='_ZN2sf5Mutex4lockEv'/>
+<doc f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='58'>////////////////////////////////////////////////////////////
+    /// \brief Lock the mutex
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='55' ll='58' type='void sf::priv::MutexImpl::lock()'/>
+<doc f='codebrowser/src/SFML/System/Unix/MutexImpl.cpp' l='54'>////////////////////////////////////////////////////////////</doc>

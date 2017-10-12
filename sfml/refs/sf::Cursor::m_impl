@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='179' type='priv::CursorImpl *'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='176'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='179'>///&lt; Platform-specific implementation of the cursor</doc>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='36' u='w' c='_ZN2sf6CursorC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='45' u='r' c='_ZN2sf6CursorD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='55' u='r' c='_ZN2sf6Cursor14loadFromPixelsEPKhNS_7Vector2IjEES4_'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='62' u='r' c='_ZN2sf6Cursor14loadFromSystemENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='69' u='r' c='_ZNK2sf6Cursor7getImplEv'/>

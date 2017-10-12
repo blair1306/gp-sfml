@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/stl_queue.h' l='157' ll='159' type='size_type std::queue::size() const'/>
+<doc f='include/c++/5/bits/stl_queue.h' l='156'>/**  Returns the number of elements in the %queue.  */</doc>

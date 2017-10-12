@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='174' type='bool sf::Window::isOpen() const'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='164'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether or not the window is open
+    ///
+    /// This function returns whether or not the window exists.
+    /// Note that a hidden window (setVisible(false)) is open
+    /// (therefore this function would return true).
+    ///
+    /// \return True if the window is open, false if it has been closed
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='169' ll='172' type='bool sf::Window::isOpen() const'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='168'>////////////////////////////////////////////////////////////</doc>

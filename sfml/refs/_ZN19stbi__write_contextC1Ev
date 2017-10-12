@@ -1,0 +1,8 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='383' u='c' c='stbi_write_bmp_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='391' u='c' c='stbi_write_bmp'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='471' u='c' c='stbi_write_tga_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='479' u='c' c='stbi_write_tga'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='641' u='c' c='stbi_write_hdr_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='649' u='c' c='stbi_write_hdr'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1358' u='c' c='stbi_write_jpg_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1367' u='c' c='stbi_write_jpg'/>

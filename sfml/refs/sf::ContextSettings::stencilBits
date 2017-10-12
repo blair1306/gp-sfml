@@ -1,0 +1,10 @@
+<use f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='64' u='w' c='_ZN2sf15ContextSettingsC1Ejjjjjjb'/>
+<dec f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='77' type='unsigned int'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='77'>///&lt; Bits of the stencil buffer</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='539' u='r' c='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='713' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='713' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='721' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='730' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='420' u='w' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>

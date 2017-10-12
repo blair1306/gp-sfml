@@ -1,0 +1,11 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='115' ll='121' type='void sf::priv::Vector4::Vector4&lt;T&gt;(T X, T Y, T Z, T W)'/>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='106'>////////////////////////////////////////////////////////////
+    /// \brief Construct from 4 vector components
+    ///
+    /// \param X Component of the 4D vector
+    /// \param Y Component of the 4D vector
+    /// \param Z Component of the 4D vector
+    /// \param W Component of the 4D vector
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='687' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEffff'/>

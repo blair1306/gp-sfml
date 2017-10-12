@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='119' type='sf::BlendMode::Factor'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='50' u='w' c='_ZN2sf9BlendModeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='63' u='w' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='78' u='w' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='92' u='r' c='_ZN2sfeqERKNS_9BlendModeES2_'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='92' u='r' c='_ZN2sfeqERKNS_9BlendModeES2_'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='119'>///&lt; Destination blending factor for the alpha channel</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='454' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>

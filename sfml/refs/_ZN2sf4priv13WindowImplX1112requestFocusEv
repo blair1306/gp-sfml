@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='179' type='void sf::priv::WindowImplX11::requestFocus()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='174'>////////////////////////////////////////////////////////////
+    /// \brief Request the current window to be made the active
+    ///        foreground window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='220' c='_ZN2sf4priv10WindowImpl12requestFocusEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1116' ll='1165' type='void sf::priv::WindowImplX11::requestFocus()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1115'>////////////////////////////////////////////////////////////</doc>

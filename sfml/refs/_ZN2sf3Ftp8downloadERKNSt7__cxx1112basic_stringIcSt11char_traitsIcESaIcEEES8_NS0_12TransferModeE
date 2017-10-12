@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='468' type='sf::Ftp::Response sf::Ftp::download(const std::string &amp; remoteFile, const std::string &amp; localPath, sf::Ftp::TransferMode mode = Binary)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='278' ll='321' type='Ftp::Response sf::Ftp::download(const std::string &amp; remoteFile, const std::string &amp; localPath, sf::Ftp::TransferMode mode = Binary)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='277'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='448'>////////////////////////////////////////////////////////////
+    /// \brief Download a file from the server
+    ///
+    /// The filename of the distant file is relative to the
+    /// current working directory of the server, and the local
+    /// destination path is relative to the current directory
+    /// of your application.
+    /// If a file with the same filename as the distant file
+    /// already exists in the local destination path, it will
+    /// be overwritten.
+    ///
+    /// \param remoteFile Filename of the distant file to download
+    /// \param localPath  The directory in which to put the file on the local computer
+    /// \param mode       Transfer mode
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see upload
+    ///
+    ////////////////////////////////////////////////////////////</doc>

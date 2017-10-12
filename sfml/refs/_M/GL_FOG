@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='562'/>
+<doc f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='561'>// Copied GL_FLOAT From: ARB_vertex_shader</doc>
+<dec f='include/GL/gl.h' l='385'/>
+<doc f='include/GL/gl.h' l='384'>/* Fog */</doc>

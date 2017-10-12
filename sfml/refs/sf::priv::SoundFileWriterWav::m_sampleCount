@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='116' type='Uint64'/>
+<offset>4160</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='116'>///&lt; Total number of samples written to the file</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='90' u='w' c='_ZN2sf4priv18SoundFileWriterWavC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='133' u='w' c='_ZN2sf4priv18SoundFileWriterWav5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='194' u='r' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>

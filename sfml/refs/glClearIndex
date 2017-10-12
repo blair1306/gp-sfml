@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1280' type='void glClearIndex(GLfloat )'/>
+<dec f='include/GL/gl.h' l='748' type='void glClearIndex(GLfloat c)'/>

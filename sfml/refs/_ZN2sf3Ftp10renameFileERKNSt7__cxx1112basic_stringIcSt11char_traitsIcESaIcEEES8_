@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='429' type='sf::Ftp::Response sf::Ftp::renameFile(const std::string &amp; file, const std::string &amp; newName)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='260' ll='267' type='Ftp::Response sf::Ftp::renameFile(const std::string &amp; file, const std::string &amp; newName)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='259'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='415'>////////////////////////////////////////////////////////////
+    /// \brief Rename an existing file
+    ///
+    /// The filenames must be relative to the current working
+    /// directory.
+    ///
+    /// \param file    File to rename
+    /// \param newName New name of the file
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see deleteFile
+    ///
+    ////////////////////////////////////////////////////////////</doc>

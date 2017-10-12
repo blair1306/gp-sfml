@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='99' type='void sf::priv::WindowImpl::setJoystickThreshold(float threshold)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='92'>////////////////////////////////////////////////////////////
+    /// \brief Change the joystick threshold, i.e. the value below which
+    ///        no move event will be generated
+    ///
+    /// \param threshold New threshold, in range [0, 100]
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='329' u='c' c='_ZN2sf6Window20setJoystickThresholdEf'/>
+<def f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='105' ll='108' type='void sf::priv::WindowImpl::setJoystickThreshold(float threshold)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='104'>////////////////////////////////////////////////////////////</doc>

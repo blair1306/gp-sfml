@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='389' type='sf::Color'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='81' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='99' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='165' u='r' c='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='167' u='w' c='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='174' u='r' c='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='247' u='a' c='_ZNK2sf4Text12getFillColorEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='402' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='411' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='464' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='487' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='496' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>1856</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='389'>///&lt; Text fill color</doc>

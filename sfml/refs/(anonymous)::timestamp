@@ -1,0 +1,11 @@
+<dec f='include/X11/extensions/Xrandr.h' l='60' type='Time'/>
+<dec f='include/X11/extensions/Xrandr.h' l='118' type='Time'/>
+<dec f='include/X11/extensions/Xrandr.h' l='130' type='Time'/>
+<dec f='include/X11/extensions/Xrandr.h' l='143' type='Time'/>
+<dec f='include/X11/extensions/Xrandr.h' l='154' type='Time'/>
+<offset>384</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='60'>/* when the screen change occurred */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='118'>/* time of change */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='130'>/* time of change */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='143'>/* time of change */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='154'>/* time of change */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='305' type='const sf::Color &amp; sf::Text::getOutlineColor() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='252' ll='255' type='const sf::Color &amp; sf::Text::getOutlineColor() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='251'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='297'>////////////////////////////////////////////////////////////
+    /// \brief Get the outline color of the text
+    ///
+    /// \return Outline color of the text
+    ///
+    /// \see setOutlineColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

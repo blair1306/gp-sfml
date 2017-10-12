@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='204' type='static sf::String sf::String::fromUtf32(T begin, T end)'/>
+<def f='codebrowser/include/SFML/System/String.inl' l='48' ll='53' type='static sf::String sf::String::fromUtf32(T begin, T end)'/>

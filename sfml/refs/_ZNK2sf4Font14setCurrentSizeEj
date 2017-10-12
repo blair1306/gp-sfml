@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='339' type='bool sf::Font::setCurrentSize(unsigned int characterSize) const'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='364' u='c' c='_ZNK2sf4Font10getKerningEjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='394' u='c' c='_ZNK2sf4Font14getLineSpacingEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='410' u='c' c='_ZNK2sf4Font20getUnderlinePositionEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='430' u='c' c='_ZNK2sf4Font21getUnderlineThicknessEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='530' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='745' ll='777' type='bool sf::Font::setCurrentSize(unsigned int characterSize) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='744'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='331'>////////////////////////////////////////////////////////////
+    /// \brief Make sure that the given size is the current one
+    ///
+    /// \param characterSize Reference character size
+    ///
+    /// \return True on success, false if any error happened
+    ///
+    ////////////////////////////////////////////////////////////</doc>

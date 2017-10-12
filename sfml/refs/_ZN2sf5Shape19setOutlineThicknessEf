@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='132' type='void sf::Shape::setOutlineThickness(float thickness)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='119'>////////////////////////////////////////////////////////////
+    /// \brief Set the thickness of the shape&apos;s outline
+    ///
+    /// Note that negative values are allowed (so that the outline
+    /// expands towards the center of the shape), and using zero
+    /// disables the outline.
+    /// By default, the outline thickness is 0.
+    ///
+    /// \param thickness New outline thickness
+    ///
+    /// \see getOutlineThickness
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='131' ll='135' type='void sf::Shape::setOutlineThickness(float thickness)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='130'>////////////////////////////////////////////////////////////</doc>

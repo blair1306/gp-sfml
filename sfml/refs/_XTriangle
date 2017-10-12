@@ -1,0 +1,5 @@
+<def f='include/X11/extensions/Xrender.h' l='142' ll='144'/>
+<size>24</size>
+<mbr r='_XTriangle::p1' o='0' t='XPointFixed'/>
+<mbr r='_XTriangle::p2' o='64' t='XPointFixed'/>
+<mbr r='_XTriangle::p3' o='128' t='XPointFixed'/>

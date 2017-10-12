@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='61' type='void sf::priv::ThreadImpl::wait()'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='61' u='c' c='_ZN2sf6Thread4waitEv'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='57'>////////////////////////////////////////////////////////////
+    /// \brief Wait until the thread finishes
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='50' ll='57' type='void sf::priv::ThreadImpl::wait()'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='49'>////////////////////////////////////////////////////////////</doc>

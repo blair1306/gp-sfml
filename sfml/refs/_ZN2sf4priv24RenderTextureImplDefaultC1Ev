@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='53' type='void sf::priv::RenderTextureImplDefault::RenderTextureImplDefault()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='77' u='c' c='_ZN2sf13RenderTexture6createEjjb'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='40' ll='46' type='void sf::priv::RenderTextureImplDefault::RenderTextureImplDefault()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='39'>////////////////////////////////////////////////////////////</doc>

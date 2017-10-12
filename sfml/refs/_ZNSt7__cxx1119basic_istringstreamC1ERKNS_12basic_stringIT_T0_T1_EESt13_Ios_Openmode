@@ -1,0 +1,16 @@
+<def f='include/c++/5/sstream' l='420' ll='424' type='void std::__cxx11::basic_istringstream::basic_istringstream&lt;_CharT, _Traits, _Alloc&gt;(const __string_type &amp; __str, ios_base::openmode __mode = ios_base::in)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='412' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<doc f='include/c++/5/sstream' l='407'>/**
+       *  @brief  Starts with an existing string buffer.
+       *  @param  __str  A string to copy as a starting buffer.
+       *  @param  __mode  Whether the buffer can read, or write, or both.
+       *
+       *  @c ios_base::in is automatically included in @a mode.
+       *
+       *  Initializes @c sb using @a str and @c mode|in, and passes @c &amp;sb
+       *  to the base class initializer.
+       *
+       *  That&apos;s a lie.  We initialize the base class with NULL, because the
+       *  string class does its own memory management.
+      */</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='201' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

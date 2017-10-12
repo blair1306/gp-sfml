@@ -1,0 +1,4 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6042' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6097' u='w' c='_ZL16stbi__gif_headerP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6242' u='r' c='_ZL25stbi__fill_gif_backgroundP9stbi__gifiiii'/>
+<offset>224</offset>

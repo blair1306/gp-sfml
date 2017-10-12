@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='416' type='Uint64'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='255' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='508' u='w' c='_ZN2sf12RenderTarget12applyTextureEPKNS_7TextureE'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='416'>///&lt; Cached texture</doc>

@@ -1,0 +1,4 @@
+<dec f='include/linux/joystick.h' l='76'/>
+<doc f='include/linux/joystick.h' l='72'>/*
+ * Types and constants for get/set correction
+ */</doc>

@@ -1,0 +1,39 @@
+<inh f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='42' c='sf::SoundSource'/>
+<def f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='45' ll='320'/>
+<ovr f='codebrowser/include/SFML/Audio/Music.hpp' l='48' c='sf::Music'/>
+<size>112</size>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for streamed audio sources
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11SoundStreamD1Ev'/>
+<fun r='_ZN2sf11SoundStream4playEv'/>
+<fun r='_ZN2sf11SoundStream5pauseEv'/>
+<fun r='_ZN2sf11SoundStream4stopEv'/>
+<fun r='_ZNK2sf11SoundStream15getChannelCountEv'/>
+<fun r='_ZNK2sf11SoundStream13getSampleRateEv'/>
+<fun r='_ZNK2sf11SoundStream9getStatusEv'/>
+<fun r='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<fun r='_ZNK2sf11SoundStream16getPlayingOffsetEv'/>
+<fun r='_ZN2sf11SoundStream7setLoopEb'/>
+<fun r='_ZNK2sf11SoundStream7getLoopEv'/>
+<fun r='_ZN2sf11SoundStreamC1Ev'/>
+<fun r='_ZN2sf11SoundStream10initializeEjj'/>
+<fun r='_ZN2sf11SoundStream9onGetDataERNS0_5ChunkE'/>
+<fun r='_ZN2sf11SoundStream6onSeekENS_4TimeE'/>
+<fun r='_ZN2sf11SoundStream6onLoopEv'/>
+<fun r='_ZN2sf11SoundStream10streamDataEv'/>
+<fun r='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<fun r='_ZN2sf11SoundStream9fillQueueEv'/>
+<fun r='_ZN2sf11SoundStream10clearQueueEv'/>
+<mbr r='sf::SoundStream::m_thread' o='128' t='sf::Thread'/>
+<mbr r='sf::SoundStream::m_threadMutex' o='256' t='sf::Mutex'/>
+<mbr r='sf::SoundStream::m_threadStartState' o='320' t='sf::SoundSource::Status'/>
+<mbr r='sf::SoundStream::m_isStreaming' o='352' t='bool'/>
+<mbr r='sf::SoundStream::m_buffers' o='384' t='unsigned int [3]'/>
+<mbr r='sf::SoundStream::m_channelCount' o='480' t='unsigned int'/>
+<mbr r='sf::SoundStream::m_sampleRate' o='512' t='unsigned int'/>
+<mbr r='sf::SoundStream::m_format' o='544' t='Uint32'/>
+<mbr r='sf::SoundStream::m_loop' o='576' t='bool'/>
+<mbr r='sf::SoundStream::m_samplesProcessed' o='640' t='Uint64'/>
+<mbr r='sf::SoundStream::m_bufferSeeks' o='704' t='Int64 [3]'/>

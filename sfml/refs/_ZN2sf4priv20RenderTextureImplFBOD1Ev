@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='59' type='void sf::priv::RenderTextureImplFBO::~RenderTextureImplFBO()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='55'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='50' c='_ZN2sf4priv17RenderTextureImplD1Ev'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='49' ll='69' type='void sf::priv::RenderTextureImplFBO::~RenderTextureImplFBO()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='48'>////////////////////////////////////////////////////////////</doc>

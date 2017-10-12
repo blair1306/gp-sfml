@@ -1,0 +1,4 @@
+<dec f='include/AL/al.h' l='552' type='void alGenBuffers(ALsizei n, ALuint * buffers)'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='46' u='c' c='_ZN2sf11SoundBufferC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='58' u='c' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='285' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>

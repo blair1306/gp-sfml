@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='176' type='void sf::priv::GlxContext::createContext(sf::priv::GlxContext * shared)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='170'>////////////////////////////////////////////////////////////
+    /// \brief Create the context
+    ///
+    /// \param shared Context to share the new one with (can be NULL)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='118' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='143' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='168' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='557' ll='773' type='void sf::priv::GlxContext::createContext(sf::priv::GlxContext * shared)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='556'>////////////////////////////////////////////////////////////</doc>

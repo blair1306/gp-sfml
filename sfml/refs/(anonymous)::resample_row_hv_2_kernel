@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1703' type='stbi_uc *(*)(stbi_uc *, stbi_uc *, stbi_uc *, int, int)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3484' u='w' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3490' u='w' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3572' u='r' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<offset>148480</offset>

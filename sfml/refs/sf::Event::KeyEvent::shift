@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='67' type='bool'/>
+<offset>48</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='67'>///&lt; Is the Shift key pressed?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1722' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1798' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

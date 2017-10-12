@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='74' type='unsigned short sf::UdpSocket::getLocalPort() const'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='48' ll='63' type='unsigned short sf::UdpSocket::getLocalPort() const'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='47'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Get the port to which the socket is bound locally
+    ///
+    /// If the socket is not bound to a port, this function
+    /// returns 0.
+    ///
+    /// \return Port to which the socket is bound
+    ///
+    /// \see bind
+    ///
+    ////////////////////////////////////////////////////////////</doc>

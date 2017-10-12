@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1408' type='void glLoadName(GLuint )'/>
+<dec f='include/GL/gl.h' l='1439' type='void glLoadName(GLuint name)'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='226' type='sf::Event::MouseMoveEvent'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='226'>///&lt; Mouse move event parameters (Event::MouseMoved)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1896' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1897' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

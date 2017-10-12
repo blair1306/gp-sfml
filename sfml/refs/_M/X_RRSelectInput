@@ -1,0 +1,2 @@
+<dec f='include/X11/extensions/randr.h' l='57'/>
+<doc f='include/X11/extensions/randr.h' l='56'>/* 3 used to be ScreenChangeSelectInput; deprecated */</doc>

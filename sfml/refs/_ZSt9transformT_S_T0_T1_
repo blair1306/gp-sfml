@@ -1,0 +1,5 @@
+<dec f='include/c++/5/bits/algorithmfwd.h' l='824' type='_OIter std::transform(_IIter , _IIter , _OIter , _UnaryOperation )'/>
+<def f='include/c++/5/bits/stl_algo.h' l='4163' ll='4177' type='_OutputIterator std::transform(_InputIterator __first, _InputIterator __last, _OutputIterator __result, _UnaryOperation __unary_op)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='43' u='c' c='_ZN2sf4priv19SoundFileWriterFlac5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='44' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='81' u='c' c='_ZN2sf4priv18SoundFileWriterWav5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

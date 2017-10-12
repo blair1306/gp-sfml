@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2218' ll='2391' type='void stbi__idct_simd(stbi_uc * out, int out_stride, short * data)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3488' u='r' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2215'>// sse2 integer IDCT. not the fastest possible implementation but it
+// produces bit-identical results to the generic C version so it&apos;s
+// fully &quot;transparent&quot;.</doc>

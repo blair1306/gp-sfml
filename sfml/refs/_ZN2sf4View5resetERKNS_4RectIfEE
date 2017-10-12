@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='153' type='void sf::View::reset(const FloatRect &amp; rectangle)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='419' u='c' c='_ZN2sf12RenderTarget10initializeEv'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='143'>////////////////////////////////////////////////////////////
+    /// \brief Reset the view to the given rectangle
+    ///
+    /// Note that this function resets the rotation angle to 0.
+    ///
+    /// \param rectangle Rectangle defining the zone to display
+    ///
+    /// \see setCenter, setSize, setRotation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='43' u='c' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='56' u='c' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='128' ll='138' type='void sf::View::reset(const FloatRect &amp; rectangle)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='127'>////////////////////////////////////////////////////////////</doc>

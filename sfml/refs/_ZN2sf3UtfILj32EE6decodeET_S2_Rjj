@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='482' type='static In sf::Utf&lt;32&gt;::decode(In begin, In end, Uint32 &amp; output, Uint32 replacement = 0)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='506' ll='510' type='static In sf::Utf&lt;32&gt;::decode(In begin, In , Uint32 &amp; output, Uint32  = 0)'/>
+<doc f='codebrowser/include/SFML/System/Utf.inl' l='506'>/*end*/</doc>
+<doc f='codebrowser/include/SFML/System/Utf.inl' l='506'>/*replacement*/</doc>

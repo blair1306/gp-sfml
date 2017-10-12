@@ -1,0 +1,7 @@
+_ZNSt8ios_base14_Callback_listC1EPFvNS_5eventERS_iEiPS0_|std::ios_base::_Callback_list::_Callback_list
+_ZNSt8ios_base14_Callback_list16_M_add_referenceEv|std::ios_base::_Callback_list::_M_add_reference
+_ZNSt8ios_base14_Callback_list19_M_remove_referenceEv|std::ios_base::_Callback_list::_M_remove_reference
+_ZSt10_ConstructPT_RKT0_|std::_Construct
+_ZN2sf7ContextD1Ev|sf::Context::~Context
+_ZN2sf6CursorD1Ev|sf::Cursor::~Cursor
+_ZN2sf4priv10CursorImplD1Ev|sf::priv::CursorImpl::~CursorImpl

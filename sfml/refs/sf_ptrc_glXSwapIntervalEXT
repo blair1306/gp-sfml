@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='202' type='void (*)(Display *, GLXDrawable, int)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='283' macro='1' u='r'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='50' type='void (*)(Display *, GLXDrawable, int)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='55' u='w' c='_ZL21Load_EXT_swap_controlv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='56' u='r' c='_ZL21Load_EXT_swap_controlv'/>

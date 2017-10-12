@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='248' type='void sf::priv::WindowImpl::pushEvent(const sf::Event &amp; event)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='238'>////////////////////////////////////////////////////////////
+    /// \brief Push a new event into the event queue
+    ///
+    /// This function is to be used by derived classes, to
+    /// notify the SFML window that a new event was triggered
+    /// by the system.
+    ///
+    /// \param event Event to push
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1621' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1649' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1663' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1687' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1724' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1753' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1767' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1800' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1829' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1859' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1869' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1876' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1886' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1898' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1909' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1921' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<def f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='152' ll='155' type='void sf::priv::WindowImpl::pushEvent(const sf::Event &amp; event)'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='178' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='198' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='215' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='249' u='c' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='151'>////////////////////////////////////////////////////////////</doc>

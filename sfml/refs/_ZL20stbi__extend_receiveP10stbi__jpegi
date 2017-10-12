@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1850' ll='1863' macro='1' type='int stbi__extend_receive(stbi__jpeg * j, int n)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1917' u='c' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1950' u='c' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1969' u='c' c='_ZL31stbi__jpeg_decode_block_prog_dcP10stbi__jpegPsP13stbi__huffmani'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2028' u='c' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>

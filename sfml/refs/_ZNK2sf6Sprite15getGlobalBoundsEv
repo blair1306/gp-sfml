@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='190' type='FloatRect sf::Sprite::getGlobalBounds() const'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='130' ll='133' type='FloatRect sf::Sprite::getGlobalBounds() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='129'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='178'>////////////////////////////////////////////////////////////
+    /// \brief Get the global bounding rectangle of the entity
+    ///
+    /// The returned rectangle is in global coordinates, which means
+    /// that it takes into account the transformations (translation,
+    /// rotation, scale, ...) that are applied to the entity.
+    /// In other words, this function returns the bounds of the
+    /// sprite in the global 2D world&apos;s coordinate system.
+    ///
+    /// \return Global bounding rectangle of the entity
+    ///
+    ////////////////////////////////////////////////////////////</doc>

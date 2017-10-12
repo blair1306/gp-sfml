@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='230' type='sf::TcpSocket::PendingPacket'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='227'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='230'>///&lt; Temporary data of the packet currently being received</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='215' u='w' c='_ZN2sf9TcpSocket10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='351' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='351' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='355' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='355' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='357' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='357' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='358' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='358' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='359' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='366' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='371' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='376' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='379' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='387' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='387' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='388' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='388' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='394' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='395' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='395' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='398' u='w' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>

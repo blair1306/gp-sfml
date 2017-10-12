@@ -1,0 +1,31 @@
+<def f='include/c++/5/bits/stl_vector.h' l='793' ll='795' type='const_reference std::vector::operator[](size_type __n) const'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='782'>/**
+       *  @brief  Subscript access to the data contained in the %vector.
+       *  @param __n The index of the element for which data should be
+       *  accessed.
+       *  @return  Read-only (constant) reference to data.
+       *
+       *  This operator allows for easy, array-style, data access.
+       *  Note that data access with this operator is unchecked and
+       *  out_of_range lookups are not defined. (For checked lookups
+       *  see at().)
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='151' u='c' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='165' u='c' c='_ZNK2sf11SoundBuffer10getSamplesEv'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='66' u='c' c='_ZNK2sf11ConvexShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='234' u='c' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='288' u='c' c='_ZNK2sf5Image8getPixelEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='298' u='c' c='_ZNK2sf5Image12getPixelsPtrEv'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='248' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='254' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='260' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='266' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='67' u='c' c='_ZNK2sf11VertexArrayixEm'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='111' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='112' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='113' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='114' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='118' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='147' u='c' c='_ZNK2sf11VertexArray4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='78' u='c' c='_ZNK2sf6Packet7getDataEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='104' u='c' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>

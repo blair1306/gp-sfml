@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='1848' type='XErrorHandler XSetErrorHandler(XErrorHandler )'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='61' u='c' c='_ZN12_GLOBAL__N_115GlxErrorHandlerC1EP9_XDisplay'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='67' u='c' c='_ZN12_GLOBAL__N_115GlxErrorHandlerD1Ev'/>

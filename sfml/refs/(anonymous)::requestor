@@ -1,0 +1,13 @@
+<dec f='include/X11/Xlib.h' l='863' type='Window'/>
+<dec f='include/X11/Xlib.h' l='875' type='Window'/>
+<offset>256</offset>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='131' u='w' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='131' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='140' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='144' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='148' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='155' u='r' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='210' u='r' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='222' u='r' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<dec f='include/X11/Xproto.h' l='1444' type='CARD32'/>
+<offset>32</offset>

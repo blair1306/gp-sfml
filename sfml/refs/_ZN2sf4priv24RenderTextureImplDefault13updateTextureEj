@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='92' type='void sf::priv::RenderTextureImplDefault::updateTexture(unsigned int textureId)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Update the pixels of the target texture
+    ///
+    /// \param textureId OpenGL identifier of the target texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='81' c='_ZN2sf4priv17RenderTextureImpl13updateTextureEj'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='79' ll='87' type='void sf::priv::RenderTextureImplDefault::updateTexture(unsigned int textureId)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='78'>////////////////////////////////////////////////////////////</doc>

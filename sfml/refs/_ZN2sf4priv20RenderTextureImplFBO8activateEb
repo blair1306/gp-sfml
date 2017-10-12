@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='92' type='bool sf::priv::RenderTextureImplFBO::activate(bool active)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='84'>////////////////////////////////////////////////////////////
+    /// \brief Activate or deactivate the render texture for rendering
+    ///
+    /// \param active True to activate, false to deactivate
+    ///
+    /// \return True on success, false on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='73' c='_ZN2sf4priv17RenderTextureImpl8activateEb'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='135' ll='138' type='bool sf::priv::RenderTextureImplFBO::activate(bool active)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='134'>////////////////////////////////////////////////////////////</doc>

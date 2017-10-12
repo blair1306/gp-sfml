@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='517' type='ConstIterator sf::String::end() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='505'>////////////////////////////////////////////////////////////
+    /// \brief Return an iterator to the end of the string
+    ///
+    /// The end iterator refers to 1 position past the last character;
+    /// thus it represents an invalid character and should never be
+    /// accessed.
+    ///
+    /// \return Read-only iterator to the end of the string characters
+    ///
+    /// \see begin
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='565' u='c' c='_ZN2sf6PacketlsERKNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='343' ll='346' type='String::ConstIterator sf::String::end() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='342'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='896' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

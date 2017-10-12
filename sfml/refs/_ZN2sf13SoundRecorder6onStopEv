@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='254' type='void sf::SoundRecorder::onStop()'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='63' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='245'>////////////////////////////////////////////////////////////
+    /// \brief Stop capturing audio data
+    ///
+    /// This virtual function may be overridden by a derived class
+    /// if something has to be done every time the capture
+    /// ends. If not, this function can be ignored; the default
+    /// implementation does nothing.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='134' u='c' c='_ZN2sf13SoundRecorder4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='195' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='270' ll='273' type='void sf::SoundRecorder::onStop()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='269'>////////////////////////////////////////////////////////////</doc>

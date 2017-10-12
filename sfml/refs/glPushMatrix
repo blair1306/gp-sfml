@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1453' type='void glPushMatrix()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='337' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='339' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='341' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<dec f='include/GL/gl.h' l='879' type='void glPushMatrix()'/>

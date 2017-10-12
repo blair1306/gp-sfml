@@ -1,0 +1,33 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='180' type='Vector2f sf::RenderTarget::mapPixelToCoords(const Vector2i &amp; point, const sf::View &amp; view) const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='151' u='c' c='_ZNK2sf12RenderTarget16mapPixelToCoordsERKNS_7Vector2IiEE'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='156' ll='166' type='Vector2f sf::RenderTarget::mapPixelToCoords(const Vector2i &amp; point, const sf::View &amp; view) const'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='155'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='151'>////////////////////////////////////////////////////////////
+    /// \brief Convert a point from target coordinates to world coordinates
+    ///
+    /// This function finds the 2D position that matches the
+    /// given pixel of the render target. In other words, it does
+    /// the inverse of what the graphics card does, to find the
+    /// initial position of a rendered pixel.
+    ///
+    /// Initially, both coordinate systems (world units and target pixels)
+    /// match perfectly. But if you define a custom view or resize your
+    /// render target, this assertion is not true anymore, i.e. a point
+    /// located at (10, 50) in your render target may map to the point
+    /// (150, 75) in your 2D world -- if the view is translated by (140, 25).
+    ///
+    /// For render-windows, this function is typically used to find
+    /// which point (or object) is located below the mouse cursor.
+    ///
+    /// This version uses a custom view for calculations, see the other
+    /// overload of the function if you want to use the current view of the
+    /// render target.
+    ///
+    /// \param point Pixel to convert
+    /// \param view The view to use for converting the point
+    ///
+    /// \return The converted point, in &quot;world&quot; units
+    ///
+    /// \see mapCoordsToPixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='273' type='XIM'/>
+<offset>5888</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='273'>///&lt; Input method linked to the X display</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='485' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='533' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='747' u='r' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='748' u='r' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1438' u='w' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1440' u='r' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1442' u='r' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>

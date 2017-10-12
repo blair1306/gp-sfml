@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/NonCopyable.hpp' l='77' type='void sf::NonCopyable::NonCopyable(const sf::NonCopyable &amp; )'/>
+<doc f='codebrowser/include/SFML/System/NonCopyable.hpp' l='67'>////////////////////////////////////////////////////////////
+    /// \brief Disabled copy constructor
+    ///
+    /// By making the copy constructor private, the compiler will
+    /// trigger an error if anyone outside tries to use it.
+    /// To prevent NonCopyable or friend classes from using it,
+    /// we also give no definition, so that the linker will
+    /// produce an error if the first protection was inefficient.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

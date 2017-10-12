@@ -1,0 +1,458 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Font.hpp source code [codebrowser/include/SFML/Graphics/Font.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Font "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Graphics/Font.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='Font.hpp.html'>Font.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_FONT_HPP">SFML_FONT_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_FONT_HPP" data-ref="_M/SFML_FONT_HPP">SFML_FONT_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Graphics/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Glyph.hpp.html">&lt;SFML/Graphics/Glyph.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="Texture.hpp.html">&lt;SFML/Graphics/Texture.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="Rect.hpp.html">&lt;SFML/Graphics/Rect.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../System/Vector2.hpp.html">&lt;SFML/System/Vector2.hpp&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../System/String.hpp.html">&lt;SFML/System/String.hpp&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="../../../../include/c++/5/map.html">&lt;map&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td><u>#include <a href="../../../../include/c++/5/vector.html">&lt;vector&gt;</a></u></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="43">43</th><td>{</td></tr>
+<tr><th id="44">44</th><td><b>class</b> <a class="type" href="../System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream" id="sf::InputStream">InputStream</a>;</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><i>/// \brief Class for loading and manipulating character fonts</i></td></tr>
+<tr><th id="48">48</th><td><i>///</i></td></tr>
+<tr><th id="49">49</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="50">50</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <dfn class="type def" id="sf::Font" title='sf::Font' data-ref="sf::Font">Font</dfn></td></tr>
+<tr><th id="51">51</th><td>{</td></tr>
+<tr><th id="52">52</th><td><b>public</b>:</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="55">55</th><td><i>    /// \brief Holds various information about a font</i></td></tr>
+<tr><th id="56">56</th><td><i>    ///</i></td></tr>
+<tr><th id="57">57</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="58">58</th><td>    <b>struct</b> <dfn class="type def" id="sf::Font::Info" title='sf::Font::Info' data-ref="sf::Font::Info">Info</dfn></td></tr>
+<tr><th id="59">59</th><td>    {</td></tr>
+<tr><th id="60">60</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="decl" id="sf::Font::Info::family" title='sf::Font::Info::family' data-ref="sf::Font::Info::family">family</dfn>; <i class="doc">///&lt; The font family</i></td></tr>
+<tr><th id="61">61</th><td>    };</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><b>public</b>:</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="66">66</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="67">67</th><td><i>    ///</i></td></tr>
+<tr><th id="68">68</th><td><i>    /// This constructor defines an empty font</i></td></tr>
+<tr><th id="69">69</th><td><i>    ///</i></td></tr>
+<tr><th id="70">70</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="71">71</th><td>    <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4FontC1Ev" title='sf::Font::Font' data-ref="_ZN2sf4FontC1Ev" id="_ZN2sf4FontC1Ev">Font</a>();</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td><i>    /// \brief Copy constructor</i></td></tr>
+<tr><th id="75">75</th><td><i>    ///</i></td></tr>
+<tr><th id="76">76</th><td><i>    /// \param copy Instance to copy</i></td></tr>
+<tr><th id="77">77</th><td><i>    ///</i></td></tr>
+<tr><th id="78">78</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="79">79</th><td>    <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4FontC1ERKS0_" title='sf::Font::Font' data-ref="_ZN2sf4FontC1ERKS0_" id="_ZN2sf4FontC1ERKS0_">Font</a>(<em>const</em> <a class="type" href="#sf::Font" title='sf::Font' data-ref="sf::Font">Font</a>&amp; <dfn class="local col2 decl" id="1042copy" title='copy' data-type='const sf::Font &amp;' data-ref="1042copy">copy</dfn>);</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="82">82</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="83">83</th><td><i>    ///</i></td></tr>
+<tr><th id="84">84</th><td><i>    /// Cleans up all the internal resources used by the font</i></td></tr>
+<tr><th id="85">85</th><td><i>    ///</i></td></tr>
+<tr><th id="86">86</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="87">87</th><td>    <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4FontD1Ev" title='sf::Font::~Font' data-ref="_ZN2sf4FontD1Ev" id="_ZN2sf4FontD1Ev">~Font</a>();</td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \brief Load the font from a file</i></td></tr>
+<tr><th id="91">91</th><td><i>    ///</i></td></tr>
+<tr><th id="92">92</th><td><i>    /// The supported font formats are: TrueType, Type 1, CFF,</i></td></tr>
+<tr><th id="93">93</th><td><i>    /// OpenType, SFNT, X11 PCF, Windows FNT, BDF, PFR and Type 42.</i></td></tr>
+<tr><th id="94">94</th><td><i>    /// Note that this function knows nothing about the standard</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// fonts installed on the user's system, thus you can't</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// load them directly.</i></td></tr>
+<tr><th id="97">97</th><td><i>    ///</i></td></tr>
+<tr><th id="98">98</th><td><i>    /// \warning SFML cannot preload all the font data in this</i></td></tr>
+<tr><th id="99">99</th><td><i>    /// function, so the file has to remain accessible until</i></td></tr>
+<tr><th id="100">100</th><td><i>    /// the sf::Font object loads a new font or is destroyed.</i></td></tr>
+<tr><th id="101">101</th><td><i>    ///</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// \param filename Path of the font file to load</i></td></tr>
+<tr><th id="103">103</th><td><i>    ///</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="105">105</th><td><i>    ///</i></td></tr>
+<tr><th id="106">106</th><td><i>    /// \see loadFromMemory, loadFromStream</i></td></tr>
+<tr><th id="107">107</th><td><i>    ///</i></td></tr>
+<tr><th id="108">108</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="109">109</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Font::loadFromFile' data-ref="_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">loadFromFile</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="1043filename" title='filename' data-type='const std::string &amp;' data-ref="1043filename">filename</dfn>);</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="112">112</th><td><i>    /// \brief Load the font from a file in memory</i></td></tr>
+<tr><th id="113">113</th><td><i>    ///</i></td></tr>
+<tr><th id="114">114</th><td><i>    /// The supported font formats are: TrueType, Type 1, CFF,</i></td></tr>
+<tr><th id="115">115</th><td><i>    /// OpenType, SFNT, X11 PCF, Windows FNT, BDF, PFR and Type 42.</i></td></tr>
+<tr><th id="116">116</th><td><i>    ///</i></td></tr>
+<tr><th id="117">117</th><td><i>    /// \warning SFML cannot preload all the font data in this</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// function, so the buffer pointed by \a data has to remain</i></td></tr>
+<tr><th id="119">119</th><td><i>    /// valid until the sf::Font object loads a new font or</i></td></tr>
+<tr><th id="120">120</th><td><i>    /// is destroyed.</i></td></tr>
+<tr><th id="121">121</th><td><i>    ///</i></td></tr>
+<tr><th id="122">122</th><td><i>    /// \param data        Pointer to the file data in memory</i></td></tr>
+<tr><th id="123">123</th><td><i>    /// \param sizeInBytes Size of the data to load, in bytes</i></td></tr>
+<tr><th id="124">124</th><td><i>    ///</i></td></tr>
+<tr><th id="125">125</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="126">126</th><td><i>    ///</i></td></tr>
+<tr><th id="127">127</th><td><i>    /// \see loadFromFile, loadFromStream</i></td></tr>
+<tr><th id="128">128</th><td><i>    ///</i></td></tr>
+<tr><th id="129">129</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="130">130</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4Font14loadFromMemoryEPKvm" title='sf::Font::loadFromMemory' data-ref="_ZN2sf4Font14loadFromMemoryEPKvm" id="_ZN2sf4Font14loadFromMemoryEPKvm">loadFromMemory</a>(<em>const</em> <em>void</em>* <dfn class="local col4 decl" id="1044data" title='data' data-type='const void *' data-ref="1044data">data</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col5 decl" id="1045sizeInBytes" title='sizeInBytes' data-type='std::size_t' data-ref="1045sizeInBytes">sizeInBytes</dfn>);</td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="133">133</th><td><i>    /// \brief Load the font from a custom stream</i></td></tr>
+<tr><th id="134">134</th><td><i>    ///</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// The supported font formats are: TrueType, Type 1, CFF,</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// OpenType, SFNT, X11 PCF, Windows FNT, BDF, PFR and Type 42.</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// Warning: SFML cannot preload all the font data in this</i></td></tr>
+<tr><th id="138">138</th><td><i>    /// function, so the contents of \a stream have to remain</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// valid as long as the font is used.</i></td></tr>
+<tr><th id="140">140</th><td><i>    ///</i></td></tr>
+<tr><th id="141">141</th><td><i>    /// \warning SFML cannot preload all the font data in this</i></td></tr>
+<tr><th id="142">142</th><td><i>    /// function, so the stream has to remain accessible until</i></td></tr>
+<tr><th id="143">143</th><td><i>    /// the sf::Font object loads a new font or is destroyed.</i></td></tr>
+<tr><th id="144">144</th><td><i>    ///</i></td></tr>
+<tr><th id="145">145</th><td><i>    /// \param stream Source stream to read from</i></td></tr>
+<tr><th id="146">146</th><td><i>    ///</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// \return True if loading succeeded, false if it failed</i></td></tr>
+<tr><th id="148">148</th><td><i>    ///</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// \see loadFromFile, loadFromMemory</i></td></tr>
+<tr><th id="150">150</th><td><i>    ///</i></td></tr>
+<tr><th id="151">151</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="152">152</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4Font14loadFromStreamERNS_11InputStreamE" title='sf::Font::loadFromStream' data-ref="_ZN2sf4Font14loadFromStreamERNS_11InputStreamE" id="_ZN2sf4Font14loadFromStreamERNS_11InputStreamE">loadFromStream</a>(<a class="type" href="../System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col6 decl" id="1046stream" title='stream' data-type='sf::InputStream &amp;' data-ref="1046stream">stream</dfn>);</td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="155">155</th><td><i>    /// \brief Get the font information</i></td></tr>
+<tr><th id="156">156</th><td><i>    ///</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// \return A structure that holds the font information</i></td></tr>
+<tr><th id="158">158</th><td><i>    ///</i></td></tr>
+<tr><th id="159">159</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="160">160</th><td>    <em>const</em> <a class="type" href="#sf::Font::Info" title='sf::Font::Info' data-ref="sf::Font::Info">Info</a>&amp; <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font7getInfoEv" title='sf::Font::getInfo' data-ref="_ZNK2sf4Font7getInfoEv" id="_ZNK2sf4Font7getInfoEv">getInfo</a>() <em>const</em>;</td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="163">163</th><td><i>    /// \brief Retrieve a glyph of the font</i></td></tr>
+<tr><th id="164">164</th><td><i>    ///</i></td></tr>
+<tr><th id="165">165</th><td><i>    /// If the font is a bitmap font, not all character sizes</i></td></tr>
+<tr><th id="166">166</th><td><i>    /// might be available. If the glyph is not available at the</i></td></tr>
+<tr><th id="167">167</th><td><i>    /// requested size, an empty glyph is returned.</i></td></tr>
+<tr><th id="168">168</th><td><i>    ///</i></td></tr>
+<tr><th id="169">169</th><td><i>    /// Be aware that using a negative value for the outline</i></td></tr>
+<tr><th id="170">170</th><td><i>    /// thickness will cause distorted rendering.</i></td></tr>
+<tr><th id="171">171</th><td><i>    ///</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// \param codePoint        Unicode code point of the character to get</i></td></tr>
+<tr><th id="173">173</th><td><i>    /// \param characterSize    Reference character size</i></td></tr>
+<tr><th id="174">174</th><td><i>    /// \param bold             Retrieve the bold version or the regular one?</i></td></tr>
+<tr><th id="175">175</th><td><i>    /// \param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)</i></td></tr>
+<tr><th id="176">176</th><td><i>    ///</i></td></tr>
+<tr><th id="177">177</th><td><i>    /// \return The glyph corresponding to \a codePoint and \a characterSize</i></td></tr>
+<tr><th id="178">178</th><td><i>    ///</i></td></tr>
+<tr><th id="179">179</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="180">180</th><td>    <em>const</em> <a class="type" href="Glyph.hpp.html#sf::Glyph" title='sf::Glyph' data-ref="sf::Glyph">Glyph</a>&amp; <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font8getGlyphEjjbf" title='sf::Font::getGlyph' data-ref="_ZNK2sf4Font8getGlyphEjjbf" id="_ZNK2sf4Font8getGlyphEjjbf">getGlyph</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="local col7 decl" id="1047codePoint" title='codePoint' data-type='Uint32' data-ref="1047codePoint">codePoint</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col8 decl" id="1048characterSize" title='characterSize' data-type='unsigned int' data-ref="1048characterSize">characterSize</dfn>, <em>bool</em> <dfn class="local col9 decl" id="1049bold" title='bold' data-type='bool' data-ref="1049bold">bold</dfn>, <em>float</em> <dfn class="local col0 decl" id="1050outlineThickness" title='outlineThickness' data-type='float' data-ref="1050outlineThickness">outlineThickness</dfn> = <var>0</var>) <em>const</em>;</td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="183">183</th><td><i>    /// \brief Get the kerning offset of two glyphs</i></td></tr>
+<tr><th id="184">184</th><td><i>    ///</i></td></tr>
+<tr><th id="185">185</th><td><i>    /// The kerning is an extra offset (negative) to apply between two</i></td></tr>
+<tr><th id="186">186</th><td><i>    /// glyphs when rendering them, to make the pair look more "natural".</i></td></tr>
+<tr><th id="187">187</th><td><i>    /// For example, the pair "AV" have a special kerning to make them</i></td></tr>
+<tr><th id="188">188</th><td><i>    /// closer than other characters. Most of the glyphs pairs have a</i></td></tr>
+<tr><th id="189">189</th><td><i>    /// kerning offset of zero, though.</i></td></tr>
+<tr><th id="190">190</th><td><i>    ///</i></td></tr>
+<tr><th id="191">191</th><td><i>    /// \param first         Unicode code point of the first character</i></td></tr>
+<tr><th id="192">192</th><td><i>    /// \param second        Unicode code point of the second character</i></td></tr>
+<tr><th id="193">193</th><td><i>    /// \param characterSize Reference character size</i></td></tr>
+<tr><th id="194">194</th><td><i>    ///</i></td></tr>
+<tr><th id="195">195</th><td><i>    /// \return Kerning value for \a first and \a second, in pixels</i></td></tr>
+<tr><th id="196">196</th><td><i>    ///</i></td></tr>
+<tr><th id="197">197</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="198">198</th><td>    <em>float</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font10getKerningEjjj" title='sf::Font::getKerning' data-ref="_ZNK2sf4Font10getKerningEjjj" id="_ZNK2sf4Font10getKerningEjjj">getKerning</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="local col1 decl" id="1051first" title='first' data-type='Uint32' data-ref="1051first">first</dfn>, <a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="local col2 decl" id="1052second" title='second' data-type='Uint32' data-ref="1052second">second</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col3 decl" id="1053characterSize" title='characterSize' data-type='unsigned int' data-ref="1053characterSize">characterSize</dfn>) <em>const</em>;</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="201">201</th><td><i>    /// \brief Get the line spacing</i></td></tr>
+<tr><th id="202">202</th><td><i>    ///</i></td></tr>
+<tr><th id="203">203</th><td><i>    /// Line spacing is the vertical offset to apply between two</i></td></tr>
+<tr><th id="204">204</th><td><i>    /// consecutive lines of text.</i></td></tr>
+<tr><th id="205">205</th><td><i>    ///</i></td></tr>
+<tr><th id="206">206</th><td><i>    /// \param characterSize Reference character size</i></td></tr>
+<tr><th id="207">207</th><td><i>    ///</i></td></tr>
+<tr><th id="208">208</th><td><i>    /// \return Line spacing, in pixels</i></td></tr>
+<tr><th id="209">209</th><td><i>    ///</i></td></tr>
+<tr><th id="210">210</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="211">211</th><td>    <em>float</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font14getLineSpacingEj" title='sf::Font::getLineSpacing' data-ref="_ZNK2sf4Font14getLineSpacingEj" id="_ZNK2sf4Font14getLineSpacingEj">getLineSpacing</a>(<em>unsigned</em> <em>int</em> <dfn class="local col4 decl" id="1054characterSize" title='characterSize' data-type='unsigned int' data-ref="1054characterSize">characterSize</dfn>) <em>const</em>;</td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="214">214</th><td><i>    /// \brief Get the position of the underline</i></td></tr>
+<tr><th id="215">215</th><td><i>    ///</i></td></tr>
+<tr><th id="216">216</th><td><i>    /// Underline position is the vertical offset to apply between the</i></td></tr>
+<tr><th id="217">217</th><td><i>    /// baseline and the underline.</i></td></tr>
+<tr><th id="218">218</th><td><i>    ///</i></td></tr>
+<tr><th id="219">219</th><td><i>    /// \param characterSize Reference character size</i></td></tr>
+<tr><th id="220">220</th><td><i>    ///</i></td></tr>
+<tr><th id="221">221</th><td><i>    /// \return Underline position, in pixels</i></td></tr>
+<tr><th id="222">222</th><td><i>    ///</i></td></tr>
+<tr><th id="223">223</th><td><i>    /// \see getUnderlineThickness</i></td></tr>
+<tr><th id="224">224</th><td><i>    ///</i></td></tr>
+<tr><th id="225">225</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="226">226</th><td>    <em>float</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font20getUnderlinePositionEj" title='sf::Font::getUnderlinePosition' data-ref="_ZNK2sf4Font20getUnderlinePositionEj" id="_ZNK2sf4Font20getUnderlinePositionEj">getUnderlinePosition</a>(<em>unsigned</em> <em>int</em> <dfn class="local col5 decl" id="1055characterSize" title='characterSize' data-type='unsigned int' data-ref="1055characterSize">characterSize</dfn>) <em>const</em>;</td></tr>
+<tr><th id="227">227</th><td></td></tr>
+<tr><th id="228">228</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="229">229</th><td><i>    /// \brief Get the thickness of the underline</i></td></tr>
+<tr><th id="230">230</th><td><i>    ///</i></td></tr>
+<tr><th id="231">231</th><td><i>    /// Underline thickness is the vertical size of the underline.</i></td></tr>
+<tr><th id="232">232</th><td><i>    ///</i></td></tr>
+<tr><th id="233">233</th><td><i>    /// \param characterSize Reference character size</i></td></tr>
+<tr><th id="234">234</th><td><i>    ///</i></td></tr>
+<tr><th id="235">235</th><td><i>    /// \return Underline thickness, in pixels</i></td></tr>
+<tr><th id="236">236</th><td><i>    ///</i></td></tr>
+<tr><th id="237">237</th><td><i>    /// \see getUnderlinePosition</i></td></tr>
+<tr><th id="238">238</th><td><i>    ///</i></td></tr>
+<tr><th id="239">239</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="240">240</th><td>    <em>float</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font21getUnderlineThicknessEj" title='sf::Font::getUnderlineThickness' data-ref="_ZNK2sf4Font21getUnderlineThicknessEj" id="_ZNK2sf4Font21getUnderlineThicknessEj">getUnderlineThickness</a>(<em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="1056characterSize" title='characterSize' data-type='unsigned int' data-ref="1056characterSize">characterSize</dfn>) <em>const</em>;</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="243">243</th><td><i>    /// \brief Retrieve the texture containing the loaded glyphs of a certain size</i></td></tr>
+<tr><th id="244">244</th><td><i>    ///</i></td></tr>
+<tr><th id="245">245</th><td><i>    /// The contents of the returned texture changes as more glyphs</i></td></tr>
+<tr><th id="246">246</th><td><i>    /// are requested, thus it is not very relevant. It is mainly</i></td></tr>
+<tr><th id="247">247</th><td><i>    /// used internally by sf::Text.</i></td></tr>
+<tr><th id="248">248</th><td><i>    ///</i></td></tr>
+<tr><th id="249">249</th><td><i>    /// \param characterSize Reference character size</i></td></tr>
+<tr><th id="250">250</th><td><i>    ///</i></td></tr>
+<tr><th id="251">251</th><td><i>    /// \return Texture containing the glyphs of the requested size</i></td></tr>
+<tr><th id="252">252</th><td><i>    ///</i></td></tr>
+<tr><th id="253">253</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="254">254</th><td>    <em>const</em> <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>&amp; <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font10getTextureEj" title='sf::Font::getTexture' data-ref="_ZNK2sf4Font10getTextureEj" id="_ZNK2sf4Font10getTextureEj">getTexture</a>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="1057characterSize" title='characterSize' data-type='unsigned int' data-ref="1057characterSize">characterSize</dfn>) <em>const</em>;</td></tr>
+<tr><th id="255">255</th><td></td></tr>
+<tr><th id="256">256</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="257">257</th><td><i>    /// \brief Overload of assignment operator</i></td></tr>
+<tr><th id="258">258</th><td><i>    ///</i></td></tr>
+<tr><th id="259">259</th><td><i>    /// \param right Instance to assign</i></td></tr>
+<tr><th id="260">260</th><td><i>    ///</i></td></tr>
+<tr><th id="261">261</th><td><i>    /// \return Reference to self</i></td></tr>
+<tr><th id="262">262</th><td><i>    ///</i></td></tr>
+<tr><th id="263">263</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="264">264</th><td>    <a class="type" href="#sf::Font" title='sf::Font' data-ref="sf::Font">Font</a>&amp; <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4FontaSERKS0_" title='sf::Font::operator=' data-ref="_ZN2sf4FontaSERKS0_" id="_ZN2sf4FontaSERKS0_"><b>operator</b> =</a>(<em>const</em> <a class="type" href="#sf::Font" title='sf::Font' data-ref="sf::Font">Font</a>&amp; <dfn class="local col8 decl" id="1058right" title='right' data-type='const sf::Font &amp;' data-ref="1058right">right</dfn>);</td></tr>
+<tr><th id="265">265</th><td></td></tr>
+<tr><th id="266">266</th><td><b>private</b>:</td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="269">269</th><td><i>    /// \brief Structure defining a row of glyphs</i></td></tr>
+<tr><th id="270">270</th><td><i>    ///</i></td></tr>
+<tr><th id="271">271</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="272">272</th><td>    <b>struct</b> <dfn class="type def" id="sf::Font::Row" title='sf::Font::Row' data-ref="sf::Font::Row">Row</dfn></td></tr>
+<tr><th id="273">273</th><td>    {</td></tr>
+<tr><th id="274">274</th><td>        <dfn class="decl def" id="_ZN2sf4Font3RowC1Ejj" title='sf::Font::Row::Row' data-ref="_ZN2sf4Font3RowC1Ejj">Row</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col9 decl" id="1059rowTop" title='rowTop' data-type='unsigned int' data-ref="1059rowTop">rowTop</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col0 decl" id="1060rowHeight" title='rowHeight' data-type='unsigned int' data-ref="1060rowHeight">rowHeight</dfn>) : <a class="member" href="#sf::Font::Row::width" title='sf::Font::Row::width' data-ref="sf::Font::Row::width">width</a>(<var>0</var>), <a class="member" href="#sf::Font::Row::top" title='sf::Font::Row::top' data-ref="sf::Font::Row::top">top</a>(<a class="local col9 ref" href="#1059rowTop" title='rowTop' data-ref="1059rowTop">rowTop</a>), <a class="member" href="#sf::Font::Row::height" title='sf::Font::Row::height' data-ref="sf::Font::Row::height">height</a>(<a class="local col0 ref" href="#1060rowHeight" title='rowHeight' data-ref="1060rowHeight">rowHeight</a>) {}</td></tr>
+<tr><th id="275">275</th><td></td></tr>
+<tr><th id="276">276</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Font::Row::width" title='sf::Font::Row::width' data-ref="sf::Font::Row::width">width</dfn>;  <i class="doc">///&lt; Current width of the row</i></td></tr>
+<tr><th id="277">277</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Font::Row::top" title='sf::Font::Row::top' data-ref="sf::Font::Row::top">top</dfn>;    <i class="doc">///&lt; Y position of the row into the texture</i></td></tr>
+<tr><th id="278">278</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Font::Row::height" title='sf::Font::Row::height' data-ref="sf::Font::Row::height">height</dfn>; <i class="doc">///&lt; Height of the row</i></td></tr>
+<tr><th id="279">279</th><td>    };</td></tr>
+<tr><th id="280">280</th><td></td></tr>
+<tr><th id="281">281</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="282">282</th><td><i>    // Types</i></td></tr>
+<tr><th id="283">283</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="284">284</th><td>    <b>typedef</b> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_map.h.html#std::map" title='std::map' data-ref="std::map">map</a>&lt;<a class="typedef" href="../Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a>, <a class="type" href="Glyph.hpp.html#sf::Glyph" title='sf::Glyph' data-ref="sf::Glyph">Glyph</a>&gt; <dfn class="typedef" id="sf::Font::GlyphTable" title='sf::Font::GlyphTable' data-type='std::map&lt;Uint64, Glyph&gt;' data-ref="sf::Font::GlyphTable">GlyphTable</dfn>; <i class="doc">///&lt; Table mapping a codepoint to its glyph</i></td></tr>
+<tr><th id="285">285</th><td></td></tr>
+<tr><th id="286">286</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="287">287</th><td><i>    /// \brief Structure defining a page of glyphs</i></td></tr>
+<tr><th id="288">288</th><td><i>    ///</i></td></tr>
+<tr><th id="289">289</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="290">290</th><td>    <b>struct</b> <dfn class="type def" id="sf::Font::Page" title='sf::Font::Page' data-ref="sf::Font::Page">Page</dfn></td></tr>
+<tr><th id="291">291</th><td>    {</td></tr>
+<tr><th id="292">292</th><td>        <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4Font4PageC1Ev" title='sf::Font::Page::Page' data-ref="_ZN2sf4Font4PageC1Ev" id="_ZN2sf4Font4PageC1Ev">Page</a>();</td></tr>
+<tr><th id="293">293</th><td></td></tr>
+<tr><th id="294">294</th><td>        <a class="typedef" href="#sf::Font::GlyphTable" title='sf::Font::GlyphTable' data-type='std::map&lt;Uint64, Glyph&gt;' data-ref="sf::Font::GlyphTable">GlyphTable</a>       <dfn class="decl" id="sf::Font::Page::glyphs" title='sf::Font::Page::glyphs' data-ref="sf::Font::Page::glyphs">glyphs</dfn>;  <i class="doc">///&lt; Table mapping code points to their corresponding glyph</i></td></tr>
+<tr><th id="295">295</th><td>        <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>          <dfn class="decl" id="sf::Font::Page::texture" title='sf::Font::Page::texture' data-ref="sf::Font::Page::texture">texture</dfn>; <i class="doc">///&lt; Texture containing the pixels of the glyphs</i></td></tr>
+<tr><th id="296">296</th><td>        <em>unsigned</em> <em>int</em>     <dfn class="decl" id="sf::Font::Page::nextRow" title='sf::Font::Page::nextRow' data-ref="sf::Font::Page::nextRow">nextRow</dfn>; <i class="doc">///&lt; Y position of the next new row in the texture</i></td></tr>
+<tr><th id="297">297</th><td>        <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<a class="type" href="#sf::Font::Row" title='sf::Font::Row' data-ref="sf::Font::Row">Row</a>&gt; <dfn class="decl" id="sf::Font::Page::rows" title='sf::Font::Page::rows' data-ref="sf::Font::Page::rows">rows</dfn>;    <i class="doc">///&lt; List containing the position of all the existing rows</i></td></tr>
+<tr><th id="298">298</th><td>    };</td></tr>
+<tr><th id="299">299</th><td></td></tr>
+<tr><th id="300">300</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="301">301</th><td><i>    /// \brief Free all the internal resources</i></td></tr>
+<tr><th id="302">302</th><td><i>    ///</i></td></tr>
+<tr><th id="303">303</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="304">304</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZN2sf4Font7cleanupEv" title='sf::Font::cleanup' data-ref="_ZN2sf4Font7cleanupEv" id="_ZN2sf4Font7cleanupEv">cleanup</a>();</td></tr>
+<tr><th id="305">305</th><td></td></tr>
+<tr><th id="306">306</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="307">307</th><td><i>    /// \brief Load a new glyph and store it in the cache</i></td></tr>
+<tr><th id="308">308</th><td><i>    ///</i></td></tr>
+<tr><th id="309">309</th><td><i>    /// \param codePoint        Unicode code point of the character to load</i></td></tr>
+<tr><th id="310">310</th><td><i>    /// \param characterSize    Reference character size</i></td></tr>
+<tr><th id="311">311</th><td><i>    /// \param bold             Retrieve the bold version or the regular one?</i></td></tr>
+<tr><th id="312">312</th><td><i>    /// \param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)</i></td></tr>
+<tr><th id="313">313</th><td><i>    ///</i></td></tr>
+<tr><th id="314">314</th><td><i>    /// \return The glyph corresponding to \a codePoint and \a characterSize</i></td></tr>
+<tr><th id="315">315</th><td><i>    ///</i></td></tr>
+<tr><th id="316">316</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="317">317</th><td>    <a class="type" href="Glyph.hpp.html#sf::Glyph" title='sf::Glyph' data-ref="sf::Glyph">Glyph</a> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font9loadGlyphEjjbf" title='sf::Font::loadGlyph' data-ref="_ZNK2sf4Font9loadGlyphEjjbf" id="_ZNK2sf4Font9loadGlyphEjjbf">loadGlyph</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="local col1 decl" id="1061codePoint" title='codePoint' data-type='Uint32' data-ref="1061codePoint">codePoint</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="1062characterSize" title='characterSize' data-type='unsigned int' data-ref="1062characterSize">characterSize</dfn>, <em>bool</em> <dfn class="local col3 decl" id="1063bold" title='bold' data-type='bool' data-ref="1063bold">bold</dfn>, <em>float</em> <dfn class="local col4 decl" id="1064outlineThickness" title='outlineThickness' data-type='float' data-ref="1064outlineThickness">outlineThickness</dfn>) <em>const</em>;</td></tr>
+<tr><th id="318">318</th><td></td></tr>
+<tr><th id="319">319</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="320">320</th><td><i>    /// \brief Find a suitable rectangle within the texture for a glyph</i></td></tr>
+<tr><th id="321">321</th><td><i>    ///</i></td></tr>
+<tr><th id="322">322</th><td><i>    /// \param page   Page of glyphs to search in</i></td></tr>
+<tr><th id="323">323</th><td><i>    /// \param width  Width of the rectangle</i></td></tr>
+<tr><th id="324">324</th><td><i>    /// \param height Height of the rectangle</i></td></tr>
+<tr><th id="325">325</th><td><i>    ///</i></td></tr>
+<tr><th id="326">326</th><td><i>    /// \return Found rectangle within the texture</i></td></tr>
+<tr><th id="327">327</th><td><i>    ///</i></td></tr>
+<tr><th id="328">328</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="329">329</th><td>    <a class="typedef" href="Rect.hpp.html#sf::IntRect" title='sf::IntRect' data-type='Rect&lt;int&gt;' data-ref="sf::IntRect">IntRect</a> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj" title='sf::Font::findGlyphRect' data-ref="_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj" id="_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj">findGlyphRect</a>(<a class="type" href="#sf::Font::Page" title='sf::Font::Page' data-ref="sf::Font::Page">Page</a>&amp; <dfn class="local col5 decl" id="1065page" title='page' data-type='sf::Font::Page &amp;' data-ref="1065page">page</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="1066width" title='width' data-type='unsigned int' data-ref="1066width">width</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="1067height" title='height' data-type='unsigned int' data-ref="1067height">height</dfn>) <em>const</em>;</td></tr>
+<tr><th id="330">330</th><td></td></tr>
+<tr><th id="331">331</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="332">332</th><td><i>    /// \brief Make sure that the given size is the current one</i></td></tr>
+<tr><th id="333">333</th><td><i>    ///</i></td></tr>
+<tr><th id="334">334</th><td><i>    /// \param characterSize Reference character size</i></td></tr>
+<tr><th id="335">335</th><td><i>    ///</i></td></tr>
+<tr><th id="336">336</th><td><i>    /// \return True on success, false if any error happened</i></td></tr>
+<tr><th id="337">337</th><td><i>    ///</i></td></tr>
+<tr><th id="338">338</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="339">339</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/Font.cpp.html#_ZNK2sf4Font14setCurrentSizeEj" title='sf::Font::setCurrentSize' data-ref="_ZNK2sf4Font14setCurrentSizeEj" id="_ZNK2sf4Font14setCurrentSizeEj">setCurrentSize</a>(<em>unsigned</em> <em>int</em> <dfn class="local col8 decl" id="1068characterSize" title='characterSize' data-type='unsigned int' data-ref="1068characterSize">characterSize</dfn>) <em>const</em>;</td></tr>
+<tr><th id="340">340</th><td></td></tr>
+<tr><th id="341">341</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="342">342</th><td><i>    // Types</i></td></tr>
+<tr><th id="343">343</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="344">344</th><td>    <b>typedef</b> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_map.h.html#std::map" title='std::map' data-ref="std::map">map</a>&lt;<em>unsigned</em> <em>int</em>, <a class="type" href="#sf::Font::Page" title='sf::Font::Page' data-ref="sf::Font::Page">Page</a>&gt; <dfn class="typedef" id="sf::Font::PageTable" title='sf::Font::PageTable' data-type='std::map&lt;unsigned int, Page&gt;' data-ref="sf::Font::PageTable">PageTable</dfn>; <i class="doc">///&lt; Table mapping a character size to its page (texture)</i></td></tr>
+<tr><th id="345">345</th><td></td></tr>
+<tr><th id="346">346</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="347">347</th><td><i>    // Member data</i></td></tr>
+<tr><th id="348">348</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="349">349</th><td>    <em>void</em>*                      <dfn class="decl" id="sf::Font::m_library" title='sf::Font::m_library' data-ref="sf::Font::m_library">m_library</dfn>;     <i class="doc">///&lt; Pointer to the internal library interface (it is typeless to avoid exposing implementation details)</i></td></tr>
+<tr><th id="350">350</th><td>    <em>void</em>*                      <dfn class="decl" id="sf::Font::m_face" title='sf::Font::m_face' data-ref="sf::Font::m_face">m_face</dfn>;        <i class="doc">///&lt; Pointer to the internal font face (it is typeless to avoid exposing implementation details)</i></td></tr>
+<tr><th id="351">351</th><td>    <em>void</em>*                      <dfn class="decl" id="sf::Font::m_streamRec" title='sf::Font::m_streamRec' data-ref="sf::Font::m_streamRec">m_streamRec</dfn>;   <i class="doc">///&lt; Pointer to the stream rec instance (it is typeless to avoid exposing implementation details)</i></td></tr>
+<tr><th id="352">352</th><td>    <em>void</em>*                      <dfn class="decl" id="sf::Font::m_stroker" title='sf::Font::m_stroker' data-ref="sf::Font::m_stroker">m_stroker</dfn>;     <i class="doc">///&lt; Pointer to the stroker (it is typeless to avoid exposing implementation details)</i></td></tr>
+<tr><th id="353">353</th><td>    <em>int</em>*                       <dfn class="decl" id="sf::Font::m_refCount" title='sf::Font::m_refCount' data-ref="sf::Font::m_refCount">m_refCount</dfn>;    <i class="doc">///&lt; Reference counter used by implicit sharing</i></td></tr>
+<tr><th id="354">354</th><td>    <a class="type" href="#sf::Font::Info" title='sf::Font::Info' data-ref="sf::Font::Info">Info</a>                       <dfn class="decl" id="sf::Font::m_info" title='sf::Font::m_info' data-ref="sf::Font::m_info">m_info</dfn>;        <i class="doc">///&lt; Information about the font</i></td></tr>
+<tr><th id="355">355</th><td>    <em>mutable</em> <a class="typedef" href="#sf::Font::PageTable" title='sf::Font::PageTable' data-type='std::map&lt;unsigned int, Page&gt;' data-ref="sf::Font::PageTable">PageTable</a>          <dfn class="decl" id="sf::Font::m_pages" title='sf::Font::m_pages' data-ref="sf::Font::m_pages">m_pages</dfn>;       <i class="doc">///&lt; Table containing the glyphs pages by character size</i></td></tr>
+<tr><th id="356">356</th><td>    <em>mutable</em> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<a class="typedef" href="../Config.hpp.html#sf::Uint8" title='sf::Uint8' data-type='unsigned char' data-ref="sf::Uint8">Uint8</a>&gt; <dfn class="decl" id="sf::Font::m_pixelBuffer" title='sf::Font::m_pixelBuffer' data-ref="sf::Font::m_pixelBuffer">m_pixelBuffer</dfn>; <i class="doc">///&lt; Pixel buffer holding a glyph's pixels before being written to the texture</i></td></tr>
+<tr><th id="357">357</th><td>    <u>#<span data-ppcond="357">ifdef</span> <span class="macro" data-ref="_M/SFML_SYSTEM_ANDROID">SFML_SYSTEM_ANDROID</span></u></td></tr>
+<tr><th id="358">358</th><td>    <em>void</em>*                      m_stream; <i class="doc">///&lt; Asset file streamer (if loaded from file)</i></td></tr>
+<tr><th id="359">359</th><td>    <u>#<span data-ppcond="357">endif</span></u></td></tr>
+<tr><th id="360">360</th><td>};</td></tr>
+<tr><th id="361">361</th><td></td></tr>
+<tr><th id="362">362</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="363">363</th><td></td></tr>
+<tr><th id="364">364</th><td></td></tr>
+<tr><th id="365">365</th><td><u>#<span data-ppcond="25">endif</span> // SFML_FONT_HPP</u></td></tr>
+<tr><th id="366">366</th><td></td></tr>
+<tr><th id="367">367</th><td></td></tr>
+<tr><th id="368">368</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="369">369</th><td><i>/// \class sf::Font</i></td></tr>
+<tr><th id="370">370</th><td><i>/// \ingroup graphics</i></td></tr>
+<tr><th id="371">371</th><td><i>///</i></td></tr>
+<tr><th id="372">372</th><td><i>/// Fonts can be loaded from a file, from memory or from a custom</i></td></tr>
+<tr><th id="373">373</th><td><i>/// stream, and supports the most common types of fonts. See</i></td></tr>
+<tr><th id="374">374</th><td><i>/// the loadFromFile function for the complete list of supported formats.</i></td></tr>
+<tr><th id="375">375</th><td><i>///</i></td></tr>
+<tr><th id="376">376</th><td><i>/// Once it is loaded, a sf::Font instance provides three</i></td></tr>
+<tr><th id="377">377</th><td><i>/// types of information about the font:</i></td></tr>
+<tr><th id="378">378</th><td><i>/// \li Global metrics, such as the line spacing</i></td></tr>
+<tr><th id="379">379</th><td><i>/// \li Per-glyph metrics, such as bounding box or kerning</i></td></tr>
+<tr><th id="380">380</th><td><i>/// \li Pixel representation of glyphs</i></td></tr>
+<tr><th id="381">381</th><td><i>///</i></td></tr>
+<tr><th id="382">382</th><td><i>/// Fonts alone are not very useful: they hold the font data</i></td></tr>
+<tr><th id="383">383</th><td><i>/// but cannot make anything useful of it. To do so you need to</i></td></tr>
+<tr><th id="384">384</th><td><i>/// use the sf::Text class, which is able to properly output text</i></td></tr>
+<tr><th id="385">385</th><td><i>/// with several options such as character size, style, color,</i></td></tr>
+<tr><th id="386">386</th><td><i>/// position, rotation, etc.</i></td></tr>
+<tr><th id="387">387</th><td><i>/// This separation allows more flexibility and better performances:</i></td></tr>
+<tr><th id="388">388</th><td><i>/// indeed a sf::Font is a heavy resource, and any operation on it</i></td></tr>
+<tr><th id="389">389</th><td><i>/// is slow (often too slow for real-time applications). On the other</i></td></tr>
+<tr><th id="390">390</th><td><i>/// side, a sf::Text is a lightweight object which can combine the</i></td></tr>
+<tr><th id="391">391</th><td><i>/// glyphs data and metrics of a sf::Font to display any text on a</i></td></tr>
+<tr><th id="392">392</th><td><i>/// render target.</i></td></tr>
+<tr><th id="393">393</th><td><i>/// Note that it is also possible to bind several sf::Text instances</i></td></tr>
+<tr><th id="394">394</th><td><i>/// to the same sf::Font.</i></td></tr>
+<tr><th id="395">395</th><td><i>///</i></td></tr>
+<tr><th id="396">396</th><td><i>/// It is important to note that the sf::Text instance doesn't</i></td></tr>
+<tr><th id="397">397</th><td><i>/// copy the font that it uses, it only keeps a reference to it.</i></td></tr>
+<tr><th id="398">398</th><td><i>/// Thus, a sf::Font must not be destructed while it is</i></td></tr>
+<tr><th id="399">399</th><td><i>/// used by a sf::Text (i.e. never write a function that</i></td></tr>
+<tr><th id="400">400</th><td><i>/// uses a local sf::Font instance for creating a text).</i></td></tr>
+<tr><th id="401">401</th><td><i>///</i></td></tr>
+<tr><th id="402">402</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="403">403</th><td><i>/// \code</i></td></tr>
+<tr><th id="404">404</th><td><i>/// // Declare a new font</i></td></tr>
+<tr><th id="405">405</th><td><i>/// sf::Font font;</i></td></tr>
+<tr><th id="406">406</th><td><i>///</i></td></tr>
+<tr><th id="407">407</th><td><i>/// // Load it from a file</i></td></tr>
+<tr><th id="408">408</th><td><i>/// if (!font.loadFromFile("arial.ttf"))</i></td></tr>
+<tr><th id="409">409</th><td><i>/// {</i></td></tr>
+<tr><th id="410">410</th><td><i>///     // error...</i></td></tr>
+<tr><th id="411">411</th><td><i>/// }</i></td></tr>
+<tr><th id="412">412</th><td><i>///</i></td></tr>
+<tr><th id="413">413</th><td><i>/// // Create a text which uses our font</i></td></tr>
+<tr><th id="414">414</th><td><i>/// sf::Text text1;</i></td></tr>
+<tr><th id="415">415</th><td><i>/// text1.setFont(font);</i></td></tr>
+<tr><th id="416">416</th><td><i>/// text1.setCharacterSize(30);</i></td></tr>
+<tr><th id="417">417</th><td><i>/// text1.setStyle(sf::Text::Regular);</i></td></tr>
+<tr><th id="418">418</th><td><i>///</i></td></tr>
+<tr><th id="419">419</th><td><i>/// // Create another text using the same font, but with different parameters</i></td></tr>
+<tr><th id="420">420</th><td><i>/// sf::Text text2;</i></td></tr>
+<tr><th id="421">421</th><td><i>/// text2.setFont(font);</i></td></tr>
+<tr><th id="422">422</th><td><i>/// text2.setCharacterSize(50);</i></td></tr>
+<tr><th id="423">423</th><td><i>/// text2.setStyle(sf::Text::Italic);</i></td></tr>
+<tr><th id="424">424</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="425">425</th><td><i>///</i></td></tr>
+<tr><th id="426">426</th><td><i>/// Apart from loading font files, and passing them to instances</i></td></tr>
+<tr><th id="427">427</th><td><i>/// of sf::Text, you should normally not have to deal directly</i></td></tr>
+<tr><th id="428">428</th><td><i>/// with this class. However, it may be useful to access the</i></td></tr>
+<tr><th id="429">429</th><td><i>/// font metrics or rasterized glyphs for advanced usage.</i></td></tr>
+<tr><th id="430">430</th><td><i>///</i></td></tr>
+<tr><th id="431">431</th><td><i>/// Note that if the font is a bitmap font, it is not scalable,</i></td></tr>
+<tr><th id="432">432</th><td><i>/// thus not all requested sizes will be available to use. This</i></td></tr>
+<tr><th id="433">433</th><td><i>/// needs to be taken into consideration when using sf::Text.</i></td></tr>
+<tr><th id="434">434</th><td><i>/// If you need to display text of a certain size, make sure the</i></td></tr>
+<tr><th id="435">435</th><td><i>/// corresponding bitmap font that supports that size is used.</i></td></tr>
+<tr><th id="436">436</th><td><i>///</i></td></tr>
+<tr><th id="437">437</th><td><i>/// \see sf::Text</i></td></tr>
+<tr><th id="438">438</th><td><i>///</i></td></tr>
+<tr><th id="439">439</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="440">440</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/Font.cpp.html'>codebrowser/src/SFML/Graphics/Font.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

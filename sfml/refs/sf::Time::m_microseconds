@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='109' type='Int64'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='106'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='109'>///&lt; Time value stored as microseconds</doc>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='39' u='w' c='_ZN2sf4TimeC1Ev'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='47' u='r' c='_ZNK2sf4Time9asSecondsEv'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='54' u='r' c='_ZNK2sf4Time14asMillisecondsEv'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='61' u='r' c='_ZNK2sf4Time14asMicrosecondsEv'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='67' u='w' c='_ZN2sf4TimeC1Ex'/>

@@ -1,0 +1,9 @@
+<use f='codebrowser/include/SFML/Graphics/Glsl.inl' l='67' c='_ZN2sf4priv6MatrixC1EPKf'/>
+<dec f='codebrowser/include/SFML/Graphics/Glsl.inl' l='84' type='float [Columns * Rows]'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='42' u='r' c='_ZN2sf4priv10copyMatrixERKNS_9TransformERNS0_6MatrixILm3ELm3EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='55' u='r' c='_ZN2sf4priv10copyMatrixERKNS_9TransformERNS0_6MatrixILm4ELm4EEE'/>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='84'>///&lt; Array holding matrix data</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='530' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='539' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='640' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='655' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>

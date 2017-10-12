@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.hpp' l='69' type='static void sf::priv::ClipboardImpl::setString(const sf::String &amp; text)'/>
+<use f='codebrowser/src/SFML/Window/Clipboard.cpp' l='45' u='c' c='_ZN2sf9Clipboard9setStringERKNS_6StringE'/>
+<doc f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Set the content of the clipboard as string data
+    ///
+    /// This function sets the content of the clipboard as a
+    /// string.
+    ///
+    /// \param text sf::String object containing the data to be sent
+    /// to the clipboard
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='231' ll='257' type='static void sf::priv::ClipboardImpl::setString(const sf::String &amp; text)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='230'>////////////////////////////////////////////////////////////</doc>

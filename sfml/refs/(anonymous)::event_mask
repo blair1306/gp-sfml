@@ -1,0 +1,5 @@
+<dec f='include/X11/Xlib.h' l='301' type='long'/>
+<offset>576</offset>
+<doc f='include/X11/Xlib.h' l='301'>/* set of events that should be saved */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='516' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='569' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>

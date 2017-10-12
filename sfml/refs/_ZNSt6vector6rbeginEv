@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_vector.h' l='582' ll='584' type='reverse_iterator std::vector::rbegin()'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='577'>/**
+       *  Returns a read/write reverse iterator that points to the
+       *  last element in the %vector.  Iteration is done in reverse
+       *  element order.
+       */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='60' type='void sf::Context::Context()'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// The constructor creates and activates the context
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='88' u='c' c='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='42' ll='46' type='void sf::Context::Context()'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='164' u='c' c='_ZN12_GLOBAL__N_116TransientContextC1Ev'/>

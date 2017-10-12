@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SoundFileFactory.hpp source code [codebrowser/include/SFML/Audio/SoundFileFactory.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::SoundFileFactory "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Audio/SoundFileFactory.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Audio</a>/<a href='SoundFileFactory.hpp.html'>SoundFileFactory.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_SOUNDFILEFACTORY_HPP">SFML_SOUNDFILEFACTORY_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_SOUNDFILEFACTORY_HPP" data-ref="_M/SFML_SOUNDFILEFACTORY_HPP">SFML_SOUNDFILEFACTORY_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Audio/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../../include/c++/5/vector.html">&lt;vector&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td><b>class</b> <a class="type" href="../System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream" id="sf::InputStream">InputStream</a>;</td></tr>
+<tr><th id="39">39</th><td><b>class</b> <a class="type" href="SoundFileReader.hpp.html#sf::SoundFileReader" title='sf::SoundFileReader' data-ref="sf::SoundFileReader" id="sf::SoundFileReader">SoundFileReader</a>;</td></tr>
+<tr><th id="40">40</th><td><b>class</b> <dfn class="type" id="sf::SoundFileWriter" title='sf::SoundFileWriter' data-ref="sf::SoundFileWriter">SoundFileWriter</dfn>;</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="43">43</th><td><i>/// \brief Manages and instantiates sound file readers and writers</i></td></tr>
+<tr><th id="44">44</th><td><i>///</i></td></tr>
+<tr><th id="45">45</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="46">46</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_AUDIO_API">SFML_AUDIO_API</a> <dfn class="type def" id="sf::SoundFileFactory" title='sf::SoundFileFactory' data-ref="sf::SoundFileFactory">SoundFileFactory</dfn></td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td><b>public</b>:</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="51">51</th><td><i>    /// \brief Register a new reader</i></td></tr>
+<tr><th id="52">52</th><td><i>    ///</i></td></tr>
+<tr><th id="53">53</th><td><i>    /// \see unregisterReader</i></td></tr>
+<tr><th id="54">54</th><td><i>    ///</i></td></tr>
+<tr><th id="55">55</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="56">56</th><td>    <b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="57">57</th><td>    <em>static</em> <em>void</em> <a class="decl" href="SoundFileFactory.inl.html#_ZN2sf16SoundFileFactory14registerReaderEv" title='sf::SoundFileFactory::registerReader' data-ref="_ZN2sf16SoundFileFactory14registerReaderEv" id="_ZN2sf16SoundFileFactory14registerReaderEv">registerReader</a>();</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td><i>    /// \brief Unregister a reader</i></td></tr>
+<tr><th id="61">61</th><td><i>    ///</i></td></tr>
+<tr><th id="62">62</th><td><i>    /// \see registerReader</i></td></tr>
+<tr><th id="63">63</th><td><i>    ///</i></td></tr>
+<tr><th id="64">64</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="65">65</th><td>    <b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="66">66</th><td>    <em>static</em> <em>void</em> <a class="decl" href="SoundFileFactory.inl.html#_ZN2sf16SoundFileFactory16unregisterReaderEv" title='sf::SoundFileFactory::unregisterReader' data-ref="_ZN2sf16SoundFileFactory16unregisterReaderEv" id="_ZN2sf16SoundFileFactory16unregisterReaderEv">unregisterReader</a>();</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="69">69</th><td><i>    /// \brief Register a new writer</i></td></tr>
+<tr><th id="70">70</th><td><i>    ///</i></td></tr>
+<tr><th id="71">71</th><td><i>    /// \see unregisterWriter</i></td></tr>
+<tr><th id="72">72</th><td><i>    ///</i></td></tr>
+<tr><th id="73">73</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td>    <b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="75">75</th><td>    <em>static</em> <em>void</em> <a class="decl" href="SoundFileFactory.inl.html#_ZN2sf16SoundFileFactory14registerWriterEv" title='sf::SoundFileFactory::registerWriter' data-ref="_ZN2sf16SoundFileFactory14registerWriterEv" id="_ZN2sf16SoundFileFactory14registerWriterEv">registerWriter</a>();</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="78">78</th><td><i>    /// \brief Unregister a writer</i></td></tr>
+<tr><th id="79">79</th><td><i>    ///</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// \see registerWriter</i></td></tr>
+<tr><th id="81">81</th><td><i>    ///</i></td></tr>
+<tr><th id="82">82</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="83">83</th><td>    <b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="84">84</th><td>    <em>static</em> <em>void</em> <a class="decl" href="SoundFileFactory.inl.html#_ZN2sf16SoundFileFactory16unregisterWriterEv" title='sf::SoundFileFactory::unregisterWriter' data-ref="_ZN2sf16SoundFileFactory16unregisterWriterEv" id="_ZN2sf16SoundFileFactory16unregisterWriterEv">unregisterWriter</a>();</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="87">87</th><td><i>    /// \brief Instantiate the right reader for the given file on disk</i></td></tr>
+<tr><th id="88">88</th><td><i>    ///</i></td></tr>
+<tr><th id="89">89</th><td><i>    /// It's up to the caller to release the returned reader</i></td></tr>
+<tr><th id="90">90</th><td><i>    ///</i></td></tr>
+<tr><th id="91">91</th><td><i>    /// \param filename Path of the sound file</i></td></tr>
+<tr><th id="92">92</th><td><i>    ///</i></td></tr>
+<tr><th id="93">93</th><td><i>    /// \return A new sound file reader that can read the given file, or null if no reader can handle it</i></td></tr>
+<tr><th id="94">94</th><td><i>    ///</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// \see createReaderFromMemory, createReaderFromStream</i></td></tr>
+<tr><th id="96">96</th><td><i>    ///</i></td></tr>
+<tr><th id="97">97</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="98">98</th><td>    <em>static</em> <a class="type" href="SoundFileReader.hpp.html#sf::SoundFileReader" title='sf::SoundFileReader' data-ref="sf::SoundFileReader">SoundFileReader</a>* <dfn class="decl" id="_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::SoundFileFactory::createReaderFromFilename' data-ref="_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">createReaderFromFilename</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col2 decl" id="1482filename" title='filename' data-type='const std::string &amp;' data-ref="1482filename">filename</dfn>);</td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="101">101</th><td><i>    /// \brief Instantiate the right codec for the given file in memory</i></td></tr>
+<tr><th id="102">102</th><td><i>    ///</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// It's up to the caller to release the returned reader</i></td></tr>
+<tr><th id="104">104</th><td><i>    ///</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// \param data        Pointer to the file data in memory</i></td></tr>
+<tr><th id="106">106</th><td><i>    /// \param sizeInBytes Total size of the file data, in bytes</i></td></tr>
+<tr><th id="107">107</th><td><i>    ///</i></td></tr>
+<tr><th id="108">108</th><td><i>    /// \return A new sound file codec that can read the given file, or null if no codec can handle it</i></td></tr>
+<tr><th id="109">109</th><td><i>    ///</i></td></tr>
+<tr><th id="110">110</th><td><i>    /// \see createReaderFromFilename, createReaderFromStream</i></td></tr>
+<tr><th id="111">111</th><td><i>    ///</i></td></tr>
+<tr><th id="112">112</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="113">113</th><td>    <em>static</em> <a class="type" href="SoundFileReader.hpp.html#sf::SoundFileReader" title='sf::SoundFileReader' data-ref="sf::SoundFileReader">SoundFileReader</a>* <dfn class="decl" id="_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm" title='sf::SoundFileFactory::createReaderFromMemory' data-ref="_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm">createReaderFromMemory</dfn>(<em>const</em> <em>void</em>* <dfn class="local col3 decl" id="1483data" title='data' data-type='const void *' data-ref="1483data">data</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col4 decl" id="1484sizeInBytes" title='sizeInBytes' data-type='std::size_t' data-ref="1484sizeInBytes">sizeInBytes</dfn>);</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// \brief Instantiate the right codec for the given file in stream</i></td></tr>
+<tr><th id="117">117</th><td><i>    ///</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// It's up to the caller to release the returned reader</i></td></tr>
+<tr><th id="119">119</th><td><i>    ///</i></td></tr>
+<tr><th id="120">120</th><td><i>    /// \param stream Source stream to read from</i></td></tr>
+<tr><th id="121">121</th><td><i>    ///</i></td></tr>
+<tr><th id="122">122</th><td><i>    /// \return A new sound file codec that can read the given file, or null if no codec can handle it</i></td></tr>
+<tr><th id="123">123</th><td><i>    ///</i></td></tr>
+<tr><th id="124">124</th><td><i>    /// \see createReaderFromFilename, createReaderFromMemory</i></td></tr>
+<tr><th id="125">125</th><td><i>    ///</i></td></tr>
+<tr><th id="126">126</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="127">127</th><td>    <em>static</em> <a class="type" href="SoundFileReader.hpp.html#sf::SoundFileReader" title='sf::SoundFileReader' data-ref="sf::SoundFileReader">SoundFileReader</a>* <dfn class="decl" id="_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE" title='sf::SoundFileFactory::createReaderFromStream' data-ref="_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE">createReaderFromStream</dfn>(<a class="type" href="../System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col5 decl" id="1485stream" title='stream' data-type='sf::InputStream &amp;' data-ref="1485stream">stream</dfn>);</td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="130">130</th><td><i>    /// \brief Instantiate the right writer for the given file on disk</i></td></tr>
+<tr><th id="131">131</th><td><i>    ///</i></td></tr>
+<tr><th id="132">132</th><td><i>    /// It's up to the caller to release the returned writer</i></td></tr>
+<tr><th id="133">133</th><td><i>    ///</i></td></tr>
+<tr><th id="134">134</th><td><i>    /// \param filename Path of the sound file</i></td></tr>
+<tr><th id="135">135</th><td><i>    ///</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// \return A new sound file writer that can write given file, or null if no writer can handle it</i></td></tr>
+<tr><th id="137">137</th><td><i>    ///</i></td></tr>
+<tr><th id="138">138</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="139">139</th><td>    <em>static</em> <a class="type" href="#sf::SoundFileWriter" title='sf::SoundFileWriter' data-ref="sf::SoundFileWriter">SoundFileWriter</a>* <dfn class="decl" id="_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::SoundFileFactory::createWriterFromFilename' data-ref="_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">createWriterFromFilename</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col6 decl" id="1486filename" title='filename' data-type='const std::string &amp;' data-ref="1486filename">filename</dfn>);</td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td><b>private</b>:</td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="144">144</th><td><i>    // Types</i></td></tr>
+<tr><th id="145">145</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="146">146</th><td>    <b>struct</b> <dfn class="type def" id="sf::SoundFileFactory::ReaderFactory" title='sf::SoundFileFactory::ReaderFactory' data-ref="sf::SoundFileFactory::ReaderFactory">ReaderFactory</dfn></td></tr>
+<tr><th id="147">147</th><td>    {</td></tr>
+<tr><th id="148">148</th><td>        <em>bool</em> (*<dfn class="decl" id="sf::SoundFileFactory::ReaderFactory::check" title='sf::SoundFileFactory::ReaderFactory::check' data-ref="sf::SoundFileFactory::ReaderFactory::check">check</dfn>)(<a class="type" href="../System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp;);</td></tr>
+<tr><th id="149">149</th><td>        <a class="type" href="SoundFileReader.hpp.html#sf::SoundFileReader" title='sf::SoundFileReader' data-ref="sf::SoundFileReader">SoundFileReader</a>* (*<dfn class="decl" id="sf::SoundFileFactory::ReaderFactory::create" title='sf::SoundFileFactory::ReaderFactory::create' data-ref="sf::SoundFileFactory::ReaderFactory::create">create</dfn>)();</td></tr>
+<tr><th id="150">150</th><td>    };</td></tr>
+<tr><th id="151">151</th><td>    <b>typedef</b> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<a class="type" href="#sf::SoundFileFactory::ReaderFactory" title='sf::SoundFileFactory::ReaderFactory' data-ref="sf::SoundFileFactory::ReaderFactory">ReaderFactory</a>&gt; <dfn class="typedef" id="sf::SoundFileFactory::ReaderFactoryArray" title='sf::SoundFileFactory::ReaderFactoryArray' data-type='std::vector&lt;ReaderFactory&gt;' data-ref="sf::SoundFileFactory::ReaderFactoryArray">ReaderFactoryArray</dfn>;</td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td>    <b>struct</b> <dfn class="type def" id="sf::SoundFileFactory::WriterFactory" title='sf::SoundFileFactory::WriterFactory' data-ref="sf::SoundFileFactory::WriterFactory">WriterFactory</dfn></td></tr>
+<tr><th id="154">154</th><td>    {</td></tr>
+<tr><th id="155">155</th><td>        <em>bool</em> (*<dfn class="decl" id="sf::SoundFileFactory::WriterFactory::check" title='sf::SoundFileFactory::WriterFactory::check' data-ref="sf::SoundFileFactory::WriterFactory::check">check</dfn>)(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp;);</td></tr>
+<tr><th id="156">156</th><td>        <a class="type" href="#sf::SoundFileWriter" title='sf::SoundFileWriter' data-ref="sf::SoundFileWriter">SoundFileWriter</a>* (*<dfn class="decl" id="sf::SoundFileFactory::WriterFactory::create" title='sf::SoundFileFactory::WriterFactory::create' data-ref="sf::SoundFileFactory::WriterFactory::create">create</dfn>)();</td></tr>
+<tr><th id="157">157</th><td>    };</td></tr>
+<tr><th id="158">158</th><td>    <b>typedef</b> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<a class="type" href="#sf::SoundFileFactory::WriterFactory" title='sf::SoundFileFactory::WriterFactory' data-ref="sf::SoundFileFactory::WriterFactory">WriterFactory</a>&gt; <dfn class="typedef" id="sf::SoundFileFactory::WriterFactoryArray" title='sf::SoundFileFactory::WriterFactoryArray' data-type='std::vector&lt;WriterFactory&gt;' data-ref="sf::SoundFileFactory::WriterFactoryArray">WriterFactoryArray</dfn>;</td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="161">161</th><td><i>    // Static member data</i></td></tr>
+<tr><th id="162">162</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="163">163</th><td>    <em>static</em> <a class="typedef" href="#sf::SoundFileFactory::ReaderFactoryArray" title='sf::SoundFileFactory::ReaderFactoryArray' data-type='std::vector&lt;ReaderFactory&gt;' data-ref="sf::SoundFileFactory::ReaderFactoryArray">ReaderFactoryArray</a> <dfn class="decl" id="sf::SoundFileFactory::s_readers" title='sf::SoundFileFactory::s_readers' data-ref="sf::SoundFileFactory::s_readers">s_readers</dfn>; <i class="doc">///&lt; List of all registered readers</i></td></tr>
+<tr><th id="164">164</th><td>    <em>static</em> <a class="typedef" href="#sf::SoundFileFactory::WriterFactoryArray" title='sf::SoundFileFactory::WriterFactoryArray' data-type='std::vector&lt;WriterFactory&gt;' data-ref="sf::SoundFileFactory::WriterFactoryArray">WriterFactoryArray</a> <dfn class="decl" id="sf::SoundFileFactory::s_writers" title='sf::SoundFileFactory::s_writers' data-ref="sf::SoundFileFactory::s_writers">s_writers</dfn>; <i class="doc">///&lt; List of all registered writers</i></td></tr>
+<tr><th id="165">165</th><td>};</td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td><u>#include <a href="SoundFileFactory.inl.html">&lt;SFML/Audio/SoundFileFactory.inl&gt;</a></u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="25">endif</span> // SFML_SOUNDFILEFACTORY_HPP</u></td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="175">175</th><td><i>/// \class sf::SoundFileFactory</i></td></tr>
+<tr><th id="176">176</th><td><i>/// \ingroup audio</i></td></tr>
+<tr><th id="177">177</th><td><i>///</i></td></tr>
+<tr><th id="178">178</th><td><i>/// This class is where all the sound file readers and writers are</i></td></tr>
+<tr><th id="179">179</th><td><i>/// registered. You should normally only need to use its registration</i></td></tr>
+<tr><th id="180">180</th><td><i>/// and unregistration functions; readers/writers creation and manipulation</i></td></tr>
+<tr><th id="181">181</th><td><i>/// are wrapped into the higher-level classes sf::InputSoundFile and</i></td></tr>
+<tr><th id="182">182</th><td><i>/// sf::OutputSoundFile.</i></td></tr>
+<tr><th id="183">183</th><td><i>///</i></td></tr>
+<tr><th id="184">184</th><td><i>/// To register a new reader (writer) use the sf::SoundFileFactory::registerReader</i></td></tr>
+<tr><th id="185">185</th><td><i>/// (registerWriter) static function. You don't have to call the unregisterReader</i></td></tr>
+<tr><th id="186">186</th><td><i>/// (unregisterWriter) function, unless you want to unregister a format before your</i></td></tr>
+<tr><th id="187">187</th><td><i>/// application ends (typically, when a plugin is unloaded).</i></td></tr>
+<tr><th id="188">188</th><td><i>///</i></td></tr>
+<tr><th id="189">189</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="190">190</th><td><i>/// \code</i></td></tr>
+<tr><th id="191">191</th><td><i>/// sf::SoundFileFactory::registerReader&lt;MySoundFileReader&gt;();</i></td></tr>
+<tr><th id="192">192</th><td><i>/// sf::SoundFileFactory::registerWriter&lt;MySoundFileWriter&gt;();</i></td></tr>
+<tr><th id="193">193</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="194">194</th><td><i>///</i></td></tr>
+<tr><th id="195">195</th><td><i>/// \see sf::InputSoundFile, sf::OutputSoundFile, sf::SoundFileReader, sf::SoundFileWriter</i></td></tr>
+<tr><th id="196">196</th><td><i>///</i></td></tr>
+<tr><th id="197">197</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="198">198</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Audio/InputSoundFile.cpp.html'>codebrowser/src/SFML/Audio/InputSoundFile.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

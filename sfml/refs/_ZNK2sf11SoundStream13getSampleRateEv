@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='121' type='unsigned int sf::SoundStream::getSampleRate() const'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='255' u='c' c='_ZNK2sf5Music13timeToSamplesENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='265' u='c' c='_ZNK2sf5Music13samplesToTimeEy'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='266' u='c' c='_ZNK2sf5Music13samplesToTimeEy'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='112'>////////////////////////////////////////////////////////////
+    /// \brief Get the stream sample rate of the stream
+    ///
+    /// The sample rate is the number of audio samples played per
+    /// second. The higher, the better the quality.
+    ///
+    /// \return Sample rate, in number of samples per second
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='181' ll='184' type='unsigned int sf::SoundStream::getSampleRate() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='180'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='207' ll='212' type='void sf::Shader::UniformBinder::~UniformBinder()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='203'>////////////////////////////////////////////////////////////
+    /// \brief Destructor: restore state after uniform is set
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,10 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1889' ll='1902' type='stbi_uc [79]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1936' u='r' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1949' u='r' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2009' u='r' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2027' u='r' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2040' u='r' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2080' u='r' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2809' u='r' c='_ZL20stbi__process_markerP10stbi__jpegi'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1887'>// given a value that&apos;s at position X in the zigzag stream,
+// where does it appear in the 8x8 matrix coded as row-major?</doc>

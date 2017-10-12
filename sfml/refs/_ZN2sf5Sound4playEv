@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='89' type='void sf::Sound::play()'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='71' ll='74' type='void sf::Sound::play()'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='70'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='77'>////////////////////////////////////////////////////////////
+    /// \brief Start or resume playing the sound
+    ///
+    /// This function starts the stream if it was stopped, resumes
+    /// it if it was paused, and restarts it from beginning if it
+    /// was it already playing.
+    /// This function uses its own thread so that it doesn&apos;t block
+    /// the rest of the program while the sound is played.
+    ///
+    /// \see pause, stop
+    ///
+    ////////////////////////////////////////////////////////////</doc>

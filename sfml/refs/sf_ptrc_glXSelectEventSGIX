@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='226' type='void (*)(Display *, GLXDrawable, unsigned long)'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='87' type='void (*)(Display *, GLXDrawable, unsigned long)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='104' u='w' c='_ZL17Load_SGIX_pbufferv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='105' u='r' c='_ZL17Load_SGIX_pbufferv'/>

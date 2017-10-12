@@ -1,0 +1,6 @@
+<dec f='include/X11/Xfuncproto.h' l='72'/>
+<use f='include/X11/Xlib.h' l='4013' u='c'/>
+<use f='include/X11/Xutil.h' l='836' u='c'/>
+<use f='include/X11/extensions/Xrender.h' l='526' u='c'/>
+<use f='include/X11/extensions/Xrandr.h' l='585' u='c'/>
+<use f='include/X11/Xlibint.h' l='1332' u='c'/>

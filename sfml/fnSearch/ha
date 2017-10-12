@@ -1,0 +1,5 @@
+_ZSt9has_facetRKSt6locale|std::has_facet
+_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|sf::Http::Request::hasField
+_ZN2sf8Joystick7hasAxisEjNS0_4AxisE|sf::Joystick::hasAxis
+_ZNK2sf4priv13WindowImplX118hasFocusEv|sf::priv::WindowImplX11::hasFocus
+_ZNK2sf6Window8hasFocusEv|sf::Window::hasFocus

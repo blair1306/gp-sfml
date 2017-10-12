@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='160' type='int XRRQueryExtension(Display * dpy, int * event_base_return, int * error_base_return)'/>

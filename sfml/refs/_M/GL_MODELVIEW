@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='698'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='336' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='355' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='392' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='440' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='758' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='771' u='c'/>
+<dec f='include/GL/gl.h' l='216'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='554' type='void sf::Shader::setParameter(const std::string &amp; name, float x)'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='664' ll='667' type='void sf::Shader::setParameter(const std::string &amp; name, float x)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='663'>////////////////////////////////////////////////////////////</doc>

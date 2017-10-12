@@ -1,0 +1,10 @@
+<def f='include/c++/5/fstream' l='838' ll='843' type='void std::basic_ofstream::close()'/>
+<doc f='include/c++/5/fstream' l='832'>/**
+       *  @brief  Close the file.
+       *
+       *  Calls @c std::basic_filebuf::close().  If that function
+       *  fails, @c failbit is set in the stream&apos;s error state.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='205' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='201' u='c' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='309' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='231' type='sf::Event::JoystickButtonEvent'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='231'>///&lt; Joystick button event parameters (Event::JoystickButtonPressed, Event::JoystickButtonReleased)</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='177' u='m' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='213' u='m' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='214' u='m' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

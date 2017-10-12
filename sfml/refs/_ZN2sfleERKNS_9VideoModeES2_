@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Window/VideoMode.hpp' l='165' type='bool sf::operator&lt;=(const sf::VideoMode &amp; left, const sf::VideoMode &amp; right)'/>
+<def f='codebrowser/src/SFML/Window/VideoMode.cpp' l='134' ll='137' type='bool sf::operator&lt;=(const sf::VideoMode &amp; left, const sf::VideoMode &amp; right)'/>
+<doc f='codebrowser/src/SFML/Window/VideoMode.cpp' l='133'>////////////////////////////////////////////////////////////</doc>

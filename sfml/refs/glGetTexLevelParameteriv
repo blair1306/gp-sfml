@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1378' type='void glGetTexLevelParameteriv(GLenum , GLint , GLenum , GLint * )'/>
+<dec f='include/GL/gl.h' l='1284' type='void glGetTexLevelParameteriv(GLenum target, GLint level, GLenum pname, GLint * params)'/>

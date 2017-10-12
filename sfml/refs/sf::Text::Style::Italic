@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='60' type='2'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='369' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='60'>///&lt; Italic characters</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='318' type='Uint64'/>
+<offset>640</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='318'>///&lt; Number of buffers processed since beginning of the stream</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='53' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='81' u='w' c='_ZN2sf11SoundStream10initializeEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='218' u='w' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='237' u='r' c='_ZNK2sf11SoundStream16getPlayingOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='350' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='373' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='397' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='436' u='w' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

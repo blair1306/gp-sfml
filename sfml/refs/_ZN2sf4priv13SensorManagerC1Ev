@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='107' type='void sf::priv::SensorManager::SensorManager()'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='103'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='39' u='c' c='_ZN2sf4priv13SensorManager11getInstanceEv'/>
+<def f='codebrowser/src/SFML/Window/SensorManager.cpp' l='93' ll='111' type='void sf::priv::SensorManager::SensorManager()'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.cpp' l='92'>////////////////////////////////////////////////////////////</doc>

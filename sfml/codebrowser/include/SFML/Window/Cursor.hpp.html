@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cursor.hpp source code [codebrowser/include/SFML/Window/Cursor.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Cursor "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Window/Cursor.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='Cursor.hpp.html'>Cursor.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2016 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_CURSOR_HPP">SFML_CURSOR_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_CURSOR_HPP" data-ref="_M/SFML_CURSOR_HPP">SFML_CURSOR_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Window/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../System/NonCopyable.hpp.html">&lt;SFML/System/NonCopyable.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../System/Vector2.hpp.html">&lt;SFML/System/Vector2.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td>    <b>class</b> <dfn class="type" id="sf::priv::CursorImpl" title='sf::priv::CursorImpl' data-ref="sf::priv::CursorImpl">CursorImpl</dfn>;</td></tr>
+<tr><th id="40">40</th><td>}</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="43">43</th><td><i>/// \brief Cursor defines the appearance of a system cursor</i></td></tr>
+<tr><th id="44">44</th><td><i>///</i></td></tr>
+<tr><th id="45">45</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="46">46</th><td><b>class</b> <a class="macro" href="Export.hpp.html#43" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_WINDOW_API">SFML_WINDOW_API</a> <dfn class="type def" id="sf::Cursor" title='sf::Cursor' data-ref="sf::Cursor">Cursor</dfn> : <a class="type" href="../System/NonCopyable.hpp.html#sf::NonCopyable" title='sf::NonCopyable' data-ref="sf::NonCopyable">NonCopyable</a></td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td><b>public</b>:</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="51">51</th><td><i>    /// \brief Enumeration of the native system cursor types</i></td></tr>
+<tr><th id="52">52</th><td><i>    ///</i></td></tr>
+<tr><th id="53">53</th><td><i>    /// Refer to the following table to determine which cursor</i></td></tr>
+<tr><th id="54">54</th><td><i>    /// is available on which platform.</i></td></tr>
+<tr><th id="55">55</th><td><i>    ///</i></td></tr>
+<tr><th id="56">56</th><td><i>    ///  Type                               | Linux | Mac OS X | Windows</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// ------------------------------------|:-----:|:--------:|:--------:</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///  sf::Cursor::Arrow                  |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="59">59</th><td><i>    ///  sf::Cursor::ArrowWait              |  no   |    no    |   yes</i></td></tr>
+<tr><th id="60">60</th><td><i>    ///  sf::Cursor::Wait                   |  yes  |    no    |   yes</i></td></tr>
+<tr><th id="61">61</th><td><i>    ///  sf::Cursor::Text                   |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="62">62</th><td><i>    ///  sf::Cursor::Hand                   |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="63">63</th><td><i>    ///  sf::Cursor::SizeHorizontal         |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///  sf::Cursor::SizeVertical           |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="65">65</th><td><i>    ///  sf::Cursor::SizeTopLeftBottomRight |  no   |    no    |   yes</i></td></tr>
+<tr><th id="66">66</th><td><i>    ///  sf::Cursor::SizeBottomLeftTopRight |  no   |    no    |   yes</i></td></tr>
+<tr><th id="67">67</th><td><i>    ///  sf::Cursor::SizeAll                |  yes  |    no    |   yes</i></td></tr>
+<tr><th id="68">68</th><td><i>    ///  sf::Cursor::Cross                  |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="69">69</th><td><i>    ///  sf::Cursor::Help                   |  yes  |    no    |   yes</i></td></tr>
+<tr><th id="70">70</th><td><i>    ///  sf::Cursor::NotAllowed             |  yes  |    yes   |   yes</i></td></tr>
+<tr><th id="71">71</th><td><i>    ///</i></td></tr>
+<tr><th id="72">72</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="73">73</th><td>    <b>enum</b> <dfn class="type def" id="sf::Cursor::Type" title='sf::Cursor::Type' data-ref="sf::Cursor::Type">Type</dfn></td></tr>
+<tr><th id="74">74</th><td>    {</td></tr>
+<tr><th id="75">75</th><td>        <dfn class="enum" id="sf::Cursor::Type::Arrow" title='sf::Cursor::Type::Arrow' data-ref="sf::Cursor::Type::Arrow">Arrow</dfn>,                  <i class="doc">///&lt; Arrow cursor (default)</i></td></tr>
+<tr><th id="76">76</th><td>        <dfn class="enum" id="sf::Cursor::Type::ArrowWait" title='sf::Cursor::Type::ArrowWait' data-ref="sf::Cursor::Type::ArrowWait">ArrowWait</dfn>,              <i class="doc">///&lt; Busy arrow cursor</i></td></tr>
+<tr><th id="77">77</th><td>        <dfn class="enum" id="sf::Cursor::Type::Wait" title='sf::Cursor::Type::Wait' data-ref="sf::Cursor::Type::Wait">Wait</dfn>,                   <i class="doc">///&lt; Busy cursor</i></td></tr>
+<tr><th id="78">78</th><td>        <dfn class="enum" id="sf::Cursor::Type::Text" title='sf::Cursor::Type::Text' data-ref="sf::Cursor::Type::Text">Text</dfn>,                   <i class="doc">///&lt; I-beam, cursor when hovering over a field allowing text entry</i></td></tr>
+<tr><th id="79">79</th><td>        <dfn class="enum" id="sf::Cursor::Type::Hand" title='sf::Cursor::Type::Hand' data-ref="sf::Cursor::Type::Hand">Hand</dfn>,                   <i class="doc">///&lt; Pointing hand cursor</i></td></tr>
+<tr><th id="80">80</th><td>        <dfn class="enum" id="sf::Cursor::Type::SizeHorizontal" title='sf::Cursor::Type::SizeHorizontal' data-ref="sf::Cursor::Type::SizeHorizontal">SizeHorizontal</dfn>,         <i class="doc">///&lt; Horizontal double arrow cursor</i></td></tr>
+<tr><th id="81">81</th><td>        <dfn class="enum" id="sf::Cursor::Type::SizeVertical" title='sf::Cursor::Type::SizeVertical' data-ref="sf::Cursor::Type::SizeVertical">SizeVertical</dfn>,           <i class="doc">///&lt; Vertical double arrow cursor</i></td></tr>
+<tr><th id="82">82</th><td>        <dfn class="enum" id="sf::Cursor::Type::SizeTopLeftBottomRight" title='sf::Cursor::Type::SizeTopLeftBottomRight' data-ref="sf::Cursor::Type::SizeTopLeftBottomRight">SizeTopLeftBottomRight</dfn>, <i class="doc">///&lt; Double arrow cursor going from top-left to bottom-right</i></td></tr>
+<tr><th id="83">83</th><td>        <dfn class="enum" id="sf::Cursor::Type::SizeBottomLeftTopRight" title='sf::Cursor::Type::SizeBottomLeftTopRight' data-ref="sf::Cursor::Type::SizeBottomLeftTopRight">SizeBottomLeftTopRight</dfn>, <i class="doc">///&lt; Double arrow cursor going from bottom-left to top-right</i></td></tr>
+<tr><th id="84">84</th><td>        <dfn class="enum" id="sf::Cursor::Type::SizeAll" title='sf::Cursor::Type::SizeAll' data-ref="sf::Cursor::Type::SizeAll">SizeAll</dfn>,                <i class="doc">///&lt; Combination of SizeHorizontal and SizeVertical</i></td></tr>
+<tr><th id="85">85</th><td>        <dfn class="enum" id="sf::Cursor::Type::Cross" title='sf::Cursor::Type::Cross' data-ref="sf::Cursor::Type::Cross">Cross</dfn>,                  <i class="doc">///&lt; Crosshair cursor</i></td></tr>
+<tr><th id="86">86</th><td>        <dfn class="enum" id="sf::Cursor::Type::Help" title='sf::Cursor::Type::Help' data-ref="sf::Cursor::Type::Help">Help</dfn>,                   <i class="doc">///&lt; Help cursor</i></td></tr>
+<tr><th id="87">87</th><td>        <dfn class="enum" id="sf::Cursor::Type::NotAllowed" title='sf::Cursor::Type::NotAllowed' data-ref="sf::Cursor::Type::NotAllowed">NotAllowed</dfn>              <i class="doc">///&lt; Action not allowed cursor</i></td></tr>
+<tr><th id="88">88</th><td>    };</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><b>public</b>:</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="93">93</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="94">94</th><td><i>    ///</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// This constructor doesn't actually create the cursor;</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// initially the new instance is invalid and must not be</i></td></tr>
+<tr><th id="97">97</th><td><i>    /// used until either loadFromPixels() or loadFromSystem()</i></td></tr>
+<tr><th id="98">98</th><td><i>    /// is called and successfully created a cursor.</i></td></tr>
+<tr><th id="99">99</th><td><i>    ///</i></td></tr>
+<tr><th id="100">100</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="101">101</th><td>    <dfn class="decl" id="_ZN2sf6CursorC1Ev" title='sf::Cursor::Cursor' data-ref="_ZN2sf6CursorC1Ev">Cursor</dfn>();</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="105">105</th><td><i>    ///</i></td></tr>
+<tr><th id="106">106</th><td><i>    /// This destructor releases the system resources</i></td></tr>
+<tr><th id="107">107</th><td><i>    /// associated with this cursor, if any.</i></td></tr>
+<tr><th id="108">108</th><td><i>    ///</i></td></tr>
+<tr><th id="109">109</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="110">110</th><td>    <dfn class="decl" id="_ZN2sf6CursorD1Ev" title='sf::Cursor::~Cursor' data-ref="_ZN2sf6CursorD1Ev">~Cursor</dfn>();</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="113">113</th><td><i>    /// \brief Create a cursor with the provided image</i></td></tr>
+<tr><th id="114">114</th><td><i>    ///</i></td></tr>
+<tr><th id="115">115</th><td><i>    /// \a pixels must be an array of \a width by \a height pixels</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// in 32-bit RGBA format. If not, this will cause undefined behavior.</i></td></tr>
+<tr><th id="117">117</th><td><i>    ///</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// If \a pixels is null or either \a width or \a height are 0,</i></td></tr>
+<tr><th id="119">119</th><td><i>    /// the current cursor is left unchanged and the function will</i></td></tr>
+<tr><th id="120">120</th><td><i>    /// return false.</i></td></tr>
+<tr><th id="121">121</th><td><i>    ///</i></td></tr>
+<tr><th id="122">122</th><td><i>    /// In addition to specifying the pixel data, you can also</i></td></tr>
+<tr><th id="123">123</th><td><i>    /// specify the location of the hotspot of the cursor. The</i></td></tr>
+<tr><th id="124">124</th><td><i>    /// hotspot is the pixel coordinate within the cursor image</i></td></tr>
+<tr><th id="125">125</th><td><i>    /// which will be located exactly where the mouse pointer</i></td></tr>
+<tr><th id="126">126</th><td><i>    /// position is. Any mouse actions that are performed will</i></td></tr>
+<tr><th id="127">127</th><td><i>    /// return the window/screen location of the hotspot.</i></td></tr>
+<tr><th id="128">128</th><td><i>    ///</i></td></tr>
+<tr><th id="129">129</th><td><i>    /// \warning On Unix, the pixels are mapped into a monochrome</i></td></tr>
+<tr><th id="130">130</th><td><i>    ///          bitmap: pixels with an alpha channel to 0 are</i></td></tr>
+<tr><th id="131">131</th><td><i>    ///          transparent, black if the RGB channel are close</i></td></tr>
+<tr><th id="132">132</th><td><i>    ///          to zero, and white otherwise.</i></td></tr>
+<tr><th id="133">133</th><td><i>    ///</i></td></tr>
+<tr><th id="134">134</th><td><i>    /// \param pixels   Array of pixels of the image</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// \param size     Width and height of the image</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// \param hotspot  (x,y) location of the hotspot</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// \return true if the cursor was successfully loaded;</i></td></tr>
+<tr><th id="138">138</th><td><i>    ///         false otherwise</i></td></tr>
+<tr><th id="139">139</th><td><i>    ///</i></td></tr>
+<tr><th id="140">140</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="141">141</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Cursor14loadFromPixelsEPKhNS_7Vector2IjEES4_" title='sf::Cursor::loadFromPixels' data-ref="_ZN2sf6Cursor14loadFromPixelsEPKhNS_7Vector2IjEES4_">loadFromPixels</dfn>(<em>const</em> <a class="typedef" href="../Config.hpp.html#sf::Uint8" title='sf::Uint8' data-type='unsigned char' data-ref="sf::Uint8">Uint8</a>* <dfn class="local col1 decl" id="1pixels" title='pixels' data-type='const Uint8 *' data-ref="1pixels">pixels</dfn>, <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2u" title='sf::Vector2u' data-type='Vector2&lt;unsigned int&gt;' data-ref="sf::Vector2u">Vector2u</a> <dfn class="local col2 decl" id="2size" title='size' data-type='Vector2u' data-ref="2size">size</dfn>, <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2u" title='sf::Vector2u' data-type='Vector2&lt;unsigned int&gt;' data-ref="sf::Vector2u">Vector2u</a> <dfn class="local col3 decl" id="3hotspot" title='hotspot' data-type='Vector2u' data-ref="3hotspot">hotspot</dfn>);</td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="144">144</th><td><i>    /// \brief Create a native system cursor</i></td></tr>
+<tr><th id="145">145</th><td><i>    ///</i></td></tr>
+<tr><th id="146">146</th><td><i>    /// Refer to the list of cursor available on each system</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// (see sf::Cursor::Type) to know whether a given cursor is</i></td></tr>
+<tr><th id="148">148</th><td><i>    /// expected to load successfully or is not supported by</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// the operating system.</i></td></tr>
+<tr><th id="150">150</th><td><i>    ///</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// \param type Native system cursor type</i></td></tr>
+<tr><th id="152">152</th><td><i>    /// \return true if and only if the corresponding cursor is</i></td></tr>
+<tr><th id="153">153</th><td><i>    ///         natively supported by the operating system;</i></td></tr>
+<tr><th id="154">154</th><td><i>    ///         false otherwise</i></td></tr>
+<tr><th id="155">155</th><td><i>    ///</i></td></tr>
+<tr><th id="156">156</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="157">157</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Cursor14loadFromSystemENS0_4TypeE" title='sf::Cursor::loadFromSystem' data-ref="_ZN2sf6Cursor14loadFromSystemENS0_4TypeE">loadFromSystem</dfn>(<a class="type" href="#sf::Cursor::Type" title='sf::Cursor::Type' data-ref="sf::Cursor::Type">Type</a> <dfn class="local col4 decl" id="4type" title='type' data-type='sf::Cursor::Type' data-ref="4type">type</dfn>);</td></tr>
+<tr><th id="158">158</th><td></td></tr>
+<tr><th id="159">159</th><td><b>private</b>:</td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td>    <b>friend</b> <b>class</b> <a class="type" href="Window.hpp.html#sf::Window" title='sf::Window' data-ref="sf::Window">Window</a>;</td></tr>
+<tr><th id="162">162</th><td></td></tr>
+<tr><th id="163">163</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="164">164</th><td><i>    /// \brief Get access to the underlying implementation</i></td></tr>
+<tr><th id="165">165</th><td><i>    ///</i></td></tr>
+<tr><th id="166">166</th><td><i>    /// This is primarily designed for sf::Window::setMouseCursor,</i></td></tr>
+<tr><th id="167">167</th><td><i>    /// hence the friendship.</i></td></tr>
+<tr><th id="168">168</th><td><i>    ///</i></td></tr>
+<tr><th id="169">169</th><td><i>    /// \return a reference to the OS-specific implementation</i></td></tr>
+<tr><th id="170">170</th><td><i>    ///</i></td></tr>
+<tr><th id="171">171</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="172">172</th><td>    <em>const</em> <span class="namespace">priv::</span><a class="type" href="#sf::priv::CursorImpl" title='sf::priv::CursorImpl' data-ref="sf::priv::CursorImpl">CursorImpl</a>&amp; <dfn class="decl" id="_ZNK2sf6Cursor7getImplEv" title='sf::Cursor::getImpl' data-ref="_ZNK2sf6Cursor7getImplEv">getImpl</dfn>() <em>const</em>;</td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><b>private</b>:</td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="177">177</th><td><i>    // Member data</i></td></tr>
+<tr><th id="178">178</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="179">179</th><td>    <span class="namespace">priv::</span><a class="type" href="#sf::priv::CursorImpl" title='sf::priv::CursorImpl' data-ref="sf::priv::CursorImpl">CursorImpl</a>* <dfn class="decl" id="sf::Cursor::m_impl" title='sf::Cursor::m_impl' data-ref="sf::Cursor::m_impl">m_impl</dfn>; <i class="doc">///&lt; Platform-specific implementation of the cursor</i></td></tr>
+<tr><th id="180">180</th><td>};</td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td><u>#<span data-ppcond="25">endif</span> // SFML_CURSOR_HPP</u></td></tr>
+<tr><th id="186">186</th><td></td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="189">189</th><td><i>/// \class sf::Cursor</i></td></tr>
+<tr><th id="190">190</th><td><i>/// \ingroup window</i></td></tr>
+<tr><th id="191">191</th><td><i>///</i></td></tr>
+<tr><th id="192">192</th><td><i>/// \warning Features related to Cursor are not supported on</i></td></tr>
+<tr><th id="193">193</th><td><i>///          iOS and Android.</i></td></tr>
+<tr><th id="194">194</th><td><i>///</i></td></tr>
+<tr><th id="195">195</th><td><i>/// This class abstracts the operating system resources</i></td></tr>
+<tr><th id="196">196</th><td><i>/// associated with either a native system cursor or a custom</i></td></tr>
+<tr><th id="197">197</th><td><i>/// cursor.</i></td></tr>
+<tr><th id="198">198</th><td><i>///</i></td></tr>
+<tr><th id="199">199</th><td><i>/// After loading the cursor the graphical appearance</i></td></tr>
+<tr><th id="200">200</th><td><i>/// with either loadFromPixels() or loadFromSystem(), the</i></td></tr>
+<tr><th id="201">201</th><td><i>/// cursor can be changed with sf::Window::setMouseCursor().</i></td></tr>
+<tr><th id="202">202</th><td><i>///</i></td></tr>
+<tr><th id="203">203</th><td><i>/// The behaviour is undefined if the cursor is destroyed while</i></td></tr>
+<tr><th id="204">204</th><td><i>/// in use by the window.</i></td></tr>
+<tr><th id="205">205</th><td><i>///</i></td></tr>
+<tr><th id="206">206</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="207">207</th><td><i>/// \code</i></td></tr>
+<tr><th id="208">208</th><td><i>/// sf::Window window;</i></td></tr>
+<tr><th id="209">209</th><td><i>///</i></td></tr>
+<tr><th id="210">210</th><td><i>/// // ... create window as usual ...</i></td></tr>
+<tr><th id="211">211</th><td><i>///</i></td></tr>
+<tr><th id="212">212</th><td><i>/// sf::Cursor cursor;</i></td></tr>
+<tr><th id="213">213</th><td><i>/// if (cursor.loadFromSystem(sf::Cursor::Hand))</i></td></tr>
+<tr><th id="214">214</th><td><i>///     window.setMouseCursor(cursor);</i></td></tr>
+<tr><th id="215">215</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="216">216</th><td><i>///</i></td></tr>
+<tr><th id="217">217</th><td><i>/// \see sf::Window::setMouseCursor</i></td></tr>
+<tr><th id="218">218</th><td><i>///</i></td></tr>
+<tr><th id="219">219</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="220">220</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/RenderWindow.cpp.html'>codebrowser/src/SFML/Graphics/RenderWindow.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

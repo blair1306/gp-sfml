@@ -1,0 +1,4 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='153' ll='157'/>
+<size>16</size>
+<mbr r='sf::SoundFileFactory::WriterFactory::check' o='0' t='bool (*)(const std::string &amp;)'/>
+<mbr r='sf::SoundFileFactory::WriterFactory::create' o='64' t='sf::SoundFileWriter *(*)()'/>

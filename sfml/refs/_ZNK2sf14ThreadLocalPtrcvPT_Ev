@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='82' type='T * sf::ThreadLocalPtr::operator type-parameter-0-0 *() const'/>
+<def f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='53' ll='57' type='T * sf::ThreadLocalPtr::operator type-parameter-0-0 *() const'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='79' u='c' c='_ZN2sf7Context16getActiveContextEv'/>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='75'>////////////////////////////////////////////////////////////
+    /// \brief Conversion operator to implicitly convert the
+    ///        pointer to its raw pointer type (T*)
+    ///
+    /// \return Pointer to the actual object
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='52'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='166' u='c' c='_ZN12_GLOBAL__N_116TransientContextC1Ev'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='461' u='c' c='_ZN2sf4priv9GlContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='479' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='503' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>

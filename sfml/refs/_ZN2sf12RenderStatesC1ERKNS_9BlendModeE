@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='69' type='void sf::RenderStates::RenderStates(const sf::BlendMode &amp; theBlendMode)'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Construct a default set of render states with a custom blend mode
+    ///
+    /// \param theBlendMode Blend mode to use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='37' u='c'/>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='63' ll='69' type='void sf::RenderStates::RenderStates(const sf::BlendMode &amp; theBlendMode)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='62'>////////////////////////////////////////////////////////////</doc>

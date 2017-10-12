@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='146' type='static Vector2i sf::priv::InputImpl::getTouchPosition(unsigned int finger)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='135'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of a touch in desktop coordinates
+    ///
+    /// This function returns the current touch position
+    /// in global (desktop) coordinates.
+    ///
+    /// \param finger Finger index
+    ///
+    /// \return Current position of \a finger, or undefined if it&apos;s not down
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Touch.cpp' l='44' u='c' c='_ZN2sf5Touch11getPositionEj'/>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='313' ll='317' type='static Vector2i sf::priv::InputImpl::getTouchPosition(unsigned int )'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='312'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='313'>/*finger*/</doc>

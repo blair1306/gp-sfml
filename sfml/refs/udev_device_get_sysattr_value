@@ -1,0 +1,2 @@
+<dec f='include/libudev.h' l='108' type='const char * udev_device_get_sysattr_value(struct udev_device * udev_device, const char * sysattr)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='279' u='c' c='_ZN12_GLOBAL__N_115getUsbAttributeEP11udev_deviceRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

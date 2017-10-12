@@ -1,0 +1,4 @@
+_ZN2sf4priv13ThreadFunctor3runEv|sf::priv::ThreadFunctor::run
+_ZN2sf4priv20ThreadFunctorWithArg3runEv|sf::priv::ThreadFunctorWithArg::run
+_ZN2sf4priv16ThreadMemberFunc3runEv|sf::priv::ThreadMemberFunc::run
+_ZN2sf6Thread3runEv|sf::Thread::run

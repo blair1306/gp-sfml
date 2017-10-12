@@ -1,0 +1,2 @@
+<dec f='include/libudev.h' l='90' type='const char * udev_device_get_devpath(struct udev_device * udev_device)'/>
+<doc f='include/libudev.h' l='89'>/* retrieve device properties */</doc>

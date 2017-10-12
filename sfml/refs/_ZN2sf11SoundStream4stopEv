@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='100' type='void sf::SoundStream::stop()'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='50' u='c' c='_ZN2sf5MusicD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='58' u='c' c='_ZN2sf5Music12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='75' u='c' c='_ZN2sf5Music14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='92' u='c' c='_ZN2sf5Music14openFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='163' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='90'>////////////////////////////////////////////////////////////
+    /// \brief Stop playing the audio stream
+    ///
+    /// This function stops the stream if it was playing or paused,
+    /// and does nothing if it was already stopped.
+    /// It also resets the playing position (unlike pause()).
+    ///
+    /// \see play, pause
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='129' u='c' c='_ZN2sf11SoundStream4playEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='157' ll='170' type='void sf::SoundStream::stop()'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='212' u='c' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='156'>////////////////////////////////////////////////////////////</doc>

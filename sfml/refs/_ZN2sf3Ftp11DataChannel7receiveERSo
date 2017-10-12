@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Network/Ftp.cpp' l='56' type='void sf::Ftp::DataChannel::receive(std::ostream &amp; stream)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='220' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='306' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='595' ll='613' type='void sf::Ftp::DataChannel::receive(std::ostream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='55'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='594'>////////////////////////////////////////////////////////////</doc>

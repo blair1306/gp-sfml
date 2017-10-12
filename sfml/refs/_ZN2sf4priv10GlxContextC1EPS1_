@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='54' type='void sf::priv::GlxContext::GlxContext(sf::priv::GlxContext * shared)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='227' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='362' u='c' c='_ZN2sf4priv9GlContext6createEv'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Create a new default context
+    ///
+    /// \param shared Context to share the new one with (can be NULL)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='98' ll='119' type='void sf::priv::GlxContext::GlxContext(sf::priv::GlxContext * shared)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

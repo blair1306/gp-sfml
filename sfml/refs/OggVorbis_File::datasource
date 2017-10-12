@@ -1,0 +1,6 @@
+<dec f='include/vorbis/vorbisfile.h' l='112' type='void *'/>
+<offset>0</offset>
+<doc f='include/vorbis/vorbisfile.h' l='112'>/* Pointer to a FILE *, etc. */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='94' u='w' c='_ZN2sf4priv18SoundFileReaderOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='169' u='r' c='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='172' u='w' c='_ZN2sf4priv18SoundFileReaderOgg5closeEv'/>

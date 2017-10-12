@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='108' type='421'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='106'>// 4xx: the command was not accepted and the requested action did not take place,
+            // but the error condition is temporary and the action may be requested again</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='108'>///&lt; Service not available, closing control connection</doc>

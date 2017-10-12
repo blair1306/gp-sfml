@@ -1,0 +1,14 @@
+<def f='codebrowser/include/SFML/Window/VideoMode.hpp' l='41' ll='105'/>
+<size>12</size>
+<doc f='codebrowser/include/SFML/Window/VideoMode.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief VideoMode defines a video mode (width, height, bpp)
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9VideoModeC1Ev'/>
+<fun r='_ZN2sf9VideoModeC1Ejjj'/>
+<fun r='_ZN2sf9VideoMode14getDesktopModeEv'/>
+<fun r='_ZN2sf9VideoMode18getFullscreenModesEv'/>
+<fun r='_ZNK2sf9VideoMode7isValidEv'/>
+<mbr r='sf::VideoMode::width' o='0' t='unsigned int'/>
+<mbr r='sf::VideoMode::height' o='32' t='unsigned int'/>
+<mbr r='sf::VideoMode::bitsPerPixel' o='64' t='unsigned int'/>

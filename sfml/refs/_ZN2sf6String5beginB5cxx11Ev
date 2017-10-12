@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='479' type='Iterator sf::String::begin()'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='471'>////////////////////////////////////////////////////////////
+    /// \brief Return an iterator to the beginning of the string
+    ///
+    /// \return Read-write iterator to the beginning of the string characters
+    ///
+    /// \see end
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='322' ll='325' type='String::Iterator sf::String::begin()'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='321'>////////////////////////////////////////////////////////////</doc>

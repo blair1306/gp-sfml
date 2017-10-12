@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='207' type='void sf::priv::GlContext::GlContext()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='201'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor is meant for derived classes only.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='528' ll='531' type='void sf::priv::GlContext::GlContext()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='527'>////////////////////////////////////////////////////////////</doc>

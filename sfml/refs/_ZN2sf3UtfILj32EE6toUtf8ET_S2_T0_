@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='631' type='static Out sf::Utf&lt;32&gt;::toUtf8(In begin, In end, Out output)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='610' ll='616' type='static Out sf::Utf&lt;32&gt;::toUtf8(In begin, In end, Out output)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='185' u='c' c='_ZNK2sf6String6toUtf8B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='896' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

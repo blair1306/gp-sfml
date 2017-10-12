@@ -1,0 +1,8 @@
+<dec f='include/x86_64-linux-gnu/sys/ioctl.h' l='41' type='int ioctl(int __fd, unsigned long __request)'/>
+<doc f='include/x86_64-linux-gnu/sys/ioctl.h' l='38'>/* Perform the I/O control operation specified by REQUEST on FD.
+   One argument may follow; its presence and type depend on REQUEST.
+   Return value depends on REQUEST.  Usually -1 indicates error.  */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='408' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='560' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='604' u='c' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='611' u='c' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>

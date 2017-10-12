@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/Mutex.hpp' l='81' type='void sf::Mutex::unlock()'/>
+<doc f='codebrowser/include/SFML/System/Mutex.hpp' l='75'>////////////////////////////////////////////////////////////
+    /// \brief Unlock the mutex
+    ///
+    /// \see lock
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/Lock.cpp' l='45' u='c' c='_ZN2sf4LockD1Ev'/>
+<def f='codebrowser/src/SFML/System/Mutex.cpp' l='61' ll='64' type='void sf::Mutex::unlock()'/>
+<doc f='codebrowser/src/SFML/System/Mutex.cpp' l='60'>////////////////////////////////////////////////////////////</doc>

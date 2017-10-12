@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sensor.hpp source code [codebrowser/include/SFML/Window/Sensor.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Sensor "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Window/Sensor.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='Sensor.hpp.html'>Sensor.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_SENSOR_HPP">SFML_SENSOR_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_SENSOR_HPP" data-ref="_M/SFML_SENSOR_HPP">SFML_SENSOR_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Window/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../System/Vector3.hpp.html">&lt;SFML/System/Vector3.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../System/Time.hpp.html">&lt;SFML/System/Time.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="39">39</th><td><i>/// \brief Give access to the real-time state of the sensors</i></td></tr>
+<tr><th id="40">40</th><td><i>///</i></td></tr>
+<tr><th id="41">41</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="42">42</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_WINDOW_API">SFML_WINDOW_API</a> <dfn class="type def" id="sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</dfn></td></tr>
+<tr><th id="43">43</th><td>{</td></tr>
+<tr><th id="44">44</th><td><b>public</b>:</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><i>    /// \brief Sensor type</i></td></tr>
+<tr><th id="48">48</th><td><i>    ///</i></td></tr>
+<tr><th id="49">49</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="50">50</th><td>    <b>enum</b> <dfn class="type def" id="sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</dfn></td></tr>
+<tr><th id="51">51</th><td>    {</td></tr>
+<tr><th id="52">52</th><td>        <dfn class="enum" id="sf::Sensor::Type::Accelerometer" title='sf::Sensor::Type::Accelerometer' data-ref="sf::Sensor::Type::Accelerometer">Accelerometer</dfn>,    <i class="doc">///&lt; Measures the raw acceleration (m/s^2)</i></td></tr>
+<tr><th id="53">53</th><td>        <dfn class="enum" id="sf::Sensor::Type::Gyroscope" title='sf::Sensor::Type::Gyroscope' data-ref="sf::Sensor::Type::Gyroscope">Gyroscope</dfn>,        <i class="doc">///&lt; Measures the raw rotation rates (degrees/s)</i></td></tr>
+<tr><th id="54">54</th><td>        <dfn class="enum" id="sf::Sensor::Type::Magnetometer" title='sf::Sensor::Type::Magnetometer' data-ref="sf::Sensor::Type::Magnetometer">Magnetometer</dfn>,     <i class="doc">///&lt; Measures the ambient magnetic field (micro-teslas)</i></td></tr>
+<tr><th id="55">55</th><td>        <dfn class="enum" id="sf::Sensor::Type::Gravity" title='sf::Sensor::Type::Gravity' data-ref="sf::Sensor::Type::Gravity">Gravity</dfn>,          <i class="doc">///&lt; Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)</i></td></tr>
+<tr><th id="56">56</th><td>        <dfn class="enum" id="sf::Sensor::Type::UserAcceleration" title='sf::Sensor::Type::UserAcceleration' data-ref="sf::Sensor::Type::UserAcceleration">UserAcceleration</dfn>, <i class="doc">///&lt; Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)</i></td></tr>
+<tr><th id="57">57</th><td>        <dfn class="enum" id="sf::Sensor::Type::Orientation" title='sf::Sensor::Type::Orientation' data-ref="sf::Sensor::Type::Orientation">Orientation</dfn>,      <i class="doc">///&lt; Measures the absolute 3D orientation (degrees)</i></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>        <dfn class="enum" id="sf::Sensor::Type::Count" title='sf::Sensor::Type::Count' data-ref="sf::Sensor::Type::Count">Count</dfn>             <i class="doc">///&lt; Keep last -- the total number of sensor types</i></td></tr>
+<tr><th id="60">60</th><td>    };</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// \brief Check if a sensor is available on the underlying platform</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///</i></td></tr>
+<tr><th id="65">65</th><td><i>    /// \param sensor Sensor to check</i></td></tr>
+<tr><th id="66">66</th><td><i>    ///</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// \return True if the sensor is available, false otherwise</i></td></tr>
+<tr><th id="68">68</th><td><i>    ///</i></td></tr>
+<tr><th id="69">69</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="70">70</th><td>    <em>static</em> <em>bool</em> <a class="decl" href="../../../src/SFML/Window/Sensor.cpp.html#_ZN2sf6Sensor11isAvailableENS0_4TypeE" title='sf::Sensor::isAvailable' data-ref="_ZN2sf6Sensor11isAvailableENS0_4TypeE" id="_ZN2sf6Sensor11isAvailableENS0_4TypeE">isAvailable</a>(<a class="type" href="#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col1 decl" id="1sensor" title='sensor' data-type='sf::Sensor::Type' data-ref="1sensor">sensor</dfn>);</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="73">73</th><td><i>    /// \brief Enable or disable a sensor</i></td></tr>
+<tr><th id="74">74</th><td><i>    ///</i></td></tr>
+<tr><th id="75">75</th><td><i>    /// All sensors are disabled by default, to avoid consuming too</i></td></tr>
+<tr><th id="76">76</th><td><i>    /// much battery power. Once a sensor is enabled, it starts</i></td></tr>
+<tr><th id="77">77</th><td><i>    /// sending events of the corresponding type.</i></td></tr>
+<tr><th id="78">78</th><td><i>    ///</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// This function does nothing if the sensor is unavailable.</i></td></tr>
+<tr><th id="80">80</th><td><i>    ///</i></td></tr>
+<tr><th id="81">81</th><td><i>    /// \param sensor  Sensor to enable</i></td></tr>
+<tr><th id="82">82</th><td><i>    /// \param enabled True to enable, false to disable</i></td></tr>
+<tr><th id="83">83</th><td><i>    ///</i></td></tr>
+<tr><th id="84">84</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="85">85</th><td>    <em>static</em> <em>void</em> <a class="decl" href="../../../src/SFML/Window/Sensor.cpp.html#_ZN2sf6Sensor10setEnabledENS0_4TypeEb" title='sf::Sensor::setEnabled' data-ref="_ZN2sf6Sensor10setEnabledENS0_4TypeEb" id="_ZN2sf6Sensor10setEnabledENS0_4TypeEb">setEnabled</a>(<a class="type" href="#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col2 decl" id="2sensor" title='sensor' data-type='sf::Sensor::Type' data-ref="2sensor">sensor</dfn>, <em>bool</em> <dfn class="local col3 decl" id="3enabled" title='enabled' data-type='bool' data-ref="3enabled">enabled</dfn>);</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="88">88</th><td><i>    /// \brief Get the current sensor value</i></td></tr>
+<tr><th id="89">89</th><td><i>    ///</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \param sensor Sensor to read</i></td></tr>
+<tr><th id="91">91</th><td><i>    ///</i></td></tr>
+<tr><th id="92">92</th><td><i>    /// \return The current sensor value</i></td></tr>
+<tr><th id="93">93</th><td><i>    ///</i></td></tr>
+<tr><th id="94">94</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="95">95</th><td>    <em>static</em> <a class="typedef" href="../System/Vector3.hpp.html#sf::Vector3f" title='sf::Vector3f' data-type='Vector3&lt;float&gt;' data-ref="sf::Vector3f">Vector3f</a> <a class="decl" href="../../../src/SFML/Window/Sensor.cpp.html#_ZN2sf6Sensor8getValueENS0_4TypeE" title='sf::Sensor::getValue' data-ref="_ZN2sf6Sensor8getValueENS0_4TypeE" id="_ZN2sf6Sensor8getValueENS0_4TypeE">getValue</a>(<a class="type" href="#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col4 decl" id="4sensor" title='sensor' data-type='sf::Sensor::Type' data-ref="4sensor">sensor</dfn>);</td></tr>
+<tr><th id="96">96</th><td>};</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="25">endif</span> // SFML_SENSOR_HPP</u></td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="105">105</th><td><i>/// \class sf::Sensor</i></td></tr>
+<tr><th id="106">106</th><td><i>/// \ingroup window</i></td></tr>
+<tr><th id="107">107</th><td><i>///</i></td></tr>
+<tr><th id="108">108</th><td><i>/// sf::Sensor provides an interface to the state of the</i></td></tr>
+<tr><th id="109">109</th><td><i>/// various sensors that a device provides. It only contains static</i></td></tr>
+<tr><th id="110">110</th><td><i>/// functions, so it's not meant to be instantiated.</i></td></tr>
+<tr><th id="111">111</th><td><i>///</i></td></tr>
+<tr><th id="112">112</th><td><i>/// This class allows users to query the sensors values at any</i></td></tr>
+<tr><th id="113">113</th><td><i>/// time and directly, without having to deal with a window and</i></td></tr>
+<tr><th id="114">114</th><td><i>/// its events. Compared to the SensorChanged event, sf::Sensor</i></td></tr>
+<tr><th id="115">115</th><td><i>/// can retrieve the state of a sensor at any time (you don't need to</i></td></tr>
+<tr><th id="116">116</th><td><i>/// store and update its current value on your side).</i></td></tr>
+<tr><th id="117">117</th><td><i>///</i></td></tr>
+<tr><th id="118">118</th><td><i>/// Depending on the OS and hardware of the device (phone, tablet, ...),</i></td></tr>
+<tr><th id="119">119</th><td><i>/// some sensor types may not be available. You should always check</i></td></tr>
+<tr><th id="120">120</th><td><i>/// the availability of a sensor before trying to read it, with the</i></td></tr>
+<tr><th id="121">121</th><td><i>/// sf::Sensor::isAvailable function.</i></td></tr>
+<tr><th id="122">122</th><td><i>///</i></td></tr>
+<tr><th id="123">123</th><td><i>/// You may wonder why some sensor types look so similar, for example</i></td></tr>
+<tr><th id="124">124</th><td><i>/// Accelerometer and Gravity / UserAcceleration. The first one</i></td></tr>
+<tr><th id="125">125</th><td><i>/// is the raw measurement of the acceleration, and takes into account</i></td></tr>
+<tr><th id="126">126</th><td><i>/// both the earth gravity and the user movement. The others are</i></td></tr>
+<tr><th id="127">127</th><td><i>/// more precise: they provide these components separately, which is</i></td></tr>
+<tr><th id="128">128</th><td><i>/// usually more useful. In fact they are not direct sensors, they</i></td></tr>
+<tr><th id="129">129</th><td><i>/// are computed internally based on the raw acceleration and other sensors.</i></td></tr>
+<tr><th id="130">130</th><td><i>/// This is exactly the same for Gyroscope vs Orientation.</i></td></tr>
+<tr><th id="131">131</th><td><i>///</i></td></tr>
+<tr><th id="132">132</th><td><i>/// Because sensors consume a non-negligible amount of current, they are</i></td></tr>
+<tr><th id="133">133</th><td><i>/// all disabled by default. You must call sf::Sensor::setEnabled for each</i></td></tr>
+<tr><th id="134">134</th><td><i>/// sensor in which you are interested.</i></td></tr>
+<tr><th id="135">135</th><td><i>///</i></td></tr>
+<tr><th id="136">136</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="137">137</th><td><i>/// \code</i></td></tr>
+<tr><th id="138">138</th><td><i>/// if (sf::Sensor::isAvailable(sf::Sensor::Gravity))</i></td></tr>
+<tr><th id="139">139</th><td><i>/// {</i></td></tr>
+<tr><th id="140">140</th><td><i>///     // gravity sensor is available</i></td></tr>
+<tr><th id="141">141</th><td><i>/// }</i></td></tr>
+<tr><th id="142">142</th><td><i>///</i></td></tr>
+<tr><th id="143">143</th><td><i>/// // enable the gravity sensor</i></td></tr>
+<tr><th id="144">144</th><td><i>/// sf::Sensor::setEnabled(sf::Sensor::Gravity, true);</i></td></tr>
+<tr><th id="145">145</th><td><i>///</i></td></tr>
+<tr><th id="146">146</th><td><i>/// // get the current value of gravity</i></td></tr>
+<tr><th id="147">147</th><td><i>/// sf::Vector3f gravity = sf::Sensor::getValue(sf::Sensor::Gravity);</i></td></tr>
+<tr><th id="148">148</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="149">149</th><td><i>///</i></td></tr>
+<tr><th id="150">150</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="151">151</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Window/Sensor.cpp.html'>codebrowser/src/SFML/Window/Sensor.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='107' type='void sf::UdpSocket::unbind()'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='89' ll='93' type='void sf::UdpSocket::unbind()'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='88'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Unbind the socket from the local port to which it is bound
+    ///
+    /// The port that the socket was previously bound to is immediately
+    /// made available to the operating system after this function is called.
+    /// This means that a subsequent call to bind() will be able to re-bind
+    /// the port if no other process has done so in the mean time.
+    /// If the socket is not bound to a port, this function has no effect.
+    ///
+    /// \see bind
+    ///
+    ////////////////////////////////////////////////////////////</doc>

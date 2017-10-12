@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='590' type='static Out sf::Utf&lt;32&gt;::toAnsi(In begin, In end, Out output, char replacement = 0, const std::locale &amp; locale = std::locale())'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='572' ll='578' type='static Out sf::Utf&lt;32&gt;::toAnsi(In begin, In end, Out output, char replacement = 0, const std::locale &amp; locale = std::locale())'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='157' u='c' c='_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale'/>

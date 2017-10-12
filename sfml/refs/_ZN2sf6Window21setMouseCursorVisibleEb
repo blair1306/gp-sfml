@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='350' type='void sf::Window::setMouseCursorVisible(bool visible)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='342'>////////////////////////////////////////////////////////////
+    /// \brief Show or hide the mouse cursor
+    ///
+    /// The mouse cursor is visible by default.
+    ///
+    /// \param visible True to show the mouse cursor, false to hide it
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='284' ll='288' type='void sf::Window::setMouseCursorVisible(bool visible)'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='431' u='c' c='_ZN2sf6Window10initializeEv'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='283'>////////////////////////////////////////////////////////////</doc>

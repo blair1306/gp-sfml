@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='146' type='float'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='146'>///&lt; New position on the axis (in range [-100 .. 100])</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='197' u='w' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

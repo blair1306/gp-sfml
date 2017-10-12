@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Graphics/Shader.hpp' l='74'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='67'>////////////////////////////////////////////////////////////
+    /// \brief Special type that can be passed to setUniform(),
+    ///        and that represents the texture of the object being drawn
+    ///
+    /// \see setUniform(const std::string&amp;, CurrentTextureType)
+    ///
+    ////////////////////////////////////////////////////////////</doc>

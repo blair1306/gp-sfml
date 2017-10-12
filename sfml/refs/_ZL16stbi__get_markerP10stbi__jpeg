@@ -1,0 +1,10 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2607' ll='2616' type='stbi_uc stbi__get_marker(stbi__jpeg * j)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3049' u='c' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3052' u='c' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3055' u='c' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3059' u='c' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3077' u='c' c='_ZL23stbi__decode_jpeg_imageP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3101' u='c' c='_ZL23stbi__decode_jpeg_imageP10stbi__jpeg'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2604'>// if there&apos;s a pending marker from the entropy stream, return that
+// otherwise, fetch from the stream and get a marker. if there&apos;s no
+// marker, return 0xff, which is never a valid marker value</doc>

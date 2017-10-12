@@ -1,0 +1,10 @@
+<def f='include/c++/5/bits/basic_string.h' l='807' ll='809' type='void std::__cxx11::basic_string::clear()'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='282' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/c++/5/bits/basic_string.h' l='804'>/**
+       *  Erases the string, making it empty.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='408' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='241' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='292' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='336' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='245' u='c' c='_ZN2sf6String5clearEv'/>

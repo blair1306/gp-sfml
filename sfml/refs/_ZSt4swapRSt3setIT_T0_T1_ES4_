@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/stl_set.h' l='893' ll='895' type='void std::swap(set&lt;_Key, _Compare, _Alloc&gt; &amp; __x, set&lt;_Key, _Compare, _Alloc&gt; &amp; __y)'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='211' u='c' c='_ZN2sf11SoundBufferaSERKS0_'/>

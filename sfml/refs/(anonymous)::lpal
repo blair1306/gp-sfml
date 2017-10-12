@@ -1,0 +1,4 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6044' type='stbi_uc [256][4]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6324' u='r' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6325' u='r' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<offset>8576</offset>

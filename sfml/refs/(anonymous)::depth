@@ -1,0 +1,39 @@
+<dec f='include/FLAC/format.h' l='797' type='FLAC__uint32'/>
+<offset>256</offset>
+<doc f='include/FLAC/format.h' l='795'>/**&lt; Picture&apos;s height in pixels. */</doc>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4243' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4711' u='w' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4711' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4711' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4711' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4711' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4711' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4713' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4761' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4764' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4796' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4805' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4807' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4857' u='r' c='_ZL12stbi__do_pngP9stbi__pngPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4860' u='r' c='_ZL12stbi__do_pngP9stbi__pngPiS1_S1_iP17stbi__result_info'/>
+<offset>256</offset>
+<dec f='include/X11/Xlib.h' l='172' type='int'/>
+<dec f='include/X11/Xlib.h' l='244' type='int'/>
+<dec f='include/X11/Xlib.h' l='282' type='int'/>
+<dec f='include/X11/Xlib.h' l='312' type='int'/>
+<offset>160</offset>
+<doc f='include/X11/Xlib.h' l='244'>/* this depth (Z) of the depth */</doc>
+<doc f='include/X11/Xlib.h' l='282'>/* depth of this image format */</doc>
+<doc f='include/X11/Xlib.h' l='312'>/* depth of window */</doc>
+<dec f='include/X11/Xutil.h' l='291' type='int'/>
+<offset>160</offset>
+<dec f='include/X11/extensions/Xrender.h' l='49' type='int'/>
+<offset>96</offset>
+<dec f='include/X11/Xproto.h' l='315' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='325' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='468' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='715' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1337' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1610' type='CARD8'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='577' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<offset>8</offset>

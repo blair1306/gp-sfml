@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='229' type='sf::Event::MouseWheelScrollEvent'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='229'>///&lt; Mouse wheel event parameters (Event::MouseWheelScrolled)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1872' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1873' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1874' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1875' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1882' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1883' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1884' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1885' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

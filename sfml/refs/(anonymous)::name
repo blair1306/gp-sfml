@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='1031' type='Atom'/>
+<offset>0</offset>
+<dec f='include/X11/Xproto.h' l='388' type='CARD32'/>
+<offset>0</offset>

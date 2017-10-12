@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Graphics/Font.hpp' l='272' ll='279'/>
+<size>12</size>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='268'>////////////////////////////////////////////////////////////
+    /// \brief Structure defining a row of glyphs
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4Font3RowC1Ejj'/>
+<mbr r='sf::Font::Row::width' o='0' t='unsigned int'/>
+<mbr r='sf::Font::Row::top' o='32' t='unsigned int'/>
+<mbr r='sf::Font::Row::height' o='64' t='unsigned int'/>

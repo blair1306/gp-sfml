@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Glsl.hpp source code [codebrowser/include/SFML/Graphics/Glsl.hpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Graphics/Glsl.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='Glsl.hpp.html'>Glsl.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_GLSL_HPP">SFML_GLSL_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_GLSL_HPP" data-ref="_M/SFML_GLSL_HPP">SFML_GLSL_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Transform.hpp.html">&lt;SFML/Graphics/Transform.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Color.hpp.html">&lt;SFML/Graphics/Color.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../System/Vector2.hpp.html">&lt;SFML/System/Vector2.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../System/Vector3.hpp.html">&lt;SFML/System/Vector3.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td>    <i>// Forward declarations</i></td></tr>
+<tr><th id="42">42</th><td>    <b>template</b> &lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> Columns, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> Rows&gt;</td></tr>
+<tr><th id="43">43</th><td>    <b>struct</b> <a class="type" href="Glsl.inl.html#sf::priv::Matrix" title='sf::priv::Matrix' data-ref="sf::priv::Matrix" id="sf::priv::Matrix">Matrix</a>;</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>    <b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="46">46</th><td>    <b>struct</b> <a class="type" href="Glsl.inl.html#sf::priv::Vector4" title='sf::priv::Vector4' data-ref="sf::priv::Vector4" id="sf::priv::Vector4">Vector4</a>;</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><u>#include <a href="Glsl.inl.html">&lt;SFML/Graphics/Glsl.inl&gt;</a></u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td>} <i>// namespace priv</i></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="54">54</th><td><i>/// \brief Namespace with GLSL types</i></td></tr>
+<tr><th id="55">55</th><td><i>///</i></td></tr>
+<tr><th id="56">56</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="57">57</th><td><b>namespace</b> <span class="namespace">Glsl</span></td></tr>
+<tr><th id="58">58</th><td>{</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="61">61</th><td><i>    /// \brief 2D float vector (\p vec2 in GLSL)</i></td></tr>
+<tr><th id="62">62</th><td><i>    ///</i></td></tr>
+<tr><th id="63">63</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="64">64</th><td>    <b>typedef</b> <a class="type" href="../System/Vector2.hpp.html#sf::Vector2" title='sf::Vector2' data-ref="sf::Vector2">Vector2</a>&lt;<em>float</em>&gt; <dfn class="typedef" id="sf::Glsl::Vec2" title='sf::Glsl::Vec2' data-type='Vector2&lt;float&gt;' data-ref="sf::Glsl::Vec2">Vec2</dfn>;</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// \brief 2D int vector (\p ivec2 in GLSL)</i></td></tr>
+<tr><th id="68">68</th><td><i>    ///</i></td></tr>
+<tr><th id="69">69</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="70">70</th><td>    <b>typedef</b> <a class="type" href="../System/Vector2.hpp.html#sf::Vector2" title='sf::Vector2' data-ref="sf::Vector2">Vector2</a>&lt;<em>int</em>&gt; <dfn class="typedef" id="sf::Glsl::Ivec2" title='sf::Glsl::Ivec2' data-type='Vector2&lt;int&gt;' data-ref="sf::Glsl::Ivec2">Ivec2</dfn>;</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="73">73</th><td><i>    /// \brief 2D bool vector (\p bvec2 in GLSL)</i></td></tr>
+<tr><th id="74">74</th><td><i>    ///</i></td></tr>
+<tr><th id="75">75</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="76">76</th><td>    <b>typedef</b> <a class="type" href="../System/Vector2.hpp.html#sf::Vector2" title='sf::Vector2' data-ref="sf::Vector2">Vector2</a>&lt;<em>bool</em>&gt; <dfn class="typedef" id="sf::Glsl::Bvec2" title='sf::Glsl::Bvec2' data-type='Vector2&lt;bool&gt;' data-ref="sf::Glsl::Bvec2">Bvec2</dfn>;</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// \brief 3D float vector (\p vec3 in GLSL)</i></td></tr>
+<tr><th id="80">80</th><td><i>    ///</i></td></tr>
+<tr><th id="81">81</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="82">82</th><td>    <b>typedef</b> <a class="type" href="../System/Vector3.hpp.html#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;<em>float</em>&gt; <dfn class="typedef" id="sf::Glsl::Vec3" title='sf::Glsl::Vec3' data-type='Vector3&lt;float&gt;' data-ref="sf::Glsl::Vec3">Vec3</dfn>;</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="85">85</th><td><i>    /// \brief 3D int vector (\p ivec3 in GLSL)</i></td></tr>
+<tr><th id="86">86</th><td><i>    ///</i></td></tr>
+<tr><th id="87">87</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="88">88</th><td>    <b>typedef</b> <a class="type" href="../System/Vector3.hpp.html#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;<em>int</em>&gt; <dfn class="typedef" id="sf::Glsl::Ivec3" title='sf::Glsl::Ivec3' data-type='Vector3&lt;int&gt;' data-ref="sf::Glsl::Ivec3">Ivec3</dfn>;</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="91">91</th><td><i>    /// \brief 3D bool vector (\p bvec3 in GLSL)</i></td></tr>
+<tr><th id="92">92</th><td><i>    ///</i></td></tr>
+<tr><th id="93">93</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="94">94</th><td>    <b>typedef</b> <a class="type" href="../System/Vector3.hpp.html#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;<em>bool</em>&gt; <dfn class="typedef" id="sf::Glsl::Bvec3" title='sf::Glsl::Bvec3' data-type='Vector3&lt;bool&gt;' data-ref="sf::Glsl::Bvec3">Bvec3</dfn>;</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><u>#<span data-ppcond="96">ifdef</span> <span class="macro" data-ref="_M/SFML_DOXYGEN">SFML_DOXYGEN</span></u></td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="99">99</th><td><i>    /// \brief 4D float vector (\p vec4 in GLSL)</i></td></tr>
+<tr><th id="100">100</th><td><i>    ///</i></td></tr>
+<tr><th id="101">101</th><td><i>    /// 4D float vectors can be implicitly converted from sf::Color</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// instances. Each color channel is normalized from integers</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// in [0, 255] to floating point values in [0, 1].</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \code</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// sf::Glsl::Vec4 zeroVector;</i></td></tr>
+<tr><th id="106">106</th><td><i>    /// sf::Glsl::Vec4 vector(1.f, 2.f, 3.f, 4.f);</i></td></tr>
+<tr><th id="107">107</th><td><i>    /// sf::Glsl::Vec4 color = sf::Color::Cyan;</i></td></tr>
+<tr><th id="108">108</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="109">109</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="110">110</th><td>    <b>typedef</b> implementation-defined Vec4;</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="113">113</th><td><i>    /// \brief 4D int vector (\p ivec4 in GLSL)</i></td></tr>
+<tr><th id="114">114</th><td><i>    ///</i></td></tr>
+<tr><th id="115">115</th><td><i>    /// 4D int vectors can be implicitly converted from sf::Color</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// instances. Each color channel remains unchanged inside</i></td></tr>
+<tr><th id="117">117</th><td><i>    /// the integer interval [0, 255].</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// \code</i></td></tr>
+<tr><th id="119">119</th><td><i>    /// sf::Glsl::Ivec4 zeroVector;</i></td></tr>
+<tr><th id="120">120</th><td><i>    /// sf::Glsl::Ivec4 vector(1, 2, 3, 4);</i></td></tr>
+<tr><th id="121">121</th><td><i>    /// sf::Glsl::Ivec4 color = sf::Color::Cyan;</i></td></tr>
+<tr><th id="122">122</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="123">123</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="124">124</th><td>    <b>typedef</b> implementation-defined Ivec4;</td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="127">127</th><td><i>    /// \brief 4D bool vector (\p bvec4 in GLSL)</i></td></tr>
+<tr><th id="128">128</th><td><i>    ///</i></td></tr>
+<tr><th id="129">129</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="130">130</th><td>    <b>typedef</b> implementation-defined Bvec4;</td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="133">133</th><td><i>    /// \brief 3x3 float matrix (\p mat3 in GLSL)</i></td></tr>
+<tr><th id="134">134</th><td><i>    ///</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// The matrix can be constructed from an array with 3x3</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// elements, aligned in column-major order. For example,</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// a translation by (x, y) looks as follows:</i></td></tr>
+<tr><th id="138">138</th><td><i>    /// \code</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// float array[9] =</i></td></tr>
+<tr><th id="140">140</th><td><i>    /// {</i></td></tr>
+<tr><th id="141">141</th><td><i>    ///     1, 0, 0,</i></td></tr>
+<tr><th id="142">142</th><td><i>    ///     0, 1, 0,</i></td></tr>
+<tr><th id="143">143</th><td><i>    ///     x, y, 1</i></td></tr>
+<tr><th id="144">144</th><td><i>    /// };</i></td></tr>
+<tr><th id="145">145</th><td><i>    ///</i></td></tr>
+<tr><th id="146">146</th><td><i>    /// sf::Glsl::Mat3 matrix(array);</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="148">148</th><td><i>    ///</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// Mat3 can also be implicitly converted from sf::Transform:</i></td></tr>
+<tr><th id="150">150</th><td><i>    /// \code</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// sf::Transform transform;</i></td></tr>
+<tr><th id="152">152</th><td><i>    /// sf::Glsl::Mat3 matrix = transform;</i></td></tr>
+<tr><th id="153">153</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="154">154</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="155">155</th><td>    <b>typedef</b> implementation-defined Mat3;</td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="158">158</th><td><i>    /// \brief 4x4 float matrix (\p mat4 in GLSL)</i></td></tr>
+<tr><th id="159">159</th><td><i>    ///</i></td></tr>
+<tr><th id="160">160</th><td><i>    /// The matrix can be constructed from an array with 4x4</i></td></tr>
+<tr><th id="161">161</th><td><i>    /// elements, aligned in column-major order. For example,</i></td></tr>
+<tr><th id="162">162</th><td><i>    /// a translation by (x, y, z) looks as follows:</i></td></tr>
+<tr><th id="163">163</th><td><i>    /// \code</i></td></tr>
+<tr><th id="164">164</th><td><i>    /// float array[16] =</i></td></tr>
+<tr><th id="165">165</th><td><i>    /// {</i></td></tr>
+<tr><th id="166">166</th><td><i>    ///     1, 0, 0, 0,</i></td></tr>
+<tr><th id="167">167</th><td><i>    ///     0, 1, 0, 0,</i></td></tr>
+<tr><th id="168">168</th><td><i>    ///     0, 0, 1, 0,</i></td></tr>
+<tr><th id="169">169</th><td><i>    ///     x, y, z, 1</i></td></tr>
+<tr><th id="170">170</th><td><i>    /// };</i></td></tr>
+<tr><th id="171">171</th><td><i>    ///</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// sf::Glsl::Mat4 matrix(array);</i></td></tr>
+<tr><th id="173">173</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="174">174</th><td><i>    ///</i></td></tr>
+<tr><th id="175">175</th><td><i>    /// Mat4 can also be implicitly converted from sf::Transform:</i></td></tr>
+<tr><th id="176">176</th><td><i>    /// \code</i></td></tr>
+<tr><th id="177">177</th><td><i>    /// sf::Transform transform;</i></td></tr>
+<tr><th id="178">178</th><td><i>    /// sf::Glsl::Mat4 matrix = transform;</i></td></tr>
+<tr><th id="179">179</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="180">180</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="181">181</th><td>    <b>typedef</b> implementation-defined Mat4;</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td><u>#<span data-ppcond="96">else</span> // SFML_DOXYGEN</u></td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td>    <b>typedef</b> <span class="namespace">priv::</span><a class="type" href="#sf::priv::Vector4" title='sf::priv::Vector4' data-ref="sf::priv::Vector4">Vector4</a>&lt;<em>float</em>&gt; <dfn class="typedef" id="sf::Glsl::Vec4" title='sf::Glsl::Vec4' data-type='priv::Vector4&lt;float&gt;' data-ref="sf::Glsl::Vec4">Vec4</dfn>;</td></tr>
+<tr><th id="186">186</th><td>    <b>typedef</b> <span class="namespace">priv::</span><a class="type" href="#sf::priv::Vector4" title='sf::priv::Vector4' data-ref="sf::priv::Vector4">Vector4</a>&lt;<em>int</em>&gt; <dfn class="typedef" id="sf::Glsl::Ivec4" title='sf::Glsl::Ivec4' data-type='priv::Vector4&lt;int&gt;' data-ref="sf::Glsl::Ivec4">Ivec4</dfn>;</td></tr>
+<tr><th id="187">187</th><td>    <b>typedef</b> <span class="namespace">priv::</span><a class="type" href="#sf::priv::Vector4" title='sf::priv::Vector4' data-ref="sf::priv::Vector4">Vector4</a>&lt;<em>bool</em>&gt; <dfn class="typedef" id="sf::Glsl::Bvec4" title='sf::Glsl::Bvec4' data-type='priv::Vector4&lt;bool&gt;' data-ref="sf::Glsl::Bvec4">Bvec4</dfn>;</td></tr>
+<tr><th id="188">188</th><td>    <b>typedef</b> <span class="namespace">priv::</span><a class="type" href="#sf::priv::Matrix" title='sf::priv::Matrix' data-ref="sf::priv::Matrix">Matrix</a>&lt;<var>3</var>, <var>3</var>&gt; <dfn class="typedef" id="sf::Glsl::Mat3" title='sf::Glsl::Mat3' data-type='priv::Matrix&lt;3, 3&gt;' data-ref="sf::Glsl::Mat3">Mat3</dfn>;</td></tr>
+<tr><th id="189">189</th><td>    <b>typedef</b> <span class="namespace">priv::</span><a class="type" href="#sf::priv::Matrix" title='sf::priv::Matrix' data-ref="sf::priv::Matrix">Matrix</a>&lt;<var>4</var>, <var>4</var>&gt; <dfn class="typedef" id="sf::Glsl::Mat4" title='sf::Glsl::Mat4' data-type='priv::Matrix&lt;4, 4&gt;' data-ref="sf::Glsl::Mat4">Mat4</dfn>;</td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td><u>#<span data-ppcond="96">endif</span> // SFML_DOXYGEN</u></td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td>} <i>// namespace Glsl</i></td></tr>
+<tr><th id="194">194</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td><u>#<span data-ppcond="25">endif</span> // SFML_GLSL_HPP</u></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td></td></tr>
+<tr><th id="199">199</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="200">200</th><td><i>/// \namespace sf::Glsl</i></td></tr>
+<tr><th id="201">201</th><td><i>/// \ingroup graphics</i></td></tr>
+<tr><th id="202">202</th><td><i>///</i></td></tr>
+<tr><th id="203">203</th><td><i>/// \details The sf::Glsl namespace contains types that match</i></td></tr>
+<tr><th id="204">204</th><td><i>/// their equivalents in GLSL, the OpenGL shading language.</i></td></tr>
+<tr><th id="205">205</th><td><i>/// These types are exclusively used by the sf::Shader class.</i></td></tr>
+<tr><th id="206">206</th><td><i>///</i></td></tr>
+<tr><th id="207">207</th><td><i>/// Types that already exist in SFML, such as \ref sf::Vector2&lt;T&gt;</i></td></tr>
+<tr><th id="208">208</th><td><i>/// and \ref sf::Vector3&lt;T&gt;, are reused as typedefs, so you can use</i></td></tr>
+<tr><th id="209">209</th><td><i>/// the types in this namespace as well as the original ones.</i></td></tr>
+<tr><th id="210">210</th><td><i>/// Others are newly defined, such as Glsl::Vec4 or Glsl::Mat3. Their</i></td></tr>
+<tr><th id="211">211</th><td><i>/// actual type is an implementation detail and should not be used.</i></td></tr>
+<tr><th id="212">212</th><td><i>///</i></td></tr>
+<tr><th id="213">213</th><td><i>/// All vector types support a default constructor that</i></td></tr>
+<tr><th id="214">214</th><td><i>/// initializes every component to zero, in addition to a</i></td></tr>
+<tr><th id="215">215</th><td><i>/// constructor with one parameter for each component.</i></td></tr>
+<tr><th id="216">216</th><td><i>/// The components are stored in member variables called</i></td></tr>
+<tr><th id="217">217</th><td><i>/// x, y, z, and w.</i></td></tr>
+<tr><th id="218">218</th><td><i>///</i></td></tr>
+<tr><th id="219">219</th><td><i>/// All matrix types support a constructor with a float*</i></td></tr>
+<tr><th id="220">220</th><td><i>/// parameter that points to a float array of the appropriate</i></td></tr>
+<tr><th id="221">221</th><td><i>/// size (that is, 9 in a 3x3 matrix, 16 in a 4x4 matrix).</i></td></tr>
+<tr><th id="222">222</th><td><i>/// Furthermore, they can be converted from sf::Transform</i></td></tr>
+<tr><th id="223">223</th><td><i>/// objects.</i></td></tr>
+<tr><th id="224">224</th><td><i>///</i></td></tr>
+<tr><th id="225">225</th><td><i>/// \see sf::Shader</i></td></tr>
+<tr><th id="226">226</th><td><i>///</i></td></tr>
+<tr><th id="227">227</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="228">228</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/Glsl.cpp.html'>codebrowser/src/SFML/Graphics/Glsl.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

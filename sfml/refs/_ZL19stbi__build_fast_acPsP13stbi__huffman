@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1749' ll='1772' type='void stbi__build_fast_ac(stbi__int16 * fast_ac, stbi__huffman * h)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2838' u='c' c='_ZL20stbi__process_markerP10stbi__jpegi'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1747'>// build a table that decodes both magnitude and value of small ACs in
+// one go.</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='423' type='static Out sf::Utf&lt;16&gt;::toUtf8(In begin, In end, Out output)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='468' ll='478' type='static Out sf::Utf&lt;16&gt;::toUtf8(In begin, In end, Out output)'/>

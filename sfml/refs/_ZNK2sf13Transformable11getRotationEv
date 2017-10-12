@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='184' type='float sf::Transformable::getRotation() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='174'>////////////////////////////////////////////////////////////
+    /// \brief get the orientation of the object
+    ///
+    /// The rotation is always in the range [0, 360].
+    ///
+    /// \return Current rotation, in degrees
+    ///
+    /// \see setRotation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='125' ll='128' type='float sf::Transformable::getRotation() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='124'>////////////////////////////////////////////////////////////</doc>

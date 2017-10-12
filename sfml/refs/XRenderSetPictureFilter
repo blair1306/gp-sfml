@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='485' type='void XRenderSetPictureFilter(Display * dpy, Picture picture, const char * filter, XFixed * params, int nparams)'/>

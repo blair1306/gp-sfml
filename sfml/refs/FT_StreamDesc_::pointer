@@ -1,0 +1,4 @@
+<dec f='include/freetype2/freetype/ftsystem.h' l='216' type='void *'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='50' u='r' c='_ZN12_GLOBAL__N_14readEP13FT_StreamRec_mPhm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='270' u='w' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<offset>0</offset>

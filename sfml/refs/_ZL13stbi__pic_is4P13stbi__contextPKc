@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5819' ll='5827' type='int stbi__pic_is4(stbi__context * s, const char * str)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5833' u='c' c='_ZL19stbi__pic_test_coreP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5839' u='c' c='_ZL19stbi__pic_test_coreP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6713' u='c' c='_ZL14stbi__pic_infoP13stbi__contextPiS1_S1_'/>

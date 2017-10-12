@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='72' u='c' c='_ZN2sf8Joystick17getIdentificationEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='637' u='c' c='_ZNK2sf4priv12JoystickImpl17getIdentificationEv'/>

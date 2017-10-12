@@ -1,0 +1,16 @@
+<dec f='include/GL/glx.h' l='214' type='int glXGetConfig(Display * dpy, XVisualInfo * visual, int attrib, int * value)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='328' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='334' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='335' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='336' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='337' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='338' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='339' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='343' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='344' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='354' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='396' u='c' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='397' u='c' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='401' u='c' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='402' u='c' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='412' u='c' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>

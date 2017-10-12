@@ -1,0 +1,13 @@
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='266' u='c' c='_ZNK2sf5Music13samplesToTimeEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='268' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='257' u='c' c='_ZN2sf13SoundRecorder21setProcessingIntervalENS_4TimeE'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='58' u='c' c='_ZN2sf5Clock7restartEv'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='152' u='c' c='_ZN2sfpLERNS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='166' u='c' c='_ZN2sfmIERNS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='201' u='c' c='_ZN2sfmLERNS_4TimeEf'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='208' u='c' c='_ZN2sfmLERNS_4TimeEx'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='229' u='c' c='_ZN2sfdVERNS_4TimeEf'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='236' u='c' c='_ZN2sfdVERNS_4TimeEx'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='257' u='c' c='_ZN2sfrMERNS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='319' u='c' c='_ZN2sf6Window17setFramerateLimitEj'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='321' u='c' c='_ZN2sf6Window17setFramerateLimitEj'/>

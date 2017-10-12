@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='69' type='bool sf::priv::ImageLoader::loadImageFromFile(const std::string &amp; filename, std::vector&lt;Uint8&gt; &amp; pixels, Vector2u &amp; size)'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='134' u='c' c='_ZN2sf5Image12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Load an image from a file on disk
+    ///
+    /// \param filename Path of image file to load
+    /// \param pixels   Array of pixels to fill with loaded image
+    /// \param size     Size of loaded image, in pixels
+    ///
+    /// \return True if loading was successful
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='95' ll='131' type='bool sf::priv::ImageLoader::loadImageFromFile(const std::string &amp; filename, std::vector&lt;Uint8&gt; &amp; pixels, Vector2u &amp; size)'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='94'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='207' type='1'/>
+<doc f='include/FLAC/stream_decoder.h' l='205'>/**&lt; The decoder is ready to search for metadata. */</doc>

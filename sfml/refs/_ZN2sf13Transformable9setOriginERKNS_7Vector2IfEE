@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='162' type='void sf::Transformable::setOrigin(const Vector2f &amp; origin)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='147'>////////////////////////////////////////////////////////////
+    /// \brief set the local origin of the object
+    ///
+    /// The origin of an object defines the center point for
+    /// all transformations (position, scale, rotation).
+    /// The coordinates of this point must be relative to the
+    /// top-left corner of the object, and ignore all
+    /// transformations (position, scale, rotation).
+    /// The default origin of a transformable object is (0, 0).
+    ///
+    /// \param origin New origin
+    ///
+    /// \see getOrigin
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='111' ll='114' type='void sf::Transformable::setOrigin(const Vector2f &amp; origin)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='110'>////////////////////////////////////////////////////////////</doc>

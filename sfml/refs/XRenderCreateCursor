@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='476' type='Cursor XRenderCreateCursor(Display * dpy, Picture source, unsigned int x, unsigned int y)'/>

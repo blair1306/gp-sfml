@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3839' ll='3843' macro='1' type='stbi_uc stbi__zget8(stbi__zbuf * z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3849' u='c' c='_ZL15stbi__fill_bitsP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4036' u='c' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4051' u='c' c='_ZL23stbi__parse_zlib_headerP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4054' u='c' c='_ZL23stbi__parse_zlib_headerP10stbi__zbuf'/>

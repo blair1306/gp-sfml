@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='187' type='const sf::ContextSettings &amp; sf::Window::getSettings() const'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='176'>////////////////////////////////////////////////////////////
+    /// \brief Get the settings of the OpenGL context of the window
+    ///
+    /// Note that these settings may be different from what was
+    /// passed to the constructor or the create() function,
+    /// if one or more settings were not supported. In this case,
+    /// SFML chose the closest match.
+    ///
+    /// \return Structure containing the OpenGL context settings
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='176' ll='181' type='const sf::ContextSettings &amp; sf::Window::getSettings() const'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='175'>////////////////////////////////////////////////////////////</doc>

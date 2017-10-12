@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='182' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(Int32 &amp; data)'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='167' ll='176' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(Int32 &amp; data)'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='166'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='240' type='1'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='281' u='r' c='_ZN2sf4priv10GlxContext22setVerticalSyncEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='285' u='r' c='_ZN2sf4priv10GlxContext22setVerticalSyncEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='289' u='r' c='_ZN2sf4priv10GlxContext22setVerticalSyncEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='341' u='r' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='352' u='r' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='352' u='r' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='399' u='r' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='410' u='r' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='410' u='r' c='_ZN2sf4priv10GlxContext28updateSettingsFromVisualInfoEP11XVisualInfo'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='460' u='r' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='620' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='668' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='182' u='r' c='_ZL13LoadExtByNamePKc'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='186' u='r' c='_ZL13LoadExtByNamePKc'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='191' u='r' c='_ZL13LoadExtByNamePKc'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='217' u='r' c='sfglx_LoadFunctions'/>

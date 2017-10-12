@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='85' type='void sf::SoundRecorder::stop()'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='39' u='c' c='_ZN2sf19SoundBufferRecorderD1Ev'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Stop the capture
+    ///
+    /// \see start
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='125' ll='136' type='void sf::SoundRecorder::stop()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='124'>////////////////////////////////////////////////////////////</doc>

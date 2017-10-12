@@ -1,0 +1,28 @@
+<inh f='codebrowser/include/SFML/Audio/AlResource.hpp' l='40' c='sf::AlResource'/>
+<def f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='42' ll='275'/>
+<ovr f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='45' c='sf::SoundStream'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Base class defining a sound&apos;s properties
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11SoundSourceC1ERKS0_'/>
+<fun r='_ZN2sf11SoundSourceD1Ev'/>
+<fun r='_ZN2sf11SoundSource8setPitchEf'/>
+<fun r='_ZN2sf11SoundSource9setVolumeEf'/>
+<fun r='_ZN2sf11SoundSource11setPositionEfff'/>
+<fun r='_ZN2sf11SoundSource11setPositionERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf11SoundSource21setRelativeToListenerEb'/>
+<fun r='_ZN2sf11SoundSource14setMinDistanceEf'/>
+<fun r='_ZN2sf11SoundSource14setAttenuationEf'/>
+<fun r='_ZNK2sf11SoundSource8getPitchEv'/>
+<fun r='_ZNK2sf11SoundSource9getVolumeEv'/>
+<fun r='_ZNK2sf11SoundSource11getPositionEv'/>
+<fun r='_ZNK2sf11SoundSource20isRelativeToListenerEv'/>
+<fun r='_ZNK2sf11SoundSource14getMinDistanceEv'/>
+<fun r='_ZNK2sf11SoundSource14getAttenuationEv'/>
+<fun r='_ZN2sf11SoundSourceaSERKS0_'/>
+<fun r='_ZN2sf11SoundSourceC1Ev'/>
+<fun r='_ZNK2sf11SoundSource9getStatusEv'/>
+<mbr r='sf::SoundSource::m_source' o='64' t='unsigned int'/>
+<ovr f='codebrowser/include/SFML/Audio/Sound.hpp' l='45' c='sf::Sound'/>

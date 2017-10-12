@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='520' type='Picture XRenderCreateConicalGradient(Display * dpy, const XConicalGradient * gradient, const XFixed * stops, const XRenderColor * colors, int nstops)'/>

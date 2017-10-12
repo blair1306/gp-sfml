@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='68' type='0'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='68'>///&lt; The vertical mouse wheel</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1872' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

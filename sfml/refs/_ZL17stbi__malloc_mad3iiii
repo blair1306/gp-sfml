@@ -1,0 +1,13 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='909' ll='913' type='void * stbi__malloc_mad3(int a, int b, int c, int add)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1479' u='c' c='_ZL20stbi__convert_formatPhiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1592' u='c' c='_ZL16stbi__hdr_to_ldrPfiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3024' u='c' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3577' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4295' u='c' c='_ZL26stbi__create_png_image_rawP9stbi__pngPhjijjii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4501' u='c' c='_ZL22stbi__create_png_imageP9stbi__pngPhjiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5115' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5419' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5684' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6004' u='c' c='_ZL14stbi__pic_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6267' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6803' u='c' c='_ZL14stbi__pnm_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>

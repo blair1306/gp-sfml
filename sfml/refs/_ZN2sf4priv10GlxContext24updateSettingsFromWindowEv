@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='149' type='void sf::priv::GlxContext::updateSettingsFromWindow()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='145'>////////////////////////////////////////////////////////////
+    /// \brief Update the context visual settings from the window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='427' ll='450' type='void sf::priv::GlxContext::updateSettingsFromWindow()'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='542' u='c' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='552' u='c' c='_ZN2sf4priv10GlxContext13createSurfaceEm'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='426'>////////////////////////////////////////////////////////////</doc>

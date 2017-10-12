@@ -1,0 +1,6 @@
+_ZN2sf9IpAddressC1Ev|sf::IpAddress::IpAddress
+_ZN2sf9IpAddress15getLocalAddressEv|sf::IpAddress::getLocalAddress
+_ZN2sf9IpAddress16getPublicAddressENS_4TimeE|sf::IpAddress::getPublicAddress
+_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|sf::IpAddress::resolve
+_ZNK2sf9IpAddress9toIntegerEv|sf::IpAddress::toInteger
+_ZNK2sf9IpAddress8toStringB5cxx11Ev|sf::IpAddress::toString

@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='695'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='40' u='c'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='686'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_STROKER_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   FreeType~2 API which provides functions to stroke outline paths.
+   */</doc>

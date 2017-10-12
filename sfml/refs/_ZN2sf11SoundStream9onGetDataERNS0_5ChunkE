@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='229' type='bool sf::SoundStream::onGetData(sf::SoundStream::Chunk &amp; data)'/>
+<ovr f='codebrowser/src/SFML/Audio/Music.cpp' l='179' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='212'>////////////////////////////////////////////////////////////
+    /// \brief Request a new chunk of audio samples from the stream source
+    ///
+    /// This function must be overridden by derived classes to provide
+    /// the audio samples to play. It is called continuously by the
+    /// streaming loop, in a separate thread.
+    /// The source can choose to stop the streaming loop at any time, by
+    /// returning false to the caller.
+    /// If you return true (i.e. continue streaming) it is important that
+    /// the returned array of samples is not empty; this would stop the stream
+    /// due to an internal limitation.
+    ///
+    /// \param data Chunk of data to fill
+    ///
+    /// \return True to continue playback, false to stop
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='412' u='c' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

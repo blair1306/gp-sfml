@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='427' type='sf::RenderTarget::StatesCache'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='86' u='w' c='_ZN2sf12RenderTargetC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='88' u='m' c='_ZN2sf12RenderTargetC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='116' u='m' c='_ZN2sf12RenderTarget7setViewERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='220' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='230' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='237' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='246' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='250' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='255' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='266' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='267' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='274' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='280' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='311' u='m' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='396' u='m' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='405' u='m' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='407' u='m' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='423' u='m' c='_ZN2sf12RenderTarget10initializeEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='442' u='m' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='490' u='m' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='508' u='m' c='_ZN2sf12RenderTarget12applyTextureEPKNS_7TextureE'/>
+<offset>2752</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='427'>///&lt; Render states cache</doc>

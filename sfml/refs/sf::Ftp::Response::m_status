@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='180' type='sf::Ftp::Response::Status'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='70' u='w' c='_ZN2sf3Ftp8ResponseC1ENS1_6StatusERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='80' u='r' c='_ZNK2sf3Ftp8Response4isOkEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='87' u='r' c='_ZNK2sf3Ftp8Response9getStatusEv'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='177'>////////////////////////////////////////////////////////////
+        // Member data
+        ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='180'>///&lt; Status code returned from the server</doc>

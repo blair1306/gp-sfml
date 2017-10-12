@@ -1,0 +1,13 @@
+<dec f='include/libio.h' l='366' type='__io_read_fn *'/>
+<offset>0</offset>
+<doc f='include/libio.h' l='366'>/* Read bytes.  */</doc>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='344' type='int (*)(void *, char *, int)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='704' u='w' c='_ZL15stbi__start_memP13stbi__contextPKhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1344' u='r' c='_ZL19stbi__refill_bufferP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1371' u='r' c='_ZL12stbi__at_eofP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1387' u='r' c='_ZL10stbi__skipP13stbi__contexti'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1400' u='r' c='_ZL10stbi__getnP13stbi__contextPhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1407' u='r' c='_ZL10stbi__getnP13stbi__contextPhi'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='195' u='w' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<offset>0</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='344'>// fill &apos;data&apos; with &apos;size&apos; bytes.  return number of bytes actually read</doc>

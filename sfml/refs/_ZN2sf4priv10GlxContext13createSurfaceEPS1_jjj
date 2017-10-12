@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='160' type='void sf::priv::GlxContext::createSurface(sf::priv::GlxContext * shared, unsigned int width, unsigned int height, unsigned int bitsPerPixel)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='151'>////////////////////////////////////////////////////////////
+    /// \brief Create the context&apos;s drawing surface
+    ///
+    /// \param shared       Context to share the new one with (can be NULL)
+    /// \param width        Back buffer width, in pixels
+    /// \param height       Back buffer height, in pixels
+    /// \param bitsPerPixel Pixel depth, in bits per pixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='115' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='165' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='454' ll='543' type='void sf::priv::GlxContext::createSurface(sf::priv::GlxContext * shared, unsigned int width, unsigned int height, unsigned int bitsPerPixel)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='453'>////////////////////////////////////////////////////////////</doc>

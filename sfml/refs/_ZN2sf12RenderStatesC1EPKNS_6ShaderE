@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='93' type='void sf::RenderStates::RenderStates(const sf::Shader * theShader)'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='87'>////////////////////////////////////////////////////////////
+    /// \brief Construct a default set of render states with a custom shader
+    ///
+    /// \param theShader Shader to use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='83' ll='89' type='void sf::RenderStates::RenderStates(const sf::Shader * theShader)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='82'>////////////////////////////////////////////////////////////</doc>

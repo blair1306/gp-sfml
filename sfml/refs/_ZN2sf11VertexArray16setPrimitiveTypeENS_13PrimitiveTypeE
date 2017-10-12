@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='153' type='void sf::VertexArray::setPrimitiveType(sf::PrimitiveType type)'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='139'>////////////////////////////////////////////////////////////
+    /// \brief Set the type of primitives to draw
+    ///
+    /// This function defines how the vertices must be interpreted
+    /// when it&apos;s time to draw them:
+    /// \li As points
+    /// \li As lines
+    /// \li As triangles
+    /// \li As quads
+    /// The default primitive type is sf::Points.
+    ///
+    /// \param type Type of primitive
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='93' ll='96' type='void sf::VertexArray::setPrimitiveType(sf::PrimitiveType type)'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='92'>////////////////////////////////////////////////////////////</doc>

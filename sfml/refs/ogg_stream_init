@@ -1,0 +1,3 @@
+<dec f='include/ogg/ogg.h' l='184' type='int ogg_stream_init(ogg_stream_state * os, int serialno)'/>
+<doc f='include/ogg/ogg.h' l='182'>/* Ogg BITSTREAM PRIMITIVES: general ***************************/</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='75' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>

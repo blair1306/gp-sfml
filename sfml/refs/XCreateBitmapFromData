@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='1604' type='Pixmap XCreateBitmapFromData(Display * , Drawable , const char * , unsigned int , unsigned int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='90' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='92' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>

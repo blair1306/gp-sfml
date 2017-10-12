@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='131' type='static bool sf::Joystick::isButtonPressed(unsigned int joystick, unsigned int button)'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='56' ll='59' type='static bool sf::Joystick::isButtonPressed(unsigned int joystick, unsigned int button)'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='55'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='120'>////////////////////////////////////////////////////////////
+    /// \brief Check if a joystick button is pressed
+    ///
+    /// If the joystick is not connected, this function returns false.
+    ///
+    /// \param joystick Index of the joystick
+    /// \param button   Button to check
+    ///
+    /// \return True if the button is pressed, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='203' type='void sf::InputSoundFile::close()'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='56' u='c' c='_ZN2sf14InputSoundFileD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='64' u='c' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='79' u='c' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='87' u='c' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='104' u='c' c='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='123' u='c' c='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='140' u='c' c='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='162' u='c' c='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='257' ll='276' type='void sf::InputSoundFile::close()'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='256'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='199'>////////////////////////////////////////////////////////////
+    /// \brief Close the current file
+    ///
+    ////////////////////////////////////////////////////////////</doc>

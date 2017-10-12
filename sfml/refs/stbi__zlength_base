@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3915' ll='3918' type='int [31]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3949' u='r' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>

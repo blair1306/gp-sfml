@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='69' type='void sf::Sound::Sound(const sf::Sound &amp; copy)'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='51' ll='58' type='void sf::Sound::Sound(const sf::Sound &amp; copy)'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='50'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Copy constructor
+    ///
+    /// \param copy Instance to copy
+    ///
+    ////////////////////////////////////////////////////////////</doc>

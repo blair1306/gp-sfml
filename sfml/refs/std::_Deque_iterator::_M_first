@@ -1,0 +1,10 @@
+<dec f='include/c++/5/bits/stl_deque.h' l='138' type='_Elt_pointer'/>
+<use f='include/c++/5/bits/stl_deque.h' l='143' u='w' c='_ZNSt15_Deque_iteratorC1EPT_PS1_'/>
+<use f='include/c++/5/bits/stl_deque.h' l='147' u='w' c='_ZNSt15_Deque_iteratorC1Ev'/>
+<use f='include/c++/5/bits/stl_deque.h' l='150' u='w' c='_ZNSt15_Deque_iteratorC1ERKSt15_Deque_iteratorIT_RS1_PS1_E'/>
+<use f='include/c++/5/bits/stl_deque.h' l='172' u='r' c='_ZNSt15_Deque_iteratorppEv'/>
+<use f='include/c++/5/bits/stl_deque.h' l='188' c='_ZNSt15_Deque_iteratormmEv'/>
+<use f='include/c++/5/bits/stl_deque.h' l='208' c='_ZNSt15_Deque_iteratorpLEl'/>
+<use f='include/c++/5/bits/stl_deque.h' l='218' c='_ZNSt15_Deque_iteratorpLEl'/>
+<use f='include/c++/5/bits/stl_deque.h' l='255' u='w' c='_ZNSt15_Deque_iterator11_M_set_nodeEPPT_'/>
+<use f='include/c++/5/bits/stl_deque.h' l='256' c='_ZNSt15_Deque_iterator11_M_set_nodeEPPT_'/>

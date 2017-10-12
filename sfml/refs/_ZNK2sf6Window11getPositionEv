@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='249' type='Vector2i sf::Window::getPosition() const'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='241'>////////////////////////////////////////////////////////////
+    /// \brief Get the position of the window
+    ///
+    /// \return Position of the window, in pixels
+    ///
+    /// \see setPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='213' ll='216' type='Vector2i sf::Window::getPosition() const'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='212'>////////////////////////////////////////////////////////////</doc>

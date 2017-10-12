@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/FileInputStream.hpp' l='62' type='void sf::FileInputStream::FileInputStream()'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='72' u='c' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='58'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='72' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/SFML/System/FileInputStream.cpp' l='37' ll='41' type='void sf::FileInputStream::FileInputStream()'/>
+<doc f='codebrowser/src/SFML/System/FileInputStream.cpp' l='36'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='123' type='int bind(int __fd, const struct sockaddr * __addr, socklen_t __len)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='122'>/* Give the socket FD the local address ADDR (which is LEN bytes long).  */</doc>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='75' u='c' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='78' u='c' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>

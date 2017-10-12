@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1490' type='void glRotated(GLdouble , GLdouble , GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='891' type='void glRotated(GLdouble angle, GLdouble x, GLdouble y, GLdouble z)'/>

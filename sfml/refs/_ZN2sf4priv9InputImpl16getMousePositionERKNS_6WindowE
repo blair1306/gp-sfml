@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='98' type='static Vector2i sf::priv::InputImpl::getMousePosition(const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of the mouse in window coordinates
+    ///
+    /// This function returns the current position of the mouse
+    /// cursor, relative to the given window.
+    /// If no window is used, it returns desktop coordinates.
+    ///
+    /// \param relativeTo Reference window
+    ///
+    /// \return Current position of the mouse
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Mouse.cpp' l='52' u='c' c='_ZN2sf5Mouse11getPositionERKNS_6WindowE'/>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='243' ll='269' type='static Vector2i sf::priv::InputImpl::getMousePosition(const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='242'>////////////////////////////////////////////////////////////</doc>

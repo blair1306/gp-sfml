@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='274' type='void sf::Transformable::scale(float factorX, float factorY)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='257'>////////////////////////////////////////////////////////////
+    /// \brief Scale the object
+    ///
+    /// This function multiplies the current scale of the object,
+    /// unlike setScale which overwrites it.
+    /// Thus, it is equivalent to the following code:
+    /// \code
+    /// sf::Vector2f scale = object.getScale();
+    /// object.setScale(scale.x * factorX, scale.y * factorY);
+    /// \endcode
+    ///
+    /// \param factorX Horizontal scale factor
+    /// \param factorY Vertical scale factor
+    ///
+    /// \see setScale
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='167' ll='170' type='void sf::Transformable::scale(float factorX, float factorY)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='166'>////////////////////////////////////////////////////////////</doc>

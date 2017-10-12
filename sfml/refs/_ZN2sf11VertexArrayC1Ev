@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='55' type='void sf::VertexArray::VertexArray()'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Creates an empty vertex array.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='35' ll='39' type='void sf::VertexArray::VertexArray()'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='34'>////////////////////////////////////////////////////////////</doc>

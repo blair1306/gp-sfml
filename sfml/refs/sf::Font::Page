@@ -1,0 +1,12 @@
+<def f='codebrowser/include/SFML/Graphics/Font.hpp' l='290' ll='298'/>
+<size>120</size>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='286'>////////////////////////////////////////////////////////////
+    /// \brief Structure defining a page of glyphs
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4Font4PageC1Ev'/>
+<mbr r='sf::Font::Page::glyphs' o='0' t='GlyphTable'/>
+<mbr r='sf::Font::Page::texture' o='384' t='sf::Texture'/>
+<mbr r='sf::Font::Page::nextRow' o='704' t='unsigned int'/>
+<mbr r='sf::Font::Page::rows' o='768' t='std::vector&lt;Row&gt;'/>
+<fun r='_ZN2sf4Font4PageC1Ev'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='218' ll='222' type='void stbi__start_write_callbacks(stbi__write_context * s, stbi_write_func * c, void * context)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='234' u='c' c='_ZL22stbi__start_write_fileP19stbi__write_contextPKc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='384' u='c' c='stbi_write_bmp_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='472' u='c' c='stbi_write_tga_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='642' u='c' c='stbi_write_hdr_to_func'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1359' u='c' c='stbi_write_jpg_to_func'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='217'>// initialize a callback-based context</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='52' type='void sf::CircleShape::CircleShape(float radius = 0, std::size_t pointCount = 30)'/>
+<def f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='35' ll='40' type='void sf::CircleShape::CircleShape(float radius = 0, std::size_t pointCount = 30)'/>
+<doc f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='34'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// \param radius     Radius of the circle
+    /// \param pointCount Number of points composing the circle
+    ///
+    ////////////////////////////////////////////////////////////</doc>

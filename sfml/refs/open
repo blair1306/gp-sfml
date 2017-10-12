@@ -1,0 +1,4 @@
+<dec f='include/fcntl.h' l='156' type='int open(const char * __file, int __oflag)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='400' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='556' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='107' u='c' c='_ZN12_GLOBAL__N_118findExecutableNameB5cxx11Ev'/>

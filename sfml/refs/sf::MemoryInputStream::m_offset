@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='109' type='Int64'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='109'>///&lt; Current reading position</doc>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='38' u='w' c='_ZN2sf17MemoryInputStreamC1Ev'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='48' u='w' c='_ZN2sf17MemoryInputStream4openEPKvm'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='58' u='r' c='_ZN2sf17MemoryInputStream4readEPvx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='59' u='r' c='_ZN2sf17MemoryInputStream4readEPvx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='63' u='r' c='_ZN2sf17MemoryInputStream4readEPvx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='64' u='w' c='_ZN2sf17MemoryInputStream4readEPvx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='77' u='w' c='_ZN2sf17MemoryInputStream4seekEx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='78' u='r' c='_ZN2sf17MemoryInputStream4seekEx'/>
+<use f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='88' u='r' c='_ZN2sf17MemoryInputStream4tellEv'/>

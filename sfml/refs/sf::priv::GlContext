@@ -1,0 +1,44 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Window/GlContext.hpp' l='47' ll='262'/>
+<size>40</size>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Abstract class representing an OpenGL context
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv9GlContext12initResourceEv'/>
+<fun r='_ZN2sf4priv9GlContext15cleanupResourceEv'/>
+<fun r='_ZN2sf4priv9GlContext23acquireTransientContextEv'/>
+<fun r='_ZN2sf4priv9GlContext23releaseTransientContextEv'/>
+<fun r='_ZN2sf4priv9GlContext6createEv'/>
+<fun r='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<fun r='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<fun r='_ZN2sf4priv9GlContext20isExtensionAvailableEPKc'/>
+<fun r='_ZN2sf4priv9GlContext11getFunctionEPKc'/>
+<fun r='_ZN2sf4priv9GlContextD1Ev'/>
+<fun r='_ZNK2sf4priv9GlContext11getSettingsEv'/>
+<fun r='_ZN2sf4priv9GlContext9setActiveEb'/>
+<fun r='_ZN2sf4priv9GlContext7displayEv'/>
+<fun r='_ZN2sf4priv9GlContext22setVerticalSyncEnabledEb'/>
+<fun r='_ZN2sf4priv9GlContextC1Ev'/>
+<fun r='_ZN2sf4priv9GlContext11makeCurrentEb'/>
+<fun r='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<mbr r='sf::priv::GlContext::m_settings' o='64' t='sf::ContextSettings'/>
+<fun r='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<ovr f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='44' c='sf::priv::GlxContext'/>
+<fun r='_ZN2sf4priv9GlContext12initResourceEv'/>
+<fun r='_ZN2sf4priv9GlContext15cleanupResourceEv'/>
+<fun r='_ZN2sf4priv9GlContext23acquireTransientContextEv'/>
+<fun r='_ZN2sf4priv9GlContext23releaseTransientContextEv'/>
+<fun r='_ZN2sf4priv9GlContext6createEv'/>
+<fun r='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<fun r='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<fun r='_ZN2sf4priv9GlContext20isExtensionAvailableEPKc'/>
+<fun r='_ZN2sf4priv9GlContext11getFunctionEPKc'/>
+<fun r='_ZN2sf4priv9GlContextD1Ev'/>
+<fun r='_ZNK2sf4priv9GlContext11getSettingsEv'/>
+<fun r='_ZN2sf4priv9GlContext9setActiveEb'/>
+<fun r='_ZN2sf4priv9GlContextC1Ev'/>
+<fun r='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<fun r='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>

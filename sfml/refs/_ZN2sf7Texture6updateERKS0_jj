@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='314' type='void sf::Texture::update(const sf::Texture &amp; texture, unsigned int x, unsigned int y)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='299'>////////////////////////////////////////////////////////////
+    /// \brief Update a part of this texture from another texture
+    ///
+    /// No additional check is performed on the size of the texture,
+    /// passing an invalid combination of texture size and offset
+    /// will lead to an undefined behavior.
+    ///
+    /// This function does nothing if either texture was not
+    /// previously created.
+    ///
+    /// \param texture Source texture to copy to this texture
+    /// \param x       X offset in this texture where to copy the source texture
+    /// \param y       Y offset in this texture where to copy the source texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='442' u='c' c='_ZN2sf7Texture6updateERKS0_'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='447' ll='526' type='void sf::Texture::update(const sf::Texture &amp; texture, unsigned int x, unsigned int y)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='446'>////////////////////////////////////////////////////////////</doc>

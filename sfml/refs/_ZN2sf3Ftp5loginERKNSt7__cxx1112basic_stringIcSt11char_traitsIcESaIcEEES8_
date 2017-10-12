@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='316' type='sf::Ftp::Response sf::Ftp::login(const std::string &amp; name, const std::string &amp; password)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='165' u='c' c='_ZN2sf3Ftp5loginEv'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='170' ll='177' type='Ftp::Response sf::Ftp::login(const std::string &amp; name, const std::string &amp; password)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='169'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='304'>////////////////////////////////////////////////////////////
+    /// \brief Log in using a username and a password
+    ///
+    /// Logging in is mandatory after connecting to the server.
+    /// Users that are not logged in cannot perform any operation.
+    ///
+    /// \param name     User name
+    /// \param password Password
+    ///
+    /// \return Server response to the request
+    ///
+    ////////////////////////////////////////////////////////////</doc>

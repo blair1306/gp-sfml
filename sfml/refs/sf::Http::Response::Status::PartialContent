@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='209' type='206'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='209'>///&lt; The server has sent a part of the resource, as a response to a partial GET request</doc>

@@ -1,0 +1,20 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/System/Thread.hpp' l='48' ll='191'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='44'>////////////////////////////////////////////////////////////
+/// \brief Utility class to manipulate threads
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6ThreadC1ET_'/>
+<fun r='_ZN2sf6ThreadC1ET_T0_'/>
+<fun r='_ZN2sf6ThreadC1EMT_FvvEPS1_'/>
+<fun r='_ZN2sf6ThreadD1Ev'/>
+<fun r='_ZN2sf6Thread6launchEv'/>
+<fun r='_ZN2sf6Thread4waitEv'/>
+<fun r='_ZN2sf6Thread9terminateEv'/>
+<fun r='_ZN2sf6Thread3runEv'/>
+<mbr r='sf::Thread::m_impl' o='0' t='priv::ThreadImpl *'/>
+<mbr r='sf::Thread::m_entryPoint' o='64' t='priv::ThreadFunc *'/>
+<fun r='_ZN2sf6ThreadC1ET_'/>
+<fun r='_ZN2sf6ThreadC1ET_T0_'/>
+<fun r='_ZN2sf6ThreadC1EMT_FvvEPS1_'/>

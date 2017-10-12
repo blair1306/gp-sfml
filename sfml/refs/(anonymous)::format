@@ -1,0 +1,13 @@
+<dec f='include/X11/Xlib.h' l='904' type='int'/>
+<offset>384</offset>
+<dec f='include/X11/Xutil.h' l='166' type='int'/>
+<offset>128</offset>
+<doc f='include/X11/Xutil.h' l='166'>/* prop data format: 8, 16, or 32 */</doc>
+<dec f='include/X11/Xproto.h' l='522' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1404' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1741' type='CARD8'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1202' u='w' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1349' u='w' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1682' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1689' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<offset>8</offset>

@@ -1,0 +1,49 @@
+<inh f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' c='sf::GlResource'/>
+<def f='codebrowser/include/SFML/Graphics/Texture.hpp' l='47' ll='627'/>
+<size>40</size>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Image living on the graphics card that can be used for drawing
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf7TextureC1Ev'/>
+<fun r='_ZN2sf7TextureC1ERKS0_'/>
+<fun r='_ZN2sf7TextureD1Ev'/>
+<fun r='_ZN2sf7Texture6createEjj'/>
+<fun r='_ZN2sf7Texture12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4RectIiEE'/>
+<fun r='_ZN2sf7Texture14loadFromMemoryEPKvmRKNS_4RectIiEE'/>
+<fun r='_ZN2sf7Texture14loadFromStreamERNS_11InputStreamERKNS_4RectIiEE'/>
+<fun r='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<fun r='_ZNK2sf7Texture7getSizeEv'/>
+<fun r='_ZNK2sf7Texture11copyToImageEv'/>
+<fun r='_ZN2sf7Texture6updateEPKh'/>
+<fun r='_ZN2sf7Texture6updateEPKhjjjj'/>
+<fun r='_ZN2sf7Texture6updateERKS0_'/>
+<fun r='_ZN2sf7Texture6updateERKS0_jj'/>
+<fun r='_ZN2sf7Texture6updateERKNS_5ImageE'/>
+<fun r='_ZN2sf7Texture6updateERKNS_5ImageEjj'/>
+<fun r='_ZN2sf7Texture6updateERKNS_6WindowE'/>
+<fun r='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<fun r='_ZN2sf7Texture9setSmoothEb'/>
+<fun r='_ZNK2sf7Texture8isSmoothEv'/>
+<fun r='_ZN2sf7Texture7setSrgbEb'/>
+<fun r='_ZNK2sf7Texture6isSrgbEv'/>
+<fun r='_ZN2sf7Texture11setRepeatedEb'/>
+<fun r='_ZNK2sf7Texture10isRepeatedEv'/>
+<fun r='_ZN2sf7Texture14generateMipmapEv'/>
+<fun r='_ZN2sf7TextureaSERKS0_'/>
+<fun r='_ZN2sf7Texture4swapERS0_'/>
+<fun r='_ZNK2sf7Texture15getNativeHandleEv'/>
+<fun r='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<fun r='_ZN2sf7Texture14getMaximumSizeEv'/>
+<fun r='_ZN2sf7Texture12getValidSizeEj'/>
+<fun r='_ZN2sf7Texture16invalidateMipmapEv'/>
+<mbr r='sf::Texture::m_size' o='0' t='Vector2u'/>
+<mbr r='sf::Texture::m_actualSize' o='64' t='Vector2u'/>
+<mbr r='sf::Texture::m_texture' o='128' t='unsigned int'/>
+<mbr r='sf::Texture::m_isSmooth' o='160' t='bool'/>
+<mbr r='sf::Texture::m_sRgb' o='168' t='bool'/>
+<mbr r='sf::Texture::m_isRepeated' o='176' t='bool'/>
+<mbr r='sf::Texture::m_pixelsFlipped' o='184' t='bool'/>
+<mbr r='sf::Texture::m_fboAttachment' o='192' t='bool'/>
+<mbr r='sf::Texture::m_hasMipmap' o='200' t='bool'/>
+<mbr r='sf::Texture::m_cacheId' o='256' t='Uint64'/>

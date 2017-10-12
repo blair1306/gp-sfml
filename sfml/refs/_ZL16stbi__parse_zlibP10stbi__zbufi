@@ -1,0 +1,14 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4091' ll='4117' type='int stbi__parse_zlib(stbi__zbuf * a, int parse_header)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4126' u='c' c='_ZL13stbi__do_zlibP10stbi__zbufPciii'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4078'>/*
+Init algorithm:
+{
+   int i;   // use &lt;= to match clearly with spec
+   for (i=0; i &lt;= 143; ++i)     stbi__zdefault_length[i]   = 8;
+   for (   ; i &lt;= 255; ++i)     stbi__zdefault_length[i]   = 9;
+   for (   ; i &lt;= 279; ++i)     stbi__zdefault_length[i]   = 7;
+   for (   ; i &lt;= 287; ++i)     stbi__zdefault_length[i]   = 8;
+
+   for (i=0; i &lt;=  31; ++i)     stbi__zdefault_distance[i] = 5;
+}
+*/</doc>

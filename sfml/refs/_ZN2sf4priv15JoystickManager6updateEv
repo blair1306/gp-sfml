@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='90' type='void sf::priv::JoystickManager::update()'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='79' u='c' c='_ZN2sf8Joystick6updateEv'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Update the state of all the joysticks
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='65' ll='99' type='void sf::priv::JoystickManager::update()'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='64'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='87' u='c' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='162' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

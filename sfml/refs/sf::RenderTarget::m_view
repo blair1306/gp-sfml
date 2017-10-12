@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='426' type='sf::View'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='85' u='w' c='_ZN2sf12RenderTargetC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='115' u='w' c='_ZN2sf12RenderTarget7setViewERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='123' u='a' c='_ZNK2sf12RenderTarget7getViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='420' u='w' c='_ZN2sf12RenderTarget10initializeEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='431' u='r' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='437' u='m' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<offset>1408</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='426'>///&lt; Current view</doc>

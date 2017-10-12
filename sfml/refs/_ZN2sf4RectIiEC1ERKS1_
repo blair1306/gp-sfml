@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='203' u='c' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='273' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>

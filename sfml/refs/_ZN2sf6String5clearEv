@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='355' type='void sf::String::clear()'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='347'>////////////////////////////////////////////////////////////
+    /// \brief Clear the string
+    ///
+    /// This function removes all the characters from the string.
+    ///
+    /// \see isEmpty, erase
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='359' u='c' c='_ZN2sf6PacketrsERNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='243' ll='246' type='void sf::String::clear()'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='242'>////////////////////////////////////////////////////////////</doc>

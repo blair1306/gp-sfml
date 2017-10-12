@@ -1,0 +1,2 @@
+<dec f='include/time.h' l='334' type='int nanosleep(const struct timespec * __requested_time, struct timespec * __remaining)'/>
+<use f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='52' u='c' c='_ZN2sf4priv9sleepImplENS_4TimeE'/>

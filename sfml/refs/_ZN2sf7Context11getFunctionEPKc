@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='110' type='static GlFunctionPointer sf::Context::getFunction(const char * name)'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='102'>////////////////////////////////////////////////////////////
+    /// \brief Get the address of an OpenGL function
+    ///
+    /// \param name Name of the function to get the address of
+    ///
+    /// \return Address of the OpenGL function, 0 on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='33' u='c' c='_ZL22glLoaderGetProcAddressPKc'/>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='91' ll='94' type='static GlFunctionPointer sf::Context::getFunction(const char * name)'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='90'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='37' u='c' c='_ZL17IntGetProcAddressPKc'/>

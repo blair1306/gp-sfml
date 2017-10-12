@@ -1,0 +1,41 @@
+<dec f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='97' type='Vector2f'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='94'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='97'>///&lt; 2D position of the vertex</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='231' u='w' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='231' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='190' u='w' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='191' u='w' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='191' u='r' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='198' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='199' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='243' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='244' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='262' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='262' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='263' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='264' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='272' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='274' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='282' u='w' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='283' u='w' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='287' u='w' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='287' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='288' u='w' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='288' u='r' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='153' u='w' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='154' u='w' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='155' u='w' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='156' u='w' c='_ZN2sf6Sprite15updatePositionsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='35' u='w' c='_ZN2sf6VertexC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='44' u='w' c='_ZN2sf6VertexC1ERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='53' u='w' c='_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='62' u='w' c='_ZN2sf6VertexC1ERKNS_7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='71' u='w' c='_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorES4_'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='111' u='m' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='112' u='m' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='113' u='m' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='114' u='m' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='118' u='r' c='_ZNK2sf11VertexArray9getBoundsEv'/>

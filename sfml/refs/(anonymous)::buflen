@@ -1,0 +1,4 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='691' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='715' u='w' c='_ZL21stbi__start_callbacksP13stbi__contextP17stbi_io_callbacksPv'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1344' u='r' c='_ZL19stbi__refill_bufferP13stbi__context'/>
+<offset>416</offset>

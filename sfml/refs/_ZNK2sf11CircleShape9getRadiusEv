@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='72' type='float sf::CircleShape::getRadius() const'/>
+<def f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='52' ll='55' type='float sf::CircleShape::getRadius() const'/>
+<doc f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='51'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/CircleShape.hpp' l='64'>////////////////////////////////////////////////////////////
+    /// \brief Get the radius of the circle
+    ///
+    /// \return Radius of the circle
+    ///
+    /// \see setRadius
+    ///
+    ////////////////////////////////////////////////////////////</doc>

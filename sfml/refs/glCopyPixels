@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1317' type='void glCopyPixels(GLint , GLint , GLsizei , GLsizei , GLenum )'/>
+<dec f='include/GL/gl.h' l='1224' type='void glCopyPixels(GLint x, GLint y, GLsizei width, GLsizei height, GLenum type)'/>

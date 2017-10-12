@@ -1,0 +1,17 @@
+<def f='include/c++/5/bits/basic_string.h' l='4936' ll='4939' type='bool std::operator==(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='114' u='c' c='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='45' u='c' c='_ZN2sf4priv19SoundFileWriterFlac5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='46' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='83' u='c' c='_ZN2sf4priv18SoundFileWriterWav5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='245' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='251' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='257' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='263' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='263' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='208' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='320' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='326' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='169' u='c' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='176' u='c' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='132' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='226' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>

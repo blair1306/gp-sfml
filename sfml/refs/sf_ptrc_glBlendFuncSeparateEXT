@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1021' type='void (*)(GLenum, GLenum, GLenum, GLenum)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='244' type='void (*)(GLenum, GLenum, GLenum, GLenum)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='250' u='w' c='_ZL28Load_EXT_blend_func_separatev'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='251' u='r' c='_ZL28Load_EXT_blend_func_separatev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='452' macro='1' u='r'/>

@@ -1,0 +1,12 @@
+<inh f='codebrowser/include/SFML/Network/Ftp.hpp' l='66' c='sf::Ftp::Response'/>
+<def f='codebrowser/include/SFML/Network/Ftp.hpp' l='221' ll='248'/>
+<size>64</size>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='217'>////////////////////////////////////////////////////////////
+    /// \brief Specialization of FTP response returning a
+    ///        filename listing
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev'/>
+<mbr r='sf::Ftp::ListingResponse::m_listing' o='320' t='std::vector&lt;std::string&gt;'/>
+<fun r='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev'/>

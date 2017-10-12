@@ -1,0 +1,10 @@
+<def f='include/X11/extensions/Xrandr.h' l='266' ll='275'/>
+<size>64</size>
+<mbr r='_XRRScreenResources::timestamp' o='0' t='Time'/>
+<mbr r='_XRRScreenResources::configTimestamp' o='64' t='Time'/>
+<mbr r='_XRRScreenResources::ncrtc' o='128' t='int'/>
+<mbr r='_XRRScreenResources::crtcs' o='192' t='RRCrtc *'/>
+<mbr r='_XRRScreenResources::noutput' o='256' t='int'/>
+<mbr r='_XRRScreenResources::outputs' o='320' t='RROutput *'/>
+<mbr r='_XRRScreenResources::nmode' o='384' t='int'/>
+<mbr r='_XRRScreenResources::modes' o='448' t='XRRModeInfo *'/>

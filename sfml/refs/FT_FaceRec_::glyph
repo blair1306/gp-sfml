@@ -1,0 +1,8 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1071' type='FT_GlyphSlot'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='542' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='580' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='610' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='611' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='612' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='613' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<offset>1216</offset>

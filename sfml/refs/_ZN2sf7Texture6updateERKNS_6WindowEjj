@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='388' type='void sf::Texture::update(const sf::Window &amp; window, unsigned int x, unsigned int y)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='373'>////////////////////////////////////////////////////////////
+    /// \brief Update a part of the texture from the contents of a window
+    ///
+    /// No additional check is performed on the size of the window,
+    /// passing an invalid combination of window size and offset
+    /// will lead to an undefined behavior.
+    ///
+    /// This function does nothing if either the texture or the window
+    /// was not previously created.
+    ///
+    /// \param window Window to copy to the texture
+    /// \param x      X offset in the texture where to copy the source window
+    /// \param y      Y offset in the texture where to copy the source window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='547' u='c' c='_ZN2sf7Texture6updateERKNS_6WindowE'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='552' ll='576' type='void sf::Texture::update(const sf::Window &amp; window, unsigned int x, unsigned int y)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='551'>////////////////////////////////////////////////////////////</doc>

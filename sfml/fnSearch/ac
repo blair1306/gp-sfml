@@ -1,0 +1,5 @@
+_ZSt4acosf|std::acos
+_ZN2sf4priv24RenderTextureImplDefault8activateEb|sf::priv::RenderTextureImplDefault::activate
+_ZN2sf4priv20RenderTextureImplFBO8activateEb|sf::priv::RenderTextureImplFBO::activate
+_ZN2sf11TcpListener6acceptERNS_9TcpSocketE|sf::TcpListener::accept
+_ZN2sf4priv9GlContext23acquireTransientContextEv|sf::priv::GlContext::acquireTransientContext

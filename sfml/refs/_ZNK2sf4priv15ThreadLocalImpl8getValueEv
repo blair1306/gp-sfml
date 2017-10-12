@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='72' type='void * sf::priv::ThreadLocalImpl::getValue() const'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='64' u='c' c='_ZNK2sf11ThreadLocal8getValueEv'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='66'>////////////////////////////////////////////////////////////
+    /// \brief Retrieve the thread-specific value of the variable
+    ///
+    /// \return Value of the variable for this thread
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.cpp' l='58' ll='61' type='void * sf::priv::ThreadLocalImpl::getValue() const'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.cpp' l='57'>////////////////////////////////////////////////////////////</doc>

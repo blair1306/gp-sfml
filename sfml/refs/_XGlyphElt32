@@ -1,0 +1,7 @@
+<def f='include/X11/extensions/Xrender.h' l='115' ll='121'/>
+<size>32</size>
+<mbr r='_XGlyphElt32::glyphset' o='0' t='GlyphSet'/>
+<mbr r='_XGlyphElt32::chars' o='64' t='const unsigned int *'/>
+<mbr r='_XGlyphElt32::nchars' o='128' t='int'/>
+<mbr r='_XGlyphElt32::xOff' o='160' t='int'/>
+<mbr r='_XGlyphElt32::yOff' o='192' t='int'/>

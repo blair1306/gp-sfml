@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='223' type='void sf::priv::WindowImplX11::switchToFullscreen()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='219'>////////////////////////////////////////////////////////////
+    /// \brief Switch to fullscreen mode
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='712' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1313' ll='1365' type='void sf::priv::WindowImplX11::switchToFullscreen()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1312'>////////////////////////////////////////////////////////////</doc>

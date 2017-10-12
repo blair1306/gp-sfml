@@ -1,0 +1,2 @@
+<def f='include/c++/5/istream' l='181' ll='183' type='__istream_type &amp; std::basic_istream::operator&gt;&gt;(unsigned int &amp; __n)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='417' u='c' c='_ZN2sf3Ftp11getResponseEv'/>

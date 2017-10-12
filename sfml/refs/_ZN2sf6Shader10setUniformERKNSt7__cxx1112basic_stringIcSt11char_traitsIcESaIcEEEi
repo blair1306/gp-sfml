@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='342' type='void sf::Shader::setUniform(const std::string &amp; name, int x)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='335'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p int uniform
+    ///
+    /// \param name Name of the uniform variable in GLSL
+    /// \param x    Value of the int scalar
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='462' ll='467' type='void sf::Shader::setUniform(const std::string &amp; name, int x)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='500' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='461'>////////////////////////////////////////////////////////////</doc>

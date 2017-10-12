@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='80' type='sf::String'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='85' u='w' c='_ZN2sf8Joystick14IdentificationC1Ev'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='80'>///&lt; Name of the joystick</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='563' u='w' c='_ZN2sf4priv12JoystickImpl4openEj'/>

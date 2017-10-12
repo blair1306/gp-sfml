@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='261' type='unsigned int sf::Text::getCharacterSize() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='224' ll='227' type='unsigned int sf::Text::getCharacterSize() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='223'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='253'>////////////////////////////////////////////////////////////
+    /// \brief Get the character size
+    ///
+    /// \return Size of the characters, in pixels
+    ///
+    /// \see setCharacterSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>

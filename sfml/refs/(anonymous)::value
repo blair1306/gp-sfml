@@ -1,0 +1,15 @@
+<dec f='include/FLAC/format.h' l='285' type='FLAC__int32'/>
+<offset>0</offset>
+<doc f='include/FLAC/format.h' l='285'>/**&lt; The constant signal value. */</doc>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3752' type='stbi__uint16 [288]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3805' u='w' c='_ZL20stbi__zbuild_huffmanP14stbi__zhuffmanPKhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3879' u='r' c='_ZL30stbi__zhuffman_decode_slowpathP10stbi__zbufP14stbi__zhuffman'/>
+<offset>11552</offset>
+<dec f='include/X11/Xlib.h' l='354' type='char *'/>
+<offset>128</offset>
+<doc f='include/X11/Xlib.h' l='354'>/* pointer to where to find the address */</doc>
+<dec f='include/X11/Xutil.h' l='164' type='unsigned char *'/>
+<offset>0</offset>
+<doc f='include/X11/Xutil.h' l='164'>/* same as Property routines */</doc>
+<dec f='include/X11/Xproto.h' l='389' type='CARD32'/>
+<offset>32</offset>

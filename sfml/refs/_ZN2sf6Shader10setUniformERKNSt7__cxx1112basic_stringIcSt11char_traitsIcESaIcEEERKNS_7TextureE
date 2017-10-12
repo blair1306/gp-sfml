@@ -1,0 +1,34 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='463' type='void sf::Shader::setUniform(const std::string &amp; name, const sf::Texture &amp; texture)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='433'>////////////////////////////////////////////////////////////
+    /// \brief Specify a texture as \p sampler2D uniform
+    ///
+    /// \a name is the name of the variable to change in the shader.
+    /// The corresponding parameter in the shader must be a 2D texture
+    /// (\p sampler2D GLSL type).
+    ///
+    /// Example:
+    /// \code
+    /// uniform sampler2D the_texture; // this is the variable in the shader
+    /// \endcode
+    /// \code
+    /// sf::Texture texture;
+    /// ...
+    /// shader.setUniform(&quot;the_texture&quot;, texture);
+    /// \endcode
+    /// It is important to note that \a texture must remain alive as long
+    /// as the shader uses it, no copy is made internally.
+    ///
+    /// To use the texture of the object being drawn, which cannot be
+    /// known in advance, you can pass the special value
+    /// sf::Shader::CurrentTexture:
+    /// \code
+    /// shader.setUniform(&quot;the_texture&quot;, sf::Shader::CurrentTexture).
+    /// \endcode
+    ///
+    /// \param name    Name of the texture in the shader
+    /// \param texture Texture to assign
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='544' ll='575' type='void sf::Shader::setUniform(const std::string &amp; name, const sf::Texture &amp; texture)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='722' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='543'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,10 @@
+<dec f='include/x86_64-linux-gnu/bits/errno.h' l='50' type='int * __errno_location()'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='77' macro='1' u='c'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='82' macro='1' u='c'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='94' macro='1' u='c'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='94' macro='1' u='c'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='97' macro='1' u='c'/>
+<doc f='include/x86_64-linux-gnu/bits/errno.h' l='49'>/* Function to get address of global `errno&apos; variable.  */</doc>
+<use f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='52' macro='1' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='578' macro='1' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='701' macro='1' u='c'/>

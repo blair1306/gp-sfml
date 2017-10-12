@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/FileInputStream.hpp' l='102' type='Int64 sf::FileInputStream::seek(Int64 position)'/>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Change the current reading position
+    ///
+    /// \param position The position to seek to, from the beginning
+    ///
+    /// \return The position actually sought to, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='81' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='73' c='_ZN2sf11InputStream4seekEx'/>
+<def f='codebrowser/src/SFML/System/FileInputStream.cpp' l='91' ll='108' type='Int64 sf::FileInputStream::seek(Int64 position)'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='136' u='c' c='_ZN2sf15FileInputStream7getSizeEv'/>
+<doc f='codebrowser/src/SFML/System/FileInputStream.cpp' l='90'>////////////////////////////////////////////////////////////</doc>

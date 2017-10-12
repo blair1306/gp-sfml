@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='83' type='void sf::Texture::~Texture()'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='109' ll='119' type='void sf::Texture::~Texture()'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='108'>////////////////////////////////////////////////////////////</doc>

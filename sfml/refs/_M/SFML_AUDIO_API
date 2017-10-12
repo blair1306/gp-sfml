@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/Export.hpp' l='39'/>
+<use f='codebrowser/include/SFML/Audio/AlResource.hpp' l='40' u='c'/>
+<use f='codebrowser/include/SFML/Audio/Listener.hpp' l='42' u='c'/>
+<use f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='47' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='43' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='46' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='42' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='45' u='c'/>
+<use f='codebrowser/include/SFML/Audio/Music.hpp' l='48' u='c'/>
+<use f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='44' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='41' u='c'/>
+<use f='codebrowser/include/SFML/Audio/Sound.hpp' l='45' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='49' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='45' u='c'/>
+<use f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='44' u='c'/>

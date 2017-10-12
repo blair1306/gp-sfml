@@ -1,0 +1,10 @@
+<def f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='62' ll='74'/>
+<size>68</size>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='58'>////////////////////////////////////////////////////////////
+/// \brief Structure holding a joystick&apos;s state
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv13JoystickStateC1Ev'/>
+<mbr r='sf::priv::JoystickState::connected' o='0' t='bool'/>
+<mbr r='sf::priv::JoystickState::axes' o='32' t='float [8]'/>
+<mbr r='sf::priv::JoystickState::buttons' o='288' t='bool [32]'/>

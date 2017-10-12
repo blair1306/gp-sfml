@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6125' ll='6157' type='void stbi__out_gif_code(stbi__gif * g, stbi__uint16 code)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6132' u='c' c='_ZL18stbi__out_gif_codeP9stbi__gift'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6224' u='c' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>

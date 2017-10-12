@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='112' type='sf::priv::JoystickImpl'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='112'>///&lt; Joystick implementation</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='74' u='m' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='79' u='m' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='90' u='m' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='92' u='m' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='93' u='m' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='94' u='m' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='115' u='m' c='_ZN2sf4priv15JoystickManagerD1Ev'/>

@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='113'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='534' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='152' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='951' u='c'/>

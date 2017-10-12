@@ -1,0 +1,37 @@
+<def f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='41' ll='327'/>
+<ovr f='codebrowser/include/SFML/Graphics/Shape.hpp' l='44' c='sf::Shape'/>
+<size>176</size>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Decomposed transform defined by a position, a rotation and a scale
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf13TransformableC1Ev'/>
+<fun r='_ZN2sf13TransformableD1Ev'/>
+<fun r='_ZN2sf13Transformable11setPositionEff'/>
+<fun r='_ZN2sf13Transformable11setPositionERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf13Transformable11setRotationEf'/>
+<fun r='_ZN2sf13Transformable8setScaleEff'/>
+<fun r='_ZN2sf13Transformable8setScaleERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf13Transformable9setOriginEff'/>
+<fun r='_ZN2sf13Transformable9setOriginERKNS_7Vector2IfEE'/>
+<fun r='_ZNK2sf13Transformable11getPositionEv'/>
+<fun r='_ZNK2sf13Transformable11getRotationEv'/>
+<fun r='_ZNK2sf13Transformable8getScaleEv'/>
+<fun r='_ZNK2sf13Transformable9getOriginEv'/>
+<fun r='_ZN2sf13Transformable4moveEff'/>
+<fun r='_ZN2sf13Transformable4moveERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf13Transformable6rotateEf'/>
+<fun r='_ZN2sf13Transformable5scaleEff'/>
+<fun r='_ZN2sf13Transformable5scaleERKNS_7Vector2IfEE'/>
+<fun r='_ZNK2sf13Transformable12getTransformEv'/>
+<fun r='_ZNK2sf13Transformable19getInverseTransformEv'/>
+<mbr r='sf::Transformable::m_origin' o='64' t='Vector2f'/>
+<mbr r='sf::Transformable::m_position' o='128' t='Vector2f'/>
+<mbr r='sf::Transformable::m_rotation' o='192' t='float'/>
+<mbr r='sf::Transformable::m_scale' o='224' t='Vector2f'/>
+<mbr r='sf::Transformable::m_transform' o='288' t='sf::Transform'/>
+<mbr r='sf::Transformable::m_transformNeedUpdate' o='800' t='bool'/>
+<mbr r='sf::Transformable::m_inverseTransform' o='832' t='sf::Transform'/>
+<mbr r='sf::Transformable::m_inverseTransformNeedUpdate' o='1344' t='bool'/>
+<ovr f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='47' c='sf::Sprite'/>
+<ovr f='codebrowser/include/SFML/Graphics/Text.hpp' l='48' c='sf::Text'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Window/Touch.hpp' l='82' type='static Vector2i sf::Touch::getPosition(unsigned int finger, const sf::Window &amp; relativeTo)'/>
+<def f='codebrowser/src/SFML/Window/Touch.cpp' l='49' ll='52' type='static Vector2i sf::Touch::getPosition(unsigned int finger, const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Touch.cpp' l='48'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Touch.hpp' l='70'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of a touch in window coordinates
+    ///
+    /// This function returns the current touch position
+    /// relative to the given window.
+    ///
+    /// \param finger Finger index
+    /// \param relativeTo Reference window
+    ///
+    /// \return Current position of \a finger, or undefined if it&apos;s not down
+    ///
+    ////////////////////////////////////////////////////////////</doc>

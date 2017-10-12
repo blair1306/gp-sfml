@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='117' type='const sf::Texture *'/>
+<offset>704</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='117'>///&lt; Texture</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='46' u='w' c='_ZN2sf12RenderStatesC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='56' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9TransformE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='66' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='76' u='w' c='_ZN2sf12RenderStatesC1EPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='86' u='w' c='_ZN2sf12RenderStatesC1EPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='97' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeERKNS_9TransformEPKNS_7TextureEPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='254' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='254' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='256' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='273' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='307' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='307' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='218' u='w' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='224' u='w' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='142' u='w' c='_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='335' u='w' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>

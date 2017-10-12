@@ -1,0 +1,22 @@
+<def f='codebrowser/include/SFML/Network/IpAddress.hpp' l='44' ll='206'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Encapsulate an IPv4 network address
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9IpAddressC1Ev'/>
+<fun r='_ZN2sf9IpAddressC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf9IpAddressC1EPKc'/>
+<fun r='_ZN2sf9IpAddressC1Ehhhh'/>
+<fun r='_ZN2sf9IpAddressC1Ej'/>
+<fun r='_ZNK2sf9IpAddress8toStringB5cxx11Ev'/>
+<fun r='_ZNK2sf9IpAddress9toIntegerEv'/>
+<fun r='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<fun r='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>
+<smbr r='sf::IpAddress::None' t='const sf::IpAddress'/>
+<smbr r='sf::IpAddress::Any' t='const sf::IpAddress'/>
+<smbr r='sf::IpAddress::LocalHost' t='const sf::IpAddress'/>
+<smbr r='sf::IpAddress::Broadcast' t='const sf::IpAddress'/>
+<fun r='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<mbr r='sf::IpAddress::m_address' o='0' t='Uint32'/>
+<mbr r='sf::IpAddress::m_valid' o='32' t='bool'/>

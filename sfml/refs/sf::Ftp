@@ -1,0 +1,45 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Network/Ftp.hpp' l='47' ll='534'/>
+<size>104</size>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief A FTP client
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf3FtpD1Ev'/>
+<fun r='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<fun r='_ZN2sf3Ftp10disconnectEv'/>
+<fun r='_ZN2sf3Ftp5loginEv'/>
+<fun r='_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf3Ftp9keepAliveEv'/>
+<fun r='_ZN2sf3Ftp19getWorkingDirectoryEv'/>
+<fun r='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp15changeDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp15parentDirectoryEv'/>
+<fun r='_ZN2sf3Ftp15createDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp15deleteDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf3Ftp10deleteFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<fun r='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<fun r='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf3Ftp11getResponseEv'/>
+<mbr r='sf::Ftp::m_commandSocket' o='64' t='sf::TcpSocket'/>
+<mbr r='sf::Ftp::m_receiveBuffer' o='576' t='std::string'/>
+<fun r='_ZN2sf3FtpD1Ev'/>
+<fun r='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<fun r='_ZN2sf3Ftp5loginEv'/>
+<fun r='_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf3Ftp10disconnectEv'/>
+<fun r='_ZN2sf3Ftp9keepAliveEv'/>
+<fun r='_ZN2sf3Ftp19getWorkingDirectoryEv'/>
+<fun r='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp15changeDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp15parentDirectoryEv'/>
+<fun r='_ZN2sf3Ftp15createDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp15deleteDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf3Ftp10deleteFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<fun r='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<fun r='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf3Ftp11getResponseEv'/>

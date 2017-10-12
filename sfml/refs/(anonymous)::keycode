@@ -1,0 +1,5 @@
+<dec f='include/X11/Xlib.h' l='569' type='unsigned int'/>
+<offset>672</offset>
+<doc f='include/X11/Xlib.h' l='569'>/* detail */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='88' u='r' c='_ZN12_GLOBAL__N_115KeyRepeatFinderclERK7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1565' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

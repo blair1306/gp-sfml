@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/stl_set.h' l='325' ll='327' type='iterator std::set::end() const'/>
+<doc f='include/c++/5/bits/stl_set.h' l='320'>/**
+       *  Returns a read-only (constant) iterator that points one past the last
+       *  element in the %set.  Iteration is done in ascending order according
+       *  to the keys.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='75' u='c' c='_ZN2sf11SoundBufferD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='260' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='271' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>

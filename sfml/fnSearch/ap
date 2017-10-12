@@ -1,0 +1,7 @@
+_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE|sf::RenderTarget::applyBlendMode
+_ZN2sf12RenderTarget16applyCurrentViewEv|sf::RenderTarget::applyCurrentView
+_ZN2sf12RenderTarget11applyShaderEPKNS_6ShaderE|sf::RenderTarget::applyShader
+_ZN2sf12RenderTarget12applyTextureEPKNS_7TextureE|sf::RenderTarget::applyTexture
+_ZN2sf12RenderTarget14applyTransformERKNS_9TransformE|sf::RenderTarget::applyTransform
+_ZN2sf11VertexArray6appendERKNS_6VertexE|sf::VertexArray::append
+_ZN2sf6Packet6appendEPKvm|sf::Packet::append

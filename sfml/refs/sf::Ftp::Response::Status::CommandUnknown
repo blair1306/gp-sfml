@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='117' type='500'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='115'>// 5xx: the command was not accepted and
+            // the requested action did not take place</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='117'>///&lt; Syntax error, command unrecognized</doc>

@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='162' type='bool sf::Shader::loadFromFile(const std::string &amp; vertexShaderFilename, const std::string &amp; geometryShaderFilename, const std::string &amp; fragmentShaderFilename)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='142'>////////////////////////////////////////////////////////////
+    /// \brief Load the vertex, geometry and fragment shaders from files
+    ///
+    /// This function loads the vertex, geometry and fragment
+    /// shaders. If one of them fails to load, the shader is left
+    /// empty (the valid shader is unloaded).
+    /// The sources must be text files containing valid shaders
+    /// in GLSL language. GLSL is a C-like language dedicated to
+    /// OpenGL shaders; you&apos;ll probably need to read a good documentation
+    /// for it before writing your own shaders.
+    ///
+    /// \param vertexShaderFilename   Path of the vertex shader file to load
+    /// \param geometryShaderFilename Path of the geometry shader file to load
+    /// \param fragmentShaderFilename Path of the fragment shader file to load
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromMemory, loadFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='288' ll='316' type='bool sf::Shader::loadFromFile(const std::string &amp; vertexShaderFilename, const std::string &amp; geometryShaderFilename, const std::string &amp; fragmentShaderFilename)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='287'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='289' type='std::vector&lt;Int16&gt;'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='289'>///&lt; Buffer to store captured samples</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='102' u='m' c='_ZN2sf13SoundRecorder5startEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='303' u='m' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='304' u='m' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='307' u='m' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='307' u='m' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='68' type='4'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='114' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='68'>///&lt; Request in delete mode, useful for a REST API</doc>

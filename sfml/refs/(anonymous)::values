@@ -1,0 +1,9 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1646' type='stbi_uc [256]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1756' u='r' c='_ZL19stbi__build_fast_acPsP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1813' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1842' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2830' u='r' c='_ZL20stbi__process_markerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2833' u='r' c='_ZL20stbi__process_markerP10stbi__jpegi'/>
+<offset>8192</offset>
+<dec f='include/X11/extensions/Xrandr.h' l='315' type='long *'/>
+<offset>128</offset>

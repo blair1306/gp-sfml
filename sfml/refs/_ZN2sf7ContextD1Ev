@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='68' type='void sf::Context::~Context()'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// The destructor deactivates and destroys the context
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='50' ll='54' type='void sf::Context::~Context()'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='49'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1316' type='void glColorMaterial(GLenum , GLenum )'/>
+<dec f='include/GL/gl.h' l='1184' type='void glColorMaterial(GLenum face, GLenum mode)'/>

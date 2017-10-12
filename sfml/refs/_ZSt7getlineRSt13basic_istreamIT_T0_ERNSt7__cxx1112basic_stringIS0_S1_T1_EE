@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/basic_string.h' l='5211' ll='5214' type='basic_istream&lt;_CharT, _Traits&gt; &amp; std::getline(basic_istream&lt;_CharT, _Traits&gt; &amp; __is, basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='434' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='448' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='478' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='502' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='280' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>

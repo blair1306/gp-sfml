@@ -1,0 +1,3 @@
+<dec f='include/AL/alc.h' l='207' type='void alcCaptureStart(ALCdevice * device)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='111' u='c' c='_ZN2sf13SoundRecorder5startEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='202' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

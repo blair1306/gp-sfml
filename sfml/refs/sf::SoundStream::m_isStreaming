@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='312' type='bool'/>
+<offset>352</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='312'>///&lt; Streaming state (true = playing, false = stopped)</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='47' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='68' u='w' c='_ZN2sf11SoundStreamD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='82' u='w' c='_ZN2sf11SoundStream10initializeEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='113' u='r' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='133' u='w' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='146' u='r' c='_ZN2sf11SoundStream5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='162' u='w' c='_ZN2sf11SoundStream4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='197' u='r' c='_ZNK2sf11SoundStream9getStatusEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='223' u='w' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='279' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='307' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='323' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='367' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>

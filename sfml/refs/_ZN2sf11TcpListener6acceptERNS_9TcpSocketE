@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/TcpListener.hpp' l='109' type='sf::Socket::Status sf::TcpListener::accept(sf::TcpSocket &amp; socket)'/>
+<def f='codebrowser/src/SFML/Network/TcpListener.cpp' l='103' ll='126' type='Socket::Status sf::TcpListener::accept(sf::TcpSocket &amp; socket)'/>
+<doc f='codebrowser/src/SFML/Network/TcpListener.cpp' l='102'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/TcpListener.hpp' l='96'>////////////////////////////////////////////////////////////
+    /// \brief Accept a new connection
+    ///
+    /// If the socket is in blocking mode, this function will
+    /// not return until a connection is actually received.
+    ///
+    /// \param socket Socket that will hold the new connection
+    ///
+    /// \return Status code
+    ///
+    /// \see listen
+    ///
+    ////////////////////////////////////////////////////////////</doc>

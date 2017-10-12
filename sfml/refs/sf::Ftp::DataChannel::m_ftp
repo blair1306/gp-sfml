@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Network/Ftp.cpp' l='63' type='sf::Ftp &amp;'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='527' u='w' c='_ZN2sf3Ftp11DataChannelC1ERS0_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='537' u='m' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='580' u='m' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='60'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='63'>///&lt; Reference to the owner Ftp instance</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='104' type='void sf::RenderStates::RenderStates(const sf::BlendMode &amp; theBlendMode, const sf::Transform &amp; theTransform, const sf::Texture * theTexture, const sf::Shader * theShader)'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Construct a set of render states with all its attributes
+    ///
+    /// \param theBlendMode Blend mode to use
+    /// \param theTransform Transform to use
+    /// \param theTexture   Texture to use
+    /// \param theShader    Shader to use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='93' ll='100' type='void sf::RenderStates::RenderStates(const sf::BlendMode &amp; theBlendMode, const sf::Transform &amp; theTransform, const sf::Texture * theTexture, const sf::Shader * theShader)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='92'>////////////////////////////////////////////////////////////</doc>

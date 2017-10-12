@@ -1,0 +1,6 @@
+<dec f='include/FLAC/format.h' l='847' type='FLAC__StreamMetadata_StreamInfo'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='165' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='165' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='166' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='167' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>

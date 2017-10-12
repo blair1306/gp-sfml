@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='228' type='bool sf::operator!=(const sf::IpAddress &amp; left, const sf::IpAddress &amp; right)'/>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='220' ll='223' type='bool sf::operator!=(const sf::IpAddress &amp; left, const sf::IpAddress &amp; right)'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='219'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='182' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>

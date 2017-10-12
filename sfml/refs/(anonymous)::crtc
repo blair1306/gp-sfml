@@ -1,0 +1,5 @@
+<dec f='include/X11/extensions/Xrandr.h' l='88' type='RRCrtc'/>
+<dec f='include/X11/extensions/Xrandr.h' l='102' type='RRCrtc'/>
+<offset>384</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='88'>/* current crtc (or None) */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='102'>/* current crtc (or None) */</doc>

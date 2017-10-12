@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='81' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='86' u='w' c='_ZN2sf8Joystick14IdentificationC1Ev'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='81'>///&lt; Manufacturer identifier</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='567' u='w' c='_ZN2sf4priv12JoystickImpl4openEj'/>

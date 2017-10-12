@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='183' type='GLXContext'/>
+<offset>448</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='183'>///&lt; OpenGL context</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='101' u='w' c='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='126' u='w' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='151' u='w' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='176' u='r' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='182' u='r' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='184' u='r' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='219' u='r' c='_ZN2sf4priv10GlxContext11makeCurrentEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='232' u='r' c='_ZN2sf4priv10GlxContext11makeCurrentEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='236' u='r' c='_ZN2sf4priv10GlxContext11makeCurrentEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='610' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='654' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='705' u='w' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='707' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='739' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='760' u='w' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='768' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='101' type='void sf::Cursor::Cursor()'/>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='92'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor doesn&apos;t actually create the cursor;
+    /// initially the new instance is invalid and must not be
+    /// used until either loadFromPixels() or loadFromSystem()
+    /// is called and successfully created a cursor.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Cursor.cpp' l='35' ll='39' type='void sf::Cursor::Cursor()'/>
+<doc f='codebrowser/src/SFML/Window/Cursor.cpp' l='34'>////////////////////////////////////////////////////////////</doc>

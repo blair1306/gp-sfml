@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='135' type='FloatRect sf::Transform::transformRect(const FloatRect &amp; rectangle) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='121'>////////////////////////////////////////////////////////////
+    /// \brief Transform a rectangle
+    ///
+    /// Since SFML doesn&apos;t provide support for oriented rectangles,
+    /// the result of this function is always an axis-aligned
+    /// rectangle. Which means that if the transform contains a
+    /// rotation, the bounding rectangle of the transformed rectangle
+    /// is returned.
+    ///
+    /// \param rectangle Rectangle to transform
+    ///
+    /// \return Transformed rectangle
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='155' u='c' c='_ZNK2sf5Shape15getGlobalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='132' u='c' c='_ZNK2sf6Sprite15getGlobalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='323' u='c' c='_ZNK2sf4Text15getGlobalBoundsEv'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='113' ll='138' type='FloatRect sf::Transform::transformRect(const FloatRect &amp; rectangle) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='112'>////////////////////////////////////////////////////////////</doc>

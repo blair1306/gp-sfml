@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='169' type='void sf::SoundStream::setLoop(bool loop)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='156'>////////////////////////////////////////////////////////////
+    /// \brief Set whether or not the stream should loop after reaching the end
+    ///
+    /// If set, the stream will restart from beginning after
+    /// reaching the end and so on, until it is stopped or
+    /// setLoop(false) is called.
+    /// The default looping state for streams is false.
+    ///
+    /// \param loop True to play in loop, false to play once
+    ///
+    /// \see getLoop
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='247' ll='250' type='void sf::SoundStream::setLoop(bool loop)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='246'>////////////////////////////////////////////////////////////</doc>

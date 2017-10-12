@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='145' type='const std::string &amp; sf::SoundRecorder::getDevice() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='139'>////////////////////////////////////////////////////////////
+    /// \brief Get the name of the current audio capture device
+    ///
+    /// \return The name of the current audio capture device
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='214' ll='217' type='const std::string &amp; sf::SoundRecorder::getDevice() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='213'>////////////////////////////////////////////////////////////</doc>

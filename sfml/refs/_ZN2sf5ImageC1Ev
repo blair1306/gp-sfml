@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='56' type='void sf::Image::Image()'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='785' u='c' c='_ZN2sf4Font4PageC1Ev'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='50'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Creates an empty image.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='41' ll='49' type='void sf::Image::Image()'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='40'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='224' u='c' c='_ZN2sf7Texture12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='232' u='c' c='_ZN2sf7Texture14loadFromMemoryEPKvmRKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='240' u='c' c='_ZN2sf7Texture14loadFromStreamERNS_11InputStreamERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='325' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='395' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>

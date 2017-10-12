@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1428' type='void glNormal3d(GLdouble , GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='966' type='void glNormal3d(GLdouble nx, GLdouble ny, GLdouble nz)'/>

@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_queue.h' l='165' ll='170' type='reference std::queue::front()'/>
+<doc f='include/c++/5/bits/stl_queue.h' l='161'>/**
+       *  Returns a read/write reference to the data at the first
+       *  element of the %queue.
+       */</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='141' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>

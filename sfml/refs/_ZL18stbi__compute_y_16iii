@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1515' ll='1518' type='stbi__uint16 stbi__compute_y_16(int r, int g, int b)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1550' u='c' c='_ZL22stbi__convert_format16Ptiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1551' u='c' c='_ZL22stbi__convert_format16Ptiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1552' u='c' c='_ZL22stbi__convert_format16Ptiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1553' u='c' c='_ZL22stbi__convert_format16Ptiijj'/>

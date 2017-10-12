@@ -1,0 +1,40 @@
+<inh f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='42' c='sf::SoundSource'/>
+<def f='codebrowser/include/SFML/Audio/Sound.hpp' l='45' ll='221'/>
+<size>24</size>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Regular sound that can be played in the audio environment
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5SoundC1Ev'/>
+<fun r='_ZN2sf5SoundC1ERKNS_11SoundBufferE'/>
+<fun r='_ZN2sf5SoundC1ERKS0_'/>
+<fun r='_ZN2sf5SoundD1Ev'/>
+<fun r='_ZN2sf5Sound4playEv'/>
+<fun r='_ZN2sf5Sound5pauseEv'/>
+<fun r='_ZN2sf5Sound4stopEv'/>
+<fun r='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<fun r='_ZN2sf5Sound7setLoopEb'/>
+<fun r='_ZN2sf5Sound16setPlayingOffsetENS_4TimeE'/>
+<fun r='_ZNK2sf5Sound9getBufferEv'/>
+<fun r='_ZNK2sf5Sound7getLoopEv'/>
+<fun r='_ZNK2sf5Sound16getPlayingOffsetEv'/>
+<fun r='_ZNK2sf5Sound9getStatusEv'/>
+<fun r='_ZN2sf5SoundaSERKS0_'/>
+<fun r='_ZN2sf5Sound11resetBufferEv'/>
+<mbr r='sf::Sound::m_buffer' o='128' t='const sf::SoundBuffer *'/>
+<fun r='_ZN2sf5SoundC1Ev'/>
+<fun r='_ZN2sf5SoundC1ERKNS_11SoundBufferE'/>
+<fun r='_ZN2sf5SoundC1ERKS0_'/>
+<fun r='_ZN2sf5SoundD1Ev'/>
+<fun r='_ZN2sf5Sound4playEv'/>
+<fun r='_ZN2sf5Sound5pauseEv'/>
+<fun r='_ZN2sf5Sound4stopEv'/>
+<fun r='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<fun r='_ZN2sf5Sound7setLoopEb'/>
+<fun r='_ZN2sf5Sound16setPlayingOffsetENS_4TimeE'/>
+<fun r='_ZNK2sf5Sound9getBufferEv'/>
+<fun r='_ZNK2sf5Sound7getLoopEv'/>
+<fun r='_ZNK2sf5Sound16getPlayingOffsetEv'/>
+<fun r='_ZNK2sf5Sound9getStatusEv'/>
+<fun r='_ZN2sf5SoundaSERKS0_'/>
+<fun r='_ZN2sf5Sound11resetBufferEv'/>

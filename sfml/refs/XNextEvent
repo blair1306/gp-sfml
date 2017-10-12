@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='2841' type='int XNextEvent(Display * , XEvent * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='108' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='190' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>

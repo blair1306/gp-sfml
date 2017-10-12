@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='64' type='const sf::priv::JoystickCaps &amp; sf::priv::JoystickManager::getCapabilities(unsigned int joystick) const'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='44' u='c' c='_ZN2sf8Joystick14getButtonCountEj'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='51' u='c' c='_ZN2sf8Joystick7hasAxisEjNS0_4AxisE'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='56'>////////////////////////////////////////////////////////////
+    /// \brief Get the capabilities for an open joystick
+    ///
+    /// \param joystick Index of the joystick
+    ///
+    /// \return Capabilities of the joystick
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='44' ll='47' type='const sf::priv::JoystickCaps &amp; sf::priv::JoystickManager::getCapabilities(unsigned int joystick) const'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='43'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='169' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

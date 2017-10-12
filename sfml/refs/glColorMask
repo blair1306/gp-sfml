@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1315' type='void glColorMask(GLboolean , GLboolean , GLboolean , GLboolean )'/>
+<dec f='include/GL/gl.h' l='756' type='void glColorMask(GLboolean red, GLboolean green, GLboolean blue, GLboolean alpha)'/>

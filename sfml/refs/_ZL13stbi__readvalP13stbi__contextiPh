@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5850' ll='5862' type='stbi_uc * stbi__readval(stbi__context * s, int channel, stbi_uc * dest)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5916' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5934' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5959' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5969' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>

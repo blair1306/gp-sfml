@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1339' type='void glEvalMesh1(GLenum , GLint , GLint )'/>
+<dec f='include/GL/gl.h' l='1409' type='void glEvalMesh1(GLenum mode, GLint i1, GLint i2)'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='102' type='void sf::Time::Time(Int64 microseconds)'/>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='93'>////////////////////////////////////////////////////////////
+    /// \brief Construct from a number of microseconds
+    ///
+    /// This function is internal. To construct time values,
+    /// use sf::seconds, sf::milliseconds or sf::microseconds instead.
+    ///
+    /// \param microseconds Number of microseconds
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='66' ll='69' type='void sf::Time::Time(Int64 microseconds)'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='75' u='c' c='_ZN2sf7secondsEf'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='82' u='c' c='_ZN2sf12millisecondsEi'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='89' u='c' c='_ZN2sf12microsecondsEx'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='65'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='257' type='void sf::SoundBuffer::attachSound(sf::Sound * sound) const'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='103' u='c' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='251'>////////////////////////////////////////////////////////////
+    /// \brief Add a sound to the list of sounds that use this buffer
+    ///
+    /// \param sound Sound instance to attach
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='279' ll='282' type='void sf::SoundBuffer::attachSound(sf::Sound * sound) const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='278'>////////////////////////////////////////////////////////////</doc>

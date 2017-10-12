@@ -1,0 +1,32 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='141' type='bool sf::Cursor::loadFromPixels(const Uint8 * pixels, Vector2u size, Vector2u hotspot)'/>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='112'>////////////////////////////////////////////////////////////
+    /// \brief Create a cursor with the provided image
+    ///
+    /// \a pixels must be an array of \a width by \a height pixels
+    /// in 32-bit RGBA format. If not, this will cause undefined behavior.
+    ///
+    /// If \a pixels is null or either \a width or \a height are 0,
+    /// the current cursor is left unchanged and the function will
+    /// return false.
+    ///
+    /// In addition to specifying the pixel data, you can also
+    /// specify the location of the hotspot of the cursor. The
+    /// hotspot is the pixel coordinate within the cursor image
+    /// which will be located exactly where the mouse pointer
+    /// position is. Any mouse actions that are performed will
+    /// return the window/screen location of the hotspot.
+    ///
+    /// \warning On Unix, the pixels are mapped into a monochrome
+    ///          bitmap: pixels with an alpha channel to 0 are
+    ///          transparent, black if the RGB channel are close
+    ///          to zero, and white otherwise.
+    ///
+    /// \param pixels   Array of pixels of the image
+    /// \param size     Width and height of the image
+    /// \param hotspot  (x,y) location of the hotspot
+    /// \return true if the cursor was successfully loaded;
+    ///         false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Cursor.cpp' l='50' ll='56' type='bool sf::Cursor::loadFromPixels(const Uint8 * pixels, Vector2u size, Vector2u hotspot)'/>
+<doc f='codebrowser/src/SFML/Window/Cursor.cpp' l='49'>////////////////////////////////////////////////////////////</doc>

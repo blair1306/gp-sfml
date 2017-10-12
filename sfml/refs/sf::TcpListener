@@ -1,0 +1,17 @@
+<inh f='codebrowser/include/SFML/Network/Socket.hpp' l='45' c='sf::Socket'/>
+<def f='codebrowser/include/SFML/Network/TcpListener.hpp' l='44' ll='110'/>
+<size>24</size>
+<doc f='codebrowser/include/SFML/Network/TcpListener.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Socket that listens to new TCP connections
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11TcpListenerC1Ev'/>
+<fun r='_ZNK2sf11TcpListener12getLocalPortEv'/>
+<fun r='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<fun r='_ZN2sf11TcpListener5closeEv'/>
+<fun r='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<fun r='_ZN2sf11TcpListenerC1Ev'/>
+<fun r='_ZNK2sf11TcpListener12getLocalPortEv'/>
+<fun r='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<fun r='_ZN2sf11TcpListener5closeEv'/>
+<fun r='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>

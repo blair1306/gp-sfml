@@ -1,0 +1,45 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='266' type='Vector2u'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='263'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='266'>///&lt; Image size</doc>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='42' u='w' c='_ZN2sf5ImageC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='87' u='m' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='88' u='m' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='96' u='m' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='97' u='m' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='114' u='m' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='115' u='m' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='123' u='m' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='124' u='m' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='134' u='a' c='_ZN2sf5Image12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='151' u='a' c='_ZN2sf5Image14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='158' u='a' c='_ZN2sf5Image14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='165' u='r' c='_ZNK2sf5Image10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='172' u='r' c='_ZNK2sf5Image7getSizeEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='199' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='199' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='199' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='199' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='208' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='209' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='215' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='215' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='216' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='216' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='222' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='222' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='223' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='223' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='232' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='233' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='234' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='235' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='277' u='m' c='_ZN2sf5Image8setPixelEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='288' u='m' c='_ZNK2sf5Image8getPixelEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='313' u='m' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='315' u='m' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='320' u='m' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='337' u='m' c='_ZN2sf5Image14flipVerticallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='342' u='m' c='_ZN2sf5Image14flipVerticallyEv'/>

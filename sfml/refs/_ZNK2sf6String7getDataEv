@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='469' type='const Uint32 * sf::String::getData() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='458'>////////////////////////////////////////////////////////////
+    /// \brief Get a pointer to the C-style array of characters
+    ///
+    /// This functions provides a read-only access to a
+    /// null-terminated C-style representation of the string.
+    /// The returned pointer is temporary and is meant only for
+    /// immediate use, thus it is not recommended to store it.
+    ///
+    /// \return Read-only pointer to the array of characters
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='315' ll='318' type='const Uint32 * sf::String::getData() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='314'>////////////////////////////////////////////////////////////</doc>

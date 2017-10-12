@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='183' type='float sf::View::getRotation() const'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='175'>////////////////////////////////////////////////////////////
+    /// \brief Get the current orientation of the view
+    ///
+    /// \return Rotation angle of the view, in degrees
+    ///
+    /// \see setRotation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='156' ll='159' type='float sf::View::getRotation() const'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='155'>////////////////////////////////////////////////////////////</doc>

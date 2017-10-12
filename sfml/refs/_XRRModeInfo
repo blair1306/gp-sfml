@@ -1,0 +1,16 @@
+<def f='include/X11/extensions/Xrandr.h' l='249' ll='264'/>
+<size>80</size>
+<mbr r='_XRRModeInfo::id' o='0' t='RRMode'/>
+<mbr r='_XRRModeInfo::width' o='64' t='unsigned int'/>
+<mbr r='_XRRModeInfo::height' o='96' t='unsigned int'/>
+<mbr r='_XRRModeInfo::dotClock' o='128' t='unsigned long'/>
+<mbr r='_XRRModeInfo::hSyncStart' o='192' t='unsigned int'/>
+<mbr r='_XRRModeInfo::hSyncEnd' o='224' t='unsigned int'/>
+<mbr r='_XRRModeInfo::hTotal' o='256' t='unsigned int'/>
+<mbr r='_XRRModeInfo::hSkew' o='288' t='unsigned int'/>
+<mbr r='_XRRModeInfo::vSyncStart' o='320' t='unsigned int'/>
+<mbr r='_XRRModeInfo::vSyncEnd' o='352' t='unsigned int'/>
+<mbr r='_XRRModeInfo::vTotal' o='384' t='unsigned int'/>
+<mbr r='_XRRModeInfo::name' o='448' t='char *'/>
+<mbr r='_XRRModeInfo::nameLength' o='512' t='unsigned int'/>
+<mbr r='_XRRModeInfo::modeFlags' o='576' t='XRRModeFlags'/>

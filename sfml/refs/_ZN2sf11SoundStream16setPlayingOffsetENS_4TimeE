@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='144' type='void sf::SoundStream::setPlayingOffset(sf::Time timeOffset)'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='170' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='131'>////////////////////////////////////////////////////////////
+    /// \brief Change the current playing position of the stream
+    ///
+    /// The playing position can be changed when the stream is
+    /// either paused or playing. Changing the playing position
+    /// when the stream is stopped has no effect, since playing
+    /// the stream would reset its position.
+    ///
+    /// \param timeOffset New playing position, from the beginning of the stream
+    ///
+    /// \see getPlayingOffset
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='206' ll='226' type='void sf::SoundStream::setPlayingOffset(sf::Time timeOffset)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='205'>////////////////////////////////////////////////////////////</doc>

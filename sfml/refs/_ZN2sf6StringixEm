@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='345' type='Uint32 &amp; sf::String::operator[](std::size_t index)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='334'>////////////////////////////////////////////////////////////
+    /// \brief Overload of [] operator to access a character by its position
+    ///
+    /// This function provides read and write access to characters.
+    /// Note: the behavior is undefined if \a index is out of range.
+    ///
+    /// \param index Index of the character to get
+    ///
+    /// \return Reference to the character at position \a index
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='236' ll='239' type='Uint32 &amp; sf::String::operator[](std::size_t index)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='235'>////////////////////////////////////////////////////////////</doc>

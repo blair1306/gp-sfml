@@ -1,0 +1,47 @@
+<dec f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='274' type='unsigned int'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='271'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='274'>///&lt; OpenAL source identifier</doc>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='73' u='r' c='_ZN2sf5Sound4playEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='80' u='r' c='_ZN2sf5Sound5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='87' u='r' c='_ZN2sf5Sound4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='104' u='r' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='111' u='r' c='_ZN2sf5Sound7setLoopEb'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='118' u='r' c='_ZN2sf5Sound16setPlayingOffsetENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='133' u='r' c='_ZNK2sf5Sound7getLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='143' u='r' c='_ZNK2sf5Sound16getPlayingOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='192' u='r' c='_ZN2sf5Sound11resetBufferEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='37' u='a' c='_ZN2sf11SoundSourceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='38' u='r' c='_ZN2sf11SoundSourceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='45' u='a' c='_ZN2sf11SoundSourceC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='46' u='r' c='_ZN2sf11SoundSourceC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='60' u='r' c='_ZN2sf11SoundSourceD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='61' u='a' c='_ZN2sf11SoundSourceD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='68' u='r' c='_ZN2sf11SoundSource8setPitchEf'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='75' u='r' c='_ZN2sf11SoundSource9setVolumeEf'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='82' u='r' c='_ZN2sf11SoundSource11setPositionEfff'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='96' u='r' c='_ZN2sf11SoundSource21setRelativeToListenerEb'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='103' u='r' c='_ZN2sf11SoundSource14setMinDistanceEf'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='110' u='r' c='_ZN2sf11SoundSource14setAttenuationEf'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='118' u='r' c='_ZNK2sf11SoundSource8getPitchEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='128' u='r' c='_ZNK2sf11SoundSource9getVolumeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='138' u='r' c='_ZNK2sf11SoundSource11getPositionEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='148' u='r' c='_ZNK2sf11SoundSource20isRelativeToListenerEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='158' u='r' c='_ZNK2sf11SoundSource14getMinDistanceEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='168' u='r' c='_ZNK2sf11SoundSource14getAttenuationEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='196' u='r' c='_ZNK2sf11SoundSource9getStatusEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='123' u='r' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='152' u='r' c='_ZN2sf11SoundStream5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='235' u='r' c='_ZNK2sf11SoundStream16getPlayingOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='293' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='300' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='317' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='329' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='335' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='391' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='400' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='453' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='487' u='r' c='_ZN2sf11SoundStream10clearQueueEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='492' u='r' c='_ZN2sf11SoundStream10clearQueueEv'/>

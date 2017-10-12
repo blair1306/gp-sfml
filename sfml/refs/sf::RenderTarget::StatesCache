@@ -1,0 +1,13 @@
+<def f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='409' ll='420'/>
+<size>128</size>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='405'>////////////////////////////////////////////////////////////
+    /// \brief Render states cache
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::RenderTarget::StatesCache::glStatesSet' o='0' t='bool'/>
+<mbr r='sf::RenderTarget::StatesCache::viewChanged' o='8' t='bool'/>
+<mbr r='sf::RenderTarget::StatesCache::lastBlendMode' o='32' t='sf::BlendMode'/>
+<mbr r='sf::RenderTarget::StatesCache::lastTextureId' o='256' t='Uint64'/>
+<mbr r='sf::RenderTarget::StatesCache::texCoordsArrayEnabled' o='320' t='bool'/>
+<mbr r='sf::RenderTarget::StatesCache::useVertexCache' o='328' t='bool'/>
+<mbr r='sf::RenderTarget::StatesCache::vertexCache' o='352' t='sf::Vertex [4]'/>

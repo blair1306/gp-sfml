@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='228' type='sf::Event::MouseWheelEvent'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='228'>///&lt; Mouse wheel event parameters (Event::MouseWheelMoved) (deprecated)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1866' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1867' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1868' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

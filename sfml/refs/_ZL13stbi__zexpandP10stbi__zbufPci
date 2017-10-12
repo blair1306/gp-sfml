@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3896' ll='3913' type='int stbi__zexpand(stbi__zbuf * z, char * zout, int n)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3937' u='c' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3957' u='c' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4042' u='c' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3896'>// need to make room for n bytes</doc>

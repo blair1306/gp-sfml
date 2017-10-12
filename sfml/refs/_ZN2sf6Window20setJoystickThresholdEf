@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='426' type='void sf::Window::setJoystickThreshold(float threshold)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='415'>////////////////////////////////////////////////////////////
+    /// \brief Change the joystick threshold
+    ///
+    /// The joystick threshold is the value below which
+    /// no JoystickMoved event will be generated.
+    ///
+    /// The threshold value is 0.1 by default.
+    ///
+    /// \param threshold New threshold, in the range [0, 100]
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='326' ll='330' type='void sf::Window::setJoystickThreshold(float threshold)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='325'>////////////////////////////////////////////////////////////</doc>

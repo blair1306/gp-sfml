@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='620' type='bool'/>
+<offset>160</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='620'>///&lt; Status of the smooth filter</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='66' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='82' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='82' u='r' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='211' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='212' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='296' u='r' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='426' u='r' c='_ZN2sf7Texture6updateEPKhjjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='567' u='r' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='582' u='r' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='584' u='w' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='594' u='r' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='598' u='r' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='602' u='r' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='612' u='r' c='_ZNK2sf7Texture8isSmoothEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='694' u='r' c='_ZN2sf7Texture14generateMipmapEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='714' u='r' c='_ZN2sf7Texture16invalidateMipmapEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='814' u='a' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='814' u='a' c='_ZN2sf7Texture4swapERS0_'/>

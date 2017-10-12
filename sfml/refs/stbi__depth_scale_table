@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4278' type='stbi_uc [9]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4412' u='r' c='_ZL26stbi__create_png_image_rawP9stbi__pngPhjijjii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4764' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

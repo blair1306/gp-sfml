@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='91' type='void sf::priv::SoundFileWriterFlac::write(const Int16 * samples, Uint64 count)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='84'>////////////////////////////////////////////////////////////
+    /// \brief Write audio samples to the open file
+    ///
+    /// \param samples Pointer to the sample array to write
+    /// \param count   Number of samples to write
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='70' c='_ZN2sf15SoundFileWriter5writeEPKsy'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='97' ll='114' type='void sf::priv::SoundFileWriterFlac::write(const Int16 * samples, Uint64 count)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='96'>////////////////////////////////////////////////////////////</doc>

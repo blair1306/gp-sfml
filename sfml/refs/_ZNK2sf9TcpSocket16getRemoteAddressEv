@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='79' type='sf::IpAddress sf::TcpSocket::getRemoteAddress() const'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='68'>////////////////////////////////////////////////////////////
+    /// \brief Get the address of the connected peer
+    ///
+    /// It the socket is not connected, this function returns
+    /// sf::IpAddress::None.
+    ///
+    /// \return Address of the remote peer
+    ///
+    /// \see getRemotePort
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='81' ll='96' type='sf::IpAddress sf::TcpSocket::getRemoteAddress() const'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='182' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='80'>////////////////////////////////////////////////////////////</doc>

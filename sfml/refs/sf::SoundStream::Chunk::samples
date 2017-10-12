@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='55' type='const Int16 *'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='194' u='w' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='55'>///&lt; Pointer to the audio samples</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='418' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='429' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='444' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='450' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

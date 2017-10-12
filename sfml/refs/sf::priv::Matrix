@@ -1,0 +1,4 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='55' ll='85'/>
+<fun r='_ZN2sf4priv6MatrixC1EPKf'/>
+<fun r='_ZN2sf4priv6MatrixC1ERKNS_9TransformE'/>
+<mbr r='sf::priv::Matrix::array' t='float [Columns * Rows]'/>

@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='2506' type='FT_Error FT_Set_Char_Size(FT_Face face, FT_F26Dot6 char_width, FT_F26Dot6 char_height, FT_UInt horz_resolution, FT_UInt vert_resolution)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='2504'>/*                                                                       */</doc>

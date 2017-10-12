@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='73' type='static bool sf::priv::InputImpl::isMouseButtonPressed(Mouse::Button button)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Check if a mouse button is pressed
+    ///
+    /// \param button Button to check
+    ///
+    /// \return True if the button is pressed, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Mouse.cpp' l='38' u='c' c='_ZN2sf5Mouse15isButtonPressedENS0_6ButtonE'/>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='190' ll='217' type='static bool sf::priv::InputImpl::isMouseButtonPressed(Mouse::Button button)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='189'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='55' type='4'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='40' u='r'/>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='55'>///&lt; (dst.r, dst.g, dst.b, dst.a)</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='49' c='_ZN12_GLOBAL__N_118factorToGlConstantEN2sf9BlendMode6FactorE'/>

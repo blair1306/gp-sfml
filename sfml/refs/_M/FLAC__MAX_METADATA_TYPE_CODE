@@ -1,0 +1,3 @@
+<dec f='include/FLAC/format.h' l='93'/>
+<use f='include/FLAC/format.h' l='515' u='c'/>
+<doc f='include/FLAC/format.h' l='92'>/** The largest legal metadata type code. */</doc>

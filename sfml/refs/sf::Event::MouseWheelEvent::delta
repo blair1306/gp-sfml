@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='111' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='111'>///&lt; Number of ticks the wheel has moved (positive is up, negative is down)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1866' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='771'/>
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='816'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='762'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_INCREMENTAL_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   FreeType~2 API which performs color filtering for subpixel rendering.
+   */</doc>

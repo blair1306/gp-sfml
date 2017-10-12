@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='108' type='void sf::BlendMode::BlendMode(sf::BlendMode::Factor colorSourceFactor, sf::BlendMode::Factor colorDestinationFactor, sf::BlendMode::Equation colorBlendEquation, sf::BlendMode::Factor alphaSourceFactor, sf::BlendMode::Factor alphaDestinationFactor, sf::BlendMode::Equation alphaBlendEquation)'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='36' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='38' u='c'/>
+<def f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='71' ll='82' type='void sf::BlendMode::BlendMode(sf::BlendMode::Factor colorSourceFactor, sf::BlendMode::Factor colorDestinationFactor, sf::BlendMode::Equation colorBlendEquation, sf::BlendMode::Factor alphaSourceFactor, sf::BlendMode::Factor alphaDestinationFactor, sf::BlendMode::Equation alphaBlendEquation)'/>
+<doc f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='70'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='97'>////////////////////////////////////////////////////////////
+    /// \brief Construct the blend mode given the factors and equation.
+    ///
+    /// \param colorSourceFactor      Specifies how to compute the source factor for the color channels.
+    /// \param colorDestinationFactor Specifies how to compute the destination factor for the color channels.
+    /// \param colorBlendEquation     Specifies how to combine the source and destination colors.
+    /// \param alphaSourceFactor      Specifies how to compute the source factor.
+    /// \param alphaDestinationFactor Specifies how to compute the destination factor.
+    /// \param alphaBlendEquation     Specifies how to combine the source and destination alphas.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='37' u='c'/>

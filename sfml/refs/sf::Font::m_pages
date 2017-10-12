@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='355' type='PageTable'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='92' u='w' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='92' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='332' u='m' c='_ZNK2sf4Font8getGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='448' u='m' c='_ZNK2sf4Font10getTextureEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='463' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='463' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='513' u='m' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='597' u='m' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<offset>576</offset>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='355'>///&lt; Table containing the glyphs pages by character size</doc>

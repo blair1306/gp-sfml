@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='379' type='void sf::RenderTarget::applyBlendMode(const sf::BlendMode &amp; mode)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='251' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='399' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='447' ll='491' type='void sf::RenderTarget::applyBlendMode(const sf::BlendMode &amp; mode)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='446'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='373'>////////////////////////////////////////////////////////////
+    /// \brief Apply a new blending mode
+    ///
+    /// \param mode Blending mode to apply
+    ///
+    ////////////////////////////////////////////////////////////</doc>

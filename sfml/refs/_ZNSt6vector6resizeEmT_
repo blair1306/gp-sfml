@@ -1,0 +1,26 @@
+<def f='include/c++/5/bits/stl_vector.h' l='712' ll='719' type='void std::vector::resize(size_type __new_size, value_type __x = value_type())'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='701'>/**
+       *  @brief  Resizes the %vector to the specified number of elements.
+       *  @param  __new_size  Number of elements the %vector should contain.
+       *  @param  __x  Data with which new elements should be populated.
+       *
+       *  This function will %resize the %vector to the specified
+       *  number of elements.  If the number is smaller than the
+       *  %vector&apos;s current size the %vector is truncated, otherwise
+       *  the %vector is extended and new elements are populated with
+       *  given data.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='242' u='c' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='226' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='303' u='c' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='43' u='c' c='_ZN2sf11ConvexShape13setPointCountEm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='616' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='115' u='c' c='_ZN2sf4priv11ImageLoader17loadImageFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='159' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromMemoryEPKvmRSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='214' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='92' u='c' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='111' u='c' c='_ZN12_GLOBAL__N_117getStreamContentsERN2sf11InputStreamERSt6vectorIcSaIcEE'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='81' u='c' c='_ZN2sf11VertexArray6resizeEm'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='60' u='c' c='_ZN2sf6Packet6appendEPKvm'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='387' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='118' u='c' c='_ZN12_GLOBAL__N_118findExecutableNameB5cxx11Ev'/>

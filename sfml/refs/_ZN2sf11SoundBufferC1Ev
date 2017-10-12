@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='57' type='void sf::SoundBuffer::SoundBuffer()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='41' ll='47' type='void sf::SoundBuffer::SoundBuffer()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='40'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='47' u='c' c='_ZN2sf19SoundBufferRecorder7onStartEv'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='61' type='void sf::Sound::Sound(const sf::SoundBuffer &amp; buffer)'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='43' ll='47' type='void sf::Sound::Sound(const sf::SoundBuffer &amp; buffer)'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='42'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='55'>////////////////////////////////////////////////////////////
+    /// \brief Construct the sound with a buffer
+    ///
+    /// \param buffer Sound buffer containing the audio data to play with the sound
+    ///
+    ////////////////////////////////////////////////////////////</doc>

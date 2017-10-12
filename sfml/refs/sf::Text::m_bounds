@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='394' type='FloatRect'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='86' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='104' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='316' u='r' c='_ZNK2sf4Text14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='359' u='w' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='503' u='m' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='504' u='m' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='505' u='m' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='506' u='m' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>2624</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='394'>///&lt; Bounding rectangle of the text (in local coordinates)</doc>

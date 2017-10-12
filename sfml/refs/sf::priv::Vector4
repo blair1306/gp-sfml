@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='92' ll='155'/>
+<fun r='_ZN2sf4priv7Vector4C1Ev'/>
+<fun r='_ZN2sf4priv7Vector4C1ET_S2_S2_S2_'/>
+<fun r='_ZN2sf4priv7Vector4C1ERKNS0_7Vector4IT_EE'/>
+<fun r='_ZN2sf4priv7Vector4C1ERKNS_5ColorE'/>
+<mbr r='sf::priv::Vector4::x' t='T'/>
+<mbr r='sf::priv::Vector4::y' t='T'/>
+<mbr r='sf::priv::Vector4::z' t='T'/>
+<mbr r='sf::priv::Vector4::w' t='T'/>

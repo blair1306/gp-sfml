@@ -1,0 +1,26 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6042' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6096' u='w' c='_ZL16stbi__gif_headerP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6105' u='r' c='_ZL16stbi__gif_headerP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6106' u='r' c='_ZL16stbi__gif_headerP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6326' u='r' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<offset>192</offset>
+<dec f='include/X11/Xlib.h' l='413' type='char'/>
+<offset>112</offset>
+<doc f='include/X11/Xlib.h' l='413'>/* do_red, do_green, do_blue */</doc>
+<dec f='include/X11/Xutil.h' l='82' type='long'/>
+<dec f='include/X11/Xutil.h' l='120' type='long'/>
+<offset>0</offset>
+<doc f='include/X11/Xutil.h' l='82'>/* marks which fields in this structure are defined */</doc>
+<doc f='include/X11/Xutil.h' l='120'>/* marks which fields in this structure are defined */</doc>
+<dec f='include/X11/Xproto.h' l='405' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1843' type='CARD8'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='594' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='671' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='876' u='w' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='993' u='w' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1161' u='w' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1527' u='w' c='_ZN2sf4priv13WindowImplX1118createHiddenCursorEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1628' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<offset>8</offset>
+<doc f='include/X11/Xproto.h' l='405'>/* DoRed, DoGreen, DoBlue booleans */</doc>
+<doc f='include/X11/Xproto.h' l='1843'>/* DoRed, DoGreen, DoBlue, as in xColorItem */</doc>

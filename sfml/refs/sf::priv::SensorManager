@@ -1,0 +1,16 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Window/SensorManager.hpp' l='44' ll='131'/>
+<size>96</size>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Global sensor manager
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv13SensorManager11getInstanceEv'/>
+<fun r='_ZN2sf4priv13SensorManager11isAvailableENS_6Sensor4TypeE'/>
+<fun r='_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb'/>
+<fun r='_ZNK2sf4priv13SensorManager9isEnabledENS_6Sensor4TypeE'/>
+<fun r='_ZNK2sf4priv13SensorManager8getValueENS_6Sensor4TypeE'/>
+<fun r='_ZN2sf4priv13SensorManager6updateEv'/>
+<fun r='_ZN2sf4priv13SensorManagerC1Ev'/>
+<fun r='_ZN2sf4priv13SensorManagerD1Ev'/>
+<mbr r='sf::priv::SensorManager::m_sensors' o='0' t='sf::priv::SensorManager::Item [6]'/>

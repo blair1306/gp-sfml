@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1057' ll='1079' type='unsigned char * stbi__load_and_postprocess_8bit(stbi__context * s, int * x, int * y, int * comp, int req_comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1146' u='c' c='stbi_load_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1198' u='c' c='stbi_load_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1205' u='c' c='stbi_load_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1221' u='c' c='_ZL16stbi__loadf_mainP13stbi__contextPiS1_S1_i'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1395' type='void glLightModelfv(GLenum , const GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1173' type='void glLightModelfv(GLenum pname, const GLfloat * params)'/>

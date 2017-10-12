@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SensorManager.hpp source code [codebrowser/src/SFML/Window/SensorManager.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::priv::SensorManager "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Window/SensorManager.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='SensorManager.hpp.html'>SensorManager.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_SENSORMANAGER_HPP">SFML_SENSORMANAGER_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_SENSORMANAGER_HPP" data-ref="_M/SFML_SENSORMANAGER_HPP">SFML_SENSORMANAGER_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../../include/SFML/Window/Sensor.hpp.html">&lt;SFML/Window/Sensor.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="SensorImpl.hpp.html">&lt;SFML/Window/SensorImpl.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../include/SFML/System/NonCopyable.hpp.html">&lt;SFML/System/NonCopyable.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="41">41</th><td><i>/// \brief Global sensor manager</i></td></tr>
+<tr><th id="42">42</th><td><i>///</i></td></tr>
+<tr><th id="43">43</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="44">44</th><td><b>class</b> <dfn class="type def" id="sf::priv::SensorManager" title='sf::priv::SensorManager' data-ref="sf::priv::SensorManager">SensorManager</dfn> : <a class="type" href="../../../include/SFML/System/NonCopyable.hpp.html#sf::NonCopyable" title='sf::NonCopyable' data-ref="sf::NonCopyable">NonCopyable</a></td></tr>
+<tr><th id="45">45</th><td>{</td></tr>
+<tr><th id="46">46</th><td><b>public</b>:</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td><i>    /// \brief Get the global unique instance of the manager</i></td></tr>
+<tr><th id="50">50</th><td><i>    ///</i></td></tr>
+<tr><th id="51">51</th><td><i>    /// \return Unique instance of the sensor manager</i></td></tr>
+<tr><th id="52">52</th><td><i>    ///</i></td></tr>
+<tr><th id="53">53</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="54">54</th><td>    <em>static</em> <a class="type" href="#sf::priv::SensorManager" title='sf::priv::SensorManager' data-ref="sf::priv::SensorManager">SensorManager</a>&amp; <dfn class="decl" id="_ZN2sf4priv13SensorManager11getInstanceEv" title='sf::priv::SensorManager::getInstance' data-ref="_ZN2sf4priv13SensorManager11getInstanceEv">getInstance</dfn>();</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// \brief Check if a sensor is available on the underlying platform</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///</i></td></tr>
+<tr><th id="59">59</th><td><i>    /// \param sensor Sensor to check</i></td></tr>
+<tr><th id="60">60</th><td><i>    ///</i></td></tr>
+<tr><th id="61">61</th><td><i>    /// \return True if the sensor is available, false otherwise</i></td></tr>
+<tr><th id="62">62</th><td><i>    ///</i></td></tr>
+<tr><th id="63">63</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="64">64</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf4priv13SensorManager11isAvailableENS_6Sensor4TypeE" title='sf::priv::SensorManager::isAvailable' data-ref="_ZN2sf4priv13SensorManager11isAvailableENS_6Sensor4TypeE">isAvailable</dfn>(<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</a>::<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col8 decl" id="8sensor" title='sensor' data-type='Sensor::Type' data-ref="8sensor">sensor</dfn>);</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// \brief Enable or disable a sensor</i></td></tr>
+<tr><th id="68">68</th><td><i>    ///</i></td></tr>
+<tr><th id="69">69</th><td><i>    /// \param sensor  Sensor to modify</i></td></tr>
+<tr><th id="70">70</th><td><i>    /// \param enabled Whether it should be enabled or not</i></td></tr>
+<tr><th id="71">71</th><td><i>    ///</i></td></tr>
+<tr><th id="72">72</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="73">73</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb" title='sf::priv::SensorManager::setEnabled' data-ref="_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb">setEnabled</dfn>(<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</a>::<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col9 decl" id="9sensor" title='sensor' data-type='Sensor::Type' data-ref="9sensor">sensor</dfn>, <em>bool</em> <dfn class="local col0 decl" id="10enabled" title='enabled' data-type='bool' data-ref="10enabled">enabled</dfn>);</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="76">76</th><td><i>    /// \brief Check if a sensor is enabled</i></td></tr>
+<tr><th id="77">77</th><td><i>    ///</i></td></tr>
+<tr><th id="78">78</th><td><i>    /// \param sensor Sensor to check</i></td></tr>
+<tr><th id="79">79</th><td><i>    ///</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// \return True if the sensor is enabled, false otherwise</i></td></tr>
+<tr><th id="81">81</th><td><i>    ///</i></td></tr>
+<tr><th id="82">82</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="83">83</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf4priv13SensorManager9isEnabledENS_6Sensor4TypeE" title='sf::priv::SensorManager::isEnabled' data-ref="_ZNK2sf4priv13SensorManager9isEnabledENS_6Sensor4TypeE">isEnabled</dfn>(<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</a>::<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col1 decl" id="11sensor" title='sensor' data-type='Sensor::Type' data-ref="11sensor">sensor</dfn>) <em>const</em>;</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="86">86</th><td><i>    /// \brief Get the current value of a sensor</i></td></tr>
+<tr><th id="87">87</th><td><i>    ///</i></td></tr>
+<tr><th id="88">88</th><td><i>    /// \param sensor Sensor to read</i></td></tr>
+<tr><th id="89">89</th><td><i>    ///</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \return Current value of the sensor</i></td></tr>
+<tr><th id="91">91</th><td><i>    ///</i></td></tr>
+<tr><th id="92">92</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="93">93</th><td>    <a class="typedef" href="../../../include/SFML/System/Vector3.hpp.html#sf::Vector3f" title='sf::Vector3f' data-type='Vector3&lt;float&gt;' data-ref="sf::Vector3f">Vector3f</a> <dfn class="decl" id="_ZNK2sf4priv13SensorManager8getValueENS_6Sensor4TypeE" title='sf::priv::SensorManager::getValue' data-ref="_ZNK2sf4priv13SensorManager8getValueENS_6Sensor4TypeE">getValue</dfn>(<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</a>::<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="local col2 decl" id="12sensor" title='sensor' data-type='Sensor::Type' data-ref="12sensor">sensor</dfn>) <em>const</em>;</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// \brief Update the state of all the sensors</i></td></tr>
+<tr><th id="97">97</th><td><i>    ///</i></td></tr>
+<tr><th id="98">98</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="99">99</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf4priv13SensorManager6updateEv" title='sf::priv::SensorManager::update' data-ref="_ZN2sf4priv13SensorManager6updateEv">update</dfn>();</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><b>private</b>:</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="105">105</th><td><i>    ///</i></td></tr>
+<tr><th id="106">106</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="107">107</th><td>    <dfn class="decl" id="_ZN2sf4priv13SensorManagerC1Ev" title='sf::priv::SensorManager::SensorManager' data-ref="_ZN2sf4priv13SensorManagerC1Ev">SensorManager</dfn>();</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="110">110</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="111">111</th><td><i>    ///</i></td></tr>
+<tr><th id="112">112</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="113">113</th><td>    <dfn class="decl" id="_ZN2sf4priv13SensorManagerD1Ev" title='sf::priv::SensorManager::~SensorManager' data-ref="_ZN2sf4priv13SensorManagerD1Ev">~SensorManager</dfn>();</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="116">116</th><td><i>    /// \brief Sensor information and state</i></td></tr>
+<tr><th id="117">117</th><td><i>    ///</i></td></tr>
+<tr><th id="118">118</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="119">119</th><td>    <b>struct</b> <dfn class="type def" id="sf::priv::SensorManager::Item" title='sf::priv::SensorManager::Item' data-ref="sf::priv::SensorManager::Item">Item</dfn></td></tr>
+<tr><th id="120">120</th><td>    {</td></tr>
+<tr><th id="121">121</th><td>        <em>bool</em> <dfn class="decl" id="sf::priv::SensorManager::Item::available" title='sf::priv::SensorManager::Item::available' data-ref="sf::priv::SensorManager::Item::available">available</dfn>;    <i class="doc">///&lt; Is the sensor available on this device?</i></td></tr>
+<tr><th id="122">122</th><td>        <em>bool</em> <dfn class="decl" id="sf::priv::SensorManager::Item::enabled" title='sf::priv::SensorManager::Item::enabled' data-ref="sf::priv::SensorManager::Item::enabled">enabled</dfn>;      <i class="doc">///&lt; Current enable state of the sensor</i></td></tr>
+<tr><th id="123">123</th><td>        <a class="type" href="Unix/SensorImpl.hpp.html#sf::priv::SensorImpl" title='sf::priv::SensorImpl' data-ref="sf::priv::SensorImpl">SensorImpl</a> <dfn class="decl" id="sf::priv::SensorManager::Item::sensor" title='sf::priv::SensorManager::Item::sensor' data-ref="sf::priv::SensorManager::Item::sensor">sensor</dfn>; <i class="doc">///&lt; Sensor implementation</i></td></tr>
+<tr><th id="124">124</th><td>        <a class="typedef" href="../../../include/SFML/System/Vector3.hpp.html#sf::Vector3f" title='sf::Vector3f' data-type='Vector3&lt;float&gt;' data-ref="sf::Vector3f">Vector3f</a> <dfn class="decl" id="sf::priv::SensorManager::Item::value" title='sf::priv::SensorManager::Item::value' data-ref="sf::priv::SensorManager::Item::value">value</dfn>;    <i class="doc">///&lt; The current sensor value</i></td></tr>
+<tr><th id="125">125</th><td>    };</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="128">128</th><td><i>    // Member data</i></td></tr>
+<tr><th id="129">129</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="130">130</th><td>    <a class="type" href="#sf::priv::SensorManager::Item" title='sf::priv::SensorManager::Item' data-ref="sf::priv::SensorManager::Item">Item</a> <dfn class="decl" id="sf::priv::SensorManager::m_sensors" title='sf::priv::SensorManager::m_sensors' data-ref="sf::priv::SensorManager::m_sensors">m_sensors</dfn>[<a class="type" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</a>::<a class="enum" href="../../../include/SFML/Window/Sensor.hpp.html#sf::Sensor::Type::Count" title='sf::Sensor::Type::Count' data-ref="sf::Sensor::Type::Count">Count</a>]; <i class="doc">///&lt; Sensors information and state</i></td></tr>
+<tr><th id="131">131</th><td>};</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td>} <i>// namespace priv</i></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><u>#<span data-ppcond="25">endif</span> // SFML_SENSORMANAGER_HPP</u></td></tr>
+<tr><th id="139">139</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='Sensor.cpp.html'>codebrowser/src/SFML/Window/Sensor.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

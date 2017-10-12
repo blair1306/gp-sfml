@@ -1,0 +1,7 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4254' type='5'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4263'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4263'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4332' c='_ZL26stbi__create_png_image_rawP9stbi__pngPhjijjii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4370' c='_ZL26stbi__create_png_image_rawP9stbi__pngPhjijjii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4387' c='_ZL26stbi__create_png_image_rawP9stbi__pngPhjijjii'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4253'>// synthetic filters used for first scanline to avoid needing a dummy row of 0s</doc>

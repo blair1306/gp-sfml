@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='342' type='sf::Http::Response::Status'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='146' u='w' c='_ZN2sf4Http8ResponseC1Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='173' u='r' c='_ZNK2sf4Http8Response9getStatusEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='217' u='w' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='226' u='w' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='231' u='w' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>384</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='342'>///&lt; Status code</doc>

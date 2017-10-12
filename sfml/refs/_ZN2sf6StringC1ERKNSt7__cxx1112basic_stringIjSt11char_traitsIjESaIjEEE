@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='150' type='void sf::String::String(const std::basic_string&lt;Uint32&gt; &amp; utf32String)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='144'>////////////////////////////////////////////////////////////
+    /// \brief Construct from an UTF-32 string
+    ///
+    /// \param utf32String UTF-32 string to assign
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='122' ll='125' type='void sf::String::String(const std::basic_string&lt;Uint32&gt; &amp; utf32String)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='310' u='c' c='_ZNK2sf6String9substringEmm'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='121'>////////////////////////////////////////////////////////////</doc>

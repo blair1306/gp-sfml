@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='90' type='void sf::priv::CursorImpl::release()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Release the cursor, if we have loaded one.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='53' u='c' c='_ZN2sf4priv10CursorImplD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='62' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='118' u='c' c='_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE'/>
+<def f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='143' ll='150' type='void sf::priv::CursorImpl::release()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='142'>////////////////////////////////////////////////////////////</doc>

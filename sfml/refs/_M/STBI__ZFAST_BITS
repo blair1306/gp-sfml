@@ -1,0 +1,6 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3740'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3747' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3806' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3808' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3870' u='c'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3739'>// fast-way is faster to check than jpeg huffman, but slow way is slower</doc>

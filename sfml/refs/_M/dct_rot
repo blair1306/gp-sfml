@@ -1,0 +1,4 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2229'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2383' u='w'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2227'>// out(0) = c0[even]*x + c0[odd]*y   (c0, x, y 16-bit, out 32-bit)
+   // out(1) = c1[even]*x + c1[odd]*y</doc>

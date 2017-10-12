@@ -1,0 +1,9 @@
+<def f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='42' ll='68'/>
+<size>4</size>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Automatic wrapper for saving and restoring the current texture binding
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv12TextureSaverC1Ev'/>
+<fun r='_ZN2sf4priv12TextureSaverD1Ev'/>
+<mbr r='sf::priv::TextureSaver::m_textureBinding' o='0' t='GLint'/>

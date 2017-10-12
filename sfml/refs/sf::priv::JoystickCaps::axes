@@ -1,0 +1,15 @@
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='50' u='r' c='_ZN2sf4priv12JoystickCapsC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='50' u='r' c='_ZN2sf4priv12JoystickCapsC1Ev'/>
+<dec f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='54' type='bool [8]'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='51' u='r' c='_ZN2sf8Joystick7hasAxisEjNS0_4AxisE'/>
+<offset>32</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='54'>///&lt; Support for each axis</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='616' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='617' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='619' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='621' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='622' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='623' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='624' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='625' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='186' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

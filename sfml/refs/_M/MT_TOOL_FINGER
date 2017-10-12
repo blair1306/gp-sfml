@@ -1,0 +1,4 @@
+<dec f='include/linux/input.h' l='251'/>
+<doc f='include/linux/input.h' l='248'>/*
+ * MT_TOOL types
+ */</doc>

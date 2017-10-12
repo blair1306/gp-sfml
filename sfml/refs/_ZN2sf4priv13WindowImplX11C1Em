@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='57' type='void sf::priv::WindowImplX11::WindowImplX11(WindowHandle handle)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Construct the window implementation from an existing control
+    ///
+    /// \param handle Platform-specific handle of the control
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='482' ll='526' type='void sf::priv::WindowImplX11::WindowImplX11(WindowHandle handle)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='481'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='78' u='c' c='_ZN2sf4priv10WindowImpl6createEm'/>

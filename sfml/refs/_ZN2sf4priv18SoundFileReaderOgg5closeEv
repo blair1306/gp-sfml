@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='113' type='void sf::priv::SoundFileReaderOgg::close()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='109'>////////////////////////////////////////////////////////////
+    /// \brief Close the open Vorbis file
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='101' u='c' c='_ZN2sf4priv18SoundFileReaderOggD1Ev'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='167' ll='175' type='void sf::priv::SoundFileReaderOgg::close()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='166'>////////////////////////////////////////////////////////////</doc>

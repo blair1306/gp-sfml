@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/basic_string.h' l='4819' ll='4826' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::operator+(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __lhs, const _CharT * __rhs)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='370' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='370' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='372' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='438' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='510' u='c' c='_ZN2sf3Ftp11getResponseEv'/>

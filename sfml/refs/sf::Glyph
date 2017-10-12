@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Graphics/Glyph.hpp' l='41' ll='57'/>
+<size>36</size>
+<doc f='codebrowser/include/SFML/Graphics/Glyph.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Structure describing a glyph
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5GlyphC1Ev'/>
+<mbr r='sf::Glyph::advance' o='0' t='float'/>
+<mbr r='sf::Glyph::bounds' o='32' t='FloatRect'/>
+<mbr r='sf::Glyph::textureRect' o='160' t='IntRect'/>

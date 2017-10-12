@@ -1,0 +1,18 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='255' type='FT_StrokerBorder FT_Outline_GetOutsideBorder(FT_Outline * outline)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='237'>/**************************************************************
+   *
+   * @function:
+   *   FT_Outline_GetOutsideBorder
+   *
+   * @description:
+   *   Retrieve the @FT_StrokerBorder value corresponding to the
+   *   `outside&apos; borders of a given outline.
+   *
+   * @input:
+   *   outline ::
+   *     The source outline handle.
+   *
+   * @return:
+   *   The border index.  @FT_STROKER_BORDER_LEFT for empty or invalid
+   *   outlines.
+   */</doc>

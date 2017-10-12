@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='55' type='0'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='154' u='r' c='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='375' u='r' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='401' u='r' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='568' u='r' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='600' u='r' c='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='639' u='r' c='_ZN2sf3Ftp11DataChannel4sendERSi'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='55'>///&lt; The socket has sent / received the data</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='384' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='392' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='398' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='90' u='r' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='125' u='r' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='136' u='r' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='154' u='r' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='185' u='r' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='260' u='r' c='_ZN2sf9TcpSocket4sendEPKvmRm'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='284' u='r' c='_ZN2sf9TcpSocket7receiveEPvmRm'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='333' u='r' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='361' u='r' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='381' u='r' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='400' u='r' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='84' u='r' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='120' u='r' c='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='155' u='r' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='190' u='r' c='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>

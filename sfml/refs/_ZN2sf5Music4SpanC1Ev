@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Audio/Music.hpp' l='63' ll='66' type='void sf::Music::Span::Span&lt;T&gt;()'/>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='59'>////////////////////////////////////////////////////////////
+        /// \brief Default constructor
+        ///
+        ////////////////////////////////////////////////////////////</doc>

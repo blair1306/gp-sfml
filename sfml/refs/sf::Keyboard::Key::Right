@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='123' type='72'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='123'>///&lt; Right arrow</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='99' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='421' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='296' ll='301' type='void stbiw__write3(stbi__write_context * s, unsigned char a, unsigned char b, unsigned char c)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='315' u='c' c='_ZL18stbiw__write_pixelP19stbi__write_contextiiiiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='324' u='c' c='_ZL18stbiw__write_pixelP19stbi__write_contextiiiiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='329' u='c' c='_ZL18stbiw__write_pixelP19stbi__write_contextiiiiPh'/>

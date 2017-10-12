@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/streambuf_iterator.h' l='209' ll='212' type='bool std::operator!=(const istreambuf_iterator&lt;_CharT, _Traits&gt; &amp; __a, const istreambuf_iterator&lt;_CharT, _Traits&gt; &amp; __b)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='263' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

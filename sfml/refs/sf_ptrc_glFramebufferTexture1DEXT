@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1227' type='void (*)(GLenum, GLenum, GLenum, GLuint, GLint)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='717' type='void (*)(GLenum, GLenum, GLenum, GLuint, GLint)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='757' u='w' c='_ZL27Load_EXT_framebuffer_objectv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='758' u='r' c='_ZL27Load_EXT_framebuffer_objectv'/>

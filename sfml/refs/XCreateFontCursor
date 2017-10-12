@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='1576' type='Cursor XCreateFontCursor(Display * , unsigned int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='137' u='c' c='_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE'/>

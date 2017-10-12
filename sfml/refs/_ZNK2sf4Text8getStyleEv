@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='271' type='Uint32 sf::Text::getStyle() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='231' ll='234' type='Uint32 sf::Text::getStyle() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='230'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='263'>////////////////////////////////////////////////////////////
+    /// \brief Get the text&apos;s style
+    ///
+    /// \return Text&apos;s style
+    ///
+    /// \see setStyle
+    ///
+    ////////////////////////////////////////////////////////////</doc>

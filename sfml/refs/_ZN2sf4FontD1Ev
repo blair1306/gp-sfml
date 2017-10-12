@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='87' type='void sf::Font::~Font()'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='108' ll='118' type='void sf::Font::~Font()'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='107'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='81'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// Cleans up all the internal resources used by the font
+    ///
+    ////////////////////////////////////////////////////////////</doc>

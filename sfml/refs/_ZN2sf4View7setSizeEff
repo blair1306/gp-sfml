@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='102' type='void sf::View::setSize(float width, float height)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='93'>////////////////////////////////////////////////////////////
+    /// \brief Set the size of the view
+    ///
+    /// \param width  New width of the view
+    /// \param height New height of the view
+    ///
+    /// \see setCenter, getCenter
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='91' ll='98' type='void sf::View::setSize(float width, float height)'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='104' u='c' c='_ZN2sf4View7setSizeERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='193' u='c' c='_ZN2sf4View4zoomEf'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='90'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='240' type='void sf::Transformable::move(const Vector2f &amp; offset)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='225'>////////////////////////////////////////////////////////////
+    /// \brief Move the object by a given offset
+    ///
+    /// This function adds to the current position of the object,
+    /// unlike setPosition which overwrites it.
+    /// Thus, it is equivalent to the following code:
+    /// \code
+    /// object.setPosition(object.getPosition() + offset);
+    /// \endcode
+    ///
+    /// \param offset Offset
+    ///
+    /// \see setPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='153' ll='156' type='void sf::Transformable::move(const Vector2f &amp; offset)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='152'>////////////////////////////////////////////////////////////</doc>

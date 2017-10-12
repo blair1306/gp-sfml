@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/SFML/Window/Unix/Display.hpp' l='56' type='void sf::priv::CloseDisplay(Display * display)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/Display.hpp' l='50'>////////////////////////////////////////////////////////////
+/// \brief Release a reference to the shared display
+///
+/// \param display Display to release
+///
+////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='55' u='c' c='_ZN2sf4priv10CursorImplD1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='77' ll='86' type='void sf::priv::CloseDisplay(Display * display)'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='101' u='c' c='_ZN2sf4priv7getAtomERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>
+<doc f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='76'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='205' u='c' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='167' u='c' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='175' u='c' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='204' u='c' c='_ZN2sf4priv9InputImpl20isMouseButtonPressedENS_5Mouse6ButtonE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='236' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='261' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionERKNS_6WindowE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='282' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='300' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEERKNS_6WindowE'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='111' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='177' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='179' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='189' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='211' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='221' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='228' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='240' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='275' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='751' u='c' c='_ZN2sf4priv13WindowImplX11D1Ev'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='65' type='bool'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='65'>///&lt; Is the Alt key pressed?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1720' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1796' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

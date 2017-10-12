@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Sensor.hpp' l='70' type='static bool sf::Sensor::isAvailable(sf::Sensor::Type sensor)'/>
+<def f='codebrowser/src/SFML/Window/Sensor.cpp' l='36' ll='39' type='static bool sf::Sensor::isAvailable(sf::Sensor::Type sensor)'/>
+<doc f='codebrowser/src/SFML/Window/Sensor.cpp' l='35'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Sensor.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Check if a sensor is available on the underlying platform
+    ///
+    /// \param sensor Sensor to check
+    ///
+    /// \return True if the sensor is available, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>

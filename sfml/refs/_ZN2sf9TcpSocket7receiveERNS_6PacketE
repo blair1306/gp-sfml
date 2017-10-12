@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='208' type='sf::Socket::Status sf::TcpSocket::receive(sf::Packet &amp; packet)'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='194'>////////////////////////////////////////////////////////////
+    /// \brief Receive a formatted packet of data from the remote peer
+    ///
+    /// In blocking mode, this function will wait until the whole packet
+    /// has been received.
+    /// This function will fail if the socket is not connected.
+    ///
+    /// \param packet Packet to fill with the received data
+    ///
+    /// \return Status code
+    ///
+    /// \see send
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='343' ll='401' type='Socket::Status sf::TcpSocket::receive(sf::Packet &amp; packet)'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='342'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='129' type='void sf::priv::SoundFileReaderFlac::close()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='125'>////////////////////////////////////////////////////////////
+    /// \brief Close the open FLAC file
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='218' u='c' c='_ZN2sf4priv19SoundFileReaderFlacD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='240' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='328' ll='336' type='void sf::priv::SoundFileReaderFlac::close()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='327'>////////////////////////////////////////////////////////////</doc>

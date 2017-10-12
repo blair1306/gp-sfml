@@ -1,0 +1,7 @@
+_ZNSt3_V26rotateET_S0_S0_|std::_V2::rotate
+_ZSt11rotate_copyT_S_S_T0_|std::rotate_copy
+_ZN2sf4Font3RowC1Ejj|sf::Font::Row::Row
+_ZN2sf9Transform6rotateEf|sf::Transform::rotate
+_ZN2sf13Transformable6rotateEf|sf::Transformable::rotate
+_ZN2sf4View6rotateEf|sf::View::rotate
+_ZNSt14numeric_limits11round_errorEv|std::numeric_limits::round_error

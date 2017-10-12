@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='417' type='int stbi_info_from_memory(const stbi_uc * buffer, int len, int * x, int * y, int * comp)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6954' ll='6959' macro='1' type='int stbi_info_from_memory(const stbi_uc * buffer, int len, int * x, int * y, int * comp)'/>

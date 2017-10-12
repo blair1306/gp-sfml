@@ -1,0 +1,3 @@
+<dec f='include/AL/al.h' l='487' type='void alListenerf(ALenum param, ALfloat value)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='73' u='c' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='157' u='c' c='_ZN2sf4priv11AudioDevice15setGlobalVolumeEf'/>

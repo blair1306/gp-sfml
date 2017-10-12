@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='425' type='sf::View'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='84' u='w' c='_ZN2sf12RenderTargetC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='130' u='a' c='_ZNK2sf12RenderTarget14getDefaultViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='419' u='m' c='_ZN2sf12RenderTarget10initializeEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='420' u='r' c='_ZN2sf12RenderTarget10initializeEv'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='422'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='425'>///&lt; Default view</doc>

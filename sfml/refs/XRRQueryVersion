@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='163' type='int XRRQueryVersion(Display * dpy, int * major_version_return, int * minor_version_return)'/>

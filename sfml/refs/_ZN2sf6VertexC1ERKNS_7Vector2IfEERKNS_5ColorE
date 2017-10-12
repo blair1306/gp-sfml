@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='71' type='void sf::Vertex::Vertex(const Vector2f &amp; thePosition, const sf::Color &amp; theColor)'/>
+<doc f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Construct the vertex from its position and color
+    ///
+    /// The texture coordinates are (0, 0).
+    ///
+    /// \param thePosition Vertex position
+    /// \param theColor    Vertex color
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='52' ll='57' type='void sf::Vertex::Vertex(const Vector2f &amp; thePosition, const sf::Color &amp; theColor)'/>
+<doc f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='51'>////////////////////////////////////////////////////////////</doc>

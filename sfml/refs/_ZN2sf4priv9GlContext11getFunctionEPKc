@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='144' type='static GlFunctionPointer sf::priv::GlContext::getFunction(const char * name)'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='93' u='c' c='_ZN2sf7Context11getFunctionEPKc'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='136'>////////////////////////////////////////////////////////////
+    /// \brief Get the address of an OpenGL function
+    ///
+    /// \param name Name of the function to get the address of
+    ///
+    /// \return Address of the OpenGL function, 0 on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='257' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='439' ll='452' type='static GlFunctionPointer sf::priv::GlContext::getFunction(const char * name)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='631' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='438'>////////////////////////////////////////////////////////////</doc>

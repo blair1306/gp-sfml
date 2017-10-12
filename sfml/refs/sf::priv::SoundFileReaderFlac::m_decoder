@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='134' type='FLAC__StreamDecoder *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='131'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='134'>///&lt; FLAC decoder</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='209' u='w' c='_ZN2sf4priv19SoundFileReaderFlacC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='226' u='w' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='227' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='235' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='238' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='267' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='272' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='273' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='315' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='319' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='330' u='r' c='_ZN2sf4priv19SoundFileReaderFlac5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='332' u='r' c='_ZN2sf4priv19SoundFileReaderFlac5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='333' u='r' c='_ZN2sf4priv19SoundFileReaderFlac5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='334' u='w' c='_ZN2sf4priv19SoundFileReaderFlac5closeEv'/>

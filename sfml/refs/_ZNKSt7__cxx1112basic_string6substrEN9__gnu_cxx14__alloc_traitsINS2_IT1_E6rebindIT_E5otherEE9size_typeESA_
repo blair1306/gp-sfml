@@ -1,0 +1,32 @@
+<def f='include/c++/5/bits/basic_string.h' l='2292' ll='2295' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; std::__cxx11::basic_string::substr(size_type __pos = 0, size_type __n = npos) const'/>
+<use f='codebrowser/src/SFML/Audio/ALCheck.cpp' l='90' u='c' c='_ZN2sf4priv12alCheckErrorEPKcjS2_'/>
+<doc f='include/c++/5/bits/basic_string.h' l='2280'>/**
+       *  @brief  Get a substring.
+       *  @param __pos  Index of first character (default 0).
+       *  @param __n  Number of characters in substring (default remainder).
+       *  @return  The new string.
+       *  @throw  std::out_of_range  If __pos &gt; size().
+       *
+       *  Construct and return a new string using the @a __n
+       *  characters starting at @a __pos.  If the string is too
+       *  short, use the remainder of the characters.  If @a __pos is
+       *  beyond the end of the string, out_of_range is thrown.
+      */</doc>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='114' u='c' c='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='42' u='c' c='_ZN2sf4priv19SoundFileWriterFlac5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='43' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='80' u='c' c='_ZN2sf4priv18SoundFileWriterWav5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/GLCheck.cpp' l='104' u='c' c='_ZN2sf4priv12glCheckErrorEPKcjS2_'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='243' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='107' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='129' u='c' c='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='293' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='336' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='545' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='208' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='286' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='287' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='320' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='323' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='326' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='310' u='c' c='_ZNK2sf6String9substringEmm'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='102' type='Vector2f'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='44' u='w' c='_ZN2sf14RectangleShape7setSizeERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='52' u='a' c='_ZNK2sf14RectangleShape7getSizeEv'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='70' u='m' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='71' u='m' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='71' u='m' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='72' u='m' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<offset>2688</offset>
+<doc f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='99'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='102'>///&lt; Size of the rectangle</doc>

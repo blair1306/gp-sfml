@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='202' type='short * XRRConfigRates(XRRScreenConfiguration * config, int sizeID, int * nrates)'/>

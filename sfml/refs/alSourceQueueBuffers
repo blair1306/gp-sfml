@@ -1,0 +1,2 @@
+<dec f='include/AL/al.h' l='546' type='void alSourceQueueBuffers(ALuint source, ALsizei nb, const ALuint * buffers)'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='453' u='c' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

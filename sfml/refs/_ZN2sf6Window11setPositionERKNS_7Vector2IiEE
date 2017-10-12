@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='263' type='void sf::Window::setPosition(const Vector2i &amp; position)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='251'>////////////////////////////////////////////////////////////
+    /// \brief Change the position of the window on screen
+    ///
+    /// This function only works for top-level windows
+    /// (i.e. it will be ignored for windows created from
+    /// the handle of a child window/control).
+    ///
+    /// \param position New position, in pixels
+    ///
+    /// \see getPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='220' ll='224' type='void sf::Window::setPosition(const Vector2i &amp; position)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='219'>////////////////////////////////////////////////////////////</doc>

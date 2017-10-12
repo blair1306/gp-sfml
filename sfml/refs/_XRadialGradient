@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='191' ll='194'/>
+<size>24</size>
+<mbr r='_XRadialGradient::inner' o='0' t='XCircle'/>
+<mbr r='_XRadialGradient::outer' o='96' t='XCircle'/>

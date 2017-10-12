@@ -1,0 +1,2 @@
+<dec f='include/X11/Xutil.h' l='139'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='993' u='c'/>

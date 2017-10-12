@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='55' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='94' u='r' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='130' u='r' c='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='169' u='r' c='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<offset>96</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='55'>///&lt; Samples rate of the sound, in samples per second</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='166' u='w' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='119' u='w' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='252' u='w' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>

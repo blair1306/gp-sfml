@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='236' type='std::wstring sf::String::operator basic_string() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='223'>////////////////////////////////////////////////////////////
+    /// \brief Implicit conversion operator to std::wstring (wide string)
+    ///
+    /// Characters that do not fit in the target encoding are
+    /// discarded from the returned string.
+    /// This operator is defined for convenience, and is equivalent
+    /// to calling toWideString().
+    ///
+    /// \return Converted wide string
+    ///
+    /// \see toWideString, operator std::string
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='143' ll='146' type='std::wstring sf::String::operator basic_string() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='142'>////////////////////////////////////////////////////////////</doc>

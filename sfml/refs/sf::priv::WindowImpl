@@ -1,0 +1,36 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='57' ll='277'/>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='47' c='sf::priv::WindowImplX11'/>
+<size>712</size>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='53'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for OS-specific window implementation
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv10WindowImpl6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf4priv10WindowImpl6createEm'/>
+<fun r='_ZN2sf4priv10WindowImplD1Ev'/>
+<fun r='_ZN2sf4priv10WindowImpl20setJoystickThresholdEf'/>
+<fun r='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<fun r='_ZNK2sf4priv10WindowImpl15getSystemHandleEv'/>
+<fun r='_ZNK2sf4priv10WindowImpl11getPositionEv'/>
+<fun r='_ZN2sf4priv10WindowImpl11setPositionERKNS_7Vector2IiEE'/>
+<fun r='_ZNK2sf4priv10WindowImpl7getSizeEv'/>
+<fun r='_ZN2sf4priv10WindowImpl7setSizeERKNS_7Vector2IjEE'/>
+<fun r='_ZN2sf4priv10WindowImpl8setTitleERKNS_6StringE'/>
+<fun r='_ZN2sf4priv10WindowImpl7setIconEjjPKh'/>
+<fun r='_ZN2sf4priv10WindowImpl10setVisibleEb'/>
+<fun r='_ZN2sf4priv10WindowImpl21setMouseCursorVisibleEb'/>
+<fun r='_ZN2sf4priv10WindowImpl21setMouseCursorGrabbedEb'/>
+<fun r='_ZN2sf4priv10WindowImpl14setMouseCursorERKNS0_10CursorImplE'/>
+<fun r='_ZN2sf4priv10WindowImpl19setKeyRepeatEnabledEb'/>
+<fun r='_ZN2sf4priv10WindowImpl12requestFocusEv'/>
+<fun r='_ZNK2sf4priv10WindowImpl8hasFocusEv'/>
+<fun r='_ZN2sf4priv10WindowImplC1Ev'/>
+<fun r='_ZN2sf4priv10WindowImpl9pushEventERKNS_5EventE'/>
+<fun r='_ZN2sf4priv10WindowImpl13processEventsEv'/>
+<fun r='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<fun r='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<mbr r='sf::priv::WindowImpl::m_events' o='64' t='std::queue&lt;Event&gt;'/>
+<mbr r='sf::priv::WindowImpl::m_joystickStates' o='704' t='sf::priv::JoystickState [8]'/>
+<mbr r='sf::priv::WindowImpl::m_sensorValue' o='5056' t='Vector3f [6]'/>
+<mbr r='sf::priv::WindowImpl::m_joystickThreshold' o='5632' t='float'/>

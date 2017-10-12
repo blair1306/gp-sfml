@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='133' type='static bool sf::priv::InputImpl::isTouchDown(unsigned int finger)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='125'>////////////////////////////////////////////////////////////
+    /// \brief Check if a touch event is currently down
+    ///
+    /// \param finger Finger index
+    ///
+    /// \return True if \a finger is currently touching the screen, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Touch.cpp' l='37' u='c' c='_ZN2sf5Touch6isDownEj'/>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='305' ll='309' type='static bool sf::priv::InputImpl::isTouchDown(unsigned int )'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='304'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='305'>/*finger*/</doc>

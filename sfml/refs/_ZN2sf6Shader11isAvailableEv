@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='673' type='static bool sf::Shader::isAvailable()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='371' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='663'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether or not the system supports shaders
+    ///
+    /// This function should always be called before using
+    /// the shader features. If it returns false, then
+    /// any attempt to use sf::Shader will fail.
+    ///
+    /// \return True if shaders are supported, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='746' u='c' c='_ZN2sf6Shader4bindEPKS0_'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='774' ll='798' type='static bool sf::Shader::isAvailable()'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='818' u='c' c='_ZN2sf6Shader19isGeometryAvailableEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='831' u='c' c='_ZN2sf6Shader7compileEPKcS2_S2_'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='773'>////////////////////////////////////////////////////////////</doc>

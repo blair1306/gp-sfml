@@ -1,0 +1,8 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1471' ll='1513' type='unsigned char * stbi__convert_format(unsigned char * data, int img_n, int req_comp, unsigned int x, unsigned int y)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4865' u='c' c='_ZL12stbi__do_pngP9stbi__pngPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5221' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5552' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5799' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6014' u='c' c='_ZL14stbi__pic_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6387' u='c' c='_ZL14stbi__gif_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6808' u='c' c='_ZL14stbi__pnm_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>

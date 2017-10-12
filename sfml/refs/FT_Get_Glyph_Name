@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3200' type='FT_Error FT_Get_Glyph_Name(FT_Face face, FT_UInt glyph_index, FT_Pointer buffer, FT_UInt buffer_max)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3198'>/*                                                                       */</doc>

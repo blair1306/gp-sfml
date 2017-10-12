@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='68' type='void sf::Transform::Transform(float a00, float a01, float a02, float a10, float a11, float a12, float a20, float a21, float a22)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Construct a transform from a 3x3 matrix
+    ///
+    /// \param a00 Element (0, 0) of the matrix
+    /// \param a01 Element (0, 1) of the matrix
+    /// \param a02 Element (0, 2) of the matrix
+    /// \param a10 Element (1, 0) of the matrix
+    /// \param a11 Element (1, 1) of the matrix
+    /// \param a12 Element (1, 2) of the matrix
+    /// \param a20 Element (2, 0) of the matrix
+    /// \param a21 Element (2, 1) of the matrix
+    /// \param a22 Element (2, 2) of the matrix
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='50' ll='58' type='void sf::Transform::Transform(float a00, float a01, float a02, float a10, float a11, float a12, float a20, float a21, float a22)'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='80' u='c' c='_ZNK2sf9Transform10getInverseEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='147' u='c' c='_ZN2sf9Transform7combineERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='164' u='c' c='_ZN2sf9Transform9translateEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='186' u='c' c='_ZN2sf9Transform6rotateEf'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='201' u='c' c='_ZN2sf9Transform6rotateEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='219' u='c' c='_ZN2sf9Transform5scaleEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='230' u='c' c='_ZN2sf9Transform5scaleEffff'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='49'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='196' u='c' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='217' u='c' c='_ZNK2sf4View12getTransformEv'/>

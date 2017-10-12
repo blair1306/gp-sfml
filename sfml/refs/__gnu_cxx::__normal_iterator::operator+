@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='792' ll='794' type='__normal_iterator&lt;_Iterator, _Container&gt; __gnu_cxx::__normal_iterator::operator+(difference_type __n) const'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='293' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='294' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='317' u='c' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='318' u='c' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='322' u='c' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='344' u='c' c='_ZN2sf5Image14flipVerticallyEv'/>

@@ -1,0 +1,10 @@
+<def f='include/c++/5/sstream' l='623' ll='625' type='__string_type std::__cxx11::basic_ostringstream::str() const'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='227' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='458' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='488' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<doc f='include/c++/5/sstream' l='619'>/**
+       *  @brief  Copying out the string buffer.
+       *  @return  @c rdbuf()-&gt;str()
+      */</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='133' u='c' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='369' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>

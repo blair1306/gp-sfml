@@ -1,0 +1,42 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='171' type='BoolType sf::Packet::operator bool (sf::Packet::*)(unsigned long)() const'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='97' ll='100' type='BoolType sf::Packet::operator bool (sf::Packet::*)(unsigned long)() const'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='107' u='c' c='_ZN2sf6PacketrsERb'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='96'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='133'>////////////////////////////////////////////////////////////
+    /// \brief Test the validity of the packet, for reading
+    ///
+    /// This operator allows to test the packet as a boolean
+    /// variable, to check if a reading operation was successful.
+    ///
+    /// A packet will be in an invalid state if it has no more
+    /// data to read.
+    ///
+    /// This behavior is the same as standard C++ streams.
+    ///
+    /// Usage example:
+    /// \code
+    /// float x;
+    /// packet &gt;&gt; x;
+    /// if (packet)
+    /// {
+    ///    // ok, x was extracted successfully
+    /// }
+    ///
+    /// // -- or --
+    ///
+    /// float x;
+    /// if (packet &gt;&gt; x)
+    /// {
+    ///    // ok, x was extracted successfully
+    /// }
+    /// \endcode
+    ///
+    /// Don&apos;t focus on the return type, it&apos;s equivalent to bool but
+    /// it disallows unwanted implicit conversions to integer or
+    /// pointer types.
+    ///
+    /// \return True if last data extraction from packet was successful
+    ///
+    /// \see endOfPacket
+    ///
+    ////////////////////////////////////////////////////////////</doc>

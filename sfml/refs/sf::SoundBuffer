@@ -1,0 +1,29 @@
+<inh f='codebrowser/include/SFML/Audio/AlResource.hpp' l='40' c='sf::AlResource'/>
+<def f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='49' ll='279'/>
+<size>88</size>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='45'>////////////////////////////////////////////////////////////
+/// \brief Storage for audio samples defining a sound
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11SoundBufferC1Ev'/>
+<fun r='_ZN2sf11SoundBufferC1ERKS0_'/>
+<fun r='_ZN2sf11SoundBufferD1Ev'/>
+<fun r='_ZN2sf11SoundBuffer12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf11SoundBuffer14loadFromMemoryEPKvm'/>
+<fun r='_ZN2sf11SoundBuffer14loadFromStreamERNS_11InputStreamE'/>
+<fun r='_ZN2sf11SoundBuffer15loadFromSamplesEPKsyjj'/>
+<fun r='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf11SoundBuffer10getSamplesEv'/>
+<fun r='_ZNK2sf11SoundBuffer14getSampleCountEv'/>
+<fun r='_ZNK2sf11SoundBuffer13getSampleRateEv'/>
+<fun r='_ZNK2sf11SoundBuffer15getChannelCountEv'/>
+<fun r='_ZNK2sf11SoundBuffer11getDurationEv'/>
+<fun r='_ZN2sf11SoundBufferaSERKS0_'/>
+<fun r='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>
+<fun r='_ZN2sf11SoundBuffer6updateEjj'/>
+<fun r='_ZNK2sf11SoundBuffer11attachSoundEPNS_5SoundE'/>
+<fun r='_ZNK2sf11SoundBuffer11detachSoundEPNS_5SoundE'/>
+<mbr r='sf::SoundBuffer::m_buffer' o='0' t='unsigned int'/>
+<mbr r='sf::SoundBuffer::m_samples' o='64' t='std::vector&lt;Int16&gt;'/>
+<mbr r='sf::SoundBuffer::m_duration' o='256' t='sf::Time'/>
+<mbr r='sf::SoundBuffer::m_sounds' o='320' t='SoundList'/>

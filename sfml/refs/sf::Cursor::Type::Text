@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='78' type='3'/>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='78'>///&lt; I-beam, cursor when hovering over a field allowing text entry</doc>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='127' c='_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE'/>

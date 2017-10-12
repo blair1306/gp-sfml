@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='60' type='void sf::RenderTexture::RenderTexture()'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='37' ll='41' type='void sf::RenderTexture::RenderTexture()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='36'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Constructs an empty, invalid render-texture. You must
+    /// call create to have a valid render-texture.
+    ///
+    /// \see create
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='315' type='float sf::Text::getOutlineThickness() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='259' ll='262' type='float sf::Text::getOutlineThickness() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='258'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='307'>////////////////////////////////////////////////////////////
+    /// \brief Get the outline thickness of the text
+    ///
+    /// \return Outline thickness of the text, in pixels
+    ///
+    /// \see setOutlineThickness
+    ///
+    ////////////////////////////////////////////////////////////</doc>

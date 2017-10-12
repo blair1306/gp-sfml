@@ -1,0 +1,25 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='149' type='sf::Socket::Status sf::UdpSocket::receive(void * data, std::size_t size, std::size_t &amp; received, sf::IpAddress &amp; remoteAddress, unsigned short &amp; remotePort)'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='125' ll='156' type='Socket::Status sf::UdpSocket::receive(void * data, std::size_t size, std::size_t &amp; received, sf::IpAddress &amp; remoteAddress, unsigned short &amp; remotePort)'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='186' u='c' c='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='124'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='128'>////////////////////////////////////////////////////////////
+    /// \brief Receive raw data from a remote peer
+    ///
+    /// In blocking mode, this function will wait until some
+    /// bytes are actually received.
+    /// Be careful to use a buffer which is large enough for
+    /// the data that you intend to receive, if it is too small
+    /// then an error will be returned and *all* the data will
+    /// be lost.
+    ///
+    /// \param data          Pointer to the array to fill with the received bytes
+    /// \param size          Maximum number of bytes that can be received
+    /// \param received      This variable is filled with the actual number of bytes received
+    /// \param remoteAddress Address of the peer that sent the data
+    /// \param remotePort    Port of the peer that sent the data
+    ///
+    /// \return Status code
+    ///
+    /// \see send
+    ///
+    ////////////////////////////////////////////////////////////</doc>

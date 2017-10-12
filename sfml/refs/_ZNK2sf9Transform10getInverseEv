@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='98' type='sf::Transform sf::Transform::getInverse() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='89'>////////////////////////////////////////////////////////////
+    /// \brief Return the inverse of the transform
+    ///
+    /// If the inverse cannot be computed, an identity transform
+    /// is returned.
+    ///
+    /// \return A new transform which is the inverse of self
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='69' ll='94' type='sf::Transform sf::Transform::getInverse() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='68'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='212' u='c' c='_ZNK2sf13Transformable19getInverseTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='233' u='c' c='_ZNK2sf4View19getInverseTransformEv'/>

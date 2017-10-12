@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>String.inl source code [codebrowser/include/SFML/System/String.inl] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/System/String.inl'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>System</a>/<a href='String.inl.html'>String.inl</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i></i></td></tr>
+<tr><th id="26">26</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="27">27</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="28">28</th><td><a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a> <a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>::<dfn class="decl def" id="_ZN2sf6String8fromUtf8ET_S1_" title='sf::String::fromUtf8' data-ref="_ZN2sf6String8fromUtf8ET_S1_">fromUtf8</dfn>(T <dfn class="local col5 decl" id="935begin" title='begin' data-type='T' data-ref="935begin">begin</dfn>, T <dfn class="local col6 decl" id="936end" title='end' data-type='T' data-ref="936end">end</dfn>)</td></tr>
+<tr><th id="29">29</th><td>{</td></tr>
+<tr><th id="30">30</th><td>    <a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a> <a class="ref fake" href="String.hpp.html#_ZN2sf6StringC1Ev" title='sf::String::String' data-ref="_ZN2sf6StringC1Ev"></a><dfn class="local col7 decl" id="937string" title='string' data-type='sf::String' data-ref="937string">string</dfn>;</td></tr>
+<tr><th id="31">31</th><td>    <a class="typedef" href="Utf.hpp.html#sf::Utf8" title='sf::Utf8' data-type='Utf&lt;8&gt;' data-ref="sf::Utf8">Utf8</a>::toUtf32(<a class="local col5 ref" href="#935begin" title='begin' data-ref="935begin">begin</a>, <a class="local col6 ref" href="#936end" title='end' data-ref="936end">end</a>, <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#_ZSt13back_inserterRT_" title='std::back_inserter' data-ref="_ZSt13back_inserterRT_">back_inserter</a>(<span class='refarg'><a class="local col7 ref" href="#937string" title='string' data-ref="937string">string</a>.<a class="member" href="String.hpp.html#sf::String::m_string" title='sf::String::m_string' data-ref="sf::String::m_string">m_string</a></span>));</td></tr>
+<tr><th id="32">32</th><td>    <b>return</b> <a class="local col7 ref" href="#937string" title='string' data-ref="937string">string</a>;</td></tr>
+<tr><th id="33">33</th><td>}</td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="37">37</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="38">38</th><td><a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a> <a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>::<dfn class="decl def" id="_ZN2sf6String9fromUtf16ET_S1_" title='sf::String::fromUtf16' data-ref="_ZN2sf6String9fromUtf16ET_S1_">fromUtf16</dfn>(T <dfn class="local col8 decl" id="938begin" title='begin' data-type='T' data-ref="938begin">begin</dfn>, T <dfn class="local col9 decl" id="939end" title='end' data-type='T' data-ref="939end">end</dfn>)</td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td>    <a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a> <a class="ref fake" href="String.hpp.html#_ZN2sf6StringC1Ev" title='sf::String::String' data-ref="_ZN2sf6StringC1Ev"></a><dfn class="local col0 decl" id="940string" title='string' data-type='sf::String' data-ref="940string">string</dfn>;</td></tr>
+<tr><th id="41">41</th><td>    <a class="typedef" href="Utf.hpp.html#sf::Utf16" title='sf::Utf16' data-type='Utf&lt;16&gt;' data-ref="sf::Utf16">Utf16</a>::toUtf32(<a class="local col8 ref" href="#938begin" title='begin' data-ref="938begin">begin</a>, <a class="local col9 ref" href="#939end" title='end' data-ref="939end">end</a>, <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#_ZSt13back_inserterRT_" title='std::back_inserter' data-ref="_ZSt13back_inserterRT_">back_inserter</a>(<span class='refarg'><a class="local col0 ref" href="#940string" title='string' data-ref="940string">string</a>.<a class="member" href="String.hpp.html#sf::String::m_string" title='sf::String::m_string' data-ref="sf::String::m_string">m_string</a></span>));</td></tr>
+<tr><th id="42">42</th><td>    <b>return</b> <a class="local col0 ref" href="#940string" title='string' data-ref="940string">string</a>;</td></tr>
+<tr><th id="43">43</th><td>}</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="48">48</th><td><a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a> <a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>::<dfn class="decl def" id="_ZN2sf6String9fromUtf32ET_S1_" title='sf::String::fromUtf32' data-ref="_ZN2sf6String9fromUtf32ET_S1_">fromUtf32</dfn>(T <dfn class="local col1 decl" id="941begin" title='begin' data-type='T' data-ref="941begin">begin</dfn>, T <dfn class="local col2 decl" id="942end" title='end' data-type='T' data-ref="942end">end</dfn>)</td></tr>
+<tr><th id="49">49</th><td>{</td></tr>
+<tr><th id="50">50</th><td>    <a class="type" href="String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a> <a class="ref fake" href="String.hpp.html#_ZN2sf6StringC1Ev" title='sf::String::String' data-ref="_ZN2sf6StringC1Ev"></a><dfn class="local col3 decl" id="943string" title='string' data-type='sf::String' data-ref="943string">string</dfn>;</td></tr>
+<tr><th id="51">51</th><td>    <a class="local col3 ref" href="#943string" title='string' data-ref="943string">string</a>.<a class="member" href="String.hpp.html#sf::String::m_string" title='sf::String::m_string' data-ref="sf::String::m_string">m_string</a>.assign(<a class="local col1 ref" href="#941begin" title='begin' data-ref="941begin">begin</a>, <a class="local col2 ref" href="#942end" title='end' data-ref="942end">end</a>);</td></tr>
+<tr><th id="52">52</th><td>    <b>return</b> <a class="local col3 ref" href="#943string" title='string' data-ref="943string">string</a>;</td></tr>
+<tr><th id="53">53</th><td>}</td></tr>
+<tr><th id="54">54</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/Font.cpp.html'>codebrowser/src/SFML/Graphics/Font.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

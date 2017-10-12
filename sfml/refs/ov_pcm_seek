@@ -1,0 +1,2 @@
+<dec f='include/vorbis/vorbisfile.h' l='171' type='int ov_pcm_seek(OggVorbis_File * vf, ogg_int64_t pos)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='134' u='c' c='_ZN2sf4priv18SoundFileReaderOgg4seekEy'/>

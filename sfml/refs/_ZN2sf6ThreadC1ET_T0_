@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='103' type='void sf::Thread::Thread(F function, A argument)'/>
+<def f='codebrowser/include/SFML/System/Thread.inl' l='77' ll='81' type='void sf::Thread::Thread(F function, A argument)'/>

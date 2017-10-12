@@ -1,0 +1,2 @@
+<dec f='include/GL/glx.h' l='267' type='void glXDestroyPbuffer(Display * dpy, GLXPbuffer pbuf)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='194' u='c' c='_ZN2sf4priv10GlxContextD1Ev'/>

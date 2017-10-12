@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='91' type='void sf::ConvexShape::setPoint(std::size_t index, const Vector2f &amp; point)'/>
+<def f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='56' ll='60' type='void sf::ConvexShape::setPoint(std::size_t index, const Vector2f &amp; point)'/>
+<doc f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='55'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Set the position of a point
+    ///
+    /// Don&apos;t forget that the polygon must remain convex, and
+    /// the points need to stay ordered!
+    /// setPointCount must be called first in order to set the total
+    /// number of points. The result is undefined if \a index is out
+    /// of the valid range.
+    ///
+    /// \param index Index of the point to change, in range [0 .. getPointCount() - 1]
+    /// \param point New position of the point
+    ///
+    /// \see getPoint
+    ///
+    ////////////////////////////////////////////////////////////</doc>

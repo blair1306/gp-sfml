@@ -1,0 +1,4 @@
+<dec f='include/arpa/inet.h' l='34' type='in_addr_t inet_addr(const char * __cp)'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='184' u='c' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='include/arpa/inet.h' l='32'>/* Convert Internet host address from numbers-and-dots notation in CP
+   into binary data in network byte order.  */</doc>

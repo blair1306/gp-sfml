@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='186' type='static bool sf::SoundRecorder::isAvailable()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='175'>////////////////////////////////////////////////////////////
+    /// \brief Check if the system supports audio capture
+    ///
+    /// This function should always be called before using
+    /// the audio capture features. If it returns false, then
+    /// any attempt to use sf::SoundRecorder or one of its derived
+    /// classes will fail.
+    ///
+    /// \return True if audio capture is supported, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='77' u='c' c='_ZN2sf13SoundRecorder5startEj'/>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='247' ll='251' type='static bool sf::SoundRecorder::isAvailable()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='246'>////////////////////////////////////////////////////////////</doc>

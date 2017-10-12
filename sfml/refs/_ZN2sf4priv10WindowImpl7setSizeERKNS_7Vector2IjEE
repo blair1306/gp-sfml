@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='155' type='void sf::priv::WindowImpl::setSize(const Vector2u &amp; size)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='149'>////////////////////////////////////////////////////////////
+    /// \brief Change the size of the rendering region of the window
+    ///
+    /// \param size New size, in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='870' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='239' u='c' c='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>

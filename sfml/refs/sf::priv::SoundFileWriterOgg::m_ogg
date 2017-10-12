@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='112' type='ogg_stream_state'/>
+<offset>4224</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='112'>// ogg stream</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='54' u='w' c='_ZN2sf4priv18SoundFileWriterOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='75' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='114' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='115' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='116' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='120' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='178' u='a' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='182' u='a' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='209' u='a' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>

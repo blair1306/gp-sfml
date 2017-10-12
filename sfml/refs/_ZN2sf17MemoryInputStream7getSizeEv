@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='100' type='Int64 sf::MemoryInputStream::getSize()'/>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Return the size of the stream
+    ///
+    /// \return The total number of bytes available in the stream, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='89' c='_ZN2sf11InputStream7getSizeEv'/>
+<def f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='93' ll='99' type='Int64 sf::MemoryInputStream::getSize()'/>
+<doc f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='92'>////////////////////////////////////////////////////////////</doc>

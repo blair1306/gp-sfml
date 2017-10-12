@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='161' type='void sf::SoundSource::setMinDistance(float distance)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='146'>////////////////////////////////////////////////////////////
+    /// \brief Set the minimum distance of the sound
+    ///
+    /// The &quot;minimum distance&quot; of a sound is the maximum
+    /// distance at which it is heard at its maximum volume. Further
+    /// than the minimum distance, it will start to fade out according
+    /// to its attenuation factor. A value of 0 (&quot;inside the head
+    /// of the listener&quot;) is an invalid value and is forbidden.
+    /// The default value of the minimum distance is 1.
+    ///
+    /// \param distance New minimum distance of the sound
+    ///
+    /// \see getMinDistance, setAttenuation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='52' u='c' c='_ZN2sf11SoundSourceC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='101' ll='104' type='void sf::SoundSource::setMinDistance(float distance)'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='185' u='c' c='_ZN2sf11SoundSourceaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='100'>////////////////////////////////////////////////////////////</doc>

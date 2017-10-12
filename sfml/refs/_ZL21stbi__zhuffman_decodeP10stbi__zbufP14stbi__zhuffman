@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3882' ll='3894' macro='1' type='int stbi__zhuffman_decode(stbi__zbuf * a, stbi__zhuffman * z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3933' u='c' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3951' u='c' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3993' u='c' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='67' type='static bool sf::priv::RenderTextureImplFBO::isAvailable()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='66' u='c' c='_ZN2sf13RenderTexture6createEjjb'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='61'>////////////////////////////////////////////////////////////
+    /// \brief Check whether the system supports FBOs or not
+    ///
+    /// \return True if FBO render textures are supported
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='73' ll='81' type='static bool sf::priv::RenderTextureImplFBO::isAvailable()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='72'>////////////////////////////////////////////////////////////</doc>

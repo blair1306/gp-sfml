@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='553'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='530' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='539' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='644' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='659' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='874' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='901' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='929' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='951' u='c'/>
+<dec f='include/GL/gl.h' l='144'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='677' u='c'/>
+<doc f='include/GL/gl.h' l='143'>/* Boolean values */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1382' type='void glIndexMask(GLuint )'/>
+<dec f='include/GL/gl.h' l='754' type='void glIndexMask(GLuint mask)'/>

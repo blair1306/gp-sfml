@@ -1,0 +1,20 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='46' ll='165'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Manages and instantiates sound file readers and writers
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf16SoundFileFactory14registerReaderEv'/>
+<fun r='_ZN2sf16SoundFileFactory16unregisterReaderEv'/>
+<fun r='_ZN2sf16SoundFileFactory14registerWriterEv'/>
+<fun r='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<fun r='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<fun r='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>
+<fun r='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<smbr r='sf::SoundFileFactory::s_readers' t='ReaderFactoryArray'/>
+<smbr r='sf::SoundFileFactory::s_writers' t='WriterFactoryArray'/>
+<fun r='_ZN2sf16SoundFileFactory14registerReaderEv'/>
+<fun r='_ZN2sf16SoundFileFactory16unregisterReaderEv'/>
+<fun r='_ZN2sf16SoundFileFactory14registerWriterEv'/>
+<fun r='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>

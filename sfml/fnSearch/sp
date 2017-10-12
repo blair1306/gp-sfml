@@ -1,0 +1,15 @@
+_ZNSt15basic_streambuf9sputbackcET_|std::basic_streambuf::sputbackc
+_ZNSt15basic_streambuf5sputcET_|std::basic_streambuf::sputc
+_ZNSt15basic_streambuf5sputnEPKT_l|std::basic_streambuf::sputn
+_ZN2sf6SpriteC1Ev|sf::Sprite::Sprite
+_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE|sf::Sprite::draw
+_ZNK2sf6Sprite8getColorEv|sf::Sprite::getColor
+_ZNK2sf6Sprite15getGlobalBoundsEv|sf::Sprite::getGlobalBounds
+_ZNK2sf6Sprite14getLocalBoundsEv|sf::Sprite::getLocalBounds
+_ZNK2sf6Sprite10getTextureEv|sf::Sprite::getTexture
+_ZNK2sf6Sprite14getTextureRectEv|sf::Sprite::getTextureRect
+_ZN2sf6Sprite8setColorERKNS_5ColorE|sf::Sprite::setColor
+_ZN2sf6Sprite10setTextureERKNS_7TextureEb|sf::Sprite::setTexture
+_ZN2sf6Sprite14setTextureRectERKNS_4RectIiEE|sf::Sprite::setTextureRect
+_ZN2sf6Sprite15updatePositionsEv|sf::Sprite::updatePositions
+_ZN2sf6Sprite15updateTexCoordsEv|sf::Sprite::updateTexCoords

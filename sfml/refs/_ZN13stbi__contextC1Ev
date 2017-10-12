@@ -1,0 +1,15 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1144' u='c' c='stbi_load_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1157' u='c' c='stbi_load_from_file_16'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1182' u='c' c='stbi_load_16_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1189' u='c' c='stbi_load_16_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1196' u='c' c='stbi_load_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1203' u='c' c='stbi_load_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1229' u='c' c='stbi_loadf_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1236' u='c' c='stbi_loadf_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1254' u='c' c='stbi_loadf_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1269' u='c' c='stbi_is_hdr_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1294' u='c' c='stbi_is_hdr_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1307' u='c' c='stbi_is_hdr_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6945' u='c' c='stbi_info_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6956' u='c' c='stbi_info_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6963' u='c' c='stbi_info_from_callbacks'/>

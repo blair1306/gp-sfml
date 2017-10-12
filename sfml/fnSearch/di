@@ -1,0 +1,10 @@
+_ZSt8distanceT_S_|std::distance
+_ZNKSt7dividesclERKT_S2_|std::divides::operator()
+_ZSt3divll|std::div
+_ZN2sf13RenderTexture7displayEv|sf::RenderTexture::display
+_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE|sf::Ftp::DirectoryResponse::DirectoryResponse
+_ZNK2sf3Ftp17DirectoryResponse12getDirectoryB5cxx11Ev|sf::Ftp::DirectoryResponse::getDirectory
+_ZN2sf3Ftp10disconnectEv|sf::Ftp::disconnect
+_ZN2sf9TcpSocket10disconnectEv|sf::TcpSocket::disconnect
+_ZN2sf4priv10GlxContext7displayEv|sf::priv::GlxContext::display
+_ZN2sf6Window7displayEv|sf::Window::display

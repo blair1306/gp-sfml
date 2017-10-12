@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='57' type='void sf::Sprite::Sprite()'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='37' ll='41' type='void sf::Sprite::Sprite()'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='36'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Creates an empty sprite with no source texture.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

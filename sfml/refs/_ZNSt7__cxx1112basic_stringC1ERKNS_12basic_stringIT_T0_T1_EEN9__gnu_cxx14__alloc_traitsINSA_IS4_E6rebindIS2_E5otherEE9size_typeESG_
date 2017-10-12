@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/basic_string.h' l='410' ll='417' type='void std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str, size_type __pos, size_type __n = npos)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='402'>/**
+       *  @brief  Construct string as copy of a substring.
+       *  @param  __str  Source string.
+       *  @param  __pos  Index of first character to copy from.
+       *  @param  __n  Number of characters to copy (default remainder).
+       */
+      // _GLIBCXX_RESOLVE_LIB_DEFECTS
+      // 2402. [this constructor] shouldn&apos;t use Allocator()</doc>

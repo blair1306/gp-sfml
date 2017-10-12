@@ -1,0 +1,8 @@
+<dec f='include/X11/Xlib.h' l='303' type='int'/>
+<dec f='include/X11/Xlib.h' l='332' type='int'/>
+<dec f='include/X11/Xlib.h' l='715' type='int'/>
+<dec f='include/X11/Xlib.h' l='744' type='int'/>
+<dec f='include/X11/Xlib.h' l='765' type='int'/>
+<dec f='include/X11/Xlib.h' l='779' type='int'/>
+<offset>640</offset>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='570' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>

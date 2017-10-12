@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='52'/>
+<use f='include/x86_64-linux-gnu/freetype2/freetype/config/ftoption.h' l='880' u='c'/>
+<use f='include/x86_64-linux-gnu/freetype2/freetype/config/ftconfig.h' l='492' u='c'/>
+<use f='include/freetype2/freetype/ftsystem.h' l='350' u='c'/>
+<use f='include/freetype2/freetype/ftimage.h' l='1204' u='c'/>
+<use f='include/freetype2/freetype/fttypes.h' l='597' u='c'/>
+<use f='include/freetype2/freetype/freetype.h' l='4199' u='c'/>
+<use f='include/freetype2/freetype/ftglyph.h' l='595' u='c'/>
+<use f='include/freetype2/freetype/ftoutln.h' l='564' u='c'/>
+<use f='include/freetype2/freetype/ftbitmap.h' l='235' u='c'/>
+<use f='include/freetype2/freetype/ftstroke.h' l='775' u='c'/>

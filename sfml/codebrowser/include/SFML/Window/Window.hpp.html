@@ -1,0 +1,633 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Window.hpp source code [codebrowser/include/SFML/Window/Window.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Window "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Window/Window.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='Window.hpp.html'>Window.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_WINDOW_HPP">SFML_WINDOW_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_WINDOW_HPP" data-ref="_M/SFML_WINDOW_HPP">SFML_WINDOW_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="ContextSettings.hpp.html">&lt;SFML/Window/ContextSettings.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Cursor.hpp.html">&lt;SFML/Window/Cursor.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Window/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="GlResource.hpp.html">&lt;SFML/Window/GlResource.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="VideoMode.hpp.html">&lt;SFML/Window/VideoMode.hpp&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="WindowHandle.hpp.html">&lt;SFML/Window/WindowHandle.hpp&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="WindowStyle.hpp.html">&lt;SFML/Window/WindowStyle.hpp&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../System/Clock.hpp.html">&lt;SFML/System/Clock.hpp&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td><u>#include <a href="../System/NonCopyable.hpp.html">&lt;SFML/System/NonCopyable.hpp&gt;</a></u></td></tr>
+<tr><th id="40">40</th><td><u>#include <a href="../System/String.hpp.html">&lt;SFML/System/String.hpp&gt;</a></u></td></tr>
+<tr><th id="41">41</th><td><u>#include <a href="../System/Vector2.hpp.html">&lt;SFML/System/Vector2.hpp&gt;</a></u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="45">45</th><td>{</td></tr>
+<tr><th id="46">46</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td>    <b>class</b> <dfn class="type" id="sf::priv::GlContext" title='sf::priv::GlContext' data-ref="sf::priv::GlContext">GlContext</dfn>;</td></tr>
+<tr><th id="49">49</th><td>    <b>class</b> <dfn class="type" id="sf::priv::WindowImpl" title='sf::priv::WindowImpl' data-ref="sf::priv::WindowImpl">WindowImpl</dfn>;</td></tr>
+<tr><th id="50">50</th><td>}</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><b>class</b> <dfn class="type" id="sf::Event" title='sf::Event' data-ref="sf::Event">Event</dfn>;</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="55">55</th><td><i>/// \brief Window that serves as a target for OpenGL rendering</i></td></tr>
+<tr><th id="56">56</th><td><i>///</i></td></tr>
+<tr><th id="57">57</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="58">58</th><td><b>class</b> <a class="macro" href="Export.hpp.html#43" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_WINDOW_API">SFML_WINDOW_API</a> <dfn class="type def" id="sf::Window" title='sf::Window' data-ref="sf::Window">Window</dfn> : <a class="type" href="GlResource.hpp.html#sf::GlResource" title='sf::GlResource' data-ref="sf::GlResource">GlResource</a>, <a class="type" href="../System/NonCopyable.hpp.html#sf::NonCopyable" title='sf::NonCopyable' data-ref="sf::NonCopyable">NonCopyable</a></td></tr>
+<tr><th id="59">59</th><td>{</td></tr>
+<tr><th id="60">60</th><td><b>public</b>:</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///</i></td></tr>
+<tr><th id="65">65</th><td><i>    /// This constructor doesn't actually create the window,</i></td></tr>
+<tr><th id="66">66</th><td><i>    /// use the other constructors or call create() to do so.</i></td></tr>
+<tr><th id="67">67</th><td><i>    ///</i></td></tr>
+<tr><th id="68">68</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="69">69</th><td>    <dfn class="decl" id="_ZN2sf6WindowC1Ev" title='sf::Window::Window' data-ref="_ZN2sf6WindowC1Ev">Window</dfn>();</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="72">72</th><td><i>    /// \brief Construct a new window</i></td></tr>
+<tr><th id="73">73</th><td><i>    ///</i></td></tr>
+<tr><th id="74">74</th><td><i>    /// This constructor creates the window with the size and pixel</i></td></tr>
+<tr><th id="75">75</th><td><i>    /// depth defined in \a mode. An optional style can be passed to</i></td></tr>
+<tr><th id="76">76</th><td><i>    /// customize the look and behavior of the window (borders,</i></td></tr>
+<tr><th id="77">77</th><td><i>    /// title bar, resizable, closable, ...). If \a style contains</i></td></tr>
+<tr><th id="78">78</th><td><i>    /// Style::Fullscreen, then \a mode must be a valid video mode.</i></td></tr>
+<tr><th id="79">79</th><td><i>    ///</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// The fourth parameter is an optional structure specifying</i></td></tr>
+<tr><th id="81">81</th><td><i>    /// advanced OpenGL context settings such as antialiasing,</i></td></tr>
+<tr><th id="82">82</th><td><i>    /// depth-buffer bits, etc.</i></td></tr>
+<tr><th id="83">83</th><td><i>    ///</i></td></tr>
+<tr><th id="84">84</th><td><i>    /// \param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)</i></td></tr>
+<tr><th id="85">85</th><td><i>    /// \param title    Title of the window</i></td></tr>
+<tr><th id="86">86</th><td><i>    /// \param style    %Window style, a bitwise OR combination of sf::Style enumerators</i></td></tr>
+<tr><th id="87">87</th><td><i>    /// \param settings Additional settings for the underlying OpenGL context</i></td></tr>
+<tr><th id="88">88</th><td><i>    ///</i></td></tr>
+<tr><th id="89">89</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="90">90</th><td>    <dfn class="decl" id="_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE" title='sf::Window::Window' data-ref="_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE">Window</dfn>(<a class="type" href="VideoMode.hpp.html#sf::VideoMode" title='sf::VideoMode' data-ref="sf::VideoMode">VideoMode</a> <dfn class="local col0 decl" id="20mode" title='mode' data-type='sf::VideoMode' data-ref="20mode">mode</dfn>, <em>const</em> <a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>&amp; <dfn class="local col1 decl" id="21title" title='title' data-type='const sf::String &amp;' data-ref="21title">title</dfn>, <a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="local col2 decl" id="22style" title='style' data-type='Uint32' data-ref="22style">style</dfn> = <span class="namespace">Style::</span><a class="enum" href="WindowStyle.hpp.html#sf::Style::Default" title='sf::Style::Default' data-ref="sf::Style::Default">Default</a>, <em>const</em> <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a>&amp; <dfn class="local col3 decl" id="23settings" title='settings' data-type='const sf::ContextSettings &amp;' data-ref="23settings">settings</dfn> = <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a><a class="ref" href="ContextSettings.hpp.html#_ZN2sf15ContextSettingsC1Ejjjjjjb" title='sf::ContextSettings::ContextSettings' data-ref="_ZN2sf15ContextSettingsC1Ejjjjjjb">(</a>));</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="93">93</th><td><i>    /// \brief Construct the window from an existing control</i></td></tr>
+<tr><th id="94">94</th><td><i>    ///</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// Use this constructor if you want to create an OpenGL</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// rendering area into an already existing control.</i></td></tr>
+<tr><th id="97">97</th><td><i>    ///</i></td></tr>
+<tr><th id="98">98</th><td><i>    /// The second parameter is an optional structure specifying</i></td></tr>
+<tr><th id="99">99</th><td><i>    /// advanced OpenGL context settings such as antialiasing,</i></td></tr>
+<tr><th id="100">100</th><td><i>    /// depth-buffer bits, etc.</i></td></tr>
+<tr><th id="101">101</th><td><i>    ///</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// \param handle   Platform-specific handle of the control</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// \param settings Additional settings for the underlying OpenGL context</i></td></tr>
+<tr><th id="104">104</th><td><i>    ///</i></td></tr>
+<tr><th id="105">105</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="106">106</th><td>    <b>explicit</b> <dfn class="decl" id="_ZN2sf6WindowC1EmRKNS_15ContextSettingsE" title='sf::Window::Window' data-ref="_ZN2sf6WindowC1EmRKNS_15ContextSettingsE">Window</dfn>(<a class="typedef" href="WindowHandle.hpp.html#sf::WindowHandle" title='sf::WindowHandle' data-type='unsigned long' data-ref="sf::WindowHandle">WindowHandle</a> <dfn class="local col4 decl" id="24handle" title='handle' data-type='WindowHandle' data-ref="24handle">handle</dfn>, <em>const</em> <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a>&amp; <dfn class="local col5 decl" id="25settings" title='settings' data-type='const sf::ContextSettings &amp;' data-ref="25settings">settings</dfn> = <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a><a class="ref" href="ContextSettings.hpp.html#_ZN2sf15ContextSettingsC1Ejjjjjjb" title='sf::ContextSettings::ContextSettings' data-ref="_ZN2sf15ContextSettingsC1Ejjjjjjb">(</a>));</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="109">109</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="110">110</th><td><i>    ///</i></td></tr>
+<tr><th id="111">111</th><td><i>    /// Closes the window and frees all the resources attached to it.</i></td></tr>
+<tr><th id="112">112</th><td><i>    ///</i></td></tr>
+<tr><th id="113">113</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="114">114</th><td>    <b>virtual</b> <dfn class="virtual decl" id="_ZN2sf6WindowD1Ev" title='sf::Window::~Window' data-ref="_ZN2sf6WindowD1Ev">~Window</dfn>();</td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="117">117</th><td><i>    /// \brief Create (or recreate) the window</i></td></tr>
+<tr><th id="118">118</th><td><i>    ///</i></td></tr>
+<tr><th id="119">119</th><td><i>    /// If the window was already created, it closes it first.</i></td></tr>
+<tr><th id="120">120</th><td><i>    /// If \a style contains Style::Fullscreen, then \a mode</i></td></tr>
+<tr><th id="121">121</th><td><i>    /// must be a valid video mode.</i></td></tr>
+<tr><th id="122">122</th><td><i>    ///</i></td></tr>
+<tr><th id="123">123</th><td><i>    /// The fourth parameter is an optional structure specifying</i></td></tr>
+<tr><th id="124">124</th><td><i>    /// advanced OpenGL context settings such as antialiasing,</i></td></tr>
+<tr><th id="125">125</th><td><i>    /// depth-buffer bits, etc.</i></td></tr>
+<tr><th id="126">126</th><td><i>    ///</i></td></tr>
+<tr><th id="127">127</th><td><i>    /// \param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)</i></td></tr>
+<tr><th id="128">128</th><td><i>    /// \param title    Title of the window</i></td></tr>
+<tr><th id="129">129</th><td><i>    /// \param style    %Window style, a bitwise OR combination of sf::Style enumerators</i></td></tr>
+<tr><th id="130">130</th><td><i>    /// \param settings Additional settings for the underlying OpenGL context</i></td></tr>
+<tr><th id="131">131</th><td><i>    ///</i></td></tr>
+<tr><th id="132">132</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="133">133</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE" title='sf::Window::create' data-ref="_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE">create</dfn>(<a class="type" href="VideoMode.hpp.html#sf::VideoMode" title='sf::VideoMode' data-ref="sf::VideoMode">VideoMode</a> <dfn class="local col6 decl" id="26mode" title='mode' data-type='sf::VideoMode' data-ref="26mode">mode</dfn>, <em>const</em> <a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>&amp; <dfn class="local col7 decl" id="27title" title='title' data-type='const sf::String &amp;' data-ref="27title">title</dfn>, <a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="local col8 decl" id="28style" title='style' data-type='Uint32' data-ref="28style">style</dfn> = <span class="namespace">Style::</span><a class="enum" href="WindowStyle.hpp.html#sf::Style::Default" title='sf::Style::Default' data-ref="sf::Style::Default">Default</a>, <em>const</em> <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a>&amp; <dfn class="local col9 decl" id="29settings" title='settings' data-type='const sf::ContextSettings &amp;' data-ref="29settings">settings</dfn> = <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a><a class="ref" href="ContextSettings.hpp.html#_ZN2sf15ContextSettingsC1Ejjjjjjb" title='sf::ContextSettings::ContextSettings' data-ref="_ZN2sf15ContextSettingsC1Ejjjjjjb">(</a>));</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// \brief Create (or recreate) the window from an existing control</i></td></tr>
+<tr><th id="137">137</th><td><i>    ///</i></td></tr>
+<tr><th id="138">138</th><td><i>    /// Use this function if you want to create an OpenGL</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// rendering area into an already existing control.</i></td></tr>
+<tr><th id="140">140</th><td><i>    /// If the window was already created, it closes it first.</i></td></tr>
+<tr><th id="141">141</th><td><i>    ///</i></td></tr>
+<tr><th id="142">142</th><td><i>    /// The second parameter is an optional structure specifying</i></td></tr>
+<tr><th id="143">143</th><td><i>    /// advanced OpenGL context settings such as antialiasing,</i></td></tr>
+<tr><th id="144">144</th><td><i>    /// depth-buffer bits, etc.</i></td></tr>
+<tr><th id="145">145</th><td><i>    ///</i></td></tr>
+<tr><th id="146">146</th><td><i>    /// \param handle   Platform-specific handle of the control</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// \param settings Additional settings for the underlying OpenGL context</i></td></tr>
+<tr><th id="148">148</th><td><i>    ///</i></td></tr>
+<tr><th id="149">149</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="150">150</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window6createEmRKNS_15ContextSettingsE" title='sf::Window::create' data-ref="_ZN2sf6Window6createEmRKNS_15ContextSettingsE">create</dfn>(<a class="typedef" href="WindowHandle.hpp.html#sf::WindowHandle" title='sf::WindowHandle' data-type='unsigned long' data-ref="sf::WindowHandle">WindowHandle</a> <dfn class="local col0 decl" id="30handle" title='handle' data-type='WindowHandle' data-ref="30handle">handle</dfn>, <em>const</em> <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a>&amp; <dfn class="local col1 decl" id="31settings" title='settings' data-type='const sf::ContextSettings &amp;' data-ref="31settings">settings</dfn> = <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a><a class="ref" href="ContextSettings.hpp.html#_ZN2sf15ContextSettingsC1Ejjjjjjb" title='sf::ContextSettings::ContextSettings' data-ref="_ZN2sf15ContextSettingsC1Ejjjjjjb">(</a>));</td></tr>
+<tr><th id="151">151</th><td></td></tr>
+<tr><th id="152">152</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="153">153</th><td><i>    /// \brief Close the window and destroy all the attached resources</i></td></tr>
+<tr><th id="154">154</th><td><i>    ///</i></td></tr>
+<tr><th id="155">155</th><td><i>    /// After calling this function, the sf::Window instance remains</i></td></tr>
+<tr><th id="156">156</th><td><i>    /// valid and you can call create() to recreate the window.</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// All other functions such as pollEvent() or display() will</i></td></tr>
+<tr><th id="158">158</th><td><i>    /// still work (i.e. you don't have to test isOpen() every time),</i></td></tr>
+<tr><th id="159">159</th><td><i>    /// and will have no effect on closed windows.</i></td></tr>
+<tr><th id="160">160</th><td><i>    ///</i></td></tr>
+<tr><th id="161">161</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="162">162</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window5closeEv" title='sf::Window::close' data-ref="_ZN2sf6Window5closeEv">close</dfn>();</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="165">165</th><td><i>    /// \brief Tell whether or not the window is open</i></td></tr>
+<tr><th id="166">166</th><td><i>    ///</i></td></tr>
+<tr><th id="167">167</th><td><i>    /// This function returns whether or not the window exists.</i></td></tr>
+<tr><th id="168">168</th><td><i>    /// Note that a hidden window (setVisible(false)) is open</i></td></tr>
+<tr><th id="169">169</th><td><i>    /// (therefore this function would return true).</i></td></tr>
+<tr><th id="170">170</th><td><i>    ///</i></td></tr>
+<tr><th id="171">171</th><td><i>    /// \return True if the window is open, false if it has been closed</i></td></tr>
+<tr><th id="172">172</th><td><i>    ///</i></td></tr>
+<tr><th id="173">173</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="174">174</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf6Window6isOpenEv" title='sf::Window::isOpen' data-ref="_ZNK2sf6Window6isOpenEv">isOpen</dfn>() <em>const</em>;</td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="177">177</th><td><i>    /// \brief Get the settings of the OpenGL context of the window</i></td></tr>
+<tr><th id="178">178</th><td><i>    ///</i></td></tr>
+<tr><th id="179">179</th><td><i>    /// Note that these settings may be different from what was</i></td></tr>
+<tr><th id="180">180</th><td><i>    /// passed to the constructor or the create() function,</i></td></tr>
+<tr><th id="181">181</th><td><i>    /// if one or more settings were not supported. In this case,</i></td></tr>
+<tr><th id="182">182</th><td><i>    /// SFML chose the closest match.</i></td></tr>
+<tr><th id="183">183</th><td><i>    ///</i></td></tr>
+<tr><th id="184">184</th><td><i>    /// \return Structure containing the OpenGL context settings</i></td></tr>
+<tr><th id="185">185</th><td><i>    ///</i></td></tr>
+<tr><th id="186">186</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="187">187</th><td>    <em>const</em> <a class="type" href="ContextSettings.hpp.html#sf::ContextSettings" title='sf::ContextSettings' data-ref="sf::ContextSettings">ContextSettings</a>&amp; <dfn class="decl" id="_ZNK2sf6Window11getSettingsEv" title='sf::Window::getSettings' data-ref="_ZNK2sf6Window11getSettingsEv">getSettings</dfn>() <em>const</em>;</td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="190">190</th><td><i>    /// \brief Pop the event on top of the event queue, if any, and return it</i></td></tr>
+<tr><th id="191">191</th><td><i>    ///</i></td></tr>
+<tr><th id="192">192</th><td><i>    /// This function is not blocking: if there's no pending event then</i></td></tr>
+<tr><th id="193">193</th><td><i>    /// it will return false and leave \a event unmodified.</i></td></tr>
+<tr><th id="194">194</th><td><i>    /// Note that more than one event may be present in the event queue,</i></td></tr>
+<tr><th id="195">195</th><td><i>    /// thus you should always call this function in a loop</i></td></tr>
+<tr><th id="196">196</th><td><i>    /// to make sure that you process every pending event.</i></td></tr>
+<tr><th id="197">197</th><td><i>    /// \code</i></td></tr>
+<tr><th id="198">198</th><td><i>    /// sf::Event event;</i></td></tr>
+<tr><th id="199">199</th><td><i>    /// while (window.pollEvent(event))</i></td></tr>
+<tr><th id="200">200</th><td><i>    /// {</i></td></tr>
+<tr><th id="201">201</th><td><i>    ///    // process event...</i></td></tr>
+<tr><th id="202">202</th><td><i>    /// }</i></td></tr>
+<tr><th id="203">203</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="204">204</th><td><i>    ///</i></td></tr>
+<tr><th id="205">205</th><td><i>    /// \param event Event to be returned</i></td></tr>
+<tr><th id="206">206</th><td><i>    ///</i></td></tr>
+<tr><th id="207">207</th><td><i>    /// \return True if an event was returned, or false if the event queue was empty</i></td></tr>
+<tr><th id="208">208</th><td><i>    ///</i></td></tr>
+<tr><th id="209">209</th><td><i>    /// \see waitEvent</i></td></tr>
+<tr><th id="210">210</th><td><i>    ///</i></td></tr>
+<tr><th id="211">211</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="212">212</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Window9pollEventERNS_5EventE" title='sf::Window::pollEvent' data-ref="_ZN2sf6Window9pollEventERNS_5EventE">pollEvent</dfn>(<a class="type" href="#sf::Event" title='sf::Event' data-ref="sf::Event">Event</a>&amp; <dfn class="local col2 decl" id="32event" title='event' data-type='sf::Event &amp;' data-ref="32event">event</dfn>);</td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="215">215</th><td><i>    /// \brief Wait for an event and return it</i></td></tr>
+<tr><th id="216">216</th><td><i>    ///</i></td></tr>
+<tr><th id="217">217</th><td><i>    /// This function is blocking: if there's no pending event then</i></td></tr>
+<tr><th id="218">218</th><td><i>    /// it will wait until an event is received.</i></td></tr>
+<tr><th id="219">219</th><td><i>    /// After this function returns (and no error occurred),</i></td></tr>
+<tr><th id="220">220</th><td><i>    /// the \a event object is always valid and filled properly.</i></td></tr>
+<tr><th id="221">221</th><td><i>    /// This function is typically used when you have a thread that</i></td></tr>
+<tr><th id="222">222</th><td><i>    /// is dedicated to events handling: you want to make this thread</i></td></tr>
+<tr><th id="223">223</th><td><i>    /// sleep as long as no new event is received.</i></td></tr>
+<tr><th id="224">224</th><td><i>    /// \code</i></td></tr>
+<tr><th id="225">225</th><td><i>    /// sf::Event event;</i></td></tr>
+<tr><th id="226">226</th><td><i>    /// if (window.waitEvent(event))</i></td></tr>
+<tr><th id="227">227</th><td><i>    /// {</i></td></tr>
+<tr><th id="228">228</th><td><i>    ///    // process event...</i></td></tr>
+<tr><th id="229">229</th><td><i>    /// }</i></td></tr>
+<tr><th id="230">230</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="231">231</th><td><i>    ///</i></td></tr>
+<tr><th id="232">232</th><td><i>    /// \param event Event to be returned</i></td></tr>
+<tr><th id="233">233</th><td><i>    ///</i></td></tr>
+<tr><th id="234">234</th><td><i>    /// \return False if any error occurred</i></td></tr>
+<tr><th id="235">235</th><td><i>    ///</i></td></tr>
+<tr><th id="236">236</th><td><i>    /// \see pollEvent</i></td></tr>
+<tr><th id="237">237</th><td><i>    ///</i></td></tr>
+<tr><th id="238">238</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="239">239</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Window9waitEventERNS_5EventE" title='sf::Window::waitEvent' data-ref="_ZN2sf6Window9waitEventERNS_5EventE">waitEvent</dfn>(<a class="type" href="#sf::Event" title='sf::Event' data-ref="sf::Event">Event</a>&amp; <dfn class="local col3 decl" id="33event" title='event' data-type='sf::Event &amp;' data-ref="33event">event</dfn>);</td></tr>
+<tr><th id="240">240</th><td></td></tr>
+<tr><th id="241">241</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="242">242</th><td><i>    /// \brief Get the position of the window</i></td></tr>
+<tr><th id="243">243</th><td><i>    ///</i></td></tr>
+<tr><th id="244">244</th><td><i>    /// \return Position of the window, in pixels</i></td></tr>
+<tr><th id="245">245</th><td><i>    ///</i></td></tr>
+<tr><th id="246">246</th><td><i>    /// \see setPosition</i></td></tr>
+<tr><th id="247">247</th><td><i>    ///</i></td></tr>
+<tr><th id="248">248</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="249">249</th><td>    <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2i" title='sf::Vector2i' data-type='Vector2&lt;int&gt;' data-ref="sf::Vector2i">Vector2i</a> <dfn class="decl" id="_ZNK2sf6Window11getPositionEv" title='sf::Window::getPosition' data-ref="_ZNK2sf6Window11getPositionEv">getPosition</dfn>() <em>const</em>;</td></tr>
+<tr><th id="250">250</th><td></td></tr>
+<tr><th id="251">251</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="252">252</th><td><i>    /// \brief Change the position of the window on screen</i></td></tr>
+<tr><th id="253">253</th><td><i>    ///</i></td></tr>
+<tr><th id="254">254</th><td><i>    /// This function only works for top-level windows</i></td></tr>
+<tr><th id="255">255</th><td><i>    /// (i.e. it will be ignored for windows created from</i></td></tr>
+<tr><th id="256">256</th><td><i>    /// the handle of a child window/control).</i></td></tr>
+<tr><th id="257">257</th><td><i>    ///</i></td></tr>
+<tr><th id="258">258</th><td><i>    /// \param position New position, in pixels</i></td></tr>
+<tr><th id="259">259</th><td><i>    ///</i></td></tr>
+<tr><th id="260">260</th><td><i>    /// \see getPosition</i></td></tr>
+<tr><th id="261">261</th><td><i>    ///</i></td></tr>
+<tr><th id="262">262</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="263">263</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window11setPositionERKNS_7Vector2IiEE" title='sf::Window::setPosition' data-ref="_ZN2sf6Window11setPositionERKNS_7Vector2IiEE">setPosition</dfn>(<em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2i" title='sf::Vector2i' data-type='Vector2&lt;int&gt;' data-ref="sf::Vector2i">Vector2i</a>&amp; <dfn class="local col4 decl" id="34position" title='position' data-type='const Vector2i &amp;' data-ref="34position">position</dfn>);</td></tr>
+<tr><th id="264">264</th><td></td></tr>
+<tr><th id="265">265</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="266">266</th><td><i>    /// \brief Get the size of the rendering region of the window</i></td></tr>
+<tr><th id="267">267</th><td><i>    ///</i></td></tr>
+<tr><th id="268">268</th><td><i>    /// The size doesn't include the titlebar and borders</i></td></tr>
+<tr><th id="269">269</th><td><i>    /// of the window.</i></td></tr>
+<tr><th id="270">270</th><td><i>    ///</i></td></tr>
+<tr><th id="271">271</th><td><i>    /// \return Size in pixels</i></td></tr>
+<tr><th id="272">272</th><td><i>    ///</i></td></tr>
+<tr><th id="273">273</th><td><i>    /// \see setSize</i></td></tr>
+<tr><th id="274">274</th><td><i>    ///</i></td></tr>
+<tr><th id="275">275</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="276">276</th><td>    <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2u" title='sf::Vector2u' data-type='Vector2&lt;unsigned int&gt;' data-ref="sf::Vector2u">Vector2u</a> <dfn class="decl" id="_ZNK2sf6Window7getSizeEv" title='sf::Window::getSize' data-ref="_ZNK2sf6Window7getSizeEv">getSize</dfn>() <em>const</em>;</td></tr>
+<tr><th id="277">277</th><td></td></tr>
+<tr><th id="278">278</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="279">279</th><td><i>    /// \brief Change the size of the rendering region of the window</i></td></tr>
+<tr><th id="280">280</th><td><i>    ///</i></td></tr>
+<tr><th id="281">281</th><td><i>    /// \param size New size, in pixels</i></td></tr>
+<tr><th id="282">282</th><td><i>    ///</i></td></tr>
+<tr><th id="283">283</th><td><i>    /// \see getSize</i></td></tr>
+<tr><th id="284">284</th><td><i>    ///</i></td></tr>
+<tr><th id="285">285</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="286">286</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window7setSizeERKNS_7Vector2IjEE" title='sf::Window::setSize' data-ref="_ZN2sf6Window7setSizeERKNS_7Vector2IjEE">setSize</dfn>(<em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2u" title='sf::Vector2u' data-type='Vector2&lt;unsigned int&gt;' data-ref="sf::Vector2u">Vector2u</a>&amp; <dfn class="local col5 decl" id="35size" title='size' data-type='const Vector2u &amp;' data-ref="35size">size</dfn>);</td></tr>
+<tr><th id="287">287</th><td></td></tr>
+<tr><th id="288">288</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="289">289</th><td><i>    /// \brief Change the title of the window</i></td></tr>
+<tr><th id="290">290</th><td><i>    ///</i></td></tr>
+<tr><th id="291">291</th><td><i>    /// \param title New title</i></td></tr>
+<tr><th id="292">292</th><td><i>    ///</i></td></tr>
+<tr><th id="293">293</th><td><i>    /// \see setIcon</i></td></tr>
+<tr><th id="294">294</th><td><i>    ///</i></td></tr>
+<tr><th id="295">295</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="296">296</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window8setTitleERKNS_6StringE" title='sf::Window::setTitle' data-ref="_ZN2sf6Window8setTitleERKNS_6StringE">setTitle</dfn>(<em>const</em> <a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>&amp; <dfn class="local col6 decl" id="36title" title='title' data-type='const sf::String &amp;' data-ref="36title">title</dfn>);</td></tr>
+<tr><th id="297">297</th><td></td></tr>
+<tr><th id="298">298</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="299">299</th><td><i>    /// \brief Change the window's icon</i></td></tr>
+<tr><th id="300">300</th><td><i>    ///</i></td></tr>
+<tr><th id="301">301</th><td><i>    /// \a pixels must be an array of \a width x \a height pixels</i></td></tr>
+<tr><th id="302">302</th><td><i>    /// in 32-bits RGBA format.</i></td></tr>
+<tr><th id="303">303</th><td><i>    ///</i></td></tr>
+<tr><th id="304">304</th><td><i>    /// The OS default icon is used by default.</i></td></tr>
+<tr><th id="305">305</th><td><i>    ///</i></td></tr>
+<tr><th id="306">306</th><td><i>    /// \param width  Icon's width, in pixels</i></td></tr>
+<tr><th id="307">307</th><td><i>    /// \param height Icon's height, in pixels</i></td></tr>
+<tr><th id="308">308</th><td><i>    /// \param pixels Pointer to the array of pixels in memory. The</i></td></tr>
+<tr><th id="309">309</th><td><i>    ///               pixels are copied, so you need not keep the</i></td></tr>
+<tr><th id="310">310</th><td><i>    ///               source alive after calling this function.</i></td></tr>
+<tr><th id="311">311</th><td><i>    ///</i></td></tr>
+<tr><th id="312">312</th><td><i>    /// \see setTitle</i></td></tr>
+<tr><th id="313">313</th><td><i>    ///</i></td></tr>
+<tr><th id="314">314</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="315">315</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window7setIconEjjPKh" title='sf::Window::setIcon' data-ref="_ZN2sf6Window7setIconEjjPKh">setIcon</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="37width" title='width' data-type='unsigned int' data-ref="37width">width</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col8 decl" id="38height" title='height' data-type='unsigned int' data-ref="38height">height</dfn>, <em>const</em> <a class="typedef" href="../Config.hpp.html#sf::Uint8" title='sf::Uint8' data-type='unsigned char' data-ref="sf::Uint8">Uint8</a>* <dfn class="local col9 decl" id="39pixels" title='pixels' data-type='const Uint8 *' data-ref="39pixels">pixels</dfn>);</td></tr>
+<tr><th id="316">316</th><td></td></tr>
+<tr><th id="317">317</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="318">318</th><td><i>    /// \brief Show or hide the window</i></td></tr>
+<tr><th id="319">319</th><td><i>    ///</i></td></tr>
+<tr><th id="320">320</th><td><i>    /// The window is shown by default.</i></td></tr>
+<tr><th id="321">321</th><td><i>    ///</i></td></tr>
+<tr><th id="322">322</th><td><i>    /// \param visible True to show the window, false to hide it</i></td></tr>
+<tr><th id="323">323</th><td><i>    ///</i></td></tr>
+<tr><th id="324">324</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="325">325</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window10setVisibleEb" title='sf::Window::setVisible' data-ref="_ZN2sf6Window10setVisibleEb">setVisible</dfn>(<em>bool</em> <dfn class="local col0 decl" id="40visible" title='visible' data-type='bool' data-ref="40visible">visible</dfn>);</td></tr>
+<tr><th id="326">326</th><td></td></tr>
+<tr><th id="327">327</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="328">328</th><td><i>    /// \brief Enable or disable vertical synchronization</i></td></tr>
+<tr><th id="329">329</th><td><i>    ///</i></td></tr>
+<tr><th id="330">330</th><td><i>    /// Activating vertical synchronization will limit the number</i></td></tr>
+<tr><th id="331">331</th><td><i>    /// of frames displayed to the refresh rate of the monitor.</i></td></tr>
+<tr><th id="332">332</th><td><i>    /// This can avoid some visual artifacts, and limit the framerate</i></td></tr>
+<tr><th id="333">333</th><td><i>    /// to a good value (but not constant across different computers).</i></td></tr>
+<tr><th id="334">334</th><td><i>    ///</i></td></tr>
+<tr><th id="335">335</th><td><i>    /// Vertical synchronization is disabled by default.</i></td></tr>
+<tr><th id="336">336</th><td><i>    ///</i></td></tr>
+<tr><th id="337">337</th><td><i>    /// \param enabled True to enable v-sync, false to deactivate it</i></td></tr>
+<tr><th id="338">338</th><td><i>    ///</i></td></tr>
+<tr><th id="339">339</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="340">340</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window22setVerticalSyncEnabledEb" title='sf::Window::setVerticalSyncEnabled' data-ref="_ZN2sf6Window22setVerticalSyncEnabledEb">setVerticalSyncEnabled</dfn>(<em>bool</em> <dfn class="local col1 decl" id="41enabled" title='enabled' data-type='bool' data-ref="41enabled">enabled</dfn>);</td></tr>
+<tr><th id="341">341</th><td></td></tr>
+<tr><th id="342">342</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="343">343</th><td><i>    /// \brief Show or hide the mouse cursor</i></td></tr>
+<tr><th id="344">344</th><td><i>    ///</i></td></tr>
+<tr><th id="345">345</th><td><i>    /// The mouse cursor is visible by default.</i></td></tr>
+<tr><th id="346">346</th><td><i>    ///</i></td></tr>
+<tr><th id="347">347</th><td><i>    /// \param visible True to show the mouse cursor, false to hide it</i></td></tr>
+<tr><th id="348">348</th><td><i>    ///</i></td></tr>
+<tr><th id="349">349</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="350">350</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window21setMouseCursorVisibleEb" title='sf::Window::setMouseCursorVisible' data-ref="_ZN2sf6Window21setMouseCursorVisibleEb">setMouseCursorVisible</dfn>(<em>bool</em> <dfn class="local col2 decl" id="42visible" title='visible' data-type='bool' data-ref="42visible">visible</dfn>);</td></tr>
+<tr><th id="351">351</th><td></td></tr>
+<tr><th id="352">352</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="353">353</th><td><i>    /// \brief Grab or release the mouse cursor</i></td></tr>
+<tr><th id="354">354</th><td><i>    ///</i></td></tr>
+<tr><th id="355">355</th><td><i>    /// If set, grabs the mouse cursor inside this window's client</i></td></tr>
+<tr><th id="356">356</th><td><i>    /// area so it may no longer be moved outside its bounds.</i></td></tr>
+<tr><th id="357">357</th><td><i>    /// Note that grabbing is only active while the window has</i></td></tr>
+<tr><th id="358">358</th><td><i>    /// focus.</i></td></tr>
+<tr><th id="359">359</th><td><i>    ///</i></td></tr>
+<tr><th id="360">360</th><td><i>    /// \param grabbed True to enable, false to disable</i></td></tr>
+<tr><th id="361">361</th><td><i>    ///</i></td></tr>
+<tr><th id="362">362</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="363">363</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window21setMouseCursorGrabbedEb" title='sf::Window::setMouseCursorGrabbed' data-ref="_ZN2sf6Window21setMouseCursorGrabbedEb">setMouseCursorGrabbed</dfn>(<em>bool</em> <dfn class="local col3 decl" id="43grabbed" title='grabbed' data-type='bool' data-ref="43grabbed">grabbed</dfn>);</td></tr>
+<tr><th id="364">364</th><td></td></tr>
+<tr><th id="365">365</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="366">366</th><td><i>    /// \brief Set the displayed cursor to a native system cursor</i></td></tr>
+<tr><th id="367">367</th><td><i>    ///</i></td></tr>
+<tr><th id="368">368</th><td><i>    /// Upon window creation, the arrow cursor is used by default.</i></td></tr>
+<tr><th id="369">369</th><td><i>    ///</i></td></tr>
+<tr><th id="370">370</th><td><i>    /// \warning The cursor must not be destroyed while in use by</i></td></tr>
+<tr><th id="371">371</th><td><i>    ///          the window.</i></td></tr>
+<tr><th id="372">372</th><td><i>    ///</i></td></tr>
+<tr><th id="373">373</th><td><i>    /// \warning Features related to Cursor are not supported on</i></td></tr>
+<tr><th id="374">374</th><td><i>    ///          iOS and Android.</i></td></tr>
+<tr><th id="375">375</th><td><i>    ///</i></td></tr>
+<tr><th id="376">376</th><td><i>    /// \param cursor Native system cursor type to display</i></td></tr>
+<tr><th id="377">377</th><td><i>    ///</i></td></tr>
+<tr><th id="378">378</th><td><i>    /// \see sf::Cursor::loadFromSystem</i></td></tr>
+<tr><th id="379">379</th><td><i>    /// \see sf::Cursor::loadFromPixels</i></td></tr>
+<tr><th id="380">380</th><td><i>    ///</i></td></tr>
+<tr><th id="381">381</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="382">382</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window14setMouseCursorERKNS_6CursorE" title='sf::Window::setMouseCursor' data-ref="_ZN2sf6Window14setMouseCursorERKNS_6CursorE">setMouseCursor</dfn>(<em>const</em> <a class="type" href="Cursor.hpp.html#sf::Cursor" title='sf::Cursor' data-ref="sf::Cursor">Cursor</a>&amp; <dfn class="local col4 decl" id="44cursor" title='cursor' data-type='const sf::Cursor &amp;' data-ref="44cursor">cursor</dfn>);</td></tr>
+<tr><th id="383">383</th><td></td></tr>
+<tr><th id="384">384</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="385">385</th><td><i>    /// \brief Enable or disable automatic key-repeat</i></td></tr>
+<tr><th id="386">386</th><td><i>    ///</i></td></tr>
+<tr><th id="387">387</th><td><i>    /// If key repeat is enabled, you will receive repeated</i></td></tr>
+<tr><th id="388">388</th><td><i>    /// KeyPressed events while keeping a key pressed. If it is disabled,</i></td></tr>
+<tr><th id="389">389</th><td><i>    /// you will only get a single event when the key is pressed.</i></td></tr>
+<tr><th id="390">390</th><td><i>    ///</i></td></tr>
+<tr><th id="391">391</th><td><i>    /// Key repeat is enabled by default.</i></td></tr>
+<tr><th id="392">392</th><td><i>    ///</i></td></tr>
+<tr><th id="393">393</th><td><i>    /// \param enabled True to enable, false to disable</i></td></tr>
+<tr><th id="394">394</th><td><i>    ///</i></td></tr>
+<tr><th id="395">395</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="396">396</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window19setKeyRepeatEnabledEb" title='sf::Window::setKeyRepeatEnabled' data-ref="_ZN2sf6Window19setKeyRepeatEnabledEb">setKeyRepeatEnabled</dfn>(<em>bool</em> <dfn class="local col5 decl" id="45enabled" title='enabled' data-type='bool' data-ref="45enabled">enabled</dfn>);</td></tr>
+<tr><th id="397">397</th><td></td></tr>
+<tr><th id="398">398</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="399">399</th><td><i>    /// \brief Limit the framerate to a maximum fixed frequency</i></td></tr>
+<tr><th id="400">400</th><td><i>    ///</i></td></tr>
+<tr><th id="401">401</th><td><i>    /// If a limit is set, the window will use a small delay after</i></td></tr>
+<tr><th id="402">402</th><td><i>    /// each call to display() to ensure that the current frame</i></td></tr>
+<tr><th id="403">403</th><td><i>    /// lasted long enough to match the framerate limit.</i></td></tr>
+<tr><th id="404">404</th><td><i>    /// SFML will try to match the given limit as much as it can,</i></td></tr>
+<tr><th id="405">405</th><td><i>    /// but since it internally uses sf::sleep, whose precision</i></td></tr>
+<tr><th id="406">406</th><td><i>    /// depends on the underlying OS, the results may be a little</i></td></tr>
+<tr><th id="407">407</th><td><i>    /// unprecise as well (for example, you can get 65 FPS when</i></td></tr>
+<tr><th id="408">408</th><td><i>    /// requesting 60).</i></td></tr>
+<tr><th id="409">409</th><td><i>    ///</i></td></tr>
+<tr><th id="410">410</th><td><i>    /// \param limit Framerate limit, in frames per seconds (use 0 to disable limit)</i></td></tr>
+<tr><th id="411">411</th><td><i>    ///</i></td></tr>
+<tr><th id="412">412</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="413">413</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window17setFramerateLimitEj" title='sf::Window::setFramerateLimit' data-ref="_ZN2sf6Window17setFramerateLimitEj">setFramerateLimit</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="46limit" title='limit' data-type='unsigned int' data-ref="46limit">limit</dfn>);</td></tr>
+<tr><th id="414">414</th><td></td></tr>
+<tr><th id="415">415</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="416">416</th><td><i>    /// \brief Change the joystick threshold</i></td></tr>
+<tr><th id="417">417</th><td><i>    ///</i></td></tr>
+<tr><th id="418">418</th><td><i>    /// The joystick threshold is the value below which</i></td></tr>
+<tr><th id="419">419</th><td><i>    /// no JoystickMoved event will be generated.</i></td></tr>
+<tr><th id="420">420</th><td><i>    ///</i></td></tr>
+<tr><th id="421">421</th><td><i>    /// The threshold value is 0.1 by default.</i></td></tr>
+<tr><th id="422">422</th><td><i>    ///</i></td></tr>
+<tr><th id="423">423</th><td><i>    /// \param threshold New threshold, in the range [0, 100]</i></td></tr>
+<tr><th id="424">424</th><td><i>    ///</i></td></tr>
+<tr><th id="425">425</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="426">426</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window20setJoystickThresholdEf" title='sf::Window::setJoystickThreshold' data-ref="_ZN2sf6Window20setJoystickThresholdEf">setJoystickThreshold</dfn>(<em>float</em> <dfn class="local col7 decl" id="47threshold" title='threshold' data-type='float' data-ref="47threshold">threshold</dfn>);</td></tr>
+<tr><th id="427">427</th><td></td></tr>
+<tr><th id="428">428</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="429">429</th><td><i>    /// \brief Activate or deactivate the window as the current target</i></td></tr>
+<tr><th id="430">430</th><td><i>    ///        for OpenGL rendering</i></td></tr>
+<tr><th id="431">431</th><td><i>    ///</i></td></tr>
+<tr><th id="432">432</th><td><i>    /// A window is active only on the current thread, if you want to</i></td></tr>
+<tr><th id="433">433</th><td><i>    /// make it active on another thread you have to deactivate it</i></td></tr>
+<tr><th id="434">434</th><td><i>    /// on the previous thread first if it was active.</i></td></tr>
+<tr><th id="435">435</th><td><i>    /// Only one window can be active on a thread at a time, thus</i></td></tr>
+<tr><th id="436">436</th><td><i>    /// the window previously active (if any) automatically gets deactivated.</i></td></tr>
+<tr><th id="437">437</th><td><i>    /// This is not to be confused with requestFocus().</i></td></tr>
+<tr><th id="438">438</th><td><i>    ///</i></td></tr>
+<tr><th id="439">439</th><td><i>    /// \param active True to activate, false to deactivate</i></td></tr>
+<tr><th id="440">440</th><td><i>    ///</i></td></tr>
+<tr><th id="441">441</th><td><i>    /// \return True if operation was successful, false otherwise</i></td></tr>
+<tr><th id="442">442</th><td><i>    ///</i></td></tr>
+<tr><th id="443">443</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="444">444</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf6Window9setActiveEb" title='sf::Window::setActive' data-ref="_ZNK2sf6Window9setActiveEb">setActive</dfn>(<em>bool</em> <dfn class="local col8 decl" id="48active" title='active' data-type='bool' data-ref="48active">active</dfn> = <b>true</b>) <em>const</em>;</td></tr>
+<tr><th id="445">445</th><td></td></tr>
+<tr><th id="446">446</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="447">447</th><td><i>    /// \brief Request the current window to be made the active</i></td></tr>
+<tr><th id="448">448</th><td><i>    ///        foreground window</i></td></tr>
+<tr><th id="449">449</th><td><i>    ///</i></td></tr>
+<tr><th id="450">450</th><td><i>    /// At any given time, only one window may have the input focus</i></td></tr>
+<tr><th id="451">451</th><td><i>    /// to receive input events such as keystrokes or mouse events.</i></td></tr>
+<tr><th id="452">452</th><td><i>    /// If a window requests focus, it only hints to the operating</i></td></tr>
+<tr><th id="453">453</th><td><i>    /// system, that it would like to be focused. The operating system</i></td></tr>
+<tr><th id="454">454</th><td><i>    /// is free to deny the request.</i></td></tr>
+<tr><th id="455">455</th><td><i>    /// This is not to be confused with setActive().</i></td></tr>
+<tr><th id="456">456</th><td><i>    ///</i></td></tr>
+<tr><th id="457">457</th><td><i>    /// \see hasFocus</i></td></tr>
+<tr><th id="458">458</th><td><i>    ///</i></td></tr>
+<tr><th id="459">459</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="460">460</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window12requestFocusEv" title='sf::Window::requestFocus' data-ref="_ZN2sf6Window12requestFocusEv">requestFocus</dfn>();</td></tr>
+<tr><th id="461">461</th><td></td></tr>
+<tr><th id="462">462</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="463">463</th><td><i>    /// \brief Check whether the window has the input focus</i></td></tr>
+<tr><th id="464">464</th><td><i>    ///</i></td></tr>
+<tr><th id="465">465</th><td><i>    /// At any given time, only one window may have the input focus</i></td></tr>
+<tr><th id="466">466</th><td><i>    /// to receive input events such as keystrokes or most mouse</i></td></tr>
+<tr><th id="467">467</th><td><i>    /// events.</i></td></tr>
+<tr><th id="468">468</th><td><i>    ///</i></td></tr>
+<tr><th id="469">469</th><td><i>    /// \return True if window has focus, false otherwise</i></td></tr>
+<tr><th id="470">470</th><td><i>    /// \see requestFocus</i></td></tr>
+<tr><th id="471">471</th><td><i>    ///</i></td></tr>
+<tr><th id="472">472</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="473">473</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf6Window8hasFocusEv" title='sf::Window::hasFocus' data-ref="_ZNK2sf6Window8hasFocusEv">hasFocus</dfn>() <em>const</em>;</td></tr>
+<tr><th id="474">474</th><td></td></tr>
+<tr><th id="475">475</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="476">476</th><td><i>    /// \brief Display on screen what has been rendered to the window so far</i></td></tr>
+<tr><th id="477">477</th><td><i>    ///</i></td></tr>
+<tr><th id="478">478</th><td><i>    /// This function is typically called after all OpenGL rendering</i></td></tr>
+<tr><th id="479">479</th><td><i>    /// has been done for the current frame, in order to show</i></td></tr>
+<tr><th id="480">480</th><td><i>    /// it on screen.</i></td></tr>
+<tr><th id="481">481</th><td><i>    ///</i></td></tr>
+<tr><th id="482">482</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="483">483</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window7displayEv" title='sf::Window::display' data-ref="_ZN2sf6Window7displayEv">display</dfn>();</td></tr>
+<tr><th id="484">484</th><td></td></tr>
+<tr><th id="485">485</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="486">486</th><td><i>    /// \brief Get the OS-specific handle of the window</i></td></tr>
+<tr><th id="487">487</th><td><i>    ///</i></td></tr>
+<tr><th id="488">488</th><td><i>    /// The type of the returned handle is sf::WindowHandle,</i></td></tr>
+<tr><th id="489">489</th><td><i>    /// which is a typedef to the handle type defined by the OS.</i></td></tr>
+<tr><th id="490">490</th><td><i>    /// You shouldn't need to use this function, unless you have</i></td></tr>
+<tr><th id="491">491</th><td><i>    /// very specific stuff to implement that SFML doesn't support,</i></td></tr>
+<tr><th id="492">492</th><td><i>    /// or implement a temporary workaround until a bug is fixed.</i></td></tr>
+<tr><th id="493">493</th><td><i>    ///</i></td></tr>
+<tr><th id="494">494</th><td><i>    /// \return System handle of the window</i></td></tr>
+<tr><th id="495">495</th><td><i>    ///</i></td></tr>
+<tr><th id="496">496</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="497">497</th><td>    <a class="typedef" href="WindowHandle.hpp.html#sf::WindowHandle" title='sf::WindowHandle' data-type='unsigned long' data-ref="sf::WindowHandle">WindowHandle</a> <dfn class="decl" id="_ZNK2sf6Window15getSystemHandleEv" title='sf::Window::getSystemHandle' data-ref="_ZNK2sf6Window15getSystemHandleEv">getSystemHandle</dfn>() <em>const</em>;</td></tr>
+<tr><th id="498">498</th><td></td></tr>
+<tr><th id="499">499</th><td><b>protected</b>:</td></tr>
+<tr><th id="500">500</th><td></td></tr>
+<tr><th id="501">501</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="502">502</th><td><i>    /// \brief Function called after the window has been created</i></td></tr>
+<tr><th id="503">503</th><td><i>    ///</i></td></tr>
+<tr><th id="504">504</th><td><i>    /// This function is called so that derived classes can</i></td></tr>
+<tr><th id="505">505</th><td><i>    /// perform their own specific initialization as soon as</i></td></tr>
+<tr><th id="506">506</th><td><i>    /// the window is created.</i></td></tr>
+<tr><th id="507">507</th><td><i>    ///</i></td></tr>
+<tr><th id="508">508</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="509">509</th><td>    <b>virtual</b> <em>void</em> <dfn class="virtual decl" id="_ZN2sf6Window8onCreateEv" title='sf::Window::onCreate' data-ref="_ZN2sf6Window8onCreateEv">onCreate</dfn>();</td></tr>
+<tr><th id="510">510</th><td></td></tr>
+<tr><th id="511">511</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="512">512</th><td><i>    /// \brief Function called after the window has been resized</i></td></tr>
+<tr><th id="513">513</th><td><i>    ///</i></td></tr>
+<tr><th id="514">514</th><td><i>    /// This function is called so that derived classes can</i></td></tr>
+<tr><th id="515">515</th><td><i>    /// perform custom actions when the size of the window changes.</i></td></tr>
+<tr><th id="516">516</th><td><i>    ///</i></td></tr>
+<tr><th id="517">517</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="518">518</th><td>    <b>virtual</b> <em>void</em> <dfn class="virtual decl" id="_ZN2sf6Window8onResizeEv" title='sf::Window::onResize' data-ref="_ZN2sf6Window8onResizeEv">onResize</dfn>();</td></tr>
+<tr><th id="519">519</th><td></td></tr>
+<tr><th id="520">520</th><td><b>private</b>:</td></tr>
+<tr><th id="521">521</th><td></td></tr>
+<tr><th id="522">522</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="523">523</th><td><i>    /// \brief Processes an event before it is sent to the user</i></td></tr>
+<tr><th id="524">524</th><td><i>    ///</i></td></tr>
+<tr><th id="525">525</th><td><i>    /// This function is called every time an event is received</i></td></tr>
+<tr><th id="526">526</th><td><i>    /// from the internal window (through pollEvent or waitEvent).</i></td></tr>
+<tr><th id="527">527</th><td><i>    /// It filters out unwanted events, and performs whatever internal</i></td></tr>
+<tr><th id="528">528</th><td><i>    /// stuff the window needs before the event is returned to the</i></td></tr>
+<tr><th id="529">529</th><td><i>    /// user.</i></td></tr>
+<tr><th id="530">530</th><td><i>    ///</i></td></tr>
+<tr><th id="531">531</th><td><i>    /// \param event Event to filter</i></td></tr>
+<tr><th id="532">532</th><td><i>    ///</i></td></tr>
+<tr><th id="533">533</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="534">534</th><td>    <em>bool</em> <dfn class="decl" id="_ZN2sf6Window11filterEventERKNS_5EventE" title='sf::Window::filterEvent' data-ref="_ZN2sf6Window11filterEventERKNS_5EventE">filterEvent</dfn>(<em>const</em> <a class="type" href="#sf::Event" title='sf::Event' data-ref="sf::Event">Event</a>&amp; <dfn class="local col9 decl" id="49event" title='event' data-type='const sf::Event &amp;' data-ref="49event">event</dfn>);</td></tr>
+<tr><th id="535">535</th><td></td></tr>
+<tr><th id="536">536</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="537">537</th><td><i>    /// \brief Perform some common internal initializations</i></td></tr>
+<tr><th id="538">538</th><td><i>    ///</i></td></tr>
+<tr><th id="539">539</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="540">540</th><td>    <em>void</em> <dfn class="decl" id="_ZN2sf6Window10initializeEv" title='sf::Window::initialize' data-ref="_ZN2sf6Window10initializeEv">initialize</dfn>();</td></tr>
+<tr><th id="541">541</th><td></td></tr>
+<tr><th id="542">542</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="543">543</th><td><i>    // Member data</i></td></tr>
+<tr><th id="544">544</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="545">545</th><td>    <span class="namespace">priv::</span><a class="type" href="#sf::priv::WindowImpl" title='sf::priv::WindowImpl' data-ref="sf::priv::WindowImpl">WindowImpl</a>* <dfn class="decl" id="sf::Window::m_impl" title='sf::Window::m_impl' data-ref="sf::Window::m_impl">m_impl</dfn>;           <i class="doc">///&lt; Platform-specific implementation of the window</i></td></tr>
+<tr><th id="546">546</th><td>    <span class="namespace">priv::</span><a class="type" href="#sf::priv::GlContext" title='sf::priv::GlContext' data-ref="sf::priv::GlContext">GlContext</a>*  <dfn class="decl" id="sf::Window::m_context" title='sf::Window::m_context' data-ref="sf::Window::m_context">m_context</dfn>;        <i class="doc">///&lt; Platform-specific implementation of the OpenGL context</i></td></tr>
+<tr><th id="547">547</th><td>    <a class="type" href="../System/Clock.hpp.html#sf::Clock" title='sf::Clock' data-ref="sf::Clock">Clock</a>             <dfn class="decl" id="sf::Window::m_clock" title='sf::Window::m_clock' data-ref="sf::Window::m_clock">m_clock</dfn>;          <i class="doc">///&lt; Clock for measuring the elapsed time between frames</i></td></tr>
+<tr><th id="548">548</th><td>    <a class="type" href="../System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>              <dfn class="decl" id="sf::Window::m_frameTimeLimit" title='sf::Window::m_frameTimeLimit' data-ref="sf::Window::m_frameTimeLimit">m_frameTimeLimit</dfn>; <i class="doc">///&lt; Current framerate limit</i></td></tr>
+<tr><th id="549">549</th><td>    <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2u" title='sf::Vector2u' data-type='Vector2&lt;unsigned int&gt;' data-ref="sf::Vector2u">Vector2u</a>          <dfn class="decl" id="sf::Window::m_size" title='sf::Window::m_size' data-ref="sf::Window::m_size">m_size</dfn>;           <i class="doc">///&lt; Current size of the window</i></td></tr>
+<tr><th id="550">550</th><td>};</td></tr>
+<tr><th id="551">551</th><td></td></tr>
+<tr><th id="552">552</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="553">553</th><td></td></tr>
+<tr><th id="554">554</th><td></td></tr>
+<tr><th id="555">555</th><td><u>#<span data-ppcond="25">endif</span> // SFML_WINDOW_HPP</u></td></tr>
+<tr><th id="556">556</th><td></td></tr>
+<tr><th id="557">557</th><td></td></tr>
+<tr><th id="558">558</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="559">559</th><td><i>/// \class sf::Window</i></td></tr>
+<tr><th id="560">560</th><td><i>/// \ingroup window</i></td></tr>
+<tr><th id="561">561</th><td><i>///</i></td></tr>
+<tr><th id="562">562</th><td><i>/// sf::Window is the main class of the Window module. It defines</i></td></tr>
+<tr><th id="563">563</th><td><i>/// an OS window that is able to receive an OpenGL rendering.</i></td></tr>
+<tr><th id="564">564</th><td><i>///</i></td></tr>
+<tr><th id="565">565</th><td><i>/// A sf::Window can create its own new window, or be embedded into</i></td></tr>
+<tr><th id="566">566</th><td><i>/// an already existing control using the create(handle) function.</i></td></tr>
+<tr><th id="567">567</th><td><i>/// This can be useful for embedding an OpenGL rendering area into</i></td></tr>
+<tr><th id="568">568</th><td><i>/// a view which is part of a bigger GUI with existing windows,</i></td></tr>
+<tr><th id="569">569</th><td><i>/// controls, etc. It can also serve as embedding an OpenGL rendering</i></td></tr>
+<tr><th id="570">570</th><td><i>/// area into a window created by another (probably richer) GUI library</i></td></tr>
+<tr><th id="571">571</th><td><i>/// like Qt or wxWidgets.</i></td></tr>
+<tr><th id="572">572</th><td><i>///</i></td></tr>
+<tr><th id="573">573</th><td><i>/// The sf::Window class provides a simple interface for manipulating</i></td></tr>
+<tr><th id="574">574</th><td><i>/// the window: move, resize, show/hide, control mouse cursor, etc.</i></td></tr>
+<tr><th id="575">575</th><td><i>/// It also provides event handling through its pollEvent() and waitEvent()</i></td></tr>
+<tr><th id="576">576</th><td><i>/// functions.</i></td></tr>
+<tr><th id="577">577</th><td><i>///</i></td></tr>
+<tr><th id="578">578</th><td><i>/// Note that OpenGL experts can pass their own parameters (antialiasing</i></td></tr>
+<tr><th id="579">579</th><td><i>/// level, bits for the depth and stencil buffers, etc.) to the</i></td></tr>
+<tr><th id="580">580</th><td><i>/// OpenGL context attached to the window, with the sf::ContextSettings</i></td></tr>
+<tr><th id="581">581</th><td><i>/// structure which is passed as an optional argument when creating the</i></td></tr>
+<tr><th id="582">582</th><td><i>/// window.</i></td></tr>
+<tr><th id="583">583</th><td><i>///</i></td></tr>
+<tr><th id="584">584</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="585">585</th><td><i>/// \code</i></td></tr>
+<tr><th id="586">586</th><td><i>/// // Declare and create a new window</i></td></tr>
+<tr><th id="587">587</th><td><i>/// sf::Window window(sf::VideoMode(800, 600), "SFML window");</i></td></tr>
+<tr><th id="588">588</th><td><i>///</i></td></tr>
+<tr><th id="589">589</th><td><i>/// // Limit the framerate to 60 frames per second (this step is optional)</i></td></tr>
+<tr><th id="590">590</th><td><i>/// window.setFramerateLimit(60);</i></td></tr>
+<tr><th id="591">591</th><td><i>///</i></td></tr>
+<tr><th id="592">592</th><td><i>/// // The main loop - ends as soon as the window is closed</i></td></tr>
+<tr><th id="593">593</th><td><i>/// while (window.isOpen())</i></td></tr>
+<tr><th id="594">594</th><td><i>/// {</i></td></tr>
+<tr><th id="595">595</th><td><i>///    // Event processing</i></td></tr>
+<tr><th id="596">596</th><td><i>///    sf::Event event;</i></td></tr>
+<tr><th id="597">597</th><td><i>///    while (window.pollEvent(event))</i></td></tr>
+<tr><th id="598">598</th><td><i>///    {</i></td></tr>
+<tr><th id="599">599</th><td><i>///        // Request for closing the window</i></td></tr>
+<tr><th id="600">600</th><td><i>///        if (event.type == sf::Event::Closed)</i></td></tr>
+<tr><th id="601">601</th><td><i>///            window.close();</i></td></tr>
+<tr><th id="602">602</th><td><i>///    }</i></td></tr>
+<tr><th id="603">603</th><td><i>///</i></td></tr>
+<tr><th id="604">604</th><td><i>///    // Activate the window for OpenGL rendering</i></td></tr>
+<tr><th id="605">605</th><td><i>///    window.setActive();</i></td></tr>
+<tr><th id="606">606</th><td><i>///</i></td></tr>
+<tr><th id="607">607</th><td><i>///    // OpenGL drawing commands go here...</i></td></tr>
+<tr><th id="608">608</th><td><i>///</i></td></tr>
+<tr><th id="609">609</th><td><i>///    // End the current frame and display its contents on screen</i></td></tr>
+<tr><th id="610">610</th><td><i>///    window.display();</i></td></tr>
+<tr><th id="611">611</th><td><i>/// }</i></td></tr>
+<tr><th id="612">612</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="613">613</th><td><i>///</i></td></tr>
+<tr><th id="614">614</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="615">615</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/RenderWindow.cpp.html'>codebrowser/src/SFML/Graphics/RenderWindow.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

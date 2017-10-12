@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='273' type='std::queue&lt;Event&gt;'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='270'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='273'>///&lt; Queue of available events</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='115' u='m' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='128' u='m' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='139' u='m' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='141' u='m' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='142' u='m' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='154' u='m' c='_ZN2sf4priv10WindowImpl9pushEventERKNS_5EventE'/>

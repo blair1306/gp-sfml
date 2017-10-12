@@ -1,0 +1,19 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1639'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1643' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1658' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1733' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1736' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1737' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1738' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1752' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1761' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1763' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1763' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1805' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1805' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1823' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1928' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1928' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2002' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2002' u='c'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1638'>// huffman decoding acceleration</doc>

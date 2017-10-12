@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='172' type='FloatRect sf::VertexArray::getBounds() const'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='163'>////////////////////////////////////////////////////////////
+    /// \brief Compute the bounding rectangle of the vertex array
+    ///
+    /// This function returns the minimal axis-aligned rectangle
+    /// that contains all the vertices of the array.
+    ///
+    /// \return Bounding rectangle of the vertex array
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='195' u='c' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='294' u='c' c='_ZN2sf5Shape13updateOutlineEv'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='107' ll='140' type='FloatRect sf::VertexArray::getBounds() const'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='106'>////////////////////////////////////////////////////////////</doc>

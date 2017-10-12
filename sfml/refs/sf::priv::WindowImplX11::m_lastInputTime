@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='288' type='::Time'/>
+<offset>7104</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='288'>///&lt; Last time we received user input</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='499' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='547' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1205' u='r' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1495' u='r' c='_ZN2sf4priv13WindowImplX1119updateLastInputTimeEm'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1511' u='w' c='_ZN2sf4priv13WindowImplX1119updateLastInputTimeEm'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1959' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1960' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

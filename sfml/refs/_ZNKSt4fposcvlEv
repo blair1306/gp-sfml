@@ -1,0 +1,5 @@
+<def f='include/c++/5/bits/postypes.h' l='137' type='streamoff std::fpos::operator long() const'/>
+<doc f='include/c++/5/bits/postypes.h' l='136'>/// Convert to streamoff.</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='88' u='c' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='466' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='466' u='c' c='_ZN2sf3Ftp11getResponseEv'/>

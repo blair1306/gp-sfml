@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftglyph.h' l='570' type='void FT_Matrix_Multiply(const FT_Matrix * a, FT_Matrix * b)'/>
+<doc f='include/freetype2/freetype/ftglyph.h' l='568'>/*                                                                       */</doc>

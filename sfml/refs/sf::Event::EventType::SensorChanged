@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='211' type='22'/>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='211'>///&lt; A sensor value changed (data in event.sensor)</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='244' u='r' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

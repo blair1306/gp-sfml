@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='346' type='int (*)(void *)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1372' u='r' c='_ZL12stbi__at_eofP13stbi__context'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='197' u='w' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<offset>128</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='346'>// returns nonzero if we are at end of file/data</doc>

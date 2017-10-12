@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='446' type='sf::Ftp::Response sf::Ftp::deleteFile(const std::string &amp; name)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='271' ll='274' type='Ftp::Response sf::Ftp::deleteFile(const std::string &amp; name)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='270'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='431'>////////////////////////////////////////////////////////////
+    /// \brief Remove an existing file
+    ///
+    /// The file name must be relative to the current working
+    /// directory.
+    /// Use this function with caution, the file will be
+    /// removed permanently!
+    ///
+    /// \param name File to remove
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see renameFile
+    ///
+    ////////////////////////////////////////////////////////////</doc>

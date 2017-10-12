@@ -1,0 +1,6 @@
+<dec f='include/string.h' l='143' type='int strncmp(const char * __s1, const char * __s2, size_t __n)'/>
+<doc f='include/string.h' l='142'>/* Compare N characters of S1 and S2.  */</doc>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6507' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6511' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6631' u='c' c='_ZL14stbi__hdr_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6638' u='c' c='_ZL14stbi__hdr_infoP13stbi__contextPiS1_S1_'/>

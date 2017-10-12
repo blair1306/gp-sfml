@@ -1,0 +1,5 @@
+<dec f='include/linux/joystick.h' l='43'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='683' u='c'/>
+<doc f='include/linux/joystick.h' l='39'>/*
+ * Types and constants for reading from /dev/js
+ */</doc>

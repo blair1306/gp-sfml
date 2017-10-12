@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_queue.h' l='470' ll='472' type='bool std::priority_queue::empty() const'/>
+<doc f='include/c++/5/bits/stl_queue.h' l='467'>/**
+       *  Returns true if the %queue is empty.
+       */</doc>

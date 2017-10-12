@@ -1,0 +1,2 @@
+<dec f='include/GL/glx.h' l='190' type='GLXContext glXCreateContext(Display * dpy, XVisualInfo * vis, GLXContext shareList, int direct)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='760' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

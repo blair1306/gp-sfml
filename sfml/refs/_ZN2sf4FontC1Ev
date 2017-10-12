@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='71' type='void sf::Font::Font()'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='70' ll='81' type='void sf::Font::Font()'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='69'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor defines an empty font
+    ///
+    ////////////////////////////////////////////////////////////</doc>

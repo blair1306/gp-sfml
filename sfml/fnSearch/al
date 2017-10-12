@@ -1,0 +1,3 @@
+_ZN2sf4priv12alCheckErrorEPKcjS2_|sf::priv::alCheckError
+_ZN2sf10AlResourceC1Ev|sf::AlResource::AlResource
+_ZN2sf10AlResourceD1Ev|sf::AlResource::~AlResource

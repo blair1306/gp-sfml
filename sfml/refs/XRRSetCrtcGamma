@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='408' type='void XRRSetCrtcGamma(Display * dpy, RRCrtc crtc, XRRCrtcGamma * gamma)'/>

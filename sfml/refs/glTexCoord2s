@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1514' type='void glTexCoord2s(GLshort , GLshort )'/>
+<dec f='include/GL/gl.h' l='1044' type='void glTexCoord2s(GLshort s, GLshort t)'/>

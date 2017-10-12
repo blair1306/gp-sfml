@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/Listener.hpp' l='68' type='static float sf::Listener::getGlobalVolume()'/>
+<doc f='codebrowser/include/SFML/Audio/Listener.hpp' l='60'>////////////////////////////////////////////////////////////
+    /// \brief Get the current value of the global volume
+    ///
+    /// \return Current global volume, in the range [0, 100]
+    ///
+    /// \see setGlobalVolume
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/Listener.cpp' l='42' ll='45' type='static float sf::Listener::getGlobalVolume()'/>
+<doc f='codebrowser/src/SFML/Audio/Listener.cpp' l='41'>////////////////////////////////////////////////////////////</doc>

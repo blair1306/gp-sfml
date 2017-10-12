@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='114' type='void sf::priv::ImageLoader::ImageLoader()'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='110'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='74' u='c' c='_ZN2sf4priv11ImageLoader11getInstanceEv'/>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='81' ll='84' type='void sf::priv::ImageLoader::ImageLoader()'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='80'>////////////////////////////////////////////////////////////</doc>

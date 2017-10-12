@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='174' type='bool sf::Sound::getLoop() const'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='57' u='c' c='_ZN2sf5SoundC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='130' ll='136' type='bool sf::Sound::getLoop() const'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='177' u='c' c='_ZN2sf5SoundaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='129'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='166'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether or not the sound is in loop mode
+    ///
+    /// \return True if the sound is looping, false otherwise
+    ///
+    /// \see setLoop
+    ///
+    ////////////////////////////////////////////////////////////</doc>

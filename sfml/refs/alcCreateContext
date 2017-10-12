@@ -1,0 +1,2 @@
+<dec f='include/AL/alc.h' l='170' type='ALCcontext * alcCreateContext(ALCdevice * device, const ALCint * attrlist)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='59' u='c' c='_ZN2sf4priv11AudioDeviceC1Ev'/>

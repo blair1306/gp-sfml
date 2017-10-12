@@ -1,0 +1,13 @@
+<dec f='include/X11/Xlib.h' l='2068' type='int XChangeProperty(Display * , Window , Atom , Atom , int , int , const unsigned char * , int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='140' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='144' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='148' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='655' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='902' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='907' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1017' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1325' u='c' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1404' u='c' c='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1418' u='c' c='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1464' u='c' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1501' u='c' c='_ZN2sf4priv13WindowImplX1119updateLastInputTimeEm'/>

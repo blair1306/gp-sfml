@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='262' type='void XRenderSetPictureClipRegion(Display * dpy, Picture picture, Region r)'/>

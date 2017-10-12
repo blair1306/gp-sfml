@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='59' type='void sf::SocketSelector::SocketSelector(const sf::SocketSelector &amp; copy)'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='61' ll='65' type='void sf::SocketSelector::SocketSelector(const sf::SocketSelector &amp; copy)'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='198' u='c' c='_ZN2sf14SocketSelectoraSERKS0_'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='60'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Copy constructor
+    ///
+    /// \param copy Instance to copy
+    ///
+    ////////////////////////////////////////////////////////////</doc>

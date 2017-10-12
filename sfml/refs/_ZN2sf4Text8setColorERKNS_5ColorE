@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='177' type='void sf::Text::setColor(const sf::Color &amp; color)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='156' ll='159' type='void sf::Text::setColor(const sf::Color &amp; color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='155'>////////////////////////////////////////////////////////////</doc>

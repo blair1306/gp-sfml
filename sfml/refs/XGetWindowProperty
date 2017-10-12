@@ -1,0 +1,6 @@
+<dec f='include/X11/Xlib.h' l='2676' type='int XGetWindowProperty(Display * , Window , Atom , long , long , int , Atom , Atom * , int * , unsigned long * , unsigned long * , unsigned char ** )'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='209' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='161' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='193' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='249' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='315' u='c' c='_ZN12_GLOBAL__N_119getEWMHFrameExtentsEP9_XDisplaymRlS2_'/>

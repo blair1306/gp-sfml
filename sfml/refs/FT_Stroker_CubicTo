@@ -1,0 +1,30 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='525' type='FT_Error FT_Stroker_CubicTo(FT_Stroker stroker, FT_Vector * control1, FT_Vector * control2, FT_Vector * to)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='495'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_CubicTo
+   *
+   * @description:
+   *   `Draw&apos; a single cubic Bézier in the stroker&apos;s current sub-path,
+   *   from the last position.
+   *
+   * @input:
+   *   stroker ::
+   *     The target stroker handle.
+   *
+   *   control1 ::
+   *     A pointer to the first Bézier control point.
+   *
+   *   control2 ::
+   *     A pointer to second Bézier control point.
+   *
+   *   to ::
+   *     A pointer to the destination point.
+   *
+   * @return:
+   *   FreeType error code.  0~means success.
+   *
+   * @note:
+   *   You should call this function between @FT_Stroker_BeginSubPath and
+   *   @FT_Stroker_EndSubPath.
+   */</doc>

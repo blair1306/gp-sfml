@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4635' ll='4676' type='void stbi__de_iphone(stbi__png * z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4814' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='309' type='void XRenderFreeGlyphs(Display * dpy, GlyphSet glyphset, const Glyph * gids, int nglyphs)'/>

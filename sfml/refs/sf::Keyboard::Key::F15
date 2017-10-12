@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='150' type='99'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='150'>///&lt; The F15 key</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='97' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='419' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>

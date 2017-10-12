@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='272' type='void sf::priv::ensureExtensionsInit()'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='268'>////////////////////////////////////////////////////////////
+/// \brief Make sure that extensions are initialized
+///
+////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/GLExtensions.cpp' l='46' ll='89' type='void sf::priv::ensureExtensionsInit()'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.cpp' l='45'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='376' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='78' u='c' c='_ZN2sf4priv20RenderTextureImplFBO11isAvailableEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='788' u='c' c='_ZN2sf6Shader11isAvailableEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='816' u='c' c='_ZN2sf6Shader19isGeometryAvailableEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='164' u='c' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='461' u='c' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='684' u='c' c='_ZN2sf7Texture14generateMipmapEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='839' u='c' c='_ZN2sf7Texture12getValidSizeEj'/>

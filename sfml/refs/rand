@@ -1,0 +1,4 @@
+<dec f='include/stdlib.h' l='374' type='int rand()'/>
+<use f='include/c++/5/bits/stl_algo.h' l='4448' u='c' c='_ZSt14random_shuffleT_S_'/>
+<doc f='include/stdlib.h' l='373'>/* Return a random integer between 0 and RAND_MAX inclusive.  */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='75' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>

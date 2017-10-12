@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='99' type='void sf::RenderTexture::setSmooth(bool smooth)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='62' u='c' c='_ZN2sf13RenderTexture6createEjjb'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='92' ll='95' type='void sf::RenderTexture::setSmooth(bool smooth)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='91'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='88'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable texture smoothing
+    ///
+    /// This function is similar to Texture::setSmooth.
+    /// This parameter is disabled by default.
+    ///
+    /// \param smooth True to enable smoothing, false to disable it
+    ///
+    /// \see isSmooth
+    ///
+    ////////////////////////////////////////////////////////////</doc>

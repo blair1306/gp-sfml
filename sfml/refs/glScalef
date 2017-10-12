@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1493' type='void glScalef(GLfloat , GLfloat , GLfloat )'/>
+<dec f='include/GL/gl.h' l='897' type='void glScalef(GLfloat x, GLfloat y, GLfloat z)'/>

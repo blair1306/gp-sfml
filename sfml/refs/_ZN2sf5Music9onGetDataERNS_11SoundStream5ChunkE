@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='226' type='bool sf::Music::onGetData(sf::SoundStream::Chunk &amp; data)'/>
+<inh f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='229' c='_ZN2sf11SoundStream9onGetDataERNS0_5ChunkE'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='179' ll='200' type='bool sf::Music::onGetData(SoundStream::Chunk &amp; data)'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='178'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='215'>////////////////////////////////////////////////////////////
+    /// \brief Request a new chunk of audio samples from the stream source
+    ///
+    /// This function fills the chunk from the next samples
+    /// to read from the audio file.
+    ///
+    /// \param data Chunk of data to fill
+    ///
+    /// \return True to continue playback, false to stop
+    ///
+    ////////////////////////////////////////////////////////////</doc>

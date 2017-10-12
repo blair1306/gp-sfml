@@ -1,0 +1,24 @@
+<def f='include/c++/5/bits/basic_string.h' l='549' ll='551' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator=(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='545'>/**
+       *  @brief  Assign the value of @a str to this string.
+       *  @param  __str  Source string.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='177' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='179' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='172' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='237' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='315' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='107' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='293' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='336' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='370' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='372' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='438' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='462' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='64' u='c' c='_ZN2sf4Http7Request8setFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='78' u='c' c='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='97' u='c' c='_ZN2sf4Http7Request7setBodyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='294' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='323' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='336' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='215' u='c' c='_ZN2sf6StringaSERKS0_'/>

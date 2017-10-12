@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Config.hpp source code [codebrowser/include/SFML/Config.hpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Config.hpp'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>include</a>/<a href='./'>SFML</a>/<a href='Config.hpp.html'>Config.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_CONFIG_HPP">SFML_CONFIG_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_CONFIG_HPP" data-ref="_M/SFML_CONFIG_HPP">SFML_CONFIG_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="30">30</th><td><i>// Define the SFML version</i></td></tr>
+<tr><th id="31">31</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/SFML_VERSION_MAJOR" data-ref="_M/SFML_VERSION_MAJOR">SFML_VERSION_MAJOR</dfn> 2</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/SFML_VERSION_MINOR" data-ref="_M/SFML_VERSION_MINOR">SFML_VERSION_MINOR</dfn> 4</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/SFML_VERSION_PATCH" data-ref="_M/SFML_VERSION_PATCH">SFML_VERSION_PATCH</dfn> 2</u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="38">38</th><td><i>// Identify the operating system</i></td></tr>
+<tr><th id="39">39</th><td><i>// see <a href="http://nadeausoftware.com/articles/2012/01/c_c_tip_how_use_compiler_predefined_macros_detect_operating_system">http://nadeausoftware.com/articles/2012/01/c_c_tip_how_use_compiler_predefined_macros_detect_operating_system</a></i></td></tr>
+<tr><th id="40">40</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="41">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>)</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td>    <i>// Windows</i></td></tr>
+<tr><th id="44">44</th><td>    <u>#define SFML_SYSTEM_WINDOWS</u></td></tr>
+<tr><th id="45">45</th><td>    <u>#ifndef NOMINMAX</u></td></tr>
+<tr><th id="46">46</th><td>        <u>#define NOMINMAX</u></td></tr>
+<tr><th id="47">47</th><td>    <u>#endif</u></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="41">elif</span> defined(<span class="macro" data-ref="_M/__APPLE__">__APPLE__</span>) &amp;&amp; defined(<span class="macro" data-ref="_M/__MACH__">__MACH__</span>)</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td>    <i>// Apple platform, see which one it is</i></td></tr>
+<tr><th id="52">52</th><td>    <u>#include "TargetConditionals.h"</u></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td>    <u>#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>        <i>// iOS</i></td></tr>
+<tr><th id="57">57</th><td>        <u>#define SFML_SYSTEM_IOS</u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>    <u>#elif TARGET_OS_MAC</u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td>        <i>// MacOS</i></td></tr>
+<tr><th id="62">62</th><td>        <u>#define SFML_SYSTEM_MACOS</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td>    <u>#else</u></td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>        <i>// Unsupported Apple system</i></td></tr>
+<tr><th id="67">67</th><td>        <u>#error This Apple operating system is not supported by SFML library</u></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>    <u>#endif</u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#<span data-ppcond="41">elif</span> defined(<span class="macro" data-ref="_M/__unix__">__unix__</span>)</u></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i>// UNIX system, see which one it is</i></td></tr>
+<tr><th id="74">74</th><td>    <u>#<span data-ppcond="74">if</span> defined(<span class="macro" data-ref="_M/__ANDROID__">__ANDROID__</span>)</u></td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>        <i>// Android</i></td></tr>
+<tr><th id="77">77</th><td>        <u>#define SFML_SYSTEM_ANDROID</u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>    <u>#<span data-ppcond="74">elif</span> defined(<span class="macro" data-ref="_M/__linux__">__linux__</span>)</u></td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td>         <i>// Linux</i></td></tr>
+<tr><th id="82">82</th><td>        <u>#define <dfn class="macro" id="_M/SFML_SYSTEM_LINUX" data-ref="_M/SFML_SYSTEM_LINUX">SFML_SYSTEM_LINUX</dfn></u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>    <u>#<span data-ppcond="74">elif</span> defined(__FreeBSD__) || defined(__FreeBSD_kernel__)</u></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td>        <i>// FreeBSD</i></td></tr>
+<tr><th id="87">87</th><td>        <u>#define SFML_SYSTEM_FREEBSD</u></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td>    <u>#else</u></td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td>        <i>// Unsupported UNIX system</i></td></tr>
+<tr><th id="92">92</th><td>        <u>#error This UNIX operating system is not supported by SFML library</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td>    <u>#<span data-ppcond="74">endif</span></u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><u>#<span data-ppcond="41">else</span></u></td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td>    <i>// Unsupported system</i></td></tr>
+<tr><th id="99">99</th><td>    <u>#error This operating system is not supported by SFML library</u></td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="41">endif</span></u></td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="105">105</th><td><i>// Define a portable debug macro</i></td></tr>
+<tr><th id="106">106</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="107">if</span> !defined(<span class="macro" data-ref="_M/NDEBUG">NDEBUG</span>)</u></td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td>    <u>#define SFML_DEBUG</u></td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td><u>#<span data-ppcond="107">endif</span></u></td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="115">115</th><td><i>// Define helpers to create portable import / export macros for each module</i></td></tr>
+<tr><th id="116">116</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="117">117</th><td><u>#<span data-ppcond="117">if</span> !defined(<span class="macro" data-ref="_M/SFML_STATIC">SFML_STATIC</span>)</u></td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td>    <u>#<span data-ppcond="119">if</span> defined(<span class="macro" data-ref="_M/SFML_SYSTEM_WINDOWS">SFML_SYSTEM_WINDOWS</span>)</u></td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td>        <i>// Windows compilers need specific (and different) keywords for export and import</i></td></tr>
+<tr><th id="122">122</th><td>        <u>#define SFML_API_EXPORT __declspec(dllexport)</u></td></tr>
+<tr><th id="123">123</th><td>        <u>#define SFML_API_IMPORT __declspec(dllimport)</u></td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td>        <i>// For Visual C++ compilers, we also need to turn off this annoying C4251 warning</i></td></tr>
+<tr><th id="126">126</th><td>        <u>#ifdef _MSC_VER</u></td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td>            <u>#pragma warning(disable: 4251)</u></td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td>        <u>#endif</u></td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td>    <u>#<span data-ppcond="119">else</span> // Linux, FreeBSD, Mac OS X</u></td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td>        <u>#<span data-ppcond="134">if</span> <span class="macro" title="4" data-ref="_M/__GNUC__">__GNUC__</span> &gt;= 4</u></td></tr>
+<tr><th id="135">135</th><td></td></tr>
+<tr><th id="136">136</th><td>            <i>// GCC 4 has special keywords for showing/hidding symbols,</i></td></tr>
+<tr><th id="137">137</th><td><i>            // the same keyword is used for both importing and exporting</i></td></tr>
+<tr><th id="138">138</th><td>            <u>#define <dfn class="macro" id="_M/SFML_API_EXPORT" data-ref="_M/SFML_API_EXPORT">SFML_API_EXPORT</dfn> __attribute__ ((__visibility__ ("default")))</u></td></tr>
+<tr><th id="139">139</th><td>            <u>#define <dfn class="macro" id="_M/SFML_API_IMPORT" data-ref="_M/SFML_API_IMPORT">SFML_API_IMPORT</dfn> __attribute__ ((__visibility__ ("default")))</u></td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td>        <u>#<span data-ppcond="134">else</span></u></td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td>            <i>// GCC &lt; 4 has no mechanism to explicitely hide symbols, everything's exported</i></td></tr>
+<tr><th id="144">144</th><td>            <u>#define SFML_API_EXPORT</u></td></tr>
+<tr><th id="145">145</th><td>            <u>#define SFML_API_IMPORT</u></td></tr>
+<tr><th id="146">146</th><td></td></tr>
+<tr><th id="147">147</th><td>        <u>#<span data-ppcond="134">endif</span></u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td>    <u>#<span data-ppcond="119">endif</span></u></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><u>#<span data-ppcond="117">else</span></u></td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td>    <i>// Static build doesn't need import/export macros</i></td></tr>
+<tr><th id="154">154</th><td>    <u>#define SFML_API_EXPORT</u></td></tr>
+<tr><th id="155">155</th><td>    <u>#define SFML_API_IMPORT</u></td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td><u>#<span data-ppcond="117">endif</span></u></td></tr>
+<tr><th id="158">158</th><td></td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="161">161</th><td><i>// Cross-platform warning for deprecated functions and classes</i></td></tr>
+<tr><th id="162">162</th><td><i>//</i></td></tr>
+<tr><th id="163">163</th><td><i>// Usage:</i></td></tr>
+<tr><th id="164">164</th><td><i>// class SFML_DEPRECATED MyClass</i></td></tr>
+<tr><th id="165">165</th><td><i>// {</i></td></tr>
+<tr><th id="166">166</th><td><i>//     SFML_DEPRECATED void memberFunc();</i></td></tr>
+<tr><th id="167">167</th><td><i>// };</i></td></tr>
+<tr><th id="168">168</th><td><i>//</i></td></tr>
+<tr><th id="169">169</th><td><i>// SFML_DEPRECATED void globalFunc();</i></td></tr>
+<tr><th id="170">170</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="171">if</span> defined(<span class="macro" data-ref="_M/SFML_NO_DEPRECATED_WARNINGS">SFML_NO_DEPRECATED_WARNINGS</span>)</u></td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>    <i>// User explicitly requests to disable deprecation warnings</i></td></tr>
+<tr><th id="174">174</th><td>    <u>#define SFML_DEPRECATED</u></td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td><u>#<span data-ppcond="171">elif</span> defined(<span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span>)</u></td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td>    <i>// Microsoft C++ compiler</i></td></tr>
+<tr><th id="179">179</th><td><i>    // Note: On newer MSVC versions, using deprecated functions causes a compiler error. In order to</i></td></tr>
+<tr><th id="180">180</th><td><i>    // trigger a warning instead of an error, the compiler flag /sdl- (instead of /sdl) must be specified.</i></td></tr>
+<tr><th id="181">181</th><td>    <u>#define SFML_DEPRECATED __declspec(deprecated)</u></td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td><u>#<span data-ppcond="171">elif</span> defined(<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>)</u></td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td>    <i>// g++ and Clang</i></td></tr>
+<tr><th id="186">186</th><td>    <u>#define <dfn class="macro" id="_M/SFML_DEPRECATED" data-ref="_M/SFML_DEPRECATED">SFML_DEPRECATED</dfn> __attribute__ ((deprecated))</u></td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><u>#<span data-ppcond="171">else</span></u></td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td>    <i>// Other compilers are not supported, leave class or function as-is.</i></td></tr>
+<tr><th id="191">191</th><td><i>    // With a bit of luck, the #pragma directive works, otherwise users get a warning (no error!) for unrecognized #pragma.</i></td></tr>
+<tr><th id="192">192</th><td>    <u>#pragma message("SFML_DEPRECATED is not supported for your compiler, please contact the SFML team")</u></td></tr>
+<tr><th id="193">193</th><td>    <u>#define SFML_DEPRECATED</u></td></tr>
+<tr><th id="194">194</th><td></td></tr>
+<tr><th id="195">195</th><td><u>#<span data-ppcond="171">endif</span></u></td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="199">199</th><td><i>// Define portable fixed-size types</i></td></tr>
+<tr><th id="200">200</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="201">201</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="202">202</th><td>{</td></tr>
+<tr><th id="203">203</th><td>    <i>// All "common" platforms use the same size for char, short and int</i></td></tr>
+<tr><th id="204">204</th><td><i>    // (basically there are 3 types for 3 sizes, so no other match is possible),</i></td></tr>
+<tr><th id="205">205</th><td><i>    // we can use them without doing any kind of check</i></td></tr>
+<tr><th id="206">206</th><td><i></i></td></tr>
+<tr><th id="207">207</th><td><i>    // 8 bits integer types</i></td></tr>
+<tr><th id="208">208</th><td>    <b>typedef</b> <em>signed</em>   <em>char</em> <dfn class="typedef" id="sf::Int8" title='sf::Int8' data-type='signed char' data-ref="sf::Int8">Int8</dfn>;</td></tr>
+<tr><th id="209">209</th><td>    <b>typedef</b> <em>unsigned</em> <em>char</em> <dfn class="typedef" id="sf::Uint8" title='sf::Uint8' data-type='unsigned char' data-ref="sf::Uint8">Uint8</dfn>;</td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td>    <i>// 16 bits integer types</i></td></tr>
+<tr><th id="212">212</th><td>    <b>typedef</b> <em>signed</em>   <em>short</em> <dfn class="typedef" id="sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</dfn>;</td></tr>
+<tr><th id="213">213</th><td>    <b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="sf::Uint16" title='sf::Uint16' data-type='unsigned short' data-ref="sf::Uint16">Uint16</dfn>;</td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td>    <i>// 32 bits integer types</i></td></tr>
+<tr><th id="216">216</th><td>    <b>typedef</b> <em>signed</em>   <em>int</em> <dfn class="typedef" id="sf::Int32" title='sf::Int32' data-type='int' data-ref="sf::Int32">Int32</dfn>;</td></tr>
+<tr><th id="217">217</th><td>    <b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</dfn>;</td></tr>
+<tr><th id="218">218</th><td></td></tr>
+<tr><th id="219">219</th><td>    <i>// 64 bits integer types</i></td></tr>
+<tr><th id="220">220</th><td>    <u>#<span data-ppcond="220">if</span> defined(<span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span>)</u></td></tr>
+<tr><th id="221">221</th><td>        <b>typedef</b> <em>signed</em>   __int64 Int64;</td></tr>
+<tr><th id="222">222</th><td>        <b>typedef</b> <em>unsigned</em> __int64 Uint64;</td></tr>
+<tr><th id="223">223</th><td>    <u>#<span data-ppcond="220">else</span></u></td></tr>
+<tr><th id="224">224</th><td>        <b>typedef</b> <em>signed</em>   <em>long</em> <em>long</em> <dfn class="typedef" id="sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</dfn>;</td></tr>
+<tr><th id="225">225</th><td>        <b>typedef</b> <em>unsigned</em> <em>long</em> <em>long</em> <dfn class="typedef" id="sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</dfn>;</td></tr>
+<tr><th id="226">226</th><td>    <u>#<span data-ppcond="220">endif</span></u></td></tr>
+<tr><th id="227">227</th><td></td></tr>
+<tr><th id="228">228</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td></td></tr>
+<tr><th id="231">231</th><td><u>#<span data-ppcond="25">endif</span> // SFML_CONFIG_HPP</u></td></tr>
+<tr><th id="232">232</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../src/SFML/Audio/ALCheck.cpp.html'>codebrowser/src/SFML/Audio/ALCheck.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

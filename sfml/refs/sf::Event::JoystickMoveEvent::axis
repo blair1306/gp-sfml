@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='145' type='Joystick::Axis'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='145'>///&lt; Axis on which the joystick moved</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='196' u='w' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

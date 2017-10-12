@@ -1,0 +1,5 @@
+<dec f='include/GL/gl.h' l='1526'/>
+<dec f='include/GL/glext.h' l='363'/>
+<doc f='include/GL/gl.h' l='1522'>/*
+ * GL_ARB_imaging
+ */</doc>

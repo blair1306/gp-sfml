@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='185' type='bool'/>
+<offset>576</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='185'>///&lt; Do we own the window associated to the context?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='103' u='w' c='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='128' u='w' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='153' u='w' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='198' u='r' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='540' u='w' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>

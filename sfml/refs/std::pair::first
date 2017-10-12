@@ -1,0 +1,14 @@
+<dec f='include/c++/5/bits/stl_pair.h' l='101' type='_T1'/>
+<use f='include/c++/5/bits/stl_pair.h' l='109' u='w' c='_ZNSt4pairC1Ev'/>
+<use f='include/c++/5/bits/stl_pair.h' l='113' u='w' c='_ZNSt4pairC1ERKT_RKT0_'/>
+<use f='include/c++/5/bits/stl_pair.h' l='119' u='w' c='_ZNSt4pairC1ERKSt4pairIT_T0_E'/>
+<doc f='include/c++/5/bits/stl_pair.h' l='101'>/// @c first is a copy of the first object</doc>
+<use f='include/c++/5/bits/stl_tree.h' l='1868' c='_ZNSt8_Rb_tree16_M_insert_uniqueERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1873' u='r' c='_ZNSt8_Rb_tree16_M_insert_uniqueERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1892' c='_ZNSt8_Rb_tree15_M_insert_equalERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1976' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1979' u='r' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='2058' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='350' u='m' c='_ZNK2sf4Font8getGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='978' u='r' c='_ZNK2sf6Shader12bindTexturesEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='124' u='r' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>

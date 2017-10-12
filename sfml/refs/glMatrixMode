@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1422' type='void glMatrixMode(GLenum )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='336' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='338' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='340' u='c' c='_ZN2sf12RenderTarget12pushGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='353' u='c' c='_ZN2sf12RenderTarget11popGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='355' u='c' c='_ZN2sf12RenderTarget11popGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='357' u='c' c='_ZN2sf12RenderTarget11popGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='392' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='436' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='440' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='754' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='758' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='767' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='771' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<dec f='include/GL/gl.h' l='866' type='void glMatrixMode(GLenum mode)'/>

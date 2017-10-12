@@ -1,0 +1,6 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1657' type='stbi__uint16 [4][64]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2654' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2682' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2779' u='r' c='_ZL17stbi__jpeg_finishP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2809' u='w' c='_ZL20stbi__process_markerP10stbi__jpegi'/>
+<offset>107584</offset>

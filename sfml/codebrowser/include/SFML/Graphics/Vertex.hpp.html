@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vertex.hpp source code [codebrowser/include/SFML/Graphics/Vertex.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Vertex "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Graphics/Vertex.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='Vertex.hpp.html'>Vertex.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_VERTEX_HPP">SFML_VERTEX_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_VERTEX_HPP" data-ref="_M/SFML_VERTEX_HPP">SFML_VERTEX_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Graphics/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Color.hpp.html">&lt;SFML/Graphics/Color.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../System/Vector2.hpp.html">&lt;SFML/System/Vector2.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="39">39</th><td><i>/// \brief Define a point with color and texture coordinates</i></td></tr>
+<tr><th id="40">40</th><td><i>///</i></td></tr>
+<tr><th id="41">41</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="42">42</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <dfn class="type def" id="sf::Vertex" title='sf::Vertex' data-ref="sf::Vertex">Vertex</dfn></td></tr>
+<tr><th id="43">43</th><td>{</td></tr>
+<tr><th id="44">44</th><td><b>public</b>:</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="48">48</th><td><i>    ///</i></td></tr>
+<tr><th id="49">49</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="50">50</th><td>    <dfn class="decl" id="_ZN2sf6VertexC1Ev" title='sf::Vertex::Vertex' data-ref="_ZN2sf6VertexC1Ev">Vertex</dfn>();</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="53">53</th><td><i>    /// \brief Construct the vertex from its position</i></td></tr>
+<tr><th id="54">54</th><td><i>    ///</i></td></tr>
+<tr><th id="55">55</th><td><i>    /// The vertex color is white and texture coordinates are (0, 0).</i></td></tr>
+<tr><th id="56">56</th><td><i>    ///</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// \param thePosition Vertex position</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///</i></td></tr>
+<tr><th id="59">59</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td>    <dfn class="decl" id="_ZN2sf6VertexC1ERKNS_7Vector2IfEE" title='sf::Vertex::Vertex' data-ref="_ZN2sf6VertexC1ERKNS_7Vector2IfEE">Vertex</dfn>(<em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col0 decl" id="190thePosition" title='thePosition' data-type='const Vector2f &amp;' data-ref="190thePosition">thePosition</dfn>);</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// \brief Construct the vertex from its position and color</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///</i></td></tr>
+<tr><th id="65">65</th><td><i>    /// The texture coordinates are (0, 0).</i></td></tr>
+<tr><th id="66">66</th><td><i>    ///</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// \param thePosition Vertex position</i></td></tr>
+<tr><th id="68">68</th><td><i>    /// \param theColor    Vertex color</i></td></tr>
+<tr><th id="69">69</th><td><i>    ///</i></td></tr>
+<tr><th id="70">70</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="71">71</th><td>    <dfn class="decl" id="_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorE" title='sf::Vertex::Vertex' data-ref="_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorE">Vertex</dfn>(<em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col1 decl" id="191thePosition" title='thePosition' data-type='const Vector2f &amp;' data-ref="191thePosition">thePosition</dfn>, <em>const</em> <a class="type" href="Color.hpp.html#sf::Color" title='sf::Color' data-ref="sf::Color">Color</a>&amp; <dfn class="local col2 decl" id="192theColor" title='theColor' data-type='const sf::Color &amp;' data-ref="192theColor">theColor</dfn>);</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td><i>    /// \brief Construct the vertex from its position and texture coordinates</i></td></tr>
+<tr><th id="75">75</th><td><i>    ///</i></td></tr>
+<tr><th id="76">76</th><td><i>    /// The vertex color is white.</i></td></tr>
+<tr><th id="77">77</th><td><i>    ///</i></td></tr>
+<tr><th id="78">78</th><td><i>    /// \param thePosition  Vertex position</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// \param theTexCoords Vertex texture coordinates</i></td></tr>
+<tr><th id="80">80</th><td><i>    ///</i></td></tr>
+<tr><th id="81">81</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="82">82</th><td>    <dfn class="decl" id="_ZN2sf6VertexC1ERKNS_7Vector2IfEES4_" title='sf::Vertex::Vertex' data-ref="_ZN2sf6VertexC1ERKNS_7Vector2IfEES4_">Vertex</dfn>(<em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col3 decl" id="193thePosition" title='thePosition' data-type='const Vector2f &amp;' data-ref="193thePosition">thePosition</dfn>, <em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col4 decl" id="194theTexCoords" title='theTexCoords' data-type='const Vector2f &amp;' data-ref="194theTexCoords">theTexCoords</dfn>);</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="85">85</th><td><i>    /// \brief Construct the vertex from its position, color and texture coordinates</i></td></tr>
+<tr><th id="86">86</th><td><i>    ///</i></td></tr>
+<tr><th id="87">87</th><td><i>    /// \param thePosition  Vertex position</i></td></tr>
+<tr><th id="88">88</th><td><i>    /// \param theColor     Vertex color</i></td></tr>
+<tr><th id="89">89</th><td><i>    /// \param theTexCoords Vertex texture coordinates</i></td></tr>
+<tr><th id="90">90</th><td><i>    ///</i></td></tr>
+<tr><th id="91">91</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="92">92</th><td>    <dfn class="decl" id="_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorES4_" title='sf::Vertex::Vertex' data-ref="_ZN2sf6VertexC1ERKNS_7Vector2IfEERKNS_5ColorES4_">Vertex</dfn>(<em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col5 decl" id="195thePosition" title='thePosition' data-type='const Vector2f &amp;' data-ref="195thePosition">thePosition</dfn>, <em>const</em> <a class="type" href="Color.hpp.html#sf::Color" title='sf::Color' data-ref="sf::Color">Color</a>&amp; <dfn class="local col6 decl" id="196theColor" title='theColor' data-type='const sf::Color &amp;' data-ref="196theColor">theColor</dfn>, <em>const</em> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>&amp; <dfn class="local col7 decl" id="197theTexCoords" title='theTexCoords' data-type='const Vector2f &amp;' data-ref="197theTexCoords">theTexCoords</dfn>);</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="95">95</th><td><i>    // Member data</i></td></tr>
+<tr><th id="96">96</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="97">97</th><td>    <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>  <dfn class="decl" id="sf::Vertex::position" title='sf::Vertex::position' data-ref="sf::Vertex::position">position</dfn>;  <i class="doc">///&lt; 2D position of the vertex</i></td></tr>
+<tr><th id="98">98</th><td>    <a class="type" href="Color.hpp.html#sf::Color" title='sf::Color' data-ref="sf::Color">Color</a>     <dfn class="decl" id="sf::Vertex::color" title='sf::Vertex::color' data-ref="sf::Vertex::color">color</dfn>;     <i class="doc">///&lt; Color of the vertex</i></td></tr>
+<tr><th id="99">99</th><td>    <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2f" title='sf::Vector2f' data-type='Vector2&lt;float&gt;' data-ref="sf::Vector2f">Vector2f</a>  <dfn class="decl" id="sf::Vertex::texCoords" title='sf::Vertex::texCoords' data-ref="sf::Vertex::texCoords">texCoords</dfn>; <i class="doc">///&lt; Coordinates of the texture's pixel to map to the vertex</i></td></tr>
+<tr><th id="100">100</th><td>};</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><u>#<span data-ppcond="25">endif</span> // SFML_VERTEX_HPP</u></td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="109">109</th><td><i>/// \class sf::Vertex</i></td></tr>
+<tr><th id="110">110</th><td><i>/// \ingroup graphics</i></td></tr>
+<tr><th id="111">111</th><td><i>///</i></td></tr>
+<tr><th id="112">112</th><td><i>/// A vertex is an improved point. It has a position and other</i></td></tr>
+<tr><th id="113">113</th><td><i>/// extra attributes that will be used for drawing: in SFML,</i></td></tr>
+<tr><th id="114">114</th><td><i>/// vertices also have a color and a pair of texture coordinates.</i></td></tr>
+<tr><th id="115">115</th><td><i>///</i></td></tr>
+<tr><th id="116">116</th><td><i>/// The vertex is the building block of drawing. Everything which</i></td></tr>
+<tr><th id="117">117</th><td><i>/// is visible on screen is made of vertices. They are grouped</i></td></tr>
+<tr><th id="118">118</th><td><i>/// as 2D primitives (triangles, quads, ...), and these primitives</i></td></tr>
+<tr><th id="119">119</th><td><i>/// are grouped to create even more complex 2D entities such as</i></td></tr>
+<tr><th id="120">120</th><td><i>/// sprites, texts, etc.</i></td></tr>
+<tr><th id="121">121</th><td><i>///</i></td></tr>
+<tr><th id="122">122</th><td><i>/// If you use the graphical entities of SFML (sprite, text, shape)</i></td></tr>
+<tr><th id="123">123</th><td><i>/// you won't have to deal with vertices directly. But if you want</i></td></tr>
+<tr><th id="124">124</th><td><i>/// to define your own 2D entities, such as tiled maps or particle</i></td></tr>
+<tr><th id="125">125</th><td><i>/// systems, using vertices will allow you to get maximum performances.</i></td></tr>
+<tr><th id="126">126</th><td><i>///</i></td></tr>
+<tr><th id="127">127</th><td><i>/// Example:</i></td></tr>
+<tr><th id="128">128</th><td><i>/// \code</i></td></tr>
+<tr><th id="129">129</th><td><i>/// // define a 100x100 square, red, with a 10x10 texture mapped on it</i></td></tr>
+<tr><th id="130">130</th><td><i>/// sf::Vertex vertices[] =</i></td></tr>
+<tr><th id="131">131</th><td><i>/// {</i></td></tr>
+<tr><th id="132">132</th><td><i>///     sf::Vertex(sf::Vector2f(  0,   0), sf::Color::Red, sf::Vector2f( 0,  0)),</i></td></tr>
+<tr><th id="133">133</th><td><i>///     sf::Vertex(sf::Vector2f(  0, 100), sf::Color::Red, sf::Vector2f( 0, 10)),</i></td></tr>
+<tr><th id="134">134</th><td><i>///     sf::Vertex(sf::Vector2f(100, 100), sf::Color::Red, sf::Vector2f(10, 10)),</i></td></tr>
+<tr><th id="135">135</th><td><i>///     sf::Vertex(sf::Vector2f(100,   0), sf::Color::Red, sf::Vector2f(10,  0))</i></td></tr>
+<tr><th id="136">136</th><td><i>/// };</i></td></tr>
+<tr><th id="137">137</th><td><i>///</i></td></tr>
+<tr><th id="138">138</th><td><i>/// // draw it</i></td></tr>
+<tr><th id="139">139</th><td><i>/// window.draw(vertices, 4, sf::Quads);</i></td></tr>
+<tr><th id="140">140</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="141">141</th><td><i>///</i></td></tr>
+<tr><th id="142">142</th><td><i>/// Note: although texture coordinates are supposed to be an integer</i></td></tr>
+<tr><th id="143">143</th><td><i>/// amount of pixels, their type is float because of some buggy graphics</i></td></tr>
+<tr><th id="144">144</th><td><i>/// drivers that are not able to process integer coordinates correctly.</i></td></tr>
+<tr><th id="145">145</th><td><i>///</i></td></tr>
+<tr><th id="146">146</th><td><i>/// \see sf::VertexArray</i></td></tr>
+<tr><th id="147">147</th><td><i>///</i></td></tr>
+<tr><th id="148">148</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="149">149</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/CircleShape.cpp.html'>codebrowser/src/SFML/Graphics/CircleShape.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

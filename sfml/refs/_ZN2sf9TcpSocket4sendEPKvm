@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='140' type='sf::Socket::Status sf::TcpSocket::send(const void * data, std::size_t size)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='375' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='639' u='c' c='_ZN2sf3Ftp11DataChannel4sendERSi'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='124'>////////////////////////////////////////////////////////////
+    /// \brief Send raw data to the remote peer
+    ///
+    /// To be able to handle partial sends over non-blocking
+    /// sockets, use the send(const void*, std::size_t, std::size_t&amp;)
+    /// overload instead.
+    /// This function will fail if the socket is not connected.
+    ///
+    /// \param data Pointer to the sequence of bytes to send
+    /// \param size Number of bytes to send
+    ///
+    /// \return Status code
+    ///
+    /// \see receive
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='392' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='220' ll='228' type='Socket::Status sf::TcpSocket::send(const void * data, std::size_t size)'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='219'>////////////////////////////////////////////////////////////</doc>

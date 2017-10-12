@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Audio/Music.hpp' l='57' ll='84'/>
+<fun r='_ZN2sf5Music4SpanC1Ev'/>
+<fun r='_ZN2sf5Music4SpanC1ET_S2_'/>
+<mbr r='sf::Music::Span::offset' t='T'/>
+<mbr r='sf::Music::Span::length' t='T'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='164'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='382' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='979' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='985' u='c'/>

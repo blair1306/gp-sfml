@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='413' type='sf::IpAddress'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='302' u='w' c='_ZN2sf4HttpC1Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='344' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='384' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>576</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='413'>///&lt; Web host address</doc>

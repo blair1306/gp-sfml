@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>TcpListener.cpp source code [codebrowser/src/SFML/Network/TcpListener.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Network/TcpListener.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Network</a>/<a href='TcpListener.cpp.html'>TcpListener.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="../../../include/SFML/Network/TcpListener.hpp.html">&lt;SFML/Network/TcpListener.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../../../include/SFML/Network/TcpSocket.hpp.html">&lt;SFML/Network/TcpSocket.hpp&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="SocketImpl.hpp.html">&lt;SFML/Network/SocketImpl.hpp&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../../include/SFML/System/Err.hpp.html">&lt;SFML/System/Err.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="35">35</th><td>{</td></tr>
+<tr><th id="36">36</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="37">37</th><td><a class="type" href="../../../include/SFML/Network/TcpListener.hpp.html#sf::TcpListener" title='sf::TcpListener' data-ref="sf::TcpListener">TcpListener</a>::<dfn class="decl def" id="_ZN2sf11TcpListenerC1Ev" title='sf::TcpListener::TcpListener' data-ref="_ZN2sf11TcpListenerC1Ev">TcpListener</dfn>() :</td></tr>
+<tr><th id="38">38</th><td><a class="type" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket" title='sf::Socket' data-ref="sf::Socket">Socket</a><a class="ref" href="../../../include/SFML/Network/Socket.hpp.html#_ZN2sf6SocketC1ENS0_4TypeE" title='sf::Socket::Socket' data-ref="_ZN2sf6SocketC1ENS0_4TypeE">(</a><a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Type::Tcp" title='sf::Socket::Type::Tcp' data-ref="sf::Socket::Type::Tcp">Tcp</a>)</td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td>}</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="45">45</th><td><em>unsigned</em> <em>short</em> <a class="type" href="../../../include/SFML/Network/TcpListener.hpp.html#sf::TcpListener" title='sf::TcpListener' data-ref="sf::TcpListener">TcpListener</a>::<dfn class="decl def" id="_ZNK2sf11TcpListener12getLocalPortEv" title='sf::TcpListener::getLocalPort' data-ref="_ZNK2sf11TcpListener12getLocalPortEv">getLocalPort</dfn>() <em>const</em></td></tr>
+<tr><th id="46">46</th><td>{</td></tr>
+<tr><th id="47">47</th><td>    <b>if</b> (<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZNK2sf6Socket9getHandleEv" title='sf::Socket::getHandle' data-ref="_ZNK2sf6Socket9getHandleEv">getHandle</a>() != <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="ref" href="Unix/SocketImpl.hpp.html#_ZN2sf4priv10SocketImpl13invalidSocketEv" title='sf::priv::SocketImpl::invalidSocket' data-ref="_ZN2sf4priv10SocketImpl13invalidSocketEv">invalidSocket</a>())</td></tr>
+<tr><th id="48">48</th><td>    {</td></tr>
+<tr><th id="49">49</th><td>        <i>// Retrieve informations about the local end of the socket</i></td></tr>
+<tr><th id="50">50</th><td>        <a class="type" href="../../../../include/netinet/in.h.html#sockaddr_in" title='sockaddr_in' data-ref="sockaddr_in">sockaddr_in</a> <a class="ref fake" href="../../../../include/netinet/in.h.html#239" title='sockaddr_in::sockaddr_in' data-ref="_ZN11sockaddr_inC1Ev"></a><dfn class="local col4 decl" id="4address" title='address' data-type='sockaddr_in' data-ref="4address">address</dfn>;</td></tr>
+<tr><th id="51">51</th><td>        <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="typedef" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl::AddrLength" title='sf::priv::SocketImpl::AddrLength' data-type='socklen_t' data-ref="sf::priv::SocketImpl::AddrLength">AddrLength</a> <dfn class="local col5 decl" id="5size" title='size' data-type='priv::SocketImpl::AddrLength' data-ref="5size">size</dfn> = <b>sizeof</b>(<a class="local col4 ref" href="#4address" title='address' data-ref="4address">address</a>);</td></tr>
+<tr><th id="52">52</th><td>        <b>if</b> (<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/socket.h.html#getsockname" title='getsockname' data-ref="getsockname">getsockname</a>(<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZNK2sf6Socket9getHandleEv" title='sf::Socket::getHandle' data-ref="_ZNK2sf6Socket9getHandleEv">getHandle</a>(), <b>reinterpret_cast</b>&lt;<a class="type" href="../../../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a>*&gt;(&amp;<a class="local col4 ref" href="#4address" title='address' data-ref="4address">address</a>), &amp;<a class="local col5 ref" href="#5size" title='size' data-ref="5size">size</a>) != -<var>1</var>)</td></tr>
+<tr><th id="53">53</th><td>        {</td></tr>
+<tr><th id="54">54</th><td>            <b>return</b> <a class="macro" href="../../../../include/netinet/in.h.html#403" title="(__extension__ ({ unsigned short int __v, __x = (unsigned short int) (address.sin_port); if (__builtin_constant_p (__x)) __v = ((unsigned short int) ((((__x) &gt;&gt; 8) &amp; 0xff) | (((__x) &amp; 0xff) &lt;&lt; 8))); else __asm__ (&quot;rorw $8, %w0&quot; : &quot;=r&quot; (__v) : &quot;0&quot; (__x) : &quot;cc&quot;); __v; }))" data-ref="_M/ntohs">ntohs</a>(<a class="local col4 ref" href="#4address" title='address' data-ref="4address">address</a>.<a class="ref" href="../../../../include/netinet/in.h.html#sockaddr_in::sin_port" title='sockaddr_in::sin_port' data-ref="sockaddr_in::sin_port">sin_port</a>);</td></tr>
+<tr><th id="55">55</th><td>        }</td></tr>
+<tr><th id="56">56</th><td>    }</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td>    <i>// We failed to retrieve the port</i></td></tr>
+<tr><th id="59">59</th><td>    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="60">60</th><td>}</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="64">64</th><td><a class="type" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket" title='sf::Socket' data-ref="sf::Socket">Socket</a>::<a class="type" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="type" href="../../../include/SFML/Network/TcpListener.hpp.html#sf::TcpListener" title='sf::TcpListener' data-ref="sf::TcpListener">TcpListener</a>::<dfn class="decl def" id="_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE" title='sf::TcpListener::listen' data-ref="_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE">listen</dfn>(<em>unsigned</em> <em>short</em> <dfn class="local col6 decl" id="6port" title='port' data-type='unsigned short' data-ref="6port">port</dfn>, <em>const</em> <a class="type" href="../../../include/SFML/Network/IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col7 decl" id="7address" title='address' data-type='const sf::IpAddress &amp;' data-ref="7address">address</dfn>)</td></tr>
+<tr><th id="65">65</th><td>{</td></tr>
+<tr><th id="66">66</th><td>    <i>// Create the internal socket if it doesn't exist</i></td></tr>
+<tr><th id="67">67</th><td>    <a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZN2sf6Socket6createEv" title='sf::Socket::create' data-ref="_ZN2sf6Socket6createEv">create</a>();</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>    <i>// Check if the address is valid</i></td></tr>
+<tr><th id="70">70</th><td>    <b>if</b> ((<a class="local col7 ref" href="#7address" title='address' data-ref="7address">address</a> <a class="ref" href="../../../include/SFML/Network/IpAddress.hpp.html#_ZN2sfeqERKNS_9IpAddressES2_" title='sf::operator==' data-ref="_ZN2sfeqERKNS_9IpAddressES2_">==</a> <a class="type" href="../../../include/SFML/Network/IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>::<a class="ref" href="../../../include/SFML/Network/IpAddress.hpp.html#sf::IpAddress::None" title='sf::IpAddress::None' data-ref="sf::IpAddress::None">None</a>) || (<a class="local col7 ref" href="#7address" title='address' data-ref="7address">address</a> <a class="ref" href="../../../include/SFML/Network/IpAddress.hpp.html#_ZN2sfeqERKNS_9IpAddressES2_" title='sf::operator==' data-ref="_ZN2sfeqERKNS_9IpAddressES2_">==</a> <a class="type" href="../../../include/SFML/Network/IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>::<a class="ref" href="../../../include/SFML/Network/IpAddress.hpp.html#sf::IpAddress::Broadcast" title='sf::IpAddress::Broadcast' data-ref="sf::IpAddress::Broadcast">Broadcast</a>))</td></tr>
+<tr><th id="71">71</th><td>        <b>return</b> <a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status::Error" title='sf::Socket::Status::Error' data-ref="sf::Socket::Status::Error">Error</a>;</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i>// Bind the socket to the specified port</i></td></tr>
+<tr><th id="74">74</th><td>    <a class="type" href="../../../../include/netinet/in.h.html#sockaddr_in" title='sockaddr_in' data-ref="sockaddr_in">sockaddr_in</a> <dfn class="local col8 decl" id="8addr" title='addr' data-type='sockaddr_in' data-ref="8addr">addr</dfn> = <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="ref" href="Unix/SocketImpl.hpp.html#_ZN2sf4priv10SocketImpl13createAddressEjt" title='sf::priv::SocketImpl::createAddress' data-ref="_ZN2sf4priv10SocketImpl13createAddressEjt">createAddress</a>(<a class="local col7 ref" href="#7address" title='address' data-ref="7address">address</a>.<a class="ref" href="../../../include/SFML/Network/IpAddress.hpp.html#_ZNK2sf9IpAddress9toIntegerEv" title='sf::IpAddress::toInteger' data-ref="_ZNK2sf9IpAddress9toIntegerEv">toInteger</a>(), <a class="local col6 ref" href="#6port" title='port' data-ref="6port">port</a>);</td></tr>
+<tr><th id="75">75</th><td>    <b>if</b> (<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/socket.h.html#bind" title='bind' data-ref="bind">bind</a>(<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZNK2sf6Socket9getHandleEv" title='sf::Socket::getHandle' data-ref="_ZNK2sf6Socket9getHandleEv">getHandle</a>(), <b>reinterpret_cast</b>&lt;<a class="type" href="../../../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a>*&gt;(&amp;<a class="local col8 ref" href="#8addr" title='addr' data-ref="8addr">addr</a>), <b>sizeof</b>(<a class="local col8 ref" href="#8addr" title='addr' data-ref="8addr">addr</a>)) == -<var>1</var>)</td></tr>
+<tr><th id="76">76</th><td>    {</td></tr>
+<tr><th id="77">77</th><td>        <i>// Not likely to happen, but...</i></td></tr>
+<tr><th id="78">78</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to bind listener socket to port "</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEt" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEt">&lt;&lt;</a> <a class="local col6 ref" href="#6port" title='port' data-ref="6port">port</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="79">79</th><td>        <b>return</b> <a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status::Error" title='sf::Socket::Status::Error' data-ref="sf::Socket::Status::Error">Error</a>;</td></tr>
+<tr><th id="80">80</th><td>    }</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td>    <i>// Listen to the bound port</i></td></tr>
+<tr><th id="83">83</th><td>    <b>if</b> (::<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/socket.h.html#listen" title='listen' data-ref="listen">listen</a>(<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZNK2sf6Socket9getHandleEv" title='sf::Socket::getHandle' data-ref="_ZNK2sf6Socket9getHandleEv">getHandle</a>(), <var>0</var>) == -<var>1</var>)</td></tr>
+<tr><th id="84">84</th><td>    {</td></tr>
+<tr><th id="85">85</th><td>        <i>// Oops, socket is deaf</i></td></tr>
+<tr><th id="86">86</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to listen to port "</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEt" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEt">&lt;&lt;</a> <a class="local col6 ref" href="#6port" title='port' data-ref="6port">port</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="87">87</th><td>        <b>return</b> <a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status::Error" title='sf::Socket::Status::Error' data-ref="sf::Socket::Status::Error">Error</a>;</td></tr>
+<tr><th id="88">88</th><td>    }</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>    <b>return</b> <a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status::Done" title='sf::Socket::Status::Done' data-ref="sf::Socket::Status::Done">Done</a>;</td></tr>
+<tr><th id="91">91</th><td>}</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="95">95</th><td><em>void</em> <a class="type" href="../../../include/SFML/Network/TcpListener.hpp.html#sf::TcpListener" title='sf::TcpListener' data-ref="sf::TcpListener">TcpListener</a>::<dfn class="decl def" id="_ZN2sf11TcpListener5closeEv" title='sf::TcpListener::close' data-ref="_ZN2sf11TcpListener5closeEv">close</dfn>()</td></tr>
+<tr><th id="96">96</th><td>{</td></tr>
+<tr><th id="97">97</th><td>    <i>// Simply close the socket</i></td></tr>
+<tr><th id="98">98</th><td>    <a class="type" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket" title='sf::Socket' data-ref="sf::Socket">Socket</a>::<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZN2sf6Socket5closeEv" title='sf::Socket::close' data-ref="_ZN2sf6Socket5closeEv">close</a>();</td></tr>
+<tr><th id="99">99</th><td>}</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="103">103</th><td><a class="type" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket" title='sf::Socket' data-ref="sf::Socket">Socket</a>::<a class="type" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status" title='sf::Socket::Status' data-ref="sf::Socket::Status">Status</a> <a class="type" href="../../../include/SFML/Network/TcpListener.hpp.html#sf::TcpListener" title='sf::TcpListener' data-ref="sf::TcpListener">TcpListener</a>::<dfn class="decl def" id="_ZN2sf11TcpListener6acceptERNS_9TcpSocketE" title='sf::TcpListener::accept' data-ref="_ZN2sf11TcpListener6acceptERNS_9TcpSocketE">accept</dfn>(<a class="type" href="../../../include/SFML/Network/TcpSocket.hpp.html#sf::TcpSocket" title='sf::TcpSocket' data-ref="sf::TcpSocket">TcpSocket</a>&amp; <dfn class="local col9 decl" id="9socket" title='socket' data-type='sf::TcpSocket &amp;' data-ref="9socket">socket</dfn>)</td></tr>
+<tr><th id="104">104</th><td>{</td></tr>
+<tr><th id="105">105</th><td>    <i>// Make sure that we're listening</i></td></tr>
+<tr><th id="106">106</th><td>    <b>if</b> (<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZNK2sf6Socket9getHandleEv" title='sf::Socket::getHandle' data-ref="_ZNK2sf6Socket9getHandleEv">getHandle</a>() == <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="ref" href="Unix/SocketImpl.hpp.html#_ZN2sf4priv10SocketImpl13invalidSocketEv" title='sf::priv::SocketImpl::invalidSocket' data-ref="_ZN2sf4priv10SocketImpl13invalidSocketEv">invalidSocket</a>())</td></tr>
+<tr><th id="107">107</th><td>    {</td></tr>
+<tr><th id="108">108</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to accept a new connection, the socket is not listening"</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="109">109</th><td>        <b>return</b> <a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status::Error" title='sf::Socket::Status::Error' data-ref="sf::Socket::Status::Error">Error</a>;</td></tr>
+<tr><th id="110">110</th><td>    }</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>    <i>// Accept a new connection</i></td></tr>
+<tr><th id="113">113</th><td>    <a class="type" href="../../../../include/netinet/in.h.html#sockaddr_in" title='sockaddr_in' data-ref="sockaddr_in">sockaddr_in</a> <a class="ref fake" href="../../../../include/netinet/in.h.html#239" title='sockaddr_in::sockaddr_in' data-ref="_ZN11sockaddr_inC1Ev"></a><dfn class="local col0 decl" id="10address" title='address' data-type='sockaddr_in' data-ref="10address">address</dfn>;</td></tr>
+<tr><th id="114">114</th><td>    <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="typedef" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl::AddrLength" title='sf::priv::SocketImpl::AddrLength' data-type='socklen_t' data-ref="sf::priv::SocketImpl::AddrLength">AddrLength</a> <dfn class="local col1 decl" id="11length" title='length' data-type='priv::SocketImpl::AddrLength' data-ref="11length">length</dfn> = <b>sizeof</b>(<a class="local col0 ref" href="#10address" title='address' data-ref="10address">address</a>);</td></tr>
+<tr><th id="115">115</th><td>    <a class="typedef" href="../../../include/SFML/Network/SocketHandle.hpp.html#sf::SocketHandle" title='sf::SocketHandle' data-type='int' data-ref="sf::SocketHandle">SocketHandle</a> <dfn class="local col2 decl" id="12remote" title='remote' data-type='SocketHandle' data-ref="12remote">remote</dfn> = ::<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/socket.h.html#accept" title='accept' data-ref="accept">accept</a>(<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZNK2sf6Socket9getHandleEv" title='sf::Socket::getHandle' data-ref="_ZNK2sf6Socket9getHandleEv">getHandle</a>(), <b>reinterpret_cast</b>&lt;<a class="type" href="../../../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a>*&gt;(&amp;<a class="local col0 ref" href="#10address" title='address' data-ref="10address">address</a>), &amp;<a class="local col1 ref" href="#11length" title='length' data-ref="11length">length</a>);</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td>    <i>// Check for errors</i></td></tr>
+<tr><th id="118">118</th><td>    <b>if</b> (<a class="local col2 ref" href="#12remote" title='remote' data-ref="12remote">remote</a> == <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="ref" href="Unix/SocketImpl.hpp.html#_ZN2sf4priv10SocketImpl13invalidSocketEv" title='sf::priv::SocketImpl::invalidSocket' data-ref="_ZN2sf4priv10SocketImpl13invalidSocketEv">invalidSocket</a>())</td></tr>
+<tr><th id="119">119</th><td>        <b>return</b> <span class="namespace">priv::</span><a class="type" href="Unix/SocketImpl.hpp.html#sf::priv::SocketImpl" title='sf::priv::SocketImpl' data-ref="sf::priv::SocketImpl">SocketImpl</a>::<a class="ref" href="Unix/SocketImpl.hpp.html#_ZN2sf4priv10SocketImpl14getErrorStatusEv" title='sf::priv::SocketImpl::getErrorStatus' data-ref="_ZN2sf4priv10SocketImpl14getErrorStatusEv">getErrorStatus</a>();</td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td>    <i>// Initialize the new connected socket</i></td></tr>
+<tr><th id="122">122</th><td>    <a class="local col9 ref" href="#9socket" title='socket' data-ref="9socket">socket</a>.<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZN2sf6Socket5closeEv" title='sf::Socket::close' data-ref="_ZN2sf6Socket5closeEv">close</a>();</td></tr>
+<tr><th id="123">123</th><td>    <a class="local col9 ref" href="#9socket" title='socket' data-ref="9socket">socket</a>.<a class="member" href="../../../include/SFML/Network/Socket.hpp.html#_ZN2sf6Socket6createEi" title='sf::Socket::create' data-ref="_ZN2sf6Socket6createEi">create</a>(<a class="local col2 ref" href="#12remote" title='remote' data-ref="12remote">remote</a>);</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td>    <b>return</b> <a class="enum" href="../../../include/SFML/Network/Socket.hpp.html#sf::Socket::Status::Done" title='sf::Socket::Status::Done' data-ref="sf::Socket::Status::Done">Done</a>;</td></tr>
+<tr><th id="126">126</th><td>}</td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="129">129</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

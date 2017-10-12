@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='275' type='void sf::SoundRecorder::processCapturedSamples()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='267'>////////////////////////////////////////////////////////////
+    /// \brief Get the new available audio samples and process them
+    ///
+    /// This function is called continuously during the
+    /// capture loop. It retrieves the captured samples and
+    /// forwards them to the derived class.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='282' u='c' c='_ZN2sf13SoundRecorder6recordEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='294' ll='313' type='void sf::SoundRecorder::processCapturedSamples()'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='323' u='c' c='_ZN2sf13SoundRecorder7cleanupEv'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='293'>////////////////////////////////////////////////////////////</doc>

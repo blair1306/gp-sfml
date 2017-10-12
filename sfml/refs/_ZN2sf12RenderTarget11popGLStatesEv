@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='323' type='void sf::RenderTarget::popGLStates()'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='349' ll='364' type='void sf::RenderTarget::popGLStates()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='348'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='314'>////////////////////////////////////////////////////////////
+    /// \brief Restore the previously saved OpenGL render states and matrices
+    ///
+    /// See the description of pushGLStates to get a detailed
+    /// description of these functions.
+    ///
+    /// \see pushGLStates
+    ///
+    ////////////////////////////////////////////////////////////</doc>

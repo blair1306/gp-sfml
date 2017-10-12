@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='57' type='static sf::priv::ImageLoader &amp; sf::priv::ImageLoader::getInstance()'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='134' u='c' c='_ZN2sf5Image12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='151' u='c' c='_ZN2sf5Image14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='158' u='c' c='_ZN2sf5Image14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='165' u='c' c='_ZNK2sf5Image10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Get the unique instance of the class
+    ///
+    /// \return Reference to the ImageLoader instance
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='72' ll='77' type='static sf::priv::ImageLoader &amp; sf::priv::ImageLoader::getInstance()'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='71'>////////////////////////////////////////////////////////////</doc>

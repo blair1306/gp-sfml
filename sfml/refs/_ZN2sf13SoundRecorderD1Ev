@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='53' type='void sf::SoundRecorder::~SoundRecorder()'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='36' c='_ZN2sf19SoundBufferRecorderD1Ev'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='62' ll='70' type='void sf::SoundRecorder::~SoundRecorder()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='61'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,3 @@
+_ZNKSt9basic_ios10exceptionsEv|std::basic_ios::exceptions
+_ZNSt9exceptionC1Ev|std::exception::exception
+_ZSt3expf|std::exp

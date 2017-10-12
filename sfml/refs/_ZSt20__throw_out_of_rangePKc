@@ -1,0 +1,3 @@
+<dec f='include/c++/5/bits/functexcept.h' l='75' type='void std::__throw_out_of_range(const char * )'/>
+<use f='include/c++/5/bits/stl_map.h' l='523' u='c' c='_ZNSt3map2atERKT_'/>
+<use f='include/c++/5/bits/stl_map.h' l='532' u='c' c='_ZNKSt3map2atERKT_'/>

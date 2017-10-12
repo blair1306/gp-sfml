@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='51' type='void sf::RectangleShape::RectangleShape(const Vector2f &amp; size = Vector2f(0, 0))'/>
+<def f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='35' ll='38' type='void sf::RectangleShape::RectangleShape(const Vector2f &amp; size = Vector2f(0, 0))'/>
+<doc f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='34'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// \param size Size of the rectangle
+    ///
+    ////////////////////////////////////////////////////////////</doc>

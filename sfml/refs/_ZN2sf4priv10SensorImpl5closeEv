@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='77' type='void sf::priv::SensorImpl::close()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='73'>////////////////////////////////////////////////////////////
+    /// \brief Close the sensor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='120' u='c' c='_ZN2sf4priv13SensorManagerD1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='66' ll='69' type='void sf::priv::SensorImpl::close()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='65'>////////////////////////////////////////////////////////////</doc>

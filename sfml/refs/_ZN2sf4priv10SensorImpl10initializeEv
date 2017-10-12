@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='45' type='static void sf::priv::SensorImpl::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='41'>////////////////////////////////////////////////////////////
+    /// \brief Perform the global initialization of the sensor module
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='96' u='c' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='36' ll='39' type='static void sf::priv::SensorImpl::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='35'>////////////////////////////////////////////////////////////</doc>

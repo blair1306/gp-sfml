@@ -1,0 +1,56 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='157' type='T'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='29' u='w' c='_ZN2sf4RectC1Ev'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='41' u='w' c='_ZN2sf4RectC1ET_S1_S1_S1_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='53' u='w' c='_ZN2sf4RectC1ERKNS_7Vector2IT_EES5_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='66' u='w' c='_ZN2sf4RectC1ERKNS_4RectIT_EE'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='81' c='_ZNK2sf4Rect8containsET_S1_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='81' c='_ZNK2sf4Rect8containsET_S1_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='82' c='_ZNK2sf4Rect8containsET_S1_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='82' c='_ZNK2sf4Rect8containsET_S1_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='114' c='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EERS4_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='114' c='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EERS4_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='115' c='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EERS4_'/>
+<use f='codebrowser/include/SFML/Graphics/Rect.inl' l='115' c='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EERS4_'/>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='154'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='157'>///&lt; Left coordinate of the rectangle</doc>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='604' u='w' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='610' u='w' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='661' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='206' u='w' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='213' u='r' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='213' u='w' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='234' u='r' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='141' u='r' c='_ZNK2sf12RenderTarget11getViewportERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='161' u='r' c='_ZNK2sf12RenderTarget16mapPixelToCoordsERKNS_7Vector2IiEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='185' u='r' c='_ZNK2sf12RenderTarget16mapCoordsToPixelERKNS_7Vector2IfEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='433' u='r' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='198' u='r' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='243' u='r' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='245' u='r' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='163' u='r' c='_ZN2sf6Sprite15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='53' u='r' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='55' u='r' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='58' u='r' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='60' u='r' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='445' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='447' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='469' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='471' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='503' u='w' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='254' u='r' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='274' u='r' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='274' u='w' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='276' u='r' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='276' u='r' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='288' u='r' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='118' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='119' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='120' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='121' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='118' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='119' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='120' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='121' u='r' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='130' u='r' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Audio/ALCheck.hpp' l='70' type='void sf::priv::alCheckError(const char * file, unsigned int line, const char * expression)'/>
+<def f='codebrowser/src/SFML/Audio/ALCheck.cpp' l='38' ll='95' type='void sf::priv::alCheckError(const char * file, unsigned int line, const char * expression)'/>
+<doc f='codebrowser/src/SFML/Audio/ALCheck.cpp' l='37'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Audio/ALCheck.hpp' l='62'>////////////////////////////////////////////////////////////
+/// Check the last OpenAL error
+///
+/// \param file Source file where the call is located
+/// \param line Line number of the source file where the call is located
+/// \param expression The evaluated expression as a string
+///
+////////////////////////////////////////////////////////////</doc>

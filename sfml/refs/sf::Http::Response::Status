@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Network/Http.hpp' l='201' ll='235'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='197'>////////////////////////////////////////////////////////////
+        /// \brief Enumerate all the valid status codes for a response
+        ///
+        ////////////////////////////////////////////////////////////</doc>

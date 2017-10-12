@@ -1,0 +1,2 @@
+<dec f='include/libudev.h' l='126' type='int udev_monitor_get_fd(struct udev_monitor * udev_monitor)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='254' u='c' c='_ZN12_GLOBAL__N_115hasMonitorEventEv'/>

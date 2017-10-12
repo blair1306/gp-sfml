@@ -1,0 +1,5 @@
+_ZNSt6vector4dataEv|std::vector::data
+_ZN2sf3Ftp11DataChannelC1ERS0_|sf::Ftp::DataChannel::DataChannel
+_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE|sf::Ftp::DataChannel::open
+_ZN2sf3Ftp11DataChannel7receiveERSo|sf::Ftp::DataChannel::receive
+_ZN2sf3Ftp11DataChannel4sendERSi|sf::Ftp::DataChannel::send

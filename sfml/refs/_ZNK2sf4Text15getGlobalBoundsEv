@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='360' type='FloatRect sf::Text::getGlobalBounds() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='321' ll='324' type='FloatRect sf::Text::getGlobalBounds() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='320'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='348'>////////////////////////////////////////////////////////////
+    /// \brief Get the global bounding rectangle of the entity
+    ///
+    /// The returned rectangle is in global coordinates, which means
+    /// that it takes into account the transformations (translation,
+    /// rotation, scale, ...) that are applied to the entity.
+    /// In other words, this function returns the bounds of the
+    /// text in the global 2D world&apos;s coordinate system.
+    ///
+    /// \return Global bounding rectangle of the entity
+    ///
+    ////////////////////////////////////////////////////////////</doc>

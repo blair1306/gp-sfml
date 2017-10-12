@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='224' type='std::vector&lt;char&gt;'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='224'>///&lt; Data of the packet</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='376' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='379' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='387' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='387' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='388' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='388' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='394' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='395' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='395' u='m' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='408' u='w' c='_ZN2sf9TcpSocket13PendingPacketC1Ev'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='114' type='bool sf::operator==(const sf::Color &amp; left, const sf::Color &amp; right)'/>
+<def f='codebrowser/src/SFML/Graphics/Color.cpp' l='89' ll='95' type='bool sf::operator==(const sf::Color &amp; left, const sf::Color &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='101' u='c' c='_ZN2sfneERKNS_5ColorES2_'/>
+<doc f='codebrowser/src/SFML/Graphics/Color.cpp' l='88'>////////////////////////////////////////////////////////////</doc>

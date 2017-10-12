@@ -1,0 +1,12 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3518' ll='3522' type='stbi_uc stbi__blinn_8x8(stbi_uc x, stbi_uc y)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3615' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3616' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3617' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3625' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3626' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3627' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3653' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3654' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3655' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3662' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3517'>// fast 0..255 * 0..255 =&gt; 0..255 rounded multiplication</doc>

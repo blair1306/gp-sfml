@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1491' type='void glRotatef(GLfloat , GLfloat , GLfloat , GLfloat )'/>
+<dec f='include/GL/gl.h' l='893' type='void glRotatef(GLfloat angle, GLfloat x, GLfloat y, GLfloat z)'/>

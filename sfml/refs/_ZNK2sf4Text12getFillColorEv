@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='295' type='const sf::Color &amp; sf::Text::getFillColor() const'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='240' u='c' c='_ZNK2sf4Text8getColorEv'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='245' ll='248' type='const sf::Color &amp; sf::Text::getFillColor() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='244'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='287'>////////////////////////////////////////////////////////////
+    /// \brief Get the fill color of the text
+    ///
+    /// \return Fill color of the text
+    ///
+    /// \see setFillColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='518' type='sf::Ftp::Response sf::Ftp::getResponse()'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='158' u='c' c='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='223' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='312' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='356' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='379' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='384' ll='522' type='Ftp::Response sf::Ftp::getResponse()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='383'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='509'>////////////////////////////////////////////////////////////
+    /// \brief Receive a response from the server
+    ///
+    /// This function must be called after each call to
+    /// sendCommand that expects a response.
+    ///
+    /// \return Server response to the request
+    ///
+    ////////////////////////////////////////////////////////////</doc>

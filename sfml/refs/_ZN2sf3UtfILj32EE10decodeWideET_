@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='693' type='static Uint32 sf::Utf&lt;32&gt;::decodeWide(In input)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='670' ll='679' type='static Uint32 sf::Utf&lt;32&gt;::decodeWide(In input)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='56' u='c' c='_ZN2sf6StringC1Ew'/>

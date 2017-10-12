@@ -1,0 +1,10 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1674' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2650' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2707' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2775' u='r' c='_ZL17stbi__jpeg_finishP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3002' u='w' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3593' u='r' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<offset>256</offset>
+<dec f='include/X11/Xutil.h' l='90' type='int'/>
+<offset>32</offset>
+<doc f='include/X11/Xutil.h' l='90'>/* denominator */</doc>

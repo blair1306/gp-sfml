@@ -1,0 +1,2 @@
+<dec f='include/libudev.h' l='55' type='struct udev_list_entry * udev_list_entry_get_next(struct udev_list_entry * list_entry)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='212' macro='1' u='c'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1645' type='stbi__uint16 [256]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1723' u='w' c='_ZL19stbi__build_huffmanP13stbi__huffmanPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1737' u='r' c='_ZL19stbi__build_huffmanP13stbi__huffmanPi'/>
+<offset>4096</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1644'>// weirdly, repacking this into AoS is a 10% speed loss, instead of a win</doc>

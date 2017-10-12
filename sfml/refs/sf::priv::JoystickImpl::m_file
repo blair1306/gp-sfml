@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='120' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='117'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='120'>///&lt; File descriptor of the joystick</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='444' u='w' c='_ZN2sf4priv12JoystickImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='556' u='w' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='557' u='r' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='560' u='r' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='589' u='r' c='_ZN2sf4priv12JoystickImpl5closeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='590' u='w' c='_ZN2sf4priv12JoystickImpl5closeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='599' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='604' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='611' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='644' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='652' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='691' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>

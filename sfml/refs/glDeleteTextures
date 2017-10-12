@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1584' type='void glDeleteTextures(GLsizei , const GLuint * )'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='117' u='c' c='_ZN2sf7TextureD1Ev'/>
+<dec f='include/GL/gl.h' l='1309' type='void glDeleteTextures(GLsizei n, const GLuint * textures)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='43' type='2'/>
+<use f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='50'/>
+<doc f='codebrowser/include/SFML/Graphics/PrimitiveType.hpp' l='43'>///&lt; List of connected lines, a point uses the previous point to form a line</doc>

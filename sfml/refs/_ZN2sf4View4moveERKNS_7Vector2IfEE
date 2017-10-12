@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='214' type='void sf::View::move(const Vector2f &amp; offset)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='206'>////////////////////////////////////////////////////////////
+    /// \brief Move the view relatively to its current position
+    ///
+    /// \param offset Move offset
+    ///
+    /// \see setCenter, rotate, zoom
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='177' ll='180' type='void sf::View::move(const Vector2f &amp; offset)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='176'>////////////////////////////////////////////////////////////</doc>

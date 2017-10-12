@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='160' type='void sf::SoundRecorder::setChannelCount(unsigned int channelCount)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='147'>////////////////////////////////////////////////////////////
+    /// \brief Set the channel count of the audio capture device
+    ///
+    /// This method allows you to specify the number of channels
+    /// used for recording. Currently only 16-bit mono and
+    /// 16-bit stereo are supported.
+    ///
+    /// \param channelCount Number of channels. Currently only
+    ///                     mono (1) and stereo (2) are supported.
+    ///
+    /// \see getChannelCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='221' ll='236' type='void sf::SoundRecorder::setChannelCount(unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='220'>////////////////////////////////////////////////////////////</doc>

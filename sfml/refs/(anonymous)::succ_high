@@ -1,0 +1,7 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1690' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1965' u='r' c='_ZL31stbi__jpeg_decode_block_prog_dcP10stbi__jpegPsP13stbi__huffmani'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1989' u='r' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2914' u='w' c='_ZL25stbi__process_scan_headerP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2917' u='r' c='_ZL25stbi__process_scan_headerP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2921' u='r' c='_ZL25stbi__process_scan_headerP10stbi__jpeg'/>
+<offset>147936</offset>

@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='28'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='84' u='c'/>

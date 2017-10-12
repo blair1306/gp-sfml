@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4491' ll='4533' type='int stbi__create_png_image(stbi__png * a, stbi_uc * image_data, stbi__uint32 image_data_len, int out_n, int depth, int color, int interlaced)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4805' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

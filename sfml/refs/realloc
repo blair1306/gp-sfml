@@ -1,0 +1,7 @@
+<dec f='include/stdlib.h' l='480' type='void * realloc(void * __ptr, size_t __size)'/>
+<doc f='include/stdlib.h' l='477'>/* __attribute_malloc__ is not used, because if realloc returns
+   the same pointer that was passed to it, aliasing needs to be allowed
+   between objects pointed by the old and new pointers.  */</doc>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='573' u='c' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='573' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='190' u='c' c='_ZL14stbiw__sbgrowfPPvii'/>

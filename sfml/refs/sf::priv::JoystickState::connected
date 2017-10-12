@@ -1,0 +1,11 @@
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='66' u='w' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<dec f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='71' type='bool'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='37' u='r' c='_ZN2sf8Joystick11isConnectedEj'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='71'>///&lt; Is the joystick currently connected?</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='71' u='r' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='77' u='r' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='114' u='r' c='_ZN2sf4priv15JoystickManagerD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='701' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='172' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='173' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

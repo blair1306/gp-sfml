@@ -1,0 +1,2 @@
+<dec f='include/vorbis/codec.h' l='193' type='float ** vorbis_analysis_buffer(vorbis_dsp_state * v, int vals)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='142' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>

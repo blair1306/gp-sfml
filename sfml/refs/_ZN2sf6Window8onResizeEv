@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='518' type='void sf::Window::onResize()'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='100' c='_ZN2sf12RenderWindow8onResizeEv'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='511'>////////////////////////////////////////////////////////////
+    /// \brief Function called after the window has been resized
+    ///
+    /// This function is called so that derived classes can
+    /// perform custom actions when the size of the window changes.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='246' u='c' c='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='402' ll='405' type='void sf::Window::onResize()'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='419' u='c' c='_ZN2sf6Window11filterEventERKNS_5EventE'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='401'>////////////////////////////////////////////////////////////</doc>

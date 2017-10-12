@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Audio/AlResource.hpp' l='54' type='void sf::AlResource::~AlResource()'/>
+<def f='codebrowser/src/SFML/Audio/AlResource.cpp' l='65' ll='76' type='void sf::AlResource::~AlResource()'/>
+<doc f='codebrowser/src/SFML/Audio/AlResource.cpp' l='64'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/AlResource.hpp' l='50'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

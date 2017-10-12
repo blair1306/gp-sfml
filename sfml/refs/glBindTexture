@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1578' type='void glBindTexture(GLenum , GLuint )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='85' u='c' c='_ZN2sf4priv24RenderTextureImplDefault13updateTextureEj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='207' u='c' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='289' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='359' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='368' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='424' u='c' c='_ZN2sf7Texture6updateEPKhjjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='565' u='c' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='593' u='c' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='660' u='c' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='692' u='c' c='_ZN2sf7Texture14generateMipmapEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='713' u='c' c='_ZN2sf7Texture16invalidateMipmapEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='728' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='764' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='45' u='c' c='_ZN2sf4priv12TextureSaverD1Ev'/>
+<dec f='include/GL/gl.h' l='1311' type='void glBindTexture(GLenum target, GLuint texture)'/>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='161' type='sf::SocketSelector::SocketSelectorImpl *'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='54' u='w' c='_ZN2sf14SocketSelectorC1Ev'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='62' u='w' c='_ZN2sf14SocketSelectorC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='62' u='r' c='_ZN2sf14SocketSelectorC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='71' u='r' c='_ZN2sf14SocketSelectorD1Ev'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='108' u='r' c='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='108' u='r' c='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='112' u='r' c='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='138' u='r' c='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='139' u='r' c='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='147' u='r' c='_ZN2sf14SocketSelector5clearEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='148' u='r' c='_ZN2sf14SocketSelector5clearEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='150' u='r' c='_ZN2sf14SocketSelector5clearEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='151' u='r' c='_ZN2sf14SocketSelector5clearEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='164' u='r' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='164' u='r' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='168' u='r' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='168' u='r' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='188' u='r' c='_ZNK2sf14SocketSelector7isReadyERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='200' u='a' c='_ZN2sf14SocketSelectoraSERKS0_'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='200' u='a' c='_ZN2sf14SocketSelectoraSERKS0_'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='158'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='161'>///&lt; Opaque pointer to the implementation (which requires OS-specific types)</doc>

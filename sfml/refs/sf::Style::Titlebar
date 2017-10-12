@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='41' type='1'/>
+<use f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='46' u='r'/>
+<doc f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='41'>///&lt; Title bar + fixed border</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='639' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='120' u='r' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='115' type='std::size_t sf::Packet::getDataSize() const'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='83' ll='86' type='std::size_t sf::Packet::getDataSize() const'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='585' u='c' c='_ZN2sf6Packet6onSendERm'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='82'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='104'>////////////////////////////////////////////////////////////
+    /// \brief Get the size of the data contained in the packet
+    ///
+    /// This function returns the number of bytes pointed to by
+    /// what getData returns.
+    ///
+    /// \return Data size, in bytes
+    ///
+    /// \see getData
+    ///
+    ////////////////////////////////////////////////////////////</doc>

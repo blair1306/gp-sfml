@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='74' type='bool sf::OutputSoundFile::openFromFile(const std::string &amp; filename, unsigned int sampleRate, unsigned int channelCount)'/>
+<def f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='51' ll='69' type='bool sf::OutputSoundFile::openFromFile(const std::string &amp; filename, unsigned int sampleRate, unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='50'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Open the sound file from the disk for writing
+    ///
+    /// The supported audio formats are: WAV, OGG/Vorbis, FLAC.
+    ///
+    /// \param filename     Path of the sound file to write
+    /// \param sampleRate   Sample rate of the sound
+    /// \param channelCount Number of channels in the sound
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='148' u='c' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

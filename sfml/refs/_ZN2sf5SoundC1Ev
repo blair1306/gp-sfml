@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='53' type='void sf::Sound::Sound()'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='36' ll='39' type='void sf::Sound::Sound()'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='35'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='194' type='const Vector2f &amp; sf::Transformable::getScale() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='186'>////////////////////////////////////////////////////////////
+    /// \brief get the current scale of the object
+    ///
+    /// \return Current scale factors
+    ///
+    /// \see setScale
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='132' ll='135' type='const Vector2f &amp; sf::Transformable::getScale() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='131'>////////////////////////////////////////////////////////////</doc>

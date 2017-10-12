@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='154' type='static sf::Joystick::Identification sf::Joystick::getIdentification(unsigned int joystick)'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='70' ll='73' type='static Joystick::Identification sf::Joystick::getIdentification(unsigned int joystick)'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='69'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='146'>////////////////////////////////////////////////////////////
+    /// \brief Get the joystick information
+    ///
+    /// \param joystick Index of the joystick
+    ///
+    /// \return Structure containing joystick information.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

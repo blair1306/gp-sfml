@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='371' type='sf::Ftp::Response sf::Ftp::changeDirectory(const std::string &amp; directory)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='232' ll='235' type='Ftp::Response sf::Ftp::changeDirectory(const std::string &amp; directory)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='231'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='359'>////////////////////////////////////////////////////////////
+    /// \brief Change the current working directory
+    ///
+    /// The new directory must be relative to the current one.
+    ///
+    /// \param directory New working directory
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see getWorkingDirectory, getDirectoryListing, parentDirectory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

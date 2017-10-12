@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='390' type='sf::Color'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='82' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='100' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='183' u='r' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='185' u='w' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='192' u='r' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='254' u='a' c='_ZNK2sf4Text15getOutlineColorEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='405' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='414' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='451' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='490' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='499' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>1888</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='390'>///&lt; Text outline color</doc>

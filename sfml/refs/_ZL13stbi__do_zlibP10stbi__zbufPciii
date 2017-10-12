@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4119' ll='4127' type='int stbi__do_zlib(stbi__zbuf * a, char * obuf, int olen, int exp, int parse_header)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4136' u='c' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4157' u='c' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4171' u='c' c='stbi_zlib_decode_buffer'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4184' u='c' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4198' u='c' c='stbi_zlib_decode_noheader_buffer'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/include/SFML/System/InputStream.hpp' l='49' type='void sf::InputStream::~InputStream()'/>
+<doc f='codebrowser/include/SFML/System/InputStream.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Virtual destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/System/FileInputStream.cpp' l='45' c='_ZN2sf15FileInputStreamD1Ev'/>

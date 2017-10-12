@@ -1,0 +1,2 @@
+<dec f='include/asm-generic/errno-base.h' l='35'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='105' u='c'/>

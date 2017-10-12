@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='357' type='sf::Ftp::ListingResponse sf::Ftp::getDirectoryListing(const std::string &amp; directory = &quot;&quot;)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='207' ll='228' type='Ftp::ListingResponse sf::Ftp::getDirectoryListing(const std::string &amp; directory = &quot;&quot;)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='206'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='342'>////////////////////////////////////////////////////////////
+    /// \brief Get the contents of the given directory
+    ///
+    /// This function retrieves the sub-directories and files
+    /// contained in the given directory. It is not recursive.
+    /// The \a directory parameter is relative to the current
+    /// working directory.
+    ///
+    /// \param directory Directory to list
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see getWorkingDirectory, changeDirectory, parentDirectory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

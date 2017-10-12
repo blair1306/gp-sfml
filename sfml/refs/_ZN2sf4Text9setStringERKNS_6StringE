@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='109' type='void sf::Text::setString(const sf::String &amp; string)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='112' ll='119' type='void sf::Text::setString(const sf::String &amp; string)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='111'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='90'>////////////////////////////////////////////////////////////
+    /// \brief Set the text&apos;s string
+    ///
+    /// The \a string argument is a sf::String, which can
+    /// automatically be constructed from standard string types.
+    /// So, the following calls are all valid:
+    /// \code
+    /// text.setString(&quot;hello&quot;);
+    /// text.setString(L&quot;hello&quot;);
+    /// text.setString(std::string(&quot;hello&quot;));
+    /// text.setString(std::wstring(L&quot;hello&quot;));
+    /// \endcode
+    /// A text&apos;s string is empty by default.
+    ///
+    /// \param string New string
+    ///
+    /// \see getString
+    ///
+    ////////////////////////////////////////////////////////////</doc>

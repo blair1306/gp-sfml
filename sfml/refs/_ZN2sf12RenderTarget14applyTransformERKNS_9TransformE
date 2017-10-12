@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='387' type='void sf::RenderTarget::applyTransform(const sf::Transform &amp; transform)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='238' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='242' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='400' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='495' ll='500' type='void sf::RenderTarget::applyTransform(const sf::Transform &amp; transform)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='494'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='381'>////////////////////////////////////////////////////////////
+    /// \brief Apply a new transform
+    ///
+    /// \param transform Transform to apply
+    ///
+    ////////////////////////////////////////////////////////////</doc>

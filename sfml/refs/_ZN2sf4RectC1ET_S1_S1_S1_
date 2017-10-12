@@ -1,0 +1,29 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='67' type='void sf::Rect::Rect&lt;T&gt;(T rectLeft, T rectTop, T rectWidth, T rectHeight)'/>
+<def f='codebrowser/include/SFML/Graphics/Rect.inl' l='39' ll='47' type='void sf::Rect::Rect&lt;T&gt;(T rectLeft, T rectTop, T rectWidth, T rectHeight)'/>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='55'>////////////////////////////////////////////////////////////
+    /// \brief Construct the rectangle from its coordinates
+    ///
+    /// Be careful, the last two parameters are the width
+    /// and height, not the right and bottom coordinates!
+    ///
+    /// \param rectLeft   Left coordinate of the rectangle
+    /// \param rectTop    Top coordinate of the rectangle
+    /// \param rectWidth  Width of the rectangle
+    /// \param rectHeight Height of the rectangle
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Rect.inl' l='38'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/include/SFML/Graphics/Image.hpp' l='199' u='c' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='724' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='735' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='141' u='c' c='_ZNK2sf12RenderTarget11getViewportERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='419' u='c' c='_ZN2sf12RenderTarget10initializeEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='70' u='c' c='_ZN2sf5Shape10setTextureEPKNS_7TextureEb'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='68' u='c' c='_ZN2sf6Sprite10setTextureERKNS_7TextureEb'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='125' u='c' c='_ZNK2sf6Sprite14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='137' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='133' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='39' u='c' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='43' u='c' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='52' u='c' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='65' u='c' c='_ZN2sf4ViewC1ERKNS_7Vector2IfEES4_'/>

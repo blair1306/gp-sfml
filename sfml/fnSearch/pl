@@ -1,0 +1,3 @@
+_ZNKSt4plusclERKT_S2_|std::plus::operator()
+_ZN2sf5Sound4playEv|sf::Sound::play
+_ZN2sf11SoundStream4playEv|sf::SoundStream::play

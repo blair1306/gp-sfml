@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='489' type='ConstIterator sf::String::begin() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='481'>////////////////////////////////////////////////////////////
+    /// \brief Return an iterator to the beginning of the string
+    ///
+    /// \return Read-only iterator to the beginning of the string characters
+    ///
+    /// \see end
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='565' u='c' c='_ZN2sf6PacketlsERKNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='329' ll='332' type='String::ConstIterator sf::String::begin() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='328'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='896' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='254' type='void XRenderSetPictureClipRectangles(Display * dpy, Picture picture, int xOrigin, int yOrigin, const XRectangle * rects, int n)'/>

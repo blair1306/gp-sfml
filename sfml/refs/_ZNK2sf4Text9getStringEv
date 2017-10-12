@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='237' type='const sf::String &amp; sf::Text::getString() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='210' ll='213' type='const sf::String &amp; sf::Text::getString() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='209'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='220'>////////////////////////////////////////////////////////////
+    /// \brief Get the text&apos;s string
+    ///
+    /// The returned string is a sf::String, which can automatically
+    /// be converted to standard string types. So, the following
+    /// lines of code are all valid:
+    /// \code
+    /// sf::String   s1 = text.getString();
+    /// std::string  s2 = text.getString();
+    /// std::wstring s3 = text.getString();
+    /// \endcode
+    ///
+    /// \return Text&apos;s string
+    ///
+    /// \see setString
+    ///
+    ////////////////////////////////////////////////////////////</doc>

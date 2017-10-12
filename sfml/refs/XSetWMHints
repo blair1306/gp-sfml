@@ -1,0 +1,5 @@
+<dec f='include/X11/Xutil.h' l='641' type='int XSetWMHints(Display * , Window , XWMHints * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='596' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='996' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1162' u='c' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1629' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

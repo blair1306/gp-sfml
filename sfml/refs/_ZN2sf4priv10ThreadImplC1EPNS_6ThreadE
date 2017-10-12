@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='55' type='void sf::priv::ThreadImpl::ThreadImpl(sf::Thread * owner)'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='52' u='c' c='_ZN2sf6Thread6launchEv'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor, launch the thread
+    ///
+    /// \param owner The Thread instance to run
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='39' ll='46' type='void sf::priv::ThreadImpl::ThreadImpl(sf::Thread * owner)'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='38'>////////////////////////////////////////////////////////////</doc>

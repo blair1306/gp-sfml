@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>BlendMode.hpp source code [codebrowser/include/SFML/Graphics/BlendMode.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::BlendMode "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Graphics/BlendMode.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='BlendMode.hpp.html'>BlendMode.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_BLENDMODE_HPP">SFML_BLENDMODE_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_BLENDMODE_HPP" data-ref="_M/SFML_BLENDMODE_HPP">SFML_BLENDMODE_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Graphics/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="35">35</th><td>{</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="38">38</th><td><i>/// \brief Blending modes for drawing</i></td></tr>
+<tr><th id="39">39</th><td><i>///</i></td></tr>
+<tr><th id="40">40</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="41">41</th><td><b>struct</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <dfn class="type def" id="sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</dfn></td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>    <i>////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="44">44</th><td><i>    /// \brief Enumeration of the blending factors</i></td></tr>
+<tr><th id="45">45</th><td><i>    ///</i></td></tr>
+<tr><th id="46">46</th><td><i>    /// The factors are mapped directly to their OpenGL equivalents,</i></td></tr>
+<tr><th id="47">47</th><td><i>    /// specified by glBlendFunc() or glBlendFuncSeparate().</i></td></tr>
+<tr><th id="48">48</th><td><i>    ////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td>    <b>enum</b> <dfn class="type def" id="sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</dfn></td></tr>
+<tr><th id="50">50</th><td>    {</td></tr>
+<tr><th id="51">51</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::Zero" title='sf::BlendMode::Factor::Zero' data-ref="sf::BlendMode::Factor::Zero">Zero</dfn>,             <i class="doc">///&lt; (0, 0, 0, 0)</i></td></tr>
+<tr><th id="52">52</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::One" title='sf::BlendMode::Factor::One' data-ref="sf::BlendMode::Factor::One">One</dfn>,              <i class="doc">///&lt; (1, 1, 1, 1)</i></td></tr>
+<tr><th id="53">53</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::SrcColor" title='sf::BlendMode::Factor::SrcColor' data-ref="sf::BlendMode::Factor::SrcColor">SrcColor</dfn>,         <i class="doc">///&lt; (src.r, src.g, src.b, src.a)</i></td></tr>
+<tr><th id="54">54</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::OneMinusSrcColor" title='sf::BlendMode::Factor::OneMinusSrcColor' data-ref="sf::BlendMode::Factor::OneMinusSrcColor">OneMinusSrcColor</dfn>, <i class="doc">///&lt; (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)</i></td></tr>
+<tr><th id="55">55</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::DstColor" title='sf::BlendMode::Factor::DstColor' data-ref="sf::BlendMode::Factor::DstColor">DstColor</dfn>,         <i class="doc">///&lt; (dst.r, dst.g, dst.b, dst.a)</i></td></tr>
+<tr><th id="56">56</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::OneMinusDstColor" title='sf::BlendMode::Factor::OneMinusDstColor' data-ref="sf::BlendMode::Factor::OneMinusDstColor">OneMinusDstColor</dfn>, <i class="doc">///&lt; (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)</i></td></tr>
+<tr><th id="57">57</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::SrcAlpha" title='sf::BlendMode::Factor::SrcAlpha' data-ref="sf::BlendMode::Factor::SrcAlpha">SrcAlpha</dfn>,         <i class="doc">///&lt; (src.a, src.a, src.a, src.a)</i></td></tr>
+<tr><th id="58">58</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::OneMinusSrcAlpha" title='sf::BlendMode::Factor::OneMinusSrcAlpha' data-ref="sf::BlendMode::Factor::OneMinusSrcAlpha">OneMinusSrcAlpha</dfn>, <i class="doc">///&lt; (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)</i></td></tr>
+<tr><th id="59">59</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::DstAlpha" title='sf::BlendMode::Factor::DstAlpha' data-ref="sf::BlendMode::Factor::DstAlpha">DstAlpha</dfn>,         <i class="doc">///&lt; (dst.a, dst.a, dst.a, dst.a)</i></td></tr>
+<tr><th id="60">60</th><td>        <dfn class="enum" id="sf::BlendMode::Factor::OneMinusDstAlpha" title='sf::BlendMode::Factor::OneMinusDstAlpha' data-ref="sf::BlendMode::Factor::OneMinusDstAlpha">OneMinusDstAlpha</dfn>  <i class="doc">///&lt; (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)</i></td></tr>
+<tr><th id="61">61</th><td>    };</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>    <i>////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="64">64</th><td><i>    /// \brief Enumeration of the blending equations</i></td></tr>
+<tr><th id="65">65</th><td><i>    ///</i></td></tr>
+<tr><th id="66">66</th><td><i>    /// The equations are mapped directly to their OpenGL equivalents,</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// specified by glBlendEquation() or glBlendEquationSeparate().</i></td></tr>
+<tr><th id="68">68</th><td><i>    ////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="69">69</th><td>    <b>enum</b> <dfn class="type def" id="sf::BlendMode::Equation" title='sf::BlendMode::Equation' data-ref="sf::BlendMode::Equation">Equation</dfn></td></tr>
+<tr><th id="70">70</th><td>    {</td></tr>
+<tr><th id="71">71</th><td>        <dfn class="enum" id="sf::BlendMode::Equation::Add" title='sf::BlendMode::Equation::Add' data-ref="sf::BlendMode::Equation::Add">Add</dfn>,            <i class="doc">///&lt; Pixel = Src * SrcFactor + Dst * DstFactor</i></td></tr>
+<tr><th id="72">72</th><td>        <dfn class="enum" id="sf::BlendMode::Equation::Subtract" title='sf::BlendMode::Equation::Subtract' data-ref="sf::BlendMode::Equation::Subtract">Subtract</dfn>,       <i class="doc">///&lt; Pixel = Src * SrcFactor - Dst * DstFactor</i></td></tr>
+<tr><th id="73">73</th><td>        <dfn class="enum" id="sf::BlendMode::Equation::ReverseSubtract" title='sf::BlendMode::Equation::ReverseSubtract' data-ref="sf::BlendMode::Equation::ReverseSubtract">ReverseSubtract</dfn> <i class="doc">///&lt; Pixel = Dst * DstFactor - Src * SrcFactor</i></td></tr>
+<tr><th id="74">74</th><td>    };</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="77">77</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="78">78</th><td><i>    ///</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// Constructs a blending mode that does alpha blending.</i></td></tr>
+<tr><th id="80">80</th><td><i>    ///</i></td></tr>
+<tr><th id="81">81</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="82">82</th><td>    <a class="decl" href="../../../src/SFML/Graphics/BlendMode.cpp.html#_ZN2sf9BlendModeC1Ev" title='sf::BlendMode::BlendMode' data-ref="_ZN2sf9BlendModeC1Ev" id="_ZN2sf9BlendModeC1Ev">BlendMode</a>();</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="85">85</th><td><i>    /// \brief Construct the blend mode given the factors and equation.</i></td></tr>
+<tr><th id="86">86</th><td><i>    ///</i></td></tr>
+<tr><th id="87">87</th><td><i>    /// This constructor uses the same factors and equation for both</i></td></tr>
+<tr><th id="88">88</th><td><i>    /// color and alpha components. It also defaults to the Add equation.</i></td></tr>
+<tr><th id="89">89</th><td><i>    ///</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \param sourceFactor      Specifies how to compute the source factor for the color and alpha channels.</i></td></tr>
+<tr><th id="91">91</th><td><i>    /// \param destinationFactor Specifies how to compute the destination factor for the color and alpha channels.</i></td></tr>
+<tr><th id="92">92</th><td><i>    /// \param blendEquation     Specifies how to combine the source and destination colors and alpha.</i></td></tr>
+<tr><th id="93">93</th><td><i>    ///</i></td></tr>
+<tr><th id="94">94</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="95">95</th><td>    <a class="decl" href="../../../src/SFML/Graphics/BlendMode.cpp.html#_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE" title='sf::BlendMode::BlendMode' data-ref="_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE" id="_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE">BlendMode</a>(<a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a> <dfn class="local col1 decl" id="1sourceFactor" title='sourceFactor' data-type='sf::BlendMode::Factor' data-ref="1sourceFactor">sourceFactor</dfn>, <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a> <dfn class="local col2 decl" id="2destinationFactor" title='destinationFactor' data-type='sf::BlendMode::Factor' data-ref="2destinationFactor">destinationFactor</dfn>, <a class="type" href="#sf::BlendMode::Equation" title='sf::BlendMode::Equation' data-ref="sf::BlendMode::Equation">Equation</a> <dfn class="local col3 decl" id="3blendEquation" title='blendEquation' data-type='sf::BlendMode::Equation' data-ref="3blendEquation">blendEquation</dfn> = <a class="enum" href="#sf::BlendMode::Equation::Add" title='sf::BlendMode::Equation::Add' data-ref="sf::BlendMode::Equation::Add">Add</a>);</td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="98">98</th><td><i>    /// \brief Construct the blend mode given the factors and equation.</i></td></tr>
+<tr><th id="99">99</th><td><i>    ///</i></td></tr>
+<tr><th id="100">100</th><td><i>    /// \param colorSourceFactor      Specifies how to compute the source factor for the color channels.</i></td></tr>
+<tr><th id="101">101</th><td><i>    /// \param colorDestinationFactor Specifies how to compute the destination factor for the color channels.</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// \param colorBlendEquation     Specifies how to combine the source and destination colors.</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// \param alphaSourceFactor      Specifies how to compute the source factor.</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \param alphaDestinationFactor Specifies how to compute the destination factor.</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// \param alphaBlendEquation     Specifies how to combine the source and destination alphas.</i></td></tr>
+<tr><th id="106">106</th><td><i>    ///</i></td></tr>
+<tr><th id="107">107</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="108">108</th><td>    <a class="decl" href="../../../src/SFML/Graphics/BlendMode.cpp.html#_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_" title='sf::BlendMode::BlendMode' data-ref="_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_" id="_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_">BlendMode</a>(<a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a> <dfn class="local col4 decl" id="4colorSourceFactor" title='colorSourceFactor' data-type='sf::BlendMode::Factor' data-ref="4colorSourceFactor">colorSourceFactor</dfn>, <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a> <dfn class="local col5 decl" id="5colorDestinationFactor" title='colorDestinationFactor' data-type='sf::BlendMode::Factor' data-ref="5colorDestinationFactor">colorDestinationFactor</dfn>,</td></tr>
+<tr><th id="109">109</th><td>              <a class="type" href="#sf::BlendMode::Equation" title='sf::BlendMode::Equation' data-ref="sf::BlendMode::Equation">Equation</a> <dfn class="local col6 decl" id="6colorBlendEquation" title='colorBlendEquation' data-type='sf::BlendMode::Equation' data-ref="6colorBlendEquation">colorBlendEquation</dfn>, <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a> <dfn class="local col7 decl" id="7alphaSourceFactor" title='alphaSourceFactor' data-type='sf::BlendMode::Factor' data-ref="7alphaSourceFactor">alphaSourceFactor</dfn>,</td></tr>
+<tr><th id="110">110</th><td>              <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a> <dfn class="local col8 decl" id="8alphaDestinationFactor" title='alphaDestinationFactor' data-type='sf::BlendMode::Factor' data-ref="8alphaDestinationFactor">alphaDestinationFactor</dfn>, <a class="type" href="#sf::BlendMode::Equation" title='sf::BlendMode::Equation' data-ref="sf::BlendMode::Equation">Equation</a> <dfn class="local col9 decl" id="9alphaBlendEquation" title='alphaBlendEquation' data-type='sf::BlendMode::Equation' data-ref="9alphaBlendEquation">alphaBlendEquation</dfn>);</td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="113">113</th><td><i>    // Member Data</i></td></tr>
+<tr><th id="114">114</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="115">115</th><td>    <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a>   <dfn class="decl" id="sf::BlendMode::colorSrcFactor" title='sf::BlendMode::colorSrcFactor' data-ref="sf::BlendMode::colorSrcFactor">colorSrcFactor</dfn>; <i class="doc">///&lt; Source blending factor for the color channels</i></td></tr>
+<tr><th id="116">116</th><td>    <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a>   <dfn class="decl" id="sf::BlendMode::colorDstFactor" title='sf::BlendMode::colorDstFactor' data-ref="sf::BlendMode::colorDstFactor">colorDstFactor</dfn>; <i class="doc">///&lt; Destination blending factor for the color channels</i></td></tr>
+<tr><th id="117">117</th><td>    <a class="type" href="#sf::BlendMode::Equation" title='sf::BlendMode::Equation' data-ref="sf::BlendMode::Equation">Equation</a> <dfn class="decl" id="sf::BlendMode::colorEquation" title='sf::BlendMode::colorEquation' data-ref="sf::BlendMode::colorEquation">colorEquation</dfn>;  <i class="doc">///&lt; Blending equation for the color channels</i></td></tr>
+<tr><th id="118">118</th><td>    <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a>   <dfn class="decl" id="sf::BlendMode::alphaSrcFactor" title='sf::BlendMode::alphaSrcFactor' data-ref="sf::BlendMode::alphaSrcFactor">alphaSrcFactor</dfn>; <i class="doc">///&lt; Source blending factor for the alpha channel</i></td></tr>
+<tr><th id="119">119</th><td>    <a class="type" href="#sf::BlendMode::Factor" title='sf::BlendMode::Factor' data-ref="sf::BlendMode::Factor">Factor</a>   <dfn class="decl" id="sf::BlendMode::alphaDstFactor" title='sf::BlendMode::alphaDstFactor' data-ref="sf::BlendMode::alphaDstFactor">alphaDstFactor</dfn>; <i class="doc">///&lt; Destination blending factor for the alpha channel</i></td></tr>
+<tr><th id="120">120</th><td>    <a class="type" href="#sf::BlendMode::Equation" title='sf::BlendMode::Equation' data-ref="sf::BlendMode::Equation">Equation</a> <dfn class="decl" id="sf::BlendMode::alphaEquation" title='sf::BlendMode::alphaEquation' data-ref="sf::BlendMode::alphaEquation">alphaEquation</dfn>;  <i class="doc">///&lt; Blending equation for the alpha channel</i></td></tr>
+<tr><th id="121">121</th><td>};</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="124">124</th><td><i>/// \relates BlendMode</i></td></tr>
+<tr><th id="125">125</th><td><i>/// \brief Overload of the == operator</i></td></tr>
+<tr><th id="126">126</th><td><i>///</i></td></tr>
+<tr><th id="127">127</th><td><i>/// \param left  Left operand</i></td></tr>
+<tr><th id="128">128</th><td><i>/// \param right Right operand</i></td></tr>
+<tr><th id="129">129</th><td><i>///</i></td></tr>
+<tr><th id="130">130</th><td><i>/// \return True if blending modes are equal, false if they are different</i></td></tr>
+<tr><th id="131">131</th><td><i>///</i></td></tr>
+<tr><th id="132">132</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="133">133</th><td><a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/BlendMode.cpp.html#_ZN2sfeqERKNS_9BlendModeES2_" title='sf::operator==' data-ref="_ZN2sfeqERKNS_9BlendModeES2_" id="_ZN2sfeqERKNS_9BlendModeES2_"><b>operator</b> ==</a>(<em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a>&amp; <dfn class="local col0 decl" id="10left" title='left' data-type='const sf::BlendMode &amp;' data-ref="10left">left</dfn>, <em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a>&amp; <dfn class="local col1 decl" id="11right" title='right' data-type='const sf::BlendMode &amp;' data-ref="11right">right</dfn>);</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="136">136</th><td><i>/// \relates BlendMode</i></td></tr>
+<tr><th id="137">137</th><td><i>/// \brief Overload of the != operator</i></td></tr>
+<tr><th id="138">138</th><td><i>///</i></td></tr>
+<tr><th id="139">139</th><td><i>/// \param left  Left operand</i></td></tr>
+<tr><th id="140">140</th><td><i>/// \param right Right operand</i></td></tr>
+<tr><th id="141">141</th><td><i>///</i></td></tr>
+<tr><th id="142">142</th><td><i>/// \return True if blending modes are different, false if they are equal</i></td></tr>
+<tr><th id="143">143</th><td><i>///</i></td></tr>
+<tr><th id="144">144</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="145">145</th><td><a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/BlendMode.cpp.html#_ZN2sfneERKNS_9BlendModeES2_" title='sf::operator!=' data-ref="_ZN2sfneERKNS_9BlendModeES2_" id="_ZN2sfneERKNS_9BlendModeES2_"><b>operator</b> !=</a>(<em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a>&amp; <dfn class="local col2 decl" id="12left" title='left' data-type='const sf::BlendMode &amp;' data-ref="12left">left</dfn>, <em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a>&amp; <dfn class="local col3 decl" id="13right" title='right' data-type='const sf::BlendMode &amp;' data-ref="13right">right</dfn>);</td></tr>
+<tr><th id="146">146</th><td></td></tr>
+<tr><th id="147">147</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="148">148</th><td><i>// Commonly used blending modes</i></td></tr>
+<tr><th id="149">149</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="150">150</th><td><a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <b>extern</b> <em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a> <dfn class="decl" id="sf::BlendAlpha" title='sf::BlendAlpha' data-ref="sf::BlendAlpha">BlendAlpha</dfn>;    <i class="doc">///&lt; Blend source and dest according to dest alpha</i></td></tr>
+<tr><th id="151">151</th><td><a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <b>extern</b> <em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a> <dfn class="decl" id="sf::BlendAdd" title='sf::BlendAdd' data-ref="sf::BlendAdd">BlendAdd</dfn>;      <i class="doc">///&lt; Add source to dest</i></td></tr>
+<tr><th id="152">152</th><td><a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <b>extern</b> <em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a> <dfn class="decl" id="sf::BlendMultiply" title='sf::BlendMultiply' data-ref="sf::BlendMultiply">BlendMultiply</dfn>; <i class="doc">///&lt; Multiply source and dest</i></td></tr>
+<tr><th id="153">153</th><td><a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <b>extern</b> <em>const</em> <a class="type" href="#sf::BlendMode" title='sf::BlendMode' data-ref="sf::BlendMode">BlendMode</a> <dfn class="decl" id="sf::BlendNone" title='sf::BlendNone' data-ref="sf::BlendNone">BlendNone</dfn>;     <i class="doc">///&lt; Overwrite dest with source</i></td></tr>
+<tr><th id="154">154</th><td></td></tr>
+<tr><th id="155">155</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td></td></tr>
+<tr><th id="158">158</th><td><u>#<span data-ppcond="25">endif</span> // SFML_BLENDMODE_HPP</u></td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="162">162</th><td><i>/// \class sf::BlendMode</i></td></tr>
+<tr><th id="163">163</th><td><i>/// \ingroup graphics</i></td></tr>
+<tr><th id="164">164</th><td><i>///</i></td></tr>
+<tr><th id="165">165</th><td><i>/// sf::BlendMode is a class that represents a blend mode. A blend</i></td></tr>
+<tr><th id="166">166</th><td><i>/// mode determines how the colors of an object you draw are</i></td></tr>
+<tr><th id="167">167</th><td><i>/// mixed with the colors that are already in the buffer.</i></td></tr>
+<tr><th id="168">168</th><td><i>///</i></td></tr>
+<tr><th id="169">169</th><td><i>/// The class is composed of 6 components, each of which has its</i></td></tr>
+<tr><th id="170">170</th><td><i>/// own public member variable:</i></td></tr>
+<tr><th id="171">171</th><td><i>/// \li %Color Source Factor (@ref colorSrcFactor)</i></td></tr>
+<tr><th id="172">172</th><td><i>/// \li %Color Destination Factor (@ref colorDstFactor)</i></td></tr>
+<tr><th id="173">173</th><td><i>/// \li %Color Blend Equation (@ref colorEquation)</i></td></tr>
+<tr><th id="174">174</th><td><i>/// \li Alpha Source Factor (@ref alphaSrcFactor)</i></td></tr>
+<tr><th id="175">175</th><td><i>/// \li Alpha Destination Factor (@ref alphaDstFactor)</i></td></tr>
+<tr><th id="176">176</th><td><i>/// \li Alpha Blend Equation (@ref alphaEquation)</i></td></tr>
+<tr><th id="177">177</th><td><i>///</i></td></tr>
+<tr><th id="178">178</th><td><i>/// The source factor specifies how the pixel you are drawing contributes</i></td></tr>
+<tr><th id="179">179</th><td><i>/// to the final color. The destination factor specifies how the pixel</i></td></tr>
+<tr><th id="180">180</th><td><i>/// already drawn in the buffer contributes to the final color.</i></td></tr>
+<tr><th id="181">181</th><td><i>///</i></td></tr>
+<tr><th id="182">182</th><td><i>/// The color channels RGB (red, green, blue; simply referred to as</i></td></tr>
+<tr><th id="183">183</th><td><i>/// color) and A (alpha; the transparency) can be treated separately. This</i></td></tr>
+<tr><th id="184">184</th><td><i>/// separation can be useful for specific blend modes, but most often you</i></td></tr>
+<tr><th id="185">185</th><td><i>/// won't need it and will simply treat the color as a single unit.</i></td></tr>
+<tr><th id="186">186</th><td><i>///</i></td></tr>
+<tr><th id="187">187</th><td><i>/// The blend factors and equations correspond to their OpenGL equivalents.</i></td></tr>
+<tr><th id="188">188</th><td><i>/// In general, the color of the resulting pixel is calculated according</i></td></tr>
+<tr><th id="189">189</th><td><i>/// to the following formula (\a src is the color of the source pixel, \a dst</i></td></tr>
+<tr><th id="190">190</th><td><i>/// the color of the destination pixel, the other variables correspond to the</i></td></tr>
+<tr><th id="191">191</th><td><i>/// public members, with the equations being + or - operators):</i></td></tr>
+<tr><th id="192">192</th><td><i>/// \code</i></td></tr>
+<tr><th id="193">193</th><td><i>/// dst.rgb = colorSrcFactor * src.rgb (colorEquation) colorDstFactor * dst.rgb</i></td></tr>
+<tr><th id="194">194</th><td><i>/// dst.a   = alphaSrcFactor * src.a   (alphaEquation) alphaDstFactor * dst.a</i></td></tr>
+<tr><th id="195">195</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="196">196</th><td><i>/// All factors and colors are represented as floating point numbers between</i></td></tr>
+<tr><th id="197">197</th><td><i>/// 0 and 1. Where necessary, the result is clamped to fit in that range.</i></td></tr>
+<tr><th id="198">198</th><td><i>///</i></td></tr>
+<tr><th id="199">199</th><td><i>/// The most common blending modes are defined as constants</i></td></tr>
+<tr><th id="200">200</th><td><i>/// in the sf namespace:</i></td></tr>
+<tr><th id="201">201</th><td><i>///</i></td></tr>
+<tr><th id="202">202</th><td><i>/// \code</i></td></tr>
+<tr><th id="203">203</th><td><i>/// sf::BlendMode alphaBlending          = sf::BlendAlpha;</i></td></tr>
+<tr><th id="204">204</th><td><i>/// sf::BlendMode additiveBlending       = sf::BlendAdd;</i></td></tr>
+<tr><th id="205">205</th><td><i>/// sf::BlendMode multiplicativeBlending = sf::BlendMultiply;</i></td></tr>
+<tr><th id="206">206</th><td><i>/// sf::BlendMode noBlending             = sf::BlendNone;</i></td></tr>
+<tr><th id="207">207</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="208">208</th><td><i>///</i></td></tr>
+<tr><th id="209">209</th><td><i>/// In SFML, a blend mode can be specified every time you draw a sf::Drawable</i></td></tr>
+<tr><th id="210">210</th><td><i>/// object to a render target. It is part of the sf::RenderStates compound</i></td></tr>
+<tr><th id="211">211</th><td><i>/// that is passed to the member function sf::RenderTarget::draw().</i></td></tr>
+<tr><th id="212">212</th><td><i>///</i></td></tr>
+<tr><th id="213">213</th><td><i>/// \see sf::RenderStates, sf::RenderTarget</i></td></tr>
+<tr><th id="214">214</th><td><i>///</i></td></tr>
+<tr><th id="215">215</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="216">216</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/BlendMode.cpp.html'>codebrowser/src/SFML/Graphics/BlendMode.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

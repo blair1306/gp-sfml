@@ -1,0 +1,15 @@
+<def f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='37' ll='83'/>
+<size>28</size>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='32'>////////////////////////////////////////////////////////////
+/// \brief Structure defining the settings of the OpenGL
+///        context attached to a window
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf15ContextSettingsC1Ejjjjjjb'/>
+<mbr r='sf::ContextSettings::depthBits' o='0' t='unsigned int'/>
+<mbr r='sf::ContextSettings::stencilBits' o='32' t='unsigned int'/>
+<mbr r='sf::ContextSettings::antialiasingLevel' o='64' t='unsigned int'/>
+<mbr r='sf::ContextSettings::majorVersion' o='96' t='unsigned int'/>
+<mbr r='sf::ContextSettings::minorVersion' o='128' t='unsigned int'/>
+<mbr r='sf::ContextSettings::attributeFlags' o='160' t='Uint32'/>
+<mbr r='sf::ContextSettings::sRgbCapable' o='192' t='bool'/>

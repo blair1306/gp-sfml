@@ -1,0 +1,3 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='820' type='int stbi__gif_test(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='973' u='c' c='_ZL15stbi__load_mainP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6065' ll='6070' type='int stbi__gif_test(stbi__context * s)'/>

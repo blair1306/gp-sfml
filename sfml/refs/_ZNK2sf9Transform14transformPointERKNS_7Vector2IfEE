@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='119' type='Vector2f sf::Transform::transformPoint(const Vector2f &amp; point) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Transform a 2D point
+    ///
+    /// \param point Point to transform
+    ///
+    /// \return Transformed point
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='165' u='c' c='_ZNK2sf12RenderTarget16mapPixelToCoordsERKNS_7Vector2IiEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='180' u='c' c='_ZNK2sf12RenderTarget16mapCoordsToPixelERKNS_7Vector2IfEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='305' u='c' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='106' ll='109' type='Vector2f sf::Transform::transformPoint(const Vector2f &amp; point) const'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='269' u='c' c='_ZN2sfmlERKNS_9TransformERKNS_7Vector2IfEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='105'>////////////////////////////////////////////////////////////</doc>

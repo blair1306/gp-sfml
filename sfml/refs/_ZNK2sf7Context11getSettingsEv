@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='90' type='const sf::ContextSettings &amp; sf::Context::getSettings() const'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='80'>////////////////////////////////////////////////////////////
+    /// \brief Get the settings of the context
+    ///
+    /// Note that these settings may be different than the ones
+    /// passed to the constructor; they are indeed adjusted if the
+    /// original settings are not directly supported by the system.
+    ///
+    /// \return Structure containing the settings
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='70' ll='73' type='const sf::ContextSettings &amp; sf::Context::getSettings() const'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='69'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1107' ll='1113' type='void stbi__float_postprocess(float * result, int * x, int * y, int * comp, int req_comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1217' u='c' c='_ZL16stbi__loadf_mainP13stbi__contextPiS1_S1_i'/>

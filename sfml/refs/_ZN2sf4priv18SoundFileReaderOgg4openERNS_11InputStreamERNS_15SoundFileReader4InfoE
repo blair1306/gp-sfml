@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='80' type='bool sf::priv::SoundFileReaderOgg::open(sf::InputStream &amp; stream, sf::SoundFileReader::Info &amp; info)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file for reading
+    ///
+    /// \param stream Source stream to read from
+    /// \param info   Structure to fill with the properties of the loaded sound
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='77' c='_ZN2sf15SoundFileReader4openERNS_11InputStreamERNS0_4InfoE'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='106' ll='126' type='bool sf::priv::SoundFileReaderOgg::open(sf::InputStream &amp; stream, sf::SoundFileReader::Info &amp; info)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='105'>////////////////////////////////////////////////////////////</doc>

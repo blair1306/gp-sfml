@@ -1,0 +1,3 @@
+<dec f='include/FLAC/format.h' l='578' type='FLAC__uint64'/>
+<offset>64</offset>
+<doc f='include/FLAC/format.h' l='576'>/**&lt;  The sample number of the target frame. */</doc>

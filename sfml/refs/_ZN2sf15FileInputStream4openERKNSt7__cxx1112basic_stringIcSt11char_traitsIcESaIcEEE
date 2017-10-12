@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/FileInputStream.hpp' l='78' type='bool sf::FileInputStream::open(const std::string &amp; filename)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='77' u='c' c='_ZN2sf14InputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='70'>////////////////////////////////////////////////////////////
+    /// \brief Open the stream from a file path
+    ///
+    /// \param filename Name of the file to open
+    ///
+    /// \return True on success, false on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='73' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/SFML/System/FileInputStream.cpp' l='58' ll='73' type='bool sf::FileInputStream::open(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/System/FileInputStream.cpp' l='57'>////////////////////////////////////////////////////////////</doc>

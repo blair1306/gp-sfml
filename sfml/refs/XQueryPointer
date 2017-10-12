@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='2983' type='int XQueryPointer(Display * , Window , Window * , Window * , int * , int * , int * , int * , unsigned int * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='201' u='c' c='_ZN2sf4priv9InputImpl20isMouseButtonPressedENS_5Mouse6ButtonE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='233' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='258' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionERKNS_6WindowE'/>

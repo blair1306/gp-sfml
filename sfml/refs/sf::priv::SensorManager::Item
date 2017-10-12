@@ -1,0 +1,10 @@
+<def f='codebrowser/src/SFML/Window/SensorManager.hpp' l='119' ll='125'/>
+<size>16</size>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='115'>////////////////////////////////////////////////////////////
+    /// \brief Sensor information and state
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::priv::SensorManager::Item::available' o='0' t='bool'/>
+<mbr r='sf::priv::SensorManager::Item::enabled' o='8' t='bool'/>
+<mbr r='sf::priv::SensorManager::Item::sensor' o='16' t='sf::priv::SensorImpl'/>
+<mbr r='sf::priv::SensorManager::Item::value' o='32' t='Vector3f'/>

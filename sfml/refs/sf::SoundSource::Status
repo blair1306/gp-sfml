@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='50' ll='55'/>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='46'>////////////////////////////////////////////////////////////
+    /// \brief Enumeration of the sound source states
+    ///
+    ////////////////////////////////////////////////////////////</doc>

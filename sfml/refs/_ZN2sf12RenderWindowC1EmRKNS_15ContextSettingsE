@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='94' type='void sf::RenderWindow::RenderWindow(WindowHandle handle, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<def f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='50' ll='54' type='void sf::RenderWindow::RenderWindow(WindowHandle handle, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='49'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='78'>////////////////////////////////////////////////////////////
+    /// \brief Construct the window from an existing control
+    ///
+    /// Use this constructor if you want to create an SFML
+    /// rendering area into an already existing control.
+    ///
+    /// The second parameter is an optional structure specifying
+    /// advanced OpenGL context settings such as antialiasing,
+    /// depth-buffer bits, etc. You shouldn&apos;t care about these
+    /// parameters for a regular usage of the graphics module.
+    ///
+    /// \param handle   Platform-specific handle of the control (\a HWND on
+    ///                 Windows, \a %Window on Linux/FreeBSD, \a NSWindow on OS X)
+    /// \param settings Additional settings for the underlying OpenGL context
+    ///
+    ////////////////////////////////////////////////////////////</doc>

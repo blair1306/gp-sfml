@@ -1,0 +1,2 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='726' u='c' c='_ZL16stbi__stdio_readPvPci'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='83' u='c' c='_ZN2sf15FileInputStream4readEPvx'/>

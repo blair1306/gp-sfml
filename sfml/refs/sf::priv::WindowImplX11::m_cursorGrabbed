@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='284' type='bool'/>
+<offset>6960</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='284'>///&lt; Is the mouse cursor trapped?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='495' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='543' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1078' u='r' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1090' u='w' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1098' u='r' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1598' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1607' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1615' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1644' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='279' type='::Cursor'/>
+<offset>6784</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='279'>///&lt; Last cursor used -- this data is not owned by the window and is required to be always valid</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='490' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='538' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1061' u='r' c='_ZN2sf4priv13WindowImplX1121setMouseCursorVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1069' u='w' c='_ZN2sf4priv13WindowImplX1114setMouseCursorERKNS0_10CursorImplE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1070' u='r' c='_ZN2sf4priv13WindowImplX1114setMouseCursorERKNS0_10CursorImplE'/>

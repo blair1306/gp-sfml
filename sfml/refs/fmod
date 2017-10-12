@@ -1,0 +1,3 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='187' type='double fmod(double __x, double __y)'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='74' u='c' c='_ZN2sf13Transformable11setRotationEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='111' u='c' c='_ZN2sf4View11setRotationEf'/>

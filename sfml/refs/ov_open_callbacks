@@ -1,0 +1,2 @@
+<dec f='include/vorbis/vorbisfile.h' l='152' type='int ov_open_callbacks(void * datasource, OggVorbis_File * vf, const char * initial, long ibytes, ov_callbacks callbacks)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='109' u='c' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>

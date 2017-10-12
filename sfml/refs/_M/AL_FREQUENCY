@@ -1,0 +1,3 @@
+<dec f='include/AL/al.h' l='345'/>
+<doc f='include/AL/al.h' l='344'>/** Buffer frequency (query only). */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='180' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='2217' type='FT_Error FT_Attach_File(FT_Face face, const char * filepathname)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='2215'>/*                                                                       */</doc>

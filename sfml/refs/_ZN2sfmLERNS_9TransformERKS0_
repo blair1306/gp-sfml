@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='390' type='sf::Transform &amp; sf::operator*=(sf::Transform &amp; left, const sf::Transform &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='215' u='c' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='141' u='c' c='_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='334' u='c' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='260' ll='263' type='sf::Transform &amp; sf::operator*=(sf::Transform &amp; left, const sf::Transform &amp; right)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='259'>////////////////////////////////////////////////////////////</doc>

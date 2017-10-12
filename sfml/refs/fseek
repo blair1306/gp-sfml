@@ -1,0 +1,6 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='731' u='c' c='_ZL16stbi__stdio_skipPvi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1149' u='c' c='stbi_load_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1162' u='c' c='stbi_load_from_file_16'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6949' u='c' c='stbi_info_from_file'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='98' u='c' c='_ZN2sf15FileInputStream4seekEx'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='134' u='c' c='_ZN2sf15FileInputStream7getSizeEv'/>

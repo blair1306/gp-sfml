@@ -1,0 +1,3 @@
+<dec f='include/freetype2/freetype/ftimage.h' l='266' type='unsigned char *'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='630' u='r' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<offset>128</offset>

@@ -1,0 +1,10 @@
+<def f='codebrowser/src/SFML/Window/VideoModeImpl.hpp' l='42' ll='61'/>
+<size>1</size>
+<doc f='codebrowser/src/SFML/Window/VideoModeImpl.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief OS-specific implementation of video modes functions
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<fun r='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<fun r='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<fun r='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>

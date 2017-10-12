@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2761' ll='2766' type='void stbi__jpeg_dequantize(short * data, stbi__uint16 * dequant)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2779' u='c' c='_ZL17stbi__jpeg_finishP10stbi__jpeg'/>

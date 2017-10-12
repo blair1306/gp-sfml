@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Vector2.hpp' l='89' type='Vector2&lt;T&gt; sf::operator-(const Vector2&lt;T&gt; &amp; right)'/>
+<def f='codebrowser/include/SFML/System/Vector2.inl' l='58' ll='61' type='Vector2&lt;T&gt; sf::operator-(const Vector2&lt;T&gt; &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='273' u='c' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='275' u='c' c='_ZN2sf5Shape13updateOutlineEv'/>

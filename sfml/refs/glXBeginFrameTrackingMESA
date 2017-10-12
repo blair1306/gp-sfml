@@ -1,0 +1,1 @@
+<dec f='include/GL/glx.h' l='378' type='int glXBeginFrameTrackingMESA(Display * dpy, GLXDrawable drawable)'/>

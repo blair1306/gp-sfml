@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='622' type='bool'/>
+<offset>176</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='622'>///&lt; Is the texture in repeat mode?</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='68' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='84' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='84' u='r' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='171' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='209' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='210' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='633' u='r' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='635' u='w' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='646' u='r' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='661' u='r' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='662' u='r' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='671' u='r' c='_ZNK2sf7Texture10isRepeatedEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='816' u='a' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='816' u='a' c='_ZN2sf7Texture4swapERS0_'/>

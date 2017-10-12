@@ -1,0 +1,2 @@
+<dec f='include/linux/joystick.h' l='60'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='611' u='c'/>

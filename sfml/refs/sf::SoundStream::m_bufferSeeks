@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='319' type='Int64 [3]'/>
+<offset>704</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='319'>///&lt; If buffer is an &quot;end buffer&quot;, holds next seek position, else NoLoop. For play offset calculation.</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='54' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='287' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='347' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='350' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='351' u='w' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='419' u='w' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='426' u='w' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='433' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='436' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='437' u='w' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

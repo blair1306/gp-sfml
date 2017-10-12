@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='203' type='const sf::Texture &amp; sf::RenderTexture::getTexture() const'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='154' ll='157' type='const sf::Texture &amp; sf::RenderTexture::getTexture() const'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='153'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='189'>////////////////////////////////////////////////////////////
+    /// \brief Get a read-only reference to the target texture
+    ///
+    /// After drawing to the render-texture and calling Display,
+    /// you can retrieve the updated texture using this function,
+    /// and draw it using a sprite (for example).
+    /// The internal sf::Texture of a render-texture is always the
+    /// same instance, so that it is possible to call this function
+    /// once and keep a reference to the texture even after it is
+    /// modified.
+    ///
+    /// \return Const reference to the texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>

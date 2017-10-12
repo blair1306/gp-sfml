@@ -1,0 +1,10 @@
+atof|atof
+atoi|atoi
+atol|atol
+atoll|atoll
+_ZNSt6vector2atEm|std::vector::at
+_ZNK2sf11SoundBuffer11attachSoundEPNS_5SoundE|sf::SoundBuffer::attachSound
+_ZSt4atanf|std::atan
+_ZSt5atan2ff|std::atan2
+_ZNSt3map2atERKT_|std::map::at
+_ZNSt5deque2atEm|std::deque::at

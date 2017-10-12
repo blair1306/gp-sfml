@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/System/Vector2.hpp' l='233' type='bool sf::operator==(const Vector2&lt;T&gt; &amp; left, const Vector2&lt;T&gt; &amp; right)'/>
+<def f='codebrowser/include/SFML/System/Vector2.inl' l='150' ll='153' type='bool sf::operator==(const Vector2&lt;T&gt; &amp; left, const Vector2&lt;T&gt; &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='356' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>

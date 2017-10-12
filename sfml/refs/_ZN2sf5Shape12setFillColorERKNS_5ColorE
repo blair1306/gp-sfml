@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='105' type='void sf::Shape::setFillColor(const sf::Color &amp; color)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='90'>////////////////////////////////////////////////////////////
+    /// \brief Set the fill color of the shape
+    ///
+    /// This color is modulated (multiplied) with the shape&apos;s
+    /// texture if any. It can be used to colorize the shape,
+    /// or change its global opacity.
+    /// You can use sf::Color::Transparent to make the inside of
+    /// the shape transparent, and have the outline alone.
+    /// By default, the shape&apos;s fill color is opaque white.
+    ///
+    /// \param color New color of the shape
+    ///
+    /// \see getFillColor, setOutlineColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='101' ll='105' type='void sf::Shape::setFillColor(const sf::Color &amp; color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='100'>////////////////////////////////////////////////////////////</doc>

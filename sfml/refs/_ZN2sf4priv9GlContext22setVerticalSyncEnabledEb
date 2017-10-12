@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='197' type='void sf::priv::GlContext::setVerticalSyncEnabled(bool enabled)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='186'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable vertical synchronization
+    ///
+    /// Activating vertical synchronization will limit the number
+    /// of frames displayed to the refresh rate of the monitor.
+    /// This can avoid some visual artifacts, and limit the framerate
+    /// to a good value (but not constant across different computers).
+    ///
+    /// \param enabled True to enable v-sync, false to deactivate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='273' c='_ZN2sf4priv10GlxContext22setVerticalSyncEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='279' u='c' c='_ZN2sf6Window22setVerticalSyncEnabledEb'/>

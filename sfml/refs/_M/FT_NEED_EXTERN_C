@@ -1,0 +1,6 @@
+<dec f='include/freetype2/freetype/ftmoderr.h' l='121'/>
+<use f='include/freetype2/freetype/ftmoderr.h' l='181' u='a'/>
+<use f='include/freetype2/freetype/ftmoderr.h' l='188' u='w'/>
+<dec f='include/freetype2/freetype/fterrors.h' l='156'/>
+<use f='include/freetype2/freetype/fterrors.h' l='194' u='a'/>
+<use f='include/freetype2/freetype/fterrors.h' l='205' u='w'/>

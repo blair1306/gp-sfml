@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/System/Thread.inl' l='31' type='void sf::priv::ThreadFunc::run()'/>
+<ovr f='codebrowser/include/SFML/System/Thread.inl' l='39' c='_ZN2sf4priv13ThreadFunctor3runEv'/>
+<ovr f='codebrowser/include/SFML/System/Thread.inl' l='48' c='_ZN2sf4priv20ThreadFunctorWithArg3runEv'/>
+<ovr f='codebrowser/include/SFML/System/Thread.inl' l='58' c='_ZN2sf4priv16ThreadMemberFunc3runEv'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='83' u='c' c='_ZN2sf6Thread3runEv'/>

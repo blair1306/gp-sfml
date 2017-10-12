@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='98' type='void sf::priv::JoystickManager::JoystickManager()'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='38' u='c' c='_ZN2sf4priv15JoystickManager11getInstanceEv'/>
+<def f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='103' ll='106' type='void sf::priv::JoystickManager::JoystickManager()'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='102'>////////////////////////////////////////////////////////////</doc>

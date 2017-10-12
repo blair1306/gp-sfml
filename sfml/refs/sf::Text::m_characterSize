@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='387' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='79' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='97' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='136' u='r' c='_ZN2sf4Text16setCharacterSizeEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='138' u='w' c='_ZN2sf4Text16setCharacterSizeEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='226' u='r' c='_ZNK2sf4Text16getCharacterSizeEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='278' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='279' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='289' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='301' u='r' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='335' u='r' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='370' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='371' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='376' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='380' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='381' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='383' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='386' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='387' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='396' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='443' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='461' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>1792</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='387'>///&lt; Base size of characters, in pixels</doc>

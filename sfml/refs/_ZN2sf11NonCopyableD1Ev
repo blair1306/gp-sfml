@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/System/NonCopyable.hpp' l='63' type='void sf::NonCopyable::~NonCopyable()'/>
+<doc f='codebrowser/include/SFML/System/NonCopyable.hpp' l='55'>////////////////////////////////////////////////////////////
+    /// \brief Default destructor
+    ///
+    /// By declaring a protected destructor it&apos;s impossible to
+    /// call delete on a pointer of sf::NonCopyable, thus
+    /// preventing possible resource leaks.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

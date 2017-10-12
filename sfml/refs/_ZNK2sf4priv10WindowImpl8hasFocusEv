@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='228' type='bool sf::priv::WindowImpl::hasFocus() const'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='222'>////////////////////////////////////////////////////////////
+    /// \brief Check whether the window has the input focus
+    ///
+    /// \return True if window has focus, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1169' c='_ZNK2sf4priv13WindowImplX118hasFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='366' u='c' c='_ZNK2sf6Window8hasFocusEv'/>

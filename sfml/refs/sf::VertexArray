@@ -1,0 +1,21 @@
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='44' c='sf::Drawable'/>
+<def f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='45' ll='192'/>
+<size>40</size>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Define a set of one or more 2D primitives
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11VertexArrayC1Ev'/>
+<fun r='_ZN2sf11VertexArrayC1ENS_13PrimitiveTypeEm'/>
+<fun r='_ZNK2sf11VertexArray14getVertexCountEv'/>
+<fun r='_ZN2sf11VertexArrayixEm'/>
+<fun r='_ZNK2sf11VertexArrayixEm'/>
+<fun r='_ZN2sf11VertexArray5clearEv'/>
+<fun r='_ZN2sf11VertexArray6resizeEm'/>
+<fun r='_ZN2sf11VertexArray6appendERKNS_6VertexE'/>
+<fun r='_ZN2sf11VertexArray16setPrimitiveTypeENS_13PrimitiveTypeE'/>
+<fun r='_ZNK2sf11VertexArray16getPrimitiveTypeEv'/>
+<fun r='_ZNK2sf11VertexArray9getBoundsEv'/>
+<fun r='_ZNK2sf11VertexArray4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<mbr r='sf::VertexArray::m_vertices' o='64' t='std::vector&lt;Vertex&gt;'/>
+<mbr r='sf::VertexArray::m_primitiveType' o='256' t='sf::PrimitiveType'/>

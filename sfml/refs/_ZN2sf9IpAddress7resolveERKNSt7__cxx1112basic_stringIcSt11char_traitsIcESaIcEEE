@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='199' type='void sf::IpAddress::resolve(const std::string &amp; address)'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='193'>////////////////////////////////////////////////////////////
+    /// \brief Resolve the given address string
+    ///
+    /// \param address Address string
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='57' u='c' c='_ZN2sf9IpAddressC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='66' u='c' c='_ZN2sf9IpAddressC1EPKc'/>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='164' ll='209' type='void sf::IpAddress::resolve(const std::string &amp; address)'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='163'>////////////////////////////////////////////////////////////</doc>

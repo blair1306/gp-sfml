@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Network/Ftp.cpp' l='53' type='void sf::Ftp::DataChannel::send(std::istream &amp; stream)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='353' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='617' ll='651' type='void sf::Ftp::DataChannel::send(std::istream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='52'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='616'>////////////////////////////////////////////////////////////</doc>

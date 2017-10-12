@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='343' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='147' u='w' c='_ZN2sf4Http8ResponseC1Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='180' u='r' c='_ZNK2sf4Http8Response19getMajorHttpVersionEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='211' u='w' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>416</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='343'>///&lt; Major HTTP version</doc>

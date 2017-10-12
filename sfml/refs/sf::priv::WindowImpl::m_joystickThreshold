@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='276' type='float'/>
+<offset>5632</offset>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='276'>///&lt; Joystick threshold (minimum motion for &quot;move&quot; event to be generated)</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='84' u='w' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='107' u='w' c='_ZN2sf4priv10WindowImpl20setJoystickThresholdEf'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='191' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

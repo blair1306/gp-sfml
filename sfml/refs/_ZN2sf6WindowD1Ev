@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='114' type='void sf::Window::~Window()'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='58' c='_ZN2sf12RenderWindowD1Ev'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='108'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// Closes the window and frees all the resources attached to it.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='77' ll='80' type='void sf::Window::~Window()'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='76'>////////////////////////////////////////////////////////////</doc>

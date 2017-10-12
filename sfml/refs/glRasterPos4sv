@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1478' type='void glRasterPos4sv(const GLshort * )'/>
+<dec f='include/GL/gl.h' l='1105' type='void glRasterPos4sv(const GLshort * v)'/>

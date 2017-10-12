@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='529' type='static std::size_t sf::Utf&lt;32&gt;::count(In begin, In end)'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='532' ll='535' type='static std::size_t sf::Utf&lt;32&gt;::count(In begin, In end)'/>

@@ -1,0 +1,13 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='756' ll='758' type='pointer __gnu_cxx::__normal_iterator::operator-&gt;() const'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='62' u='c' c='_ZN2sf16SoundFileFactory16unregisterReaderEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='93' u='c' c='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='82' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='83' u='c' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='106' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='107' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='126' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='127' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='145' u='c' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='146' u='c' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='684' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='691' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>

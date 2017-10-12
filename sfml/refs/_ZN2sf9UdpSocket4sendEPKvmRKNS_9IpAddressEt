@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='126' type='sf::Socket::Status sf::UdpSocket::send(const void * data, std::size_t size, const sf::IpAddress &amp; remoteAddress, unsigned short remotePort)'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='97' ll='121' type='Socket::Status sf::UdpSocket::send(const void * data, std::size_t size, const sf::IpAddress &amp; remoteAddress, unsigned short remotePort)'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='175' u='c' c='_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='96'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='109'>////////////////////////////////////////////////////////////
+    /// \brief Send raw data to a remote peer
+    ///
+    /// Make sure that \a size is not greater than
+    /// UdpSocket::MaxDatagramSize, otherwise this function will
+    /// fail and no data will be sent.
+    ///
+    /// \param data          Pointer to the sequence of bytes to send
+    /// \param size          Number of bytes to send
+    /// \param remoteAddress Address of the receiver
+    /// \param remotePort    Port of the receiver to send the data to
+    ///
+    /// \return Status code
+    ///
+    /// \see receive
+    ///
+    ////////////////////////////////////////////////////////////</doc>

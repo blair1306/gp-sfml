@@ -1,0 +1,54 @@
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='57' c='sf::priv::WindowImpl'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='47' ll='289'/>
+<size>896</size>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Linux (X11) implementation of WindowImpl
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv13WindowImplX11C1Em'/>
+<fun r='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<fun r='_ZNK2sf4priv13WindowImplX1115getSystemHandleEv'/>
+<fun r='_ZNK2sf4priv13WindowImplX1111getPositionEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1111setPositionERKNS_7Vector2IiEE'/>
+<fun r='_ZNK2sf4priv13WindowImplX117getSizeEv'/>
+<fun r='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>
+<fun r='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<fun r='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<fun r='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<fun r='_ZN2sf4priv13WindowImplX1121setMouseCursorVisibleEb'/>
+<fun r='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<fun r='_ZN2sf4priv13WindowImplX1114setMouseCursorERKNS0_10CursorImplE'/>
+<fun r='_ZN2sf4priv13WindowImplX1119setKeyRepeatEnabledEb'/>
+<fun r='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<fun r='_ZNK2sf4priv13WindowImplX118hasFocusEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<fun r='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<fun r='_ZN2sf4priv13WindowImplX1114resetVideoModeEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1119updateLastInputTimeEm'/>
+<fun r='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1118createHiddenCursorEv'/>
+<fun r='_ZN2sf4priv13WindowImplX117cleanupEv'/>
+<fun r='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<mbr r='sf::priv::WindowImplX11::m_window' o='5696' t='::Window'/>
+<mbr r='sf::priv::WindowImplX11::m_display' o='5760' t='::Display *'/>
+<mbr r='sf::priv::WindowImplX11::m_screen' o='5824' t='int'/>
+<mbr r='sf::priv::WindowImplX11::m_inputMethod' o='5888' t='XIM'/>
+<mbr r='sf::priv::WindowImplX11::m_inputContext' o='5952' t='XIC'/>
+<mbr r='sf::priv::WindowImplX11::m_events' o='6016' t='std::deque&lt;XEvent&gt;'/>
+<mbr r='sf::priv::WindowImplX11::m_isExternal' o='6656' t='bool'/>
+<mbr r='sf::priv::WindowImplX11::m_oldVideoMode' o='6688' t='int'/>
+<mbr r='sf::priv::WindowImplX11::m_hiddenCursor' o='6720' t='::Cursor'/>
+<mbr r='sf::priv::WindowImplX11::m_lastCursor' o='6784' t='::Cursor'/>
+<mbr r='sf::priv::WindowImplX11::m_keyRepeat' o='6848' t='bool'/>
+<mbr r='sf::priv::WindowImplX11::m_previousSize' o='6880' t='Vector2i'/>
+<mbr r='sf::priv::WindowImplX11::m_useSizeHints' o='6944' t='bool'/>
+<mbr r='sf::priv::WindowImplX11::m_fullscreen' o='6952' t='bool'/>
+<mbr r='sf::priv::WindowImplX11::m_cursorGrabbed' o='6960' t='bool'/>
+<mbr r='sf::priv::WindowImplX11::m_windowMapped' o='6968' t='bool'/>
+<mbr r='sf::priv::WindowImplX11::m_iconPixmap' o='6976' t='Pixmap'/>
+<mbr r='sf::priv::WindowImplX11::m_iconMaskPixmap' o='7040' t='Pixmap'/>
+<mbr r='sf::priv::WindowImplX11::m_lastInputTime' o='7104' t='::Time'/>

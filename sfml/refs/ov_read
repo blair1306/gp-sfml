@@ -1,0 +1,2 @@
+<dec f='include/vorbis/vorbisfile.h' l='194' type='long ov_read(OggVorbis_File * vf, char * buffer, int length, int bigendianp, int word, int sgned, int * bitstream)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='148' u='c' c='_ZN2sf4priv18SoundFileReaderOgg4readEPsy'/>

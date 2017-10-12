@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='114' type='sf::priv::JoystickCaps'/>
+<offset>1952</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='114'>///&lt; The joystick capabilities</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='46' u='a' c='_ZNK2sf4priv15JoystickManager15getCapabilitiesEj'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='80' u='w' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='92' u='w' c='_ZN2sf4priv15JoystickManager6updateEv'/>

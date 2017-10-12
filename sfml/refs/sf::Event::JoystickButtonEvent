@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='154' ll='158'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='149'>////////////////////////////////////////////////////////////
+    /// \brief Joystick buttons events parameters
+    ///        (JoystickButtonPressed, JoystickButtonReleased)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::JoystickButtonEvent::joystickId' o='0' t='unsigned int'/>
+<mbr r='sf::Event::JoystickButtonEvent::button' o='32' t='unsigned int'/>

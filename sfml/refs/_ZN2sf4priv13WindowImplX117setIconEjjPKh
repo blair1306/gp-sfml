@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='132' type='void sf::priv::WindowImplX11::setIcon(unsigned int width, unsigned int height, const Uint8 * pixels)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='124'>////////////////////////////////////////////////////////////
+    /// \brief Change the window&apos;s icon
+    ///
+    /// \param width  Icon&apos;s width, in pixels
+    /// \param height Icon&apos;s height, in pixels
+    /// \param pixels Pointer to the pixels in memory, format must be RGBA 32 bits
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='173' c='_ZN2sf4priv10WindowImpl7setIconEjjPKh'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='936' ll='1027' type='void sf::priv::WindowImplX11::setIcon(unsigned int width, unsigned int height, const Uint8 * pixels)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='935'>////////////////////////////////////////////////////////////</doc>

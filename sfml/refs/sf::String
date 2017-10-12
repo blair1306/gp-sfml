@@ -1,0 +1,51 @@
+<def f='codebrowser/include/SFML/System/String.hpp' l='45' ll='528'/>
+<size>32</size>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Utility string class that automatically handles
+///        conversions between types and encodings
+///
+////////////////////////////////////////////////////////////</doc>
+<smbr r='sf::String::InvalidPos' t='const std::size_t'/>
+<fun r='_ZN2sf6StringC1Ev'/>
+<fun r='_ZN2sf6StringC1EcRKSt6locale'/>
+<fun r='_ZN2sf6StringC1Ew'/>
+<fun r='_ZN2sf6StringC1Ej'/>
+<fun r='_ZN2sf6StringC1EPKcRKSt6locale'/>
+<fun r='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6locale'/>
+<fun r='_ZN2sf6StringC1EPKw'/>
+<fun r='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<fun r='_ZN2sf6StringC1EPKj'/>
+<fun r='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIjSt11char_traitsIjESaIjEEE'/>
+<fun r='_ZN2sf6StringC1ERKS0_'/>
+<fun r='_ZN2sf6String8fromUtf8ET_S1_'/>
+<fun r='_ZN2sf6String9fromUtf16ET_S1_'/>
+<fun r='_ZN2sf6String9fromUtf32ET_S1_'/>
+<fun r='_ZNK2sf6StringcvNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEB5cxx11Ev'/>
+<fun r='_ZNK2sf6StringcvNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEEB5cxx11Ev'/>
+<fun r='_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale'/>
+<fun r='_ZNK2sf6String12toWideStringB5cxx11Ev'/>
+<fun r='_ZNK2sf6String6toUtf8B5cxx11Ev'/>
+<fun r='_ZNK2sf6String7toUtf16B5cxx11Ev'/>
+<fun r='_ZNK2sf6String7toUtf32B5cxx11Ev'/>
+<fun r='_ZN2sf6StringaSERKS0_'/>
+<fun r='_ZN2sf6StringpLERKS0_'/>
+<fun r='_ZNK2sf6StringixEm'/>
+<fun r='_ZN2sf6StringixEm'/>
+<fun r='_ZN2sf6String5clearEv'/>
+<fun r='_ZNK2sf6String7getSizeEv'/>
+<fun r='_ZNK2sf6String7isEmptyEv'/>
+<fun r='_ZN2sf6String5eraseEmm'/>
+<fun r='_ZN2sf6String6insertEmRKS0_'/>
+<fun r='_ZNK2sf6String4findERKS0_m'/>
+<fun r='_ZN2sf6String7replaceEmmRKS0_'/>
+<fun r='_ZN2sf6String7replaceERKS0_S2_'/>
+<fun r='_ZNK2sf6String9substringEmm'/>
+<fun r='_ZNK2sf6String7getDataEv'/>
+<fun r='_ZN2sf6String5beginB5cxx11Ev'/>
+<fun r='_ZNK2sf6String5beginB5cxx11Ev'/>
+<fun r='_ZN2sf6String3endB5cxx11Ev'/>
+<fun r='_ZNK2sf6String3endB5cxx11Ev'/>
+<mbr r='sf::String::m_string' o='0' t='std::basic_string&lt;Uint32&gt;'/>
+<fun r='_ZN2sf6String8fromUtf8ET_S1_'/>
+<fun r='_ZN2sf6String9fromUtf16ET_S1_'/>
+<fun r='_ZN2sf6String9fromUtf32ET_S1_'/>

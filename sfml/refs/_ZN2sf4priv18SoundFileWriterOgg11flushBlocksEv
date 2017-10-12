@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='99' type='void sf::priv::SoundFileWriterOgg::flushBlocks()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Flush blocks produced by the ogg stream, if any
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='156' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='162' ll='192' type='void sf::priv::SoundFileWriterOgg::flushBlocks()'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='202' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='161'>////////////////////////////////////////////////////////////</doc>

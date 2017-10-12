@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='204' type='200'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='203'>// 2xx: success</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='204'>///&lt; Most common code returned when operation was successful</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='155' u='r' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>

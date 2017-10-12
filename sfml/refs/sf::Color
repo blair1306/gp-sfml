@@ -1,0 +1,23 @@
+<def f='codebrowser/include/SFML/Graphics/Color.hpp' l='40' ll='100'/>
+<size>4</size>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='36'>////////////////////////////////////////////////////////////
+/// \brief Utility class for manipulating RGBA colors
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5ColorC1Ev'/>
+<fun r='_ZN2sf5ColorC1Ehhhh'/>
+<fun r='_ZN2sf5ColorC1Ej'/>
+<fun r='_ZNK2sf5Color9toIntegerEv'/>
+<smbr r='sf::Color::Black' t='const sf::Color'/>
+<smbr r='sf::Color::White' t='const sf::Color'/>
+<smbr r='sf::Color::Red' t='const sf::Color'/>
+<smbr r='sf::Color::Green' t='const sf::Color'/>
+<smbr r='sf::Color::Blue' t='const sf::Color'/>
+<smbr r='sf::Color::Yellow' t='const sf::Color'/>
+<smbr r='sf::Color::Magenta' t='const sf::Color'/>
+<smbr r='sf::Color::Cyan' t='const sf::Color'/>
+<smbr r='sf::Color::Transparent' t='const sf::Color'/>
+<mbr r='sf::Color::r' o='0' t='Uint8'/>
+<mbr r='sf::Color::g' o='8' t='Uint8'/>
+<mbr r='sf::Color::b' o='16' t='Uint8'/>
+<mbr r='sf::Color::a' o='24' t='Uint8'/>

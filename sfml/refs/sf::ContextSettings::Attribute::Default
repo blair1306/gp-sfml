@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='45' type='0'/>
+<use f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='62' c='_ZN2sf15ContextSettingsC1Ejjjjjjb'/>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='45'>///&lt; Non-debug, compatibility context (this and the core attribute are mutually exclusive)</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='616' u='r' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='684' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='712' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='714' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='744' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

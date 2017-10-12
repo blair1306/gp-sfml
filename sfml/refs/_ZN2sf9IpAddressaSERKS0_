@@ -1,0 +1,5 @@
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='344' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='137' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='259' u='c' c='_ZN2sfrsERSiRNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='129' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='152' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='53' type='void sf::View::View()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='84' u='c' c='_ZN2sf12RenderTargetC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='85' u='c' c='_ZN2sf12RenderTargetC1Ev'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor creates a default view of (0, 0, 1000, 1000)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='35' ll='44' type='void sf::View::View()'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='34'>////////////////////////////////////////////////////////////</doc>

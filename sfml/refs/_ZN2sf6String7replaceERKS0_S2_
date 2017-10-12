@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='439' type='void sf::String::replace(const sf::String &amp; searchFor, const sf::String &amp; replaceWith)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='429'>////////////////////////////////////////////////////////////
+    /// \brief Replace all occurrences of a substring with a replacement string
+    ///
+    /// This function replaces all occurrences of \a searchFor in this string
+    /// with the string \a replaceWith.
+    ///
+    /// \param searchFor   The value being searched for
+    /// \param replaceWith The value that replaces found \a searchFor values
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='292' ll='304' type='void sf::String::replace(const sf::String &amp; searchFor, const sf::String &amp; replaceWith)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='291'>////////////////////////////////////////////////////////////</doc>

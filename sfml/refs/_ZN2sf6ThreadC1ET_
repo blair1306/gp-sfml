@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='75' type='void sf::Thread::Thread(F function)'/>
+<def f='codebrowser/include/SFML/System/Thread.inl' l='68' ll='72' type='void sf::Thread::Thread(F functor)'/>

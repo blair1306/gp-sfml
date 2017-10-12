@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='66' type='bool'/>
+<offset>40</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='66'>///&lt; Is the Control key pressed?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1721' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1797' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

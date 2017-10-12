@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='46' type='7'/>
+<use f='codebrowser/include/SFML/Window/Window.hpp' l='90' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/include/SFML/Window/Window.hpp' l='133' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='76' c='_ZN2sf12RenderWindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='76' c='_ZN2sf12RenderWindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<doc f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='46'>///&lt; Default window style</doc>

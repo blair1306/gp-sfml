@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='96' type='Uint8'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='93'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='96'>///&lt; Red component</doc>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='50' u='w' c='_ZN2sf5ColorC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='61' u='w' c='_ZN2sf5ColorC1Ehhhh'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='72' u='w' c='_ZN2sf5ColorC1Ej'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='84' u='r' c='_ZNK2sf5Color9toIntegerEv'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='91' u='r' c='_ZN2sfeqERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='91' u='r' c='_ZN2sfeqERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='108' u='r' c='_ZN2sfplERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='108' u='r' c='_ZN2sfplERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='118' u='r' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='118' u='r' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='128' u='r' c='_ZN2sfmlERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='128' u='r' c='_ZN2sfmlERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='69' u='r' c='_ZN2sf4priv10copyVectorERKNS_5ColorERNS0_7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='79' u='r' c='_ZN2sf4priv10copyVectorERKNS_5ColorERNS0_7Vector4IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='77' u='r' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='187' u='r' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='278' u='r' c='_ZN2sf5Image8setPixelEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='106' u='r' c='_ZN2sf12RenderTarget5clearERKNS_5ColorE'/>

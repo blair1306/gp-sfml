@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1393' type='GLboolean glIsList(GLuint )'/>
+<dec f='include/GL/gl.h' l='907' type='GLboolean glIsList(GLuint list)'/>

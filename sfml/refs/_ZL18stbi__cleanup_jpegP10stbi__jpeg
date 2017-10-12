@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3502' ll='3505' type='void stbi__cleanup_jpeg(stbi__jpeg * j)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3533' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3560' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3578' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3675' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3501'>// clean up the temporary component buffers</doc>

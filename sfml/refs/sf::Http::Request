@@ -1,0 +1,28 @@
+<def f='codebrowser/include/SFML/Network/Http.hpp' l='54' ll='187'/>
+<size>128</size>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='50'>////////////////////////////////////////////////////////////
+    /// \brief Define a HTTP request
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<fun r='_ZN2sf4Http7Request8setFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
+<fun r='_ZN2sf4Http7Request9setMethodENS1_6MethodE'/>
+<fun r='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4Http7Request14setHttpVersionEjj'/>
+<fun r='_ZN2sf4Http7Request7setBodyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<fun r='_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<mbr r='sf::Http::Request::m_fields' o='0' t='FieldTable'/>
+<mbr r='sf::Http::Request::m_method' o='384' t='sf::Http::Request::Method'/>
+<mbr r='sf::Http::Request::m_uri' o='448' t='std::string'/>
+<mbr r='sf::Http::Request::m_majorVersion' o='704' t='unsigned int'/>
+<mbr r='sf::Http::Request::m_minorVersion' o='736' t='unsigned int'/>
+<mbr r='sf::Http::Request::m_body' o='768' t='std::string'/>
+<fun r='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<fun r='_ZN2sf4Http7Request8setFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
+<fun r='_ZN2sf4Http7Request9setMethodENS1_6MethodE'/>
+<fun r='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4Http7Request14setHttpVersionEjj'/>
+<fun r='_ZN2sf4Http7Request7setBodyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<fun r='_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

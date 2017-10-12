@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/basic_string.h' l='2068' ll='2073' type='size_type std::__cxx11::basic_string::find_first_of(const _CharT * __s, size_type __pos = 0) const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='2058'>/**
+       *  @brief  Find position of a character of C string.
+       *  @param __s  String containing characters to locate.
+       *  @param __pos  Index of character to search from (default 0).
+       *  @return  Index of first occurrence.
+       *
+       *  Starting from @a __pos, searches forward for one of the
+       *  characters of @a __s within this string.  If found, returns
+       *  the index where it was found.  If not found, returns npos.
+      */</doc>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='541' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>

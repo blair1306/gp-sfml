@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='185' type='int'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='48' type='int'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='866' u='a'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='866' u='a'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='866' u='a'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='866' u='a'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='889' u='w' c='_ZL18ClearExtensionVarsv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='185' macro='1' u='r'/>

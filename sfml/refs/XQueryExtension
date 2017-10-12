@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='2970' type='int XQueryExtension(Display * , const char * , int * , int * , int * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='54' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='137' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1237' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='105' type='sf::Context *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='102'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='105'>///&lt; Needs a separate OpenGL context for not messing up the other ones</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='40' u='w' c='_ZN2sf4priv20RenderTextureImplFBOC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='51' u='r' c='_ZN2sf4priv20RenderTextureImplFBOD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='68' u='r' c='_ZN2sf4priv20RenderTextureImplFBOD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='88' u='w' c='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='137' u='r' c='_ZN2sf4priv20RenderTextureImplFBO8activateEb'/>

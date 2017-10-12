@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1275' type='void glCallLists(GLsizei , GLenum , const void * )'/>
+<dec f='include/GL/gl.h' l='919' type='void glCallLists(GLsizei n, GLenum type, const GLvoid * lists)'/>

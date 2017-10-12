@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='92' type='ThreadLocalPtr&lt;T&gt; &amp; sf::ThreadLocalPtr::operator=(T * value)'/>
+<def f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='61' ll='66' type='ThreadLocalPtr&lt;T&gt; &amp; sf::ThreadLocalPtr::operator=(T * value)'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='63' u='c' c='_ZN2sf7Context9setActiveEb'/>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='84'>////////////////////////////////////////////////////////////
+    /// \brief Assignment operator for a raw pointer parameter
+    ///
+    /// \param value Pointer to assign
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='60'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='462' u='c' c='_ZN2sf4priv9GlContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='487' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='510' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>

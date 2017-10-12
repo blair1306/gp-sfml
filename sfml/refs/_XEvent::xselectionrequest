@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='999' type='XSelectionRequestEvent'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='123' u='m' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='125' u='a' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>

@@ -1,0 +1,4 @@
+<dec f='include/X11/extensions/Xrandr.h' l='196' type='Rotation XRRConfigRotations(XRRScreenConfiguration * config, Rotation * current_rotation)'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='79' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='155' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1265' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>

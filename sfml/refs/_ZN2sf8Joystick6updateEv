@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='165' type='static void sf::Joystick::update()'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='77' ll='80' type='static void sf::Joystick::update()'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='76'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='156'>////////////////////////////////////////////////////////////
+    /// \brief Update the states of all joysticks
+    ///
+    /// This function is used internally by SFML, so you normally
+    /// don&apos;t have to call it explicitly. However, you may need to
+    /// call it if you have no window yet (or no window at all):
+    /// in this case the joystick states are not updated automatically.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

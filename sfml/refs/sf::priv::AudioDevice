@@ -1,0 +1,20 @@
+<def f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='46' ll='185'/>
+<size>1</size>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief High-level wrapper around the audio API, it manages
+///        the creation and destruction of the audio device and
+///        context and stores the device capabilities
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<fun r='_ZN2sf4priv11AudioDeviceD1Ev'/>
+<fun r='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj'/>
+<fun r='_ZN2sf4priv11AudioDevice15setGlobalVolumeEf'/>
+<fun r='_ZN2sf4priv11AudioDevice15getGlobalVolumeEv'/>
+<fun r='_ZN2sf4priv11AudioDevice11setPositionERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf4priv11AudioDevice11getPositionEv'/>
+<fun r='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf4priv11AudioDevice12getDirectionEv'/>
+<fun r='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf4priv11AudioDevice11getUpVectorEv'/>

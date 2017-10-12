@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='315' type='unsigned int'/>
+<offset>512</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='315'>///&lt; Frequency (samples / second)</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='50' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='80' u='w' c='_ZN2sf11SoundStream10initializeEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='91' u='w' c='_ZN2sf11SoundStream10initializeEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='183' u='r' c='_ZNK2sf11SoundStream13getSampleRateEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='218' u='r' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='232' u='r' c='_ZNK2sf11SoundStream16getPlayingOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='237' u='r' c='_ZNK2sf11SoundStream16getPlayingOffsetEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='450' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

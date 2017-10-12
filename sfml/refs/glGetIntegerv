@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1358' type='void glGetIntegerv(GLenum , GLint * )'/>
+<use f='codebrowser/src/SFML/Graphics/GLExtensions.cpp' l='61' u='c' c='_ZN2sf4priv20ensureExtensionsInitEv'/>
+<use f='codebrowser/src/SFML/Graphics/GLExtensions.cpp' l='62' u='c' c='_ZN2sf4priv20ensureExtensionsInitEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='65' u='c' c='_ZN12_GLOBAL__N_120checkMaxTextureUnitsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='472' u='c' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='473' u='c' c='_ZN2sf7Texture6updateERKS0_jj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='790' u='c' c='_ZN2sf7Texture14getMaximumSizeEv'/>
+<use f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='38' u='c' c='_ZN2sf4priv12TextureSaverC1Ev'/>
+<dec f='include/GL/gl.h' l='814' type='void glGetIntegerv(GLenum pname, GLint * params)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='235' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='262' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='574' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='575' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='622' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='636' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='654' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>

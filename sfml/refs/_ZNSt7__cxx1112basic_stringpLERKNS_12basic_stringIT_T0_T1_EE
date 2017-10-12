@@ -1,0 +1,10 @@
+<def f='include/c++/5/bits/basic_string.h' l='940' ll='942' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::operator+=(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='935'>/**
+       *  @brief  Append a string to this string.
+       *  @param __str  The string to append.
+       *  @return  Reference to this string.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='458' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='488' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='510' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='223' u='c' c='_ZN2sf6StringpLERKS0_'/>

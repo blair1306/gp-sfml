@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='225'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='224'>// Core since 2.1 - EXT_texture_sRGB</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='185' u='c'/>

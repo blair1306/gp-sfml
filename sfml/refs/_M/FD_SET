@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='90'/>
+<doc f='include/x86_64-linux-gnu/sys/select.h' l='89'>/* Access macros for `fd_set&apos;.  */</doc>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='112' u='c'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='170' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='258' u='c'/>

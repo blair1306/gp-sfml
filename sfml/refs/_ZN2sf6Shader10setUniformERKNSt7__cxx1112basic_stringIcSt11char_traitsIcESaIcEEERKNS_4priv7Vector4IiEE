@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='377' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Ivec4 &amp; vector)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='362'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p ivec4 uniform
+    ///
+    /// This overload can also be called with sf::Color objects
+    /// that are converted to sf::Glsl::Ivec4.
+    ///
+    /// If color conversions are used, the ivec4 uniform in GLSL
+    /// will hold the same values as the original sf::Color
+    /// instance. For example, sf::Color(255, 127, 0, 255) is
+    /// mapped to ivec4(255, 127, 0, 255).
+    ///
+    /// \param name   Name of the uniform variable in GLSL
+    /// \param vector Value of the ivec4 vector
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='489' ll='494' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Ivec4 &amp; v)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='521' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IbEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='488'>////////////////////////////////////////////////////////////</doc>

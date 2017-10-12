@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='2834' type='int XMoveWindow(Display * , Window , int , int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='855' u='c' c='_ZN2sf4priv13WindowImplX1111setPositionERKNS_7Vector2IiEE'/>

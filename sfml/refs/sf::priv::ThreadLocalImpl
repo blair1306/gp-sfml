@@ -1,0 +1,11 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='42' ll='80'/>
+<size>4</size>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of thread-local storage
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv15ThreadLocalImplC1Ev'/>
+<fun r='_ZN2sf4priv15ThreadLocalImplD1Ev'/>
+<fun r='_ZN2sf4priv15ThreadLocalImpl8setValueEPv'/>
+<fun r='_ZNK2sf4priv15ThreadLocalImpl8getValueEv'/>
+<mbr r='sf::priv::ThreadLocalImpl::m_key' o='0' t='pthread_key_t'/>

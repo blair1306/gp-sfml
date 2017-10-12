@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='354' type='const sf::Transform'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='351'>////////////////////////////////////////////////////////////
+    // Static member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='354'>///&lt; The identity transform (does nothing)</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='238' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='400' u='r' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='35' type='const sf::Transform'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='92' u='r' c='_ZNK2sf9Transform10getInverseEv'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='34'>////////////////////////////////////////////////////////////</doc>

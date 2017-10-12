@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='203' type='int XRenderQueryExtension(Display * dpy, int * event_basep, int * error_basep)'/>

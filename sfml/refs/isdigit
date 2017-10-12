@@ -1,0 +1,4 @@
+<dec f='include/ctype.h' l='113' type='int isdigit(int )'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='550' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='209' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='209' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

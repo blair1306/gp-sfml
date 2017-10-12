@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='230' type='short * XRRRates(Display * dpy, int screen, int sizeID, int * nrates)'/>

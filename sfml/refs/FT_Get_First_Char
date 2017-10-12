@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3398' type='FT_ULong FT_Get_First_Char(FT_Face face, FT_UInt * agindex)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3396'>/*                                                                       */</doc>

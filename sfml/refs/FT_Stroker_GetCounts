@@ -1,0 +1,26 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='648' type='FT_Error FT_Stroker_GetCounts(FT_Stroker stroker, FT_UInt * anum_points, FT_UInt * anum_contours)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='622'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_GetCounts
+   *
+   * @description:
+   *   Call this function once you have finished parsing your paths
+   *   with the stroker.  It returns the number of points and
+   *   contours necessary to export all points/borders from the stroked
+   *   outline/path.
+   *
+   * @input:
+   *   stroker ::
+   *     The target stroker handle.
+   *
+   * @output:
+   *   anum_points ::
+   *     The number of points.
+   *
+   *   anum_contours ::
+   *     The number of contours.
+   *
+   * @return:
+   *   FreeType error code.  0~means success.
+   */</doc>

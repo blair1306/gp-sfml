@@ -1,0 +1,6 @@
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='176' u='c' c='_ZN2sf4priv11AudioDevice11setPositionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='196' u='c' c='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='216' u='c' c='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='87' u='c' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='93' u='c' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='238' u='c' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

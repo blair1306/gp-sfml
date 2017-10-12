@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='122' type='void sf::TcpSocket::disconnect()'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='186' u='c' c='_ZN2sf3Ftp10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='612' u='c' c='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='650' u='c' c='_ZN2sf3Ftp11DataChannel4sendERSi'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='113'>////////////////////////////////////////////////////////////
+    /// \brief Disconnect the socket from its remote peer
+    ///
+    /// This function gracefully closes the connection. If the
+    /// socket is not connected, this function has no effect.
+    ///
+    /// \see connect
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='409' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='209' ll='216' type='void sf::TcpSocket::disconnect()'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='208'>////////////////////////////////////////////////////////////</doc>

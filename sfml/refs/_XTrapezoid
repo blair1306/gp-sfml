@@ -1,0 +1,6 @@
+<def f='include/X11/extensions/Xrender.h' l='152' ll='155'/>
+<size>40</size>
+<mbr r='_XTrapezoid::top' o='0' t='XFixed'/>
+<mbr r='_XTrapezoid::bottom' o='32' t='XFixed'/>
+<mbr r='_XTrapezoid::left' o='64' t='XLineFixed'/>
+<mbr r='_XTrapezoid::right' o='192' t='XLineFixed'/>

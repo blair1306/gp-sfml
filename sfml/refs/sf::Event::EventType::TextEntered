@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='193' type='4'/>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='193'>///&lt; A character was entered (data in event.text)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1751' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1765' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

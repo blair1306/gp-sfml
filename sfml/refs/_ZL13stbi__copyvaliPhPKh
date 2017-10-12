@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5864' ll='5871' type='void stbi__copyval(int channel, stbi_uc * dest, const stbi_uc * src)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5937' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5963' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>

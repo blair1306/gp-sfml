@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='299' type='std::basic_string&lt;Uint32&gt; sf::String::toUtf32() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='288'>////////////////////////////////////////////////////////////
+    /// \brief Convert the Unicode string to a UTF-32 string
+    ///
+    /// This function doesn&apos;t perform any conversion, since the
+    /// string is already stored as UTF-32 internally.
+    ///
+    /// \return Converted UTF-32 string
+    ///
+    /// \see toUtf8, toUtf16
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='206' ll='209' type='std::basic_string&lt;Uint32&gt; sf::String::toUtf32() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='205'>////////////////////////////////////////////////////////////</doc>

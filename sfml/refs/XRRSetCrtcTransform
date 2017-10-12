@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='419' type='void XRRSetCrtcTransform(Display * dpy, RRCrtc crtc, XTransform * transform, const char * filter, XFixed * params, int nparams)'/>

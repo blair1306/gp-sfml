@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='603' type='static unsigned int sf::Texture::getValidSize(unsigned int size)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='590'>////////////////////////////////////////////////////////////
+    /// \brief Get a valid image size according to hardware support
+    ///
+    /// This function checks whether the graphics driver supports
+    /// non power of two sizes or not, and adjusts the size
+    /// accordingly.
+    /// The returned size is greater than or equal to the original size.
+    ///
+    /// \param size size to convert
+    ///
+    /// \return Valid nearest size (greater than or equal to specified size)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='133' u='c' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='133' u='c' c='_ZN2sf7Texture6createEjj'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='834' ll='855' type='static unsigned int sf::Texture::getValidSize(unsigned int size)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='833'>////////////////////////////////////////////////////////////</doc>

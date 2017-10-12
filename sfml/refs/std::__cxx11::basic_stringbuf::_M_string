@@ -1,0 +1,16 @@
+<dec f='include/c++/5/sstream' l='88' type='__string_type'/>
+<use f='include/c++/5/sstream' l='101' u='w' c='_ZNSt7__cxx1115basic_stringbufC1ESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='115' u='w' c='_ZNSt7__cxx1115basic_stringbufC1ERKNS_12basic_stringIT_T0_T1_EESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='178' u='r' c='_ZNKSt7__cxx1115basic_stringbuf3strEv'/>
+<use f='include/c++/5/sstream' l='194' u='c' c='_ZNSt7__cxx1115basic_stringbuf3strERKNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/sstream' l='206' u='c' c='_ZNSt7__cxx1115basic_stringbuf17_M_stringbuf_initESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='207' u='c' c='_ZNSt7__cxx1115basic_stringbuf17_M_stringbuf_initESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='253' u='c' c='_ZNSt7__cxx1115basic_stringbuf6setbufEPT_l'/>
+<use f='include/c++/5/bits/sstream.tcc' l='90' u='c' c='_ZNSt7__cxx1115basic_stringbuf8overflowENT0_8int_typeE'/>
+<use f='include/c++/5/bits/sstream.tcc' l='91' u='c' c='_ZNSt7__cxx1115basic_stringbuf8overflowENT0_8int_typeE'/>
+<use f='include/c++/5/bits/sstream.tcc' l='118' u='c' c='_ZNSt7__cxx1115basic_stringbuf8overflowENT0_8int_typeE'/>
+<use f='include/c++/5/bits/sstream.tcc' l='119' u='c' c='_ZNSt7__cxx1115basic_stringbuf8overflowENT0_8int_typeE'/>
+<use f='include/c++/5/bits/sstream.tcc' l='231' u='c' c='_ZNSt7__cxx1115basic_stringbuf7_M_syncEPT_NS_12basic_stringIS1_T0_T1_E9size_typeES7_'/>
+<use f='include/c++/5/bits/sstream.tcc' l='232' u='c' c='_ZNSt7__cxx1115basic_stringbuf7_M_syncEPT_NS_12basic_stringIS1_T0_T1_E9size_typeES7_'/>
+<use f='include/c++/5/bits/sstream.tcc' l='234' u='c' c='_ZNSt7__cxx1115basic_stringbuf7_M_syncEPT_NS_12basic_stringIS1_T0_T1_E9size_typeES7_'/>
+<doc f='include/c++/5/sstream' l='87'>// Data Members:</doc>

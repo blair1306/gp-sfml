@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='66' type='static void sf::SoundFileFactory::unregisterReader()'/>
+<def f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='57' ll='67' type='static void sf::SoundFileFactory::unregisterReader()'/>

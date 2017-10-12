@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='185' type='const sf::IpAddress'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='185'>///&lt; Value representing any address (0.0.0.0)</doc>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='39' type='const sf::IpAddress'/>
+<use f='codebrowser/include/SFML/Network/TcpListener.hpp' l='83' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/include/SFML/Network/TcpListener.hpp' l='83' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='93' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<use f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='93' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>

@@ -1,0 +1,86 @@
+<def f='include/c++/5/bits/stl_vector.h' l='778' ll='780' type='reference std::vector::operator[](size_type __n)'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='767'>/**
+       *  @brief  Subscript access to the data contained in the %vector.
+       *  @param __n The index of the element for which data should be
+       *  accessed.
+       *  @return  Read/write reference to data.
+       *
+       *  This operator allows for easy, array-style, data access.
+       *  Note that data access with this operator is unchecked and
+       *  out_of_range lookups are not defined. (For checked lookups
+       *  see at().)
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='194' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='195' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='227' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='c' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='108' u='c' c='_ZN2sf4priv19SoundFileWriterFlac5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='304' u='c' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='307' u='c' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='58' u='c' c='_ZN2sf11ConvexShape8setPointEmRKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='618' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='640' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='654' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='665' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='73' u='c' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='183' u='c' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='235' u='c' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='277' u='c' c='_ZN2sf5Image8setPixelEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='116' u='c' c='_ZN2sf4priv11ImageLoader17loadImageFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='160' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromMemoryEPKvmRSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='215' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='93' u='c' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='113' u='c' c='_ZN12_GLOBAL__N_117getStreamContentsERN2sf11InputStreamERSt6vectorIcSaIcEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='255' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='257' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='259' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='283' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='283' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='315' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='315' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='315' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='361' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='363' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='365' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='389' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='389' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='421' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='421' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='421' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='640' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='655' u='c' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='372' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='373' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='396' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='60' u='c' c='_ZN2sf11VertexArrayixEm'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='61' u='c' c='_ZN2sf6Packet6appendEPKvm'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='119' u='c' c='_ZN2sf6PacketrsERa'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='132' u='c' c='_ZN2sf6PacketrsERh'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='199' u='c' c='_ZN2sf6PacketrsERx'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='222' u='c' c='_ZN2sf6PacketrsERy'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='243' u='c' c='_ZN2sf6PacketrsERf'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='256' u='c' c='_ZN2sf6PacketrsERd'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='274' u='c' c='_ZN2sf6PacketrsEPc'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='296' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='320' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='322' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='326' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='388' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='395' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='186' u='c' c='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='191' u='c' c='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='79' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='86' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='91' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='93' u='c' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='705' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='116' u='c' c='_ZN12_GLOBAL__N_118findExecutableNameB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='126' u='c' c='_ZN12_GLOBAL__N_118findExecutableNameB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='129' u='c' c='_ZN12_GLOBAL__N_118findExecutableNameB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='687' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='695' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='984' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='989' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1002' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1023' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1424' u='c' c='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>

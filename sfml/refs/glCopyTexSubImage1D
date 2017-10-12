@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1582' type='void glCopyTexSubImage1D(GLenum , GLint , GLint , GLint , GLint , GLsizei )'/>
+<dec f='include/GL/gl.h' l='1350' type='void glCopyTexSubImage1D(GLenum target, GLint level, GLint xoffset, GLint x, GLint y, GLsizei width)'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='85' type='void sf::SoundSource::setPitch(float pitch)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Set the pitch of the sound
+    ///
+    /// The pitch represents the perceived fundamental frequency
+    /// of a sound; thus you can make a sound more acute or grave
+    /// by changing its pitch. A side effect of changing the pitch
+    /// is to modify the playing speed of the sound as well.
+    /// The default value for the pitch is 1.
+    ///
+    /// \param pitch New pitch to apply to the sound
+    ///
+    /// \see getPitch
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='48' u='c' c='_ZN2sf11SoundSourceC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='66' ll='69' type='void sf::SoundSource::setPitch(float pitch)'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='181' u='c' c='_ZN2sf11SoundSourceaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='65'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,3 @@
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='647' u='c' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='703' u='c' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='167' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

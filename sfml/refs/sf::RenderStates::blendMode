@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='115' type='sf::BlendMode'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='112'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='115'>///&lt; Blending mode</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='44' u='w' c='_ZN2sf12RenderStatesC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='54' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9TransformE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='64' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='74' u='w' c='_ZN2sf12RenderStatesC1EPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='84' u='w' c='_ZN2sf12RenderStatesC1EPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='95' u='w' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeERKNS_9TransformEPKNS_7TextureEPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='250' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='251' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>

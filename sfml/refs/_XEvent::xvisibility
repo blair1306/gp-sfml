@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='984' type='XVisibilityEvent'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1947' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1949' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

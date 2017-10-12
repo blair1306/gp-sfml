@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='312' type='const sf::Transform &amp; sf::Transformable::getInverseTransform() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='304'>////////////////////////////////////////////////////////////
+    /// \brief get the inverse of the combined transform of the object
+    ///
+    /// \return Inverse of the combined transformations applied to the object
+    ///
+    /// \see getTransform
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='207' ll='217' type='const sf::Transform &amp; sf::Transformable::getInverseTransform() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='206'>////////////////////////////////////////////////////////////</doc>

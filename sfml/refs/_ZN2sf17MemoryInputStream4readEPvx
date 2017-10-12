@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='74' type='Int64 sf::MemoryInputStream::read(void * data, Int64 size)'/>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Read data from the stream
+    ///
+    /// After reading, the stream&apos;s reading position must be
+    /// advanced by the amount of bytes read.
+    ///
+    /// \param data Buffer where to copy the read data
+    /// \param size Desired number of bytes to read
+    ///
+    /// \return The number of bytes actually read, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='63' c='_ZN2sf11InputStream4readEPvx'/>
+<def f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='53' ll='68' type='Int64 sf::MemoryInputStream::read(void * data, Int64 size)'/>
+<doc f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='52'>////////////////////////////////////////////////////////////</doc>

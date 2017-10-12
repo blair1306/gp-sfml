@@ -1,0 +1,13 @@
+<def f='codebrowser/include/SFML/Audio/AlResource.hpp' l='40' ll='55'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Audio/AlResource.hpp' l='36'>////////////////////////////////////////////////////////////
+/// \brief Base class for classes that require an OpenAL context
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf10AlResourceC1Ev'/>
+<fun r='_ZN2sf10AlResourceD1Ev'/>
+<fun r='_ZN2sf10AlResourceC1Ev'/>
+<fun r='_ZN2sf10AlResourceD1Ev'/>
+<ovr f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='42' c='sf::SoundSource'/>
+<ovr f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='49' c='sf::SoundBuffer'/>
+<ovr f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='45' c='sf::SoundRecorder'/>

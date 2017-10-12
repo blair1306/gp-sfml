@@ -1,0 +1,20 @@
+<def f='codebrowser/include/SFML/Window/Joystick.hpp' l='41' ll='166'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Give access to the real-time state of the joysticks
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf8Joystick11isConnectedEj'/>
+<fun r='_ZN2sf8Joystick14getButtonCountEj'/>
+<fun r='_ZN2sf8Joystick7hasAxisEjNS0_4AxisE'/>
+<fun r='_ZN2sf8Joystick15isButtonPressedEjj'/>
+<fun r='_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE'/>
+<fun r='_ZN2sf8Joystick17getIdentificationEj'/>
+<fun r='_ZN2sf8Joystick6updateEv'/>
+<fun r='_ZN2sf8Joystick11isConnectedEj'/>
+<fun r='_ZN2sf8Joystick14getButtonCountEj'/>
+<fun r='_ZN2sf8Joystick7hasAxisEjNS0_4AxisE'/>
+<fun r='_ZN2sf8Joystick15isButtonPressedEjj'/>
+<fun r='_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE'/>
+<fun r='_ZN2sf8Joystick17getIdentificationEj'/>
+<fun r='_ZN2sf8Joystick6updateEv'/>

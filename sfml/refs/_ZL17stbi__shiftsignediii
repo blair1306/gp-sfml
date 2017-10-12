@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4966' ll='4981' type='int stbi__shiftsigned(int v, int shift, int bits)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5192' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5193' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5194' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5195' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>

@@ -1,0 +1,19 @@
+<dec f='include/c++/5/bits/stl_queue.h' l='390' type='_Sequence'/>
+<use f='include/c++/5/bits/stl_queue.h' l='401' u='w' c='_ZNSt14priority_queueC1ERKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='402' u='c' c='_ZNSt14priority_queueC1ERKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='402' u='c' c='_ZNSt14priority_queueC1ERKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='437' u='w' c='_ZNSt14priority_queueC1ET_S0_RKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='440' u='c' c='_ZNSt14priority_queueC1ET_S0_RKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='440' u='c' c='_ZNSt14priority_queueC1ET_S0_RKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='441' u='c' c='_ZNSt14priority_queueC1ET_S0_RKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='441' u='c' c='_ZNSt14priority_queueC1ET_S0_RKT1_RKT0_'/>
+<use f='include/c++/5/bits/stl_queue.h' l='472' u='c' c='_ZNKSt14priority_queue5emptyEv'/>
+<use f='include/c++/5/bits/stl_queue.h' l='477' u='c' c='_ZNKSt14priority_queue4sizeEv'/>
+<use f='include/c++/5/bits/stl_queue.h' l='487' u='c' c='_ZNKSt14priority_queue3topEv'/>
+<use f='include/c++/5/bits/stl_queue.h' l='501' u='c' c='_ZNSt14priority_queue4pushERKNT0_10value_typeE'/>
+<use f='include/c++/5/bits/stl_queue.h' l='502' u='c' c='_ZNSt14priority_queue4pushERKNT0_10value_typeE'/>
+<use f='include/c++/5/bits/stl_queue.h' l='502' u='c' c='_ZNSt14priority_queue4pushERKNT0_10value_typeE'/>
+<use f='include/c++/5/bits/stl_queue.h' l='537' u='c' c='_ZNSt14priority_queue3popEv'/>
+<use f='include/c++/5/bits/stl_queue.h' l='537' u='c' c='_ZNSt14priority_queue3popEv'/>
+<use f='include/c++/5/bits/stl_queue.h' l='538' u='c' c='_ZNSt14priority_queue3popEv'/>
+<doc f='include/c++/5/bits/stl_queue.h' l='389'>//  See queue::c for notes on these names.</doc>

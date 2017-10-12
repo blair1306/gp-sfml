@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4222' ll='4228' type='stbi__pngchunk stbi__get_chunk_header(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4698' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

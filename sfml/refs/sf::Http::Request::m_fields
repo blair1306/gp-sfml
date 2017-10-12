@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='181' type='FieldTable'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='64' u='m' c='_ZN2sf4Http7Request8setFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='122' u='m' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='122' u='m' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='140' u='m' c='_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='140' u='m' c='_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='178'>////////////////////////////////////////////////////////////
+        // Member data
+        ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='181'>///&lt; Fields of the header associated to their value</doc>

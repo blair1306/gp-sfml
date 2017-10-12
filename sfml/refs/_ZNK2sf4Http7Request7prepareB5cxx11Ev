@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='159' type='std::string sf::Http::Request::prepare() const'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='102' ll='134' type='std::string sf::Http::Request::prepare() const'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='387' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='101'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='150'>////////////////////////////////////////////////////////////
+        /// \brief Prepare the final request to send to the server
+        ///
+        /// This is used internally by Http before sending the
+        /// request to the web server.
+        ///
+        /// \return String containing the request, ready to be sent
+        ///
+        ////////////////////////////////////////////////////////////</doc>

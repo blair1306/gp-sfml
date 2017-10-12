@@ -1,0 +1,18 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='44' ll='97'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Provide write access to sound files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf15OutputSoundFileC1Ev'/>
+<fun r='_ZN2sf15OutputSoundFileD1Ev'/>
+<fun r='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<fun r='_ZN2sf15OutputSoundFile5writeEPKsy'/>
+<fun r='_ZN2sf15OutputSoundFile5closeEv'/>
+<mbr r='sf::OutputSoundFile::m_writer' o='0' t='sf::SoundFileWriter *'/>
+<fun r='_ZN2sf15OutputSoundFileC1Ev'/>
+<fun r='_ZN2sf15OutputSoundFileD1Ev'/>
+<fun r='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<fun r='_ZN2sf15OutputSoundFile5writeEPKsy'/>
+<fun r='_ZN2sf15OutputSoundFile5closeEv'/>

@@ -1,0 +1,5 @@
+<dec f='include/X11/extensions/Xrandr.h' l='129' type='RRProvider'/>
+<dec f='include/X11/extensions/Xrandr.h' l='141' type='RRProvider'/>
+<offset>384</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='129'>/* current provider (or None) */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='141'>/* related provider */</doc>

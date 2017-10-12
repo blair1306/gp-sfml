@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='118' type='static bool sf::Joystick::hasAxis(unsigned int joystick, sf::Joystick::Axis axis)'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='49' ll='52' type='static bool sf::Joystick::hasAxis(unsigned int joystick, sf::Joystick::Axis axis)'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='48'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='107'>////////////////////////////////////////////////////////////
+    /// \brief Check if a joystick supports a given axis
+    ///
+    /// If the joystick is not connected, this function returns false.
+    ///
+    /// \param joystick Index of the joystick
+    /// \param axis     Axis to check
+    ///
+    /// \return True if the joystick supports the axis, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>

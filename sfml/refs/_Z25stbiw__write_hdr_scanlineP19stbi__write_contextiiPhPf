@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='528' ll='615' type='void stbiw__write_hdr_scanline(stbi__write_context * s, int width, int ncomp, unsigned char * scratch, float * scanline)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='633' u='c' c='_ZL19stbi_write_hdr_coreP19stbi__write_contextiiiPf'/>

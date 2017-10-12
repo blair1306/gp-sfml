@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='739' ll='744' type='stbi_io_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='748' u='a' c='_ZL16stbi__start_fileP13stbi__contextP8_IO_FILE'/>

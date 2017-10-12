@@ -1,0 +1,4 @@
+<dec f='include/vorbis/codec.h' l='30' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='118' u='r' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='120' u='r' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>

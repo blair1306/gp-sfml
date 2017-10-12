@@ -1,0 +1,17 @@
+<dec f='include/AL/al.h' l='196'/>
+<doc f='include/AL/al.h' l='184'>/**
+ * Source or listener gain.
+ * Type:  ALfloat
+ * Range: [0.0 - ]
+ *
+ * A value of 1.0 means unattenuated. Each division by 2 equals an attenuation
+ * of about -6dB. Each multiplicaton by 2 equals an amplification of about
+ * +6dB.
+ *
+ * A value of 0.0 is meaningless with respect to a logarithmic scale; it is
+ * silent.
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='73' u='c'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='157' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='75' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='128' u='c'/>

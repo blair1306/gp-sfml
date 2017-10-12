@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='142' ll='147'/>
+<size>12</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='138'>////////////////////////////////////////////////////////////
+    /// \brief Joystick axis move event parameters (JoystickMoved)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::JoystickMoveEvent::joystickId' o='0' t='unsigned int'/>
+<mbr r='sf::Event::JoystickMoveEvent::axis' o='32' t='Joystick::Axis'/>
+<mbr r='sf::Event::JoystickMoveEvent::position' o='64' t='float'/>

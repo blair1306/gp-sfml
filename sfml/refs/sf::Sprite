@@ -1,0 +1,40 @@
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='44' c='sf::Drawable'/>
+<inh f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='41' c='sf::Transformable'/>
+<def f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='47' ll='221'/>
+<size>288</size>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Drawable representation of a texture, with its
+///        own transformations, color, etc.
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6SpriteC1Ev'/>
+<fun r='_ZN2sf6SpriteC1ERKNS_7TextureE'/>
+<fun r='_ZN2sf6SpriteC1ERKNS_7TextureERKNS_4RectIiEE'/>
+<fun r='_ZN2sf6Sprite10setTextureERKNS_7TextureEb'/>
+<fun r='_ZN2sf6Sprite14setTextureRectERKNS_4RectIiEE'/>
+<fun r='_ZN2sf6Sprite8setColorERKNS_5ColorE'/>
+<fun r='_ZNK2sf6Sprite10getTextureEv'/>
+<fun r='_ZNK2sf6Sprite14getTextureRectEv'/>
+<fun r='_ZNK2sf6Sprite8getColorEv'/>
+<fun r='_ZNK2sf6Sprite14getLocalBoundsEv'/>
+<fun r='_ZNK2sf6Sprite15getGlobalBoundsEv'/>
+<fun r='_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<fun r='_ZN2sf6Sprite15updatePositionsEv'/>
+<fun r='_ZN2sf6Sprite15updateTexCoordsEv'/>
+<mbr r='sf::Sprite::m_vertices' o='1440' t='sf::Vertex [4]'/>
+<mbr r='sf::Sprite::m_texture' o='2112' t='const sf::Texture *'/>
+<mbr r='sf::Sprite::m_textureRect' o='2176' t='IntRect'/>
+<fun r='_ZN2sf6SpriteC1Ev'/>
+<fun r='_ZN2sf6SpriteC1ERKNS_7TextureE'/>
+<fun r='_ZN2sf6SpriteC1ERKNS_7TextureERKNS_4RectIiEE'/>
+<fun r='_ZN2sf6Sprite10setTextureERKNS_7TextureEb'/>
+<fun r='_ZN2sf6Sprite14setTextureRectERKNS_4RectIiEE'/>
+<fun r='_ZN2sf6Sprite8setColorERKNS_5ColorE'/>
+<fun r='_ZNK2sf6Sprite10getTextureEv'/>
+<fun r='_ZNK2sf6Sprite14getTextureRectEv'/>
+<fun r='_ZNK2sf6Sprite8getColorEv'/>
+<fun r='_ZNK2sf6Sprite14getLocalBoundsEv'/>
+<fun r='_ZNK2sf6Sprite15getGlobalBoundsEv'/>
+<fun r='_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<fun r='_ZN2sf6Sprite15updatePositionsEv'/>
+<fun r='_ZN2sf6Sprite15updateTexCoordsEv'/>

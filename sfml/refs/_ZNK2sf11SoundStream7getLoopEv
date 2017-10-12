@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='179' type='bool sf::SoundStream::getLoop() const'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='190' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='217' u='c' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='224' u='c' c='_ZN2sf5Music6onLoopEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='171'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether or not the stream is in loop mode
+    ///
+    /// \return True if the stream is looping, false otherwise
+    ///
+    /// \see setLoop
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='254' ll='257' type='bool sf::SoundStream::getLoop() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='253'>////////////////////////////////////////////////////////////</doc>

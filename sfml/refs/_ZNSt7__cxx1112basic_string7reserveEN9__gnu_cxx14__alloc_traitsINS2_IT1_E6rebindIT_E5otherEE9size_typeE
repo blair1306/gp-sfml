@@ -1,0 +1,34 @@
+<dec f='include/c++/5/bits/basic_string.h' l='802' type='void std::__cxx11::basic_string::reserve(size_type __res_arg = 0)'/>
+<def f='include/c++/5/bits/basic_string.tcc' l='282' ll='310' type='void std::__cxx11::basic_string::reserve(size_type __res = 0)'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='211' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='468' u='c' c='_ZNKSt7num_get14_M_extract_intB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRT_'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='695' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRf'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='710' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRd'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='742' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRe'/>
+<doc f='include/c++/5/bits/basic_string.h' l='784'>/**
+       *  @brief  Attempt to preallocate enough memory for specified number of
+       *          characters.
+       *  @param  __res_arg  Number of characters required.
+       *  @throw  std::length_error  If @a __res_arg exceeds @c max_size().
+       *
+       *  This function attempts to reserve enough memory for the
+       *  %string to hold the specified number of characters.  If the
+       *  number requested is more than max_size(), length_error is
+       *  thrown.
+       *
+       *  The advantage of this function is that if optimal code is a
+       *  necessity and the user can determine the string length that will be
+       *  required, the user can reserve the memory in %advance, and thus
+       *  prevent a possible reallocation of memory and copying of %string
+       *  data.
+       */</doc>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='162' u='c' c='_ZNKSt7__cxx119money_get10_M_extractET0_S1_RSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='174' u='c' c='_ZNKSt7__cxx119money_get10_M_extractET0_S1_RSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='75' u='c' c='_ZN2sf6StringC1EPKcRKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='85' u='c' c='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='98' u='c' c='_ZN2sf6StringC1EPKw'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='108' u='c' c='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='154' u='c' c='_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='168' u='c' c='_ZNK2sf6String12toWideStringB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='182' u='c' c='_ZNK2sf6String6toUtf8B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='196' u='c' c='_ZNK2sf6String7toUtf16B5cxx11Ev'/>

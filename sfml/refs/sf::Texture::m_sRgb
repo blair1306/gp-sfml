@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='621' type='bool'/>
+<offset>168</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='621'>///&lt; Should the texture source be converted from sRGB?</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='67' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='83' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='83' u='r' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='187' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='203' u='w' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='208' u='r' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='619' u='w' c='_ZN2sf7Texture7setSrgbEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='626' u='r' c='_ZNK2sf7Texture6isSrgbEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='815' u='a' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='815' u='a' c='_ZN2sf7Texture4swapERS0_'/>

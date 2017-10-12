@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/basic_string.h' l='1077' ll='1085' type='void std::__cxx11::basic_string::push_back(_CharT __c)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1073'>/**
+       *  @brief  Append a single character.
+       *  @param __c  Character to append.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='264' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

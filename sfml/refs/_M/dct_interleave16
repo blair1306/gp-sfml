@@ -1,0 +1,15 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2270'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2331' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2332' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2333' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2334' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2337' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2338' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2339' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2340' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2343' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2344' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2345' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2346' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2389' u='w'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2269'>// 16-bit interleave step (for transposes)</doc>

@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='114' type='sf::InputStream *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='111'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='114'>///&lt; Source stream to read from</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='111' u='w' c='_ZN2sf4priv18SoundFileReaderWavC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='122' u='w' c='_ZN2sf4priv18SoundFileReaderWav4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='139' u='r' c='_ZN2sf4priv18SoundFileReaderWav4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='149' u='r' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='156' u='r' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='166' u='r' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='176' u='r' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='186' u='r' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='215' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='224' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='227' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='237' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='244' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='250' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='256' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='261' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='266' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='278' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='278' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='290' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='298' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='298' u='r' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>

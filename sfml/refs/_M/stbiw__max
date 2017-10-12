@@ -1,0 +1,6 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='493'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='498' u='c'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='498' u='c'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='489'>// *************************************************************************************************
+// Radiance RGBE HDR writer
+// by Baldur Karlsson</doc>

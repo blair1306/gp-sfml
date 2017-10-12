@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='58' type='const std::size_t'/>
+<use f='codebrowser/include/SFML/System/String.hpp' l='456' u='r' c='_ZNK2sf6String9substringEmm'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='55'>////////////////////////////////////////////////////////////
+    // Static member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='58'>///&lt; Represents an invalid position in the string</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='37' type='const std::size_t'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='299' u='r' c='_ZN2sf6String7replaceERKS0_S2_'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='36'>////////////////////////////////////////////////////////////</doc>

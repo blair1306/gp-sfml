@@ -1,0 +1,11 @@
+_ZNSt21front_insert_iteratordeEv|std::front_insert_iterator::operator*
+_ZNSt21front_insert_iteratorppEv|std::front_insert_iterator::operator++
+_ZNSt21front_insert_iteratoraSENT_15const_referenceE|std::front_insert_iterator::operator=
+_ZSt14front_inserterRT_|std::front_inserter
+_ZNSt6vector5frontEv|std::vector::front
+_ZSt5frexpfPi|std::frexp
+_ZN2sf6String9fromUtf16ET_S1_|sf::String::fromUtf16
+_ZN2sf6String9fromUtf32ET_S1_|sf::String::fromUtf32
+_ZN2sf6String8fromUtf8ET_S1_|sf::String::fromUtf8
+_ZNSt5deque5frontEv|std::deque::front
+_ZNSt5queue5frontEv|std::queue::front

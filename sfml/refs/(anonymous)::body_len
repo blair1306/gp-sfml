@@ -1,0 +1,4 @@
+<dec f='include/ogg/ogg.h' l='47' type='long'/>
+<offset>192</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='123' u='r' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='185' u='r' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>

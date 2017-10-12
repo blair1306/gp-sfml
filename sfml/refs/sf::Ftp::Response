@@ -1,0 +1,18 @@
+<def f='codebrowser/include/SFML/Network/Ftp.hpp' l='66' ll='182'/>
+<ovr f='codebrowser/include/SFML/Network/Ftp.hpp' l='188' c='sf::Ftp::DirectoryResponse'/>
+<ovr f='codebrowser/include/SFML/Network/Ftp.hpp' l='221' c='sf::Ftp::ListingResponse'/>
+<size>40</size>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Define a FTP response
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf3Ftp8ResponseC1ENS1_6StatusERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf3Ftp8Response4isOkEv'/>
+<fun r='_ZNK2sf3Ftp8Response9getStatusEv'/>
+<fun r='_ZNK2sf3Ftp8Response10getMessageB5cxx11Ev'/>
+<mbr r='sf::Ftp::Response::m_status' o='0' t='sf::Ftp::Response::Status'/>
+<mbr r='sf::Ftp::Response::m_message' o='64' t='std::string'/>
+<fun r='_ZN2sf3Ftp8ResponseC1ENS1_6StatusERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf3Ftp8Response4isOkEv'/>
+<fun r='_ZNK2sf3Ftp8Response9getStatusEv'/>
+<fun r='_ZNK2sf3Ftp8Response10getMessageB5cxx11Ev'/>

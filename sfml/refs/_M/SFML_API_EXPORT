@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Config.hpp' l='138'/>
+<doc f='codebrowser/include/SFML/Config.hpp' l='136'>// GCC 4 has special keywords for showing/hidding symbols,
+            // the same keyword is used for both importing and exporting</doc>

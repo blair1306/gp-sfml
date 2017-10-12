@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='221' type='bool sf::operator&gt;=(sf::Time left, sf::Time right)'/>
+<use f='codebrowser/src/SFML/System/Sleep.cpp' l='42' u='c' c='_ZN2sf5sleepENS_4TimeE'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='129' ll='132' type='bool sf::operator&gt;=(sf::Time left, sf::Time right)'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='128'>////////////////////////////////////////////////////////////</doc>

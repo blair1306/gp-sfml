@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='184' type='static Vector3f sf::priv::AudioDevice::getUpVector()'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='176'>////////////////////////////////////////////////////////////
+    /// \brief Get the current upward vector of the listener in the scene
+    ///
+    /// \return Listener&apos;s upward vector (not normalized)
+    ///
+    /// \see setUpVector
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='221' ll='224' type='static Vector3f sf::priv::AudioDevice::getUpVector()'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='220'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='107' u='c' c='_ZN2sf8Listener11getUpVectorEv'/>

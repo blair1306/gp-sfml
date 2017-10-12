@@ -1,0 +1,14 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1649' type='int [17]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1720' u='w' c='_ZL19stbi__build_huffmanP13stbi__huffmanPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1836' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<offset>12896</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1649'>// old &apos;firstsymbol&apos; - old &apos;firstcode&apos;</doc>
+<dec f='include/X11/Xlib.h' l='1060' type='int'/>
+<dec f='include/X11/Xlib.h' l='1072' type='int'/>
+<dec f='include/X11/Xlib.h' l='1099' type='int'/>
+<dec f='include/X11/Xlib.h' l='1106' type='int'/>
+<offset>96</offset>
+<doc f='include/X11/Xlib.h' l='1060'>/* delta between strings */</doc>
+<doc f='include/X11/Xlib.h' l='1072'>/* delta between strings */</doc>
+<dec f='include/X11/Xproto.h' l='398' type='INT8'/>
+<offset>8</offset>

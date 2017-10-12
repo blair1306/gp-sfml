@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='126' type='void sf::Thread::Thread(void (C::*)() function, C * object)'/>
+<def f='codebrowser/include/SFML/System/Thread.inl' l='86' ll='90' type='void sf::Thread::Thread(void (C::*)() function, C * object)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='50' u='c' c='_ZN2sf13SoundRecorderC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='44' u='c' c='_ZN2sf11SoundStreamC1Ev'/>

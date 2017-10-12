@@ -1,0 +1,26 @@
+<inh f='codebrowser/include/SFML/Window/Window.hpp' l='58' c='sf::Window'/>
+<inh f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='51' c='sf::RenderTarget'/>
+<def f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='44' ll='180'/>
+<size>520</size>
+<doc f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Window that can serve as a target for 2D drawing
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf12RenderWindowC1Ev'/>
+<fun r='_ZN2sf12RenderWindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf12RenderWindowC1EmRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf12RenderWindowD1Ev'/>
+<fun r='_ZNK2sf12RenderWindow7getSizeEv'/>
+<fun r='_ZN2sf12RenderWindow9setActiveEb'/>
+<fun r='_ZNK2sf12RenderWindow7captureEv'/>
+<fun r='_ZN2sf12RenderWindow8onCreateEv'/>
+<fun r='_ZN2sf12RenderWindow8onResizeEv'/>
+<fun r='_ZN2sf12RenderWindowC1Ev'/>
+<fun r='_ZN2sf12RenderWindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf12RenderWindowC1EmRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf12RenderWindowD1Ev'/>
+<fun r='_ZNK2sf12RenderWindow7getSizeEv'/>
+<fun r='_ZN2sf12RenderWindow9setActiveEb'/>
+<fun r='_ZNK2sf12RenderWindow7captureEv'/>
+<fun r='_ZN2sf12RenderWindow8onCreateEv'/>
+<fun r='_ZN2sf12RenderWindow8onResizeEv'/>

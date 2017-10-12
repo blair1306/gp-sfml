@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='213' type='Vector2f sf::Shape::getPoint(std::size_t index) const'/>
+<ovr f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='73' c='_ZNK2sf11CircleShape8getPointEm'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='198'>////////////////////////////////////////////////////////////
+    /// \brief Get a point of the shape
+    ///
+    /// The returned point is in local coordinates, that is,
+    /// the shape&apos;s transforms (position, rotation, scale) are
+    /// not taken into account.
+    /// The result is undefined if \a index is out of the valid range.
+    ///
+    /// \param index Index of the point to get, in range [0 .. getPointCount() - 1]
+    ///
+    /// \return index-th point of the shape
+    ///
+    /// \see getPointCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='64' c='_ZNK2sf11ConvexShape8getPointEm'/>
+<ovr f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='64' c='_ZNK2sf14RectangleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='190' u='c' c='_ZN2sf5Shape6updateEv'/>

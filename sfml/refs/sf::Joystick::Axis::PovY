@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='69' type='7'/>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='69'>///&lt; The Y axis of the point-of-view hat</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='625' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='675' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>

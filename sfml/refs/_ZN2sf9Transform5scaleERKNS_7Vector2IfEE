@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='324' type='sf::Transform &amp; sf::Transform::scale(const Vector2f &amp; factors)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='307'>////////////////////////////////////////////////////////////
+    /// \brief Combine the current transform with a scaling
+    ///
+    /// This function returns a reference to *this, so that calls
+    /// can be chained.
+    /// \code
+    /// sf::Transform transform;
+    /// transform.scale(sf::Vector2f(2, 1)).rotate(45);
+    /// \endcode
+    ///
+    /// \param factors Scaling factors
+    ///
+    /// \return Reference to *this
+    ///
+    /// \see translate, rotate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='239' ll='242' type='sf::Transform &amp; sf::Transform::scale(const Vector2f &amp; factors)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='238'>////////////////////////////////////////////////////////////</doc>

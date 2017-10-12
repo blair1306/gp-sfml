@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='77' u='c' c='_ZN2sf4priv18SoundFileReaderOgg5checkERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='109' u='c' c='_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>

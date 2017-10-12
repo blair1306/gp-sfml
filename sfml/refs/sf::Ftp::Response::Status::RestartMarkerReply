@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='78' type='110'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='76'>// 1xx: the requested action is being initiated,
+            // expect another reply before proceeding with a new command</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='78'>///&lt; Restart marker reply</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='445' type='int stbi_zlib_decode_buffer(char * obuffer, int olen, const char * ibuffer, int ilen)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4166' ll='4175' macro='1' type='int stbi_zlib_decode_buffer(char * obuffer, int olen, const char * ibuffer, int ilen)'/>

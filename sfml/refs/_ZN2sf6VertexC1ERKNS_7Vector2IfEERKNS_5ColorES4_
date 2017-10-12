@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='92' type='void sf::Vertex::Vertex(const Vector2f &amp; thePosition, const sf::Color &amp; theColor, const Vector2f &amp; theTexCoords)'/>
+<doc f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='84'>////////////////////////////////////////////////////////////
+    /// \brief Construct the vertex from its position, color and texture coordinates
+    ///
+    /// \param thePosition  Vertex position
+    /// \param theColor     Vertex color
+    /// \param theTexCoords Vertex texture coordinates
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='42' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='43' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='44' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='45' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='46' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='47' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='63' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='64' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='65' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='66' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='67' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='68' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<def f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='70' ll='75' type='void sf::Vertex::Vertex(const Vector2f &amp; thePosition, const sf::Color &amp; theColor, const Vector2f &amp; theTexCoords)'/>
+<doc f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='69'>////////////////////////////////////////////////////////////</doc>

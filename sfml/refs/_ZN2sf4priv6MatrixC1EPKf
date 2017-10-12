@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='65' ll='68' type='void sf::priv::Matrix::Matrix&lt;Columns, Rows&gt;(const float * pointer)'/>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='57'>////////////////////////////////////////////////////////////
+    /// \brief Construct from raw data
+    ///
+    /// \param pointer Points to the beginning of an array that
+    ///                has the size of the matrix. The elements
+    ///                are copied to the instance.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

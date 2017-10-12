@@ -1,0 +1,3 @@
+<dec f='include/libudev.h' l='122' type='struct udev_monitor * udev_monitor_new_from_netlink(struct udev * udev, const char * name)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='461' u='c' c='_ZN2sf4priv12JoystickImpl10initializeEv'/>
+<doc f='include/libudev.h' l='121'>/* kernel and udev generated events over netlink */</doc>

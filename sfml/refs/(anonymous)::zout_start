@@ -1,0 +1,19 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3832' type='char *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3902' u='r' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3903' u='r' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3906' u='r' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3909' u='w' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3955' u='r' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4121' u='w' c='_ZL13stbi__do_zlibP10stbi__zbufPciii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4137' u='r' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4138' u='r' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4140' u='r' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4158' u='r' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4159' u='r' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4161' u='r' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4172' u='r' c='stbi_zlib_decode_buffer'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4185' u='r' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4186' u='r' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4188' u='r' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4199' u='r' c='stbi_zlib_decode_noheader_buffer'/>
+<offset>256</offset>

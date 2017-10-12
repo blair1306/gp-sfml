@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='136' type='bool sf::Rect::intersects(const Rect&lt;T&gt; &amp; rectangle) const'/>
+<def f='codebrowser/include/SFML/Graphics/Rect.inl' l='99' ll='104' type='bool sf::Rect::intersects(const Rect&lt;T&gt; &amp; rectangle) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='126'>////////////////////////////////////////////////////////////
+    /// \brief Check the intersection between two rectangles
+    ///
+    /// \param rectangle Rectangle to test
+    ///
+    /// \return True if rectangles overlap, false otherwise
+    ///
+    /// \see contains
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Rect.inl' l='98'>////////////////////////////////////////////////////////////</doc>

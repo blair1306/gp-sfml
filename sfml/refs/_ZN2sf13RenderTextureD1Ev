@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='66' type='void sf::RenderTexture::~RenderTexture()'/>
+<inh f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='59' c='_ZN2sf12RenderTargetD1Ev'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='45' ll='48' type='void sf::RenderTexture::~RenderTexture()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='44'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

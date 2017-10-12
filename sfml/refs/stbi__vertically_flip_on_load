@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='949' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='953' u='w' c='stbi_set_flip_vertically_on_load'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1073' u='r' c='_ZL31stbi__load_and_postprocess_8bitP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1098' u='r' c='_ZL32stbi__load_and_postprocess_16bitP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1109' u='r' c='_ZL23stbi__float_postprocessPfPiS0_S0_i'/>

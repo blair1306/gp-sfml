@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='314' type='sf::VertexArray'/>
+<offset>2112</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='314'>///&lt; Vertex array containing the outline geometry</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='167' u='w' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='182' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='225' u='r' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='255' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='282' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='283' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='287' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='287' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='288' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='288' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='294' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='301' u='m' c='_ZN2sf5Shape19updateOutlineColorsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='302' u='m' c='_ZN2sf5Shape19updateOutlineColorsEv'/>

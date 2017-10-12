@@ -1,0 +1,13 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Window/Cursor.hpp' l='46' ll='180'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Cursor defines the appearance of a system cursor
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6CursorC1Ev'/>
+<fun r='_ZN2sf6CursorD1Ev'/>
+<fun r='_ZN2sf6Cursor14loadFromPixelsEPKhNS_7Vector2IjEES4_'/>
+<fun r='_ZN2sf6Cursor14loadFromSystemENS0_4TypeE'/>
+<fun r='_ZNK2sf6Cursor7getImplEv'/>
+<mbr r='sf::Cursor::m_impl' o='0' t='priv::CursorImpl *'/>

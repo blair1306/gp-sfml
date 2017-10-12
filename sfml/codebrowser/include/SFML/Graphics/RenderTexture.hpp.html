@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>RenderTexture.hpp source code [codebrowser/include/SFML/Graphics/RenderTexture.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::RenderTexture "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Graphics/RenderTexture.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='RenderTexture.hpp.html'>RenderTexture.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_RENDERTEXTURE_HPP">SFML_RENDERTEXTURE_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_RENDERTEXTURE_HPP" data-ref="_M/SFML_RENDERTEXTURE_HPP">SFML_RENDERTEXTURE_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Graphics/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Texture.hpp.html">&lt;SFML/Graphics/Texture.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="RenderTarget.hpp.html">&lt;SFML/Graphics/RenderTarget.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td>    <b>class</b> <a class="type" href="../../../src/SFML/Graphics/RenderTextureImpl.hpp.html#sf::priv::RenderTextureImpl" title='sf::priv::RenderTextureImpl' data-ref="sf::priv::RenderTextureImpl" id="sf::priv::RenderTextureImpl">RenderTextureImpl</a>;</td></tr>
+<tr><th id="41">41</th><td>}</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="44">44</th><td><i>/// \brief Target for off-screen 2D rendering into a texture</i></td></tr>
+<tr><th id="45">45</th><td><i>///</i></td></tr>
+<tr><th id="46">46</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_GRAPHICS_API">SFML_GRAPHICS_API</a> <dfn class="type def" id="sf::RenderTexture" title='sf::RenderTexture' data-ref="sf::RenderTexture">RenderTexture</dfn> : <b>public</b> <a class="type" href="RenderTarget.hpp.html#sf::RenderTarget" title='sf::RenderTarget' data-ref="sf::RenderTarget">RenderTarget</a></td></tr>
+<tr><th id="48">48</th><td>{</td></tr>
+<tr><th id="49">49</th><td><b>public</b>:</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="52">52</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="53">53</th><td><i>    ///</i></td></tr>
+<tr><th id="54">54</th><td><i>    /// Constructs an empty, invalid render-texture. You must</i></td></tr>
+<tr><th id="55">55</th><td><i>    /// call create to have a valid render-texture.</i></td></tr>
+<tr><th id="56">56</th><td><i>    ///</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// \see create</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///</i></td></tr>
+<tr><th id="59">59</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td>    <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTextureC1Ev" title='sf::RenderTexture::RenderTexture' data-ref="_ZN2sf13RenderTextureC1Ev" id="_ZN2sf13RenderTextureC1Ev">RenderTexture</a>();</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///</i></td></tr>
+<tr><th id="65">65</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="66">66</th><td>    <b>virtual</b> <a class="virtual decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTextureD1Ev" title='sf::RenderTexture::~RenderTexture' data-ref="_ZN2sf13RenderTextureD1Ev" id="_ZN2sf13RenderTextureD1Ev">~RenderTexture</a>();</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="69">69</th><td><i>    /// \brief Create the render-texture</i></td></tr>
+<tr><th id="70">70</th><td><i>    ///</i></td></tr>
+<tr><th id="71">71</th><td><i>    /// Before calling this function, the render-texture is in</i></td></tr>
+<tr><th id="72">72</th><td><i>    /// an invalid state, thus it is mandatory to call it before</i></td></tr>
+<tr><th id="73">73</th><td><i>    /// doing anything with the render-texture.</i></td></tr>
+<tr><th id="74">74</th><td><i>    /// The last parameter, \a depthBuffer, is useful if you want</i></td></tr>
+<tr><th id="75">75</th><td><i>    /// to use the render-texture for 3D OpenGL rendering that requires</i></td></tr>
+<tr><th id="76">76</th><td><i>    /// a depth buffer. Otherwise it is unnecessary, and you should</i></td></tr>
+<tr><th id="77">77</th><td><i>    /// leave this parameter to false (which is its default value).</i></td></tr>
+<tr><th id="78">78</th><td><i>    ///</i></td></tr>
+<tr><th id="79">79</th><td><i>    /// \param width       Width of the render-texture</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// \param height      Height of the render-texture</i></td></tr>
+<tr><th id="81">81</th><td><i>    /// \param depthBuffer Do you want this render-texture to have a depth buffer?</i></td></tr>
+<tr><th id="82">82</th><td><i>    ///</i></td></tr>
+<tr><th id="83">83</th><td><i>    /// \return True if creation has been successful</i></td></tr>
+<tr><th id="84">84</th><td><i>    ///</i></td></tr>
+<tr><th id="85">85</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="86">86</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTexture6createEjjb" title='sf::RenderTexture::create' data-ref="_ZN2sf13RenderTexture6createEjjb" id="_ZN2sf13RenderTexture6createEjjb">create</a>(<em>unsigned</em> <em>int</em> <dfn class="local col1 decl" id="1width" title='width' data-type='unsigned int' data-ref="1width">width</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="2height" title='height' data-type='unsigned int' data-ref="2height">height</dfn>, <em>bool</em> <dfn class="local col3 decl" id="3depthBuffer" title='depthBuffer' data-type='bool' data-ref="3depthBuffer">depthBuffer</dfn> = <b>false</b>);</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="89">89</th><td><i>    /// \brief Enable or disable texture smoothing</i></td></tr>
+<tr><th id="90">90</th><td><i>    ///</i></td></tr>
+<tr><th id="91">91</th><td><i>    /// This function is similar to Texture::setSmooth.</i></td></tr>
+<tr><th id="92">92</th><td><i>    /// This parameter is disabled by default.</i></td></tr>
+<tr><th id="93">93</th><td><i>    ///</i></td></tr>
+<tr><th id="94">94</th><td><i>    /// \param smooth True to enable smoothing, false to disable it</i></td></tr>
+<tr><th id="95">95</th><td><i>    ///</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// \see isSmooth</i></td></tr>
+<tr><th id="97">97</th><td><i>    ///</i></td></tr>
+<tr><th id="98">98</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="99">99</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTexture9setSmoothEb" title='sf::RenderTexture::setSmooth' data-ref="_ZN2sf13RenderTexture9setSmoothEb" id="_ZN2sf13RenderTexture9setSmoothEb">setSmooth</a>(<em>bool</em> <dfn class="local col4 decl" id="4smooth" title='smooth' data-type='bool' data-ref="4smooth">smooth</dfn>);</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// \brief Tell whether the smooth filtering is enabled or not</i></td></tr>
+<tr><th id="103">103</th><td><i>    ///</i></td></tr>
+<tr><th id="104">104</th><td><i>    /// \return True if texture smoothing is enabled</i></td></tr>
+<tr><th id="105">105</th><td><i>    ///</i></td></tr>
+<tr><th id="106">106</th><td><i>    /// \see setSmooth</i></td></tr>
+<tr><th id="107">107</th><td><i>    ///</i></td></tr>
+<tr><th id="108">108</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="109">109</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZNK2sf13RenderTexture8isSmoothEv" title='sf::RenderTexture::isSmooth' data-ref="_ZNK2sf13RenderTexture8isSmoothEv" id="_ZNK2sf13RenderTexture8isSmoothEv">isSmooth</a>() <em>const</em>;</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="112">112</th><td><i>    /// \brief Enable or disable texture repeating</i></td></tr>
+<tr><th id="113">113</th><td><i>    ///</i></td></tr>
+<tr><th id="114">114</th><td><i>    /// This function is similar to Texture::setRepeated.</i></td></tr>
+<tr><th id="115">115</th><td><i>    /// This parameter is disabled by default.</i></td></tr>
+<tr><th id="116">116</th><td><i>    ///</i></td></tr>
+<tr><th id="117">117</th><td><i>    /// \param repeated True to enable repeating, false to disable it</i></td></tr>
+<tr><th id="118">118</th><td><i>    ///</i></td></tr>
+<tr><th id="119">119</th><td><i>    /// \see isRepeated</i></td></tr>
+<tr><th id="120">120</th><td><i>    ///</i></td></tr>
+<tr><th id="121">121</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="122">122</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTexture11setRepeatedEb" title='sf::RenderTexture::setRepeated' data-ref="_ZN2sf13RenderTexture11setRepeatedEb" id="_ZN2sf13RenderTexture11setRepeatedEb">setRepeated</a>(<em>bool</em> <dfn class="local col5 decl" id="5repeated" title='repeated' data-type='bool' data-ref="5repeated">repeated</dfn>);</td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="125">125</th><td><i>    /// \brief Tell whether the texture is repeated or not</i></td></tr>
+<tr><th id="126">126</th><td><i>    ///</i></td></tr>
+<tr><th id="127">127</th><td><i>    /// \return True if texture is repeated</i></td></tr>
+<tr><th id="128">128</th><td><i>    ///</i></td></tr>
+<tr><th id="129">129</th><td><i>    /// \see setRepeated</i></td></tr>
+<tr><th id="130">130</th><td><i>    ///</i></td></tr>
+<tr><th id="131">131</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="132">132</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZNK2sf13RenderTexture10isRepeatedEv" title='sf::RenderTexture::isRepeated' data-ref="_ZNK2sf13RenderTexture10isRepeatedEv" id="_ZNK2sf13RenderTexture10isRepeatedEv">isRepeated</a>() <em>const</em>;</td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="135">135</th><td><i>    /// \brief Generate a mipmap using the current texture data</i></td></tr>
+<tr><th id="136">136</th><td><i>    ///</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// This function is similar to Texture::generateMipmap and operates</i></td></tr>
+<tr><th id="138">138</th><td><i>    /// on the texture used as the target for drawing.</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// Be aware that any draw operation may modify the base level image data.</i></td></tr>
+<tr><th id="140">140</th><td><i>    /// For this reason, calling this function only makes sense after all</i></td></tr>
+<tr><th id="141">141</th><td><i>    /// drawing is completed and display has been called. Not calling display</i></td></tr>
+<tr><th id="142">142</th><td><i>    /// after subsequent drawing will lead to undefined behavior if a mipmap</i></td></tr>
+<tr><th id="143">143</th><td><i>    /// had been previously generated.</i></td></tr>
+<tr><th id="144">144</th><td><i>    ///</i></td></tr>
+<tr><th id="145">145</th><td><i>    /// \return True if mipmap generation was successful, false if unsuccessful</i></td></tr>
+<tr><th id="146">146</th><td><i>    ///</i></td></tr>
+<tr><th id="147">147</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="148">148</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTexture14generateMipmapEv" title='sf::RenderTexture::generateMipmap' data-ref="_ZN2sf13RenderTexture14generateMipmapEv" id="_ZN2sf13RenderTexture14generateMipmapEv">generateMipmap</a>();</td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// \brief Activate or deactivate the render-texture for rendering</i></td></tr>
+<tr><th id="152">152</th><td><i>    ///</i></td></tr>
+<tr><th id="153">153</th><td><i>    /// This function makes the render-texture's context current for</i></td></tr>
+<tr><th id="154">154</th><td><i>    /// future OpenGL rendering operations (so you shouldn't care</i></td></tr>
+<tr><th id="155">155</th><td><i>    /// about it if you're not doing direct OpenGL stuff).</i></td></tr>
+<tr><th id="156">156</th><td><i>    /// Only one context can be current in a thread, so if you</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// want to draw OpenGL geometry to another render target</i></td></tr>
+<tr><th id="158">158</th><td><i>    /// (like a RenderWindow) don't forget to activate it again.</i></td></tr>
+<tr><th id="159">159</th><td><i>    ///</i></td></tr>
+<tr><th id="160">160</th><td><i>    /// \param active True to activate, false to deactivate</i></td></tr>
+<tr><th id="161">161</th><td><i>    ///</i></td></tr>
+<tr><th id="162">162</th><td><i>    /// \return True if operation was successful, false otherwise</i></td></tr>
+<tr><th id="163">163</th><td><i>    ///</i></td></tr>
+<tr><th id="164">164</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="165">165</th><td>    <em>bool</em> <a class="virtual decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTexture9setActiveEb" title='sf::RenderTexture::setActive' data-ref="_ZN2sf13RenderTexture9setActiveEb" id="_ZN2sf13RenderTexture9setActiveEb">setActive</a>(<em>bool</em> <dfn class="local col6 decl" id="6active" title='active' data-type='bool' data-ref="6active">active</dfn> = <b>true</b>);</td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="168">168</th><td><i>    /// \brief Update the contents of the target texture</i></td></tr>
+<tr><th id="169">169</th><td><i>    ///</i></td></tr>
+<tr><th id="170">170</th><td><i>    /// This function updates the target texture with what</i></td></tr>
+<tr><th id="171">171</th><td><i>    /// has been drawn so far. Like for windows, calling this</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// function is mandatory at the end of rendering. Not calling</i></td></tr>
+<tr><th id="173">173</th><td><i>    /// it may leave the texture in an undefined state.</i></td></tr>
+<tr><th id="174">174</th><td><i>    ///</i></td></tr>
+<tr><th id="175">175</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="176">176</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZN2sf13RenderTexture7displayEv" title='sf::RenderTexture::display' data-ref="_ZN2sf13RenderTexture7displayEv" id="_ZN2sf13RenderTexture7displayEv">display</a>();</td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="179">179</th><td><i>    /// \brief Return the size of the rendering region of the texture</i></td></tr>
+<tr><th id="180">180</th><td><i>    ///</i></td></tr>
+<tr><th id="181">181</th><td><i>    /// The returned value is the size that you passed to</i></td></tr>
+<tr><th id="182">182</th><td><i>    /// the create function.</i></td></tr>
+<tr><th id="183">183</th><td><i>    ///</i></td></tr>
+<tr><th id="184">184</th><td><i>    /// \return Size in pixels</i></td></tr>
+<tr><th id="185">185</th><td><i>    ///</i></td></tr>
+<tr><th id="186">186</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="187">187</th><td>    <b>virtual</b> <a class="typedef" href="../System/Vector2.hpp.html#sf::Vector2u" title='sf::Vector2u' data-type='Vector2&lt;unsigned int&gt;' data-ref="sf::Vector2u">Vector2u</a> <a class="virtual decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZNK2sf13RenderTexture7getSizeEv" title='sf::RenderTexture::getSize' data-ref="_ZNK2sf13RenderTexture7getSizeEv" id="_ZNK2sf13RenderTexture7getSizeEv">getSize</a>() <em>const</em>;</td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="190">190</th><td><i>    /// \brief Get a read-only reference to the target texture</i></td></tr>
+<tr><th id="191">191</th><td><i>    ///</i></td></tr>
+<tr><th id="192">192</th><td><i>    /// After drawing to the render-texture and calling Display,</i></td></tr>
+<tr><th id="193">193</th><td><i>    /// you can retrieve the updated texture using this function,</i></td></tr>
+<tr><th id="194">194</th><td><i>    /// and draw it using a sprite (for example).</i></td></tr>
+<tr><th id="195">195</th><td><i>    /// The internal sf::Texture of a render-texture is always the</i></td></tr>
+<tr><th id="196">196</th><td><i>    /// same instance, so that it is possible to call this function</i></td></tr>
+<tr><th id="197">197</th><td><i>    /// once and keep a reference to the texture even after it is</i></td></tr>
+<tr><th id="198">198</th><td><i>    /// modified.</i></td></tr>
+<tr><th id="199">199</th><td><i>    ///</i></td></tr>
+<tr><th id="200">200</th><td><i>    /// \return Const reference to the texture</i></td></tr>
+<tr><th id="201">201</th><td><i>    ///</i></td></tr>
+<tr><th id="202">202</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="203">203</th><td>    <em>const</em> <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>&amp; <a class="decl" href="../../../src/SFML/Graphics/RenderTexture.cpp.html#_ZNK2sf13RenderTexture10getTextureEv" title='sf::RenderTexture::getTexture' data-ref="_ZNK2sf13RenderTexture10getTextureEv" id="_ZNK2sf13RenderTexture10getTextureEv">getTexture</a>() <em>const</em>;</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td><b>private</b>:</td></tr>
+<tr><th id="206">206</th><td></td></tr>
+<tr><th id="207">207</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="208">208</th><td><i>    // Member data</i></td></tr>
+<tr><th id="209">209</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="210">210</th><td>    <span class="namespace">priv::</span><a class="type" href="../../../src/SFML/Graphics/RenderTextureImpl.hpp.html#sf::priv::RenderTextureImpl" title='sf::priv::RenderTextureImpl' data-ref="sf::priv::RenderTextureImpl">RenderTextureImpl</a>* <dfn class="decl" id="sf::RenderTexture::m_impl" title='sf::RenderTexture::m_impl' data-ref="sf::RenderTexture::m_impl">m_impl</dfn>;    <i class="doc">///&lt; Platform/hardware specific implementation</i></td></tr>
+<tr><th id="211">211</th><td>    <a class="type" href="Texture.hpp.html#sf::Texture" title='sf::Texture' data-ref="sf::Texture">Texture</a>                  <dfn class="decl" id="sf::RenderTexture::m_texture" title='sf::RenderTexture::m_texture' data-ref="sf::RenderTexture::m_texture">m_texture</dfn>; <i class="doc">///&lt; Target texture to draw on</i></td></tr>
+<tr><th id="212">212</th><td>};</td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td><u>#<span data-ppcond="25">endif</span> // SFML_RENDERTEXTURE_HPP</u></td></tr>
+<tr><th id="218">218</th><td></td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="221">221</th><td><i>/// \class sf::RenderTexture</i></td></tr>
+<tr><th id="222">222</th><td><i>/// \ingroup graphics</i></td></tr>
+<tr><th id="223">223</th><td><i>///</i></td></tr>
+<tr><th id="224">224</th><td><i>/// sf::RenderTexture is the little brother of sf::RenderWindow.</i></td></tr>
+<tr><th id="225">225</th><td><i>/// It implements the same 2D drawing and OpenGL-related functions</i></td></tr>
+<tr><th id="226">226</th><td><i>/// (see their base class sf::RenderTarget for more details),</i></td></tr>
+<tr><th id="227">227</th><td><i>/// the difference is that the result is stored in an off-screen</i></td></tr>
+<tr><th id="228">228</th><td><i>/// texture rather than being show in a window.</i></td></tr>
+<tr><th id="229">229</th><td><i>///</i></td></tr>
+<tr><th id="230">230</th><td><i>/// Rendering to a texture can be useful in a variety of situations:</i></td></tr>
+<tr><th id="231">231</th><td><i>/// \li precomputing a complex static texture (like a level's background from multiple tiles)</i></td></tr>
+<tr><th id="232">232</th><td><i>/// \li applying post-effects to the whole scene with shaders</i></td></tr>
+<tr><th id="233">233</th><td><i>/// \li creating a sprite from a 3D object rendered with OpenGL</i></td></tr>
+<tr><th id="234">234</th><td><i>/// \li etc.</i></td></tr>
+<tr><th id="235">235</th><td><i>///</i></td></tr>
+<tr><th id="236">236</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="237">237</th><td><i>///</i></td></tr>
+<tr><th id="238">238</th><td><i>/// \code</i></td></tr>
+<tr><th id="239">239</th><td><i>/// // Create a new render-window</i></td></tr>
+<tr><th id="240">240</th><td><i>/// sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");</i></td></tr>
+<tr><th id="241">241</th><td><i>///</i></td></tr>
+<tr><th id="242">242</th><td><i>/// // Create a new render-texture</i></td></tr>
+<tr><th id="243">243</th><td><i>/// sf::RenderTexture texture;</i></td></tr>
+<tr><th id="244">244</th><td><i>/// if (!texture.create(500, 500))</i></td></tr>
+<tr><th id="245">245</th><td><i>///     return -1;</i></td></tr>
+<tr><th id="246">246</th><td><i>///</i></td></tr>
+<tr><th id="247">247</th><td><i>/// // The main loop</i></td></tr>
+<tr><th id="248">248</th><td><i>/// while (window.isOpen())</i></td></tr>
+<tr><th id="249">249</th><td><i>/// {</i></td></tr>
+<tr><th id="250">250</th><td><i>///    // Event processing</i></td></tr>
+<tr><th id="251">251</th><td><i>///    // ...</i></td></tr>
+<tr><th id="252">252</th><td><i>///</i></td></tr>
+<tr><th id="253">253</th><td><i>///    // Clear the whole texture with red color</i></td></tr>
+<tr><th id="254">254</th><td><i>///    texture.clear(sf::Color::Red);</i></td></tr>
+<tr><th id="255">255</th><td><i>///</i></td></tr>
+<tr><th id="256">256</th><td><i>///    // Draw stuff to the texture</i></td></tr>
+<tr><th id="257">257</th><td><i>///    texture.draw(sprite);  // sprite is a sf::Sprite</i></td></tr>
+<tr><th id="258">258</th><td><i>///    texture.draw(shape);   // shape is a sf::Shape</i></td></tr>
+<tr><th id="259">259</th><td><i>///    texture.draw(text);    // text is a sf::Text</i></td></tr>
+<tr><th id="260">260</th><td><i>///</i></td></tr>
+<tr><th id="261">261</th><td><i>///    // We're done drawing to the texture</i></td></tr>
+<tr><th id="262">262</th><td><i>///    texture.display();</i></td></tr>
+<tr><th id="263">263</th><td><i>///</i></td></tr>
+<tr><th id="264">264</th><td><i>///    // Now we start rendering to the window, clear it first</i></td></tr>
+<tr><th id="265">265</th><td><i>///    window.clear();</i></td></tr>
+<tr><th id="266">266</th><td><i>///</i></td></tr>
+<tr><th id="267">267</th><td><i>///    // Draw the texture</i></td></tr>
+<tr><th id="268">268</th><td><i>///    sf::Sprite sprite(texture.getTexture());</i></td></tr>
+<tr><th id="269">269</th><td><i>///    window.draw(sprite);</i></td></tr>
+<tr><th id="270">270</th><td><i>///</i></td></tr>
+<tr><th id="271">271</th><td><i>///    // End the current frame and display its contents on screen</i></td></tr>
+<tr><th id="272">272</th><td><i>///    window.display();</i></td></tr>
+<tr><th id="273">273</th><td><i>/// }</i></td></tr>
+<tr><th id="274">274</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="275">275</th><td><i>///</i></td></tr>
+<tr><th id="276">276</th><td><i>/// Like sf::RenderWindow, sf::RenderTexture is still able to render direct</i></td></tr>
+<tr><th id="277">277</th><td><i>/// OpenGL stuff. It is even possible to mix together OpenGL calls</i></td></tr>
+<tr><th id="278">278</th><td><i>/// and regular SFML drawing commands. If you need a depth buffer for</i></td></tr>
+<tr><th id="279">279</th><td><i>/// 3D rendering, don't forget to request it when calling RenderTexture::create.</i></td></tr>
+<tr><th id="280">280</th><td><i>///</i></td></tr>
+<tr><th id="281">281</th><td><i>/// \see sf::RenderTarget, sf::RenderWindow, sf::View, sf::Texture</i></td></tr>
+<tr><th id="282">282</th><td><i>///</i></td></tr>
+<tr><th id="283">283</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="284">284</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Graphics/RenderTexture.cpp.html'>codebrowser/src/SFML/Graphics/RenderTexture.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

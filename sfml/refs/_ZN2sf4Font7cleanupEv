@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='304' type='void sf::Font::cleanup()'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='110' u='c' c='_ZN2sf4FontD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='127' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='192' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='247' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='475' ll='515' type='void sf::Font::cleanup()'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='474'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='300'>////////////////////////////////////////////////////////////
+    /// \brief Free all the internal resources
+    ///
+    ////////////////////////////////////////////////////////////</doc>

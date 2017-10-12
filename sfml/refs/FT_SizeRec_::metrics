@@ -1,0 +1,7 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1540' type='FT_Size_Metrics'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='396' u='m' c='_ZNK2sf4Font14getLineSpacingEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='416' u='m' c='_ZNK2sf4Font20getUnderlinePositionEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='436' u='m' c='_ZNK2sf4Font21getUnderlineThicknessEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='751' u='m' c='_ZNK2sf4Font14setCurrentSizeEj'/>
+<offset>192</offset>
+<doc f='include/freetype2/freetype/freetype.h' l='1540'>/* size metrics                    */</doc>

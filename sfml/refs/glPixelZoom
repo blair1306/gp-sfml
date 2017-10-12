@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1445' type='void glPixelZoom(GLfloat , GLfloat )'/>
+<dec f='include/GL/gl.h' l='1191' type='void glPixelZoom(GLfloat xfactor, GLfloat yfactor)'/>

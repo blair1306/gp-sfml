@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1583' type='void glCopyTexSubImage2D(GLenum , GLint , GLint , GLint , GLint , GLint , GLsizei , GLsizei )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='86' u='c' c='_ZN2sf4priv24RenderTextureImplDefault13updateTextureEj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='566' u='c' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<dec f='include/GL/gl.h' l='1355' type='void glCopyTexSubImage2D(GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint x, GLint y, GLsizei width, GLsizei height)'/>

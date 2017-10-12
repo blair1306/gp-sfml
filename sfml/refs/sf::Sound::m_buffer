@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='220' type='const sf::SoundBuffer *'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='37' u='w' c='_ZN2sf5SoundC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='44' u='w' c='_ZN2sf5SoundC1ERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='53' u='w' c='_ZN2sf5SoundC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='55' u='r' c='_ZN2sf5SoundC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='56' u='r' c='_ZN2sf5SoundC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='65' u='r' c='_ZN2sf5SoundD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='66' u='r' c='_ZN2sf5SoundD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='95' u='r' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='98' u='r' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='102' u='w' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='103' u='r' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='104' u='r' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='125' u='r' c='_ZNK2sf5Sound9getBufferEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='167' u='r' c='_ZN2sf5SoundaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='170' u='r' c='_ZN2sf5SoundaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='171' u='w' c='_ZN2sf5SoundaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='175' u='r' c='_ZN2sf5SoundaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='176' u='r' c='_ZN2sf5SoundaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='190' u='r' c='_ZN2sf5Sound11resetBufferEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='193' u='r' c='_ZN2sf5Sound11resetBufferEv'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='194' u='w' c='_ZN2sf5Sound11resetBufferEv'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='217'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='220'>///&lt; Sound buffer bound to the source</doc>

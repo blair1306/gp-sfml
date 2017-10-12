@@ -1,0 +1,19 @@
+<inh f='codebrowser/include/SFML/Network/Socket.hpp' l='45' c='sf::Socket'/>
+<def f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='46' ll='231'/>
+<size>64</size>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Specialized socket using the TCP protocol
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9TcpSocketC1Ev'/>
+<fun r='_ZNK2sf9TcpSocket12getLocalPortEv'/>
+<fun r='_ZNK2sf9TcpSocket16getRemoteAddressEv'/>
+<fun r='_ZNK2sf9TcpSocket13getRemotePortEv'/>
+<fun r='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<fun r='_ZN2sf9TcpSocket10disconnectEv'/>
+<fun r='_ZN2sf9TcpSocket4sendEPKvm'/>
+<fun r='_ZN2sf9TcpSocket4sendEPKvmRm'/>
+<fun r='_ZN2sf9TcpSocket7receiveEPvmRm'/>
+<fun r='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<fun r='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<mbr r='sf::TcpSocket::m_pendingPacket' o='192' t='sf::TcpSocket::PendingPacket'/>

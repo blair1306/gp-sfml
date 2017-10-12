@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='784' ll='786' type='reference __gnu_cxx::__normal_iterator::operator[](difference_type __n) const'/>
+<doc f='include/c++/5/bits/stl_iterator.h' l='783'>// Random access iterator requirements</doc>

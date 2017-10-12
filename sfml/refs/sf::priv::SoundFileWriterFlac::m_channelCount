@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='105' type='unsigned int'/>
+<offset>128</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='105'>///&lt; Number of channels</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='52' u='w' c='_ZN2sf4priv19SoundFileWriterFlacC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='90' u='w' c='_ZN2sf4priv19SoundFileWriterFlac4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='102' u='r' c='_ZN2sf4priv19SoundFileWriterFlac5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='105' u='r' c='_ZN2sf4priv19SoundFileWriterFlac5writeEPKsy'/>

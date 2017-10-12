@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='40' type='0'/>
+<doc f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='40'>///&lt; No border / title bar (this flag and all others are mutually exclusive)</doc>

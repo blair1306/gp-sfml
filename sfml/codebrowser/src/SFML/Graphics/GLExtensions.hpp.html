@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>GLExtensions.hpp source code [codebrowser/src/SFML/Graphics/GLExtensions.hpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Graphics/GLExtensions.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='GLExtensions.hpp.html'>GLExtensions.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_GLEXTENSIONS_HPP">SFML_GLEXTENSIONS_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_GLEXTENSIONS_HPP" data-ref="_M/SFML_GLEXTENSIONS_HPP">SFML_GLEXTENSIONS_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../../include/SFML/Config.hpp.html">&lt;SFML/Config.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="33">ifdef</span> <span class="macro" data-ref="_M/SFML_OPENGL_ES">SFML_OPENGL_ES</span></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td>    <u>#include &lt;SFML/OpenGL.hpp&gt;</u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td>    <i>// SFML requires at a bare minimum OpenGL ES 1.0 capability</i></td></tr>
+<tr><th id="38">38</th><td><i>    // Some extensions only incorporated by 2.0 are also required</i></td></tr>
+<tr><th id="39">39</th><td><i>    // OpenGL ES 1.0 is defined relative to OpenGL 1.3</i></td></tr>
+<tr><th id="40">40</th><td><i>    // OpenGL ES 1.1 is defined relative to OpenGL 1.5</i></td></tr>
+<tr><th id="41">41</th><td><i>    // OpenGL ES 2.0 is defined relative to OpenGL 2.0</i></td></tr>
+<tr><th id="42">42</th><td><i>    // All functionality beyond that is optional</i></td></tr>
+<tr><th id="43">43</th><td><i>    // and has to be checked for prior to use</i></td></tr>
+<tr><th id="44">44</th><td><i></i></td></tr>
+<tr><th id="45">45</th><td><i>    // Core since 1.0</i></td></tr>
+<tr><th id="46">46</th><td>    <u>#define GLEXT_multitexture                        true</u></td></tr>
+<tr><th id="47">47</th><td>    <u>#define GLEXT_texture_edge_clamp                  true</u></td></tr>
+<tr><th id="48">48</th><td>    <u>#define GLEXT_EXT_texture_edge_clamp              true</u></td></tr>
+<tr><th id="49">49</th><td>    <u>#define GLEXT_blend_minmax                        true</u></td></tr>
+<tr><th id="50">50</th><td>    <u>#define GLEXT_glClientActiveTexture               glClientActiveTexture</u></td></tr>
+<tr><th id="51">51</th><td>    <u>#define GLEXT_glActiveTexture                     glActiveTexture</u></td></tr>
+<tr><th id="52">52</th><td>    <u>#define GLEXT_GL_TEXTURE0                         GL_TEXTURE0</u></td></tr>
+<tr><th id="53">53</th><td>    <u>#define GLEXT_GL_CLAMP                            GL_CLAMP_TO_EDGE</u></td></tr>
+<tr><th id="54">54</th><td>    <u>#define GLEXT_GL_CLAMP_TO_EDGE                    GL_CLAMP_TO_EDGE</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>    <i>// The following extensions are listed chronologically</i></td></tr>
+<tr><th id="57">57</th><td><i>    // Extension macro first, followed by tokens then</i></td></tr>
+<tr><th id="58">58</th><td><i>    // functions according to the corresponding specification</i></td></tr>
+<tr><th id="59">59</th><td><i></i></td></tr>
+<tr><th id="60">60</th><td><i>    // The following extensions are required.</i></td></tr>
+<tr><th id="61">61</th><td><i></i></td></tr>
+<tr><th id="62">62</th><td><i>    // Core since 2.0 - OES_blend_subtract</i></td></tr>
+<tr><th id="63">63</th><td>    <u>#define GLEXT_blend_subtract                      GL_OES_blend_subtract</u></td></tr>
+<tr><th id="64">64</th><td>    <u>#define GLEXT_glBlendEquation                     glBlendEquationOES</u></td></tr>
+<tr><th id="65">65</th><td>    <u>#define GLEXT_GL_FUNC_ADD                         GL_FUNC_ADD_OES</u></td></tr>
+<tr><th id="66">66</th><td>    <u>#define GLEXT_GL_FUNC_SUBTRACT                    GL_FUNC_SUBTRACT_OES</u></td></tr>
+<tr><th id="67">67</th><td>    <u>#define GLEXT_GL_FUNC_REVERSE_SUBTRACT            GL_FUNC_REVERSE_SUBTRACT_OES</u></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>    <i>// The following extensions are optional.</i></td></tr>
+<tr><th id="70">70</th><td><i></i></td></tr>
+<tr><th id="71">71</th><td><i>    // Core since 2.0 - OES_blend_func_separate</i></td></tr>
+<tr><th id="72">72</th><td>    <u>#ifdef SFML_SYSTEM_ANDROID</u></td></tr>
+<tr><th id="73">73</th><td>        <i>// Hack to make transparency working on some Android devices</i></td></tr>
+<tr><th id="74">74</th><td>        <u>#define GLEXT_blend_func_separate                 false</u></td></tr>
+<tr><th id="75">75</th><td>    <u>#else</u></td></tr>
+<tr><th id="76">76</th><td>        <u>#define GLEXT_blend_func_separate                 GL_OES_blend_func_separate</u></td></tr>
+<tr><th id="77">77</th><td>    <u>#endif</u></td></tr>
+<tr><th id="78">78</th><td>    <u>#define GLEXT_glBlendFuncSeparate                 glBlendFuncSeparateOES</u></td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>    <i>// Core since 2.0 - OES_blend_equation_separate</i></td></tr>
+<tr><th id="81">81</th><td>    <u>#ifdef SFML_SYSTEM_ANDROID</u></td></tr>
+<tr><th id="82">82</th><td>        <i>// Hack to make transparency working on some Android devices</i></td></tr>
+<tr><th id="83">83</th><td>        <u>#define GLEXT_blend_equation_separate             false</u></td></tr>
+<tr><th id="84">84</th><td>    <u>#else</u></td></tr>
+<tr><th id="85">85</th><td>        <u>#define GLEXT_blend_equation_separate             GL_OES_blend_equation_separate</u></td></tr>
+<tr><th id="86">86</th><td>    <u>#endif</u></td></tr>
+<tr><th id="87">87</th><td>    <u>#define GLEXT_glBlendEquationSeparate             glBlendEquationSeparateOES</u></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td>    <i>// Core since 2.0 - OES_texture_npot</i></td></tr>
+<tr><th id="90">90</th><td>    <u>#define GLEXT_texture_non_power_of_two            false</u></td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td>    <i>// Core since 2.0 - OES_framebuffer_object</i></td></tr>
+<tr><th id="93">93</th><td>    <u>#define GLEXT_framebuffer_object                  GL_OES_framebuffer_object</u></td></tr>
+<tr><th id="94">94</th><td>    <u>#define GLEXT_glBindRenderbuffer                  glBindRenderbufferOES</u></td></tr>
+<tr><th id="95">95</th><td>    <u>#define GLEXT_glDeleteRenderbuffers               glDeleteRenderbuffersOES</u></td></tr>
+<tr><th id="96">96</th><td>    <u>#define GLEXT_glGenRenderbuffers                  glGenRenderbuffersOES</u></td></tr>
+<tr><th id="97">97</th><td>    <u>#define GLEXT_glRenderbufferStorage               glRenderbufferStorageOES</u></td></tr>
+<tr><th id="98">98</th><td>    <u>#define GLEXT_glBindFramebuffer                   glBindFramebufferOES</u></td></tr>
+<tr><th id="99">99</th><td>    <u>#define GLEXT_glDeleteFramebuffers                glDeleteFramebuffersOES</u></td></tr>
+<tr><th id="100">100</th><td>    <u>#define GLEXT_glGenFramebuffers                   glGenFramebuffersOES</u></td></tr>
+<tr><th id="101">101</th><td>    <u>#define GLEXT_glCheckFramebufferStatus            glCheckFramebufferStatusOES</u></td></tr>
+<tr><th id="102">102</th><td>    <u>#define GLEXT_glFramebufferTexture2D              glFramebufferTexture2DOES</u></td></tr>
+<tr><th id="103">103</th><td>    <u>#define GLEXT_glFramebufferRenderbuffer           glFramebufferRenderbufferOES</u></td></tr>
+<tr><th id="104">104</th><td>    <u>#define GLEXT_glGenerateMipmap                    glGenerateMipmapOES</u></td></tr>
+<tr><th id="105">105</th><td>    <u>#define GLEXT_GL_FRAMEBUFFER                      GL_FRAMEBUFFER_OES</u></td></tr>
+<tr><th id="106">106</th><td>    <u>#define GLEXT_GL_RENDERBUFFER                     GL_RENDERBUFFER_OES</u></td></tr>
+<tr><th id="107">107</th><td>    <u>#define GLEXT_GL_DEPTH_COMPONENT                  GL_DEPTH_COMPONENT16_OES</u></td></tr>
+<tr><th id="108">108</th><td>    <u>#define GLEXT_GL_COLOR_ATTACHMENT0                GL_COLOR_ATTACHMENT0_OES</u></td></tr>
+<tr><th id="109">109</th><td>    <u>#define GLEXT_GL_DEPTH_ATTACHMENT                 GL_DEPTH_ATTACHMENT_OES</u></td></tr>
+<tr><th id="110">110</th><td>    <u>#define GLEXT_GL_FRAMEBUFFER_COMPLETE             GL_FRAMEBUFFER_COMPLETE_OES</u></td></tr>
+<tr><th id="111">111</th><td>    <u>#define GLEXT_GL_FRAMEBUFFER_BINDING              GL_FRAMEBUFFER_BINDING_OES</u></td></tr>
+<tr><th id="112">112</th><td>    <u>#define GLEXT_GL_INVALID_FRAMEBUFFER_OPERATION    GL_INVALID_FRAMEBUFFER_OPERATION_OES</u></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td>    <i>// Core since 3.0</i></td></tr>
+<tr><th id="115">115</th><td>    <u>#define GLEXT_framebuffer_blit                    false</u></td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td>    <i>// Core since 3.0 - EXT_sRGB</i></td></tr>
+<tr><th id="118">118</th><td>    <u>#ifdef GL_EXT_sRGB</u></td></tr>
+<tr><th id="119">119</th><td>        <u>#define GLEXT_texture_sRGB                        GL_EXT_sRGB</u></td></tr>
+<tr><th id="120">120</th><td>        <u>#define GLEXT_GL_SRGB8_ALPHA8                     GL_SRGB8_ALPHA8_EXT</u></td></tr>
+<tr><th id="121">121</th><td>    <u>#else</u></td></tr>
+<tr><th id="122">122</th><td>        <u>#define GLEXT_texture_sRGB                        false</u></td></tr>
+<tr><th id="123">123</th><td>        <u>#define GLEXT_GL_SRGB8_ALPHA8                     0</u></td></tr>
+<tr><th id="124">124</th><td>    <u>#endif</u></td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td><u>#<span data-ppcond="33">else</span></u></td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td>    <u>#include <a href="GLLoader.hpp.html">&lt;SFML/Graphics/GLLoader.hpp&gt;</a></u></td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td>    <i>// SFML requires at a bare minimum OpenGL 1.1 capability</i></td></tr>
+<tr><th id="131">131</th><td><i>    // All functionality beyond that is optional</i></td></tr>
+<tr><th id="132">132</th><td><i>    // and has to be checked for prior to use</i></td></tr>
+<tr><th id="133">133</th><td><i></i></td></tr>
+<tr><th id="134">134</th><td><i>    // Core since 1.1</i></td></tr>
+<tr><th id="135">135</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_DEPTH_COMPONENT" data-ref="_M/GLEXT_GL_DEPTH_COMPONENT">GLEXT_GL_DEPTH_COMPONENT</dfn>                  GL_DEPTH_COMPONENT</u></td></tr>
+<tr><th id="136">136</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_CLAMP" data-ref="_M/GLEXT_GL_CLAMP">GLEXT_GL_CLAMP</dfn>                            GL_CLAMP</u></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td>    <i>// The following extensions are listed chronologically</i></td></tr>
+<tr><th id="139">139</th><td><i>    // Extension macro first, followed by tokens then</i></td></tr>
+<tr><th id="140">140</th><td><i>    // functions according to the corresponding specification</i></td></tr>
+<tr><th id="141">141</th><td><i></i></td></tr>
+<tr><th id="142">142</th><td><i>    // The following extensions are optional.</i></td></tr>
+<tr><th id="143">143</th><td><i></i></td></tr>
+<tr><th id="144">144</th><td><i>    // Core since 1.2 - SGIS_texture_edge_clamp</i></td></tr>
+<tr><th id="145">145</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_texture_edge_clamp" data-ref="_M/GLEXT_texture_edge_clamp">GLEXT_texture_edge_clamp</dfn>                  sfogl_ext_SGIS_texture_edge_clamp</u></td></tr>
+<tr><th id="146">146</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_CLAMP_TO_EDGE" data-ref="_M/GLEXT_GL_CLAMP_TO_EDGE">GLEXT_GL_CLAMP_TO_EDGE</dfn>                    GL_CLAMP_TO_EDGE_SGIS</u></td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td>    <i>// Core since 1.2 - EXT_texture_edge_clamp</i></td></tr>
+<tr><th id="149">149</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_EXT_texture_edge_clamp" data-ref="_M/GLEXT_EXT_texture_edge_clamp">GLEXT_EXT_texture_edge_clamp</dfn>              sfogl_ext_EXT_texture_edge_clamp</u></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td>    <i>// Core since 1.2 - EXT_blend_minmax</i></td></tr>
+<tr><th id="152">152</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_blend_minmax" data-ref="_M/GLEXT_blend_minmax">GLEXT_blend_minmax</dfn>                        sfogl_ext_EXT_blend_minmax</u></td></tr>
+<tr><th id="153">153</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glBlendEquation" data-ref="_M/GLEXT_glBlendEquation">GLEXT_glBlendEquation</dfn>                     glBlendEquationEXT</u></td></tr>
+<tr><th id="154">154</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FUNC_ADD" data-ref="_M/GLEXT_GL_FUNC_ADD">GLEXT_GL_FUNC_ADD</dfn>                         GL_FUNC_ADD_EXT</u></td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td>    <i>// Core since 1.2 - EXT_blend_subtract</i></td></tr>
+<tr><th id="157">157</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_blend_subtract" data-ref="_M/GLEXT_blend_subtract">GLEXT_blend_subtract</dfn>                      sfogl_ext_EXT_blend_subtract</u></td></tr>
+<tr><th id="158">158</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FUNC_SUBTRACT" data-ref="_M/GLEXT_GL_FUNC_SUBTRACT">GLEXT_GL_FUNC_SUBTRACT</dfn>                    GL_FUNC_SUBTRACT_EXT</u></td></tr>
+<tr><th id="159">159</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FUNC_REVERSE_SUBTRACT" data-ref="_M/GLEXT_GL_FUNC_REVERSE_SUBTRACT">GLEXT_GL_FUNC_REVERSE_SUBTRACT</dfn>            GL_FUNC_REVERSE_SUBTRACT_EXT</u></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td>    <i>// Core since 1.3 - ARB_multitexture</i></td></tr>
+<tr><th id="162">162</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_multitexture" data-ref="_M/GLEXT_multitexture">GLEXT_multitexture</dfn>                        sfogl_ext_ARB_multitexture</u></td></tr>
+<tr><th id="163">163</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glClientActiveTexture" data-ref="_M/GLEXT_glClientActiveTexture">GLEXT_glClientActiveTexture</dfn>               glClientActiveTextureARB</u></td></tr>
+<tr><th id="164">164</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glActiveTexture" data-ref="_M/GLEXT_glActiveTexture">GLEXT_glActiveTexture</dfn>                     glActiveTextureARB</u></td></tr>
+<tr><th id="165">165</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_TEXTURE0" data-ref="_M/GLEXT_GL_TEXTURE0">GLEXT_GL_TEXTURE0</dfn>                         GL_TEXTURE0_ARB</u></td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td>    <i>// Core since 1.4 - EXT_blend_func_separate</i></td></tr>
+<tr><th id="168">168</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_blend_func_separate" data-ref="_M/GLEXT_blend_func_separate">GLEXT_blend_func_separate</dfn>                 sfogl_ext_EXT_blend_func_separate</u></td></tr>
+<tr><th id="169">169</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glBlendFuncSeparate" data-ref="_M/GLEXT_glBlendFuncSeparate">GLEXT_glBlendFuncSeparate</dfn>                 glBlendFuncSeparateEXT</u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td>    <i>// Core since 2.0 - ARB_shading_language_100</i></td></tr>
+<tr><th id="172">172</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_shading_language_100" data-ref="_M/GLEXT_shading_language_100">GLEXT_shading_language_100</dfn>                sfogl_ext_ARB_shading_language_100</u></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td>    <i>// Core since 2.0 - ARB_shader_objects</i></td></tr>
+<tr><th id="175">175</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_shader_objects" data-ref="_M/GLEXT_shader_objects">GLEXT_shader_objects</dfn>                      sfogl_ext_ARB_shader_objects</u></td></tr>
+<tr><th id="176">176</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glDeleteObject" data-ref="_M/GLEXT_glDeleteObject">GLEXT_glDeleteObject</dfn>                      glDeleteObjectARB</u></td></tr>
+<tr><th id="177">177</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGetHandle" data-ref="_M/GLEXT_glGetHandle">GLEXT_glGetHandle</dfn>                         glGetHandleARB</u></td></tr>
+<tr><th id="178">178</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glCreateShaderObject" data-ref="_M/GLEXT_glCreateShaderObject">GLEXT_glCreateShaderObject</dfn>                glCreateShaderObjectARB</u></td></tr>
+<tr><th id="179">179</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glShaderSource" data-ref="_M/GLEXT_glShaderSource">GLEXT_glShaderSource</dfn>                      glShaderSourceARB</u></td></tr>
+<tr><th id="180">180</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glCompileShader" data-ref="_M/GLEXT_glCompileShader">GLEXT_glCompileShader</dfn>                     glCompileShaderARB</u></td></tr>
+<tr><th id="181">181</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glCreateProgramObject" data-ref="_M/GLEXT_glCreateProgramObject">GLEXT_glCreateProgramObject</dfn>               glCreateProgramObjectARB</u></td></tr>
+<tr><th id="182">182</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glAttachObject" data-ref="_M/GLEXT_glAttachObject">GLEXT_glAttachObject</dfn>                      glAttachObjectARB</u></td></tr>
+<tr><th id="183">183</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glLinkProgram" data-ref="_M/GLEXT_glLinkProgram">GLEXT_glLinkProgram</dfn>                       glLinkProgramARB</u></td></tr>
+<tr><th id="184">184</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUseProgramObject" data-ref="_M/GLEXT_glUseProgramObject">GLEXT_glUseProgramObject</dfn>                  glUseProgramObjectARB</u></td></tr>
+<tr><th id="185">185</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform1f" data-ref="_M/GLEXT_glUniform1f">GLEXT_glUniform1f</dfn>                         glUniform1fARB</u></td></tr>
+<tr><th id="186">186</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform2f" data-ref="_M/GLEXT_glUniform2f">GLEXT_glUniform2f</dfn>                         glUniform2fARB</u></td></tr>
+<tr><th id="187">187</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform3f" data-ref="_M/GLEXT_glUniform3f">GLEXT_glUniform3f</dfn>                         glUniform3fARB</u></td></tr>
+<tr><th id="188">188</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform4f" data-ref="_M/GLEXT_glUniform4f">GLEXT_glUniform4f</dfn>                         glUniform4fARB</u></td></tr>
+<tr><th id="189">189</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform1i" data-ref="_M/GLEXT_glUniform1i">GLEXT_glUniform1i</dfn>                         glUniform1iARB</u></td></tr>
+<tr><th id="190">190</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform2i" data-ref="_M/GLEXT_glUniform2i">GLEXT_glUniform2i</dfn>                         glUniform2iARB</u></td></tr>
+<tr><th id="191">191</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform3i" data-ref="_M/GLEXT_glUniform3i">GLEXT_glUniform3i</dfn>                         glUniform3iARB</u></td></tr>
+<tr><th id="192">192</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform4i" data-ref="_M/GLEXT_glUniform4i">GLEXT_glUniform4i</dfn>                         glUniform4iARB</u></td></tr>
+<tr><th id="193">193</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform1fv" data-ref="_M/GLEXT_glUniform1fv">GLEXT_glUniform1fv</dfn>                        glUniform1fvARB</u></td></tr>
+<tr><th id="194">194</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform2fv" data-ref="_M/GLEXT_glUniform2fv">GLEXT_glUniform2fv</dfn>                        glUniform2fvARB</u></td></tr>
+<tr><th id="195">195</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform2iv" data-ref="_M/GLEXT_glUniform2iv">GLEXT_glUniform2iv</dfn>                        glUniform2ivARB</u></td></tr>
+<tr><th id="196">196</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform3fv" data-ref="_M/GLEXT_glUniform3fv">GLEXT_glUniform3fv</dfn>                        glUniform3fvARB</u></td></tr>
+<tr><th id="197">197</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniform4fv" data-ref="_M/GLEXT_glUniform4fv">GLEXT_glUniform4fv</dfn>                        glUniform4fvARB</u></td></tr>
+<tr><th id="198">198</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniformMatrix3fv" data-ref="_M/GLEXT_glUniformMatrix3fv">GLEXT_glUniformMatrix3fv</dfn>                  glUniformMatrix3fvARB</u></td></tr>
+<tr><th id="199">199</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glUniformMatrix4fv" data-ref="_M/GLEXT_glUniformMatrix4fv">GLEXT_glUniformMatrix4fv</dfn>                  glUniformMatrix4fvARB</u></td></tr>
+<tr><th id="200">200</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGetObjectParameteriv" data-ref="_M/GLEXT_glGetObjectParameteriv">GLEXT_glGetObjectParameteriv</dfn>              glGetObjectParameterivARB</u></td></tr>
+<tr><th id="201">201</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGetInfoLog" data-ref="_M/GLEXT_glGetInfoLog">GLEXT_glGetInfoLog</dfn>                        glGetInfoLogARB</u></td></tr>
+<tr><th id="202">202</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGetUniformLocation" data-ref="_M/GLEXT_glGetUniformLocation">GLEXT_glGetUniformLocation</dfn>                glGetUniformLocationARB</u></td></tr>
+<tr><th id="203">203</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_PROGRAM_OBJECT" data-ref="_M/GLEXT_GL_PROGRAM_OBJECT">GLEXT_GL_PROGRAM_OBJECT</dfn>                   GL_PROGRAM_OBJECT_ARB</u></td></tr>
+<tr><th id="204">204</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_OBJECT_COMPILE_STATUS" data-ref="_M/GLEXT_GL_OBJECT_COMPILE_STATUS">GLEXT_GL_OBJECT_COMPILE_STATUS</dfn>            GL_OBJECT_COMPILE_STATUS_ARB</u></td></tr>
+<tr><th id="205">205</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_OBJECT_LINK_STATUS" data-ref="_M/GLEXT_GL_OBJECT_LINK_STATUS">GLEXT_GL_OBJECT_LINK_STATUS</dfn>               GL_OBJECT_LINK_STATUS_ARB</u></td></tr>
+<tr><th id="206">206</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GLhandle" data-ref="_M/GLEXT_GLhandle">GLEXT_GLhandle</dfn>                            GLhandleARB</u></td></tr>
+<tr><th id="207">207</th><td></td></tr>
+<tr><th id="208">208</th><td>    <i>// Core since 2.0 - ARB_vertex_shader</i></td></tr>
+<tr><th id="209">209</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_vertex_shader" data-ref="_M/GLEXT_vertex_shader">GLEXT_vertex_shader</dfn>                       sfogl_ext_ARB_vertex_shader</u></td></tr>
+<tr><th id="210">210</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_VERTEX_SHADER" data-ref="_M/GLEXT_GL_VERTEX_SHADER">GLEXT_GL_VERTEX_SHADER</dfn>                    GL_VERTEX_SHADER_ARB</u></td></tr>
+<tr><th id="211">211</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS" data-ref="_M/GLEXT_GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS">GLEXT_GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS</dfn> GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB</u></td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td>    <i>// Core since 2.0 - ARB_fragment_shader</i></td></tr>
+<tr><th id="214">214</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_fragment_shader" data-ref="_M/GLEXT_fragment_shader">GLEXT_fragment_shader</dfn>                     sfogl_ext_ARB_fragment_shader</u></td></tr>
+<tr><th id="215">215</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FRAGMENT_SHADER" data-ref="_M/GLEXT_GL_FRAGMENT_SHADER">GLEXT_GL_FRAGMENT_SHADER</dfn>                  GL_FRAGMENT_SHADER_ARB</u></td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td>    <i>// Core since 2.0 - ARB_texture_non_power_of_two</i></td></tr>
+<tr><th id="218">218</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_texture_non_power_of_two" data-ref="_M/GLEXT_texture_non_power_of_two">GLEXT_texture_non_power_of_two</dfn>            sfogl_ext_ARB_texture_non_power_of_two</u></td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td>    <i>// Core since 2.0 - EXT_blend_equation_separate</i></td></tr>
+<tr><th id="221">221</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_blend_equation_separate" data-ref="_M/GLEXT_blend_equation_separate">GLEXT_blend_equation_separate</dfn>             sfogl_ext_EXT_blend_equation_separate</u></td></tr>
+<tr><th id="222">222</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glBlendEquationSeparate" data-ref="_M/GLEXT_glBlendEquationSeparate">GLEXT_glBlendEquationSeparate</dfn>             glBlendEquationSeparateEXT</u></td></tr>
+<tr><th id="223">223</th><td></td></tr>
+<tr><th id="224">224</th><td>    <i>// Core since 2.1 - EXT_texture_sRGB</i></td></tr>
+<tr><th id="225">225</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_texture_sRGB" data-ref="_M/GLEXT_texture_sRGB">GLEXT_texture_sRGB</dfn>                        sfogl_ext_EXT_texture_sRGB</u></td></tr>
+<tr><th id="226">226</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_SRGB8_ALPHA8" data-ref="_M/GLEXT_GL_SRGB8_ALPHA8">GLEXT_GL_SRGB8_ALPHA8</dfn>                     GL_SRGB8_ALPHA8_EXT</u></td></tr>
+<tr><th id="227">227</th><td></td></tr>
+<tr><th id="228">228</th><td>    <i>// Core since 3.0 - EXT_framebuffer_object</i></td></tr>
+<tr><th id="229">229</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_framebuffer_object" data-ref="_M/GLEXT_framebuffer_object">GLEXT_framebuffer_object</dfn>                  sfogl_ext_EXT_framebuffer_object</u></td></tr>
+<tr><th id="230">230</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glBindRenderbuffer" data-ref="_M/GLEXT_glBindRenderbuffer">GLEXT_glBindRenderbuffer</dfn>                  glBindRenderbufferEXT</u></td></tr>
+<tr><th id="231">231</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glDeleteRenderbuffers" data-ref="_M/GLEXT_glDeleteRenderbuffers">GLEXT_glDeleteRenderbuffers</dfn>               glDeleteRenderbuffersEXT</u></td></tr>
+<tr><th id="232">232</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGenRenderbuffers" data-ref="_M/GLEXT_glGenRenderbuffers">GLEXT_glGenRenderbuffers</dfn>                  glGenRenderbuffersEXT</u></td></tr>
+<tr><th id="233">233</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glRenderbufferStorage" data-ref="_M/GLEXT_glRenderbufferStorage">GLEXT_glRenderbufferStorage</dfn>               glRenderbufferStorageEXT</u></td></tr>
+<tr><th id="234">234</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glBindFramebuffer" data-ref="_M/GLEXT_glBindFramebuffer">GLEXT_glBindFramebuffer</dfn>                   glBindFramebufferEXT</u></td></tr>
+<tr><th id="235">235</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glDeleteFramebuffers" data-ref="_M/GLEXT_glDeleteFramebuffers">GLEXT_glDeleteFramebuffers</dfn>                glDeleteFramebuffersEXT</u></td></tr>
+<tr><th id="236">236</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGenFramebuffers" data-ref="_M/GLEXT_glGenFramebuffers">GLEXT_glGenFramebuffers</dfn>                   glGenFramebuffersEXT</u></td></tr>
+<tr><th id="237">237</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glCheckFramebufferStatus" data-ref="_M/GLEXT_glCheckFramebufferStatus">GLEXT_glCheckFramebufferStatus</dfn>            glCheckFramebufferStatusEXT</u></td></tr>
+<tr><th id="238">238</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glFramebufferTexture2D" data-ref="_M/GLEXT_glFramebufferTexture2D">GLEXT_glFramebufferTexture2D</dfn>              glFramebufferTexture2DEXT</u></td></tr>
+<tr><th id="239">239</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glFramebufferRenderbuffer" data-ref="_M/GLEXT_glFramebufferRenderbuffer">GLEXT_glFramebufferRenderbuffer</dfn>           glFramebufferRenderbufferEXT</u></td></tr>
+<tr><th id="240">240</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glGenerateMipmap" data-ref="_M/GLEXT_glGenerateMipmap">GLEXT_glGenerateMipmap</dfn>                    glGenerateMipmapEXT</u></td></tr>
+<tr><th id="241">241</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FRAMEBUFFER" data-ref="_M/GLEXT_GL_FRAMEBUFFER">GLEXT_GL_FRAMEBUFFER</dfn>                      GL_FRAMEBUFFER_EXT</u></td></tr>
+<tr><th id="242">242</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_RENDERBUFFER" data-ref="_M/GLEXT_GL_RENDERBUFFER">GLEXT_GL_RENDERBUFFER</dfn>                     GL_RENDERBUFFER_EXT</u></td></tr>
+<tr><th id="243">243</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_COLOR_ATTACHMENT0" data-ref="_M/GLEXT_GL_COLOR_ATTACHMENT0">GLEXT_GL_COLOR_ATTACHMENT0</dfn>                GL_COLOR_ATTACHMENT0_EXT</u></td></tr>
+<tr><th id="244">244</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_DEPTH_ATTACHMENT" data-ref="_M/GLEXT_GL_DEPTH_ATTACHMENT">GLEXT_GL_DEPTH_ATTACHMENT</dfn>                 GL_DEPTH_ATTACHMENT_EXT</u></td></tr>
+<tr><th id="245">245</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FRAMEBUFFER_COMPLETE" data-ref="_M/GLEXT_GL_FRAMEBUFFER_COMPLETE">GLEXT_GL_FRAMEBUFFER_COMPLETE</dfn>             GL_FRAMEBUFFER_COMPLETE_EXT</u></td></tr>
+<tr><th id="246">246</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_FRAMEBUFFER_BINDING" data-ref="_M/GLEXT_GL_FRAMEBUFFER_BINDING">GLEXT_GL_FRAMEBUFFER_BINDING</dfn>              GL_FRAMEBUFFER_BINDING_EXT</u></td></tr>
+<tr><th id="247">247</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_INVALID_FRAMEBUFFER_OPERATION" data-ref="_M/GLEXT_GL_INVALID_FRAMEBUFFER_OPERATION">GLEXT_GL_INVALID_FRAMEBUFFER_OPERATION</dfn>    GL_INVALID_FRAMEBUFFER_OPERATION_EXT</u></td></tr>
+<tr><th id="248">248</th><td></td></tr>
+<tr><th id="249">249</th><td>    <i>// Core since 3.0 - EXT_framebuffer_blit</i></td></tr>
+<tr><th id="250">250</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_framebuffer_blit" data-ref="_M/GLEXT_framebuffer_blit">GLEXT_framebuffer_blit</dfn>                    sfogl_ext_EXT_framebuffer_blit</u></td></tr>
+<tr><th id="251">251</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_glBlitFramebuffer" data-ref="_M/GLEXT_glBlitFramebuffer">GLEXT_glBlitFramebuffer</dfn>                   glBlitFramebufferEXT</u></td></tr>
+<tr><th id="252">252</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_READ_FRAMEBUFFER" data-ref="_M/GLEXT_GL_READ_FRAMEBUFFER">GLEXT_GL_READ_FRAMEBUFFER</dfn>                 GL_READ_FRAMEBUFFER_EXT</u></td></tr>
+<tr><th id="253">253</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_DRAW_FRAMEBUFFER" data-ref="_M/GLEXT_GL_DRAW_FRAMEBUFFER">GLEXT_GL_DRAW_FRAMEBUFFER</dfn>                 GL_DRAW_FRAMEBUFFER_EXT</u></td></tr>
+<tr><th id="254">254</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_DRAW_FRAMEBUFFER_BINDING" data-ref="_M/GLEXT_GL_DRAW_FRAMEBUFFER_BINDING">GLEXT_GL_DRAW_FRAMEBUFFER_BINDING</dfn>         GL_DRAW_FRAMEBUFFER_BINDING_EXT</u></td></tr>
+<tr><th id="255">255</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_READ_FRAMEBUFFER_BINDING" data-ref="_M/GLEXT_GL_READ_FRAMEBUFFER_BINDING">GLEXT_GL_READ_FRAMEBUFFER_BINDING</dfn>         GL_READ_FRAMEBUFFER_BINDING_EXT</u></td></tr>
+<tr><th id="256">256</th><td></td></tr>
+<tr><th id="257">257</th><td>    <i>// Core since 3.2 - ARB_geometry_shader4</i></td></tr>
+<tr><th id="258">258</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_geometry_shader4" data-ref="_M/GLEXT_geometry_shader4">GLEXT_geometry_shader4</dfn>                    sfogl_ext_ARB_geometry_shader4</u></td></tr>
+<tr><th id="259">259</th><td>    <u>#define <dfn class="macro" id="_M/GLEXT_GL_GEOMETRY_SHADER" data-ref="_M/GLEXT_GL_GEOMETRY_SHADER">GLEXT_GL_GEOMETRY_SHADER</dfn>                  GL_GEOMETRY_SHADER_ARB</u></td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td><u>#<span data-ppcond="33">endif</span></u></td></tr>
+<tr><th id="262">262</th><td></td></tr>
+<tr><th id="263">263</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="264">264</th><td>{</td></tr>
+<tr><th id="265">265</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="266">266</th><td>{</td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="269">269</th><td><i>/// \brief Make sure that extensions are initialized</i></td></tr>
+<tr><th id="270">270</th><td><i>///</i></td></tr>
+<tr><th id="271">271</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="272">272</th><td><em>void</em> <dfn class="decl" id="_ZN2sf4priv20ensureExtensionsInitEv" title='sf::priv::ensureExtensionsInit' data-ref="_ZN2sf4priv20ensureExtensionsInitEv">ensureExtensionsInit</dfn>();</td></tr>
+<tr><th id="273">273</th><td></td></tr>
+<tr><th id="274">274</th><td>} <i>// namespace priv</i></td></tr>
+<tr><th id="275">275</th><td></td></tr>
+<tr><th id="276">276</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="277">277</th><td></td></tr>
+<tr><th id="278">278</th><td></td></tr>
+<tr><th id="279">279</th><td><u>#<span data-ppcond="25">endif</span> // SFML_GLEXTENSIONS_HPP</u></td></tr>
+<tr><th id="280">280</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='Font.cpp.html'>codebrowser/src/SFML/Graphics/Font.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,14 @@
+<def f='include/c++/5/bits/stl_algobase.h' l='218' ll='227' type='const _Tp &amp; std::max(const _Tp &amp; __a, const _Tp &amp; __b)'/>
+<dec f='include/c++/5/bits/algorithmfwd.h' l='357' type='const _Tp &amp; std::max(const _Tp &amp; , const _Tp &amp; )'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='118' u='c' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='119' u='c' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='120' u='c' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='121' u='c' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='432' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='433' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='455' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='457' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='475' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='477' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='108' u='c' c='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<use f='include/c++/5/bits/stl_deque.h' l='686' u='c' c='_ZNSt11_Deque_base17_M_initialize_mapEm'/>

@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='181' type='double fabs(double __x)'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='191' u='c' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

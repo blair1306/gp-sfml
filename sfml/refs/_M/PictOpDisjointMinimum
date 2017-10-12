@@ -1,0 +1,4 @@
+<dec f='include/X11/extensions/render.h' l='114'/>
+<doc f='include/X11/extensions/render.h' l='111'>/*
+ * Operators only available in version 0.2
+ */</doc>

@@ -1,0 +1,2 @@
+<dec f='include/X11/Xutil.h' l='583' type='int XSetClassHint(Display * , Window , XClassHint * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='697' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>

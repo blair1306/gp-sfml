@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='82' type='bool sf::priv::SoundFileWriterFlac::open(const std::string &amp; filename, unsigned int sampleRate, unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file for writing
+    ///
+    /// \param filename     Path of the file to open
+    /// \param sampleRate   Sample rate of the sound
+    /// \param channelCount Number of channels of the sound
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='61' c='_ZN2sf15SoundFileWriter4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='66' ll='93' type='bool sf::priv::SoundFileWriterFlac::open(const std::string &amp; filename, unsigned int sampleRate, unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='65'>////////////////////////////////////////////////////////////</doc>

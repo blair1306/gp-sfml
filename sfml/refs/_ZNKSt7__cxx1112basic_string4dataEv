@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/basic_string.h' l='1896' ll='1898' type='const _CharT * std::__cxx11::basic_string::data() const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1890'>/**
+       *  @brief  Return const pointer to contents.
+       *
+       *  This is a handle to internal data.  Do not modify or dire things may
+       *  happen.
+      */</doc>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='398' u='c' c='_ZNKSt7__cxx119money_get6do_getET0_S1_bRSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIT_St11char_traitsIS7_ESaIS7_EEE'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='398' u='c' c='_ZNKSt7__cxx119money_get6do_getET0_S1_bRSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIT_St11char_traitsIS7_ESaIS7_EEE'/>

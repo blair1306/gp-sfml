@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='302' type='sf::Ftp::Response sf::Ftp::login()'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='163' ll='166' type='Ftp::Response sf::Ftp::login()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='162'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='293'>////////////////////////////////////////////////////////////
+    /// \brief Log in using an anonymous account
+    ///
+    /// Logging in is mandatory after connecting to the server.
+    /// Users that are not logged in cannot perform any operation.
+    ///
+    /// \return Server response to the request
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,5 @@
+<dec f='include/X11/Xlib.h' l='262' type='int'/>
+<offset>288</offset>
+<dec f='include/X11/extensions/Xrandr.h' l='46' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='68' type='int'/>
+<offset>672</offset>

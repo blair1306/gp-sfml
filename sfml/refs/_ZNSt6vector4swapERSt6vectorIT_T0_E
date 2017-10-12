@@ -1,0 +1,16 @@
+<def f='include/c++/5/bits/stl_vector.h' l='1193' ll='1202' type='void std::vector::swap(vector&lt;_Tp, _Alloc&gt; &amp; __x)'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='1184'>/**
+       *  @brief  Swaps data with another %vector.
+       *  @param  __x  A %vector of the same element and allocator types.
+       *
+       *  This exchanges the elements between two vectors in constant time.
+       *  (Three pointers, so it should be quite fast.)
+       *  Note that the global std::swap() function is specialized such that
+       *  std::swap(v1,v2) will feed to this function.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='295' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='514' u='c' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='84' u='c' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='93' u='c' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='111' u='c' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='120' u='c' c='_ZN2sf5Image6createEjjPKh'/>

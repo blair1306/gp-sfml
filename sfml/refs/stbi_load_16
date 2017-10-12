@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='372' type='stbi_us * stbi_load_16(const char * filename, int * x, int * y, int * channels_in_file, int desired_channels)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1167' ll='1175' macro='1' type='stbi_us * stbi_load_16(const char * filename, int * x, int * y, int * comp, int req_comp)'/>

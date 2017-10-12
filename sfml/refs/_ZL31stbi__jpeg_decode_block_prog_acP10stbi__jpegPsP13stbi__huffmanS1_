@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1984' ll='2101' type='int stbi__jpeg_decode_block_prog_ac(stbi__jpeg * j, short * data, stbi__huffman * hac, stbi__int16 * fac)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2716' u='c' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1982'>// @OPTIMIZE: store non-zigzagged during the decode passes,
+// and only de-zigzag when dequantizing</doc>

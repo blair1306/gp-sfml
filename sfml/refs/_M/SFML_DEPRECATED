@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Config.hpp' l='186'/>
+<doc f='codebrowser/include/SFML/Config.hpp' l='185'>// g++ and Clang</doc>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='554' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='562' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='570' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='578' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='586' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='594' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='602' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='610' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='618' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Shader.hpp' l='626' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='158' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Text.hpp' l='177' u='c'/>
+<use f='codebrowser/include/SFML/Graphics/Text.hpp' l='285' u='c'/>

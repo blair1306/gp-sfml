@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='275' type='std::deque&lt;XEvent&gt;'/>
+<offset>6016</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='275'>///&lt; Queue we use to store pending events for this window</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='773' u='m' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='776' u='m' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='778' u='m' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='779' u='m' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1563' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1564' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1568' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1572' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

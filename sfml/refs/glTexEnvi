@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1534' type='void glTexEnvi(GLenum , GLenum , GLint )'/>
+<dec f='include/GL/gl.h' l='1260' type='void glTexEnvi(GLenum target, GLenum pname, GLint param)'/>

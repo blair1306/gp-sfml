@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='198' type='void sf::Ftp::DirectoryResponse::DirectoryResponse(const sf::Ftp::Response &amp; response)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='99' ll='109' type='void sf::Ftp::DirectoryResponse::DirectoryResponse(const Ftp::Response &amp; response)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='202' u='c' c='_ZN2sf3Ftp19getWorkingDirectoryEv'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='98'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='192'>////////////////////////////////////////////////////////////
+        /// \brief Default constructor
+        ///
+        /// \param response Source response
+        ///
+        ////////////////////////////////////////////////////////////</doc>

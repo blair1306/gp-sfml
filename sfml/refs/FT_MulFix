@@ -1,0 +1,4 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3938' type='FT_Long FT_MulFix(FT_Long a, FT_Long b)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='416' u='c' c='_ZNK2sf4Font20getUnderlinePositionEj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='436' u='c' c='_ZNK2sf4Font21getUnderlineThicknessEj'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3936'>/*                                                                       */</doc>

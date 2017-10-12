@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='94' type='bool sf::priv::ImageLoader::loadImageFromStream(sf::InputStream &amp; stream, std::vector&lt;Uint8&gt; &amp; pixels, Vector2u &amp; size)'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='158' u='c' c='_ZN2sf5Image14loadFromStreamERNS_11InputStreamE'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='84'>////////////////////////////////////////////////////////////
+    /// \brief Load an image from a custom stream
+    ///
+    /// \param stream Source stream to read from
+    /// \param pixels Array of pixels to fill with loaded image
+    /// \param size   Size of loaded image, in pixels
+    ///
+    /// \return True if loading was successful
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='185' ll='230' type='bool sf::priv::ImageLoader::loadImageFromStream(sf::InputStream &amp; stream, std::vector&lt;Uint8&gt; &amp; pixels, Vector2u &amp; size)'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='184'>////////////////////////////////////////////////////////////</doc>

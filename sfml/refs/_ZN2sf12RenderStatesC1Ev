@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='61' type='void sf::RenderStates::RenderStates()'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Constructing a default set of render states is equivalent
+    /// to using sf::RenderStates::Default.
+    /// The default set defines:
+    /// \li the BlendAlpha blend mode
+    /// \li the identity transform
+    /// \li a null texture
+    /// \li a null shader
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='43' ll='49' type='void sf::RenderStates::RenderStates()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

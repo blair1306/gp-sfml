@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftoutln.h' l='293' type='FT_Error FT_Outline_Copy(const FT_Outline * source, FT_Outline * target)'/>
+<doc f='include/freetype2/freetype/ftoutln.h' l='291'>/*                                                                       */</doc>

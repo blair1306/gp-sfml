@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='196' ll='199'/>
+<size>12</size>
+<mbr r='_XConicalGradient::center' o='0' t='XPointFixed'/>
+<mbr r='_XConicalGradient::angle' o='64' t='XFixed'/>

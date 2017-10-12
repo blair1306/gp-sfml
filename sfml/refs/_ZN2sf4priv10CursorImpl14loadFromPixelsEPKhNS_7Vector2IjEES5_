@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='72' type='bool sf::priv::CursorImpl::loadFromPixels(const Uint8 * pixels, Vector2u size, Vector2u hotspot)'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='55' u='c' c='_ZN2sf6Cursor14loadFromPixelsEPKhNS_7Vector2IjEES4_'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='66'>////////////////////////////////////////////////////////////
+    /// \brief Create a cursor with the provided image
+    ///
+    /// Refer to sf::Cursor::loadFromPixels().
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='60' ll='112' type='bool sf::priv::CursorImpl::loadFromPixels(const Uint8 * pixels, Vector2u size, Vector2u hotspot)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='59'>////////////////////////////////////////////////////////////</doc>

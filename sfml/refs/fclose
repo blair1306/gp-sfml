@@ -1,0 +1,9 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1137' u='c' c='stbi_load'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1173' u='c' c='stbi_load_16'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1248' u='c' c='stbi_loadf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1286' u='c' c='stbi_is_hdr'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6938' u='c' c='stbi_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='240' u='c' c='_ZL20stbi__end_write_fileP19stbi__write_context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1016' u='c' c='stbi_write_png'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='52' u='c' c='_ZN2sf15FileInputStreamD1Ev'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='67' u='c' c='_ZN2sf15FileInputStream4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

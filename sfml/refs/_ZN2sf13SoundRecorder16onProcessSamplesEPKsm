@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='243' type='bool sf::SoundRecorder::onProcessSamples(const Int16 * samples, std::size_t sampleCount)'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='54' c='_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='229'>////////////////////////////////////////////////////////////
+    /// \brief Process a new chunk of recorded samples
+    ///
+    /// This virtual function is called every time a new chunk of
+    /// recorded data is available. The derived class can then do
+    /// whatever it wants with it (storing it, playing it, sending
+    /// it over the network, etc.).
+    ///
+    /// \param samples     Pointer to the new chunk of recorded samples
+    /// \param sampleCount Number of samples pointed by \a samples
+    ///
+    /// \return True to continue the capture, or false to stop it
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='307' u='c' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>

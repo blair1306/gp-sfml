@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='93' type='Vector3f sf::priv::SensorManager::getValue(Sensor::Type sensor) const'/>
+<use f='codebrowser/src/SFML/Window/Sensor.cpp' l='50' u='c' c='_ZN2sf6Sensor8getValueENS0_4TypeE'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='85'>////////////////////////////////////////////////////////////
+    /// \brief Get the current value of a sensor
+    ///
+    /// \param sensor Sensor to read
+    ///
+    /// \return Current value of the sensor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/SensorManager.cpp' l='74' ll='77' type='Vector3f sf::priv::SensorManager::getValue(Sensor::Type sensor) const'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.cpp' l='73'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='238' u='c' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

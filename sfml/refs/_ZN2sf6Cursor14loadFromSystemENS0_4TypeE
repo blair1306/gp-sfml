@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='157' type='bool sf::Cursor::loadFromSystem(sf::Cursor::Type type)'/>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='143'>////////////////////////////////////////////////////////////
+    /// \brief Create a native system cursor
+    ///
+    /// Refer to the list of cursor available on each system
+    /// (see sf::Cursor::Type) to know whether a given cursor is
+    /// expected to load successfully or is not supported by
+    /// the operating system.
+    ///
+    /// \param type Native system cursor type
+    /// \return true if and only if the corresponding cursor is
+    ///         natively supported by the operating system;
+    ///         false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Cursor.cpp' l='60' ll='63' type='bool sf::Cursor::loadFromSystem(sf::Cursor::Type type)'/>
+<doc f='codebrowser/src/SFML/Window/Cursor.cpp' l='59'>////////////////////////////////////////////////////////////</doc>

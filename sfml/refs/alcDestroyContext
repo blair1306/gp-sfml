@@ -1,0 +1,2 @@
+<dec f='include/AL/alc.h' l='174' type='void alcDestroyContext(ALCcontext * context)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='95' u='c' c='_ZN2sf4priv11AudioDeviceD1Ev'/>

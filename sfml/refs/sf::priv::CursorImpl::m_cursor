@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='96' type='::Cursor'/>
+<offset>64</offset>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='44' u='w' c='_ZN2sf4priv10CursorImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='101' u='w' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='137' u='w' c='_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='145' u='r' c='_ZN2sf4priv10CursorImpl7releaseEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='147' u='r' c='_ZN2sf4priv10CursorImpl7releaseEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='148' u='w' c='_ZN2sf4priv10CursorImpl7releaseEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1069' u='r' c='_ZN2sf4priv13WindowImplX1114setMouseCursorERKNS0_10CursorImplE'/>

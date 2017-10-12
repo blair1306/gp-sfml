@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='323' type='sf::Transform'/>
+<offset>288</offset>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='323'>///&lt; Combined transformation of the object</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='40' u='w' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='196' u='w' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='202' u='a' c='_ZNK2sf13Transformable12getTransformEv'/>

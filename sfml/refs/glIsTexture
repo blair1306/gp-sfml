@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1596' type='GLboolean glIsTexture(GLuint )'/>
+<dec f='include/GL/gl.h' l='1321' type='GLboolean glIsTexture(GLuint texture)'/>

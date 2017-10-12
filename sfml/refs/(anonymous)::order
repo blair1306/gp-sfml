@@ -1,0 +1,13 @@
+<dec f='include/FLAC/format.h' l='235' type='unsigned int'/>
+<dec f='include/FLAC/format.h' l='302' type='unsigned int'/>
+<dec f='include/FLAC/format.h' l='319' type='unsigned int'/>
+<offset>192</offset>
+<doc f='include/FLAC/format.h' l='300'>/**&lt; The residual coding method. */</doc>
+<doc f='include/FLAC/format.h' l='317'>/**&lt; The residual coding method. */</doc>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1697' type='int [4]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2644' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2674' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2701' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2734' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2906' u='w' c='_ZL25stbi__process_scan_headerP10stbi__jpeg'/>
+<offset>148160</offset>

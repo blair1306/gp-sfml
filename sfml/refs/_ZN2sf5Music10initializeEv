@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='254' type='void sf::Music::initialize()'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='65' u='c' c='_ZN2sf5Music12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='82' u='c' c='_ZN2sf5Music14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='99' u='c' c='_ZN2sf5Music14openFromStreamERNS_11InputStreamE'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='235' ll='246' type='void sf::Music::initialize()'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='234'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='250'>////////////////////////////////////////////////////////////
+    /// \brief Initialize the internal state after loading a new music
+    ///
+    ////////////////////////////////////////////////////////////</doc>

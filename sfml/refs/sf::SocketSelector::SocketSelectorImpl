@@ -1,0 +1,7 @@
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='43' ll='49'/>
+<size>264</size>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='42'>////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::SocketSelector::SocketSelectorImpl::allSockets' o='0' t='fd_set'/>
+<mbr r='sf::SocketSelector::SocketSelectorImpl::socketsReady' o='1024' t='fd_set'/>
+<mbr r='sf::SocketSelector::SocketSelectorImpl::maxSocket' o='2048' t='int'/>
+<mbr r='sf::SocketSelector::SocketSelectorImpl::socketCount' o='2080' t='int'/>

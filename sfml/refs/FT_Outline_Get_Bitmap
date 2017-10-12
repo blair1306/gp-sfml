@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftoutln.h' l='441' type='FT_Error FT_Outline_Get_Bitmap(FT_Library library, FT_Outline * outline, const FT_Bitmap * abitmap)'/>
+<doc f='include/freetype2/freetype/ftoutln.h' l='439'>/*                                                                       */</doc>

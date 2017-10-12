@@ -1,0 +1,9 @@
+<dec f='include/FLAC/stream_decoder.h' l='751' type='void FLAC__stream_decoder_delete(FLAC__StreamDecoder * decoder)'/>
+<doc f='include/FLAC/stream_decoder.h' l='745'>/** Free a decoder instance.  Deletes the object pointed to by \a decoder.
+ *
+ * \param decoder  A pointer to an existing decoder.
+ * \assert
+ *    \code decoder != NULL \endcode
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='201' u='c' c='_ZN2sf4priv19SoundFileReaderFlac5checkERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='333' u='c' c='_ZN2sf4priv19SoundFileReaderFlac5closeEv'/>

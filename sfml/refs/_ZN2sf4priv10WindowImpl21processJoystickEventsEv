@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='262' type='void sf::priv::WindowImpl::processJoystickEvents()'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='258'>////////////////////////////////////////////////////////////
+    /// \brief Read the joysticks state and generate the appropriate events
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='118' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='131' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<def f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='159' ll='220' type='void sf::priv::WindowImpl::processJoystickEvents()'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='158'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='61' type='bool sf::SoundFileWriter::open(const std::string &amp; filename, unsigned int sampleRate, unsigned int channelCount)'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='62' u='c' c='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file for writing
+    ///
+    /// \param filename     Path of the file to open
+    /// \param sampleRate   Sample rate of the sound
+    /// \param channelCount Number of channels of the sound
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='66' c='_ZN2sf4priv19SoundFileWriterFlac4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='69' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='104' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>

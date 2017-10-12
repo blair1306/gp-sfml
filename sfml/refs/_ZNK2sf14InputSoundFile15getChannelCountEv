@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='117' type='unsigned int sf::InputSoundFile::getChannelCount() const'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='183' ll='186' type='unsigned int sf::InputSoundFile::getChannelCount() const'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='182'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Get the number of channels used by the sound
+    ///
+    /// \return Number of channels (1 = mono, 2 = stereo)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='242' u='c' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='245' u='c' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='222' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>

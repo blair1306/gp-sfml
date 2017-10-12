@@ -1,0 +1,5 @@
+<dec f='include/X11/extensions/Xrandr.h' l='170' type='void XRRFreeScreenConfigInfo(XRRScreenConfiguration * config)'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='96' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='162' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1282' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1303' u='c' c='_ZN2sf4priv13WindowImplX1114resetVideoModeEv'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='412' type='sf::TcpSocket'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='384' u='m' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='392' u='m' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='398' u='m' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='409' u='m' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='409'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='412'>///&lt; Connection to the host</doc>

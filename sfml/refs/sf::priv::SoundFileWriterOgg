@@ -1,0 +1,19 @@
+<inh f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='41' c='sf::SoundFileWriter'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='44' ll='115'/>
+<size>1136</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Implementation of sound file writer that handles OGG/Vorbis files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv18SoundFileWriterOgg5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4priv18SoundFileWriterOggC1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileWriterOggD1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<fun r='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>
+<fun r='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<fun r='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>
+<mbr r='sf::priv::SoundFileWriterOgg::m_channelCount' o='64' t='unsigned int'/>
+<mbr r='sf::priv::SoundFileWriterOgg::m_file' o='128' t='std::ofstream'/>
+<mbr r='sf::priv::SoundFileWriterOgg::m_ogg' o='4224' t='ogg_stream_state'/>
+<mbr r='sf::priv::SoundFileWriterOgg::m_vorbis' o='7488' t='vorbis_info'/>
+<mbr r='sf::priv::SoundFileWriterOgg::m_state' o='7936' t='vorbis_dsp_state'/>

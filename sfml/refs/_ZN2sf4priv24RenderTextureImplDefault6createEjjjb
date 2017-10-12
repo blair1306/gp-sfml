@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='74' type='bool sf::priv::RenderTextureImplDefault::create(unsigned int width, unsigned int height, unsigned int textureId, bool depthBuffer)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Create the render texture implementation
+    ///
+    /// \param width       Width of the texture to render to
+    /// \param height      Height of the texture to render to
+    /// \param textureId   OpenGL identifier of the target texture
+    /// \param depthBuffer Is a depth buffer requested?
+    ///
+    /// \return True if creation has been successful
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='63' c='_ZN2sf4priv17RenderTextureImpl6createEjjjb'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='58' ll='68' type='bool sf::priv::RenderTextureImplDefault::create(unsigned int width, unsigned int height, unsigned int , bool depthBuffer)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='57'>////////////////////////////////////////////////////////////</doc>

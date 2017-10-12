@@ -1,0 +1,10 @@
+<def f='include/c++/5/streambuf' l='554' ll='559' type='void std::basic_streambuf::setp(char_type * __pbeg, char_type * __pend)'/>
+<doc f='include/c++/5/streambuf' l='547'>/**
+       *  @brief  Setting the three write area pointers.
+       *  @param  __pbeg  A pointer.
+       *  @param  __pend  A pointer.
+       *  @post  @a __pbeg == @c pbase(), @a __pbeg == @c pptr(), and
+       *         @a __pend == @c epptr()
+      */</doc>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='46' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBufC1Ev'/>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='90' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBuf4syncEv'/>

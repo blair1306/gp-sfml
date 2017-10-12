@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='82' type='void sf::Http::Request::Request(const std::string &amp; uri = &quot;/&quot;, sf::Http::Request::Method method = Get, const std::string &amp; body = &quot;&quot;)'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='52' ll='58' type='void sf::Http::Request::Request(const std::string &amp; uri = &quot;/&quot;, sf::Http::Request::Method method = Get, const std::string &amp; body = &quot;&quot;)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='51'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='71'>////////////////////////////////////////////////////////////
+        /// \brief Default constructor
+        ///
+        /// This constructor creates a GET request, with the root
+        /// URI (&quot;/&quot;) and an empty body.
+        ///
+        /// \param uri    Target URI
+        /// \param method Method to use for the request
+        /// \param body   Content of the request&apos;s body
+        ///
+        ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='153' u='c' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>

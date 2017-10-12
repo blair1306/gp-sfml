@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='51' type='void sf::MemoryInputStream::MemoryInputStream()'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='112' u='c' c='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='99' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<def f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='35' ll='40' type='void sf::MemoryInputStream::MemoryInputStream()'/>
+<doc f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='34'>////////////////////////////////////////////////////////////</doc>

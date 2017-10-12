@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/basic_string.h' l='542' ll='543' type='void std::__cxx11::basic_string::~basic_string&lt;_CharT, _Traits, _Alloc&gt;()'/>
+<doc f='include/c++/5/bits/basic_string.h' l='539'>/**
+       *  @brief  Destroy the string instance.
+       */</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='869'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='340' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='357' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='754' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='767' u='c'/>
+<dec f='include/GL/gl.h' l='218'/>

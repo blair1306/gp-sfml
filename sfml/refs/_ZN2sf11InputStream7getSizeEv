@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/InputStream.hpp' l='89' type='Int64 sf::InputStream::getSize()'/>
+<doc f='codebrowser/include/SFML/System/InputStream.hpp' l='83'>////////////////////////////////////////////////////////////
+    /// \brief Return the size of the stream
+    ///
+    /// \return The total number of bytes available in the stream, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='87' u='c' c='_ZN12_GLOBAL__N_112streamLengthEPK19FLAC__StreamDecoderPmPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='103' u='c' c='_ZN12_GLOBAL__N_19streamEofEPK19FLAC__StreamDecoderPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='55' u='c' c='_ZN12_GLOBAL__N_14seekEPvli'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='268' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='62' u='c' c='_ZN12_GLOBAL__N_13eofEPv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='108' u='c' c='_ZN12_GLOBAL__N_117getStreamContentsERN2sf11InputStreamERSt6vectorIcSaIcEE'/>
+<ovr f='codebrowser/src/SFML/System/FileInputStream.cpp' l='126' c='_ZN2sf15FileInputStream7getSizeEv'/>
+<ovr f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='93' c='_ZN2sf17MemoryInputStream7getSizeEv'/>

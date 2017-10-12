@@ -1,0 +1,18 @@
+<def f='codebrowser/include/SFML/Audio/Listener.hpp' l='42' ll='197'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Audio/Listener.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief The audio listener is the point in the scene
+///        from where all the sounds are heard
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf8Listener15setGlobalVolumeEf'/>
+<fun r='_ZN2sf8Listener15getGlobalVolumeEv'/>
+<fun r='_ZN2sf8Listener11setPositionEfff'/>
+<fun r='_ZN2sf8Listener11setPositionERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf8Listener11getPositionEv'/>
+<fun r='_ZN2sf8Listener12setDirectionEfff'/>
+<fun r='_ZN2sf8Listener12setDirectionERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf8Listener12getDirectionEv'/>
+<fun r='_ZN2sf8Listener11setUpVectorEfff'/>
+<fun r='_ZN2sf8Listener11setUpVectorERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf8Listener11getUpVectorEv'/>

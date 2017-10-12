@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1372' type='void glGetTexEnviv(GLenum , GLenum , GLint * )'/>
+<dec f='include/GL/gl.h' l='1266' type='void glGetTexEnviv(GLenum target, GLenum pname, GLint * params)'/>

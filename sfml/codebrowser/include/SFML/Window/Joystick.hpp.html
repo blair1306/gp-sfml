@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Joystick.hpp source code [codebrowser/include/SFML/Window/Joystick.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Joystick "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Window/Joystick.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='Joystick.hpp.html'>Joystick.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_JOYSTICK_HPP">SFML_JOYSTICK_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_JOYSTICK_HPP" data-ref="_M/SFML_JOYSTICK_HPP">SFML_JOYSTICK_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Window/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../System/String.hpp.html">&lt;SFML/System/String.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="38">38</th><td><i>/// \brief Give access to the real-time state of the joysticks</i></td></tr>
+<tr><th id="39">39</th><td><i>///</i></td></tr>
+<tr><th id="40">40</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="41">41</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_WINDOW_API">SFML_WINDOW_API</a> <dfn class="type def" id="sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</dfn></td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td><b>public</b>:</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="46">46</th><td><i>    /// \brief Constants related to joysticks capabilities</i></td></tr>
+<tr><th id="47">47</th><td><i>    ///</i></td></tr>
+<tr><th id="48">48</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td>    <b>enum</b></td></tr>
+<tr><th id="50">50</th><td>    {</td></tr>
+<tr><th id="51">51</th><td>        <dfn class="enum" id="sf::Joystick::Count" title='sf::Joystick::Count' data-ref="sf::Joystick::Count">Count</dfn>       = <var>8</var>,  <i class="doc">///&lt; Maximum number of supported joysticks</i></td></tr>
+<tr><th id="52">52</th><td>        <dfn class="enum" id="sf::Joystick::ButtonCount" title='sf::Joystick::ButtonCount' data-ref="sf::Joystick::ButtonCount">ButtonCount</dfn> = <var>32</var>, <i class="doc">///&lt; Maximum number of supported buttons</i></td></tr>
+<tr><th id="53">53</th><td>        <dfn class="enum" id="sf::Joystick::AxisCount" title='sf::Joystick::AxisCount' data-ref="sf::Joystick::AxisCount">AxisCount</dfn>   = <var>8</var>   <i class="doc">///&lt; Maximum number of supported axes</i></td></tr>
+<tr><th id="54">54</th><td>    };</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// \brief Axes supported by SFML joysticks</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///</i></td></tr>
+<tr><th id="59">59</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td>    <b>enum</b> <dfn class="type def" id="sf::Joystick::Axis" title='sf::Joystick::Axis' data-ref="sf::Joystick::Axis">Axis</dfn></td></tr>
+<tr><th id="61">61</th><td>    {</td></tr>
+<tr><th id="62">62</th><td>        <dfn class="enum" id="sf::Joystick::Axis::X" title='sf::Joystick::Axis::X' data-ref="sf::Joystick::Axis::X">X</dfn>,    <i class="doc">///&lt; The X axis</i></td></tr>
+<tr><th id="63">63</th><td>        <dfn class="enum" id="sf::Joystick::Axis::Y" title='sf::Joystick::Axis::Y' data-ref="sf::Joystick::Axis::Y">Y</dfn>,    <i class="doc">///&lt; The Y axis</i></td></tr>
+<tr><th id="64">64</th><td>        <dfn class="enum" id="sf::Joystick::Axis::Z" title='sf::Joystick::Axis::Z' data-ref="sf::Joystick::Axis::Z">Z</dfn>,    <i class="doc">///&lt; The Z axis</i></td></tr>
+<tr><th id="65">65</th><td>        <dfn class="enum" id="sf::Joystick::Axis::R" title='sf::Joystick::Axis::R' data-ref="sf::Joystick::Axis::R">R</dfn>,    <i class="doc">///&lt; The R axis</i></td></tr>
+<tr><th id="66">66</th><td>        <dfn class="enum" id="sf::Joystick::Axis::U" title='sf::Joystick::Axis::U' data-ref="sf::Joystick::Axis::U">U</dfn>,    <i class="doc">///&lt; The U axis</i></td></tr>
+<tr><th id="67">67</th><td>        <dfn class="enum" id="sf::Joystick::Axis::V" title='sf::Joystick::Axis::V' data-ref="sf::Joystick::Axis::V">V</dfn>,    <i class="doc">///&lt; The V axis</i></td></tr>
+<tr><th id="68">68</th><td>        <dfn class="enum" id="sf::Joystick::Axis::PovX" title='sf::Joystick::Axis::PovX' data-ref="sf::Joystick::Axis::PovX">PovX</dfn>, <i class="doc">///&lt; The X axis of the point-of-view hat</i></td></tr>
+<tr><th id="69">69</th><td>        <dfn class="enum" id="sf::Joystick::Axis::PovY" title='sf::Joystick::Axis::PovY' data-ref="sf::Joystick::Axis::PovY">PovY</dfn>  <i class="doc">///&lt; The Y axis of the point-of-view hat</i></td></tr>
+<tr><th id="70">70</th><td>    };</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="73">73</th><td><i>    /// \brief Structure holding a joystick's identification</i></td></tr>
+<tr><th id="74">74</th><td><i>    ///</i></td></tr>
+<tr><th id="75">75</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="76">76</th><td>    <b>struct</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_WINDOW_API">SFML_WINDOW_API</a> <dfn class="type def" id="sf::Joystick::Identification" title='sf::Joystick::Identification' data-ref="sf::Joystick::Identification">Identification</dfn></td></tr>
+<tr><th id="77">77</th><td>    {</td></tr>
+<tr><th id="78">78</th><td>        <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick14IdentificationC1Ev" title='sf::Joystick::Identification::Identification' data-ref="_ZN2sf8Joystick14IdentificationC1Ev" id="_ZN2sf8Joystick14IdentificationC1Ev">Identification</a>();</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>        <a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>       <dfn class="decl" id="sf::Joystick::Identification::name" title='sf::Joystick::Identification::name' data-ref="sf::Joystick::Identification::name">name</dfn>;      <i class="doc">///&lt; Name of the joystick</i></td></tr>
+<tr><th id="81">81</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Joystick::Identification::vendorId" title='sf::Joystick::Identification::vendorId' data-ref="sf::Joystick::Identification::vendorId">vendorId</dfn>;  <i class="doc">///&lt; Manufacturer identifier</i></td></tr>
+<tr><th id="82">82</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Joystick::Identification::productId" title='sf::Joystick::Identification::productId' data-ref="sf::Joystick::Identification::productId">productId</dfn>; <i class="doc">///&lt; Product identifier</i></td></tr>
+<tr><th id="83">83</th><td>    };</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="86">86</th><td><i>    /// \brief Check if a joystick is connected</i></td></tr>
+<tr><th id="87">87</th><td><i>    ///</i></td></tr>
+<tr><th id="88">88</th><td><i>    /// \param joystick Index of the joystick to check</i></td></tr>
+<tr><th id="89">89</th><td><i>    ///</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \return True if the joystick is connected, false otherwise</i></td></tr>
+<tr><th id="91">91</th><td><i>    ///</i></td></tr>
+<tr><th id="92">92</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="93">93</th><td>    <em>static</em> <em>bool</em> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick11isConnectedEj" title='sf::Joystick::isConnected' data-ref="_ZN2sf8Joystick11isConnectedEj" id="_ZN2sf8Joystick11isConnectedEj">isConnected</a>(<em>unsigned</em> <em>int</em> <dfn class="local col1 decl" id="1joystick" title='joystick' data-type='unsigned int' data-ref="1joystick">joystick</dfn>);</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="96">96</th><td><i>    /// \brief Return the number of buttons supported by a joystick</i></td></tr>
+<tr><th id="97">97</th><td><i>    ///</i></td></tr>
+<tr><th id="98">98</th><td><i>    /// If the joystick is not connected, this function returns 0.</i></td></tr>
+<tr><th id="99">99</th><td><i>    ///</i></td></tr>
+<tr><th id="100">100</th><td><i>    /// \param joystick Index of the joystick</i></td></tr>
+<tr><th id="101">101</th><td><i>    ///</i></td></tr>
+<tr><th id="102">102</th><td><i>    /// \return Number of buttons supported by the joystick</i></td></tr>
+<tr><th id="103">103</th><td><i>    ///</i></td></tr>
+<tr><th id="104">104</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="105">105</th><td>    <em>static</em> <em>unsigned</em> <em>int</em> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick14getButtonCountEj" title='sf::Joystick::getButtonCount' data-ref="_ZN2sf8Joystick14getButtonCountEj" id="_ZN2sf8Joystick14getButtonCountEj">getButtonCount</a>(<em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="2joystick" title='joystick' data-type='unsigned int' data-ref="2joystick">joystick</dfn>);</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="108">108</th><td><i>    /// \brief Check if a joystick supports a given axis</i></td></tr>
+<tr><th id="109">109</th><td><i>    ///</i></td></tr>
+<tr><th id="110">110</th><td><i>    /// If the joystick is not connected, this function returns false.</i></td></tr>
+<tr><th id="111">111</th><td><i>    ///</i></td></tr>
+<tr><th id="112">112</th><td><i>    /// \param joystick Index of the joystick</i></td></tr>
+<tr><th id="113">113</th><td><i>    /// \param axis     Axis to check</i></td></tr>
+<tr><th id="114">114</th><td><i>    ///</i></td></tr>
+<tr><th id="115">115</th><td><i>    /// \return True if the joystick supports the axis, false otherwise</i></td></tr>
+<tr><th id="116">116</th><td><i>    ///</i></td></tr>
+<tr><th id="117">117</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="118">118</th><td>    <em>static</em> <em>bool</em> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick7hasAxisEjNS0_4AxisE" title='sf::Joystick::hasAxis' data-ref="_ZN2sf8Joystick7hasAxisEjNS0_4AxisE" id="_ZN2sf8Joystick7hasAxisEjNS0_4AxisE">hasAxis</a>(<em>unsigned</em> <em>int</em> <dfn class="local col3 decl" id="3joystick" title='joystick' data-type='unsigned int' data-ref="3joystick">joystick</dfn>, <a class="type" href="#sf::Joystick::Axis" title='sf::Joystick::Axis' data-ref="sf::Joystick::Axis">Axis</a> <dfn class="local col4 decl" id="4axis" title='axis' data-type='sf::Joystick::Axis' data-ref="4axis">axis</dfn>);</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="121">121</th><td><i>    /// \brief Check if a joystick button is pressed</i></td></tr>
+<tr><th id="122">122</th><td><i>    ///</i></td></tr>
+<tr><th id="123">123</th><td><i>    /// If the joystick is not connected, this function returns false.</i></td></tr>
+<tr><th id="124">124</th><td><i>    ///</i></td></tr>
+<tr><th id="125">125</th><td><i>    /// \param joystick Index of the joystick</i></td></tr>
+<tr><th id="126">126</th><td><i>    /// \param button   Button to check</i></td></tr>
+<tr><th id="127">127</th><td><i>    ///</i></td></tr>
+<tr><th id="128">128</th><td><i>    /// \return True if the button is pressed, false otherwise</i></td></tr>
+<tr><th id="129">129</th><td><i>    ///</i></td></tr>
+<tr><th id="130">130</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="131">131</th><td>    <em>static</em> <em>bool</em> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick15isButtonPressedEjj" title='sf::Joystick::isButtonPressed' data-ref="_ZN2sf8Joystick15isButtonPressedEjj" id="_ZN2sf8Joystick15isButtonPressedEjj">isButtonPressed</a>(<em>unsigned</em> <em>int</em> <dfn class="local col5 decl" id="5joystick" title='joystick' data-type='unsigned int' data-ref="5joystick">joystick</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="6button" title='button' data-type='unsigned int' data-ref="6button">button</dfn>);</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="134">134</th><td><i>    /// \brief Get the current position of a joystick axis</i></td></tr>
+<tr><th id="135">135</th><td><i>    ///</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// If the joystick is not connected, this function returns 0.</i></td></tr>
+<tr><th id="137">137</th><td><i>    ///</i></td></tr>
+<tr><th id="138">138</th><td><i>    /// \param joystick Index of the joystick</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// \param axis     Axis to check</i></td></tr>
+<tr><th id="140">140</th><td><i>    ///</i></td></tr>
+<tr><th id="141">141</th><td><i>    /// \return Current position of the axis, in range [-100 .. 100]</i></td></tr>
+<tr><th id="142">142</th><td><i>    ///</i></td></tr>
+<tr><th id="143">143</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="144">144</th><td>    <em>static</em> <em>float</em> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE" title='sf::Joystick::getAxisPosition' data-ref="_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE" id="_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE">getAxisPosition</a>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="7joystick" title='joystick' data-type='unsigned int' data-ref="7joystick">joystick</dfn>, <a class="type" href="#sf::Joystick::Axis" title='sf::Joystick::Axis' data-ref="sf::Joystick::Axis">Axis</a> <dfn class="local col8 decl" id="8axis" title='axis' data-type='sf::Joystick::Axis' data-ref="8axis">axis</dfn>);</td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// \brief Get the joystick information</i></td></tr>
+<tr><th id="148">148</th><td><i>    ///</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// \param joystick Index of the joystick</i></td></tr>
+<tr><th id="150">150</th><td><i>    ///</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// \return Structure containing joystick information.</i></td></tr>
+<tr><th id="152">152</th><td><i>    ///</i></td></tr>
+<tr><th id="153">153</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="154">154</th><td>    <em>static</em> <a class="type" href="#sf::Joystick::Identification" title='sf::Joystick::Identification' data-ref="sf::Joystick::Identification">Identification</a> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick17getIdentificationEj" title='sf::Joystick::getIdentification' data-ref="_ZN2sf8Joystick17getIdentificationEj" id="_ZN2sf8Joystick17getIdentificationEj">getIdentification</a>(<em>unsigned</em> <em>int</em> <dfn class="local col9 decl" id="9joystick" title='joystick' data-type='unsigned int' data-ref="9joystick">joystick</dfn>);</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// \brief Update the states of all joysticks</i></td></tr>
+<tr><th id="158">158</th><td><i>    ///</i></td></tr>
+<tr><th id="159">159</th><td><i>    /// This function is used internally by SFML, so you normally</i></td></tr>
+<tr><th id="160">160</th><td><i>    /// don't have to call it explicitly. However, you may need to</i></td></tr>
+<tr><th id="161">161</th><td><i>    /// call it if you have no window yet (or no window at all):</i></td></tr>
+<tr><th id="162">162</th><td><i>    /// in this case the joystick states are not updated automatically.</i></td></tr>
+<tr><th id="163">163</th><td><i>    ///</i></td></tr>
+<tr><th id="164">164</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="165">165</th><td>    <em>static</em> <em>void</em> <a class="decl" href="../../../src/SFML/Window/Joystick.cpp.html#_ZN2sf8Joystick6updateEv" title='sf::Joystick::update' data-ref="_ZN2sf8Joystick6updateEv" id="_ZN2sf8Joystick6updateEv">update</a>();</td></tr>
+<tr><th id="166">166</th><td>};</td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><u>#<span data-ppcond="25">endif</span> // SFML_JOYSTICK_HPP</u></td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="175">175</th><td><i>/// \class sf::Joystick</i></td></tr>
+<tr><th id="176">176</th><td><i>/// \ingroup window</i></td></tr>
+<tr><th id="177">177</th><td><i>///</i></td></tr>
+<tr><th id="178">178</th><td><i>/// sf::Joystick provides an interface to the state of the</i></td></tr>
+<tr><th id="179">179</th><td><i>/// joysticks. It only contains static functions, so it's not</i></td></tr>
+<tr><th id="180">180</th><td><i>/// meant to be instantiated. Instead, each joystick is identified</i></td></tr>
+<tr><th id="181">181</th><td><i>/// by an index that is passed to the functions of this class.</i></td></tr>
+<tr><th id="182">182</th><td><i>///</i></td></tr>
+<tr><th id="183">183</th><td><i>/// This class allows users to query the state of joysticks at any</i></td></tr>
+<tr><th id="184">184</th><td><i>/// time and directly, without having to deal with a window and</i></td></tr>
+<tr><th id="185">185</th><td><i>/// its events. Compared to the JoystickMoved, JoystickButtonPressed</i></td></tr>
+<tr><th id="186">186</th><td><i>/// and JoystickButtonReleased events, sf::Joystick can retrieve the</i></td></tr>
+<tr><th id="187">187</th><td><i>/// state of axes and buttons of joysticks at any time</i></td></tr>
+<tr><th id="188">188</th><td><i>/// (you don't need to store and update a boolean on your side</i></td></tr>
+<tr><th id="189">189</th><td><i>/// in order to know if a button is pressed or released), and you</i></td></tr>
+<tr><th id="190">190</th><td><i>/// always get the real state of joysticks, even if they are</i></td></tr>
+<tr><th id="191">191</th><td><i>/// moved, pressed or released when your window is out of focus</i></td></tr>
+<tr><th id="192">192</th><td><i>/// and no event is triggered.</i></td></tr>
+<tr><th id="193">193</th><td><i>///</i></td></tr>
+<tr><th id="194">194</th><td><i>/// SFML supports:</i></td></tr>
+<tr><th id="195">195</th><td><i>/// \li 8 joysticks (sf::Joystick::Count)</i></td></tr>
+<tr><th id="196">196</th><td><i>/// \li 32 buttons per joystick (sf::Joystick::ButtonCount)</i></td></tr>
+<tr><th id="197">197</th><td><i>/// \li 8 axes per joystick (sf::Joystick::AxisCount)</i></td></tr>
+<tr><th id="198">198</th><td><i>///</i></td></tr>
+<tr><th id="199">199</th><td><i>/// Unlike the keyboard or mouse, the state of joysticks is sometimes</i></td></tr>
+<tr><th id="200">200</th><td><i>/// not directly available (depending on the OS), therefore an update()</i></td></tr>
+<tr><th id="201">201</th><td><i>/// function must be called in order to update the current state of</i></td></tr>
+<tr><th id="202">202</th><td><i>/// joysticks. When you have a window with event handling, this is done</i></td></tr>
+<tr><th id="203">203</th><td><i>/// automatically, you don't need to call anything. But if you have no</i></td></tr>
+<tr><th id="204">204</th><td><i>/// window, or if you want to check joysticks state before creating one,</i></td></tr>
+<tr><th id="205">205</th><td><i>/// you must call sf::Joystick::update explicitly.</i></td></tr>
+<tr><th id="206">206</th><td><i>///</i></td></tr>
+<tr><th id="207">207</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="208">208</th><td><i>/// \code</i></td></tr>
+<tr><th id="209">209</th><td><i>/// // Is joystick #0 connected?</i></td></tr>
+<tr><th id="210">210</th><td><i>/// bool connected = sf::Joystick::isConnected(0);</i></td></tr>
+<tr><th id="211">211</th><td><i>///</i></td></tr>
+<tr><th id="212">212</th><td><i>/// // How many buttons does joystick #0 support?</i></td></tr>
+<tr><th id="213">213</th><td><i>/// unsigned int buttons = sf::Joystick::getButtonCount(0);</i></td></tr>
+<tr><th id="214">214</th><td><i>///</i></td></tr>
+<tr><th id="215">215</th><td><i>/// // Does joystick #0 define a X axis?</i></td></tr>
+<tr><th id="216">216</th><td><i>/// bool hasX = sf::Joystick::hasAxis(0, sf::Joystick::X);</i></td></tr>
+<tr><th id="217">217</th><td><i>///</i></td></tr>
+<tr><th id="218">218</th><td><i>/// // Is button #2 pressed on joystick #0?</i></td></tr>
+<tr><th id="219">219</th><td><i>/// bool pressed = sf::Joystick::isButtonPressed(0, 2);</i></td></tr>
+<tr><th id="220">220</th><td><i>///</i></td></tr>
+<tr><th id="221">221</th><td><i>/// // What's the current position of the Y axis on joystick #0?</i></td></tr>
+<tr><th id="222">222</th><td><i>/// float position = sf::Joystick::getAxisPosition(0, sf::Joystick::Y);</i></td></tr>
+<tr><th id="223">223</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="224">224</th><td><i>///</i></td></tr>
+<tr><th id="225">225</th><td><i>/// \see sf::Keyboard, sf::Mouse</i></td></tr>
+<tr><th id="226">226</th><td><i>///</i></td></tr>
+<tr><th id="227">227</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="228">228</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Window/Joystick.cpp.html'>codebrowser/src/SFML/Window/Joystick.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

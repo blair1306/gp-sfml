@@ -1,0 +1,12 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='45' ll='86'/>
+<size>16</size>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of threads
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv10ThreadImplC1EPNS_6ThreadE'/>
+<fun r='_ZN2sf4priv10ThreadImpl4waitEv'/>
+<fun r='_ZN2sf4priv10ThreadImpl9terminateEv'/>
+<fun r='_ZN2sf4priv10ThreadImpl10entryPointEPv'/>
+<mbr r='sf::priv::ThreadImpl::m_thread' o='0' t='pthread_t'/>
+<mbr r='sf::priv::ThreadImpl::m_isActive' o='64' t='bool'/>

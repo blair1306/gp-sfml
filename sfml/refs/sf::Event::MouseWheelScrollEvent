@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='120' ll='126'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='116'>////////////////////////////////////////////////////////////
+    /// \brief Mouse wheel events parameters (MouseWheelScrolled)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::MouseWheelScrollEvent::wheel' o='0' t='Mouse::Wheel'/>
+<mbr r='sf::Event::MouseWheelScrollEvent::delta' o='32' t='float'/>
+<mbr r='sf::Event::MouseWheelScrollEvent::x' o='64' t='int'/>
+<mbr r='sf::Event::MouseWheelScrollEvent::y' o='96' t='int'/>

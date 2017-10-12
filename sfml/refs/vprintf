@@ -1,0 +1,1 @@
+<def f='include/x86_64-linux-gnu/bits/stdio.h' l='35' ll='39' macro='1' type='int vprintf(const char *__restrict __fmt, __va_list_tag * __arg)'/>

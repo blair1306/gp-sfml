@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1497' type='void glStencilFunc(GLenum , GLint , GLuint )'/>
+<dec f='include/GL/gl.h' l='1232' type='void glStencilFunc(GLenum func, GLint ref, GLuint mask)'/>

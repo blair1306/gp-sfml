@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='155' type='bool (*)(const std::string &amp;)'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='78' u='w' c='_ZN2sf16SoundFileFactory14registerWriterEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='145' u='r' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

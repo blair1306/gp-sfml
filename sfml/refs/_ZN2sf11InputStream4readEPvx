@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/SFML/System/InputStream.hpp' l='63' type='Int64 sf::InputStream::read(void * data, Int64 size)'/>
+<doc f='codebrowser/include/SFML/System/InputStream.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Read data from the stream
+    ///
+    /// After reading, the stream&apos;s reading position must be
+    /// advanced by the amount of bytes read.
+    ///
+    /// \param data Buffer where to copy the read data
+    /// \param size Desired number of bytes to read
+    ///
+    /// \return The number of bytes actually read, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='40' u='c' c='_ZN12_GLOBAL__N_110streamReadEPK19FLAC__StreamDecoderPhPmPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='41' u='c' c='_ZN12_GLOBAL__N_14readEPvmmS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='43' u='c' c='_ZN12_GLOBAL__N_16decodeERN2sf11InputStreamERh'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='49' u='c' c='_ZN12_GLOBAL__N_16decodeERN2sf11InputStreamERs'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='60' u='c' c='_ZN12_GLOBAL__N_16decodeERN2sf11InputStreamERt'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='71' u='c' c='_ZN12_GLOBAL__N_111decode24bitERN2sf11InputStreamERj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='82' u='c' c='_ZN12_GLOBAL__N_16decodeERN2sf11InputStreamERj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='101' u='c' c='_ZN2sf4priv18SoundFileReaderWav5checkERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='215' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='224' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='54' u='c' c='_ZN12_GLOBAL__N_14readEP13FT_StreamRec_mPhm'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='52' u='c' c='_ZN12_GLOBAL__N_14readEPvPci'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='113' u='c' c='_ZN12_GLOBAL__N_117getStreamContentsERN2sf11InputStreamERSt6vectorIcSaIcEE'/>
+<ovr f='codebrowser/src/SFML/System/FileInputStream.cpp' l='77' c='_ZN2sf15FileInputStream4readEPvx'/>
+<ovr f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='53' c='_ZN2sf17MemoryInputStream4readEPvx'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='172' type='sf::Time sf::Music::getDuration() const'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='106' ll='109' type='sf::Time sf::Music::getDuration() const'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='105'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='166'>////////////////////////////////////////////////////////////
+    /// \brief Get the total duration of the music
+    ///
+    /// \return Music duration
+    ///
+    ////////////////////////////////////////////////////////////</doc>

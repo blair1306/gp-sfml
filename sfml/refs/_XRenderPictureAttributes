@@ -1,0 +1,15 @@
+<def f='include/X11/extensions/Xrender.h' l='67' ll='81'/>
+<size>72</size>
+<mbr r='_XRenderPictureAttributes::repeat' o='0' t='int'/>
+<mbr r='_XRenderPictureAttributes::alpha_map' o='64' t='Picture'/>
+<mbr r='_XRenderPictureAttributes::alpha_x_origin' o='128' t='int'/>
+<mbr r='_XRenderPictureAttributes::alpha_y_origin' o='160' t='int'/>
+<mbr r='_XRenderPictureAttributes::clip_x_origin' o='192' t='int'/>
+<mbr r='_XRenderPictureAttributes::clip_y_origin' o='224' t='int'/>
+<mbr r='_XRenderPictureAttributes::clip_mask' o='256' t='Pixmap'/>
+<mbr r='_XRenderPictureAttributes::graphics_exposures' o='320' t='int'/>
+<mbr r='_XRenderPictureAttributes::subwindow_mode' o='352' t='int'/>
+<mbr r='_XRenderPictureAttributes::poly_edge' o='384' t='int'/>
+<mbr r='_XRenderPictureAttributes::poly_mode' o='416' t='int'/>
+<mbr r='_XRenderPictureAttributes::dither' o='448' t='Atom'/>
+<mbr r='_XRenderPictureAttributes::component_alpha' o='512' t='int'/>

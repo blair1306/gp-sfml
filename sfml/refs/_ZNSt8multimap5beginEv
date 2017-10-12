@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_multimap.h' l='332' ll='334' type='iterator std::multimap::begin()'/>
+<doc f='include/c++/5/bits/stl_multimap.h' l='327'>/**
+       *  Returns a read/write iterator that points to the first pair in the
+       *  %multimap.  Iteration is done in ascending order according to the
+       *  keys.
+       */</doc>

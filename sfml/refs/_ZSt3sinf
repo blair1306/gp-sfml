@@ -1,0 +1,6 @@
+<def f='include/c++/5/cmath' l='443' ll='445' type='float std::sin(float __x)'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='79' u='c' c='_ZNK2sf11CircleShape8getPointEm'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='184' u='c' c='_ZN2sf9Transform6rotateEf'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='199' u='c' c='_ZN2sf9Transform6rotateEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='188' u='c' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='206' u='c' c='_ZNK2sf4View12getTransformEv'/>

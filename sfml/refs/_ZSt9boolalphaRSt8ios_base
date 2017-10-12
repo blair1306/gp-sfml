@@ -1,0 +1,5 @@
+<def f='include/c++/5/bits/ios_base.h' l='877' ll='882' type='std::ios_base &amp; std::boolalpha(std::ios_base &amp; __base)'/>
+<doc f='include/c++/5/bits/ios_base.h' l='875'>// [27.4.5.1] fmtflags manipulators
+  /// Calls base.setf(ios_base::boolalpha).</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='723' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='732' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>

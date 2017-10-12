@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/stl_set.h' l='199' ll='200' type='void std::set::set&lt;_Key, _Compare, _Alloc&gt;(const set&lt;_Key, _Compare, _Alloc&gt; &amp; __x)'/>
+<doc f='include/c++/5/bits/stl_set.h' l='192'>/**
+       *  @brief  %Set copy constructor.
+       *  @param  __x  A %set of identical element and allocator types.
+       *
+       *  The newly-created %set uses a copy of the allocation object used
+       *  by @a __x.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='257' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>

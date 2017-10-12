@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='146' type='const sf::Texture * sf::Shape::getTexture() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='134'>////////////////////////////////////////////////////////////
+    /// \brief Get the source texture of the shape
+    ///
+    /// If the shape has no source texture, a NULL pointer is returned.
+    /// The returned pointer is const, which means that you can&apos;t
+    /// modify the texture when you retrieve it with this function.
+    ///
+    /// \return Pointer to the shape&apos;s texture
+    ///
+    /// \see setTexture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='79' ll='82' type='const sf::Texture * sf::Shape::getTexture() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='78'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,13 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='42' ll='82'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='45' c='sf::priv::RenderTextureImplFBO'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='45' c='sf::priv::RenderTextureImplDefault'/>
+<size>8</size>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for render-texture implementations
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv17RenderTextureImplD1Ev'/>
+<fun r='_ZN2sf4priv17RenderTextureImpl6createEjjjb'/>
+<fun r='_ZN2sf4priv17RenderTextureImpl8activateEb'/>
+<fun r='_ZN2sf4priv17RenderTextureImpl13updateTextureEj'/>

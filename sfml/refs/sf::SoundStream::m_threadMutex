@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='310' type='sf::Mutex'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='310'>///&lt; Thread mutex</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='45' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='67' u='a' c='_ZN2sf11SoundStreamD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='111' u='a' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='121' u='a' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='144' u='a' c='_ZN2sf11SoundStream5pauseEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='161' u='a' c='_ZN2sf11SoundStream4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='195' u='a' c='_ZNK2sf11SoundStream9getStatusEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='274' u='a' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='296' u='a' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='306' u='a' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='322' u='a' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='366' u='a' c='_ZN2sf11SoundStream10streamDataEv'/>

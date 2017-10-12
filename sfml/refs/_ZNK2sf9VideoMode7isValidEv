@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/VideoMode.hpp' l='97' type='bool sf::VideoMode::isValid() const'/>
+<doc f='codebrowser/include/SFML/Window/VideoMode.hpp' l='87'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether or not the video mode is valid
+    ///
+    /// The validity of video modes is only relevant when using
+    /// fullscreen windows; otherwise any video mode can be used
+    /// with no restriction.
+    ///
+    /// \return True if the video mode is valid for fullscreen mode
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/VideoMode.cpp' l='81' ll='86' type='bool sf::VideoMode::isValid() const'/>
+<doc f='codebrowser/src/SFML/Window/VideoMode.cpp' l='80'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='101' u='c' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>

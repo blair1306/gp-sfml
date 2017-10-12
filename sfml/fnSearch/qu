@@ -1,0 +1,7 @@
+_ZNSt14numeric_limits9quiet_NaNEv|std::numeric_limits::quiet_NaN
+_ZNSt5queue4backEv|std::queue::back
+_ZNKSt5queue5emptyEv|std::queue::empty
+_ZNSt5queue5frontEv|std::queue::front
+_ZNSt5queue3popEv|std::queue::pop
+_ZNSt5queue4pushERKNT0_10value_typeE|std::queue::push
+_ZNKSt5queue4sizeEv|std::queue::size

@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_algobase.h' l='165' ll='179' type='_ForwardIterator2 std::swap_ranges(_ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2)'/>
+<dec f='include/c++/5/bits/algorithmfwd.h' l='588' type='_FIter2 std::swap_ranges(_FIter1 , _FIter1 , _FIter2 )'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='322' u='c' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='344' u='c' c='_ZN2sf5Image14flipVerticallyEv'/>

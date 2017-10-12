@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='172' type='const priv::CursorImpl &amp; sf::Cursor::getImpl() const'/>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='163'>////////////////////////////////////////////////////////////
+    /// \brief Get access to the underlying implementation
+    ///
+    /// This is primarily designed for sf::Window::setMouseCursor,
+    /// hence the friendship.
+    ///
+    /// \return a reference to the OS-specific implementation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Cursor.cpp' l='67' ll='70' type='const priv::CursorImpl &amp; sf::Cursor::getImpl() const'/>
+<doc f='codebrowser/src/SFML/Window/Cursor.cpp' l='66'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='303' u='c' c='_ZN2sf6Window14setMouseCursorERKNS_6CursorE'/>

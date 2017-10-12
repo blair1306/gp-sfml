@@ -1,0 +1,12 @@
+<inh f='codebrowser/include/SFML/Network/Ftp.hpp' l='66' c='sf::Ftp::Response'/>
+<def f='codebrowser/include/SFML/Network/Ftp.hpp' l='188' ll='214'/>
+<size>72</size>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='184'>////////////////////////////////////////////////////////////
+    /// \brief Specialization of FTP response returning a directory
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<fun r='_ZNK2sf3Ftp17DirectoryResponse12getDirectoryB5cxx11Ev'/>
+<mbr r='sf::Ftp::DirectoryResponse::m_directory' o='320' t='std::string'/>
+<fun r='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<fun r='_ZNK2sf3Ftp17DirectoryResponse12getDirectoryB5cxx11Ev'/>

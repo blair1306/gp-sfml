@@ -1,0 +1,1 @@
+<def f='include/x86_64-linux-gnu/bits/stdio.h' l='114' ll='118' macro='1' type='__ssize_t getline(char ** __lineptr, size_t * __n, FILE * __stream)'/>

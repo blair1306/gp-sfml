@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='131' type='static Out sf::Utf&lt;8&gt;::fromAnsi(In begin, In end, Out output, const std::locale &amp; locale = std::locale())'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='157' ll='166' type='static Out sf::Utf&lt;8&gt;::fromAnsi(In begin, In end, Out output, const std::locale &amp; locale = std::locale())'/>

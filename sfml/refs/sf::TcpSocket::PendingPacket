@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='218' ll='225'/>
+<size>40</size>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='214'>////////////////////////////////////////////////////////////
+    /// \brief Structure holding the data of a pending packet
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9TcpSocket13PendingPacketC1Ev'/>
+<mbr r='sf::TcpSocket::PendingPacket::Size' o='0' t='Uint32'/>
+<mbr r='sf::TcpSocket::PendingPacket::SizeReceived' o='64' t='std::size_t'/>
+<mbr r='sf::TcpSocket::PendingPacket::Data' o='128' t='std::vector&lt;char&gt;'/>

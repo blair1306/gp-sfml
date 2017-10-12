@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='102' type='const void * sf::Packet::getData() const'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='76' ll='79' type='const void * sf::Packet::getData() const'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='586' u='c' c='_ZN2sf6Packet6onSendERm'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='75'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='89'>////////////////////////////////////////////////////////////
+    /// \brief Get a pointer to the data contained in the packet
+    ///
+    /// Warning: the returned pointer may become invalid after
+    /// you append data to the packet, therefore it should never
+    /// be stored.
+    /// The return pointer is NULL if the packet is empty.
+    ///
+    /// \return Pointer to the data
+    ///
+    /// \see getDataSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>

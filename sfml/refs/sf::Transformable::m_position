@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='320' type='Vector2f'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='320'>///&lt; Position of the object in the 2D world</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='37' u='w' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='57' u='m' c='_ZN2sf13Transformable11setPositionEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='58' u='m' c='_ZN2sf13Transformable11setPositionEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='120' u='a' c='_ZNK2sf13Transformable11getPositionEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='148' u='m' c='_ZN2sf13Transformable4moveEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='148' u='m' c='_ZN2sf13Transformable4moveEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='155' u='m' c='_ZN2sf13Transformable4moveERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='155' u='m' c='_ZN2sf13Transformable4moveERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='193' u='m' c='_ZNK2sf13Transformable12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='194' u='m' c='_ZNK2sf13Transformable12getTransformEv'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='204' type='const Vector2f &amp; sf::Transformable::getOrigin() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='196'>////////////////////////////////////////////////////////////
+    /// \brief get the local origin of the object
+    ///
+    /// \return Current origin
+    ///
+    /// \see setOrigin
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='139' ll='142' type='const Vector2f &amp; sf::Transformable::getOrigin() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='138'>////////////////////////////////////////////////////////////</doc>

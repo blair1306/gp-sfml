@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='203' type='void sf::priv::WindowImplX11::grabFocus()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='199'>////////////////////////////////////////////////////////////
+    /// \brief Request the WM to make the current window active
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1150' u='c' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1180' ll='1225' type='void sf::priv::WindowImplX11::grabFocus()'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1315' u='c' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1478' u='c' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1179'>////////////////////////////////////////////////////////////</doc>

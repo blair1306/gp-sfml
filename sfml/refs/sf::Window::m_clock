@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='547' type='sf::Clock'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='547'>///&lt; Clock for measuring the elapsed time between frames</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='381' u='m' c='_ZN2sf6Window7displayEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='382' u='m' c='_ZN2sf6Window7displayEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='440' u='m' c='_ZN2sf6Window10initializeEv'/>

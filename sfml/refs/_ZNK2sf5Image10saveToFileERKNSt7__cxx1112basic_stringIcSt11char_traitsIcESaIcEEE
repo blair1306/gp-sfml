@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='156' type='bool sf::Image::saveToFile(const std::string &amp; filename) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='141'>////////////////////////////////////////////////////////////
+    /// \brief Save the image to a file on disk
+    ///
+    /// The format of the image is automatically deduced from
+    /// the extension. The supported image formats are bmp, png,
+    /// tga and jpg. The destination file is overwritten
+    /// if it already exists. This function fails if the image is empty.
+    ///
+    /// \param filename Path of the file to save
+    ///
+    /// \return True if saving was successful
+    ///
+    /// \see create, loadFromFile, loadFromMemory
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='163' ll='166' type='bool sf::Image::saveToFile(const std::string &amp; filename) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='162'>////////////////////////////////////////////////////////////</doc>

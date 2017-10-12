@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='291' type='sf::Ftp::Response sf::Ftp::disconnect()'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='146' u='c' c='_ZN2sf3FtpD1Ev'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='181' ll='189' type='Ftp::Response sf::Ftp::disconnect()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='180'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='283'>////////////////////////////////////////////////////////////
+    /// \brief Close the connection with the server
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see connect
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='123' type='std::string sf::IpAddress::toString() const'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Get a string representation of the address
+    ///
+    /// The returned string is the decimal representation of the
+    /// IP address (like &quot;192.168.1.56&quot;), even if it was constructed
+    /// from a host name.
+    ///
+    /// \return String representation of the address
+    ///
+    /// \see toInteger
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='87' ll='93' type='std::string sf::IpAddress::toString() const'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='268' u='c' c='_ZN2sflsERSoRKNS_9IpAddressE'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='86'>////////////////////////////////////////////////////////////</doc>

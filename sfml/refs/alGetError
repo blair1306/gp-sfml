@@ -1,0 +1,2 @@
+<dec f='include/AL/al.h' l='473' type='ALenum alGetError()'/>
+<use f='codebrowser/src/SFML/Audio/ALCheck.cpp' l='41' u='c' c='_ZN2sf4priv12alCheckErrorEPKcjS2_'/>

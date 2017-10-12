@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='52' type='void sf::ConvexShape::ConvexShape(std::size_t pointCount = 0)'/>
+<def f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='34' ll='37' type='void sf::ConvexShape::ConvexShape(std::size_t pointCount = 0)'/>
+<doc f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='33'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='46'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// \param pointCount Number of points of the polygon
+    ///
+    ////////////////////////////////////////////////////////////</doc>

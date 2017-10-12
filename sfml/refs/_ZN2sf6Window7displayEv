@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='483' type='void sf::Window::display()'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='475'>////////////////////////////////////////////////////////////
+    /// \brief Display on screen what has been rendered to the window so far
+    ///
+    /// This function is typically called after all OpenGL rendering
+    /// has been done for the current frame, in order to show
+    /// it on screen.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='372' ll='384' type='void sf::Window::display()'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='370'>////////////////////////////////////////////////////////////</doc>

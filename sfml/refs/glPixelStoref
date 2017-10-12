@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1441' type='void glPixelStoref(GLenum , GLfloat )'/>
+<dec f='include/GL/gl.h' l='1193' type='void glPixelStoref(GLenum pname, GLfloat param)'/>

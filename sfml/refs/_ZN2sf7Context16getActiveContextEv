@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='118' type='static const sf::Context * sf::Context::getActiveContext()'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='112'>////////////////////////////////////////////////////////////
+    /// \brief Get the currently active context
+    ///
+    /// \return The currently active context or NULL if none is active
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='77' ll='80' type='static const sf::Context * sf::Context::getActiveContext()'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='76'>////////////////////////////////////////////////////////////</doc>

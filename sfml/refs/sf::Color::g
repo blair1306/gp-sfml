@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='97' type='Uint8'/>
+<offset>8</offset>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='97'>///&lt; Green component</doc>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='51' u='w' c='_ZN2sf5ColorC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='62' u='w' c='_ZN2sf5ColorC1Ehhhh'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='73' u='w' c='_ZN2sf5ColorC1Ej'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='84' u='r' c='_ZNK2sf5Color9toIntegerEv'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='92' u='r' c='_ZN2sfeqERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='92' u='r' c='_ZN2sfeqERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='109' u='r' c='_ZN2sfplERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='109' u='r' c='_ZN2sfplERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='119' u='r' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='119' u='r' c='_ZN2sfmiERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='129' u='r' c='_ZN2sfmlERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Color.cpp' l='129' u='r' c='_ZN2sfmlERKNS_5ColorES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='70' u='r' c='_ZN2sf4priv10copyVectorERKNS_5ColorERNS0_7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='80' u='r' c='_ZN2sf4priv10copyVectorERKNS_5ColorERNS0_7Vector4IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='78' u='r' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='187' u='r' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='279' u='r' c='_ZN2sf5Image8setPixelEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='106' u='r' c='_ZN2sf12RenderTarget5clearERKNS_5ColorE'/>

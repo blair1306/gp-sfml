@@ -1,0 +1,21 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Network/Socket.hpp' l='45' ll='179'/>
+<ovr f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='46' c='sf::TcpSocket'/>
+<size>24</size>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Base class for all the socket types
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6SocketD1Ev'/>
+<fun r='_ZN2sf6Socket11setBlockingEb'/>
+<fun r='_ZNK2sf6Socket10isBlockingEv'/>
+<fun r='_ZN2sf6SocketC1ENS0_4TypeE'/>
+<fun r='_ZNK2sf6Socket9getHandleEv'/>
+<fun r='_ZN2sf6Socket6createEv'/>
+<fun r='_ZN2sf6Socket6createEi'/>
+<fun r='_ZN2sf6Socket5closeEv'/>
+<mbr r='sf::Socket::m_type' o='64' t='sf::Socket::Type'/>
+<mbr r='sf::Socket::m_socket' o='96' t='SocketHandle'/>
+<mbr r='sf::Socket::m_isBlocking' o='128' t='bool'/>
+<ovr f='codebrowser/include/SFML/Network/TcpListener.hpp' l='44' c='sf::TcpListener'/>
+<ovr f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='45' c='sf::UdpSocket'/>

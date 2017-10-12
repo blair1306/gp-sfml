@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='200' type='float sf::SoundSource::getVolume() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='192'>////////////////////////////////////////////////////////////
+    /// \brief Get the volume of the sound
+    ///
+    /// \return Volume of the sound, in the range [0, 100]
+    ///
+    /// \see setVolume
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='49' u='c' c='_ZN2sf11SoundSourceC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='125' ll='131' type='float sf::SoundSource::getVolume() const'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='182' u='c' c='_ZN2sf11SoundSourceaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='124'>////////////////////////////////////////////////////////////</doc>

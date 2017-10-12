@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='292' type='void sf::Font::Page::Page()'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='781' ll='796' type='void sf::Font::Page::Page()'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='780'>////////////////////////////////////////////////////////////</doc>

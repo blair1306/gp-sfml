@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='177' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(bool &amp; data)'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='104' ll='111' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(bool &amp; data)'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='103'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='173'>////////////////////////////////////////////////////////////
+    /// Overloads of operator &gt;&gt; to read data from the packet
+    ///
+    ////////////////////////////////////////////////////////////</doc>

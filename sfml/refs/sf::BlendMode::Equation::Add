@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='71' type='0'/>
+<use f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='95' u='r' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='36' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='37' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='38' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='39' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='48' u='r' c='_ZN2sf9BlendModeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='51' u='r' c='_ZN2sf9BlendModeC1Ev'/>
+<use f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='95' u='r' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='71'>///&lt; Pixel = Src * SrcFactor + Dst * DstFactor</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='38' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='39' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='68' c='_ZN12_GLOBAL__N_120equationToGlConstantEN2sf9BlendMode8EquationE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='476' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='476' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>

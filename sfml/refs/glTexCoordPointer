@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1602' type='void glTexCoordPointer(GLint , GLenum , GLsizei , const void * )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='290' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<dec f='include/GL/gl.h' l='1136' type='void glTexCoordPointer(GLint size, GLenum type, GLsizei stride, const GLvoid * ptr)'/>

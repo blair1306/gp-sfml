@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1348' type='void glFogi(GLenum , GLint )'/>
+<dec f='include/GL/gl.h' l='1420' type='void glFogi(GLenum pname, GLint param)'/>

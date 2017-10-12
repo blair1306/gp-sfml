@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='270' type='sf::Http::Response::Status sf::Http::Response::getStatus() const'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='171' ll='174' type='Http::Response::Status sf::Http::Response::getStatus() const'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='170'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='259'>////////////////////////////////////////////////////////////
+        /// \brief Get the response status code
+        ///
+        /// The status code should be the first thing to be checked
+        /// after receiving a response, it defines whether it is a
+        /// success, a failure or anything else (see the Status
+        /// enumeration).
+        ///
+        /// \return Status code of the response
+        ///
+        ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='155' u='c' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>

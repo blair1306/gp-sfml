@@ -1,0 +1,14 @@
+<def f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' ll='79'/>
+<ovr f='codebrowser/include/SFML/Graphics/Texture.hpp' l='47' c='sf::Texture'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/GlResource.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Base class for classes that require an OpenGL context
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf10GlResourceC1Ev'/>
+<fun r='_ZN2sf10GlResourceD1Ev'/>
+<ovr f='codebrowser/include/SFML/Window/Context.hpp' l='50' c='sf::Context'/>
+<ovr f='codebrowser/include/SFML/Graphics/Shader.hpp' l='52' c='sf::Shader'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='45' c='sf::priv::RenderTextureImplFBO'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='45' c='sf::priv::RenderTextureImplDefault'/>
+<ovr f='codebrowser/include/SFML/Window/Window.hpp' l='58' c='sf::Window'/>

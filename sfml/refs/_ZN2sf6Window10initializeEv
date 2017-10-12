@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='540' type='void sf::Window::initialize()'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='536'>////////////////////////////////////////////////////////////
+    /// \brief Perform some common internal initializations
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='130' u='c' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='147' u='c' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='427' ll='447' type='void sf::Window::initialize()'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='426'>////////////////////////////////////////////////////////////</doc>

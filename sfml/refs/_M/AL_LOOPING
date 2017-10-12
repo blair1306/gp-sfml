@@ -1,0 +1,11 @@
+<dec f='include/AL/al.h' l='173'/>
+<doc f='include/AL/al.h' l='165'>/**
+ * Source looping.
+ * Type:    ALboolean
+ * Range:   [AL_TRUE, AL_FALSE]
+ * Default: AL_FALSE
+ *
+ * Specifies whether source is looping.
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='111' u='c'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='133' u='c'/>

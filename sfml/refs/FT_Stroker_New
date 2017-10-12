@@ -1,0 +1,23 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='278' type='FT_Error FT_Stroker_New(FT_Library library, FT_Stroker * astroker)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='151' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='216' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='291' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='258'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_New
+   *
+   * @description:
+   *   Create a new stroker object.
+   *
+   * @input:
+   *   library ::
+   *     FreeType library handle.
+   *
+   * @output:
+   *   astroker ::
+   *     A new stroker object handle.  NULL in case of error.
+   *
+   * @return:
+   *    FreeType error code.  0~means success.
+   */</doc>

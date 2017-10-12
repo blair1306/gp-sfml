@@ -1,0 +1,4 @@
+<dec f='include/linux/joystick.h' l='58'/>
+<doc f='include/linux/joystick.h' l='54'>/*
+ * IOCTL commands for joystick driver
+ */</doc>

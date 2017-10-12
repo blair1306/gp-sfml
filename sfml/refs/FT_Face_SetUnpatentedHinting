@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='4193' type='FT_Bool FT_Face_SetUnpatentedHinting(FT_Face face, FT_Bool value)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='4191'>/*                                                                       */</doc>

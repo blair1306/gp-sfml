@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='549' type='Vector2u'/>
+<offset>320</offset>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='549'>///&lt; Current size of the window</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='48' u='w' c='_ZN2sf6WindowC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='59' u='w' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='70' u='w' c='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='230' u='r' c='_ZNK2sf6Window7getSizeEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='242' u='m' c='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='243' u='m' c='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='415' u='m' c='_ZN2sf6Window11filterEventERKNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='416' u='m' c='_ZN2sf6Window11filterEventERKNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='437' u='w' c='_ZN2sf6Window10initializeEv'/>

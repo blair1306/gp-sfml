@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='333' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Vec4 &amp; vector)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='317'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p vec4 uniform
+    ///
+    /// This overload can also be called with sf::Color objects
+    /// that are converted to sf::Glsl::Vec4.
+    ///
+    /// It is important to note that the components of the color are
+    /// normalized before being passed to the shader. Therefore,
+    /// they are converted from range [0 .. 255] to range [0 .. 1].
+    /// For example, a sf::Color(255, 127, 0, 255) will be transformed
+    /// to a vec4(1.0, 0.5, 0.0, 1.0) in the shader.
+    ///
+    /// \param name   Name of the uniform variable in GLSL
+    /// \param vector Value of the vec4 vector
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='453' ll='458' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Vec4 &amp; v)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='687' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEffff'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='708' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_5ColorE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='452'>////////////////////////////////////////////////////////////</doc>

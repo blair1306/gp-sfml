@@ -1,0 +1,431 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Packet.hpp source code [codebrowser/include/SFML/Network/Packet.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Packet "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Network/Packet.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Network</a>/<a href='Packet.hpp.html'>Packet.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_PACKET_HPP">SFML_PACKET_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_PACKET_HPP" data-ref="_M/SFML_PACKET_HPP">SFML_PACKET_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Network/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../../include/c++/5/vector.html">&lt;vector&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td><b>class</b> <a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String" id="sf::String">String</a>;</td></tr>
+<tr><th id="39">39</th><td><b>class</b> <dfn class="type" id="sf::TcpSocket" title='sf::TcpSocket' data-ref="sf::TcpSocket">TcpSocket</dfn>;</td></tr>
+<tr><th id="40">40</th><td><b>class</b> <dfn class="type" id="sf::UdpSocket" title='sf::UdpSocket' data-ref="sf::UdpSocket">UdpSocket</dfn>;</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="43">43</th><td><i>/// \brief Utility class to build blocks of data to transfer</i></td></tr>
+<tr><th id="44">44</th><td><i>///        over the network</i></td></tr>
+<tr><th id="45">45</th><td><i>///</i></td></tr>
+<tr><th id="46">46</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_NETWORK_API">SFML_NETWORK_API</a> <dfn class="type def" id="sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</dfn></td></tr>
+<tr><th id="48">48</th><td>{</td></tr>
+<tr><th id="49">49</th><td>    <i>// A bool-like type that cannot be converted to integer or pointer types</i></td></tr>
+<tr><th id="50">50</th><td>    <b>typedef</b> <em>bool</em> (Packet::*<dfn class="typedef" id="sf::Packet::BoolType" title='sf::Packet::BoolType' data-type='bool (sf::Packet::*)(std::size_t)' data-ref="sf::Packet::BoolType">BoolType</dfn>)(<span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>);</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><b>public</b>:</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="55">55</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="56">56</th><td><i>    ///</i></td></tr>
+<tr><th id="57">57</th><td><i>    /// Creates an empty packet.</i></td></tr>
+<tr><th id="58">58</th><td><i>    ///</i></td></tr>
+<tr><th id="59">59</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td>    <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketC1Ev" title='sf::Packet::Packet' data-ref="_ZN2sf6PacketC1Ev" id="_ZN2sf6PacketC1Ev">Packet</a>();</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// \brief Virtual destructor</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///</i></td></tr>
+<tr><th id="65">65</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="66">66</th><td>    <b>virtual</b> <a class="virtual decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketD1Ev" title='sf::Packet::~Packet' data-ref="_ZN2sf6PacketD1Ev" id="_ZN2sf6PacketD1Ev">~Packet</a>();</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="69">69</th><td><i>    /// \brief Append data to the end of the packet</i></td></tr>
+<tr><th id="70">70</th><td><i>    ///</i></td></tr>
+<tr><th id="71">71</th><td><i>    /// \param data        Pointer to the sequence of bytes to append</i></td></tr>
+<tr><th id="72">72</th><td><i>    /// \param sizeInBytes Number of bytes to append</i></td></tr>
+<tr><th id="73">73</th><td><i>    ///</i></td></tr>
+<tr><th id="74">74</th><td><i>    /// \see clear</i></td></tr>
+<tr><th id="75">75</th><td><i>    ///</i></td></tr>
+<tr><th id="76">76</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="77">77</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6Packet6appendEPKvm" title='sf::Packet::append' data-ref="_ZN2sf6Packet6appendEPKvm" id="_ZN2sf6Packet6appendEPKvm">append</a>(<em>const</em> <em>void</em>* <dfn class="local col1 decl" id="1data" title='data' data-type='const void *' data-ref="1data">data</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col2 decl" id="2sizeInBytes" title='sizeInBytes' data-type='std::size_t' data-ref="2sizeInBytes">sizeInBytes</dfn>);</td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="80">80</th><td><i>    /// \brief Clear the packet</i></td></tr>
+<tr><th id="81">81</th><td><i>    ///</i></td></tr>
+<tr><th id="82">82</th><td><i>    /// After calling Clear, the packet is empty.</i></td></tr>
+<tr><th id="83">83</th><td><i>    ///</i></td></tr>
+<tr><th id="84">84</th><td><i>    /// \see append</i></td></tr>
+<tr><th id="85">85</th><td><i>    ///</i></td></tr>
+<tr><th id="86">86</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="87">87</th><td>    <em>void</em> <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6Packet5clearEv" title='sf::Packet::clear' data-ref="_ZN2sf6Packet5clearEv" id="_ZN2sf6Packet5clearEv">clear</a>();</td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="90">90</th><td><i>    /// \brief Get a pointer to the data contained in the packet</i></td></tr>
+<tr><th id="91">91</th><td><i>    ///</i></td></tr>
+<tr><th id="92">92</th><td><i>    /// Warning: the returned pointer may become invalid after</i></td></tr>
+<tr><th id="93">93</th><td><i>    /// you append data to the packet, therefore it should never</i></td></tr>
+<tr><th id="94">94</th><td><i>    /// be stored.</i></td></tr>
+<tr><th id="95">95</th><td><i>    /// The return pointer is NULL if the packet is empty.</i></td></tr>
+<tr><th id="96">96</th><td><i>    ///</i></td></tr>
+<tr><th id="97">97</th><td><i>    /// \return Pointer to the data</i></td></tr>
+<tr><th id="98">98</th><td><i>    ///</i></td></tr>
+<tr><th id="99">99</th><td><i>    /// \see getDataSize</i></td></tr>
+<tr><th id="100">100</th><td><i>    ///</i></td></tr>
+<tr><th id="101">101</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="102">102</th><td>    <em>const</em> <em>void</em>* <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZNK2sf6Packet7getDataEv" title='sf::Packet::getData' data-ref="_ZNK2sf6Packet7getDataEv" id="_ZNK2sf6Packet7getDataEv">getData</a>() <em>const</em>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// \brief Get the size of the data contained in the packet</i></td></tr>
+<tr><th id="106">106</th><td><i>    ///</i></td></tr>
+<tr><th id="107">107</th><td><i>    /// This function returns the number of bytes pointed to by</i></td></tr>
+<tr><th id="108">108</th><td><i>    /// what getData returns.</i></td></tr>
+<tr><th id="109">109</th><td><i>    ///</i></td></tr>
+<tr><th id="110">110</th><td><i>    /// \return Data size, in bytes</i></td></tr>
+<tr><th id="111">111</th><td><i>    ///</i></td></tr>
+<tr><th id="112">112</th><td><i>    /// \see getData</i></td></tr>
+<tr><th id="113">113</th><td><i>    ///</i></td></tr>
+<tr><th id="114">114</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="115">115</th><td>    <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZNK2sf6Packet11getDataSizeEv" title='sf::Packet::getDataSize' data-ref="_ZNK2sf6Packet11getDataSizeEv" id="_ZNK2sf6Packet11getDataSizeEv">getDataSize</a>() <em>const</em>;</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="118">118</th><td><i>    /// \brief Tell if the reading position has reached the</i></td></tr>
+<tr><th id="119">119</th><td><i>    ///        end of the packet</i></td></tr>
+<tr><th id="120">120</th><td><i>    ///</i></td></tr>
+<tr><th id="121">121</th><td><i>    /// This function is useful to know if there is some data</i></td></tr>
+<tr><th id="122">122</th><td><i>    /// left to be read, without actually reading it.</i></td></tr>
+<tr><th id="123">123</th><td><i>    ///</i></td></tr>
+<tr><th id="124">124</th><td><i>    /// \return True if all data was read, false otherwise</i></td></tr>
+<tr><th id="125">125</th><td><i>    ///</i></td></tr>
+<tr><th id="126">126</th><td><i>    /// \see operator bool</i></td></tr>
+<tr><th id="127">127</th><td><i>    ///</i></td></tr>
+<tr><th id="128">128</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="129">129</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZNK2sf6Packet11endOfPacketEv" title='sf::Packet::endOfPacket' data-ref="_ZNK2sf6Packet11endOfPacketEv" id="_ZNK2sf6Packet11endOfPacketEv">endOfPacket</a>() <em>const</em>;</td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td><b>public</b>:</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="134">134</th><td><i>    /// \brief Test the validity of the packet, for reading</i></td></tr>
+<tr><th id="135">135</th><td><i>    ///</i></td></tr>
+<tr><th id="136">136</th><td><i>    /// This operator allows to test the packet as a boolean</i></td></tr>
+<tr><th id="137">137</th><td><i>    /// variable, to check if a reading operation was successful.</i></td></tr>
+<tr><th id="138">138</th><td><i>    ///</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// A packet will be in an invalid state if it has no more</i></td></tr>
+<tr><th id="140">140</th><td><i>    /// data to read.</i></td></tr>
+<tr><th id="141">141</th><td><i>    ///</i></td></tr>
+<tr><th id="142">142</th><td><i>    /// This behavior is the same as standard C++ streams.</i></td></tr>
+<tr><th id="143">143</th><td><i>    ///</i></td></tr>
+<tr><th id="144">144</th><td><i>    /// Usage example:</i></td></tr>
+<tr><th id="145">145</th><td><i>    /// \code</i></td></tr>
+<tr><th id="146">146</th><td><i>    /// float x;</i></td></tr>
+<tr><th id="147">147</th><td><i>    /// packet &gt;&gt; x;</i></td></tr>
+<tr><th id="148">148</th><td><i>    /// if (packet)</i></td></tr>
+<tr><th id="149">149</th><td><i>    /// {</i></td></tr>
+<tr><th id="150">150</th><td><i>    ///    // ok, x was extracted successfully</i></td></tr>
+<tr><th id="151">151</th><td><i>    /// }</i></td></tr>
+<tr><th id="152">152</th><td><i>    ///</i></td></tr>
+<tr><th id="153">153</th><td><i>    /// // -- or --</i></td></tr>
+<tr><th id="154">154</th><td><i>    ///</i></td></tr>
+<tr><th id="155">155</th><td><i>    /// float x;</i></td></tr>
+<tr><th id="156">156</th><td><i>    /// if (packet &gt;&gt; x)</i></td></tr>
+<tr><th id="157">157</th><td><i>    /// {</i></td></tr>
+<tr><th id="158">158</th><td><i>    ///    // ok, x was extracted successfully</i></td></tr>
+<tr><th id="159">159</th><td><i>    /// }</i></td></tr>
+<tr><th id="160">160</th><td><i>    /// \endcode</i></td></tr>
+<tr><th id="161">161</th><td><i>    ///</i></td></tr>
+<tr><th id="162">162</th><td><i>    /// Don't focus on the return type, it's equivalent to bool but</i></td></tr>
+<tr><th id="163">163</th><td><i>    /// it disallows unwanted implicit conversions to integer or</i></td></tr>
+<tr><th id="164">164</th><td><i>    /// pointer types.</i></td></tr>
+<tr><th id="165">165</th><td><i>    ///</i></td></tr>
+<tr><th id="166">166</th><td><i>    /// \return True if last data extraction from packet was successful</i></td></tr>
+<tr><th id="167">167</th><td><i>    ///</i></td></tr>
+<tr><th id="168">168</th><td><i>    /// \see endOfPacket</i></td></tr>
+<tr><th id="169">169</th><td><i>    ///</i></td></tr>
+<tr><th id="170">170</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="171">171</th><td>    <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZNK2sf6PacketcvMS0_FbmEEv" title='sf::Packet::operator bool (sf::Packet::*)(unsigned long)' data-ref="_ZNK2sf6PacketcvMS0_FbmEEv" id="_ZNK2sf6PacketcvMS0_FbmEEv"><b>operator</b> <a class="typedef" href="#sf::Packet::BoolType" title='sf::Packet::BoolType' data-type='bool (sf::Packet::*)(std::size_t)' data-ref="sf::Packet::BoolType">BoolType</a></a>() <em>const</em>;</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="174">174</th><td><i>    /// Overloads of operator &gt;&gt; to read data from the packet</i></td></tr>
+<tr><th id="175">175</th><td><i>    ///</i></td></tr>
+<tr><th id="176">176</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="177">177</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERb" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERb" id="_ZN2sf6PacketrsERb"><b>operator</b> &gt;&gt;</a>(<em>bool</em>&amp;         <dfn class="local col3 decl" id="3data" title='data' data-type='bool &amp;' data-ref="3data">data</dfn>);</td></tr>
+<tr><th id="178">178</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERa" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERa" id="_ZN2sf6PacketrsERa"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int8" title='sf::Int8' data-type='signed char' data-ref="sf::Int8">Int8</a>&amp;         <dfn class="local col4 decl" id="4data" title='data' data-type='Int8 &amp;' data-ref="4data">data</dfn>);</td></tr>
+<tr><th id="179">179</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERh" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERh" id="_ZN2sf6PacketrsERh"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint8" title='sf::Uint8' data-type='unsigned char' data-ref="sf::Uint8">Uint8</a>&amp;        <dfn class="local col5 decl" id="5data" title='data' data-type='Uint8 &amp;' data-ref="5data">data</dfn>);</td></tr>
+<tr><th id="180">180</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERs" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERs" id="_ZN2sf6PacketrsERs"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>&amp;        <dfn class="local col6 decl" id="6data" title='data' data-type='Int16 &amp;' data-ref="6data">data</dfn>);</td></tr>
+<tr><th id="181">181</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERt" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERt" id="_ZN2sf6PacketrsERt"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint16" title='sf::Uint16' data-type='unsigned short' data-ref="sf::Uint16">Uint16</a>&amp;       <dfn class="local col7 decl" id="7data" title='data' data-type='Uint16 &amp;' data-ref="7data">data</dfn>);</td></tr>
+<tr><th id="182">182</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERi" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERi" id="_ZN2sf6PacketrsERi"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int32" title='sf::Int32' data-type='int' data-ref="sf::Int32">Int32</a>&amp;        <dfn class="local col8 decl" id="8data" title='data' data-type='Int32 &amp;' data-ref="8data">data</dfn>);</td></tr>
+<tr><th id="183">183</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERj" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERj" id="_ZN2sf6PacketrsERj"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a>&amp;       <dfn class="local col9 decl" id="9data" title='data' data-type='Uint32 &amp;' data-ref="9data">data</dfn>);</td></tr>
+<tr><th id="184">184</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERx" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERx" id="_ZN2sf6PacketrsERx"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a>&amp;        <dfn class="local col0 decl" id="10data" title='data' data-type='Int64 &amp;' data-ref="10data">data</dfn>);</td></tr>
+<tr><th id="185">185</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERy" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERy" id="_ZN2sf6PacketrsERy"><b>operator</b> &gt;&gt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a>&amp;       <dfn class="local col1 decl" id="11data" title='data' data-type='Uint64 &amp;' data-ref="11data">data</dfn>);</td></tr>
+<tr><th id="186">186</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERf" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERf" id="_ZN2sf6PacketrsERf"><b>operator</b> &gt;&gt;</a>(<em>float</em>&amp;        <dfn class="local col2 decl" id="12data" title='data' data-type='float &amp;' data-ref="12data">data</dfn>);</td></tr>
+<tr><th id="187">187</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERd" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERd" id="_ZN2sf6PacketrsERd"><b>operator</b> &gt;&gt;</a>(<em>double</em>&amp;       <dfn class="local col3 decl" id="13data" title='data' data-type='double &amp;' data-ref="13data">data</dfn>);</td></tr>
+<tr><th id="188">188</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsEPc" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsEPc" id="_ZN2sf6PacketrsEPc"><b>operator</b> &gt;&gt;</a>(<em>char</em>*         <dfn class="local col4 decl" id="14data" title='data' data-type='char *' data-ref="14data">data</dfn>);</td></tr>
+<tr><th id="189">189</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"><b>operator</b> &gt;&gt;</a>(<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp;  <dfn class="local col5 decl" id="15data" title='data' data-type='std::string &amp;' data-ref="15data">data</dfn>);</td></tr>
+<tr><th id="190">190</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsEPw" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsEPw" id="_ZN2sf6PacketrsEPw"><b>operator</b> &gt;&gt;</a>(<em>wchar_t</em>*      <dfn class="local col6 decl" id="16data" title='data' data-type='wchar_t *' data-ref="16data">data</dfn>);</td></tr>
+<tr><th id="191">191</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE" id="_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE"><b>operator</b> &gt;&gt;</a>(<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::wstring" title='std::__cxx11::wstring' data-type='basic_string&lt;wchar_t&gt;' data-ref="std::__cxx11::wstring">wstring</a>&amp; <dfn class="local col7 decl" id="17data" title='data' data-type='std::wstring &amp;' data-ref="17data">data</dfn>);</td></tr>
+<tr><th id="192">192</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketrsERNS_6StringE" title='sf::Packet::operator&gt;&gt;' data-ref="_ZN2sf6PacketrsERNS_6StringE" id="_ZN2sf6PacketrsERNS_6StringE"><b>operator</b> &gt;&gt;</a>(<a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>&amp;       <dfn class="local col8 decl" id="18data" title='data' data-type='sf::String &amp;' data-ref="18data">data</dfn>);</td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="195">195</th><td><i>    /// Overloads of operator &lt;&lt; to write data into the packet</i></td></tr>
+<tr><th id="196">196</th><td><i>    ///</i></td></tr>
+<tr><th id="197">197</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="198">198</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEb" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEb" id="_ZN2sf6PacketlsEb"><b>operator</b> &lt;&lt;</a>(<em>bool</em>                <dfn class="local col9 decl" id="19data" title='data' data-type='bool' data-ref="19data">data</dfn>);</td></tr>
+<tr><th id="199">199</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEa" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEa" id="_ZN2sf6PacketlsEa"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int8" title='sf::Int8' data-type='signed char' data-ref="sf::Int8">Int8</a>                <dfn class="local col0 decl" id="20data" title='data' data-type='Int8' data-ref="20data">data</dfn>);</td></tr>
+<tr><th id="200">200</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEh" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEh" id="_ZN2sf6PacketlsEh"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint8" title='sf::Uint8' data-type='unsigned char' data-ref="sf::Uint8">Uint8</a>               <dfn class="local col1 decl" id="21data" title='data' data-type='Uint8' data-ref="21data">data</dfn>);</td></tr>
+<tr><th id="201">201</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEs" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEs" id="_ZN2sf6PacketlsEs"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>               <dfn class="local col2 decl" id="22data" title='data' data-type='Int16' data-ref="22data">data</dfn>);</td></tr>
+<tr><th id="202">202</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEt" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEt" id="_ZN2sf6PacketlsEt"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint16" title='sf::Uint16' data-type='unsigned short' data-ref="sf::Uint16">Uint16</a>              <dfn class="local col3 decl" id="23data" title='data' data-type='Uint16' data-ref="23data">data</dfn>);</td></tr>
+<tr><th id="203">203</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEi" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEi" id="_ZN2sf6PacketlsEi"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int32" title='sf::Int32' data-type='int' data-ref="sf::Int32">Int32</a>               <dfn class="local col4 decl" id="24data" title='data' data-type='Int32' data-ref="24data">data</dfn>);</td></tr>
+<tr><th id="204">204</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEj" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEj" id="_ZN2sf6PacketlsEj"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a>              <dfn class="local col5 decl" id="25data" title='data' data-type='Uint32' data-ref="25data">data</dfn>);</td></tr>
+<tr><th id="205">205</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEx" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEx" id="_ZN2sf6PacketlsEx"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a>               <dfn class="local col6 decl" id="26data" title='data' data-type='Int64' data-ref="26data">data</dfn>);</td></tr>
+<tr><th id="206">206</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEy" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEy" id="_ZN2sf6PacketlsEy"><b>operator</b> &lt;&lt;</a>(<a class="typedef" href="../Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a>              <dfn class="local col7 decl" id="27data" title='data' data-type='Uint64' data-ref="27data">data</dfn>);</td></tr>
+<tr><th id="207">207</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEf" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEf" id="_ZN2sf6PacketlsEf"><b>operator</b> &lt;&lt;</a>(<em>float</em>               <dfn class="local col8 decl" id="28data" title='data' data-type='float' data-ref="28data">data</dfn>);</td></tr>
+<tr><th id="208">208</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEd" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEd" id="_ZN2sf6PacketlsEd"><b>operator</b> &lt;&lt;</a>(<em>double</em>              <dfn class="local col9 decl" id="29data" title='data' data-type='double' data-ref="29data">data</dfn>);</td></tr>
+<tr><th id="209">209</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEPKc" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEPKc" id="_ZN2sf6PacketlsEPKc"><b>operator</b> &lt;&lt;</a>(<em>const</em> <em>char</em>*         <dfn class="local col0 decl" id="30data" title='data' data-type='const char *' data-ref="30data">data</dfn>);</td></tr>
+<tr><th id="210">210</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"><b>operator</b> &lt;&lt;</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp;  <dfn class="local col1 decl" id="31data" title='data' data-type='const std::string &amp;' data-ref="31data">data</dfn>);</td></tr>
+<tr><th id="211">211</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsEPKw" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsEPKw" id="_ZN2sf6PacketlsEPKw"><b>operator</b> &lt;&lt;</a>(<em>const</em> <em>wchar_t</em>*      <dfn class="local col2 decl" id="32data" title='data' data-type='const wchar_t *' data-ref="32data">data</dfn>);</td></tr>
+<tr><th id="212">212</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE" id="_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE"><b>operator</b> &lt;&lt;</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::wstring" title='std::__cxx11::wstring' data-type='basic_string&lt;wchar_t&gt;' data-ref="std::__cxx11::wstring">wstring</a>&amp; <dfn class="local col3 decl" id="33data" title='data' data-type='const std::wstring &amp;' data-ref="33data">data</dfn>);</td></tr>
+<tr><th id="213">213</th><td>    <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6PacketlsERKNS_6StringE" title='sf::Packet::operator&lt;&lt;' data-ref="_ZN2sf6PacketlsERKNS_6StringE" id="_ZN2sf6PacketlsERKNS_6StringE"><b>operator</b> &lt;&lt;</a>(<em>const</em> <a class="type" href="../System/String.hpp.html#sf::String" title='sf::String' data-ref="sf::String">String</a>&amp;       <dfn class="local col4 decl" id="34data" title='data' data-type='const sf::String &amp;' data-ref="34data">data</dfn>);</td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td><b>protected</b>:</td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td>    <b>friend</b> <b>class</b> <a class="type" href="#sf::TcpSocket" title='sf::TcpSocket' data-ref="sf::TcpSocket">TcpSocket</a>;</td></tr>
+<tr><th id="218">218</th><td>    <b>friend</b> <b>class</b> <a class="type" href="#sf::UdpSocket" title='sf::UdpSocket' data-ref="sf::UdpSocket">UdpSocket</a>;</td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="221">221</th><td><i>    /// \brief Called before the packet is sent over the network</i></td></tr>
+<tr><th id="222">222</th><td><i>    ///</i></td></tr>
+<tr><th id="223">223</th><td><i>    /// This function can be defined by derived classes to</i></td></tr>
+<tr><th id="224">224</th><td><i>    /// transform the data before it is sent; this can be</i></td></tr>
+<tr><th id="225">225</th><td><i>    /// used for compression, encryption, etc.</i></td></tr>
+<tr><th id="226">226</th><td><i>    /// The function must return a pointer to the modified data,</i></td></tr>
+<tr><th id="227">227</th><td><i>    /// as well as the number of bytes pointed.</i></td></tr>
+<tr><th id="228">228</th><td><i>    /// The default implementation provides the packet's data</i></td></tr>
+<tr><th id="229">229</th><td><i>    /// without transforming it.</i></td></tr>
+<tr><th id="230">230</th><td><i>    ///</i></td></tr>
+<tr><th id="231">231</th><td><i>    /// \param size Variable to fill with the size of data to send</i></td></tr>
+<tr><th id="232">232</th><td><i>    ///</i></td></tr>
+<tr><th id="233">233</th><td><i>    /// \return Pointer to the array of bytes to send</i></td></tr>
+<tr><th id="234">234</th><td><i>    ///</i></td></tr>
+<tr><th id="235">235</th><td><i>    /// \see onReceive</i></td></tr>
+<tr><th id="236">236</th><td><i>    ///</i></td></tr>
+<tr><th id="237">237</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="238">238</th><td>    <b>virtual</b> <em>const</em> <em>void</em>* <a class="virtual decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6Packet6onSendERm" title='sf::Packet::onSend' data-ref="_ZN2sf6Packet6onSendERm" id="_ZN2sf6Packet6onSendERm">onSend</a>(<span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>&amp; <dfn class="local col5 decl" id="35size" title='size' data-type='std::size_t &amp;' data-ref="35size">size</dfn>);</td></tr>
+<tr><th id="239">239</th><td></td></tr>
+<tr><th id="240">240</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="241">241</th><td><i>    /// \brief Called after the packet is received over the network</i></td></tr>
+<tr><th id="242">242</th><td><i>    ///</i></td></tr>
+<tr><th id="243">243</th><td><i>    /// This function can be defined by derived classes to</i></td></tr>
+<tr><th id="244">244</th><td><i>    /// transform the data after it is received; this can be</i></td></tr>
+<tr><th id="245">245</th><td><i>    /// used for decompression, decryption, etc.</i></td></tr>
+<tr><th id="246">246</th><td><i>    /// The function receives a pointer to the received data,</i></td></tr>
+<tr><th id="247">247</th><td><i>    /// and must fill the packet with the transformed bytes.</i></td></tr>
+<tr><th id="248">248</th><td><i>    /// The default implementation fills the packet directly</i></td></tr>
+<tr><th id="249">249</th><td><i>    /// without transforming the data.</i></td></tr>
+<tr><th id="250">250</th><td><i>    ///</i></td></tr>
+<tr><th id="251">251</th><td><i>    /// \param data Pointer to the received bytes</i></td></tr>
+<tr><th id="252">252</th><td><i>    /// \param size Number of bytes</i></td></tr>
+<tr><th id="253">253</th><td><i>    ///</i></td></tr>
+<tr><th id="254">254</th><td><i>    /// \see onSend</i></td></tr>
+<tr><th id="255">255</th><td><i>    ///</i></td></tr>
+<tr><th id="256">256</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="257">257</th><td>    <b>virtual</b> <em>void</em> <a class="virtual decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6Packet9onReceiveEPKvm" title='sf::Packet::onReceive' data-ref="_ZN2sf6Packet9onReceiveEPKvm" id="_ZN2sf6Packet9onReceiveEPKvm">onReceive</a>(<em>const</em> <em>void</em>* <dfn class="local col6 decl" id="36data" title='data' data-type='const void *' data-ref="36data">data</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col7 decl" id="37size" title='size' data-type='std::size_t' data-ref="37size">size</dfn>);</td></tr>
+<tr><th id="258">258</th><td></td></tr>
+<tr><th id="259">259</th><td><b>private</b>:</td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="262">262</th><td><i>    /// Disallow comparisons between packets</i></td></tr>
+<tr><th id="263">263</th><td><i>    ///</i></td></tr>
+<tr><th id="264">264</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="265">265</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf6PacketeqERKS0_" title='sf::Packet::operator==' data-ref="_ZNK2sf6PacketeqERKS0_"><b>operator</b> ==</dfn>(<em>const</em> <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <dfn class="local col8 decl" id="38right" title='right' data-type='const sf::Packet &amp;' data-ref="38right">right</dfn>) <em>const</em>;</td></tr>
+<tr><th id="266">266</th><td>    <em>bool</em> <dfn class="decl" id="_ZNK2sf6PacketneERKS0_" title='sf::Packet::operator!=' data-ref="_ZNK2sf6PacketneERKS0_"><b>operator</b> !=</dfn>(<em>const</em> <a class="type" href="#sf::Packet" title='sf::Packet' data-ref="sf::Packet">Packet</a>&amp; <dfn class="local col9 decl" id="39right" title='right' data-type='const sf::Packet &amp;' data-ref="39right">right</dfn>) <em>const</em>;</td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="269">269</th><td><i>    /// \brief Check if the packet can extract a given number of bytes</i></td></tr>
+<tr><th id="270">270</th><td><i>    ///</i></td></tr>
+<tr><th id="271">271</th><td><i>    /// This function updates accordingly the state of the packet.</i></td></tr>
+<tr><th id="272">272</th><td><i>    ///</i></td></tr>
+<tr><th id="273">273</th><td><i>    /// \param size Size to check</i></td></tr>
+<tr><th id="274">274</th><td><i>    ///</i></td></tr>
+<tr><th id="275">275</th><td><i>    /// \return True if \a size bytes can be read from the packet</i></td></tr>
+<tr><th id="276">276</th><td><i>    ///</i></td></tr>
+<tr><th id="277">277</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="278">278</th><td>    <em>bool</em> <a class="decl" href="../../../src/SFML/Network/Packet.cpp.html#_ZN2sf6Packet9checkSizeEm" title='sf::Packet::checkSize' data-ref="_ZN2sf6Packet9checkSizeEm" id="_ZN2sf6Packet9checkSizeEm">checkSize</a>(<span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col0 decl" id="40size" title='size' data-type='std::size_t' data-ref="40size">size</dfn>);</td></tr>
+<tr><th id="279">279</th><td></td></tr>
+<tr><th id="280">280</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="281">281</th><td><i>    // Member data</i></td></tr>
+<tr><th id="282">282</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="283">283</th><td>    <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<em>char</em>&gt; <dfn class="decl" id="sf::Packet::m_data" title='sf::Packet::m_data' data-ref="sf::Packet::m_data">m_data</dfn>;    <i class="doc">///&lt; Data stored in the packet</i></td></tr>
+<tr><th id="284">284</th><td>    <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>       <dfn class="decl" id="sf::Packet::m_readPos" title='sf::Packet::m_readPos' data-ref="sf::Packet::m_readPos">m_readPos</dfn>; <i class="doc">///&lt; Current reading position in the packet</i></td></tr>
+<tr><th id="285">285</th><td>    <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>       <dfn class="decl" id="sf::Packet::m_sendPos" title='sf::Packet::m_sendPos' data-ref="sf::Packet::m_sendPos">m_sendPos</dfn>; <i class="doc">///&lt; Current send position in the packet (for handling partial sends)</i></td></tr>
+<tr><th id="286">286</th><td>    <em>bool</em>              <dfn class="decl" id="sf::Packet::m_isValid" title='sf::Packet::m_isValid' data-ref="sf::Packet::m_isValid">m_isValid</dfn>; <i class="doc">///&lt; Reading state of the packet</i></td></tr>
+<tr><th id="287">287</th><td>};</td></tr>
+<tr><th id="288">288</th><td></td></tr>
+<tr><th id="289">289</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="290">290</th><td></td></tr>
+<tr><th id="291">291</th><td></td></tr>
+<tr><th id="292">292</th><td><u>#<span data-ppcond="25">endif</span> // SFML_PACKET_HPP</u></td></tr>
+<tr><th id="293">293</th><td></td></tr>
+<tr><th id="294">294</th><td></td></tr>
+<tr><th id="295">295</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="296">296</th><td><i>/// \class sf::Packet</i></td></tr>
+<tr><th id="297">297</th><td><i>/// \ingroup network</i></td></tr>
+<tr><th id="298">298</th><td><i>///</i></td></tr>
+<tr><th id="299">299</th><td><i>/// Packets provide a safe and easy way to serialize data,</i></td></tr>
+<tr><th id="300">300</th><td><i>/// in order to send it over the network using sockets</i></td></tr>
+<tr><th id="301">301</th><td><i>/// (sf::TcpSocket, sf::UdpSocket).</i></td></tr>
+<tr><th id="302">302</th><td><i>///</i></td></tr>
+<tr><th id="303">303</th><td><i>/// Packets solve 2 fundamental problems that arise when</i></td></tr>
+<tr><th id="304">304</th><td><i>/// transferring data over the network:</i></td></tr>
+<tr><th id="305">305</th><td><i>/// \li data is interpreted correctly according to the endianness</i></td></tr>
+<tr><th id="306">306</th><td><i>/// \li the bounds of the packet are preserved (one send == one receive)</i></td></tr>
+<tr><th id="307">307</th><td><i>///</i></td></tr>
+<tr><th id="308">308</th><td><i>/// The sf::Packet class provides both input and output modes.</i></td></tr>
+<tr><th id="309">309</th><td><i>/// It is designed to follow the behavior of standard C++ streams,</i></td></tr>
+<tr><th id="310">310</th><td><i>/// using operators &gt;&gt; and &lt;&lt; to extract and insert data.</i></td></tr>
+<tr><th id="311">311</th><td><i>///</i></td></tr>
+<tr><th id="312">312</th><td><i>/// It is recommended to use only fixed-size types (like sf::Int32, etc.),</i></td></tr>
+<tr><th id="313">313</th><td><i>/// to avoid possible differences between the sender and the receiver.</i></td></tr>
+<tr><th id="314">314</th><td><i>/// Indeed, the native C++ types may have different sizes on two platforms</i></td></tr>
+<tr><th id="315">315</th><td><i>/// and your data may be corrupted if that happens.</i></td></tr>
+<tr><th id="316">316</th><td><i>///</i></td></tr>
+<tr><th id="317">317</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="318">318</th><td><i>/// \code</i></td></tr>
+<tr><th id="319">319</th><td><i>/// sf::Uint32 x = 24;</i></td></tr>
+<tr><th id="320">320</th><td><i>/// std::string s = "hello";</i></td></tr>
+<tr><th id="321">321</th><td><i>/// double d = 5.89;</i></td></tr>
+<tr><th id="322">322</th><td><i>///</i></td></tr>
+<tr><th id="323">323</th><td><i>/// // Group the variables to send into a packet</i></td></tr>
+<tr><th id="324">324</th><td><i>/// sf::Packet packet;</i></td></tr>
+<tr><th id="325">325</th><td><i>/// packet &lt;&lt; x &lt;&lt; s &lt;&lt; d;</i></td></tr>
+<tr><th id="326">326</th><td><i>///</i></td></tr>
+<tr><th id="327">327</th><td><i>/// // Send it over the network (socket is a valid sf::TcpSocket)</i></td></tr>
+<tr><th id="328">328</th><td><i>/// socket.send(packet);</i></td></tr>
+<tr><th id="329">329</th><td><i>///</i></td></tr>
+<tr><th id="330">330</th><td><i>/// -----------------------------------------------------------------</i></td></tr>
+<tr><th id="331">331</th><td><i>///</i></td></tr>
+<tr><th id="332">332</th><td><i>/// // Receive the packet at the other end</i></td></tr>
+<tr><th id="333">333</th><td><i>/// sf::Packet packet;</i></td></tr>
+<tr><th id="334">334</th><td><i>/// socket.receive(packet);</i></td></tr>
+<tr><th id="335">335</th><td><i>///</i></td></tr>
+<tr><th id="336">336</th><td><i>/// // Extract the variables contained in the packet</i></td></tr>
+<tr><th id="337">337</th><td><i>/// sf::Uint32 x;</i></td></tr>
+<tr><th id="338">338</th><td><i>/// std::string s;</i></td></tr>
+<tr><th id="339">339</th><td><i>/// double d;</i></td></tr>
+<tr><th id="340">340</th><td><i>/// if (packet &gt;&gt; x &gt;&gt; s &gt;&gt; d)</i></td></tr>
+<tr><th id="341">341</th><td><i>/// {</i></td></tr>
+<tr><th id="342">342</th><td><i>///     // Data extracted successfully...</i></td></tr>
+<tr><th id="343">343</th><td><i>/// }</i></td></tr>
+<tr><th id="344">344</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="345">345</th><td><i>///</i></td></tr>
+<tr><th id="346">346</th><td><i>/// Packets have built-in operator &gt;&gt; and &lt;&lt; overloads for</i></td></tr>
+<tr><th id="347">347</th><td><i>/// standard types:</i></td></tr>
+<tr><th id="348">348</th><td><i>/// \li bool</i></td></tr>
+<tr><th id="349">349</th><td><i>/// \li fixed-size integer types (sf::Int8/16/32, sf::Uint8/16/32)</i></td></tr>
+<tr><th id="350">350</th><td><i>/// \li floating point numbers (float, double)</i></td></tr>
+<tr><th id="351">351</th><td><i>/// \li string types (char*, wchar_t*, std::string, std::wstring, sf::String)</i></td></tr>
+<tr><th id="352">352</th><td><i>///</i></td></tr>
+<tr><th id="353">353</th><td><i>/// Like standard streams, it is also possible to define your own</i></td></tr>
+<tr><th id="354">354</th><td><i>/// overloads of operators &gt;&gt; and &lt;&lt; in order to handle your</i></td></tr>
+<tr><th id="355">355</th><td><i>/// custom types.</i></td></tr>
+<tr><th id="356">356</th><td><i>///</i></td></tr>
+<tr><th id="357">357</th><td><i>/// \code</i></td></tr>
+<tr><th id="358">358</th><td><i>/// struct MyStruct</i></td></tr>
+<tr><th id="359">359</th><td><i>/// {</i></td></tr>
+<tr><th id="360">360</th><td><i>///     float       number;</i></td></tr>
+<tr><th id="361">361</th><td><i>///     sf::Int8    integer;</i></td></tr>
+<tr><th id="362">362</th><td><i>///     std::string str;</i></td></tr>
+<tr><th id="363">363</th><td><i>/// };</i></td></tr>
+<tr><th id="364">364</th><td><i>///</i></td></tr>
+<tr><th id="365">365</th><td><i>/// sf::Packet&amp; operator &lt;&lt;(sf::Packet&amp; packet, const MyStruct&amp; m)</i></td></tr>
+<tr><th id="366">366</th><td><i>/// {</i></td></tr>
+<tr><th id="367">367</th><td><i>///     return packet &lt;&lt; m.number &lt;&lt; m.integer &lt;&lt; m.str;</i></td></tr>
+<tr><th id="368">368</th><td><i>/// }</i></td></tr>
+<tr><th id="369">369</th><td><i>///</i></td></tr>
+<tr><th id="370">370</th><td><i>/// sf::Packet&amp; operator &gt;&gt;(sf::Packet&amp; packet, MyStruct&amp; m)</i></td></tr>
+<tr><th id="371">371</th><td><i>/// {</i></td></tr>
+<tr><th id="372">372</th><td><i>///     return packet &gt;&gt; m.number &gt;&gt; m.integer &gt;&gt; m.str;</i></td></tr>
+<tr><th id="373">373</th><td><i>/// }</i></td></tr>
+<tr><th id="374">374</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="375">375</th><td><i>///</i></td></tr>
+<tr><th id="376">376</th><td><i>/// Packets also provide an extra feature that allows to apply</i></td></tr>
+<tr><th id="377">377</th><td><i>/// custom transformations to the data before it is sent,</i></td></tr>
+<tr><th id="378">378</th><td><i>/// and after it is received. This is typically used to</i></td></tr>
+<tr><th id="379">379</th><td><i>/// handle automatic compression or encryption of the data.</i></td></tr>
+<tr><th id="380">380</th><td><i>/// This is achieved by inheriting from sf::Packet, and overriding</i></td></tr>
+<tr><th id="381">381</th><td><i>/// the onSend and onReceive functions.</i></td></tr>
+<tr><th id="382">382</th><td><i>///</i></td></tr>
+<tr><th id="383">383</th><td><i>/// Here is an example:</i></td></tr>
+<tr><th id="384">384</th><td><i>/// \code</i></td></tr>
+<tr><th id="385">385</th><td><i>/// class ZipPacket : public sf::Packet</i></td></tr>
+<tr><th id="386">386</th><td><i>/// {</i></td></tr>
+<tr><th id="387">387</th><td><i>///     virtual const void* onSend(std::size_t&amp; size)</i></td></tr>
+<tr><th id="388">388</th><td><i>///     {</i></td></tr>
+<tr><th id="389">389</th><td><i>///         const void* srcData = getData();</i></td></tr>
+<tr><th id="390">390</th><td><i>///         std::size_t srcSize = getDataSize();</i></td></tr>
+<tr><th id="391">391</th><td><i>///</i></td></tr>
+<tr><th id="392">392</th><td><i>///         return MySuperZipFunction(srcData, srcSize, &amp;size);</i></td></tr>
+<tr><th id="393">393</th><td><i>///     }</i></td></tr>
+<tr><th id="394">394</th><td><i>///</i></td></tr>
+<tr><th id="395">395</th><td><i>///     virtual void onReceive(const void* data, std::size_t size)</i></td></tr>
+<tr><th id="396">396</th><td><i>///     {</i></td></tr>
+<tr><th id="397">397</th><td><i>///         std::size_t dstSize;</i></td></tr>
+<tr><th id="398">398</th><td><i>///         const void* dstData = MySuperUnzipFunction(data, size, &amp;dstSize);</i></td></tr>
+<tr><th id="399">399</th><td><i>///</i></td></tr>
+<tr><th id="400">400</th><td><i>///         append(dstData, dstSize);</i></td></tr>
+<tr><th id="401">401</th><td><i>///     }</i></td></tr>
+<tr><th id="402">402</th><td><i>/// };</i></td></tr>
+<tr><th id="403">403</th><td><i>///</i></td></tr>
+<tr><th id="404">404</th><td><i>/// // Use like regular packets:</i></td></tr>
+<tr><th id="405">405</th><td><i>/// ZipPacket packet;</i></td></tr>
+<tr><th id="406">406</th><td><i>/// packet &lt;&lt; x &lt;&lt; s &lt;&lt; d;</i></td></tr>
+<tr><th id="407">407</th><td><i>/// ...</i></td></tr>
+<tr><th id="408">408</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="409">409</th><td><i>///</i></td></tr>
+<tr><th id="410">410</th><td><i>/// \see sf::TcpSocket, sf::UdpSocket</i></td></tr>
+<tr><th id="411">411</th><td><i>///</i></td></tr>
+<tr><th id="412">412</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="413">413</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Network/Packet.cpp.html'>codebrowser/src/SFML/Network/Packet.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='265' type='void sf::SoundBuffer::detachSound(sf::Sound * sound) const'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='66' u='c' c='_ZN2sf5SoundD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='98' u='c' c='_ZN2sf5Sound9setBufferERKNS_11SoundBufferE'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='170' u='c' c='_ZN2sf5SoundaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='193' u='c' c='_ZN2sf5Sound11resetBufferEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='259'>////////////////////////////////////////////////////////////
+    /// \brief Remove a sound from the list of sounds that use this buffer
+    ///
+    /// \param sound Sound instance to detach
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='286' ll='289' type='void sf::SoundBuffer::detachSound(sf::Sound * sound) const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='285'>////////////////////////////////////////////////////////////</doc>

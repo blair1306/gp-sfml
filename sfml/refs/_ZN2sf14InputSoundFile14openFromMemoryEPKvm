@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='88' type='bool sf::InputSoundFile::openFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='101' ll='133' type='bool sf::InputSoundFile::openFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='100'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file in memory for reading
+    ///
+    /// The supported audio formats are: WAV (PCM only), OGG/Vorbis, FLAC.
+    /// The supported sample sizes for FLAC and WAV are 8, 16, 24 and 32 bit.
+    ///
+    /// \param data        Pointer to the file data in memory
+    /// \param sizeInBytes Size of the data to load, in bytes
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='78' u='c' c='_ZN2sf5Music14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='99' u='c' c='_ZN2sf11SoundBuffer14loadFromMemoryEPKvm'/>

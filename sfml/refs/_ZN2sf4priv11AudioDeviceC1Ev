@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='54' type='void sf::priv::AudioDevice::AudioDevice()'/>
+<use f='codebrowser/src/SFML/Audio/AlResource.cpp' l='57' u='c' c='_ZN2sf10AlResourceC1Ev'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='50'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='51' ll='86' type='void sf::priv::AudioDevice::AudioDevice()'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='112' u='c' c='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='130' u='c' c='_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='50'>////////////////////////////////////////////////////////////</doc>

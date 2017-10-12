@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='231' ll='236' type='int stbi__start_write_file(stbi__write_context * s, const char * filename)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='392' u='c' c='stbi_write_bmp'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='480' u='c' c='stbi_write_tga'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='650' u='c' c='stbi_write_hdr'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1368' u='c' c='stbi_write_jpg'/>

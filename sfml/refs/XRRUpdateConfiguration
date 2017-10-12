@@ -1,0 +1,6 @@
+<dec f='include/X11/extensions/Xrandr.h' l='451' type='int XRRUpdateConfiguration(XEvent * event)'/>
+<doc f='include/X11/extensions/Xrandr.h' l='446'>/*
+ * intended to take RRScreenChangeNotify,  or
+ * ConfigureNotify (on the root window)
+ * returns 1 if it is an event type it understands, 0 if not
+ */</doc>

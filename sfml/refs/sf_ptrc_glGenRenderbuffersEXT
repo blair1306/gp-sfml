@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1235' type='void (*)(GLsizei, GLuint *)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='721' type='void (*)(GLsizei, GLuint *)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='773' u='w' c='_ZL27Load_EXT_framebuffer_objectv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='774' u='r' c='_ZL27Load_EXT_framebuffer_objectv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='105' macro='1' u='r'/>

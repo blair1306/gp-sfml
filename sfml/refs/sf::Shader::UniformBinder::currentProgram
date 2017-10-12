@@ -1,0 +1,8 @@
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='188' u='w' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='191' u='r' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='195' u='r' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='196' u='r' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='210' u='r' c='_ZN2sf6Shader13UniformBinderD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='210' u='r' c='_ZN2sf6Shader13UniformBinderD1Ev'/>
+<dec f='codebrowser/src/SFML/Graphics/Shader.cpp' l='216' type='GLhandleARB'/>
+<offset>64</offset>

@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='115' u='c' c='_ZN2sf12RenderTarget7setViewERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='420' u='c' c='_ZN2sf12RenderTarget10initializeEv'/>

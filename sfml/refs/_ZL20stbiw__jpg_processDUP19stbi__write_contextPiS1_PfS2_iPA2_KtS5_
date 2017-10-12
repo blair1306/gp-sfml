@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1119' ll='1182' type='int stbiw__jpg_processDU(stbi__write_context * s, int * bitBuf, int * bitCnt, float * CDU, float * fdtbl, int DC, const unsigned short (*)[2] HTDC, const unsigned short (*)[2] HTAC)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1339' u='c' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1340' u='c' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1341' u='c' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>

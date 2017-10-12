@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='142' type='void sf::String::String(const Uint32 * utf32String)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='136'>////////////////////////////////////////////////////////////
+    /// \brief Construct from a null-terminated C-style UTF-32 string
+    ///
+    /// \param utf32String UTF-32 string to assign
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='114' ll='118' type='void sf::String::String(const Uint32 * utf32String)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='113'>////////////////////////////////////////////////////////////</doc>

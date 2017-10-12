@@ -1,0 +1,5 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='695' type='stbi_uc *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='707' u='w' c='_ZL15stbi__start_memP13stbi__contextPKhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='719' u='w' c='_ZL21stbi__start_callbacksP13stbi__contextP17stbi_io_callbacksPv'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='761' u='r' c='_ZL12stbi__rewindP13stbi__context'/>
+<offset>1664</offset>

@@ -1,0 +1,3 @@
+<dec f='include/X11/Xutil.h' l='484' type='XWMHints * XGetWMHints(Display * , Window )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1156' u='c' c='_ZN2sf4priv13WindowImplX1112requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1624' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

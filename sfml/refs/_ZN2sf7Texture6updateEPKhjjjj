@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='277' type='void sf::Texture::update(const Uint8 * pixels, unsigned int width, unsigned int height, unsigned int x, unsigned int y)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='665' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='257'>////////////////////////////////////////////////////////////
+    /// \brief Update a part of the texture from an array of pixels
+    ///
+    /// The size of the \a pixel array must match the \a width and
+    /// \a height arguments, and it must contain 32-bits RGBA pixels.
+    ///
+    /// No additional check is performed on the size of the pixel
+    /// array or the bounds of the area to update, passing invalid
+    /// arguments will lead to an undefined behavior.
+    ///
+    /// This function does nothing if \a pixels is null or if the
+    /// texture was not previously created.
+    ///
+    /// \param pixels Array of pixels to copy to the texture
+    /// \param width  Width of the pixel region contained in \a pixels
+    /// \param height Height of the pixel region contained in \a pixels
+    /// \param x      X offset in the texture where to copy the source pixels
+    /// \param y      Y offset in the texture where to copy the source pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='406' u='c' c='_ZN2sf7Texture6updateEPKh'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='411' ll='435' type='void sf::Texture::update(const Uint8 * pixels, unsigned int width, unsigned int height, unsigned int x, unsigned int y)'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='533' u='c' c='_ZN2sf7Texture6updateERKNS_5ImageE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='540' u='c' c='_ZN2sf7Texture6updateERKNS_5ImageEjj'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='410'>////////////////////////////////////////////////////////////</doc>

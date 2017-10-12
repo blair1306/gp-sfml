@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Network/Ftp.hpp' l='74' ll='134'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='70'>////////////////////////////////////////////////////////////
+        /// \brief Status codes possibly returned by a FTP response
+        ///
+        ////////////////////////////////////////////////////////////</doc>

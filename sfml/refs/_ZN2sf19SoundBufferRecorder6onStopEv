@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='92' type='void sf::SoundBufferRecorder::onStop()'/>
+<inh f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='254' c='_ZN2sf13SoundRecorder6onStopEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='63' ll='67' type='void sf::SoundBufferRecorder::onStop()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='62'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='88'>////////////////////////////////////////////////////////////
+    /// \brief Stop capturing audio data
+    ///
+    ////////////////////////////////////////////////////////////</doc>

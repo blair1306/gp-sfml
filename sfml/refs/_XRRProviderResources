@@ -1,0 +1,5 @@
+<def f='include/X11/extensions/Xrandr.h' l='490' ll='494'/>
+<size>24</size>
+<mbr r='_XRRProviderResources::timestamp' o='0' t='Time'/>
+<mbr r='_XRRProviderResources::nproviders' o='64' t='int'/>
+<mbr r='_XRRProviderResources::providers' o='128' t='RRProvider *'/>

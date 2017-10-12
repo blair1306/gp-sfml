@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='123' type='static void sf::priv::InputImpl::setMousePosition(const Vector2i &amp; position, const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='112'>////////////////////////////////////////////////////////////
+    /// \brief Set the current position of the mouse in window coordinates
+    ///
+    /// This function sets the current position of the mouse
+    /// cursor, relative to the given window.
+    /// If no window is used, it sets the position in desktop coordinates.
+    ///
+    /// \param position New position of the mouse
+    /// \param relativeTo Reference window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Mouse.cpp' l='66' u='c' c='_ZN2sf5Mouse11setPositionERKNS_7Vector2IiEERKNS_6WindowE'/>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='287' ll='301' type='static void sf::priv::InputImpl::setMousePosition(const Vector2i &amp; position, const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='286'>////////////////////////////////////////////////////////////</doc>

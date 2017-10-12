@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='353' type='int *'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='75' u='w' c='_ZN2sf4FontC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='90' u='w' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='90' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='102' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='103' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='128' u='w' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='193' u='w' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='248' u='w' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='461' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='461' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='478' u='r' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='481' u='r' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='484' u='r' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='487' u='r' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='512' u='w' c='_ZN2sf4Font7cleanupEv'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='353'>///&lt; Reference counter used by implicit sharing</doc>

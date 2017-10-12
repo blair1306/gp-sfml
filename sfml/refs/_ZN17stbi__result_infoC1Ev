@@ -1,0 +1,3 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1059' u='c' c='_ZL31stbi__load_and_postprocess_8bitP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1083' u='c' c='_ZL32stbi__load_and_postprocess_16bitP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1214' u='c' c='_ZL16stbi__loadf_mainP13stbi__contextPiS1_S1_i'/>

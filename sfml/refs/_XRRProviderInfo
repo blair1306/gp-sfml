@@ -1,0 +1,12 @@
+<def f='include/X11/extensions/Xrandr.h' l='502' ll='513'/>
+<size>72</size>
+<mbr r='_XRRProviderInfo::capabilities' o='0' t='unsigned int'/>
+<mbr r='_XRRProviderInfo::ncrtcs' o='32' t='int'/>
+<mbr r='_XRRProviderInfo::crtcs' o='64' t='RRCrtc *'/>
+<mbr r='_XRRProviderInfo::noutputs' o='128' t='int'/>
+<mbr r='_XRRProviderInfo::outputs' o='192' t='RROutput *'/>
+<mbr r='_XRRProviderInfo::name' o='256' t='char *'/>
+<mbr r='_XRRProviderInfo::nassociatedproviders' o='320' t='int'/>
+<mbr r='_XRRProviderInfo::associated_providers' o='384' t='RRProvider *'/>
+<mbr r='_XRRProviderInfo::associated_capability' o='448' t='unsigned int *'/>
+<mbr r='_XRRProviderInfo::nameLen' o='512' t='int'/>

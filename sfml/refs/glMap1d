@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1410' type='void glMap1d(GLenum , GLdouble , GLdouble , GLint , GLint , const GLdouble * )'/>
+<dec f='include/GL/gl.h' l='1365' type='void glMap1d(GLenum target, GLdouble u1, GLdouble u2, GLint stride, GLint order, const GLdouble * points)'/>

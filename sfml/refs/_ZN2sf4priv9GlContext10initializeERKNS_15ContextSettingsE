@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='254' type='void sf::priv::GlContext::initialize(const sf::ContextSettings &amp; requestedSettings)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='249'>////////////////////////////////////////////////////////////
+    /// \brief Perform various initializations after the context construction
+    /// \param requestedSettings Requested settings during context creation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='228' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='367' u='c' c='_ZN2sf4priv9GlContext6createEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='395' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='424' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='564' ll='687' type='void sf::priv::GlContext::initialize(const sf::ContextSettings &amp; requestedSettings)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='563'>////////////////////////////////////////////////////////////</doc>

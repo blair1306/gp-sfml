@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='121' type='sf::priv::JoystickManager::Item [8]'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='118'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='121'>///&lt; Joysticks information and state</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='46' u='m' c='_ZNK2sf4priv15JoystickManager15getCapabilitiesEj'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='53' u='m' c='_ZNK2sf4priv15JoystickManager8getStateEj'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='60' u='m' c='_ZNK2sf4priv15JoystickManager17getIdentificationEj'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='69' u='a' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='114' u='m' c='_ZN2sf4priv15JoystickManagerD1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='115' u='m' c='_ZN2sf4priv15JoystickManagerD1Ev'/>

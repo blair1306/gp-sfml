@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='78'/>
+<doc f='include/x86_64-linux-gnu/sys/select.h' l='77'>/* Maximum number of file descriptors in `fd_set&apos;.  */</doc>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='99' u='c'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='133' u='c'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='183' u='c'/>

@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/stl_set.h' l='391' ll='393' type='size_type std::set::size() const'/>
+<doc f='include/c++/5/bits/stl_set.h' l='390'>///  Returns the size of the %set.</doc>

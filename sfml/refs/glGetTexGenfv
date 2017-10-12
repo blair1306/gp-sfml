@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1374' type='void glGetTexGenfv(GLenum , GLenum , GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1255' type='void glGetTexGenfv(GLenum coord, GLenum pname, GLfloat * params)'/>

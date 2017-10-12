@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='176' type='bool sf::operator==(const Rect&lt;T&gt; &amp; left, const Rect&lt;T&gt; &amp; right)'/>
+<def f='codebrowser/include/SFML/Graphics/Rect.inl' l='147' ll='151' type='bool sf::operator==(const Rect&lt;T&gt; &amp; left, const Rect&lt;T&gt; &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='69' u='c' c='_ZN2sf5Shape10setTextureEPKNS_7TextureEb'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='67' u='c' c='_ZN2sf6Sprite10setTextureERKNS_7TextureEb'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='455'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='391' u='c'/>
+<dec f='include/GL/gl.h' l='342'/>
+<doc f='include/GL/gl.h' l='341'>/* Blending */</doc>

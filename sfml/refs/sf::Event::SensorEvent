@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='175' ll='181'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='171'>////////////////////////////////////////////////////////////
+    /// \brief Sensor event parameters (SensorChanged)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::SensorEvent::type' o='0' t='Sensor::Type'/>
+<mbr r='sf::Event::SensorEvent::x' o='32' t='float'/>
+<mbr r='sf::Event::SensorEvent::y' o='64' t='float'/>
+<mbr r='sf::Event::SensorEvent::z' o='96' t='float'/>

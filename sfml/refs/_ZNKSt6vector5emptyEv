@@ -1,0 +1,19 @@
+<def f='include/c++/5/bits/stl_vector.h' l='742' ll='744' type='bool std::vector::empty() const'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='738'>/**
+       *  Returns true if the %vector is empty.  (Thus begin() would
+       *  equal end().)
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='165' u='c' c='_ZNK2sf11SoundBuffer10getSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='243' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='65' u='c' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='180' u='c' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='296' u='c' c='_ZNK2sf5Image12getPixelsPtrEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='311' u='c' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='335' u='c' c='_ZN2sf5Image14flipVerticallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='237' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='109' u='c' c='_ZNK2sf11VertexArray9getBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='146' u='c' c='_ZNK2sf11VertexArray4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='78' u='c' c='_ZNK2sf6Packet7getDataEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='394' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1416' u='c' c='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='70' u='c' c='_ZN2sf9VideoMode18getFullscreenModesEv'/>

@@ -1,0 +1,13 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1774' ll='1790' type='void stbi__grow_buffer_unsafe(stbi__jpeg * j)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1801' u='c' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1854' u='c' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1869' u='c' c='_ZL19stbi__jpeg_get_bitsP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1880' u='c' c='_ZL18stbi__jpeg_get_bitP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1910' u='c' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1927' u='c' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1963' u='c' c='_ZL31stbi__jpeg_decode_block_prog_dcP10stbi__jpegPsP13stbi__huffmani'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2001' u='c' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2658' u='c' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2690' u='c' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2721' u='c' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2750' u='c' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>

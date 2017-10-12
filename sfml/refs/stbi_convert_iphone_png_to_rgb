@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='435' type='void stbi_convert_iphone_png_to_rgb(int flag_true_if_should_convert)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4630' ll='4633' macro='1' type='void stbi_convert_iphone_png_to_rgb(int flag_true_if_should_convert)'/>

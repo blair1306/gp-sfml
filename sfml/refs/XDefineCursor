@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='2231' type='int XDefineCursor(Display * , Window , Cursor )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1061' u='c' c='_ZN2sf4priv13WindowImplX1121setMouseCursorVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1070' u='c' c='_ZN2sf4priv13WindowImplX1114setMouseCursorERKNS0_10CursorImplE'/>

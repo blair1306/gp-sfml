@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='281' type='sf::Mutex'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='181' u='a' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='206' u='a' c='_ZN2sf5Music6onSeekENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='215' u='a' c='_ZN2sf5Music6onLoopEv'/>
+<offset>1472</offset>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='281'>///&lt; Mutex protecting the data</doc>

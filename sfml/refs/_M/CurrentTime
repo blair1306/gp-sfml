@@ -1,0 +1,10 @@
+<dec f='include/X11/X.h' l='139'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='185' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='241' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1086' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1103' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1222' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1273' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1300' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1603' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1645' u='c'/>

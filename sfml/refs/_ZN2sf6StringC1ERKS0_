@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='158' type='void sf::String::String(const sf::String &amp; copy)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='152'>////////////////////////////////////////////////////////////
+    /// \brief Copy constructor
+    ///
+    /// \param copy Instance to copy
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='95' u='c' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='129' ll='132' type='void sf::String::String(const sf::String &amp; copy)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='394' u='c' c='_ZN2sfplERKNS_6StringES2_'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='128'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='181' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='198' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='226' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>

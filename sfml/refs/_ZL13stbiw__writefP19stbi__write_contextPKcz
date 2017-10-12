@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='283' ll='289' type='void stbiw__writef(stbi__write_context * s, const char * fmt)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='416' u='c' c='_ZL19stbi_write_tga_coreP19stbi__write_contextiiiPv'/>

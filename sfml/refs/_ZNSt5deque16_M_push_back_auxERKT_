@@ -1,0 +1,4 @@
+<use f='include/c++/5/bits/stl_deque.h' l='1526' u='c' c='_ZNSt5deque9push_backERKT_'/>
+<dec f='include/c++/5/bits/stl_deque.h' l='1939' type='void std::deque::_M_push_back_aux(const value_type &amp; )'/>
+<def f='include/c++/5/bits/deque.tcc' l='458' ll='490' type='void std::deque::_M_push_back_aux(const value_type &amp; __t)'/>
+<doc f='include/c++/5/bits/deque.tcc' l='457'>// Called only if _M_impl._M_finish._M_cur == _M_impl._M_finish._M_last - 1.</doc>

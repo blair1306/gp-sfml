@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/VideoModeImpl.hpp' l='60' type='static sf::VideoMode sf::priv::VideoModeImpl::getDesktopMode()'/>
+<def f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='124' ll='186' type='static sf::VideoMode sf::priv::VideoModeImpl::getDesktopMode()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='123'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/VideoModeImpl.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Get the current desktop video mode
+    ///
+    /// \return Current desktop video mode
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='60' u='c' c='_ZN2sf9VideoMode14getDesktopModeEv'/>

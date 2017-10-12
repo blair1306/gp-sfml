@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='84' type='static void sf::priv::SocketImpl::close(SocketHandle sock)'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='121' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='129' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='134' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='78'>////////////////////////////////////////////////////////////
+    /// \brief Close and destroy a socket
+    ///
+    /// \param sock Handle of the socket to close
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='146' u='c' c='_ZN2sf6Socket5closeEv'/>
+<def f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='64' ll='67' type='static void sf::priv::SocketImpl::close(SocketHandle sock)'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='63'>////////////////////////////////////////////////////////////</doc>

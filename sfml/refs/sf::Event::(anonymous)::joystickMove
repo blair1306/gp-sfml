@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='230' type='sf::Event::JoystickMoveEvent'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='230'>///&lt; Joystick move event parameters (Event::JoystickMoved)</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='195' u='m' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='196' u='m' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='197' u='m' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

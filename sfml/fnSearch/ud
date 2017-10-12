@@ -1,0 +1,6 @@
+_ZN2sf9UdpSocketC1Ev|sf::UdpSocket::UdpSocket
+_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE|sf::UdpSocket::bind
+_ZNK2sf9UdpSocket12getLocalPortEv|sf::UdpSocket::getLocalPort
+_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt|sf::UdpSocket::receive
+_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt|sf::UdpSocket::send
+_ZN2sf9UdpSocket6unbindEv|sf::UdpSocket::unbind

@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6427' ll='6447' type='char * stbi__hdr_gettoken(stbi__context * z, char * buffer)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6491' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6497' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6506' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6621' u='c' c='_ZL14stbi__hdr_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6630' u='c' c='_ZL14stbi__hdr_infoP13stbi__contextPiS1_S1_'/>

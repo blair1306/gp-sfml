@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='195' type='Uint64 sf::InputSoundFile::read(Int16 * samples, Uint64 maxCount)'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='246' ll='253' type='Uint64 sf::InputSoundFile::read(Int16 * samples, Uint64 maxCount)'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='245'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='186'>////////////////////////////////////////////////////////////
+    /// \brief Read audio samples from the open file
+    ///
+    /// \param samples  Pointer to the sample array to fill
+    /// \param maxCount Maximum number of samples to read
+    ///
+    /// \return Number of samples actually read (may be less than \a maxCount)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='195' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='227' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>

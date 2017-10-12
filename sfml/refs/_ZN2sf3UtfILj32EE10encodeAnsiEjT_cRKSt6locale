@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Utf.hpp' l='711' type='static Out sf::Utf&lt;32&gt;::encodeAnsi(Uint32 codepoint, Out output, char replacement = 0, const std::locale &amp; locale = std::locale())'/>
+<def f='codebrowser/include/SFML/System/Utf.inl' l='684' ll='716' type='static Out sf::Utf&lt;32&gt;::encodeAnsi(Uint32 codepoint, Out output, char replacement = 0, const std::locale &amp; locale = std::locale())'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='393' type='sf::VertexArray'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='85' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='103' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='191' u='m' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='192' u='m' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='339' u='r' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='358' u='m' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='405' u='a' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='414' u='a' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='451' u='a' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='490' u='a' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='499' u='a' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>2304</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='393'>///&lt; Vertex array containing the outline geometry</doc>

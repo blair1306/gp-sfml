@@ -1,0 +1,6 @@
+<dec f='include/c++/5/bits/algorithmfwd.h' l='640' type='_IIter std::find(_IIter , _IIter , const _Tp &amp; )'/>
+<def f='include/c++/5/bits/stl_algo.h' l='3781' ll='3792' type='_InputIterator std::find(_InputIterator __first, _InputIterator __last, const _Tp &amp; __val)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='434' u='c' c='_ZN2sf4priv9GlContext20isExtensionAvailableEPKc'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='85' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='755' u='c' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='85' u='c' c='_ZNK2sf9VideoMode7isValidEv'/>

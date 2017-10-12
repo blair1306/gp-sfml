@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='61' type='void sf::View::View(const FloatRect &amp; rectangle)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='55'>////////////////////////////////////////////////////////////
+    /// \brief Construct the view from a rectangle
+    ///
+    /// \param rectangle Rectangle defining the zone to display
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='48' ll='57' type='void sf::View::View(const FloatRect &amp; rectangle)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='47'>////////////////////////////////////////////////////////////</doc>

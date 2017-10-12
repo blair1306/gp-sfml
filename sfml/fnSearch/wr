@@ -1,0 +1,6 @@
+_ZNSt13basic_ostream5writeEPKT_l|std::basic_ostream::write
+_ZN2sf15OutputSoundFile5writeEPKsy|sf::OutputSoundFile::write
+_ZN2sf4priv19SoundFileWriterFlac5writeEPKsy|sf::priv::SoundFileWriterFlac::write
+_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy|sf::priv::SoundFileWriterOgg::write
+_ZN2sf4priv18SoundFileWriterWav5writeEPKsy|sf::priv::SoundFileWriterWav::write
+_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj|sf::priv::SoundFileWriterWav::writeHeader

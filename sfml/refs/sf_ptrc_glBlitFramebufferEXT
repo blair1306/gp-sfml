@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1253' type='void (*)(GLint, GLint, GLint, GLint, GLint, GLint, GLint, GLint, GLbitfield, GLenum)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='804' type='void (*)(GLint, GLint, GLint, GLint, GLint, GLint, GLint, GLint, GLbitfield, GLenum)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='810' u='w' c='_ZL25Load_EXT_framebuffer_blitv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='811' u='r' c='_ZL25Load_EXT_framebuffer_blitv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='505' macro='1' u='r'/>

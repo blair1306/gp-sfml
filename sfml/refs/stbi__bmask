@@ -1,0 +1,7 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1793' type='stbi__uint32 [17]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1836' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1859' u='r' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1860' u='r' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1871' u='r' c='_ZL19stbi__jpeg_get_bitsP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1872' u='r' c='_ZL19stbi__jpeg_get_bitsP10stbi__jpegi'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1792'>// (1 &lt;&lt; n) - 1</doc>

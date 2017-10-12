@@ -1,0 +1,6 @@
+<dec f='include/GL/glx.h' l='195' type='int glXMakeCurrent(Display * dpy, GLXDrawable drawable, GLXContext ctx)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='183' u='c' c='_ZN2sf4priv10GlxContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='236' u='c' c='_ZN2sf4priv10GlxContext11makeCurrentEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='241' u='c' c='_ZN2sf4priv10GlxContext11makeCurrentEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='697' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='752' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

@@ -1,0 +1,37 @@
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='189' u='w' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='199' u='w' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<dec f='codebrowser/src/SFML/Graphics/Shader.cpp' l='217' type='GLint'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='429' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='430' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='438' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='439' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='447' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='448' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='456' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='457' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='465' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='466' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='474' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='475' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='483' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='484' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='492' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='493' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='529' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='530' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='538' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='539' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='595' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKfm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='596' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKfm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='606' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector2IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='607' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector2IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='617' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector3IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='618' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector3IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='628' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv7Vector4IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='629' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv7Vector4IfEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='643' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='644' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='658' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='659' u='r' c='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>
+<offset>96</offset>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='217'>///&lt; Uniform location, used by the surrounding sf::Shader code</doc>

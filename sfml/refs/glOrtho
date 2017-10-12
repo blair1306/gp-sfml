@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1436' type='void glOrtho(GLdouble , GLdouble , GLdouble , GLdouble , GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='868' type='void glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble near_val, GLdouble far_val)'/>

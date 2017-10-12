@@ -1,0 +1,4 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3834' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3901' u='r' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4124' u='w' c='_ZL13stbi__do_zlibP10stbi__zbufPciii'/>
+<offset>384</offset>

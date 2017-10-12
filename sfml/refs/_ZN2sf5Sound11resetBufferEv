@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='213' type='void sf::Sound::resetBuffer()'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='184' ll='196' type='void sf::Sound::resetBuffer()'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='183'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='204'>////////////////////////////////////////////////////////////
+    /// \brief Reset the internal buffer of the sound
+    ///
+    /// This function is for internal use only, you don&apos;t have
+    /// to use it. It is called by the sf::SoundBuffer that
+    /// this sound uses, when it is destroyed in order to prevent
+    /// the sound from using a dead buffer.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='76' u='c' c='_ZN2sf11SoundBufferD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='261' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='395' type='void sf::RenderTarget::applyTexture(const sf::Texture * texture)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='104' u='c' c='_ZN2sf12RenderTarget5clearERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='256' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='308' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='401' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='504' ll='509' type='void sf::RenderTarget::applyTexture(const sf::Texture * texture)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='503'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='389'>////////////////////////////////////////////////////////////
+    /// \brief Apply a new texture
+    ///
+    /// \param texture Texture to apply
+    ///
+    ////////////////////////////////////////////////////////////</doc>

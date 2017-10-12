@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1355' type='void glGetDoublev(GLenum , GLdouble * )'/>
+<dec f='include/GL/gl.h' l='810' type='void glGetDoublev(GLenum pname, GLdouble * params)'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='521' type='bool sf::operator==(const sf::String &amp; left, const sf::String &amp; right)'/>
+<dec f='codebrowser/include/SFML/System/String.hpp' l='540' type='bool sf::operator==(const sf::String &amp; left, const sf::String &amp; right)'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='350' ll='353' type='bool sf::operator==(const sf::String &amp; left, const sf::String &amp; right)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='359' u='c' c='_ZN2sfneERKNS_6StringES2_'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='349'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='357' u='c' c='_ZN12_GLOBAL__N_124isWMAbsolutePositionGoodEv'/>

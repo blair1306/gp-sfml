@@ -1,0 +1,4 @@
+<def f='include/c++/5/streambuf' l='531' ll='532' type='char_type * std::basic_streambuf::pptr() const'/>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='62' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBuf8overflowEi'/>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='83' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBuf4syncEv'/>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='86' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBuf4syncEv'/>

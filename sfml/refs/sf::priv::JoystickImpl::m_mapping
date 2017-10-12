@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='121' type='char [64]'/>
+<offset>32</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='121'>///&lt; Axes mapping (index to axis id)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='446' u='r' c='_ZN2sf4priv12JoystickImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='446' u='r' c='_ZN2sf4priv12JoystickImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='560' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='614' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='664' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>

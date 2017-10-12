@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='1611' type='Pixmap XCreatePixmapFromBitmapData(Display * , Drawable , char * , unsigned int , unsigned int , unsigned long , unsigned long , unsigned int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='989' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>

@@ -1,0 +1,42 @@
+<dec f='include/X11/Xlib.h' l='260' type='Window'/>
+<dec f='include/X11/Xlib.h' l='314' type='Window'/>
+<dec f='include/X11/Xlib.h' l='563' type='Window'/>
+<dec f='include/X11/Xlib.h' l='581' type='Window'/>
+<dec f='include/X11/Xlib.h' l='599' type='Window'/>
+<dec f='include/X11/Xlib.h' l='616' type='Window'/>
+<offset>320</offset>
+<doc f='include/X11/Xlib.h' l='260'>/* Root window id. */</doc>
+<doc f='include/X11/Xlib.h' l='314'>/* root of screen containing window */</doc>
+<doc f='include/X11/Xlib.h' l='563'>/* root window that the event occurred on */</doc>
+<doc f='include/X11/Xlib.h' l='581'>/* root window that the event occurred on */</doc>
+<doc f='include/X11/Xlib.h' l='599'>/* root window that the event occurred on */</doc>
+<doc f='include/X11/Xlib.h' l='616'>/* root window that the event occurred on */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='69' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='527' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='530' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='201' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='233' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='278' macro='1' u='r'/>
+<dec f='include/X11/extensions/Xrandr.h' l='59' type='Window'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='57' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='140' macro='1' u='r'/>
+<offset>320</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='59'>/* Root window for changed screen */</doc>
+<dec f='include/X11/Xproto.h' l='471' type='CARD32'/>
+<dec f='include/X11/Xproto.h' l='485' type='CARD32'/>
+<dec f='include/X11/Xproto.h' l='580' type='CARD32'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='162' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='568' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='573' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='797' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='832' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='965' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1209' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1245' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1273' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1292' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1300' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1357' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1692' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1694' macro='1' u='r'/>
+<offset>64</offset>

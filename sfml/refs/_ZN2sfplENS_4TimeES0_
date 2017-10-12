@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='244' type='sf::Time sf::operator+(sf::Time left, sf::Time right)'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='143' ll='146' type='sf::Time sf::operator+(sf::Time left, sf::Time right)'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='152' u='c' c='_ZN2sfpLERNS_4TimeES0_'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='142'>////////////////////////////////////////////////////////////</doc>

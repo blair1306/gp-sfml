@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='61' type='void sf::RectangleShape::setSize(const Vector2f &amp; size)'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='37' u='c' c='_ZN2sf14RectangleShapeC1ERKNS_7Vector2IfEE'/>
+<def f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='42' ll='46' type='void sf::RectangleShape::setSize(const Vector2f &amp; size)'/>
+<doc f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RectangleShape.hpp' l='53'>////////////////////////////////////////////////////////////
+    /// \brief Set the size of the rectangle
+    ///
+    /// \param size New size of the rectangle
+    ///
+    /// \see getSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>

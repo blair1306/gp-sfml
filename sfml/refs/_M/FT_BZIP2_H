@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='476'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='466'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_BZIP2_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   definitions of an API which supports bzip2-compressed files.
+   *
+   */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1446' type='void glPointSize(GLfloat )'/>
+<dec f='include/GL/gl.h' l='768' type='void glPointSize(GLfloat size)'/>

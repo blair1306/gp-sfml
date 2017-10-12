@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='77' type='void sf::SoundStream::play()'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='174' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Start or resume playing the audio stream
+    ///
+    /// This function starts the stream if it was stopped, resumes
+    /// it if it was paused, and restarts it from the beginning if
+    /// it was already playing.
+    /// This function uses its own thread so that it doesn&apos;t block
+    /// the rest of the program while the stream is played.
+    ///
+    /// \see pause, stop
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='98' ll='136' type='void sf::SoundStream::play()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

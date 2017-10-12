@@ -1,0 +1,19 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3831' type='char *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3900' u='w' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3902' u='r' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3910' u='w' c='_ZL13stbi__zexpandP10stbi__zbufPci'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3931' u='r' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3938' u='r' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3945' u='w' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3958' u='r' c='_ZL25stbi__parse_huffman_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4041' u='r' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4042' u='r' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4043' u='r' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4045' u='w' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4122' u='w' c='_ZL13stbi__do_zlibP10stbi__zbufPciii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4137' u='r' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4158' u='r' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4172' u='r' c='stbi_zlib_decode_buffer'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4185' u='r' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4199' u='r' c='stbi_zlib_decode_noheader_buffer'/>
+<offset>192</offset>

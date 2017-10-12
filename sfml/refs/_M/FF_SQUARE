@@ -1,0 +1,4 @@
+<dec f='include/linux/input.h' l='458'/>
+<doc f='include/linux/input.h' l='454'>/*
+ * Force feedback periodic effect types
+ */</doc>

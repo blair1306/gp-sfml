@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='93' type='void sf::Music::Music()'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='38' ll='43' type='void sf::Music::Music()'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='37'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='89'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

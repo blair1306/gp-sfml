@@ -1,0 +1,14 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5847' type='stbi_uc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5891' u='w' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5893' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5916' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5934' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5937' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5959' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5963' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5969' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6743' u='w' c='_ZL14stbi__pic_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6744' u='r' c='_ZL14stbi__pic_infoP13stbi__contextPiS1_S1_'/>
+<offset>16</offset>
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='126' type='int'/>
+<offset>640</offset>

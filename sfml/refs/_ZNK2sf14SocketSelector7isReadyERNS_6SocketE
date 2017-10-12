@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='142' type='bool sf::SocketSelector::isReady(sf::Socket &amp; socket) const'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='175' ll='192' type='bool sf::SocketSelector::isReady(sf::Socket &amp; socket) const'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='174'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='125'>////////////////////////////////////////////////////////////
+    /// \brief Test a socket to know if it is ready to receive data
+    ///
+    /// This function must be used after a call to Wait, to know
+    /// which sockets are ready to receive data. If a socket is
+    /// ready, a call to receive will never block because we know
+    /// that there is data available to read.
+    /// Note that if this function returns true for a TcpListener,
+    /// this means that it is ready to accept a new connection.
+    ///
+    /// \param socket Socket to test
+    ///
+    /// \return True if the socket is ready to read, false otherwise
+    ///
+    /// \see isReady
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,14 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='46' ll='97'/>
+<size>16</size>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Unix implementation of Cursor
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv10CursorImplC1Ev'/>
+<fun r='_ZN2sf4priv10CursorImplD1Ev'/>
+<fun r='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<fun r='_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE'/>
+<fun r='_ZN2sf4priv10CursorImpl7releaseEv'/>
+<mbr r='sf::priv::CursorImpl::m_display' o='0' t='::Display *'/>
+<mbr r='sf::priv::CursorImpl::m_cursor' o='64' t='::Cursor'/>

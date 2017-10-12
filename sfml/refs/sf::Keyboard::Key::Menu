@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='96' type='45'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='96'>///&lt; The Menu key</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='55' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='376' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>

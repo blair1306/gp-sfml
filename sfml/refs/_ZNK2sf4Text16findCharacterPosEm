@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='332' type='Vector2f sf::Text::findCharacterPos(std::size_t index) const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='266' ll='308' type='Vector2f sf::Text::findCharacterPos(std::size_t index) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='265'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='317'>////////////////////////////////////////////////////////////
+    /// \brief Return the position of the \a index-th character
+    ///
+    /// This function computes the visual position of a character
+    /// from its index in the string. The returned position is
+    /// in global coordinates (translation, rotation, scale and
+    /// origin are applied).
+    /// If \a index is out of range, the position of the end of
+    /// the string is returned.
+    ///
+    /// \param index Index of the character
+    ///
+    /// \return Position of the character
+    ///
+    ////////////////////////////////////////////////////////////</doc>

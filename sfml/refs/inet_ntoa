@@ -1,0 +1,4 @@
+<dec f='include/arpa/inet.h' l='53' type='char * inet_ntoa(struct in_addr __in)'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='92' u='c' c='_ZNK2sf9IpAddress8toStringB5cxx11Ev'/>
+<doc f='include/arpa/inet.h' l='51'>/* Convert Internet number in IN to ASCII representation.  The return value
+   is a pointer to an internal array containing the string.  */</doc>

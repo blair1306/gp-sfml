@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1587' type='void glDrawElements(GLenum , GLsizei , GLenum , const void * )'/>
+<dec f='include/GL/gl.h' l='1147' type='void glDrawElements(GLenum mode, GLsizei count, GLenum type, const GLvoid * indices)'/>

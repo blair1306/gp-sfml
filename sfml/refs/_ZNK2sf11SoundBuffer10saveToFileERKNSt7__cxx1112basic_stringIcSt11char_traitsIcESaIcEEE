@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='150' type='bool sf::SoundBuffer::saveToFile(const std::string &amp; filename) const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='137'>////////////////////////////////////////////////////////////
+    /// \brief Save the sound buffer to an audio file
+    ///
+    /// See the documentation of sf::OutputSoundFile for the list
+    /// of supported formats.
+    ///
+    /// \param filename Path of the sound file to write
+    ///
+    /// \return True if saving succeeded, false if it failed
+    ///
+    /// \see loadFromFile, loadFromMemory, loadFromSamples
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='144' ll='159' type='bool sf::SoundBuffer::saveToFile(const std::string &amp; filename) const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='143'>////////////////////////////////////////////////////////////</doc>

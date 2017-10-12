@@ -1,0 +1,9 @@
+<dec f='include/fcntl.h' l='146' type='int fcntl(int __fd, int __cmd)'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='73' u='c' c='_ZN2sf4priv10SocketImpl11setBlockingEib'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='76' u='c' c='_ZN2sf4priv10SocketImpl11setBlockingEib'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='81' u='c' c='_ZN2sf4priv10SocketImpl11setBlockingEib'/>
+<doc f='include/fcntl.h' l='141'>/* Do the file control operation described by CMD on FD.
+   The remaining arguments are interpreted depending on CMD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>

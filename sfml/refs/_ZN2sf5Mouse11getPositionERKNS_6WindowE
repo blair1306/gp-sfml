@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='104' type='static Vector2i sf::Mouse::getPosition(const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='93'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of the mouse in window coordinates
+    ///
+    /// This function returns the current position of the mouse
+    /// cursor, relative to the given window.
+    ///
+    /// \param relativeTo Reference window
+    ///
+    /// \return Current position of the mouse
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Mouse.cpp' l='50' ll='53' type='static Vector2i sf::Mouse::getPosition(const sf::Window &amp; relativeTo)'/>
+<doc f='codebrowser/src/SFML/Window/Mouse.cpp' l='49'>////////////////////////////////////////////////////////////</doc>

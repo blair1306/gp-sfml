@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='414' type='std::string'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='323' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='330' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='336' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='341' u='m' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='341' u='m' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='342' u='m' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='342' u='m' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='344' u='r' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='363' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>640</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='414'>///&lt; Web host name</doc>

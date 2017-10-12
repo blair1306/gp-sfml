@@ -1,0 +1,166 @@
+<dec f='include/FLAC/format.h' l='256' type='FLAC__EntropyCodingMethodType'/>
+<dec f='include/FLAC/format.h' l='345' type='FLAC__SubframeType'/>
+<dec f='include/FLAC/format.h' l='676' type='unsigned int'/>
+<dec f='include/FLAC/format.h' l='770' type='FLAC__StreamMetadata_Picture_Type'/>
+<dec f='include/FLAC/format.h' l='835' type='FLAC__MetadataType'/>
+<offset>0</offset>
+<doc f='include/FLAC/format.h' l='674'>/**&lt; Track ISRC.  This is a 12-digit alphanumeric code plus a trailing \c NUL byte */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='163' u='r' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4219' type='stbi__uint32'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4226' u='w' c='_ZL22stbi__get_chunk_headerP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4699' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4833' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4837' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4838' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4839' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4840' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5847' type='stbi_uc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5890' u='w' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5908' u='r' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6742' u='w' c='_ZL14stbi__pic_infoP13stbi__contextPiS1_S1_'/>
+<offset>8</offset>
+<dec f='include/X11/Xlib.h' l='353' type='char *'/>
+<dec f='include/X11/Xlib.h' l='558' type='int'/>
+<dec f='include/X11/Xlib.h' l='576' type='int'/>
+<dec f='include/X11/Xlib.h' l='594' type='int'/>
+<dec f='include/X11/Xlib.h' l='611' type='int'/>
+<dec f='include/X11/Xlib.h' l='635' type='int'/>
+<dec f='include/X11/Xlib.h' l='654' type='int'/>
+<dec f='include/X11/Xlib.h' l='663' type='int'/>
+<dec f='include/X11/Xlib.h' l='674' type='int'/>
+<dec f='include/X11/Xlib.h' l='687' type='int'/>
+<dec f='include/X11/Xlib.h' l='697' type='int'/>
+<dec f='include/X11/Xlib.h' l='706' type='int'/>
+<dec f='include/X11/Xlib.h' l='719' type='int'/>
+<dec f='include/X11/Xlib.h' l='728' type='int'/>
+<dec f='include/X11/Xlib.h' l='738' type='int'/>
+<dec f='include/X11/Xlib.h' l='748' type='int'/>
+<dec f='include/X11/Xlib.h' l='757' type='int'/>
+<dec f='include/X11/Xlib.h' l='769' type='int'/>
+<dec f='include/X11/Xlib.h' l='783' type='int'/>
+<dec f='include/X11/Xlib.h' l='793' type='int'/>
+<dec f='include/X11/Xlib.h' l='802' type='int'/>
+<dec f='include/X11/Xlib.h' l='817' type='int'/>
+<dec f='include/X11/Xlib.h' l='827' type='int'/>
+<dec f='include/X11/Xlib.h' l='837' type='int'/>
+<dec f='include/X11/Xlib.h' l='848' type='int'/>
+<dec f='include/X11/Xlib.h' l='858' type='int'/>
+<dec f='include/X11/Xlib.h' l='871' type='int'/>
+<dec f='include/X11/Xlib.h' l='883' type='int'/>
+<dec f='include/X11/Xlib.h' l='898' type='int'/>
+<dec f='include/X11/Xlib.h' l='913' type='int'/>
+<dec f='include/X11/Xlib.h' l='925' type='int'/>
+<dec f='include/X11/Xlib.h' l='935' type='int'/>
+<dec f='include/X11/Xlib.h' l='950' type='int'/>
+<dec f='include/X11/Xlib.h' l='959' type='int'/>
+<offset>0</offset>
+<doc f='include/X11/Xlib.h' l='353'>/* pointer to where to find the type string */</doc>
+<doc f='include/X11/Xlib.h' l='558'>/* of event */</doc>
+<doc f='include/X11/Xlib.h' l='576'>/* of event */</doc>
+<doc f='include/X11/Xlib.h' l='594'>/* of event */</doc>
+<doc f='include/X11/Xlib.h' l='611'>/* of event */</doc>
+<doc f='include/X11/Xlib.h' l='635'>/* FocusIn or FocusOut */</doc>
+<doc f='include/X11/Xlib.h' l='950'>/* of event. Always GenericEvent */</doc>
+<doc f='include/X11/Xlib.h' l='959'>/* of event. Always GenericEvent */</doc>
+<dec f='include/GL/glx.h' l='425' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='129' u='w' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<dec f='include/X11/extensions/Xrender.h' l='48' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='54' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='72' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='81' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='96' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='110' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='123' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='135' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='148' type='int'/>
+<offset>0</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='54'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='72'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='81'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='96'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='110'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='123'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='135'>/* event base */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='148'>/* event base */</doc>
+<dec f='include/X11/Xproto.h' l='426' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='441' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='467' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='481' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='494' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='507' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='521' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='534' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='548' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='561' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='576' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='588' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='601' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='614' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='627' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='655' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='666' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='681' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='700' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='714' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='727' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='741' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='754' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='766' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='779' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='791' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='805' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='817' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='830' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='846' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='860' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='875' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='888' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='901' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='914' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='926' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='940' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='955' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='977' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='1233' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='1253' type='BYTE'/>
+<dec f='include/X11/Xproto.h' l='1403' type='CARD32'/>
+<dec f='include/X11/Xproto.h' l='1426' type='CARD32'/>
+<offset>96</offset>
+<doc f='include/X11/Xproto.h' l='426'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='441'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='467'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='481'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='494'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='507'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='521'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='534'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='548'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='561'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='576'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='588'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='601'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='614'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='627'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='655'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='666'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='681'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='700'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='714'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='727'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='741'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='754'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='766'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='779'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='791'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='805'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='817'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='830'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='846'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='860'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='875'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='914'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='926'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='940'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='955'>/* X_Reply */</doc>
+<doc f='include/X11/Xproto.h' l='977'>/* X_Error */</doc>

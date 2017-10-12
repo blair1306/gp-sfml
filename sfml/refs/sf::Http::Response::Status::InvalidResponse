@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='233' type='1000'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='217' u='r' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='231' u='r' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='232'>// 10xx: SFML custom codes</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='233'>///&lt; Response is not a valid HTTP one</doc>

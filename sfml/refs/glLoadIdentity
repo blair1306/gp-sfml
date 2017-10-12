@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1405' type='void glLoadIdentity()'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='768' u='c' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<dec f='include/GL/gl.h' l='883' type='void glLoadIdentity()'/>

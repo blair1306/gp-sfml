@@ -1,0 +1,2 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6946' u='c' c='stbi_info_from_file'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='118' u='c' c='_ZN2sf15FileInputStream4tellEv'/>

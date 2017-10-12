@@ -1,0 +1,7 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='75' ll='78'/>
+<size>4</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Text event parameters (TextEntered)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::TextEvent::unicode' o='0' t='Uint32'/>

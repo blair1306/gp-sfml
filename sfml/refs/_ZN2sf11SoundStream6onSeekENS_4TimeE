@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='240' type='void sf::SoundStream::onSeek(sf::Time timeOffset)'/>
+<ovr f='codebrowser/src/SFML/Audio/Music.cpp' l='204' c='_ZN2sf5Music6onSeekENS_4TimeE'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='231'>////////////////////////////////////////////////////////////
+    /// \brief Change the current playing position in the stream source
+    ///
+    /// This function must be overridden by derived classes to
+    /// allow random seeking into the stream source.
+    ///
+    /// \param timeOffset New playing position, relative to the beginning of the stream
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='169' u='c' c='_ZN2sf11SoundStream4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='215' u='c' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='263' u='c' c='_ZN2sf11SoundStream6onLoopEv'/>

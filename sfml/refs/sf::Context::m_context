@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='138' type='priv::GlContext *'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='135'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='138'>///&lt; Internal OpenGL context</doc>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='44' u='w' c='_ZN2sf7ContextC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='53' u='r' c='_ZN2sf7ContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='60' u='r' c='_ZN2sf7Context9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='72' u='r' c='_ZNK2sf7Context11getSettingsEv'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='100' u='w' c='_ZN2sf7ContextC1ERKNS_15ContextSettingsEjj'/>

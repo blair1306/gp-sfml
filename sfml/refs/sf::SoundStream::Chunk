@@ -1,0 +1,8 @@
+<def f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='53' ll='57'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='49'>////////////////////////////////////////////////////////////
+    /// \brief Structure defining a chunk of audio data to stream
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::SoundStream::Chunk::samples' o='0' t='const Int16 *'/>
+<mbr r='sf::SoundStream::Chunk::sampleCount' o='64' t='std::size_t'/>

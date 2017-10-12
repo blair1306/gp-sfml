@@ -1,0 +1,17 @@
+_ZN2sf4priv11AudioDeviceC1Ev|sf::priv::AudioDevice::AudioDevice
+_ZN2sf4priv11AudioDevice12getDirectionEv|sf::priv::AudioDevice::getDirection
+_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj|sf::priv::AudioDevice::getFormatFromChannelCount
+_ZN2sf4priv11AudioDevice15getGlobalVolumeEv|sf::priv::AudioDevice::getGlobalVolume
+_ZN2sf4priv11AudioDevice11getPositionEv|sf::priv::AudioDevice::getPosition
+_ZN2sf4priv11AudioDevice11getUpVectorEv|sf::priv::AudioDevice::getUpVector
+_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|sf::priv::AudioDevice::isExtensionSupported
+_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE|sf::priv::AudioDevice::setDirection
+_ZN2sf4priv11AudioDevice15setGlobalVolumeEf|sf::priv::AudioDevice::setGlobalVolume
+_ZN2sf4priv11AudioDevice11setPositionERKNS_7Vector3IfEE|sf::priv::AudioDevice::setPosition
+_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE|sf::priv::AudioDevice::setUpVector
+_ZN2sf4priv11AudioDeviceD1Ev|sf::priv::AudioDevice::~AudioDevice
+_ZNKSt8auto_ptr3getEv|std::auto_ptr::get
+_ZNKSt8auto_ptrdeEv|std::auto_ptr::operator*
+_ZNSt8auto_ptraSERSt8auto_ptrIT_E|std::auto_ptr::operator=
+_ZNSt8auto_ptr7releaseEv|std::auto_ptr::release
+_ZNSt8auto_ptr5resetEPT_|std::auto_ptr::reset

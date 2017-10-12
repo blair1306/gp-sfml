@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='127' type='void sf::Transformable::setScale(const Vector2f &amp; factors)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='115'>////////////////////////////////////////////////////////////
+    /// \brief set the scale factors of the object
+    ///
+    /// This function completely overwrites the previous scale.
+    /// See the scale function to add a factor based on the previous scale instead.
+    /// The default scale of a transformable object is (1, 1).
+    ///
+    /// \param factors New scale factors
+    ///
+    /// \see scale, getScale
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='94' ll='97' type='void sf::Transformable::setScale(const Vector2f &amp; factors)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='93'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4944' ll='4954' type='int stbi__high_bit(unsigned int z)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5170' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5171' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5172' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5173' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4943'>// returns 0..31 for the highest set bit</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1354' type='void glGetClipPlane(GLenum , GLdouble * )'/>
+<dec f='include/GL/gl.h' l='790' type='void glGetClipPlane(GLenum plane, GLdouble * equation)'/>

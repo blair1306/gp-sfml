@@ -1,0 +1,14 @@
+<dec f='include/AL/al.h' l='182'/>
+<doc f='include/AL/al.h' l='175'>/**
+ * Source buffer.
+ * Type:  ALuint
+ * Range: any valid Buffer.
+ *
+ * Specifies the buffer to provide sound samples.
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='104' u='c'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='192' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='38' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='46' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='60' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='400' u='c'/>

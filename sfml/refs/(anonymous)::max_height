@@ -1,0 +1,5 @@
+<dec f='include/X11/Xutil.h' l='86' type='int'/>
+<dec f='include/X11/Xutil.h' l='185' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='673' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='878' u='w' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>

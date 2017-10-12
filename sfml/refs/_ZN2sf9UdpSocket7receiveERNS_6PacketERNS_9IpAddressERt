@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='184' type='sf::Socket::Status sf::UdpSocket::receive(sf::Packet &amp; packet, sf::IpAddress &amp; remoteAddress, unsigned short &amp; remotePort)'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='180' ll='194' type='Socket::Status sf::UdpSocket::receive(sf::Packet &amp; packet, sf::IpAddress &amp; remoteAddress, unsigned short &amp; remotePort)'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='179'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='169'>////////////////////////////////////////////////////////////
+    /// \brief Receive a formatted packet of data from a remote peer
+    ///
+    /// In blocking mode, this function will wait until the whole packet
+    /// has been received.
+    ///
+    /// \param packet        Packet to fill with the received data
+    /// \param remoteAddress Address of the peer that sent the data
+    /// \param remotePort    Port of the peer that sent the data
+    ///
+    /// \return Status code
+    ///
+    /// \see send
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='129' type='bool sf::Packet::endOfPacket() const'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='90' ll='93' type='bool sf::Packet::endOfPacket() const'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='89'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='117'>////////////////////////////////////////////////////////////
+    /// \brief Tell if the reading position has reached the
+    ///        end of the packet
+    ///
+    /// This function is useful to know if there is some data
+    /// left to be read, without actually reading it.
+    ///
+    /// \return True if all data was read, false otherwise
+    ///
+    /// \see operator bool
+    ///
+    ////////////////////////////////////////////////////////////</doc>

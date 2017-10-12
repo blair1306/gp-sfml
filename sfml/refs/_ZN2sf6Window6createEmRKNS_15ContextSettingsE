@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='150' type='void sf::Window::create(WindowHandle handle, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='53' u='c' c='_ZN2sf12RenderWindowC1EmRKNS_15ContextSettingsE'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='135'>////////////////////////////////////////////////////////////
+    /// \brief Create (or recreate) the window from an existing control
+    ///
+    /// Use this function if you want to create an OpenGL
+    /// rendering area into an already existing control.
+    /// If the window was already created, it closes it first.
+    ///
+    /// The second parameter is an optional structure specifying
+    /// advanced OpenGL context settings such as antialiasing,
+    /// depth-buffer bits, etc.
+    ///
+    /// \param handle   Platform-specific handle of the control
+    /// \param settings Additional settings for the underlying OpenGL context
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='72' u='c' c='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='135' ll='148' type='void sf::Window::create(WindowHandle handle, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='134'>////////////////////////////////////////////////////////////</doc>

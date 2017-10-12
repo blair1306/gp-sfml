@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='331' type='void sf::Http::Response::parseFields(std::istream &amp; in)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='239' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='271' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='277' ll='297' type='void sf::Http::Response::parseFields(std::istream &amp; in)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='276'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='322'>////////////////////////////////////////////////////////////
+        /// \brief Read values passed in the answer header
+        ///
+        /// This function is used by Http to extract values passed
+        /// in the response.
+        ///
+        /// \param in String stream containing the header values
+        ///
+        ////////////////////////////////////////////////////////////</doc>

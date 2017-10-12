@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='58' type='1'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='212' u='r' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='575' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='58'>///&lt; Text mode using ASCII encoding</doc>

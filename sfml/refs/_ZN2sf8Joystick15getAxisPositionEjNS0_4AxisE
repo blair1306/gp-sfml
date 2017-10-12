@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='144' type='static float sf::Joystick::getAxisPosition(unsigned int joystick, sf::Joystick::Axis axis)'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='63' ll='66' type='static float sf::Joystick::getAxisPosition(unsigned int joystick, sf::Joystick::Axis axis)'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='62'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='133'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of a joystick axis
+    ///
+    /// If the joystick is not connected, this function returns 0.
+    ///
+    /// \param joystick Index of the joystick
+    /// \param axis     Axis to check
+    ///
+    /// \return Current position of the axis, in range [-100 .. 100]
+    ///
+    ////////////////////////////////////////////////////////////</doc>

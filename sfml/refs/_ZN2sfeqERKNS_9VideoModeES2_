@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/VideoMode.hpp' l='117' type='bool sf::operator==(const sf::VideoMode &amp; left, const sf::VideoMode &amp; right)'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1232' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<def f='codebrowser/src/SFML/Window/VideoMode.cpp' l='90' ll='95' type='bool sf::operator==(const sf::VideoMode &amp; left, const sf::VideoMode &amp; right)'/>
+<use f='codebrowser/src/SFML/Window/VideoMode.cpp' l='101' u='c' c='_ZN2sfneERKNS_9VideoModeES2_'/>
+<doc f='codebrowser/src/SFML/Window/VideoMode.cpp' l='89'>////////////////////////////////////////////////////////////</doc>

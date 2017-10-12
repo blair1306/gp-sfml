@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='65' type='1'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='111' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='371' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='65'>///&lt; Request in post mode, usually to send data to a page</doc>

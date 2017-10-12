@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1533' type='void glTexEnvfv(GLenum , GLenum , const GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1262' type='void glTexEnvfv(GLenum target, GLenum pname, const GLfloat * params)'/>

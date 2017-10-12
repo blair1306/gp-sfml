@@ -1,0 +1,4 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1125' u='c' c='_ZL11stbi__fopenPKcS0_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='233' u='c' c='_ZL22stbi__start_write_fileP19stbi__write_contextPKc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1013' u='c' c='stbi_write_png'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='69' u='c' c='_ZN2sf15FileInputStream4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

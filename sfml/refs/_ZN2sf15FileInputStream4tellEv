@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/FileInputStream.hpp' l='110' type='Int64 sf::FileInputStream::tell()'/>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='104'>////////////////////////////////////////////////////////////
+    /// \brief Get the current reading position in the stream
+    ///
+    /// \return The current position, or -1 on error.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='101' u='c' c='_ZN2sf15FileInputStream4seekEx'/>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='81' c='_ZN2sf11InputStream4tellEv'/>
+<def f='codebrowser/src/SFML/System/FileInputStream.cpp' l='112' ll='122' type='Int64 sf::FileInputStream::tell()'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='133' u='c' c='_ZN2sf15FileInputStream7getSizeEv'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='135' u='c' c='_ZN2sf15FileInputStream7getSizeEv'/>
+<doc f='codebrowser/src/SFML/System/FileInputStream.cpp' l='111'>////////////////////////////////////////////////////////////</doc>

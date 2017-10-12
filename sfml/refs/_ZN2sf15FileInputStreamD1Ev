@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/System/FileInputStream.hpp' l='68' type='void sf::FileInputStream::~FileInputStream()'/>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='64'>////////////////////////////////////////////////////////////
+    /// \brief Default destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='49' c='_ZN2sf11InputStreamD1Ev'/>
+<def f='codebrowser/src/SFML/System/FileInputStream.cpp' l='45' ll='54' type='void sf::FileInputStream::~FileInputStream()'/>
+<doc f='codebrowser/src/SFML/System/FileInputStream.cpp' l='44'>////////////////////////////////////////////////////////////</doc>

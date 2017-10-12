@@ -1,0 +1,4 @@
+<dec f='include/libudev.h' l='96' type='const char * udev_device_get_devnode(struct udev_device * udev_device)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='62' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='126' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='219' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>

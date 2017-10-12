@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='65' type='void sf::SoundBuffer::SoundBuffer(const sf::SoundBuffer &amp; copy)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Copy constructor
+    ///
+    /// \param copy Instance to copy
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='51' ll='62' type='void sf::SoundBuffer::SoundBuffer(const sf::SoundBuffer &amp; copy)'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='206' u='c' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='50'>////////////////////////////////////////////////////////////</doc>

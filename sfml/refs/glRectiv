@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1486' type='void glRectiv(const GLint * , const GLint * )'/>
+<dec f='include/GL/gl.h' l='1116' type='void glRectiv(const GLint * v1, const GLint * v2)'/>

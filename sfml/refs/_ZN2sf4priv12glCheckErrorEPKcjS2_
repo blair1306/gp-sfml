@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Graphics/GLCheck.hpp' l='63' type='void sf::priv::glCheckError(const char * file, unsigned int line, const char * expression)'/>
+<doc f='codebrowser/src/SFML/Graphics/GLCheck.hpp' l='55'>////////////////////////////////////////////////////////////
+/// \brief Check the last OpenGL error
+///
+/// \param file Source file where the call is located
+/// \param line Line number of the source file where the call is located
+/// \param expression The evaluated expression as a string
+///
+////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/GLCheck.cpp' l='38' ll='109' type='void sf::priv::glCheckError(const char * file, unsigned int line, const char * expression)'/>
+<doc f='codebrowser/src/SFML/Graphics/GLCheck.cpp' l='37'>////////////////////////////////////////////////////////////</doc>

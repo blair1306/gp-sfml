@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='232' type='void sf::Ftp::ListingResponse::ListingResponse(const sf::Ftp::Response &amp; response, const std::string &amp; data)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='120' ll='133' type='void sf::Ftp::ListingResponse::ListingResponse(const Ftp::Response &amp; response, const std::string &amp; data)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='227' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='119'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='225'>////////////////////////////////////////////////////////////
+        /// \brief Default constructor
+        ///
+        /// \param response  Source response
+        /// \param data      Data containing the raw listing
+        ///
+        ////////////////////////////////////////////////////////////</doc>

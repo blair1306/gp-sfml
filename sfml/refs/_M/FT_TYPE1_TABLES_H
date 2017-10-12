@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='367'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='357'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_TYPE1_TABLES_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   types and API specific to the Type~1 format.
+   *
+   */</doc>

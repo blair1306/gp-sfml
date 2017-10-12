@@ -1,0 +1,2 @@
+<def f='codebrowser/include/SFML/Graphics/Font.hpp' l='274' type='void sf::Font::Row::Row(unsigned int rowTop, unsigned int rowHeight)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='729' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>

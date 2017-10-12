@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='332' type='Uint32 sf::String::operator[](std::size_t index) const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='321'>////////////////////////////////////////////////////////////
+    /// \brief Overload of [] operator to access a character by its position
+    ///
+    /// This function provides read-only access to characters.
+    /// Note: the behavior is undefined if \a index is out of range.
+    ///
+    /// \param index Index of the character to get
+    ///
+    /// \return Character at position \a index
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='286' u='c' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='393' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='229' ll='232' type='Uint32 sf::String::operator[](std::size_t index) const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='228'>////////////////////////////////////////////////////////////</doc>

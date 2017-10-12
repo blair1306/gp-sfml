@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='334' type='void sf::Texture::update(const sf::Image &amp; image)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='316'>////////////////////////////////////////////////////////////
+    /// \brief Update the texture from an image
+    ///
+    /// Although the source image can be smaller than the texture,
+    /// this function is usually used for updating the whole texture.
+    /// The other overload, which has (x, y) additional arguments,
+    /// is more convenient for updating a sub-area of the texture.
+    ///
+    /// No additional check is performed on the size of the image,
+    /// passing an image bigger than the texture will lead to an
+    /// undefined behavior.
+    ///
+    /// This function does nothing if the texture was not
+    /// previously created.
+    ///
+    /// \param image Image to copy to the texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='259' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='530' ll='534' type='void sf::Texture::update(const sf::Image &amp; image)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='529'>////////////////////////////////////////////////////////////</doc>

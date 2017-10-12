@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1401' type='void glLightiv(GLenum , GLenum , const GLint * )'/>
+<dec f='include/GL/gl.h' l='1163' type='void glLightiv(GLenum light, GLenum pname, const GLint * params)'/>

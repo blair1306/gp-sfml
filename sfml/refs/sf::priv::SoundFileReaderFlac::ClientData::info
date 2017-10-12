@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='116' type='SoundFileReader::Info'/>
+<offset>64</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='165' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='166' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='167' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='246' u='r' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='263' u='m' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='267' u='m' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='272' u='m' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='272' u='m' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>

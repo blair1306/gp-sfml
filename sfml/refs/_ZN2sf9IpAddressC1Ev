@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='54' type='void sf::IpAddress::IpAddress()'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor creates an empty (invalid) address
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='302' u='c' c='_ZN2sf4HttpC1Ev'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='38' u='c'/>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='45' ll='49' type='void sf::IpAddress::IpAddress()'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='110' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='159' u='c' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='44'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='129' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5574' ll='5610' type='int stbi__psd_decode_rle(stbi__context * s, stbi_uc * p, int pixelCount)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5720' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>

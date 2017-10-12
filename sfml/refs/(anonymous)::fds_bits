@@ -1,0 +1,15 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='69' type='__fd_mask [16]'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='112' macro='1' u='w'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='138' macro='1' u='w'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='139' macro='1' u='w'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='147' macro='1' u='a'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='148' macro='1' u='a'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='188' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='169' macro='1' u='a'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='170' macro='1' u='w'/>
+<dec f='include/linux/posix_types.h' l='25' type='unsigned long [16]'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='257' macro='1' u='a'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='258' macro='1' u='w'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='262' macro='1' u='r'/>

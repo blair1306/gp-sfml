@@ -1,0 +1,10 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/System/Lock.hpp' l='43' ll='71'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/Lock.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Automatic wrapper for locking and unlocking mutexes
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4LockC1ERNS_5MutexE'/>
+<fun r='_ZN2sf4LockD1Ev'/>
+<mbr r='sf::Lock::m_mutex' o='0' t='sf::Mutex &amp;'/>

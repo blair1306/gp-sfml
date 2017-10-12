@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='205' type='bool'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='205'>///&lt; Is the address valid?</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='47' u='w' c='_ZN2sf9IpAddressC1Ev'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='55' u='w' c='_ZN2sf9IpAddressC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='64' u='w' c='_ZN2sf9IpAddressC1EPKc'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='73' u='w' c='_ZN2sf9IpAddressC1Ehhhh'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='81' u='w' c='_ZN2sf9IpAddressC1Ej'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='167' u='w' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='174' u='w' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='179' u='w' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='188' u='w' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='204' u='w' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='229' u='r' c='_ZN2sfltERKNS_9IpAddressES2_'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='229' u='r' c='_ZN2sfltERKNS_9IpAddressES2_'/>

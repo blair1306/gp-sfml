@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='231' type='Time XRRTimes(Display * dpy, int screen, Time * config_timestamp)'/>

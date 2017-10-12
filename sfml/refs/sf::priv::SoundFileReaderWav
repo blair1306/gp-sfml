@@ -1,0 +1,17 @@
+<inh f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='43' c='sf::SoundFileReader'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='43' ll='118'/>
+<size>40</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Implementation of sound file reader that handles wav files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv18SoundFileReaderWav5checkERNS_11InputStreamE'/>
+<fun r='_ZN2sf4priv18SoundFileReaderWavC1Ev'/>
+<fun r='_ZN2sf4priv18SoundFileReaderWav4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<fun r='_ZN2sf4priv18SoundFileReaderWav4seekEy'/>
+<fun r='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<fun r='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<mbr r='sf::priv::SoundFileReaderWav::m_stream' o='64' t='sf::InputStream *'/>
+<mbr r='sf::priv::SoundFileReaderWav::m_bytesPerSample' o='128' t='unsigned int'/>
+<mbr r='sf::priv::SoundFileReaderWav::m_dataStart' o='192' t='Uint64'/>
+<mbr r='sf::priv::SoundFileReaderWav::m_dataEnd' o='256' t='Uint64'/>

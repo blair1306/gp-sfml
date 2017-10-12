@@ -1,0 +1,31 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='709' type='bool sf::Shader::compile(const char * vertexShaderCode, const char * geometryShaderCode, const char * fragmentShaderCode)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='696'>////////////////////////////////////////////////////////////
+    /// \brief Compile the shader(s) and create the program
+    ///
+    /// If one of the arguments is NULL, the corresponding shader
+    /// is not created.
+    ///
+    /// \param vertexShaderCode   Source code of the vertex shader
+    /// \param geometryShaderCode Source code of the geometry shader
+    /// \param fragmentShaderCode Source code of the fragment shader
+    ///
+    /// \return True on success, false if any error happened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='255' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='257' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='259' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='283' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='315' u='c' c='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='324' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='326' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='328' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='336' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='344' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='361' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='363' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='365' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='389' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='421' u='c' c='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='826' ll='968' type='bool sf::Shader::compile(const char * vertexShaderCode, const char * geometryShaderCode, const char * fragmentShaderCode)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='825'>////////////////////////////////////////////////////////////</doc>

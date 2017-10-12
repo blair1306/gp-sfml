@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='117' type='1'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='117'>///&lt; UDP protocol</doc>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='40' u='r' c='_ZN2sf9UdpSocketC1Ev'/>

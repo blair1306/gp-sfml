@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Window/Sensor.hpp' l='59' type='6'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.hpp' l='130'/>
+<doc f='codebrowser/include/SFML/Window/Sensor.hpp' l='59'>///&lt; Keep last -- the total number of sensor types</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='83' u='r' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='99' u='r' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='117' u='r' c='_ZN2sf4priv13SensorManagerD1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='275'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='92' u='r' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='229' u='r' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='145' type='void sf::Text::setCharacterSize(unsigned int size)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='134' ll='141' type='void sf::Text::setCharacterSize(unsigned int size)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='133'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='128'>////////////////////////////////////////////////////////////
+    /// \brief Set the character size
+    ///
+    /// The default size is 30.
+    ///
+    /// Note that if the used font is a bitmap font, it is not
+    /// scalable, thus not all requested sizes will be available
+    /// to use. This needs to be taken into consideration when
+    /// setting the character size. If you need to display text
+    /// of a certain size, make sure the corresponding bitmap
+    /// font that supports that size is used.
+    ///
+    /// \param size New character size, in pixels
+    ///
+    /// \see getCharacterSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>

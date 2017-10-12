@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='333' type='void XRRDeleteOutputProperty(Display * dpy, RROutput output, Atom property)'/>

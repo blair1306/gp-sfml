@@ -1,0 +1,11 @@
+<dec f='include/AL/al.h' l='128'/>
+<doc f='include/AL/al.h' l='120'>/**
+ * Source pitch.
+ * Type:    ALfloat
+ * Range:   [0.5 - 2.0]
+ * Default: 1.0
+ *
+ * A multiplier for the frequency (sample rate) of the source&apos;s buffer.
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='68' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='118' u='c'/>

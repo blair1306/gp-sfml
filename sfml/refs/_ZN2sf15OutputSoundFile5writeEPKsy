@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='83' type='void sf::OutputSoundFile::write(const Int16 * samples, Uint64 count)'/>
+<def f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='73' ll='77' type='void sf::OutputSoundFile::write(const Int16 * samples, Uint64 count)'/>
+<doc f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='72'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Write audio samples to the file
+    ///
+    /// \param samples     Pointer to the sample array to write
+    /// \param count       Number of samples to write
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='151' u='c' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

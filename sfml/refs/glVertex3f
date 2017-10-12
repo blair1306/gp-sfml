@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1560' type='void glVertex3f(GLfloat , GLfloat , GLfloat )'/>
+<dec f='include/GL/gl.h' l='940' type='void glVertex3f(GLfloat x, GLfloat y, GLfloat z)'/>

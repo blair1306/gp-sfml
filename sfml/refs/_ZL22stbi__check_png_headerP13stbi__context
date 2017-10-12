@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4230' ll='4237' type='int stbi__check_png_header(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4693' u='c' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4892' u='c' c='_ZL14stbi__png_testP13stbi__context'/>

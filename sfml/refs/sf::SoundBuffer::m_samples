@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='276' type='std::vector&lt;Int16&gt;'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='276'>///&lt; Samples buffer</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='53' u='w' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='53' u='r' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='123' u='m' c='_ZN2sf11SoundBuffer15loadFromSamplesEPKsyjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='151' u='m' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='151' u='m' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='165' u='m' c='_ZNK2sf11SoundBuffer10getSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='165' u='m' c='_ZNK2sf11SoundBuffer10getSamplesEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='172' u='m' c='_ZNK2sf11SoundBuffer14getSampleCountEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='208' u='a' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='208' u='a' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='226' u='m' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='227' u='m' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='243' u='m' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='264' u='m' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='265' u='m' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='268' u='m' c='_ZN2sf11SoundBuffer6updateEjj'/>

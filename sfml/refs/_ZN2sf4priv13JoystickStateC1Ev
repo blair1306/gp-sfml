@@ -1,0 +1,4 @@
+<def f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='64' ll='69' type='void sf::priv::JoystickState::JoystickState()'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='81' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='572' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='646' u='c' c='_ZN2sf4priv12JoystickImpl6updateEv'/>

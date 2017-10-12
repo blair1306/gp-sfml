@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='157' type='static Vector3f sf::priv::AudioDevice::getDirection()'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='149'>////////////////////////////////////////////////////////////
+    /// \brief Get the current forward vector of the listener in the scene
+    ///
+    /// \return Listener&apos;s forward vector (not normalized)
+    ///
+    /// \see setDirection
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='201' ll='204' type='static Vector3f sf::priv::AudioDevice::getDirection()'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='200'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='86' u='c' c='_ZN2sf8Listener12getDirectionEv'/>

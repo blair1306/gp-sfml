@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='905' ll='911' type='unsigned char stbiw__paeth(int a, int b, int c)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='942' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='952' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='954' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>

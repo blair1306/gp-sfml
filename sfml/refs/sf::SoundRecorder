@@ -1,0 +1,34 @@
+<inh f='codebrowser/include/SFML/Audio/AlResource.hpp' l='40' c='sf::AlResource'/>
+<def f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='45' ll='295'/>
+<ovr f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='44' c='sf::SoundBufferRecorder'/>
+<size>112</size>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for capturing sound data
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf13SoundRecorderD1Ev'/>
+<fun r='_ZN2sf13SoundRecorder5startEj'/>
+<fun r='_ZN2sf13SoundRecorder4stopEv'/>
+<fun r='_ZNK2sf13SoundRecorder13getSampleRateEv'/>
+<fun r='_ZN2sf13SoundRecorder19getAvailableDevicesB5cxx11Ev'/>
+<fun r='_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev'/>
+<fun r='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf13SoundRecorder9getDeviceB5cxx11Ev'/>
+<fun r='_ZN2sf13SoundRecorder15setChannelCountEj'/>
+<fun r='_ZNK2sf13SoundRecorder15getChannelCountEv'/>
+<fun r='_ZN2sf13SoundRecorder11isAvailableEv'/>
+<fun r='_ZN2sf13SoundRecorderC1Ev'/>
+<fun r='_ZN2sf13SoundRecorder21setProcessingIntervalENS_4TimeE'/>
+<fun r='_ZN2sf13SoundRecorder7onStartEv'/>
+<fun r='_ZN2sf13SoundRecorder16onProcessSamplesEPKsm'/>
+<fun r='_ZN2sf13SoundRecorder6onStopEv'/>
+<fun r='_ZN2sf13SoundRecorder6recordEv'/>
+<fun r='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>
+<fun r='_ZN2sf13SoundRecorder7cleanupEv'/>
+<mbr r='sf::SoundRecorder::m_thread' o='64' t='sf::Thread'/>
+<mbr r='sf::SoundRecorder::m_samples' o='192' t='std::vector&lt;Int16&gt;'/>
+<mbr r='sf::SoundRecorder::m_sampleRate' o='384' t='unsigned int'/>
+<mbr r='sf::SoundRecorder::m_processingInterval' o='448' t='sf::Time'/>
+<mbr r='sf::SoundRecorder::m_isCapturing' o='512' t='bool'/>
+<mbr r='sf::SoundRecorder::m_deviceName' o='576' t='std::string'/>
+<mbr r='sf::SoundRecorder::m_channelCount' o='832' t='unsigned int'/>

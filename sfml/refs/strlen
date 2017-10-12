@@ -1,0 +1,5 @@
+<dec f='include/string.h' l='394' type='size_t strlen(const char * __s)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='157' u='c' c='_ZN2sf13SoundRecorder19getAvailableDevicesB5cxx11Ev'/>
+<doc f='include/string.h' l='393'>/* Return the length of S.  */</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='497' u='c' c='_ZN2sf6PacketlsEPKc'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='72' u='c' c='_ZN2sf6StringC1EPKcRKSt6locale'/>

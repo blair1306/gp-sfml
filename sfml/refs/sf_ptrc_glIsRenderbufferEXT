@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1245' type='GLboolean (*)(GLuint)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='726' type='GLboolean (*)(GLuint)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='793' u='w' c='_ZL27Load_EXT_framebuffer_objectv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='794' u='r' c='_ZL27Load_EXT_framebuffer_objectv'/>

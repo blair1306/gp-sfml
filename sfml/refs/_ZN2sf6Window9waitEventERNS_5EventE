@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='239' type='bool sf::Window::waitEvent(sf::Event &amp; event)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='214'>////////////////////////////////////////////////////////////
+    /// \brief Wait for an event and return it
+    ///
+    /// This function is blocking: if there&apos;s no pending event then
+    /// it will wait until an event is received.
+    /// After this function returns (and no error occurred),
+    /// the \a event object is always valid and filled properly.
+    /// This function is typically used when you have a thread that
+    /// is dedicated to events handling: you want to make this thread
+    /// sleep as long as no new event is received.
+    /// \code
+    /// sf::Event event;
+    /// if (window.waitEvent(event))
+    /// {
+    ///    // process event...
+    /// }
+    /// \endcode
+    ///
+    /// \param event Event to be returned
+    ///
+    /// \return False if any error occurred
+    ///
+    /// \see pollEvent
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='199' ll='209' type='bool sf::Window::waitEvent(sf::Event &amp; event)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='198'>////////////////////////////////////////////////////////////</doc>

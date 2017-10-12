@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='862' type='Window'/>
+<offset>256</offset>
+<dec f='include/X11/Xproto.h' l='552' type='CARD32'/>
+<offset>64</offset>

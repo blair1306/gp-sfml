@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='302' type='const sf::Transform &amp; sf::Transformable::getTransform() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='294'>////////////////////////////////////////////////////////////
+    /// \brief get the combined transform of the object
+    ///
+    /// \return Transform combining the position/rotation/scale/origin of the object
+    ///
+    /// \see getInverseTransform
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='155' u='c' c='_ZNK2sf5Shape15getGlobalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='215' u='c' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='132' u='c' c='_ZNK2sf6Sprite15getGlobalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='141' u='c' c='_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='305' u='c' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='323' u='c' c='_ZNK2sf4Text15getGlobalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='334' u='c' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='181' ll='203' type='const sf::Transform &amp; sf::Transformable::getTransform() const'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='212' u='c' c='_ZNK2sf13Transformable19getInverseTransformEv'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='180'>////////////////////////////////////////////////////////////</doc>

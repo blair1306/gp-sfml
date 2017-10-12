@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='266' type='void sf::Shape::update()'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='39' u='c' c='_ZN2sf11CircleShapeC1Efm'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='47' u='c' c='_ZN2sf11CircleShape9setRadiusEf'/>
+<use f='codebrowser/src/SFML/Graphics/CircleShape.cpp' l='62' u='c' c='_ZN2sf11CircleShape13setPointCountEm'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='258'>////////////////////////////////////////////////////////////
+    /// \brief Recompute the internal geometry of the shape
+    ///
+    /// This function must be called by the derived class everytime
+    /// the shape&apos;s points change (i.e. the result of either
+    /// getPointCount or getPoint is different).
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='44' u='c' c='_ZN2sf11ConvexShape13setPointCountEm'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='59' u='c' c='_ZN2sf11ConvexShape8setPointEmRKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/RectangleShape.cpp' l='45' u='c' c='_ZN2sf14RectangleShape7setSizeERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='134' u='c' c='_ZN2sf5Shape19setOutlineThicknessEf'/>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='175' ll='209' type='void sf::Shape::update()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='174'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,8 @@
+<dec f='include/X11/keysymdef.h' l='124'/>
+<doc f='include/X11/keysymdef.h' l='118'>/*
+ * TTY function keys, cleverly chosen to map to ASCII, for convenience of
+ * programming, but could have been arbitrary (at the cost of lookup
+ * tables in client code).
+ */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='70' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='392' u='c'/>

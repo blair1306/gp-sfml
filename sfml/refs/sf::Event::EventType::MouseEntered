@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='201' type='12'/>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='201'>///&lt; The mouse cursor entered the area of the window (no data)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1908' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_vector.h' l='866' ll='868' type='reference std::vector::back()'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='862'>/**
+       *  Returns a read/write reference to the data at the last
+       *  element of the %vector.
+       */</doc>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='731' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>

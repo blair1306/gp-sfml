@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='77' type='Uint32'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='77'>///&lt; UTF-32 Unicode value of the character</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1752' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1766' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

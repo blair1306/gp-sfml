@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='229'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='228'>// Core since 3.0 - EXT_framebuffer_object</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='80' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='464' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='686' u='c'/>

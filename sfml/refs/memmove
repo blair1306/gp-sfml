@@ -1,0 +1,8 @@
+<dec f='include/string.h' l='46' type='void * memmove(void * __dest, const void * __src, size_t __n)'/>
+<doc f='include/string.h' l='44'>/* Copy N bytes of SRC to DEST, guaranteeing
+   correct behavior for overlapping strings.  */</doc>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='200' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='200' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='200' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='200' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='200' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>

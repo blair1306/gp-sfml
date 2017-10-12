@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='100' type='sf::SoundBuffer'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='47' u='w' c='_ZN2sf19SoundBufferRecorder7onStartEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='m' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='73' u='a' c='_ZNK2sf19SoundBufferRecorder9getBufferEv'/>
+<offset>1088</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='100'>///&lt; Sound buffer that will contain the recorded data</doc>

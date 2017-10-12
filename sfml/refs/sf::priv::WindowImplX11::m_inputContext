@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='274' type='XIC'/>
+<offset>5952</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='274'>///&lt; Input context used to get unicode input in our window</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='486' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='534' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='736' u='r' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='737' u='r' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1442' u='w' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1453' u='w' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1456' u='r' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1594' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1595' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1640' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1641' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1730' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1736' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

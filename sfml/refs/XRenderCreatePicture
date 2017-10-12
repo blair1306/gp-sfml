@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='241' type='Picture XRenderCreatePicture(Display * dpy, Drawable drawable, const XRenderPictFormat * format, unsigned long valuemask, const XRenderPictureAttributes * attributes)'/>

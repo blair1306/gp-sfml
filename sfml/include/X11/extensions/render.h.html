@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>render.h source code [include/X11/extensions/render.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'include/X11/extensions/render.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>include</a>/<a href='..'>X11</a>/<a href='./'>extensions</a>/<a href='render.h.html'>render.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * $XFree86: xc/include/extensions/render.h,v 1.10 2002/11/06 22:47:49 keithp Exp $</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Copyright © 2000 SuSE, Inc.</i></td></tr>
+<tr><th id="5">5</th><td><i> *</i></td></tr>
+<tr><th id="6">6</th><td><i> * Permission to use, copy, modify, distribute, and sell this software and its</i></td></tr>
+<tr><th id="7">7</th><td><i> * documentation for any purpose is hereby granted without fee, provided that</i></td></tr>
+<tr><th id="8">8</th><td><i> * the above copyright notice appear in all copies and that both that</i></td></tr>
+<tr><th id="9">9</th><td><i> * copyright notice and this permission notice appear in supporting</i></td></tr>
+<tr><th id="10">10</th><td><i> * documentation, and that the name of SuSE not be used in advertising or</i></td></tr>
+<tr><th id="11">11</th><td><i> * publicity pertaining to distribution of the software without specific,</i></td></tr>
+<tr><th id="12">12</th><td><i> * written prior permission.  SuSE makes no representations about the</i></td></tr>
+<tr><th id="13">13</th><td><i> * suitability of this software for any purpose.  It is provided "as is"</i></td></tr>
+<tr><th id="14">14</th><td><i> * without express or implied warranty.</i></td></tr>
+<tr><th id="15">15</th><td><i> *</i></td></tr>
+<tr><th id="16">16</th><td><i> * SuSE DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL</i></td></tr>
+<tr><th id="17">17</th><td><i> * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL SuSE</i></td></tr>
+<tr><th id="18">18</th><td><i> * BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="19">19</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION</i></td></tr>
+<tr><th id="20">20</th><td><i> * OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN</i></td></tr>
+<tr><th id="21">21</th><td><i> * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="22">22</th><td><i> *</i></td></tr>
+<tr><th id="23">23</th><td><i> * Author:  Keith Packard, SuSE, Inc.</i></td></tr>
+<tr><th id="24">24</th><td><i> */</i></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="26">ifndef</span> <span class="macro" data-ref="_M/_RENDER_H_">_RENDER_H_</span></u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/_RENDER_H_" data-ref="_M/_RENDER_H_">_RENDER_H_</dfn></u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../Xdefs.h.html">&lt;X11/Xdefs.h&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>typedef</b> <a class="typedef" href="../X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a>		<dfn class="typedef" id="Glyph" title='Glyph' data-type='XID' data-ref="Glyph">Glyph</dfn>;</td></tr>
+<tr><th id="32">32</th><td><b>typedef</b> <a class="typedef" href="../X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a>		<dfn class="typedef" id="GlyphSet" title='GlyphSet' data-type='XID' data-ref="GlyphSet">GlyphSet</dfn>;</td></tr>
+<tr><th id="33">33</th><td><b>typedef</b> <a class="typedef" href="../X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a>		<dfn class="typedef" id="Picture" title='Picture' data-type='XID' data-ref="Picture">Picture</dfn>;</td></tr>
+<tr><th id="34">34</th><td><b>typedef</b> <a class="typedef" href="../X.h.html#XID" title='XID' data-type='unsigned long' data-ref="XID">XID</a>		<dfn class="typedef" id="PictFormat" title='PictFormat' data-type='XID' data-ref="PictFormat">PictFormat</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/RENDER_NAME" data-ref="_M/RENDER_NAME">RENDER_NAME</dfn>	"RENDER"</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/RENDER_MAJOR" data-ref="_M/RENDER_MAJOR">RENDER_MAJOR</dfn>	0</u></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/RENDER_MINOR" data-ref="_M/RENDER_MINOR">RENDER_MINOR</dfn>	11</u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/X_RenderQueryVersion" data-ref="_M/X_RenderQueryVersion">X_RenderQueryVersion</dfn>		    0</u></td></tr>
+<tr><th id="41">41</th><td><u>#define <dfn class="macro" id="_M/X_RenderQueryPictFormats" data-ref="_M/X_RenderQueryPictFormats">X_RenderQueryPictFormats</dfn>	    1</u></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/X_RenderQueryPictIndexValues" data-ref="_M/X_RenderQueryPictIndexValues">X_RenderQueryPictIndexValues</dfn>	    2	/* 0.7 */</u></td></tr>
+<tr><th id="43">43</th><td><u>#define <dfn class="macro" id="_M/X_RenderQueryDithers" data-ref="_M/X_RenderQueryDithers">X_RenderQueryDithers</dfn>		    3</u></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreatePicture" data-ref="_M/X_RenderCreatePicture">X_RenderCreatePicture</dfn>		    4</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/X_RenderChangePicture" data-ref="_M/X_RenderChangePicture">X_RenderChangePicture</dfn>		    5</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/X_RenderSetPictureClipRectangles" data-ref="_M/X_RenderSetPictureClipRectangles">X_RenderSetPictureClipRectangles</dfn>    6</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/X_RenderFreePicture" data-ref="_M/X_RenderFreePicture">X_RenderFreePicture</dfn>		    7</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/X_RenderComposite" data-ref="_M/X_RenderComposite">X_RenderComposite</dfn>		    8</u></td></tr>
+<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/X_RenderScale" data-ref="_M/X_RenderScale">X_RenderScale</dfn>			    9</u></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/X_RenderTrapezoids" data-ref="_M/X_RenderTrapezoids">X_RenderTrapezoids</dfn>		    10</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/X_RenderTriangles" data-ref="_M/X_RenderTriangles">X_RenderTriangles</dfn>		    11</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/X_RenderTriStrip" data-ref="_M/X_RenderTriStrip">X_RenderTriStrip</dfn>		    12</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/X_RenderTriFan" data-ref="_M/X_RenderTriFan">X_RenderTriFan</dfn>			    13</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/X_RenderColorTrapezoids" data-ref="_M/X_RenderColorTrapezoids">X_RenderColorTrapezoids</dfn>		    14</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/X_RenderColorTriangles" data-ref="_M/X_RenderColorTriangles">X_RenderColorTriangles</dfn>		    15</u></td></tr>
+<tr><th id="56">56</th><td><i>/* #define X_RenderTransform		    16 */</i></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateGlyphSet" data-ref="_M/X_RenderCreateGlyphSet">X_RenderCreateGlyphSet</dfn>		    17</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/X_RenderReferenceGlyphSet" data-ref="_M/X_RenderReferenceGlyphSet">X_RenderReferenceGlyphSet</dfn>	    18</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/X_RenderFreeGlyphSet" data-ref="_M/X_RenderFreeGlyphSet">X_RenderFreeGlyphSet</dfn>		    19</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/X_RenderAddGlyphs" data-ref="_M/X_RenderAddGlyphs">X_RenderAddGlyphs</dfn>		    20</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/X_RenderAddGlyphsFromPicture" data-ref="_M/X_RenderAddGlyphsFromPicture">X_RenderAddGlyphsFromPicture</dfn>	    21</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/X_RenderFreeGlyphs" data-ref="_M/X_RenderFreeGlyphs">X_RenderFreeGlyphs</dfn>		    22</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/X_RenderCompositeGlyphs8" data-ref="_M/X_RenderCompositeGlyphs8">X_RenderCompositeGlyphs8</dfn>	    23</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/X_RenderCompositeGlyphs16" data-ref="_M/X_RenderCompositeGlyphs16">X_RenderCompositeGlyphs16</dfn>	    24</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/X_RenderCompositeGlyphs32" data-ref="_M/X_RenderCompositeGlyphs32">X_RenderCompositeGlyphs32</dfn>	    25</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/X_RenderFillRectangles" data-ref="_M/X_RenderFillRectangles">X_RenderFillRectangles</dfn>		    26</u></td></tr>
+<tr><th id="67">67</th><td><i>/* 0.5 */</i></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateCursor" data-ref="_M/X_RenderCreateCursor">X_RenderCreateCursor</dfn>		    27</u></td></tr>
+<tr><th id="69">69</th><td><i>/* 0.6 */</i></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/X_RenderSetPictureTransform" data-ref="_M/X_RenderSetPictureTransform">X_RenderSetPictureTransform</dfn>	    28</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/X_RenderQueryFilters" data-ref="_M/X_RenderQueryFilters">X_RenderQueryFilters</dfn>		    29</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/X_RenderSetPictureFilter" data-ref="_M/X_RenderSetPictureFilter">X_RenderSetPictureFilter</dfn>	    30</u></td></tr>
+<tr><th id="73">73</th><td><i>/* 0.8 */</i></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateAnimCursor" data-ref="_M/X_RenderCreateAnimCursor">X_RenderCreateAnimCursor</dfn>	    31</u></td></tr>
+<tr><th id="75">75</th><td><i>/* 0.9 */</i></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/X_RenderAddTraps" data-ref="_M/X_RenderAddTraps">X_RenderAddTraps</dfn>		    32</u></td></tr>
+<tr><th id="77">77</th><td><i>/* 0.10 */</i></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateSolidFill" data-ref="_M/X_RenderCreateSolidFill">X_RenderCreateSolidFill</dfn>             33</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateLinearGradient" data-ref="_M/X_RenderCreateLinearGradient">X_RenderCreateLinearGradient</dfn>        34</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateRadialGradient" data-ref="_M/X_RenderCreateRadialGradient">X_RenderCreateRadialGradient</dfn>        35</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/X_RenderCreateConicalGradient" data-ref="_M/X_RenderCreateConicalGradient">X_RenderCreateConicalGradient</dfn>       36</u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/RenderNumberRequests" data-ref="_M/RenderNumberRequests">RenderNumberRequests</dfn>		    (X_RenderCreateConicalGradient+1)</u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/BadPictFormat" data-ref="_M/BadPictFormat">BadPictFormat</dfn>			    0</u></td></tr>
+<tr><th id="85">85</th><td><u>#define <dfn class="macro" id="_M/BadPicture" data-ref="_M/BadPicture">BadPicture</dfn>			    1</u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/BadPictOp" data-ref="_M/BadPictOp">BadPictOp</dfn>			    2</u></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/BadGlyphSet" data-ref="_M/BadGlyphSet">BadGlyphSet</dfn>			    3</u></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/BadGlyph" data-ref="_M/BadGlyph">BadGlyph</dfn>			    4</u></td></tr>
+<tr><th id="89">89</th><td><u>#define <dfn class="macro" id="_M/RenderNumberErrors" data-ref="_M/RenderNumberErrors">RenderNumberErrors</dfn>		    (BadGlyph+1)</u></td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/PictTypeIndexed" data-ref="_M/PictTypeIndexed">PictTypeIndexed</dfn>			    0</u></td></tr>
+<tr><th id="92">92</th><td><u>#define <dfn class="macro" id="_M/PictTypeDirect" data-ref="_M/PictTypeDirect">PictTypeDirect</dfn>			    1</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><u>#define <dfn class="macro" id="_M/PictOpMinimum" data-ref="_M/PictOpMinimum">PictOpMinimum</dfn>			    0</u></td></tr>
+<tr><th id="95">95</th><td><u>#define <dfn class="macro" id="_M/PictOpClear" data-ref="_M/PictOpClear">PictOpClear</dfn>			    0</u></td></tr>
+<tr><th id="96">96</th><td><u>#define <dfn class="macro" id="_M/PictOpSrc" data-ref="_M/PictOpSrc">PictOpSrc</dfn>			    1</u></td></tr>
+<tr><th id="97">97</th><td><u>#define <dfn class="macro" id="_M/PictOpDst" data-ref="_M/PictOpDst">PictOpDst</dfn>			    2</u></td></tr>
+<tr><th id="98">98</th><td><u>#define <dfn class="macro" id="_M/PictOpOver" data-ref="_M/PictOpOver">PictOpOver</dfn>			    3</u></td></tr>
+<tr><th id="99">99</th><td><u>#define <dfn class="macro" id="_M/PictOpOverReverse" data-ref="_M/PictOpOverReverse">PictOpOverReverse</dfn>		    4</u></td></tr>
+<tr><th id="100">100</th><td><u>#define <dfn class="macro" id="_M/PictOpIn" data-ref="_M/PictOpIn">PictOpIn</dfn>			    5</u></td></tr>
+<tr><th id="101">101</th><td><u>#define <dfn class="macro" id="_M/PictOpInReverse" data-ref="_M/PictOpInReverse">PictOpInReverse</dfn>			    6</u></td></tr>
+<tr><th id="102">102</th><td><u>#define <dfn class="macro" id="_M/PictOpOut" data-ref="_M/PictOpOut">PictOpOut</dfn>			    7</u></td></tr>
+<tr><th id="103">103</th><td><u>#define <dfn class="macro" id="_M/PictOpOutReverse" data-ref="_M/PictOpOutReverse">PictOpOutReverse</dfn>		    8</u></td></tr>
+<tr><th id="104">104</th><td><u>#define <dfn class="macro" id="_M/PictOpAtop" data-ref="_M/PictOpAtop">PictOpAtop</dfn>			    9</u></td></tr>
+<tr><th id="105">105</th><td><u>#define <dfn class="macro" id="_M/PictOpAtopReverse" data-ref="_M/PictOpAtopReverse">PictOpAtopReverse</dfn>		    10</u></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/PictOpXor" data-ref="_M/PictOpXor">PictOpXor</dfn>			    11</u></td></tr>
+<tr><th id="107">107</th><td><u>#define <dfn class="macro" id="_M/PictOpAdd" data-ref="_M/PictOpAdd">PictOpAdd</dfn>			    12</u></td></tr>
+<tr><th id="108">108</th><td><u>#define <dfn class="macro" id="_M/PictOpSaturate" data-ref="_M/PictOpSaturate">PictOpSaturate</dfn>			    13</u></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/PictOpMaximum" data-ref="_M/PictOpMaximum">PictOpMaximum</dfn>			    13</u></td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td><i>/*</i></td></tr>
+<tr><th id="112">112</th><td><i> * Operators only available in version 0.2</i></td></tr>
+<tr><th id="113">113</th><td><i> */</i></td></tr>
+<tr><th id="114">114</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointMinimum" data-ref="_M/PictOpDisjointMinimum">PictOpDisjointMinimum</dfn>			    0x10</u></td></tr>
+<tr><th id="115">115</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointClear" data-ref="_M/PictOpDisjointClear">PictOpDisjointClear</dfn>			    0x10</u></td></tr>
+<tr><th id="116">116</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointSrc" data-ref="_M/PictOpDisjointSrc">PictOpDisjointSrc</dfn>			    0x11</u></td></tr>
+<tr><th id="117">117</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointDst" data-ref="_M/PictOpDisjointDst">PictOpDisjointDst</dfn>			    0x12</u></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointOver" data-ref="_M/PictOpDisjointOver">PictOpDisjointOver</dfn>			    0x13</u></td></tr>
+<tr><th id="119">119</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointOverReverse" data-ref="_M/PictOpDisjointOverReverse">PictOpDisjointOverReverse</dfn>		    0x14</u></td></tr>
+<tr><th id="120">120</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointIn" data-ref="_M/PictOpDisjointIn">PictOpDisjointIn</dfn>			    0x15</u></td></tr>
+<tr><th id="121">121</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointInReverse" data-ref="_M/PictOpDisjointInReverse">PictOpDisjointInReverse</dfn>			    0x16</u></td></tr>
+<tr><th id="122">122</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointOut" data-ref="_M/PictOpDisjointOut">PictOpDisjointOut</dfn>			    0x17</u></td></tr>
+<tr><th id="123">123</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointOutReverse" data-ref="_M/PictOpDisjointOutReverse">PictOpDisjointOutReverse</dfn>		    0x18</u></td></tr>
+<tr><th id="124">124</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointAtop" data-ref="_M/PictOpDisjointAtop">PictOpDisjointAtop</dfn>			    0x19</u></td></tr>
+<tr><th id="125">125</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointAtopReverse" data-ref="_M/PictOpDisjointAtopReverse">PictOpDisjointAtopReverse</dfn>		    0x1a</u></td></tr>
+<tr><th id="126">126</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointXor" data-ref="_M/PictOpDisjointXor">PictOpDisjointXor</dfn>			    0x1b</u></td></tr>
+<tr><th id="127">127</th><td><u>#define <dfn class="macro" id="_M/PictOpDisjointMaximum" data-ref="_M/PictOpDisjointMaximum">PictOpDisjointMaximum</dfn>			    0x1b</u></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointMinimum" data-ref="_M/PictOpConjointMinimum">PictOpConjointMinimum</dfn>			    0x20</u></td></tr>
+<tr><th id="130">130</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointClear" data-ref="_M/PictOpConjointClear">PictOpConjointClear</dfn>			    0x20</u></td></tr>
+<tr><th id="131">131</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointSrc" data-ref="_M/PictOpConjointSrc">PictOpConjointSrc</dfn>			    0x21</u></td></tr>
+<tr><th id="132">132</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointDst" data-ref="_M/PictOpConjointDst">PictOpConjointDst</dfn>			    0x22</u></td></tr>
+<tr><th id="133">133</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointOver" data-ref="_M/PictOpConjointOver">PictOpConjointOver</dfn>			    0x23</u></td></tr>
+<tr><th id="134">134</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointOverReverse" data-ref="_M/PictOpConjointOverReverse">PictOpConjointOverReverse</dfn>		    0x24</u></td></tr>
+<tr><th id="135">135</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointIn" data-ref="_M/PictOpConjointIn">PictOpConjointIn</dfn>			    0x25</u></td></tr>
+<tr><th id="136">136</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointInReverse" data-ref="_M/PictOpConjointInReverse">PictOpConjointInReverse</dfn>			    0x26</u></td></tr>
+<tr><th id="137">137</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointOut" data-ref="_M/PictOpConjointOut">PictOpConjointOut</dfn>			    0x27</u></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointOutReverse" data-ref="_M/PictOpConjointOutReverse">PictOpConjointOutReverse</dfn>		    0x28</u></td></tr>
+<tr><th id="139">139</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointAtop" data-ref="_M/PictOpConjointAtop">PictOpConjointAtop</dfn>			    0x29</u></td></tr>
+<tr><th id="140">140</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointAtopReverse" data-ref="_M/PictOpConjointAtopReverse">PictOpConjointAtopReverse</dfn>		    0x2a</u></td></tr>
+<tr><th id="141">141</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointXor" data-ref="_M/PictOpConjointXor">PictOpConjointXor</dfn>			    0x2b</u></td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/PictOpConjointMaximum" data-ref="_M/PictOpConjointMaximum">PictOpConjointMaximum</dfn>			    0x2b</u></td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><i>/*</i></td></tr>
+<tr><th id="145">145</th><td><i> * Operators only available in version 0.11</i></td></tr>
+<tr><th id="146">146</th><td><i> */</i></td></tr>
+<tr><th id="147">147</th><td><u>#define <dfn class="macro" id="_M/PictOpBlendMinimum" data-ref="_M/PictOpBlendMinimum">PictOpBlendMinimum</dfn>			    0x30</u></td></tr>
+<tr><th id="148">148</th><td><u>#define <dfn class="macro" id="_M/PictOpMultiply" data-ref="_M/PictOpMultiply">PictOpMultiply</dfn>				    0x30</u></td></tr>
+<tr><th id="149">149</th><td><u>#define <dfn class="macro" id="_M/PictOpScreen" data-ref="_M/PictOpScreen">PictOpScreen</dfn>				    0x31</u></td></tr>
+<tr><th id="150">150</th><td><u>#define <dfn class="macro" id="_M/PictOpOverlay" data-ref="_M/PictOpOverlay">PictOpOverlay</dfn>				    0x32</u></td></tr>
+<tr><th id="151">151</th><td><u>#define <dfn class="macro" id="_M/PictOpDarken" data-ref="_M/PictOpDarken">PictOpDarken</dfn>				    0x33</u></td></tr>
+<tr><th id="152">152</th><td><u>#define <dfn class="macro" id="_M/PictOpLighten" data-ref="_M/PictOpLighten">PictOpLighten</dfn>				    0x34</u></td></tr>
+<tr><th id="153">153</th><td><u>#define <dfn class="macro" id="_M/PictOpColorDodge" data-ref="_M/PictOpColorDodge">PictOpColorDodge</dfn>			    0x35</u></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/PictOpColorBurn" data-ref="_M/PictOpColorBurn">PictOpColorBurn</dfn>				    0x36</u></td></tr>
+<tr><th id="155">155</th><td><u>#define <dfn class="macro" id="_M/PictOpHardLight" data-ref="_M/PictOpHardLight">PictOpHardLight</dfn>				    0x37</u></td></tr>
+<tr><th id="156">156</th><td><u>#define <dfn class="macro" id="_M/PictOpSoftLight" data-ref="_M/PictOpSoftLight">PictOpSoftLight</dfn>				    0x38</u></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/PictOpDifference" data-ref="_M/PictOpDifference">PictOpDifference</dfn>			    0x39</u></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/PictOpExclusion" data-ref="_M/PictOpExclusion">PictOpExclusion</dfn>				    0x3a</u></td></tr>
+<tr><th id="159">159</th><td><u>#define <dfn class="macro" id="_M/PictOpHSLHue" data-ref="_M/PictOpHSLHue">PictOpHSLHue</dfn>				    0x3b</u></td></tr>
+<tr><th id="160">160</th><td><u>#define <dfn class="macro" id="_M/PictOpHSLSaturation" data-ref="_M/PictOpHSLSaturation">PictOpHSLSaturation</dfn>			    0x3c</u></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/PictOpHSLColor" data-ref="_M/PictOpHSLColor">PictOpHSLColor</dfn>				    0x3d</u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/PictOpHSLLuminosity" data-ref="_M/PictOpHSLLuminosity">PictOpHSLLuminosity</dfn>			    0x3e</u></td></tr>
+<tr><th id="163">163</th><td><u>#define <dfn class="macro" id="_M/PictOpBlendMaximum" data-ref="_M/PictOpBlendMaximum">PictOpBlendMaximum</dfn>			    0x3e</u></td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><u>#define <dfn class="macro" id="_M/PolyEdgeSharp" data-ref="_M/PolyEdgeSharp">PolyEdgeSharp</dfn>			    0</u></td></tr>
+<tr><th id="166">166</th><td><u>#define <dfn class="macro" id="_M/PolyEdgeSmooth" data-ref="_M/PolyEdgeSmooth">PolyEdgeSmooth</dfn>			    1</u></td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td><u>#define <dfn class="macro" id="_M/PolyModePrecise" data-ref="_M/PolyModePrecise">PolyModePrecise</dfn>			    0</u></td></tr>
+<tr><th id="169">169</th><td><u>#define <dfn class="macro" id="_M/PolyModeImprecise" data-ref="_M/PolyModeImprecise">PolyModeImprecise</dfn>		    1</u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><u>#define <dfn class="macro" id="_M/CPRepeat" data-ref="_M/CPRepeat">CPRepeat</dfn>			    (1 &lt;&lt; 0)</u></td></tr>
+<tr><th id="172">172</th><td><u>#define <dfn class="macro" id="_M/CPAlphaMap" data-ref="_M/CPAlphaMap">CPAlphaMap</dfn>			    (1 &lt;&lt; 1)</u></td></tr>
+<tr><th id="173">173</th><td><u>#define <dfn class="macro" id="_M/CPAlphaXOrigin" data-ref="_M/CPAlphaXOrigin">CPAlphaXOrigin</dfn>			    (1 &lt;&lt; 2)</u></td></tr>
+<tr><th id="174">174</th><td><u>#define <dfn class="macro" id="_M/CPAlphaYOrigin" data-ref="_M/CPAlphaYOrigin">CPAlphaYOrigin</dfn>			    (1 &lt;&lt; 3)</u></td></tr>
+<tr><th id="175">175</th><td><u>#define <dfn class="macro" id="_M/CPClipXOrigin" data-ref="_M/CPClipXOrigin">CPClipXOrigin</dfn>			    (1 &lt;&lt; 4)</u></td></tr>
+<tr><th id="176">176</th><td><u>#define <dfn class="macro" id="_M/CPClipYOrigin" data-ref="_M/CPClipYOrigin">CPClipYOrigin</dfn>			    (1 &lt;&lt; 5)</u></td></tr>
+<tr><th id="177">177</th><td><u>#define <dfn class="macro" id="_M/CPClipMask" data-ref="_M/CPClipMask">CPClipMask</dfn>			    (1 &lt;&lt; 6)</u></td></tr>
+<tr><th id="178">178</th><td><u>#define <dfn class="macro" id="_M/CPGraphicsExposure" data-ref="_M/CPGraphicsExposure">CPGraphicsExposure</dfn>		    (1 &lt;&lt; 7)</u></td></tr>
+<tr><th id="179">179</th><td><u>#define <dfn class="macro" id="_M/CPSubwindowMode" data-ref="_M/CPSubwindowMode">CPSubwindowMode</dfn>			    (1 &lt;&lt; 8)</u></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/CPPolyEdge" data-ref="_M/CPPolyEdge">CPPolyEdge</dfn>			    (1 &lt;&lt; 9)</u></td></tr>
+<tr><th id="181">181</th><td><u>#define <dfn class="macro" id="_M/CPPolyMode" data-ref="_M/CPPolyMode">CPPolyMode</dfn>			    (1 &lt;&lt; 10)</u></td></tr>
+<tr><th id="182">182</th><td><u>#define <dfn class="macro" id="_M/CPDither" data-ref="_M/CPDither">CPDither</dfn>			    (1 &lt;&lt; 11)</u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/CPComponentAlpha" data-ref="_M/CPComponentAlpha">CPComponentAlpha</dfn>		    (1 &lt;&lt; 12)</u></td></tr>
+<tr><th id="184">184</th><td><u>#define <dfn class="macro" id="_M/CPLastBit" data-ref="_M/CPLastBit">CPLastBit</dfn>			    12</u></td></tr>
+<tr><th id="185">185</th><td></td></tr>
+<tr><th id="186">186</th><td><i>/* Filters included in 0.6 */</i></td></tr>
+<tr><th id="187">187</th><td><u>#define <dfn class="macro" id="_M/FilterNearest" data-ref="_M/FilterNearest">FilterNearest</dfn>			    "nearest"</u></td></tr>
+<tr><th id="188">188</th><td><u>#define <dfn class="macro" id="_M/FilterBilinear" data-ref="_M/FilterBilinear">FilterBilinear</dfn>			    "bilinear"</u></td></tr>
+<tr><th id="189">189</th><td><i>/* Filters included in 0.10 */</i></td></tr>
+<tr><th id="190">190</th><td><u>#define <dfn class="macro" id="_M/FilterConvolution" data-ref="_M/FilterConvolution">FilterConvolution</dfn>		    "convolution"</u></td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><u>#define <dfn class="macro" id="_M/FilterFast" data-ref="_M/FilterFast">FilterFast</dfn>			    "fast"</u></td></tr>
+<tr><th id="193">193</th><td><u>#define <dfn class="macro" id="_M/FilterGood" data-ref="_M/FilterGood">FilterGood</dfn>			    "good"</u></td></tr>
+<tr><th id="194">194</th><td><u>#define <dfn class="macro" id="_M/FilterBest" data-ref="_M/FilterBest">FilterBest</dfn>			    "best"</u></td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td><u>#define <dfn class="macro" id="_M/FilterAliasNone" data-ref="_M/FilterAliasNone">FilterAliasNone</dfn>			    -1</u></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><i>/* Subpixel orders included in 0.6 */</i></td></tr>
+<tr><th id="199">199</th><td><u>#define <dfn class="macro" id="_M/SubPixelUnknown" data-ref="_M/SubPixelUnknown">SubPixelUnknown</dfn>			    0</u></td></tr>
+<tr><th id="200">200</th><td><u>#define <dfn class="macro" id="_M/SubPixelHorizontalRGB" data-ref="_M/SubPixelHorizontalRGB">SubPixelHorizontalRGB</dfn>		    1</u></td></tr>
+<tr><th id="201">201</th><td><u>#define <dfn class="macro" id="_M/SubPixelHorizontalBGR" data-ref="_M/SubPixelHorizontalBGR">SubPixelHorizontalBGR</dfn>		    2</u></td></tr>
+<tr><th id="202">202</th><td><u>#define <dfn class="macro" id="_M/SubPixelVerticalRGB" data-ref="_M/SubPixelVerticalRGB">SubPixelVerticalRGB</dfn>		    3</u></td></tr>
+<tr><th id="203">203</th><td><u>#define <dfn class="macro" id="_M/SubPixelVerticalBGR" data-ref="_M/SubPixelVerticalBGR">SubPixelVerticalBGR</dfn>		    4</u></td></tr>
+<tr><th id="204">204</th><td><u>#define <dfn class="macro" id="_M/SubPixelNone" data-ref="_M/SubPixelNone">SubPixelNone</dfn>			    5</u></td></tr>
+<tr><th id="205">205</th><td></td></tr>
+<tr><th id="206">206</th><td><i>/* Extended repeat attributes included in 0.10 */</i></td></tr>
+<tr><th id="207">207</th><td><u>#define <dfn class="macro" id="_M/RepeatNone" data-ref="_M/RepeatNone">RepeatNone</dfn>                          0</u></td></tr>
+<tr><th id="208">208</th><td><u>#define <dfn class="macro" id="_M/RepeatNormal" data-ref="_M/RepeatNormal">RepeatNormal</dfn>                        1</u></td></tr>
+<tr><th id="209">209</th><td><u>#define <dfn class="macro" id="_M/RepeatPad" data-ref="_M/RepeatPad">RepeatPad</dfn>                           2</u></td></tr>
+<tr><th id="210">210</th><td><u>#define <dfn class="macro" id="_M/RepeatReflect" data-ref="_M/RepeatReflect">RepeatReflect</dfn>                       3</u></td></tr>
+<tr><th id="211">211</th><td></td></tr>
+<tr><th id="212">212</th><td><u>#<span data-ppcond="26">endif</span>	/* _RENDER_H_ */</u></td></tr>
+<tr><th id="213">213</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp.html'>codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

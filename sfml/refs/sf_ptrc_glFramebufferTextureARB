@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1259' type='void (*)(GLenum, GLenum, GLuint, GLint)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='817' type='void (*)(GLenum, GLenum, GLuint, GLint)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='826' u='w' c='_ZL25Load_ARB_geometry_shader4v'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='827' u='r' c='_ZL25Load_ARB_geometry_shader4v'/>

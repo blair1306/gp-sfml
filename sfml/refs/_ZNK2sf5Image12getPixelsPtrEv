@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='247' type='const Uint8 * sf::Image::getPixelsPtr() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='234'>////////////////////////////////////////////////////////////
+    /// \brief Get a read-only pointer to the array of pixels
+    ///
+    /// The returned value points to an array of RGBA pixels made of
+    /// 8 bits integers components. The size of the array is
+    /// width * height * 4 (getSize().x * getSize().y * 4).
+    /// Warning: the returned pointer may become invalid if you
+    /// modify the image, so you should never store it for too long.
+    /// If the image is empty, a null pointer is returned.
+    ///
+    /// \return Read-only pointer to the array of pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='294' ll='305' type='const Uint8 * sf::Image::getPixelsPtr() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='293'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='288' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='533' u='c' c='_ZN2sf7Texture6updateERKNS_5ImageE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='540' u='c' c='_ZN2sf7Texture6updateERKNS_5ImageEjj'/>

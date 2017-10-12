@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='327' type='0'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='62' u='r' c='_ZN12_GLOBAL__N_110streamSeekEPK19FLAC__StreamDecodermPv'/>

@@ -1,0 +1,16 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='338' type='void FT_Stroker_Rewind(FT_Stroker stroker)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='322'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_Rewind
+   *
+   * @description:
+   *   Reset a stroker object without changing its attributes.
+   *   You should call this function before beginning a new
+   *   series of calls to @FT_Stroker_BeginSubPath or
+   *   @FT_Stroker_EndSubPath.
+   *
+   * @input:
+   *   stroker ::
+   *     The target stroker handle.
+   */</doc>

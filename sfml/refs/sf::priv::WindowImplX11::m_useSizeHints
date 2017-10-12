@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='282' type='bool'/>
+<offset>6944</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='282'>///&lt; Is the size of the window fixed with size hints?</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='493' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='541' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='669' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='873' u='r' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>

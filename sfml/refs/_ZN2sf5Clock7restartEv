@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/Clock.hpp' l='74' type='sf::Time sf::Clock::restart()'/>
+<doc f='codebrowser/include/SFML/System/Clock.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Restart the clock
+    ///
+    /// This function puts the time counter back to zero.
+    /// It also returns the time elapsed since the clock was started.
+    ///
+    /// \return Time elapsed
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Clock.cpp' l='54' ll='61' type='sf::Time sf::Clock::restart()'/>
+<doc f='codebrowser/src/SFML/System/Clock.cpp' l='53'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='382' u='c' c='_ZN2sf6Window7displayEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='440' u='c' c='_ZN2sf6Window10initializeEv'/>

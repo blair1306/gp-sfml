@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='72' type='std::size_t sf::VertexArray::getVertexCount() const'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='66'>////////////////////////////////////////////////////////////
+    /// \brief Return the vertex count
+    ///
+    /// \return Number of vertices in the array
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='233' u='c' c='_ZN2sf5Shape16updateFillColorsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='241' u='c' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='254' u='c' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='301' u='c' c='_ZN2sf5Shape19updateOutlineColorsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='173' u='c' c='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='191' u='c' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='51' ll='54' type='std::size_t sf::VertexArray::getVertexCount() const'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='50'>////////////////////////////////////////////////////////////</doc>

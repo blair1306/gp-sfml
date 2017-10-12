@@ -1,0 +1,9 @@
+<dec f='include/libudev.h' l='66'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='212' u='c'/>
+<doc f='include/libudev.h' l='59'>/**
+ * udev_list_entry_foreach:
+ * @list_entry: entry to store the current position
+ * @first_entry: first entry to start with
+ *
+ * Helper to iterate over all entries of a list.
+ */</doc>

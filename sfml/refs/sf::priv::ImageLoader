@@ -1,0 +1,14 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='47' ll='121'/>
+<size>1</size>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Load/save image files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv11ImageLoader11getInstanceEv'/>
+<fun r='_ZN2sf4priv11ImageLoader17loadImageFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<fun r='_ZN2sf4priv11ImageLoader19loadImageFromMemoryEPKvmRSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<fun r='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<fun r='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<fun r='_ZN2sf4priv11ImageLoaderC1Ev'/>
+<fun r='_ZN2sf4priv11ImageLoaderD1Ev'/>

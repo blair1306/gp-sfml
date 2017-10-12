@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='220' type='void sf::TcpSocket::PendingPacket::PendingPacket()'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='215' u='c' c='_ZN2sf9TcpSocket10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='398' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='405' ll='411' type='void sf::TcpSocket::PendingPacket::PendingPacket()'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='404'>////////////////////////////////////////////////////////////</doc>

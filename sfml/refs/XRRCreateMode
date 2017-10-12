@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='347' type='RRMode XRRCreateMode(Display * dpy, Window window, XRRModeInfo * modeInfo)'/>

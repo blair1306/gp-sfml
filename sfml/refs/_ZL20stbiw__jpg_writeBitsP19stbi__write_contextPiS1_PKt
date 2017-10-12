@@ -1,0 +1,10 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1044' ll='1059' type='void stbiw__jpg_writeBits(stbi__write_context * s, int * bitBufP, int * bitCntP, const unsigned short * bs)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1144' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1148' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1149' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1157' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1171' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1175' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1176' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1179' u='c' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1346' u='c' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>

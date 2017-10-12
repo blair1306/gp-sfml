@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='315' type='void XRenderCompositeString8(Display * dpy, int op, Picture src, Picture dst, const XRenderPictFormat * maskFormat, GlyphSet glyphset, int xSrc, int ySrc, int xDst, int yDst, const char * string, int nchar)'/>

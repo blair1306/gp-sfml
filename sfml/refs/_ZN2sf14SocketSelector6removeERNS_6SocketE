@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='93' type='void sf::SocketSelector::remove(sf::Socket &amp; socket)'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='118' ll='141' type='void sf::SocketSelector::remove(sf::Socket &amp; socket)'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='117'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='82'>////////////////////////////////////////////////////////////
+    /// \brief Remove a socket from the selector
+    ///
+    /// This function doesn&apos;t destroy the socket, it simply
+    /// removes the reference that the selector has to it.
+    ///
+    /// \param socket Reference to the socket to remove
+    ///
+    /// \see add, clear
+    ///
+    ////////////////////////////////////////////////////////////</doc>

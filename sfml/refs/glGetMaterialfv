@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1364' type='void glGetMaterialfv(GLenum , GLenum , GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1181' type='void glGetMaterialfv(GLenum face, GLenum pname, GLfloat * params)'/>

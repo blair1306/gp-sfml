@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='84' type='static int sf::priv::AudioDevice::getFormatFromChannelCount(unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Get the OpenAL format that matches the given number of channels
+    ///
+    /// \param channelCount Number of channels
+    ///
+    /// \return Corresponding format
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='122' ll='150' type='static int sf::priv::AudioDevice::getFormatFromChannelCount(unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='121'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='247' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='85' u='c' c='_ZN2sf11SoundStream10initializeEjj'/>

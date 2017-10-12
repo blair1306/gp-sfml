@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='58' type='1'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='58'>///&lt; Texture coordinates in range [0 .. size]</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='506' u='r' c='_ZN2sf12RenderTarget12applyTextureEPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='731' u='r' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='740' u='r' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>

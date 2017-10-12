@@ -1,0 +1,11 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='62' ll='69'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='58'>////////////////////////////////////////////////////////////
+    /// \brief Keyboard event parameters (KeyPressed, KeyReleased)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::KeyEvent::code' o='0' t='Keyboard::Key'/>
+<mbr r='sf::Event::KeyEvent::alt' o='32' t='bool'/>
+<mbr r='sf::Event::KeyEvent::control' o='40' t='bool'/>
+<mbr r='sf::Event::KeyEvent::shift' o='48' t='bool'/>
+<mbr r='sf::Event::KeyEvent::system' o='56' t='bool'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='87' type='const float * sf::Transform::getMatrix() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Return the transform as a 4x4 matrix
+    ///
+    /// This function returns a pointer to an array of 16 floats
+    /// containing the transform elements as a 4x4 matrix, which
+    /// is directly compatible with OpenGL functions.
+    ///
+    /// \code
+    /// sf::Transform transform = ...;
+    /// glLoadMatrixf(transform.getMatrix());
+    /// \endcode
+    ///
+    /// \return Pointer to a 4x4 matrix
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='41' u='c' c='_ZN2sf4priv10copyMatrixERKNS_9TransformERNS0_6MatrixILm3ELm3EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='55' u='c' c='_ZN2sf4priv10copyMatrixERKNS_9TransformERNS0_6MatrixILm4ELm4EEE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='437' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='499' u='c' c='_ZN2sf12RenderTarget14applyTransformERKNS_9TransformE'/>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='62' ll='65' type='const float * sf::Transform::getMatrix() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='61'>////////////////////////////////////////////////////////////</doc>

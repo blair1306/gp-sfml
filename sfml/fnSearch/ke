@@ -1,0 +1,8 @@
+_ZNKSt8_Rb_tree8key_compEv|std::_Rb_tree::key_comp
+_ZNKSt8multiset8key_compEv|std::multiset::key_comp
+_ZNKSt3set8key_compEv|std::set::key_comp
+_ZNKSt3map8key_compEv|std::map::key_comp
+_ZNKSt8multimap8key_compEv|std::multimap::key_comp
+_ZN2sf3Ftp9keepAliveEv|sf::Ftp::keepAlive
+_ZN2sf8Keyboard12isKeyPressedENS0_3KeyE|sf::Keyboard::isKeyPressed
+_ZN2sf8Keyboard25setVirtualKeyboardVisibleEb|sf::Keyboard::setVirtualKeyboardVisible

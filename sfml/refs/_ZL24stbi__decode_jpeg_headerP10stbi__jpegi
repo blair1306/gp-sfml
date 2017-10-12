@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3043' ll='3065' type='int stbi__decode_jpeg_header(stbi__jpeg * z, int scan)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3076' u='c' c='_ZL23stbi__decode_jpeg_imageP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3701' u='c' c='_ZL15stbi__jpeg_testP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3709' u='c' c='_ZL19stbi__jpeg_info_rawP10stbi__jpegPiS1_S1_'/>

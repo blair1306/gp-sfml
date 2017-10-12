@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='172' type='void sf::Thread::terminate()'/>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='161'>////////////////////////////////////////////////////////////
+    /// \brief Terminate the thread
+    ///
+    /// This function immediately stops the thread, without waiting
+    /// for its function to finish.
+    /// Terminating a thread with this function is not safe,
+    /// and can lead to local variables not being destroyed
+    /// on some operating systems. You should rather try to make
+    /// the thread function terminate by itself.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Thread.cpp' l='69' ll='77' type='void sf::Thread::terminate()'/>
+<doc f='codebrowser/src/SFML/System/Thread.cpp' l='68'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/NonCopyable.hpp' l='89' type='sf::NonCopyable &amp; sf::NonCopyable::operator=(const sf::NonCopyable &amp; )'/>
+<doc f='codebrowser/include/SFML/System/NonCopyable.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Disabled assignment operator
+    ///
+    /// By making the assignment operator private, the compiler will
+    /// trigger an error if anyone outside tries to use it.
+    /// To prevent NonCopyable or friend classes from using it,
+    /// we also give no definition, so that the linker will
+    /// produce an error if the first protection was inefficient.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

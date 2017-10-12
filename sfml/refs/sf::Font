@@ -1,0 +1,50 @@
+<def f='codebrowser/include/SFML/Graphics/Font.hpp' l='50' ll='360'/>
+<size>144</size>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='46'>////////////////////////////////////////////////////////////
+/// \brief Class for loading and manipulating character fonts
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4FontC1Ev'/>
+<fun r='_ZN2sf4FontC1ERKS0_'/>
+<fun r='_ZN2sf4FontD1Ev'/>
+<fun r='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<fun r='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf4Font7getInfoEv'/>
+<fun r='_ZNK2sf4Font8getGlyphEjjbf'/>
+<fun r='_ZNK2sf4Font10getKerningEjjj'/>
+<fun r='_ZNK2sf4Font14getLineSpacingEj'/>
+<fun r='_ZNK2sf4Font20getUnderlinePositionEj'/>
+<fun r='_ZNK2sf4Font21getUnderlineThicknessEj'/>
+<fun r='_ZNK2sf4Font10getTextureEj'/>
+<fun r='_ZN2sf4FontaSERKS0_'/>
+<fun r='_ZN2sf4Font7cleanupEv'/>
+<fun r='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<fun r='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<fun r='_ZNK2sf4Font14setCurrentSizeEj'/>
+<mbr r='sf::Font::m_library' o='0' t='void *'/>
+<mbr r='sf::Font::m_face' o='64' t='void *'/>
+<mbr r='sf::Font::m_streamRec' o='128' t='void *'/>
+<mbr r='sf::Font::m_stroker' o='192' t='void *'/>
+<mbr r='sf::Font::m_refCount' o='256' t='int *'/>
+<mbr r='sf::Font::m_info' o='320' t='sf::Font::Info'/>
+<mbr r='sf::Font::m_pages' o='576' t='PageTable'/>
+<mbr r='sf::Font::m_pixelBuffer' o='960' t='std::vector&lt;Uint8&gt;'/>
+<fun r='_ZN2sf4FontC1Ev'/>
+<fun r='_ZN2sf4FontC1ERKS0_'/>
+<fun r='_ZN2sf4FontD1Ev'/>
+<fun r='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<fun r='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf4Font7getInfoEv'/>
+<fun r='_ZNK2sf4Font8getGlyphEjjbf'/>
+<fun r='_ZNK2sf4Font10getKerningEjjj'/>
+<fun r='_ZNK2sf4Font14getLineSpacingEj'/>
+<fun r='_ZNK2sf4Font20getUnderlinePositionEj'/>
+<fun r='_ZNK2sf4Font21getUnderlineThicknessEj'/>
+<fun r='_ZNK2sf4Font10getTextureEj'/>
+<fun r='_ZN2sf4FontaSERKS0_'/>
+<fun r='_ZN2sf4Font7cleanupEv'/>
+<fun r='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<fun r='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<fun r='_ZNK2sf4Font14setCurrentSizeEj'/>

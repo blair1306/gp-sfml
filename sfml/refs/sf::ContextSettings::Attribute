@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='43' ll='48'/>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='39'>////////////////////////////////////////////////////////////
+    /// \brief Enumeration of the context attribute flags
+    ///
+    ////////////////////////////////////////////////////////////</doc>

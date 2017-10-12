@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='3916' type='int Xutf8LookupString(XIC , XKeyPressedEvent * , char * , int , KeySym * , int * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1735' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

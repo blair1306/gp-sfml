@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='315' type='FloatRect'/>
+<offset>2432</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='315'>///&lt; Bounding rectangle of the inside (fill)</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='168' u='w' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='195' u='w' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='198' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='198' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='199' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='199' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='243' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='243' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='243' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='244' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='244' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='244' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>

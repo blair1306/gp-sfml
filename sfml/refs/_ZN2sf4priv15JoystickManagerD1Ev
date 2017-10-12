@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='104' type='void sf::priv::JoystickManager::~JoystickManager()'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='100'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='110' ll='119' type='void sf::priv::JoystickManager::~JoystickManager()'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='109'>////////////////////////////////////////////////////////////</doc>

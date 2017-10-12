@@ -1,0 +1,3 @@
+<dec f='include/X11/Xutil.h' l='659' type='void XSetWMNormalHints(Display * , Window , XSizeHints * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='674' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='879' u='c' c='_ZN2sf4priv13WindowImplX117setSizeERKNS_7Vector2IjEE'/>

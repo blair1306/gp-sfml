@@ -1,0 +1,10 @@
+<dec f='include/FLAC/stream_decoder.h' l='890' type='FLAC__StreamDecoderState FLAC__stream_decoder_get_state(const FLAC__StreamDecoder * decoder)'/>
+<doc f='include/FLAC/stream_decoder.h' l='882'>/** Get the current decoder state.
+ *
+ * \param  decoder  A decoder instance to query.
+ * \assert
+ *    \code decoder != NULL \endcode
+ * \retval FLAC__StreamDecoderState
+ *    The current decoder state.
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='319' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>

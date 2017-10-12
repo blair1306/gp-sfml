@@ -1,0 +1,25 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='486' type='void sf::Shader::setUniform(const std::string &amp; name, sf::Shader::CurrentTextureType )'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='465'>////////////////////////////////////////////////////////////
+    /// \brief Specify current texture as \p sampler2D uniform
+    ///
+    /// This overload maps a shader texture variable to the
+    /// texture of the object being drawn, which cannot be
+    /// known in advance. The second argument must be
+    /// sf::Shader::CurrentTexture.
+    /// The corresponding parameter in the shader must be a 2D texture
+    /// (\p sampler2D GLSL type).
+    ///
+    /// Example:
+    /// \code
+    /// uniform sampler2D current; // this is the variable in the shader
+    /// \endcode
+    /// \code
+    /// shader.setUniform(&quot;current&quot;, sf::Shader::CurrentTexture);
+    /// \endcode
+    ///
+    /// \param name Name of the texture in the shader
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='579' ll='588' type='void sf::Shader::setUniform(const std::string &amp; name, sf::Shader::CurrentTextureType )'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='729' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='578'>////////////////////////////////////////////////////////////</doc>

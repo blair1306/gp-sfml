@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='203' type='void sf::Text::setOutlineColor(const sf::Color &amp; color)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='181' ll='195' type='void sf::Text::setOutlineColor(const sf::Color &amp; color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='180'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='193'>////////////////////////////////////////////////////////////
+    /// \brief Set the outline color of the text
+    ///
+    /// By default, the text&apos;s outline color is opaque black.
+    ///
+    /// \param color New outline color of the text
+    ///
+    /// \see getOutlineColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

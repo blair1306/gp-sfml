@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='179' type='static void sf::Keyboard::setVirtualKeyboardVisible(bool visible)'/>
+<def f='codebrowser/src/SFML/Window/Keyboard.cpp' l='42' ll='45' type='static void sf::Keyboard::setVirtualKeyboardVisible(bool visible)'/>
+<doc f='codebrowser/src/SFML/Window/Keyboard.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='166'>////////////////////////////////////////////////////////////
+    /// \brief Show or hide the virtual keyboard
+    ///
+    /// Warning: the virtual keyboard is not supported on all
+    /// systems. It will typically be implemented on mobile OSes
+    /// (Android, iOS) but not on desktop OSes (Windows, Linux, ...).
+    ///
+    /// If the virtual keyboard is not available, this function does
+    /// nothing.
+    ///
+    /// \param visible True to show, false to hide
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,3 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='772' ll='777' type='__normal_iterator&lt;_Iterator, _Container&gt; &amp; __gnu_cxx::__normal_iterator::operator--()'/>
+<def f='include/c++/5/bits/stl_iterator.h' l='779' ll='781' type='__normal_iterator&lt;_Iterator, _Container&gt; __gnu_cxx::__normal_iterator::operator--(int )'/>
+<doc f='include/c++/5/bits/stl_iterator.h' l='771'>// Bidirectional iterator requirements</doc>

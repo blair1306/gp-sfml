@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='143' type='bool sf::Music::openFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='72' ll='85' type='bool sf::Music::openFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='71'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='122'>////////////////////////////////////////////////////////////
+    /// \brief Open a music from an audio file in memory
+    ///
+    /// This function doesn&apos;t start playing the music (call play()
+    /// to do so).
+    /// See the documentation of sf::InputSoundFile for the list
+    /// of supported formats.
+    ///
+    /// \warning Since the music is not loaded at once but rather streamed
+    /// continuously, the \a data buffer must remain accessible until
+    /// the sf::Music object loads a new music or is destroyed. That is,
+    /// you can&apos;t deallocate the buffer right after calling this function.
+    ///
+    /// \param data        Pointer to the file data in memory
+    /// \param sizeInBytes Size of the data to load, in bytes
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see openFromFile, openFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>

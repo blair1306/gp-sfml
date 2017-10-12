@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='286' type='void sf::Window::setSize(const Vector2u &amp; size)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='278'>////////////////////////////////////////////////////////////
+    /// \brief Change the size of the rendering region of the window
+    ///
+    /// \param size New size, in pixels
+    ///
+    /// \see getSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='235' ll='248' type='void sf::Window::setSize(const Vector2u &amp; size)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='234'>////////////////////////////////////////////////////////////</doc>

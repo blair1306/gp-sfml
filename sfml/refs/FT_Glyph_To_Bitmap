@@ -1,0 +1,3 @@
+<dec f='include/freetype2/freetype/ftglyph.h' l='519' type='FT_Error FT_Glyph_To_Bitmap(FT_Glyph * the_glyph, FT_Render_Mode render_mode, FT_Vector * origin, FT_Bool destroy)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='566' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<doc f='include/freetype2/freetype/ftglyph.h' l='517'>/*                                                                       */</doc>

@@ -1,0 +1,10 @@
+<def f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='110' ll='116'/>
+<size>296</size>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='106'>////////////////////////////////////////////////////////////
+    /// \brief Joystick information and state
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::priv::JoystickManager::Item::joystick' o='0' t='sf::priv::JoystickImpl'/>
+<mbr r='sf::priv::JoystickManager::Item::state' o='1408' t='sf::priv::JoystickState'/>
+<mbr r='sf::priv::JoystickManager::Item::capabilities' o='1952' t='sf::priv::JoystickCaps'/>
+<mbr r='sf::priv::JoystickManager::Item::identification' o='2048' t='Joystick::Identification'/>

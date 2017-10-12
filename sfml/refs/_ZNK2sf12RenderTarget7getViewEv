@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='101' type='const sf::View &amp; sf::RenderTarget::getView() const'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='121' ll='124' type='const sf::View &amp; sf::RenderTarget::getView() const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='151' u='c' c='_ZNK2sf12RenderTarget16mapPixelToCoordsERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='172' u='c' c='_ZNK2sf12RenderTarget16mapCoordsToPixelERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='410' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='120'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='93'>////////////////////////////////////////////////////////////
+    /// \brief Get the view currently in use in the render target
+    ///
+    /// \return The view object that is currently used
+    ///
+    /// \see setView, getDefaultView
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='103' u='c' c='_ZN2sf12RenderWindow8onResizeEv'/>

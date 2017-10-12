@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='526' type='void sf::Texture::swap(sf::Texture &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='718' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='520'>////////////////////////////////////////////////////////////
+    /// \brief Swap the contents of this texture with those of another
+    ///
+    /// \param right Instance to swap with
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='802' u='c' c='_ZN2sf7TextureaSERKS0_'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='809' ll='823' type='void sf::Texture::swap(sf::Texture &amp; right)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='808'>////////////////////////////////////////////////////////////</doc>

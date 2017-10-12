@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1229' type='void (*)(GLenum, GLenum, GLenum, GLuint, GLint)'/>
+<def f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='718' type='void (*)(GLenum, GLenum, GLenum, GLuint, GLint)'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='761' u='w' c='_ZL27Load_EXT_framebuffer_objectv'/>
+<use f='codebrowser/src/SFML/Graphics/GLLoader.cpp' l='762' u='r' c='_ZL27Load_EXT_framebuffer_objectv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='118' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='489' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='493' macro='1' u='r'/>

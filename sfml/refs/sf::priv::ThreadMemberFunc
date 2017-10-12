@@ -1,0 +1,6 @@
+<inh f='codebrowser/include/SFML/System/Thread.inl' l='28' c='sf::priv::ThreadFunc'/>
+<def f='codebrowser/include/SFML/System/Thread.inl' l='55' ll='61'/>
+<fun r='_ZN2sf4priv16ThreadMemberFuncC1EMT_FvvEPS2_'/>
+<fun r='_ZN2sf4priv16ThreadMemberFunc3runEv'/>
+<mbr r='sf::priv::ThreadMemberFunc::m_function' t='void (C::*)()'/>
+<mbr r='sf::priv::ThreadMemberFunc::m_object' t='C *'/>

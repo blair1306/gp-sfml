@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='160' type='const sf::Font::Info &amp; sf::Font::getInfo() const'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='322' ll='325' type='const Font::Info &amp; sf::Font::getInfo() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='321'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='154'>////////////////////////////////////////////////////////////
+    /// \brief Get the font information
+    ///
+    /// \return A structure that holds the font information
+    ///
+    ////////////////////////////////////////////////////////////</doc>

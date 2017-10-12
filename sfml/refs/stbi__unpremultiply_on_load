@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4622' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4627' u='w' c='stbi_set_unpremultiply_on_load'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4650' u='r' c='_ZL15stbi__de_iphoneP9stbi__png'/>

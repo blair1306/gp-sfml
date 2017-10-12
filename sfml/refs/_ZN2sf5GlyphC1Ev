@@ -1,0 +1,6 @@
+<def f='codebrowser/include/SFML/Graphics/Glyph.hpp' l='49' type='void sf::Glyph::Glyph()'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='522' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<doc f='codebrowser/include/SFML/Graphics/Glyph.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

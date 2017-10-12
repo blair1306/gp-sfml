@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='352' type='void sf::Http::Http()'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='301' ll='306' type='void sf::Http::Http()'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='300'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='348'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

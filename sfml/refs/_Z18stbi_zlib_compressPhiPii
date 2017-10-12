@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='745' ll='848' type='unsigned char * stbi_zlib_compress(unsigned char * data, int data_len, int * out_len, int quality)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='968' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>

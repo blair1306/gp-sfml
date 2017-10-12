@@ -1,0 +1,9 @@
+<dec f='include/c++/5/bits/functexcept.h' l='72' type='void std::__throw_length_error(const char * )'/>
+<use f='include/c++/5/bits/basic_string.h' l='271' u='c' c='_ZNKSt7__cxx1112basic_string15_M_check_lengthEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_PKc'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='142' u='c' c='_ZNSt7__cxx1112basic_string9_M_createERN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_'/>
+<use f='include/c++/5/bits/stl_vector.h' l='1425' u='c' c='_ZNKSt6vector12_M_check_lenEmPKc'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='891' u='c' c='_ZNSt6vectorIbT_E7reserveEm'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='1243' u='c' c='_ZNKSt6vectorIbT_E12_M_check_lenEmPKc'/>
+<use f='include/c++/5/bits/vector.tcc' l='69' u='c' c='_ZNSt6vector7reserveEm'/>
+<use f='include/c++/5/bits/deque.tcc' l='855' u='c' c='_ZNSt5deque24_M_new_elements_at_frontEm'/>
+<use f='include/c++/5/bits/deque.tcc' l='880' u='c' c='_ZNSt5deque23_M_new_elements_at_backEm'/>

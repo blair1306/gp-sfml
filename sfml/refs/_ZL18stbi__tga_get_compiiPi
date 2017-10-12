@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5236' ll='5250' type='int stbi__tga_get_comp(int bits_per_pixel, int is_grey, int * is_rgb16)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5303' u='c' c='_ZL14stbi__tga_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5305' u='c' c='_ZL14stbi__tga_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5405' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5406' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5235'>// returns STBI_rgb or whatever, 0 on error</doc>

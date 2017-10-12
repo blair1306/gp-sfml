@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='413' type='sf::Ftp::Response sf::Ftp::deleteDirectory(const std::string &amp; name)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='253' ll='256' type='Ftp::Response sf::Ftp::deleteDirectory(const std::string &amp; name)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='252'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='398'>////////////////////////////////////////////////////////////
+    /// \brief Remove an existing directory
+    ///
+    /// The directory to remove must be relative to the
+    /// current working directory.
+    /// Use this function with caution, the directory will
+    /// be removed permanently!
+    ///
+    /// \param name Name of the directory to remove
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see createDirectory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

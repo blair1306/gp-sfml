@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='60' type='void sf::priv::TextureSaver::~TextureSaver()'/>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// The previous texture binding is restored.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='43' ll='46' type='void sf::priv::TextureSaver::~TextureSaver()'/>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

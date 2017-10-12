@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='319' type='void sf::Http::Response::parse(const std::string &amp; data)'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='199' ll='273' type='void sf::Http::Response::parse(const std::string &amp; data)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='404' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='198'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='310'>////////////////////////////////////////////////////////////
+        /// \brief Construct the header from a response string
+        ///
+        /// This function is used by Http to build the response
+        /// of a request.
+        ///
+        /// \param data Content of the response to parse
+        ///
+        ////////////////////////////////////////////////////////////</doc>

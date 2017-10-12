@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1279' type='void glClearDepth(GLdouble )'/>
+<dec f='include/GL/gl.h' l='844' type='void glClearDepth(GLclampd depth)'/>

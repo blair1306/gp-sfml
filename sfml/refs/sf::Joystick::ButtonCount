@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='52' type='32'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='68' u='r' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='73'/>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='52'>///&lt; Maximum number of supported buttons</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='606' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='607' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='685' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>

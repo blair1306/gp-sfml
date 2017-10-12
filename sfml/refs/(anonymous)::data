@@ -1,0 +1,28 @@
+<dec f='include/FLAC/format.h' l='259' type='union (anonymous union at /usr/include/FLAC/format.h:257:2)'/>
+<dec f='include/FLAC/format.h' l='292' type='const FLAC__int32 *'/>
+<dec f='include/FLAC/format.h' l='351' type='union (anonymous union at /usr/include/FLAC/format.h:346:2)'/>
+<dec f='include/FLAC/format.h' l='567' type='FLAC__byte *'/>
+<dec f='include/FLAC/format.h' l='808' type='FLAC__byte *'/>
+<dec f='include/FLAC/format.h' l='828' type='FLAC__byte *'/>
+<dec f='include/FLAC/format.h' l='855' type='union (anonymous union at /usr/include/FLAC/format.h:846:2)'/>
+<dec f='include/ogg/ogg.h' l='106' type='unsigned char *'/>
+<offset>0</offset>
+<doc f='include/FLAC/format.h' l='292'>/**&lt; A pointer to verbatim signal. */</doc>
+<doc f='include/FLAC/format.h' l='806'>/**&lt; Length of binary picture data in bytes. */</doc>
+<doc f='include/FLAC/format.h' l='844'>/**&lt; Length, in bytes, of the block data as it appears in the stream. */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='165' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='165' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='166' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='167' u='m' c='_ZN12_GLOBAL__N_114streamMetadataEPK19FLAC__StreamDecoderPK20FLAC__StreamMetadataPv'/>
+<dec f='include/X11/Xlib.h' l='909' type='union (anonymous union at /usr/include/X11/Xlib.h:905:2)'/>
+<dec f='include/X11/Xlib.h' l='966' type='void *'/>
+<offset>384</offset>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1204' u='m' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1205' u='m' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1206' u='m' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1351' u='m' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1352' u='m' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1353' u='m' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1354' u='m' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1682' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1689' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

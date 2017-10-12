@@ -1,0 +1,9 @@
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='49' u='w' c='_ZN2sf4priv12JoystickCapsC1Ev'/>
+<dec f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='53' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='44' u='r' c='_ZN2sf8Joystick14getButtonCountEj'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='53'>///&lt; Number of buttons supported by the joystick</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='605' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='606' u='r' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='607' u='w' c='_ZNK2sf4priv12JoystickImpl15getCapabilitiesEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='204' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

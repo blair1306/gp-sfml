@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='115' type='void sf::VertexArray::clear()'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='106'>////////////////////////////////////////////////////////////
+    /// \brief Clear the vertex array
+    ///
+    /// This function removes all the vertices from the array.
+    /// It doesn&apos;t deallocate the corresponding memory, so that
+    /// adding new vertices after clearing doesn&apos;t involve
+    /// reallocating all the memory.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='357' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='358' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='72' ll='75' type='void sf::VertexArray::clear()'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='71'>////////////////////////////////////////////////////////////</doc>

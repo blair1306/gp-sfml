@@ -1,0 +1,9 @@
+<use f='codebrowser/include/SFML/Graphics/Glsl.inl' l='102' u='w' c='_ZN2sf4priv7Vector4C1Ev'/>
+<use f='codebrowser/include/SFML/Graphics/Glsl.inl' l='119' u='w' c='_ZN2sf4priv7Vector4C1ET_S2_S2_S2_'/>
+<use f='codebrowser/include/SFML/Graphics/Glsl.inl' l='134' u='w' c='_ZN2sf4priv7Vector4C1ERKNS0_7Vector4IT_EE'/>
+<dec f='codebrowser/include/SFML/Graphics/Glsl.inl' l='154' type='T'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='72' u='w' c='_ZN2sf4priv10copyVectorERKNS_5ColorERNS0_7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='82' u='w' c='_ZN2sf4priv10copyVectorERKNS_5ColorERNS0_7Vector4IiEE'/>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='154'>///&lt; 4th component (W) of the 4D vector</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='457' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='493' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE'/>

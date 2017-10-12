@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='148' type='bool sf::RenderTexture::generateMipmap()'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='120' ll='123' type='bool sf::RenderTexture::generateMipmap()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='119'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='134'>////////////////////////////////////////////////////////////
+    /// \brief Generate a mipmap using the current texture data
+    ///
+    /// This function is similar to Texture::generateMipmap and operates
+    /// on the texture used as the target for drawing.
+    /// Be aware that any draw operation may modify the base level image data.
+    /// For this reason, calling this function only makes sense after all
+    /// drawing is completed and display has been called. Not calling display
+    /// after subsequent drawing will lead to undefined behavior if a mipmap
+    /// had been previously generated.
+    ///
+    /// \return True if mipmap generation was successful, false if unsuccessful
+    ///
+    ////////////////////////////////////////////////////////////</doc>

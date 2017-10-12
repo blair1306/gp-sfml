@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='234' type='sf::Event::SensorEvent'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='234'>///&lt; Sensor event parameters (Event::SensorChanged)</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='245' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='246' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='247' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='248' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3154' type='FT_Error FT_Get_Track_Kerning(FT_Face face, FT_Fixed point_size, FT_Int degree, FT_Fixed * akerning)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3152'>/*                                                                       */</doc>

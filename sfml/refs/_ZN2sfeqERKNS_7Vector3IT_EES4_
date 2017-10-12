@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Vector3.hpp' l='235' type='bool sf::operator==(const Vector3&lt;T&gt; &amp; left, const Vector3&lt;T&gt; &amp; right)'/>
+<def f='codebrowser/include/SFML/System/Vector3.inl' l='157' ll='160' type='bool sf::operator==(const Vector3&lt;T&gt; &amp; left, const Vector3&lt;T&gt; &amp; right)'/>

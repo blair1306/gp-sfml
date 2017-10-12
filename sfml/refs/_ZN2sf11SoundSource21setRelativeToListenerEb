@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='144' type='void sf::SoundSource::setRelativeToListener(bool relative)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='130'>////////////////////////////////////////////////////////////
+    /// \brief Make the sound&apos;s position relative to the listener or absolute
+    ///
+    /// Making a sound relative to the listener will ensure that it will always
+    /// be played the same way regardless of the position of the listener.
+    /// This can be useful for non-spatialized sounds, sounds that are
+    /// produced by the listener, or sounds attached to it.
+    /// The default value is false (position is absolute).
+    ///
+    /// \param relative True to set the position relative, false to set it absolute
+    ///
+    /// \see isRelativeToListener
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='51' u='c' c='_ZN2sf11SoundSourceC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='94' ll='97' type='void sf::SoundSource::setRelativeToListener(bool relative)'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='184' u='c' c='_ZN2sf11SoundSourceaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='93'>////////////////////////////////////////////////////////////</doc>

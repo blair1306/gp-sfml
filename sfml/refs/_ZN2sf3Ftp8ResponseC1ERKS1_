@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='100' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='121' u='c' c='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

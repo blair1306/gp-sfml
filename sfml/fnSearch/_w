@@ -1,0 +1,4 @@
+_ZNSt8ios_base6_WordsC1Ev|std::ios_base::_Words::_Words
+_ZN2sf4priv13WindowImplX11D1Ev|sf::priv::WindowImplX11::~WindowImplX11
+_ZN2sf6WindowD1Ev|sf::Window::~Window
+_ZN2sf4priv10WindowImplD1Ev|sf::priv::WindowImpl::~WindowImpl

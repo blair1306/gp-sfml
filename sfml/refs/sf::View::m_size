@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='273' type='Vector2f'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='273'>///&lt; Size of the view, in scene coordinates</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='37' u='w' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='50' u='w' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='63' u='w' c='_ZN2sf4ViewC1ERKNS_7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='93' u='m' c='_ZN2sf4View7setSizeEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='94' u='m' c='_ZN2sf4View7setSizeEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='132' u='m' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='133' u='m' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='151' u='a' c='_ZNK2sf4View7getSizeEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='193' u='m' c='_ZN2sf4View4zoomEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='193' u='m' c='_ZN2sf4View4zoomEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='211' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='212' u='m' c='_ZNK2sf4View12getTransformEv'/>

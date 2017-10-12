@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1392' type='GLboolean glIsEnabled(GLenum )'/>
+<dec f='include/GL/gl.h' l='800' type='GLboolean glIsEnabled(GLenum cap)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='677' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>

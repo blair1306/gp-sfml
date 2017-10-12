@@ -1,0 +1,6 @@
+<dec f='include/AL/al.h' l='83'/>
+<doc f='include/AL/al.h' l='82'>/** Boolean False. */</doc>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='115' u='c'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='117' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='249' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='250' u='c'/>

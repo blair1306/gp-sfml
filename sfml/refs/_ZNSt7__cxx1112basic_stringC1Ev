@@ -1,0 +1,32 @@
+<def f='include/c++/5/bits/basic_string.h' l='379' ll='384' type='void std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;()'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='209' u='c' c='_ZNKSt7num_get16_M_extract_floatB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='466' u='c' c='_ZNKSt7num_get14_M_extract_intB5cxx11ET0_S0_RSt8ios_baseRSt12_Ios_IostateRT_'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='694' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRf'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='709' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRd'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='741' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRe'/>
+<doc f='include/c++/5/bits/basic_string.h' l='376'>/**
+       *  @brief  Default constructor creates an empty string.
+       */</doc>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='160' u='c' c='_ZNKSt7__cxx119money_get10_M_extractET0_S1_RSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='173' u='c' c='_ZNKSt7__cxx119money_get10_M_extractET0_S1_RSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='373' u='c' c='_ZNKSt7__cxx119money_get6do_getET0_S1_bRSt8ios_baseRSt12_Ios_IostateRe'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='391' u='c' c='_ZNKSt7__cxx119money_get6do_getET0_S1_bRSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIT_St11char_traitsIS7_ESaIS7_EEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='172' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='237' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='315' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='368' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='391' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='447' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='477' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='501' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='571' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='107' u='c' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='204' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='279' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='395' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='257' u='c' c='_ZN2sfrsERSiRNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='153' u='c' c='_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='167' u='c' c='_ZNK2sf6String12toWideStringB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='181' u='c' c='_ZNK2sf6String6toUtf8B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='195' u='c' c='_ZNK2sf6String7toUtf16B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='895' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

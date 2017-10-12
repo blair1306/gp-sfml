@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='286' type='std::basic_string&lt;Uint16&gt; sf::String::toUtf16() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='278'>////////////////////////////////////////////////////////////
+    /// \brief Convert the Unicode string to a UTF-16 string
+    ///
+    /// \return Converted UTF-16 string
+    ///
+    /// \see toUtf8, toUtf32
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='192' ll='202' type='std::basic_string&lt;Uint16&gt; sf::String::toUtf16() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='191'>////////////////////////////////////////////////////////////</doc>

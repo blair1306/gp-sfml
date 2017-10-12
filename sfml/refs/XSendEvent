@@ -1,0 +1,5 @@
+<dec f='include/X11/Xlib.h' l='3135' type='int XSendEvent(Display * , Window , int , long , XEvent * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='155' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1208' u='c' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1356' u='c' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1694' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

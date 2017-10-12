@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='65' type='void sf::priv::GlxContext::GlxContext(sf::priv::GlxContext * shared, const sf::ContextSettings &amp; settings, const sf::priv::WindowImpl * owner, unsigned int bitsPerPixel)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='390' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='56'>////////////////////////////////////////////////////////////
+    /// \brief Create a new context attached to a window
+    ///
+    /// \param shared       Context to share the new one with
+    /// \param settings     Creation parameters
+    /// \param owner        Pointer to the owner window
+    /// \param bitsPerPixel Pixel depth, in bits per pixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='123' ll='144' type='void sf::priv::GlxContext::GlxContext(sf::priv::GlxContext * shared, const sf::ContextSettings &amp; settings, const sf::priv::WindowImpl * owner, unsigned int bitsPerPixel)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='122'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='201' type='void sf::Sprite::draw(sf::RenderTarget &amp; target, sf::RenderStates states) const'/>
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='69' c='_ZNK2sf8Drawable4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='137' ll='145' type='void sf::Sprite::draw(sf::RenderTarget &amp; target, sf::RenderStates states) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='136'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='194'>////////////////////////////////////////////////////////////
+    /// \brief Draw the sprite to a render target
+    ///
+    /// \param target Render target to draw to
+    /// \param states Current render states
+    ///
+    ////////////////////////////////////////////////////////////</doc>

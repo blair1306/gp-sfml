@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='186' type='std::string'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='97' u='w' c='_ZN2sf4Http7Request7setBodyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='131' u='r' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='368' u='m' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>768</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='186'>///&lt; Body of the request</doc>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='363' type='void sf::Window::setMouseCursorGrabbed(bool grabbed)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='352'>////////////////////////////////////////////////////////////
+    /// \brief Grab or release the mouse cursor
+    ///
+    /// If set, grabs the mouse cursor inside this window&apos;s client
+    /// area so it may no longer be moved outside its bounds.
+    /// Note that grabbing is only active while the window has
+    /// focus.
+    ///
+    /// \param grabbed True to enable, false to disable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='292' ll='296' type='void sf::Window::setMouseCursorGrabbed(bool grabbed)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='291'>////////////////////////////////////////////////////////////</doc>

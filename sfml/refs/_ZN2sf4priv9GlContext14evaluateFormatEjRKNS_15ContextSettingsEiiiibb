@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='240' type='static int sf::priv::GlContext::evaluateFormat(unsigned int bitsPerPixel, const sf::ContextSettings &amp; settings, int colorBits, int depthBits, int stencilBits, int antialiasing, bool accelerated, bool sRgb)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='220'>////////////////////////////////////////////////////////////
+    /// \brief Evaluate a pixel format configuration
+    ///
+    /// This functions can be used by implementations that have
+    /// several valid formats and want to get the best one.
+    /// A score is returned for the given configuration: the
+    /// lower the score is, the better the configuration is.
+    ///
+    /// \param bitsPerPixel Requested pixel depth (bits per pixel)
+    /// \param settings     Requested additional settings
+    /// \param colorBits    Color bits of the configuration to evaluate
+    /// \param depthBits    Depth bits of the configuration to evaluate
+    /// \param stencilBits  Stencil bits of the configuration to evaluate
+    /// \param antialiasing Antialiasing level of the configuration to evaluate
+    /// \param accelerated  Whether the pixel format is hardware accelerated
+    /// \param sRgb         Whether the pixel format is sRGB capable
+    ///
+    /// \return Score of the configuration
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='535' ll='560' type='static int sf::priv::GlContext::evaluateFormat(unsigned int bitsPerPixel, const sf::ContextSettings &amp; settings, int colorBits, int depthBits, int stencilBits, int antialiasing, bool accelerated, bool sRgb)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='534'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='366' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>

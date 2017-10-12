@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='304' type='const std::string &amp; sf::Http::Response::getBody() const'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='192' ll='195' type='const std::string &amp; sf::Http::Response::getBody() const'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='191'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='292'>////////////////////////////////////////////////////////////
+        /// \brief Get the body of the response
+        ///
+        /// The body of a response may contain:
+        /// \li the requested page (for GET requests)
+        /// \li a response from the server (for POST requests)
+        /// \li nothing (for HEAD requests)
+        /// \li an error message (in case of an error)
+        ///
+        /// \return The response body
+        ///
+        ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='156' u='c' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>

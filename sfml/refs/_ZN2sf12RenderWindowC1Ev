@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='55' type='void sf::RenderWindow::RenderWindow()'/>
+<def f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='35' ll='38' type='void sf::RenderWindow::RenderWindow()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='34'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor doesn&apos;t actually create the window,
+    /// use the other constructors or call create() to do so.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1604' type='void glTexSubImage2D(GLenum , GLint , GLint , GLint , GLsizei , GLsizei , GLenum , GLenum , const void * )'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='292' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='425' u='c' c='_ZN2sf7Texture6updateEPKhjjjj'/>
+<dec f='include/GL/gl.h' l='1330' type='void glTexSubImage2D(GLenum target, GLint level, GLint xoffset, GLint yoffset, GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid * pixels)'/>

@@ -1,0 +1,13 @@
+<def f='include/c++/5/bits/basic_string.h' l='618' ll='620' type='const_iterator std::__cxx11::basic_string::begin() const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='614'>/**
+       *  Returns a read-only (constant) iterator that points to the first
+       *  character in the %string.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='547' u='c' c='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='86' u='c' c='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='109' u='c' c='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='157' u='c' c='_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='171' u='c' c='_ZNK2sf6String12toWideStringB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='185' u='c' c='_ZNK2sf6String6toUtf8B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='199' u='c' c='_ZNK2sf6String7toUtf16B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='331' u='c' c='_ZNK2sf6String5beginB5cxx11Ev'/>

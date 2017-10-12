@@ -1,0 +1,99 @@
+<def f='codebrowser/include/SFML/Network/Packet.hpp' l='47' ll='287'/>
+<size>56</size>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Utility class to build blocks of data to transfer
+///        over the network
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6PacketC1Ev'/>
+<fun r='_ZN2sf6PacketD1Ev'/>
+<fun r='_ZN2sf6Packet6appendEPKvm'/>
+<fun r='_ZN2sf6Packet5clearEv'/>
+<fun r='_ZNK2sf6Packet7getDataEv'/>
+<fun r='_ZNK2sf6Packet11getDataSizeEv'/>
+<fun r='_ZNK2sf6Packet11endOfPacketEv'/>
+<fun r='_ZNK2sf6PacketcvMS0_FbmEEv'/>
+<fun r='_ZN2sf6PacketrsERb'/>
+<fun r='_ZN2sf6PacketrsERa'/>
+<fun r='_ZN2sf6PacketrsERh'/>
+<fun r='_ZN2sf6PacketrsERs'/>
+<fun r='_ZN2sf6PacketrsERt'/>
+<fun r='_ZN2sf6PacketrsERi'/>
+<fun r='_ZN2sf6PacketrsERj'/>
+<fun r='_ZN2sf6PacketrsERx'/>
+<fun r='_ZN2sf6PacketrsERy'/>
+<fun r='_ZN2sf6PacketrsERf'/>
+<fun r='_ZN2sf6PacketrsERd'/>
+<fun r='_ZN2sf6PacketrsEPc'/>
+<fun r='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf6PacketrsEPw'/>
+<fun r='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<fun r='_ZN2sf6PacketrsERNS_6StringE'/>
+<fun r='_ZN2sf6PacketlsEb'/>
+<fun r='_ZN2sf6PacketlsEa'/>
+<fun r='_ZN2sf6PacketlsEh'/>
+<fun r='_ZN2sf6PacketlsEs'/>
+<fun r='_ZN2sf6PacketlsEt'/>
+<fun r='_ZN2sf6PacketlsEi'/>
+<fun r='_ZN2sf6PacketlsEj'/>
+<fun r='_ZN2sf6PacketlsEx'/>
+<fun r='_ZN2sf6PacketlsEy'/>
+<fun r='_ZN2sf6PacketlsEf'/>
+<fun r='_ZN2sf6PacketlsEd'/>
+<fun r='_ZN2sf6PacketlsEPKc'/>
+<fun r='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf6PacketlsEPKw'/>
+<fun r='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<fun r='_ZN2sf6PacketlsERKNS_6StringE'/>
+<fun r='_ZN2sf6Packet6onSendERm'/>
+<fun r='_ZN2sf6Packet9onReceiveEPKvm'/>
+<fun r='_ZNK2sf6PacketeqERKS0_'/>
+<fun r='_ZNK2sf6PacketneERKS0_'/>
+<fun r='_ZN2sf6Packet9checkSizeEm'/>
+<mbr r='sf::Packet::m_data' o='64' t='std::vector&lt;char&gt;'/>
+<mbr r='sf::Packet::m_readPos' o='256' t='std::size_t'/>
+<mbr r='sf::Packet::m_sendPos' o='320' t='std::size_t'/>
+<mbr r='sf::Packet::m_isValid' o='384' t='bool'/>
+<fun r='_ZN2sf6PacketC1Ev'/>
+<fun r='_ZN2sf6PacketD1Ev'/>
+<fun r='_ZN2sf6Packet6appendEPKvm'/>
+<fun r='_ZN2sf6Packet5clearEv'/>
+<fun r='_ZNK2sf6Packet7getDataEv'/>
+<fun r='_ZNK2sf6Packet11getDataSizeEv'/>
+<fun r='_ZNK2sf6Packet11endOfPacketEv'/>
+<fun r='_ZNK2sf6PacketcvMS0_FbmEEv'/>
+<fun r='_ZN2sf6PacketrsERb'/>
+<fun r='_ZN2sf6PacketrsERa'/>
+<fun r='_ZN2sf6PacketrsERh'/>
+<fun r='_ZN2sf6PacketrsERs'/>
+<fun r='_ZN2sf6PacketrsERt'/>
+<fun r='_ZN2sf6PacketrsERi'/>
+<fun r='_ZN2sf6PacketrsERj'/>
+<fun r='_ZN2sf6PacketrsERx'/>
+<fun r='_ZN2sf6PacketrsERy'/>
+<fun r='_ZN2sf6PacketrsERf'/>
+<fun r='_ZN2sf6PacketrsERd'/>
+<fun r='_ZN2sf6PacketrsEPc'/>
+<fun r='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf6PacketrsEPw'/>
+<fun r='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<fun r='_ZN2sf6PacketrsERNS_6StringE'/>
+<fun r='_ZN2sf6PacketlsEb'/>
+<fun r='_ZN2sf6PacketlsEa'/>
+<fun r='_ZN2sf6PacketlsEh'/>
+<fun r='_ZN2sf6PacketlsEs'/>
+<fun r='_ZN2sf6PacketlsEt'/>
+<fun r='_ZN2sf6PacketlsEi'/>
+<fun r='_ZN2sf6PacketlsEj'/>
+<fun r='_ZN2sf6PacketlsEx'/>
+<fun r='_ZN2sf6PacketlsEy'/>
+<fun r='_ZN2sf6PacketlsEf'/>
+<fun r='_ZN2sf6PacketlsEd'/>
+<fun r='_ZN2sf6PacketlsEPKc'/>
+<fun r='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf6PacketlsEPKw'/>
+<fun r='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<fun r='_ZN2sf6PacketlsERKNS_6StringE'/>
+<fun r='_ZN2sf6Packet9checkSizeEm'/>
+<fun r='_ZN2sf6Packet6onSendERm'/>
+<fun r='_ZN2sf6Packet9onReceiveEPKvm'/>

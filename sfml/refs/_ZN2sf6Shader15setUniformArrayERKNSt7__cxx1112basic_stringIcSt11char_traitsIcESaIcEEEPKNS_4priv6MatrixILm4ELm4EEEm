@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='546' type='void sf::Shader::setUniformArray(const std::string &amp; name, const Glsl::Mat4 * matrixArray, std::size_t length)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='538'>////////////////////////////////////////////////////////////
+    /// \brief Specify values for \p mat4[] array uniform
+    ///
+    /// \param name        Name of the uniform variable in GLSL
+    /// \param matrixArray pointer to array of \p mat4 values
+    /// \param length      Number of elements in the array
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='649' ll='660' type='void sf::Shader::setUniformArray(const std::string &amp; name, const Glsl::Mat4 * matrixArray, std::size_t length)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='648'>////////////////////////////////////////////////////////////</doc>

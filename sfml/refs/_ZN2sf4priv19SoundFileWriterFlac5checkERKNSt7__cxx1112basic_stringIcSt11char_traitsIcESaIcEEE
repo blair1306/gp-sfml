@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='56' type='static bool sf::priv::SoundFileWriterFlac::check(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Check if this writer can handle a file on disk
+    ///
+    /// \param filename Path of the sound file to check
+    ///
+    /// \return True if the file can be written by this writer
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='40' ll='46' type='static bool sf::priv::SoundFileWriterFlac::check(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='39'>////////////////////////////////////////////////////////////</doc>

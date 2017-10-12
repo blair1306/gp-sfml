@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='57' type='void sf::ThreadLocal::ThreadLocal(void * value = __null)'/>
+<def f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='40' ll='44' type='void sf::ThreadLocal::ThreadLocal(void * value = __null)'/>
+<doc f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='39'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// \param value Optional value to initialize the variable
+    ///
+    ////////////////////////////////////////////////////////////</doc>

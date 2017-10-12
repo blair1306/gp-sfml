@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='395' type='bool'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='87' u='w' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='105' u='w' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='117' u='w' c='_ZN2sf4Text9setStringERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='128' u='w' c='_ZN2sf4Text7setFontERKNS_4FontE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='139' u='w' c='_ZN2sf4Text16setCharacterSizeEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='150' u='w' c='_ZN2sf4Text8setStyleEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='171' u='r' c='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='189' u='r' c='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='204' u='w' c='_ZN2sf4Text19setOutlineThicknessEf'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='350' u='r' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='354' u='w' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<offset>2752</offset>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='395'>///&lt; Does the geometry need to be recomputed?</doc>

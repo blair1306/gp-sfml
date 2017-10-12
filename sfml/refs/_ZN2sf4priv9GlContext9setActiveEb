@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='178' type='bool sf::priv::GlContext::setActive(bool active)'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='60' u='c' c='_ZN2sf7Context9setActiveEb'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='164'>////////////////////////////////////////////////////////////
+    /// \brief Activate or deactivate the context as the current target for rendering
+    ///
+    /// A context is active only on the current thread, if you want to
+    /// make it active on another thread you have to deactivate it
+    /// on the previous thread first if it was active.
+    /// Only one context can be active on a thread at a time, thus
+    /// the context previously active (if any) automatically gets deactivated.
+    ///
+    /// \param active True to activate, false to deactivate
+    ///
+    /// \return True if operation was successful, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='170' u='c' c='_ZN12_GLOBAL__N_116TransientContextC1Ev'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='181' u='c' c='_ZN12_GLOBAL__N_116TransientContextD1Ev'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='277' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='359' u='c' c='_ZN2sf4priv9GlContext6createEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='364' u='c' c='_ZN2sf4priv9GlContext6createEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='387' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='392' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='416' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='421' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='475' ll='524' type='bool sf::priv::GlContext::setActive(bool active)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='567' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='474'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='338' u='c' c='_ZNK2sf6Window9setActiveEb'/>

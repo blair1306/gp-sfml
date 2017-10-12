@@ -1,0 +1,8 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='84' ll='88'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='80'>////////////////////////////////////////////////////////////
+    /// \brief Mouse move event parameters (MouseMoved)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::MouseMoveEvent::x' o='0' t='int'/>
+<mbr r='sf::Event::MouseMoveEvent::y' o='32' t='int'/>

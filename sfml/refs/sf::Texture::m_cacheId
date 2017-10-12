@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='626' type='Uint64'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='626'>///&lt; Unique number that identifies the texture to the render target&apos;s cache</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='254' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='508' u='r' c='_ZN2sf12RenderTarget12applyTextureEPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='72' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='88' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='213' u='w' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='429' u='w' c='_ZN2sf7Texture6updateEPKhjjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='570' u='w' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='821' u='w' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='822' u='w' c='_ZN2sf7Texture4swapERS0_'/>

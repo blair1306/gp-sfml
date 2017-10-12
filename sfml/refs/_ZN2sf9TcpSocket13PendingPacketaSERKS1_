@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='215' u='c' c='_ZN2sf9TcpSocket10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='398' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>

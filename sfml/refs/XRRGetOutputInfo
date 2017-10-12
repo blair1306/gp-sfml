@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='302' type='XRROutputInfo * XRRGetOutputInfo(Display * dpy, XRRScreenResources * resources, RROutput output)'/>

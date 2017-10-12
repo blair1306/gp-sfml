@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='54' type='static sf::priv::SensorManager &amp; sf::priv::SensorManager::getInstance()'/>
+<use f='codebrowser/src/SFML/Window/Sensor.cpp' l='38' u='c' c='_ZN2sf6Sensor11isAvailableENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Window/Sensor.cpp' l='44' u='c' c='_ZN2sf6Sensor10setEnabledENS0_4TypeEb'/>
+<use f='codebrowser/src/SFML/Window/Sensor.cpp' l='50' u='c' c='_ZN2sf6Sensor8getValueENS0_4TypeE'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Get the global unique instance of the manager
+    ///
+    /// \return Unique instance of the sensor manager
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/SensorManager.cpp' l='37' ll='41' type='static sf::priv::SensorManager &amp; sf::priv::SensorManager::getInstance()'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.cpp' l='36'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='227' u='c' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='234' u='c' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='238' u='c' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

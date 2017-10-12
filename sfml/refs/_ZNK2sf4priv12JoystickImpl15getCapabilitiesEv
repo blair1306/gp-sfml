@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='97' type='sf::priv::JoystickCaps sf::priv::JoystickImpl::getCapabilities() const'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='91'>////////////////////////////////////////////////////////////
+    /// \brief Get the joystick capabilities
+    ///
+    /// \return Joystick capabilities
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='92' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='595' ll='631' type='sf::priv::JoystickCaps sf::priv::JoystickImpl::getCapabilities() const'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='594'>////////////////////////////////////////////////////////////</doc>

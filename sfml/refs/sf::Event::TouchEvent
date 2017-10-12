@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/Window/Event.hpp' l='164' ll='169'/>
+<size>12</size>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='160'>////////////////////////////////////////////////////////////
+    /// \brief Touch events parameters (TouchBegan, TouchMoved, TouchEnded)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Event::TouchEvent::finger' o='0' t='unsigned int'/>
+<mbr r='sf::Event::TouchEvent::x' o='32' t='int'/>
+<mbr r='sf::Event::TouchEvent::y' o='64' t='int'/>

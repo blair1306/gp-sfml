@@ -1,0 +1,16 @@
+<dec f='include/stdlib.h' l='774' type='int abs(int __x)'/>
+<doc f='include/stdlib.h' l='773'>/* Return the absolute value of X.  */</doc>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4270' u='c' c='_ZL11stbi__paethiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4271' u='c' c='_ZL11stbi__paethiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4272' u='c' c='_ZL11stbi__paethiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5089' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='907' u='c' c='_ZL12stbiw__paethiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='907' u='c' c='_ZL12stbiw__paethiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='907' u='c' c='_ZL12stbiw__paethiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='959' u='c' c='_Z21stbi_write_png_to_memPhiiiiPi'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='122' u='c' c='_ZNK2sf6Sprite14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='123' u='c' c='_ZNK2sf6Sprite14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='549' u='c' c='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='549' u='c' c='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='549' u='c' c='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='549' u='c' c='_ZN2sf4priv9GlContext14evaluateFormatEjRKNS_15ContextSettingsEiiiibb'/>

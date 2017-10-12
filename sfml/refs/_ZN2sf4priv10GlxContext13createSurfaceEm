@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='168' type='void sf::priv::GlxContext::createSurface(::Window window)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='162'>////////////////////////////////////////////////////////////
+    /// \brief Create the context&apos;s drawing surface from an existing window
+    ///
+    /// \param window Window ID of the owning window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='140' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='547' ll='553' type='void sf::priv::GlxContext::createSurface(::Window window)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='546'>////////////////////////////////////////////////////////////</doc>

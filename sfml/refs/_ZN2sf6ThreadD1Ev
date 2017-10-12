@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='135' type='void sf::Thread::~Thread()'/>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='128'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// This destructor calls wait(), so that the internal thread
+    /// cannot survive after its sf::Thread instance is destroyed.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Thread.cpp' l='41' ll='45' type='void sf::Thread::~Thread()'/>
+<doc f='codebrowser/src/SFML/System/Thread.cpp' l='40'>////////////////////////////////////////////////////////////</doc>

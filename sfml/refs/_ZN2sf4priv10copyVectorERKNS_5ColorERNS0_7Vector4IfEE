@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Graphics/Glsl.inl' l='46' type='void sf::priv::copyVector(const sf::Color &amp; source, Vector4&lt;float&gt; &amp; dest)'/>
+<def f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='67' ll='73' type='void sf::priv::copyVector(const sf::Color &amp; source, Vector4&lt;float&gt; &amp; dest)'/>
+<doc f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='66'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='42'>////////////////////////////////////////////////////////////
+/// \brief Helper functions to copy sf::Color to sf::Glsl::Vec4/Ivec4
+///
+////////////////////////////////////////////////////////////</doc>

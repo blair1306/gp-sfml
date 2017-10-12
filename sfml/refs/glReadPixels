@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1480' type='void glReadPixels(GLint , GLint , GLsizei , GLsizei , GLenum , GLenum , void * )'/>
+<dec f='include/GL/gl.h' l='1215' type='void glReadPixels(GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLvoid * pixels)'/>

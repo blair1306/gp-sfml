@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='218' type='400'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='217'>// 4xx: client error</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='218'>///&lt; The server couldn&apos;t understand the request (syntax error)</doc>

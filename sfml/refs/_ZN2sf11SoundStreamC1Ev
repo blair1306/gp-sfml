@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='194' type='void sf::SoundStream::SoundStream()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='188'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor is only meant to be called by derived classes.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='43' ll='57' type='void sf::SoundStream::SoundStream()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

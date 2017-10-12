@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='113' type='sf::priv::JoystickState sf::priv::JoystickImpl::update()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='107'>////////////////////////////////////////////////////////////
+    /// \brief Update the joystick and get its new state
+    ///
+    /// \return Joystick state
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='74' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='93' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='642' ll='704' type='sf::priv::JoystickState sf::priv::JoystickImpl::update()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='641'>////////////////////////////////////////////////////////////</doc>

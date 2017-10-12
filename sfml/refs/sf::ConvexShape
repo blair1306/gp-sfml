@@ -1,0 +1,18 @@
+<inh f='codebrowser/include/SFML/Graphics/Shape.hpp' l='44' c='sf::Shape'/>
+<def f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='42' ll='116'/>
+<size>360</size>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Specialized shape representing a convex polygon
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11ConvexShapeC1Em'/>
+<fun r='_ZN2sf11ConvexShape13setPointCountEm'/>
+<fun r='_ZNK2sf11ConvexShape13getPointCountEv'/>
+<fun r='_ZN2sf11ConvexShape8setPointEmRKNS_7Vector2IfEE'/>
+<fun r='_ZNK2sf11ConvexShape8getPointEm'/>
+<mbr r='sf::ConvexShape::m_points' o='2688' t='std::vector&lt;Vector2f&gt;'/>
+<fun r='_ZN2sf11ConvexShapeC1Em'/>
+<fun r='_ZN2sf11ConvexShape13setPointCountEm'/>
+<fun r='_ZNK2sf11ConvexShape13getPointCountEv'/>
+<fun r='_ZN2sf11ConvexShape8setPointEmRKNS_7Vector2IfEE'/>
+<fun r='_ZNK2sf11ConvexShape8getPointEm'/>

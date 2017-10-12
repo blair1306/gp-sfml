@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='71' type='bool sf::priv::SensorImpl::open(Sensor::Type sensor)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Open the sensor
+    ///
+    /// \param sensor Type of the sensor
+    ///
+    /// \return True on success, false on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='107' u='c' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='58' ll='62' type='bool sf::priv::SensorImpl::open(Sensor::Type )'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='57'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='58'>/*sensor*/</doc>

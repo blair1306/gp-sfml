@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='221' type='5'/>
+<doc f='include/FLAC/stream_decoder.h' l='219'>/**&lt; The decoder has reached the end of the stream. */</doc>

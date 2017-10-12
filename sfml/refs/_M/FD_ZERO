@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='93'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='147' u='c'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='148' u='c'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='169' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='257' u='c'/>

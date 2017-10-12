@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='288'/>
+<doc f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='282'>// Copied GL_FLOAT_MAT2_ARB From: ARB_shader_objects
+// Copied GL_FLOAT_MAT3_ARB From: ARB_shader_objects
+// Copied GL_FLOAT_MAT4_ARB From: ARB_shader_objects
+// Copied GL_FLOAT_VEC2_ARB From: ARB_shader_objects
+// Copied GL_FLOAT_VEC3_ARB From: ARB_shader_objects
+// Copied GL_FLOAT_VEC4_ARB From: ARB_shader_objects</doc>
+<dec f='include/GL/glext.h' l='4838'/>

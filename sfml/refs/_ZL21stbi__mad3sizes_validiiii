@@ -1,0 +1,10 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='889' ll='893' type='int stbi__mad3sizes_valid(int a, int b, int c, int add)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='911' u='c' c='_ZL17stbi__malloc_mad3iiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2983' u='c' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5112' u='c' c='_ZL14stbi__bmp_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5416' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5678' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5997' u='c' c='_ZL14stbi__pic_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6263' u='c' c='_ZL19stbi__gif_load_nextP13stbi__contextP9stbi__gifPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6800' u='c' c='_ZL14stbi__pnm_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='888'>// returns 1 if &quot;a*b*c + add&quot; has no negative terms/factors and doesn&apos;t overflow</doc>

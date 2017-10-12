@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='218' type='GLXPbufferSGIX (*)(Display *, GLXFBConfigSGIX, unsigned int, unsigned int, int *)'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='83' type='GLXPbufferSGIX (*)(Display *, GLXFBConfigSGIX, unsigned int, unsigned int, int *)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='92' u='w' c='_ZL17Load_SGIX_pbufferv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='93' u='r' c='_ZL17Load_SGIX_pbufferv'/>

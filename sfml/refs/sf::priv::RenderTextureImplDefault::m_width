@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='98' type='unsigned int'/>
+<offset>128</offset>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='98'>///&lt; Width of the P-Buffer</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='42' u='w' c='_ZN2sf4priv24RenderTextureImplDefaultC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='61' u='w' c='_ZN2sf4priv24RenderTextureImplDefault6createEjjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='86' u='r' c='_ZN2sf4priv24RenderTextureImplDefault13updateTextureEj'/>

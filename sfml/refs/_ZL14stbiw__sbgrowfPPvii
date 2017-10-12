@@ -1,0 +1,9 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='678' ll='689' type='void * stbiw__sbgrowf(void ** arr, int increment, int itemsize)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_ZL18stbiw__zlib_flushfPhPjPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='672' u='c' c='_Z18stbi_zlib_compressPhiPii'/>

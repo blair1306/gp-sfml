@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_set.h' l='142' ll='146' type='void std::set::set&lt;_Key, _Compare, _Alloc&gt;()'/>
+<doc f='include/c++/5/bits/stl_set.h' l='139'>/**
+       *  @brief  Default constructor creates no elements.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='55' u='c' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='71' u='c' c='_ZN2sf11SoundBufferD1Ev'/>

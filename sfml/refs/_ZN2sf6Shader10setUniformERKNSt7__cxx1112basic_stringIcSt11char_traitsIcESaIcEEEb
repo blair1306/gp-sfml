@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='386' type='void sf::Shader::setUniform(const std::string &amp; name, bool x)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='379'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p bool uniform
+    ///
+    /// \param name Name of the uniform variable in GLSL
+    /// \param x    Value of the bool scalar
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='498' ll='501' type='void sf::Shader::setUniform(const std::string &amp; name, bool x)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='497'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='136' type='sf::Time sf::InputSoundFile::getDuration() const'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='197' ll='204' type='sf::Time sf::InputSoundFile::getDuration() const'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='196'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='127'>////////////////////////////////////////////////////////////
+    /// \brief Get the total duration of the sound file
+    ///
+    /// This function is provided for convenience, the duration is
+    /// deduced from the other sound file attributes.
+    ///
+    /// \return Duration of the sound file
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='108' u='c' c='_ZNK2sf5Music11getDurationEv'/>

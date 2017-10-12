@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='75' type='bool sf::SoundBufferRecorder::onStart()'/>
+<inh f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='227' c='_ZN2sf13SoundRecorder7onStartEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='44' ll='50' type='bool sf::SoundBufferRecorder::onStart()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='43'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundBufferRecorder.hpp' l='69'>////////////////////////////////////////////////////////////
+    /// \brief Start capturing audio data
+    ///
+    /// \return True to start the capture, or false to abort it
+    ///
+    ////////////////////////////////////////////////////////////</doc>

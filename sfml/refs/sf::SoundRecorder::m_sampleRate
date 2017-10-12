@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='290' type='unsigned int'/>
+<offset>384</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='290'>///&lt; Sample rate</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='51' u='w' c='_ZN2sf13SoundRecorderC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='105' u='w' c='_ZN2sf13SoundRecorder5startEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='142' u='r' c='_ZNK2sf13SoundRecorder13getSampleRateEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='191' u='r' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='191' u='r' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

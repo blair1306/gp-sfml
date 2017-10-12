@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='265' type='bool sf::priv::WindowImplX11::processEvent(XEvent &amp; windowEvent)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='257'>////////////////////////////////////////////////////////////
+    /// \brief Process an incoming event from the window
+    ///
+    /// \param windowEvent Event which has been received
+    ///
+    /// \return True if the event was processed, false if it was discarded
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='780' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1548' ll='1967' type='bool sf::priv::WindowImplX11::processEvent(XEvent &amp; windowEvent)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1547'>////////////////////////////////////////////////////////////</doc>

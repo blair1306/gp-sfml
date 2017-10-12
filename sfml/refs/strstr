@@ -1,0 +1,15 @@
+<dec f='include/string.h' l='337' type='char * strstr(const char * __haystack, const char * __needle)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='642' u='c' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='69' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='96' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='101' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='102' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='103' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='104' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='105' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='106' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='107' u='c' c='_ZN12_GLOBAL__N_110isJoystickEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='134' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='143' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='153' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='165' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>

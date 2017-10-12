@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3305' ll='3314' type='stbi_uc * stbi__resample_row_generic(stbi_uc * out, stbi_uc * in_near, stbi_uc * in_far, int w, int hs)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3573' u='r' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>

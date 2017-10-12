@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='224' type='6'/>
+<doc f='include/FLAC/stream_decoder.h' l='222'>/**&lt; An error occurred in the underlying Ogg layer.  */</doc>

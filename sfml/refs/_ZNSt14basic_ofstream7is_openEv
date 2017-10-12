@@ -1,0 +1,7 @@
+<def f='include/c++/5/fstream' l='777' ll='779' type='bool std::basic_ofstream::is_open()'/>
+<doc f='include/c++/5/fstream' l='773'>/**
+       *  @brief  Wrapper to test for an open file.
+       *  @return  @c rdbuf()-&gt;is_open()
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='198' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='189' u='c' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>

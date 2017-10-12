@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='626' type='void sf::Shader::setParameter(const std::string &amp; name, sf::Shader::CurrentTextureType )'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='727' ll='730' type='void sf::Shader::setParameter(const std::string &amp; name, sf::Shader::CurrentTextureType )'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='726'>////////////////////////////////////////////////////////////</doc>

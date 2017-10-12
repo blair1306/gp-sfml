@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1595' type='void glInterleavedArrays(GLenum , GLsizei , const void * )'/>
+<dec f='include/GL/gl.h' l='1150' type='void glInterleavedArrays(GLenum format, GLsizei stride, const GLvoid * pointer)'/>

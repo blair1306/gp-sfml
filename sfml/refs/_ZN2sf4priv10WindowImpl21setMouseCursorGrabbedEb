@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='197' type='void sf::priv::WindowImpl::setMouseCursorGrabbed(bool grabbed)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='191'>////////////////////////////////////////////////////////////
+    /// \brief Grab or release the mouse cursor and keeps it from leaving
+    ///
+    /// \param grabbed True to enable, false to disable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1075' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='295' u='c' c='_ZN2sf6Window21setMouseCursorGrabbedEb'/>

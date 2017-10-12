@@ -1,0 +1,2 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='130' ll='136' type='void sf::priv::Vector4::Vector4&lt;T&gt;(const Vector4&lt;U&gt; &amp; other)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='521' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IbEE'/>

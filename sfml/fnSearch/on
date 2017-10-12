@@ -1,0 +1,15 @@
+_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE|sf::Music::onGetData
+_ZN2sf5Music6onLoopEv|sf::Music::onLoop
+_ZN2sf5Music6onSeekENS_4TimeE|sf::Music::onSeek
+_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm|sf::SoundBufferRecorder::onProcessSamples
+_ZN2sf19SoundBufferRecorder7onStartEv|sf::SoundBufferRecorder::onStart
+_ZN2sf19SoundBufferRecorder6onStopEv|sf::SoundBufferRecorder::onStop
+_ZN2sf13SoundRecorder7onStartEv|sf::SoundRecorder::onStart
+_ZN2sf13SoundRecorder6onStopEv|sf::SoundRecorder::onStop
+_ZN2sf11SoundStream6onLoopEv|sf::SoundStream::onLoop
+_ZN2sf12RenderWindow8onCreateEv|sf::RenderWindow::onCreate
+_ZN2sf12RenderWindow8onResizeEv|sf::RenderWindow::onResize
+_ZN2sf6Packet9onReceiveEPKvm|sf::Packet::onReceive
+_ZN2sf6Packet6onSendERm|sf::Packet::onSend
+_ZN2sf6Window8onCreateEv|sf::Window::onCreate
+_ZN2sf6Window8onResizeEv|sf::Window::onResize

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='121' type='char [80]'/>
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='125' type='char [80]'/>
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='131' type='char [80]'/>
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='136' type='char [80]'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='121'>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='125'>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='131'>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='136'>// Should be [GLX_HYPERPIPE_PIPE_NAME_LENGTH_SGIX]</doc>

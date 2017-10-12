@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='97' type='sf::Context *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='94'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='97'>///&lt; P-Buffer based context</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='41' u='w' c='_ZN2sf4priv24RenderTextureImplDefaultC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='53' u='r' c='_ZN2sf4priv24RenderTextureImplDefaultD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='65' u='w' c='_ZN2sf4priv24RenderTextureImplDefault6createEjjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='74' u='r' c='_ZN2sf4priv24RenderTextureImplDefault8activateEb'/>

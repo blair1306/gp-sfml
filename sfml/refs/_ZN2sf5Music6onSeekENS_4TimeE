@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='234' type='void sf::Music::onSeek(sf::Time timeOffset)'/>
+<inh f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='240' c='_ZN2sf11SoundStream6onSeekENS_4TimeE'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='204' ll='208' type='void sf::Music::onSeek(sf::Time timeOffset)'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='203'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='228'>////////////////////////////////////////////////////////////
+    /// \brief Change the current playing position in the stream source
+    ///
+    /// \param timeOffset New playing position, from the beginning of the music
+    ///
+    ////////////////////////////////////////////////////////////</doc>

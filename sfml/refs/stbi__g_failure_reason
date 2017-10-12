@@ -1,0 +1,5 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='832' type='const char *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='836' u='r' c='stbi_failure_reason'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='841' u='w' c='_ZL9stbi__errPKc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6093' u='w' c='_ZL16stbi__gif_headerP13stbi__contextP9stbi__gifPii'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='831'>// this is not threadsafe</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='44' type='8'/>
+<doc f='codebrowser/include/SFML/Window/WindowStyle.hpp' l='44'>///&lt; Fullscreen mode (this flag and all others are mutually exclusive)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='542' u='r' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='90' u='r' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='96' u='r' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>

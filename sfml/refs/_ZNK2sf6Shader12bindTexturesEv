@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='718' type='void sf::Shader::bindTextures() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='711'>////////////////////////////////////////////////////////////
+    /// \brief Bind all the textures used by the shader
+    ///
+    /// This function each texture to a different unit, and
+    /// updates the corresponding variables in the shader accordingly.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='759' u='c' c='_ZN2sf6Shader4bindEPKS0_'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='972' ll='986' type='void sf::Shader::bindTextures() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='971'>////////////////////////////////////////////////////////////</doc>

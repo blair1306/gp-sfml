@@ -1,0 +1,29 @@
+<dec f='include/X11/Xlib.h' l='568' type='unsigned int'/>
+<dec f='include/X11/Xlib.h' l='586' type='unsigned int'/>
+<dec f='include/X11/Xlib.h' l='604' type='unsigned int'/>
+<dec f='include/X11/Xlib.h' l='629' type='unsigned int'/>
+<dec f='include/X11/Xlib.h' l='702' type='int'/>
+<dec f='include/X11/Xlib.h' l='844' type='int'/>
+<dec f='include/X11/Xlib.h' l='894' type='int'/>
+<offset>416</offset>
+<doc f='include/X11/Xlib.h' l='568'>/* key or button mask */</doc>
+<doc f='include/X11/Xlib.h' l='586'>/* key or button mask */</doc>
+<doc f='include/X11/Xlib.h' l='604'>/* key or button mask */</doc>
+<doc f='include/X11/Xlib.h' l='629'>/* key or button mask */</doc>
+<doc f='include/X11/Xlib.h' l='702'>/* Visibility state */</doc>
+<doc f='include/X11/Xlib.h' l='844'>/* NewValue, Deleted */</doc>
+<doc f='include/X11/Xlib.h' l='894'>/* ColormapInstalled, ColormapUninstalled */</doc>
+<dec f='include/X11/extensions/Xrandr.h' l='119' type='int'/>
+<dec f='include/X11/extensions/Xrandr.h' l='144' type='int'/>
+<offset>576</offset>
+<doc f='include/X11/extensions/Xrandr.h' l='119'>/* NewValue, Deleted */</doc>
+<doc f='include/X11/extensions/Xrandr.h' l='144'>/* NewValue, Deleted */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1720' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1721' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1722' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1723' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1796' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1797' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1798' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1799' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1949' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

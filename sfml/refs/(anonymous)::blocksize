@@ -1,0 +1,4 @@
+<dec f='include/FLAC/format.h' l='412' type='unsigned int'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='111' u='r' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='116' u='r' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>

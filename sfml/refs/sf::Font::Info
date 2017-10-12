@@ -1,0 +1,7 @@
+<def f='codebrowser/include/SFML/Graphics/Font.hpp' l='58' ll='61'/>
+<size>32</size>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Holds various information about a font
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::Font::Info::family' o='0' t='std::string'/>

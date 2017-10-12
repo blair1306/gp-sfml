@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='122' type='void sf::priv::WindowImplX11::setTitle(const sf::String &amp; title)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='116'>////////////////////////////////////////////////////////////
+    /// \brief Change the title of the window
+    ///
+    /// \param title New title
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='702' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='163' c='_ZN2sf4priv10WindowImpl8setTitleERKNS_6StringE'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='889' ll='932' type='void sf::priv::WindowImplX11::setTitle(const sf::String &amp; title)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='888'>////////////////////////////////////////////////////////////</doc>

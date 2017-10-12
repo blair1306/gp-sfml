@@ -1,0 +1,2 @@
+<dec f='include/c++/5/bits/basic_string.h' l='369' type='void std::__cxx11::basic_string::_M_erase(size_type __pos, size_type __n)'/>
+<def f='include/c++/5/bits/basic_string.tcc' l='336' ll='347' type='void std::__cxx11::basic_string::_M_erase(size_type __pos, size_type __n)'/>

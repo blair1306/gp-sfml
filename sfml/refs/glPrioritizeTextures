@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1600' type='void glPrioritizeTextures(GLsizei , const GLuint * , const GLfloat * )'/>
+<dec f='include/GL/gl.h' l='1313' type='void glPrioritizeTextures(GLsizei n, const GLuint * textures, const GLclampf * priorities)'/>

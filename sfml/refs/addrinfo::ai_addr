@@ -1,0 +1,4 @@
+<dec f='include/netdb.h' l='574' type='struct sockaddr *'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='201' u='r' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>192</offset>
+<doc f='include/netdb.h' l='574'>/* Socket address for socket.  */</doc>

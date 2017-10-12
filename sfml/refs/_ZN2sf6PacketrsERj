@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='183' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(Uint32 &amp; data)'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='180' ll='189' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(Uint32 &amp; data)'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='269' u='c' c='_ZN2sf6PacketrsEPc'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='290' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='311' u='c' c='_ZN2sf6PacketrsEPw'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='319' u='c' c='_ZN2sf6PacketrsEPw'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='334' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='343' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='357' u='c' c='_ZN2sf6PacketrsERNS_6StringE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='366' u='c' c='_ZN2sf6PacketrsERNS_6StringE'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='179'>////////////////////////////////////////////////////////////</doc>

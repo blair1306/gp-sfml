@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='444' type='bool sf::Window::setActive(bool active = true) const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='74' u='c' c='_ZN2sf12RenderWindow9setActiveEb'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='428'>////////////////////////////////////////////////////////////
+    /// \brief Activate or deactivate the window as the current target
+    ///        for OpenGL rendering
+    ///
+    /// A window is active only on the current thread, if you want to
+    /// make it active on another thread you have to deactivate it
+    /// on the previous thread first if it was active.
+    /// Only one window can be active on a thread at a time, thus
+    /// the window previously active (if any) automatically gets deactivated.
+    /// This is not to be confused with requestFocus().
+    ///
+    /// \param active True to activate, false to deactivate
+    ///
+    /// \return True if operation was successful, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='557' u='c' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='278' u='c' c='_ZN2sf6Window22setVerticalSyncEnabledEb'/>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='334' ll='352' type='bool sf::Window::setActive(bool active = true) const'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='375' u='c' c='_ZN2sf6Window7displayEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='443' u='c' c='_ZN2sf6Window10initializeEv'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='333'>////////////////////////////////////////////////////////////</doc>

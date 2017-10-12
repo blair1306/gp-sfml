@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='256' type='Vector2u sf::RenderTarget::getSize() const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='137' u='c' c='_ZNK2sf12RenderTarget11getViewportERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='138' u='c' c='_ZNK2sf12RenderTarget11getViewportERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='419' u='c' c='_ZN2sf12RenderTarget10initializeEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='419' u='c' c='_ZN2sf12RenderTarget10initializeEv'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='432' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='250'>////////////////////////////////////////////////////////////
+    /// \brief Return the size of the rendering region of the target
+    ///
+    /// \return Size in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='147' c='_ZNK2sf13RenderTexture7getSizeEv'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='65' c='_ZNK2sf12RenderWindow7getSizeEv'/>

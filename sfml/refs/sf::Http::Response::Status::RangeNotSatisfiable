@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='222' type='407'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='222'>///&lt; The server can&apos;t satisfy the partial GET request (with a &quot;Range&quot; header field)</doc>

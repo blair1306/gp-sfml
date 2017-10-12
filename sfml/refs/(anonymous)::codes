@@ -1,0 +1,11 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6045' type='stbi__gif_lzw [4096]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6131' u='m' c='_ZL18stbi__out_gif_codeP9stbi__gift'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6132' u='m' c='_ZL18stbi__out_gif_codeP9stbi__gift'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6137' u='m' c='_ZL18stbi__out_gif_codeP9stbi__gift'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6176' u='m' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6177' u='m' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6178' u='m' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6216' u='a' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6219' u='m' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6220' u='m' c='_ZL24stbi__process_gif_rasterP13stbi__contextP9stbi__gif'/>
+<offset>16768</offset>

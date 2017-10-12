@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='396' type='void sf::Window::setKeyRepeatEnabled(bool enabled)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='384'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable automatic key-repeat
+    ///
+    /// If key repeat is enabled, you will receive repeated
+    /// KeyPressed events while keeping a key pressed. If it is disabled,
+    /// you will only get a single event when the key is pressed.
+    ///
+    /// Key repeat is enabled by default.
+    ///
+    /// \param enabled True to enable, false to disable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='308' ll='312' type='void sf::Window::setKeyRepeatEnabled(bool enabled)'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='433' u='c' c='_ZN2sf6Window10initializeEv'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='307'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SoundFileFactory.inl source code [codebrowser/include/SFML/Audio/SoundFileFactory.inl] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Audio/SoundFileFactory.inl'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Audio</a>/<a href='SoundFileFactory.inl.html'>SoundFileFactory.inl</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="31">31</th><td>{</td></tr>
+<tr><th id="32">32</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="33">33</th><td>{</td></tr>
+<tr><th id="34">34</th><td>    <b>template</b> &lt;<b>typename</b> T&gt; <a class="type" href="SoundFileReader.hpp.html#sf::SoundFileReader" title='sf::SoundFileReader' data-ref="sf::SoundFileReader">SoundFileReader</a>* <dfn class="decl def" id="_ZN2sf4priv12createReaderEv" title='sf::priv::createReader' data-ref="_ZN2sf4priv12createReaderEv">createReader</dfn>() {<b>return</b> <b>new</b> T;}</td></tr>
+<tr><th id="35">35</th><td>    <b>template</b> &lt;<b>typename</b> T&gt; <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileWriter" title='sf::SoundFileWriter' data-ref="sf::SoundFileWriter">SoundFileWriter</a>* <dfn class="decl def" id="_ZN2sf4priv12createWriterEv" title='sf::priv::createWriter' data-ref="_ZN2sf4priv12createWriterEv">createWriter</dfn>() {<b>return</b> <b>new</b> T;}</td></tr>
+<tr><th id="36">36</th><td>}</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="39">39</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="40">40</th><td><em>void</em> <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileFactory" title='sf::SoundFileFactory' data-ref="sf::SoundFileFactory">SoundFileFactory</a>::<dfn class="decl def" id="_ZN2sf16SoundFileFactory14registerReaderEv" title='sf::SoundFileFactory::registerReader' data-ref="_ZN2sf16SoundFileFactory14registerReaderEv">registerReader</dfn>()</td></tr>
+<tr><th id="41">41</th><td>{</td></tr>
+<tr><th id="42">42</th><td>    <i>// Make sure the same class won't be registered twice</i></td></tr>
+<tr><th id="43">43</th><td>    unregisterReader&lt;T&gt;();</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>    <i>// Create a new factory with the functions provided by the class</i></td></tr>
+<tr><th id="46">46</th><td>    <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::ReaderFactory" title='sf::SoundFileFactory::ReaderFactory' data-ref="sf::SoundFileFactory::ReaderFactory">ReaderFactory</a> <a class="ref fake" href="SoundFileFactory.hpp.html#146" title='sf::SoundFileFactory::ReaderFactory::ReaderFactory' data-ref="_ZN2sf16SoundFileFactory13ReaderFactoryC1Ev"></a><dfn class="local col7 decl" id="1487factory" title='factory' data-type='sf::SoundFileFactory::ReaderFactory' data-ref="1487factory">factory</dfn>;</td></tr>
+<tr><th id="47">47</th><td>    <a class="local col7 ref" href="#1487factory" title='factory' data-ref="1487factory">factory</a>.<a class="ref" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::ReaderFactory::check" title='sf::SoundFileFactory::ReaderFactory::check' data-ref="sf::SoundFileFactory::ReaderFactory::check">check</a> = &amp;T::check;</td></tr>
+<tr><th id="48">48</th><td>    <a class="local col7 ref" href="#1487factory" title='factory' data-ref="1487factory">factory</a>.<a class="ref" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::ReaderFactory::create" title='sf::SoundFileFactory::ReaderFactory::create' data-ref="sf::SoundFileFactory::ReaderFactory::create">create</a> = &amp;<span class="namespace">priv::</span>createReader&lt;T&gt;;</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td>    <i>// Add it</i></td></tr>
+<tr><th id="51">51</th><td>    <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_readers" title='sf::SoundFileFactory::s_readers' data-ref="sf::SoundFileFactory::s_readers">s_readers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector9push_backERKT_" title='std::vector::push_back' data-ref="_ZNSt6vector9push_backERKT_">push_back</a>(<a class="local col7 ref" href="#1487factory" title='factory' data-ref="1487factory">factory</a>);</td></tr>
+<tr><th id="52">52</th><td>}</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="56">56</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="57">57</th><td><em>void</em> <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileFactory" title='sf::SoundFileFactory' data-ref="sf::SoundFileFactory">SoundFileFactory</a>::<dfn class="decl def" id="_ZN2sf16SoundFileFactory16unregisterReaderEv" title='sf::SoundFileFactory::unregisterReader' data-ref="_ZN2sf16SoundFileFactory16unregisterReaderEv">unregisterReader</dfn>()</td></tr>
+<tr><th id="58">58</th><td>{</td></tr>
+<tr><th id="59">59</th><td>    <i>// Remove the instance(s) of the reader from the array of factories</i></td></tr>
+<tr><th id="60">60</th><td>    <b>for</b> (<a class="typedef" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::ReaderFactoryArray" title='sf::SoundFileFactory::ReaderFactoryArray' data-type='std::vector&lt;ReaderFactory&gt;' data-ref="sf::SoundFileFactory::ReaderFactoryArray">ReaderFactoryArray</a>::<a class="typedef" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector{sf::SoundFileFactory::ReaderFactory,std::allocator{sf::SoundFileFactory::ReaderFactory}}::iterator" title='std::vector&lt;sf::SoundFileFactory::ReaderFactory, std::allocator&lt;sf::SoundFileFactory::ReaderFactory&gt; &gt;::iterator' data-type='__gnu_cxx::__normal_iterator&lt;pointer, vector&lt;ReaderFactory, allocator&lt;ReaderFactory&gt; &gt; &gt;' data-ref="std::vector{sf::SoundFileFactory::ReaderFactory,std::allocator{sf::SoundFileFactory::ReaderFactory}}::iterator">iterator</a> <dfn class="local col8 decl" id="1488it" title='it' data-type='ReaderFactoryArray::iterator' data-ref="1488it">it</dfn> = <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_readers" title='sf::SoundFileFactory::s_readers' data-ref="sf::SoundFileFactory::s_readers">s_readers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector5beginEv" title='std::vector::begin' data-ref="_ZNSt6vector5beginEv">begin</a>(); <a class="local col8 ref" href="#1488it" title='it' data-ref="1488it">it</a> <a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#__gnu_cxx::operator!=" title='__gnu_cxx::operator!=' data-ref="__gnu_cxx::operator!=">!=</a> <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_readers" title='sf::SoundFileFactory::s_readers' data-ref="sf::SoundFileFactory::s_readers">s_readers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector3endEv" title='std::vector::end' data-ref="_ZNSt6vector3endEv">end</a>(); )</td></tr>
+<tr><th id="61">61</th><td>    {</td></tr>
+<tr><th id="62">62</th><td>        <b>if</b> (<a class="local col8 ref" href="#1488it" title='it' data-ref="1488it">it</a><a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#__gnu_cxx::__normal_iterator::operator-}" title='__gnu_cxx::__normal_iterator::operator-&gt;' data-ref="__gnu_cxx::__normal_iterator::operator-}">-&gt;</a><a class="ref" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::ReaderFactory::create" title='sf::SoundFileFactory::ReaderFactory::create' data-ref="sf::SoundFileFactory::ReaderFactory::create">create</a> == &amp;<span class="namespace">priv::</span>createReader&lt;T&gt;)</td></tr>
+<tr><th id="63">63</th><td>            <a class="local col8 ref" href="#1488it" title='it' data-ref="1488it">it</a> <a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#721" title='__gnu_cxx::__normal_iterator&lt;sf::SoundFileFactory::ReaderFactory *, std::vector&lt;sf::SoundFileFactory::ReaderFactory, std::allocator&lt;sf::SoundFileFactory::ReaderFactory&gt; &gt; &gt;::operator=' data-ref="__gnu_cxx::__normal_iterator{sf::SoundFileFactory::ReaderFactory*,std::vector{sf::SoundFileFactory::ReaderFactory,std::allocator{sf::SoundFileFactory:10528095">=</a> <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_readers" title='sf::SoundFileFactory::s_readers' data-ref="sf::SoundFileFactory::s_readers">s_readers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector5eraseEN9__gnu_cxx17__normal_iteratorINSt12_Vector_baseIT_T0_E7pointerESt6vectorIS3_S4_EEE" title='std::vector::erase' data-ref="_ZNSt6vector5eraseEN9__gnu_cxx17__normal_iteratorINSt12_Vector_baseIT_T0_E7pointerESt6vectorIS3_S4_EEE">erase</a>(<a class="ref fake" href="../../../../include/c++/5/bits/stl_iterator.h.html#721" title='__gnu_cxx::__normal_iterator&lt;sf::SoundFileFactory::ReaderFactory *, std::vector&lt;sf::SoundFileFactory::ReaderFactory, std::allocator&lt;sf::SoundFileFactory::ReaderFactory&gt; &gt; &gt;::__normal_iterator' data-ref="__gnu_cxx::__normal_iterator{sf::SoundFileFactory::ReaderFactory*,std::vector{sf::SoundFileFactory::ReaderFactory,std::allocator{sf::SoundFileFactory:8573374"></a><a class="local col8 ref" href="#1488it" title='it' data-ref="1488it">it</a>);</td></tr>
+<tr><th id="64">64</th><td>        <b>else</b></td></tr>
+<tr><th id="65">65</th><td>            <a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#__gnu_cxx::__normal_iterator::operator++" title='__gnu_cxx::__normal_iterator::operator++' data-ref="__gnu_cxx::__normal_iterator::operator++">++</a><a class="local col8 ref" href="#1488it" title='it' data-ref="1488it">it</a>;</td></tr>
+<tr><th id="66">66</th><td>    }</td></tr>
+<tr><th id="67">67</th><td>}</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="70">70</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="71">71</th><td><em>void</em> <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileFactory" title='sf::SoundFileFactory' data-ref="sf::SoundFileFactory">SoundFileFactory</a>::<dfn class="decl def" id="_ZN2sf16SoundFileFactory14registerWriterEv" title='sf::SoundFileFactory::registerWriter' data-ref="_ZN2sf16SoundFileFactory14registerWriterEv">registerWriter</dfn>()</td></tr>
+<tr><th id="72">72</th><td>{</td></tr>
+<tr><th id="73">73</th><td>    <i>// Make sure the same class won't be registered twice</i></td></tr>
+<tr><th id="74">74</th><td>    unregisterWriter&lt;T&gt;();</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>    <i>// Create a new factory with the functions provided by the class</i></td></tr>
+<tr><th id="77">77</th><td>    <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::WriterFactory" title='sf::SoundFileFactory::WriterFactory' data-ref="sf::SoundFileFactory::WriterFactory">WriterFactory</a> <a class="ref fake" href="SoundFileFactory.hpp.html#153" title='sf::SoundFileFactory::WriterFactory::WriterFactory' data-ref="_ZN2sf16SoundFileFactory13WriterFactoryC1Ev"></a><dfn class="local col9 decl" id="1489factory" title='factory' data-type='sf::SoundFileFactory::WriterFactory' data-ref="1489factory">factory</dfn>;</td></tr>
+<tr><th id="78">78</th><td>    <a class="local col9 ref" href="#1489factory" title='factory' data-ref="1489factory">factory</a>.<a class="ref" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::WriterFactory::check" title='sf::SoundFileFactory::WriterFactory::check' data-ref="sf::SoundFileFactory::WriterFactory::check">check</a> = &amp;T::check;</td></tr>
+<tr><th id="79">79</th><td>    <a class="local col9 ref" href="#1489factory" title='factory' data-ref="1489factory">factory</a>.<a class="ref" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::WriterFactory::create" title='sf::SoundFileFactory::WriterFactory::create' data-ref="sf::SoundFileFactory::WriterFactory::create">create</a> = &amp;<span class="namespace">priv::</span>createWriter&lt;T&gt;;</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td>    <i>// Add it</i></td></tr>
+<tr><th id="82">82</th><td>    <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_writers" title='sf::SoundFileFactory::s_writers' data-ref="sf::SoundFileFactory::s_writers">s_writers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector9push_backERKT_" title='std::vector::push_back' data-ref="_ZNSt6vector9push_backERKT_">push_back</a>(<a class="local col9 ref" href="#1489factory" title='factory' data-ref="1489factory">factory</a>);</td></tr>
+<tr><th id="83">83</th><td>}</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="87">87</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="88">88</th><td><em>void</em> <a class="type" href="SoundFileFactory.hpp.html#sf::SoundFileFactory" title='sf::SoundFileFactory' data-ref="sf::SoundFileFactory">SoundFileFactory</a>::<dfn class="decl def" id="_ZN2sf16SoundFileFactory16unregisterWriterEv" title='sf::SoundFileFactory::unregisterWriter' data-ref="_ZN2sf16SoundFileFactory16unregisterWriterEv">unregisterWriter</dfn>()</td></tr>
+<tr><th id="89">89</th><td>{</td></tr>
+<tr><th id="90">90</th><td>    <i>// Remove the instance(s) of the writer from the array of factories</i></td></tr>
+<tr><th id="91">91</th><td>    <b>for</b> (<a class="typedef" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::WriterFactoryArray" title='sf::SoundFileFactory::WriterFactoryArray' data-type='std::vector&lt;WriterFactory&gt;' data-ref="sf::SoundFileFactory::WriterFactoryArray">WriterFactoryArray</a>::<a class="typedef" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector{sf::SoundFileFactory::WriterFactory,std::allocator{sf::SoundFileFactory::WriterFactory}}::iterator" title='std::vector&lt;sf::SoundFileFactory::WriterFactory, std::allocator&lt;sf::SoundFileFactory::WriterFactory&gt; &gt;::iterator' data-type='__gnu_cxx::__normal_iterator&lt;pointer, vector&lt;WriterFactory, allocator&lt;WriterFactory&gt; &gt; &gt;' data-ref="std::vector{sf::SoundFileFactory::WriterFactory,std::allocator{sf::SoundFileFactory::WriterFactory}}::iterator">iterator</a> <dfn class="local col0 decl" id="1490it" title='it' data-type='WriterFactoryArray::iterator' data-ref="1490it">it</dfn> = <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_writers" title='sf::SoundFileFactory::s_writers' data-ref="sf::SoundFileFactory::s_writers">s_writers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector5beginEv" title='std::vector::begin' data-ref="_ZNSt6vector5beginEv">begin</a>(); <a class="local col0 ref" href="#1490it" title='it' data-ref="1490it">it</a> <a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#__gnu_cxx::operator!=" title='__gnu_cxx::operator!=' data-ref="__gnu_cxx::operator!=">!=</a> <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_writers" title='sf::SoundFileFactory::s_writers' data-ref="sf::SoundFileFactory::s_writers">s_writers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector3endEv" title='std::vector::end' data-ref="_ZNSt6vector3endEv">end</a>(); )</td></tr>
+<tr><th id="92">92</th><td>    {</td></tr>
+<tr><th id="93">93</th><td>        <b>if</b> (<a class="local col0 ref" href="#1490it" title='it' data-ref="1490it">it</a><a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#__gnu_cxx::__normal_iterator::operator-}" title='__gnu_cxx::__normal_iterator::operator-&gt;' data-ref="__gnu_cxx::__normal_iterator::operator-}">-&gt;</a><a class="ref" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::WriterFactory::create" title='sf::SoundFileFactory::WriterFactory::create' data-ref="sf::SoundFileFactory::WriterFactory::create">create</a> == &amp;<span class="namespace">priv::</span>createWriter&lt;T&gt;)</td></tr>
+<tr><th id="94">94</th><td>            <a class="local col0 ref" href="#1490it" title='it' data-ref="1490it">it</a> <a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#721" title='__gnu_cxx::__normal_iterator&lt;sf::SoundFileFactory::WriterFactory *, std::vector&lt;sf::SoundFileFactory::WriterFactory, std::allocator&lt;sf::SoundFileFactory::WriterFactory&gt; &gt; &gt;::operator=' data-ref="__gnu_cxx::__normal_iterator{sf::SoundFileFactory::WriterFactory*,std::vector{sf::SoundFileFactory::WriterFactory,std::allocator{sf::SoundFileFactory:11274416">=</a> <a class="member" href="SoundFileFactory.hpp.html#sf::SoundFileFactory::s_writers" title='sf::SoundFileFactory::s_writers' data-ref="sf::SoundFileFactory::s_writers">s_writers</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector5eraseEN9__gnu_cxx17__normal_iteratorINSt12_Vector_baseIT_T0_E7pointerESt6vectorIS3_S4_EEE" title='std::vector::erase' data-ref="_ZNSt6vector5eraseEN9__gnu_cxx17__normal_iteratorINSt12_Vector_baseIT_T0_E7pointerESt6vectorIS3_S4_EEE">erase</a>(<a class="ref fake" href="../../../../include/c++/5/bits/stl_iterator.h.html#721" title='__gnu_cxx::__normal_iterator&lt;sf::SoundFileFactory::WriterFactory *, std::vector&lt;sf::SoundFileFactory::WriterFactory, std::allocator&lt;sf::SoundFileFactory::WriterFactory&gt; &gt; &gt;::__normal_iterator' data-ref="__gnu_cxx::__normal_iterator{sf::SoundFileFactory::WriterFactory*,std::vector{sf::SoundFileFactory::WriterFactory,std::allocator{sf::SoundFileFactory:3522289"></a><a class="local col0 ref" href="#1490it" title='it' data-ref="1490it">it</a>);</td></tr>
+<tr><th id="95">95</th><td>        <b>else</b></td></tr>
+<tr><th id="96">96</th><td>            <a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#__gnu_cxx::__normal_iterator::operator++" title='__gnu_cxx::__normal_iterator::operator++' data-ref="__gnu_cxx::__normal_iterator::operator++">++</a><a class="local col0 ref" href="#1490it" title='it' data-ref="1490it">it</a>;</td></tr>
+<tr><th id="97">97</th><td>    }</td></tr>
+<tr><th id="98">98</th><td>}</td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="101">101</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Audio/InputSoundFile.cpp.html'>codebrowser/src/SFML/Audio/InputSoundFile.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

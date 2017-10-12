@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='3292' type='int XSetSelectionOwner(Display * , Atom , Window , Time )'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='241' u='c' c='_ZN2sf4priv13ClipboardImpl9setStringERKNS_6StringE'/>

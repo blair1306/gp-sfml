@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='50' type='void sf::Vertex::Vertex()'/>
+<doc f='codebrowser/include/SFML/Graphics/Vertex.hpp' l='46'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='34' ll='39' type='void sf::Vertex::Vertex()'/>
+<doc f='codebrowser/src/SFML/Graphics/Vertex.cpp' l='33'>////////////////////////////////////////////////////////////</doc>

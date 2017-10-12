@@ -1,0 +1,9 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='874' ll='880' type='int stbi__mul2sizes_valid(int a, int b)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='885' u='c' c='_ZL21stbi__mad2sizes_validiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='891' u='c' c='_ZL21stbi__mad3sizes_validiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='891' u='c' c='_ZL21stbi__mad3sizes_validiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='898' u='c' c='_ZL21stbi__mad4sizes_validiiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='898' u='c' c='_ZL21stbi__mad4sizes_validiiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='899' u='c' c='_ZL21stbi__mad4sizes_validiiiii'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='872'>// returns 1 if the product is valid, 0 on overflow.
+// negative factors are considered invalid.</doc>

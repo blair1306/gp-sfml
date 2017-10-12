@@ -1,0 +1,40 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='617' type='void FT_Stroker_ExportBorder(FT_Stroker stroker, FT_StrokerBorder border, FT_Outline * outline)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='577'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_ExportBorder
+   *
+   * @description:
+   *   Call this function after @FT_Stroker_GetBorderCounts to
+   *   export the corresponding border to your own @FT_Outline
+   *   structure.
+   *
+   *   Note that this function appends the border points and
+   *   contours to your outline, but does not try to resize its
+   *   arrays.
+   *
+   * @input:
+   *   stroker ::
+   *     The target stroker handle.
+   *
+   *   border ::
+   *     The border index.
+   *
+   *   outline ::
+   *     The target outline handle.
+   *
+   * @note:
+   *   Always call this function after @FT_Stroker_GetBorderCounts to
+   *   get sure that there is enough room in your @FT_Outline object to
+   *   receive all new data.
+   *
+   *   When an outline, or a sub-path, is `closed&apos;, the stroker generates
+   *   two independent `border&apos; outlines, named `left&apos; and `right&apos;.
+   *
+   *   When the outline, or a sub-path, is `opened&apos;, the stroker merges
+   *   the `border&apos; outlines with caps.  The `left&apos; border receives all
+   *   points, while the `right&apos; border becomes empty.
+   *
+   *   Use the function @FT_Stroker_Export instead if you want to
+   *   retrieve all borders at once.
+   */</doc>

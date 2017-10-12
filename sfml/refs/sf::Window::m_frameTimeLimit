@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='548' type='sf::Time'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='548'>///&lt; Current framerate limit</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='47' u='w' c='_ZN2sf6WindowC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='58' u='w' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='69' u='w' c='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='319' u='w' c='_ZN2sf6Window17setFramerateLimitEj'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='321' u='w' c='_ZN2sf6Window17setFramerateLimitEj'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='379' u='r' c='_ZN2sf6Window7displayEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='381' u='r' c='_ZN2sf6Window7displayEv'/>

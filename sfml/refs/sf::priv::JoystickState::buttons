@@ -1,0 +1,9 @@
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='68' u='r' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='68' u='r' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<dec f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='73' type='bool [32]'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='58' u='r' c='_ZN2sf8Joystick15isButtonPressedEjj'/>
+<offset>288</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='73'>///&lt; Status of each button (true = pressed)</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='686' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='206' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='207' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

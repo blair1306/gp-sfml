@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='54' type='void sf::TcpSocket::TcpSocket()'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='50'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='54' ll='58' type='void sf::TcpSocket::TcpSocket()'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='53'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='232' type='sf::Color sf::Image::getPixel(unsigned int x, unsigned int y) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='217'>////////////////////////////////////////////////////////////
+    /// \brief Get the color of a pixel
+    ///
+    /// This function doesn&apos;t check the validity of the pixel
+    /// coordinates, using out-of-range values will result in
+    /// an undefined behavior.
+    ///
+    /// \param x X coordinate of pixel to get
+    /// \param y Y coordinate of pixel to get
+    ///
+    /// \return Color of the pixel at coordinates (x, y)
+    ///
+    /// \see setPixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='286' ll='290' type='sf::Color sf::Image::getPixel(unsigned int x, unsigned int y) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='285'>////////////////////////////////////////////////////////////</doc>

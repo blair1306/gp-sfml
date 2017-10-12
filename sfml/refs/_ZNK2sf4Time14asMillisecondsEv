@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='70' type='Int32 sf::Time::asMilliseconds() const'/>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Return the time value as a number of milliseconds
+    ///
+    /// \return Time in milliseconds
+    ///
+    /// \see asSeconds, asMicroseconds
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='52' ll='55' type='Int32 sf::Time::asMilliseconds() const'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='51'>////////////////////////////////////////////////////////////</doc>

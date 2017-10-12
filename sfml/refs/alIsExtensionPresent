@@ -1,0 +1,2 @@
+<dec f='include/AL/al.h' l='481' type='ALboolean alIsExtensionPresent(const ALchar * extname)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='117' u='c' c='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

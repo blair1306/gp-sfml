@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='192' type='sf::SoundSource::Status sf::Sound::getStatus() const'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='150' ll='153' type='Sound::Status sf::Sound::getStatus() const'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='149'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='186'>////////////////////////////////////////////////////////////
+    /// \brief Get the current status of the sound (stopped, paused, playing)
+    ///
+    /// \return Current status of the sound
+    ///
+    ////////////////////////////////////////////////////////////</doc>

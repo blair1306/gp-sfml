@@ -1,0 +1,17 @@
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='42' c='sf::priv::RenderTextureImpl'/>
+<inh f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' c='sf::GlResource'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='45' ll='100'/>
+<size>24</size>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Default specialization of RenderTextureImpl,
+///        using an in-memory context
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv24RenderTextureImplDefaultC1Ev'/>
+<fun r='_ZN2sf4priv24RenderTextureImplDefaultD1Ev'/>
+<fun r='_ZN2sf4priv24RenderTextureImplDefault6createEjjjb'/>
+<fun r='_ZN2sf4priv24RenderTextureImplDefault8activateEb'/>
+<fun r='_ZN2sf4priv24RenderTextureImplDefault13updateTextureEj'/>
+<mbr r='sf::priv::RenderTextureImplDefault::m_context' o='64' t='sf::Context *'/>
+<mbr r='sf::priv::RenderTextureImplDefault::m_width' o='128' t='unsigned int'/>
+<mbr r='sf::priv::RenderTextureImplDefault::m_height' o='160' t='unsigned int'/>

@@ -1,0 +1,31 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='284' type='std::size_t'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='39' u='w' c='_ZN2sf6PacketC1Ev'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='70' u='w' c='_ZN2sf6Packet5clearEv'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='92' u='r' c='_ZNK2sf6Packet11endOfPacketEv'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='119' u='r' c='_ZN2sf6PacketrsERa'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='120' u='w' c='_ZN2sf6PacketrsERa'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='132' u='r' c='_ZN2sf6PacketrsERh'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='133' u='w' c='_ZN2sf6PacketrsERh'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='145' u='r' c='_ZN2sf6PacketrsERs'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='146' u='w' c='_ZN2sf6PacketrsERs'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='158' u='r' c='_ZN2sf6PacketrsERt'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='159' u='w' c='_ZN2sf6PacketrsERt'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='171' u='r' c='_ZN2sf6PacketrsERi'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='172' u='w' c='_ZN2sf6PacketrsERi'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='184' u='r' c='_ZN2sf6PacketrsERj'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='185' u='w' c='_ZN2sf6PacketrsERj'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='199' u='r' c='_ZN2sf6PacketrsERx'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='208' u='w' c='_ZN2sf6PacketrsERx'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='222' u='r' c='_ZN2sf6PacketrsERy'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='231' u='w' c='_ZN2sf6PacketrsERy'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='243' u='r' c='_ZN2sf6PacketrsERf'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='244' u='w' c='_ZN2sf6PacketrsERf'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='256' u='r' c='_ZN2sf6PacketrsERd'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='257' u='w' c='_ZN2sf6PacketrsERd'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='274' u='r' c='_ZN2sf6PacketrsEPc'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='278' u='w' c='_ZN2sf6PacketrsEPc'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='296' u='r' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='299' u='w' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='576' u='r' c='_ZN2sf6Packet9checkSizeEm'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='284'>///&lt; Current reading position in the packet</doc>

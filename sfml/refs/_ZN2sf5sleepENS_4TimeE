@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/System/Sleep.hpp' l='47' type='void sf::sleep(sf::Time duration)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='285' u='c' c='_ZN2sf13SoundRecorder6recordEv'/>
+<doc f='codebrowser/include/SFML/System/Sleep.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \ingroup system
+/// \brief Make the current thread sleep for a given duration
+///
+/// sf::sleep is the best way to block a program or one of its
+/// threads, as it doesn&apos;t consume any CPU power.
+///
+/// \param duration Time to sleep
+///
+////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='387' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<def f='codebrowser/src/SFML/System/Sleep.cpp' l='40' ll='44' type='void sf::sleep(sf::Time duration)'/>
+<doc f='codebrowser/src/SFML/System/Sleep.cpp' l='39'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='164' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1095' u='c' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1612' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='381' u='c' c='_ZN2sf6Window7displayEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='130' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>

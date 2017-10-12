@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='52' type='void sf::OutputSoundFile::OutputSoundFile()'/>
+<def f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='36' ll='39' type='void sf::OutputSoundFile::OutputSoundFile()'/>
+<doc f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='35'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='48'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='147' u='c' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

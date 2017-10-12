@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='903' ll='907' type='void * stbi__malloc_mad2(int a, int b, int add)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3015' u='c' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4590' u='c' c='_ZL24stbi__expand_png_paletteP9stbi__pngPhii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5438' u='c' c='_ZL14stbi__tga_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6567' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='902'>// mallocs with size overflow checking</doc>

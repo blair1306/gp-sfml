@@ -1,0 +1,13 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/System/Mutex.hpp' l='47' ll='89'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/Mutex.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief Blocks concurrent access to shared resources
+///        from multiple threads
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5MutexC1Ev'/>
+<fun r='_ZN2sf5MutexD1Ev'/>
+<fun r='_ZN2sf5Mutex4lockEv'/>
+<fun r='_ZN2sf5Mutex6unlockEv'/>
+<mbr r='sf::Mutex::m_mutexImpl' o='0' t='priv::MutexImpl *'/>

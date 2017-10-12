@@ -1,0 +1,5 @@
+_ZN2sf15OutputSoundFileC1Ev|sf::OutputSoundFile::OutputSoundFile
+_ZN2sf15OutputSoundFile5closeEv|sf::OutputSoundFile::close
+_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj|sf::OutputSoundFile::openFromFile
+_ZN2sf15OutputSoundFile5writeEPKsy|sf::OutputSoundFile::write
+_ZN2sf15OutputSoundFileD1Ev|sf::OutputSoundFile::~OutputSoundFile

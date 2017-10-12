@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='97'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='70' u='c'/>

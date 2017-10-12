@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='166' type='const sf::Color &amp; sf::Shape::getFillColor() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='158'>////////////////////////////////////////////////////////////
+    /// \brief Get the fill color of the shape
+    ///
+    /// \return Fill color of the shape
+    ///
+    /// \see setFillColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='109' ll='112' type='const sf::Color &amp; sf::Shape::getFillColor() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='108'>////////////////////////////////////////////////////////////</doc>

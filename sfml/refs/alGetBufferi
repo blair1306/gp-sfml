@@ -1,0 +1,5 @@
+<dec f='include/AL/al.h' l='573' type='void alGetBufferi(ALuint buffer, ALenum param, ALint * value)'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='180' u='c' c='_ZNK2sf11SoundBuffer13getSampleRateEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='190' u='c' c='_ZNK2sf11SoundBuffer15getChannelCountEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='356' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='357' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>

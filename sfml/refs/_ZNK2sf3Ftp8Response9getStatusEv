@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='165' type='sf::Ftp::Response::Status sf::Ftp::Response::getStatus() const'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='85' ll='88' type='Ftp::Response::Status sf::Ftp::Response::getStatus() const'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='84'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='159'>////////////////////////////////////////////////////////////
+        /// \brief Get the status code of the response
+        ///
+        /// \return Status code
+        ///
+        ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='139' type='static sf::SoundFileWriter * sf::SoundFileFactory::createWriterFromFilename(const std::string &amp; filename)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='129'>////////////////////////////////////////////////////////////
+    /// \brief Instantiate the right writer for the given file on disk
+    ///
+    /// It&apos;s up to the caller to release the returned writer
+    ///
+    /// \param filename Path of the sound file
+    ///
+    /// \return A new sound file writer that can write given file, or null if no writer can handle it
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='57' u='c' c='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='137' ll='152' type='static sf::SoundFileWriter * sf::SoundFileFactory::createWriterFromFilename(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='136'>////////////////////////////////////////////////////////////</doc>

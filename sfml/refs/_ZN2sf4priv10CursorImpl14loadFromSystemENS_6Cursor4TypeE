@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='80' type='bool sf::priv::CursorImpl::loadFromSystem(Cursor::Type type)'/>
+<use f='codebrowser/src/SFML/Window/Cursor.cpp' l='62' u='c' c='_ZN2sf6Cursor14loadFromSystemENS0_4TypeE'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='74'>////////////////////////////////////////////////////////////
+    /// \brief Create a native system cursor
+    ///
+    /// Refer to sf::Cursor::loadFromSystem().
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='116' ll='139' type='bool sf::priv::CursorImpl::loadFromSystem(Cursor::Type type)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='115'>////////////////////////////////////////////////////////////</doc>

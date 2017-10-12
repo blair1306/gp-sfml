@@ -1,0 +1,2 @@
+<dec f='include/FLAC/format.h' l='515' type='126'/>
+<doc f='include/FLAC/format.h' l='513'>/**&lt; marker to denote beginning of undefined type range; this number will increase as new metadata types are added */</doc>

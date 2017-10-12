@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='385' type='void sf::Http::setHost(const std::string &amp; host, unsigned short port = 0)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='312' u='c' c='_ZN2sf4HttpC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='317' ll='345' type='void sf::Http::setHost(const std::string &amp; host, unsigned short port = 0)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='316'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='370'>////////////////////////////////////////////////////////////
+    /// \brief Set the target host
+    ///
+    /// This function just stores the host address and port, it
+    /// doesn&apos;t actually connect to it until you send a request.
+    /// The port has a default value of 0, which means that the
+    /// HTTP client will use the right port according to the
+    /// protocol used (80 for HTTP). You should leave it like
+    /// this unless you really need a port other than the
+    /// standard one, or use an unknown protocol.
+    ///
+    /// \param host Web server to connect to
+    /// \param port Port to use for connection
+    ///
+    ////////////////////////////////////////////////////////////</doc>

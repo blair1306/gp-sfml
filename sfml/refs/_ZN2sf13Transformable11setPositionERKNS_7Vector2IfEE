@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='84' type='void sf::Transformable::setPosition(const Vector2f &amp; position)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief set the position of the object
+    ///
+    /// This function completely overwrites the previous position.
+    /// See the move function to apply an offset based on the previous position instead.
+    /// The default position of a transformable object is (0, 0).
+    ///
+    /// \param position New position
+    ///
+    /// \see move, getPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='65' ll='68' type='void sf::Transformable::setPosition(const Vector2f &amp; position)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='64'>////////////////////////////////////////////////////////////</doc>

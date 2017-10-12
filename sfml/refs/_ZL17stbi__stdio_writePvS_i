@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='226' ll='229' type='void stbi__stdio_write(void * context, void * data, int size)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='234' u='r' c='_ZL22stbi__start_write_fileP19stbi__write_contextPKc'/>

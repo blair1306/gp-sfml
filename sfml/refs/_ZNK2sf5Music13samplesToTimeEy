@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='274' type='sf::Time sf::Music::samplesToTime(Uint64 samples) const'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='115' u='c' c='_ZNK2sf5Music13getLoopPointsEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='115' u='c' c='_ZNK2sf5Music13getLoopPointsEv'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='260' ll='269' type='sf::Time sf::Music::samplesToTime(Uint64 samples) const'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='259'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='266'>////////////////////////////////////////////////////////////
+    /// \brief Helper to convert a sample position to an sf::Time
+    ///
+    /// \param position Sample count to convert to Time
+    ///
+    /// \return The Time position of the given sample
+    ///
+    ////////////////////////////////////////////////////////////</doc>

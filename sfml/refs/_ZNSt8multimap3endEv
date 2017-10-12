@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_multimap.h' l='350' ll='352' type='iterator std::multimap::end()'/>
+<doc f='include/c++/5/bits/stl_multimap.h' l='345'>/**
+       *  Returns a read/write iterator that points one past the last pair in
+       *  the %multimap.  Iteration is done in ascending order according to the
+       *  keys.
+       */</doc>

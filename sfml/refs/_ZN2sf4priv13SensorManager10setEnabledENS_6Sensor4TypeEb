@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='73' type='void sf::priv::SensorManager::setEnabled(Sensor::Type sensor, bool enabled)'/>
+<use f='codebrowser/src/SFML/Window/Sensor.cpp' l='44' u='c' c='_ZN2sf6Sensor10setEnabledENS0_4TypeEb'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='66'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable a sensor
+    ///
+    /// \param sensor  Sensor to modify
+    /// \param enabled Whether it should be enabled or not
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/SensorManager.cpp' l='52' ll='63' type='void sf::priv::SensorManager::setEnabled(Sensor::Type sensor, bool enabled)'/>
+<doc f='codebrowser/src/SFML/Window/SensorManager.cpp' l='51'>////////////////////////////////////////////////////////////</doc>

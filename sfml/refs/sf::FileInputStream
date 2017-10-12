@@ -1,0 +1,16 @@
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='41' c='sf::InputStream'/>
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/System/FileInputStream.hpp' l='55' ll='130'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='51'>////////////////////////////////////////////////////////////
+/// \brief Implementation of input stream based on a file
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf15FileInputStreamC1Ev'/>
+<fun r='_ZN2sf15FileInputStreamD1Ev'/>
+<fun r='_ZN2sf15FileInputStream4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf15FileInputStream4readEPvx'/>
+<fun r='_ZN2sf15FileInputStream4seekEx'/>
+<fun r='_ZN2sf15FileInputStream4tellEv'/>
+<fun r='_ZN2sf15FileInputStream7getSizeEv'/>
+<mbr r='sf::FileInputStream::m_file' o='64' t='std::FILE *'/>

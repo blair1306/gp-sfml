@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='124' type='void sf::View::setRotation(float angle)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='114'>////////////////////////////////////////////////////////////
+    /// \brief Set the orientation of the view
+    ///
+    /// The default rotation of a view is 0 degree.
+    ///
+    /// \param angle New angle, in degrees
+    ///
+    /// \see getRotation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='109' ll='117' type='void sf::View::setRotation(float angle)'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='186' u='c' c='_ZN2sf4View6rotateEf'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='108'>////////////////////////////////////////////////////////////</doc>

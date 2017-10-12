@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='253' type='const sf::Transform &amp; sf::View::getTransform() const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='180' u='c' c='_ZNK2sf12RenderTarget16mapCoordsToPixelERKNS_7Vector2IfEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='437' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='243'>////////////////////////////////////////////////////////////
+    /// \brief Get the projection transform of the view
+    ///
+    /// This function is meant for internal use only.
+    ///
+    /// \return Projection transform defining the view
+    ///
+    /// \see getInverseTransform
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='198' ll='224' type='const sf::Transform &amp; sf::View::getTransform() const'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='233' u='c' c='_ZNK2sf4View19getInverseTransformEv'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='197'>////////////////////////////////////////////////////////////</doc>

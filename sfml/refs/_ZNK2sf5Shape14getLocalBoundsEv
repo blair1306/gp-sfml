@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='227' type='FloatRect sf::Shape::getLocalBounds() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='215'>////////////////////////////////////////////////////////////
+    /// \brief Get the local bounding rectangle of the entity
+    ///
+    /// The returned rectangle is in local coordinates, which means
+    /// that it ignores the transformations (translation, rotation,
+    /// scale, ...) that are applied to the entity.
+    /// In other words, this function returns the bounds of the
+    /// entity in the entity&apos;s coordinate system.
+    ///
+    /// \return Local bounding rectangle of the entity
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='146' ll='149' type='FloatRect sf::Shape::getLocalBounds() const'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='155' u='c' c='_ZNK2sf5Shape15getGlobalBoundsEv'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='145'>////////////////////////////////////////////////////////////</doc>

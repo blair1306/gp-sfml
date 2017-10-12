@@ -1,0 +1,5 @@
+<dec f='include/time.h' l='122' type='__time_t'/>
+<offset>0</offset>
+<doc f='include/time.h' l='122'>/* Seconds.  */</doc>
+<use f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='57' u='r' c='_ZN2sf4priv9ClockImpl14getCurrentTimeEv'/>
+<use f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='45' u='w' c='_ZN2sf4priv9sleepImplENS_4TimeE'/>

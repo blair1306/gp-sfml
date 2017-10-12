@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4623' type='int'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4632' u='w' c='stbi_convert_iphone_png_to_rgb'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4813' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

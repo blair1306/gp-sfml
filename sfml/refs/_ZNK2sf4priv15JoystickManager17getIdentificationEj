@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='84' type='const Joystick::Identification &amp; sf::priv::JoystickManager::getIdentification(unsigned int joystick) const'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='72' u='c' c='_ZN2sf8Joystick17getIdentificationEj'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Get the identification for an open joystick
+    ///
+    /// \param joystick Index of the joystick
+    ///
+    /// \return Identification for the joystick
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='58' ll='61' type='const Joystick::Identification &amp; sf::priv::JoystickManager::getIdentification(unsigned int joystick) const'/>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='57'>////////////////////////////////////////////////////////////</doc>

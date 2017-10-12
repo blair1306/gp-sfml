@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='63' type='static void sf::priv::InputImpl::setVirtualKeyboardVisible(bool visible)'/>
+<use f='codebrowser/src/SFML/Window/Keyboard.cpp' l='44' u='c' c='_ZN2sf8Keyboard25setVirtualKeyboardVisibleEb'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='57'>////////////////////////////////////////////////////////////
+    /// \brief Show or hide the virtual keyboard
+    ///
+    /// \param visible True to show, false to hide
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='183' ll='186' type='static void sf::priv::InputImpl::setVirtualKeyboardVisible(bool )'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='182'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='183'>/*visible*/</doc>

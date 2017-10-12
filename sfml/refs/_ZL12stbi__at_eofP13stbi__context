@@ -1,0 +1,16 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1369' ll='1379' macro='1' type='int stbi__at_eof(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3058' u='c' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3084' u='c' c='_ZL23stbi__decode_jpeg_imageP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5856' u='c' c='_ZL13stbi__readvalP13stbi__contextiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5895' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5929' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5947' u='c' c='_ZL19stbi__pic_load_coreP13stbi__contextiiPiPh'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5996' u='c' c='_ZL14stbi__pic_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6434' u='c' c='_ZL18stbi__hdr_gettokenP13stbi__contextPc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6438' u='c' c='_ZL18stbi__hdr_gettokenP13stbi__contextPc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6722' u='c' c='_ZL14stbi__pic_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6746' u='c' c='_ZL14stbi__pic_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6822' u='c' c='_ZL25stbi__pnm_skip_whitespaceP13stbi__contextPc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6825' u='c' c='_ZL25stbi__pnm_skip_whitespaceP13stbi__contextPc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6828' u='c' c='_ZL25stbi__pnm_skip_whitespaceP13stbi__contextPc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6842' u='c' c='_ZL20stbi__pnm_getintegerP13stbi__contextPc'/>

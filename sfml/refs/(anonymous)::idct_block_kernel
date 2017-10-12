@@ -1,0 +1,8 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1701' type='void (*)(stbi_uc *, int, short *)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2655' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2683' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2780' u='r' c='_ZL17stbi__jpeg_finishP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3482' u='w' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3488' u='w' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>
+<offset>148352</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1700'>// kernels</doc>

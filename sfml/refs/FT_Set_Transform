@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='2926' type='void FT_Set_Transform(FT_Face face, FT_Matrix * matrix, FT_Vector * delta)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='2924'>/*                                                                       */</doc>

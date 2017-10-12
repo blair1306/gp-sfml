@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1592' type='void glIndexPointer(GLenum , GLsizei , const void * )'/>
+<dec f='include/GL/gl.h' l='1133' type='void glIndexPointer(GLenum type, GLsizei stride, const GLvoid * ptr)'/>

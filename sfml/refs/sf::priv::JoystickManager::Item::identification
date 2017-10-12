@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='115' type='Joystick::Identification'/>
+<offset>2048</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='115'>///&lt; The joystick identification</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='60' u='a' c='_ZNK2sf4priv15JoystickManager17getIdentificationEj'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='82' u='w' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='94' u='w' c='_ZN2sf4priv15JoystickManager6updateEv'/>

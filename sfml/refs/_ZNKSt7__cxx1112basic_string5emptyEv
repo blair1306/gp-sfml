@@ -1,0 +1,17 @@
+<def f='include/c++/5/bits/basic_string.h' l='815' ll='817' type='bool std::__cxx11::basic_string::empty() const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='811'>/**
+       *  Returns true if the %string is empty.  Equivalent to 
+       *  &lt;code&gt;*this == &quot;&quot;&lt;/code&gt;.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='176' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='276' u='c' c='_ZNKSt7__cxx119money_get10_M_extractET0_S1_RSt8ios_baseRSt12_Ios_IostateRNS_12basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='297' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='340' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='399' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='480' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='504' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='81' u='c' c='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='290' u='c' c='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='341' u='c' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='389' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='259' u='c' c='_ZNK2sf6String7isEmptyEv'/>

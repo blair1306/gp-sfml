@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='405' type='sf::Http::Response sf::Http::sendRequest(const sf::Http::Request &amp; request, sf::Time timeout = Time::Zero)'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='349' ll='413' type='Http::Response sf::Http::sendRequest(const Http::Request &amp; request, sf::Time timeout = Time::Zero)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='348'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='387'>////////////////////////////////////////////////////////////
+    /// \brief Send a HTTP request and return the server&apos;s response.
+    ///
+    /// You must have a valid host before sending a request (see setHost).
+    /// Any missing mandatory header field in the request will be added
+    /// with an appropriate value.
+    /// Warning: this function waits for the server&apos;s response and may
+    /// not return instantly; use a thread if you don&apos;t want to block your
+    /// application, or use a timeout to limit the time to wait. A value
+    /// of Time::Zero means that the client will use the system default timeout
+    /// (which is usually pretty long).
+    ///
+    /// \param request Request to send
+    /// \param timeout Maximum time to wait
+    ///
+    /// \return Server&apos;s response
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='154' u='c' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>

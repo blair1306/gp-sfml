@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/c++/5/bits/c++config.h' l='84'/>
+<use f='include/c++/5/backward/binders.h' l='130' u='c'/>
+<use f='include/c++/5/backward/binders.h' l='165' u='c'/>
+<use f='include/c++/5/backward/auto_ptr.h' l='54' u='c'/>
+<use f='include/c++/5/backward/auto_ptr.h' l='281' u='c'/>
+<use f='include/c++/5/backward/auto_ptr.h' l='290' u='c'/>

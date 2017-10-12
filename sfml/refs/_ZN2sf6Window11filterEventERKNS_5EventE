@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='534' type='bool sf::Window::filterEvent(const sf::Event &amp; event)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='522'>////////////////////////////////////////////////////////////
+    /// \brief Processes an event before it is sent to the user
+    ///
+    /// This function is called every time an event is received
+    /// from the internal window (through pollEvent or waitEvent).
+    /// It filters out unwanted events, and performs whatever internal
+    /// stuff the window needs before the event is returned to the
+    /// user.
+    ///
+    /// \param event Event to filter
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='189' u='c' c='_ZN2sf6Window9pollEventERNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='203' u='c' c='_ZN2sf6Window9waitEventERNS_5EventE'/>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='409' ll='423' type='bool sf::Window::filterEvent(const sf::Event &amp; event)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='408'>////////////////////////////////////////////////////////////</doc>

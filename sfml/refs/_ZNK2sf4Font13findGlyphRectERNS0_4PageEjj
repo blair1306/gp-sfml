@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='329' type='IntRect sf::Font::findGlyphRect(sf::Font::Page &amp; page, unsigned int width, unsigned int height) const'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='600' u='c' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='677' ll='741' type='IntRect sf::Font::findGlyphRect(sf::Font::Page &amp; page, unsigned int width, unsigned int height) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='676'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='319'>////////////////////////////////////////////////////////////
+    /// \brief Find a suitable rectangle within the texture for a glyph
+    ///
+    /// \param page   Page of glyphs to search in
+    /// \param width  Width of the rectangle
+    /// \param height Height of the rectangle
+    ///
+    /// \return Found rectangle within the texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>

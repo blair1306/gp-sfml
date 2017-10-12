@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='156' type='void sf::priv::WindowImplX11::setMouseCursorGrabbed(bool grabbed)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='150'>////////////////////////////////////////////////////////////
+    /// \brief Grab or release the mouse cursor
+    ///
+    /// \param grabbed True to enable, false to disable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='197' c='_ZN2sf4priv10WindowImpl21setMouseCursorGrabbedEb'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1075' ll='1105' type='void sf::priv::WindowImplX11::setMouseCursorGrabbed(bool grabbed)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1074'>////////////////////////////////////////////////////////////</doc>

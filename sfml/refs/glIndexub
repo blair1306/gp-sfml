@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1593' type='void glIndexub(GLubyte )'/>
+<dec f='include/GL/gl.h' l='982' type='void glIndexub(GLubyte c)'/>

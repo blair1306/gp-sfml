@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1281' type='void glClearStencil(GLint )'/>
+<dec f='include/GL/gl.h' l='1238' type='void glClearStencil(GLint s)'/>

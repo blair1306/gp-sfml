@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='265' type='bool sf::Packet::operator==(const sf::Packet &amp; right) const'/>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='261'>////////////////////////////////////////////////////////////
+    /// Disallow comparisons between packets
+    ///
+    ////////////////////////////////////////////////////////////</doc>

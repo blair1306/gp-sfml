@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='2092' type='int XCheckIfEvent(Display * , XEvent * , int (*)(Display *, XEvent *, XPointer) , XPointer )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='772' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>

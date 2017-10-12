@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='1866' type='int * XListDepths(Display * , int , int * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='67' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>

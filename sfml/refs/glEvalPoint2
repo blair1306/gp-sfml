@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1342' type='void glEvalPoint2(GLint , GLint )'/>
+<dec f='include/GL/gl.h' l='1407' type='void glEvalPoint2(GLint i, GLint j)'/>

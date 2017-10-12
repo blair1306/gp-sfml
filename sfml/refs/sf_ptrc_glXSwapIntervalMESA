@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='208' type='int (*)(int)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='206'>// Declare entry point even if GLX header already provides glXSwapIntervalMESA
+// We won&apos;t make use of an alias here</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='287' u='r' c='_ZN2sf4priv10GlxContext22setVerticalSyncEnabledEb'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='61' type='int (*)(int)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='66' u='w' c='_ZL22Load_MESA_swap_controlv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='67' u='r' c='_ZL22Load_MESA_swap_controlv'/>

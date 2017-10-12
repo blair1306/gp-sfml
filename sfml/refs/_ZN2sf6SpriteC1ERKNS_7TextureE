@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='67' type='void sf::Sprite::Sprite(const sf::Texture &amp; texture)'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='45' ll='50' type='void sf::Sprite::Sprite(const sf::Texture &amp; texture)'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='44'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Construct the sprite from a source texture
+    ///
+    /// \param texture Source texture
+    ///
+    /// \see setTexture
+    ///
+    ////////////////////////////////////////////////////////////</doc>

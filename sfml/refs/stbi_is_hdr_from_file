@@ -1,0 +1,3 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='405' type='int stbi_is_hdr_from_file(FILE * f)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1285' u='c' c='stbi_is_hdr'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1291' ll='1301' macro='1' type='int stbi_is_hdr_from_file(FILE * f)'/>

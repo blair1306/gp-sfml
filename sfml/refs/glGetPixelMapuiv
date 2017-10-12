@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1367' type='void glGetPixelMapuiv(GLenum , GLuint * )'/>
+<dec f='include/GL/gl.h' l='1207' type='void glGetPixelMapuiv(GLenum map, GLuint * values)'/>

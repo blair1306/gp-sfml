@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='146' type='void sf::Thread::launch()'/>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='137'>////////////////////////////////////////////////////////////
+    /// \brief Run the thread
+    ///
+    /// This function starts the entry point passed to the
+    /// thread&apos;s constructor, and returns immediately.
+    /// After this function returns, the thread&apos;s function is
+    /// running in parallel to the calling code.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='115' u='c' c='_ZN2sf13SoundRecorder5startEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='206' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='135' u='c' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='225' u='c' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>
+<def f='codebrowser/src/SFML/System/Thread.cpp' l='49' ll='53' type='void sf::Thread::launch()'/>
+<doc f='codebrowser/src/SFML/System/Thread.cpp' l='48'>////////////////////////////////////////////////////////////</doc>

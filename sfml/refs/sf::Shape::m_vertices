@@ -1,0 +1,29 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='313' type='sf::VertexArray'/>
+<offset>1792</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='313'>///&lt; Vertex array containing the fill geometry</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='166' u='w' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='181' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='186' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='190' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='191' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='191' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='194' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='194' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='195' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='198' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='199' u='m' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='219' u='r' c='_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='233' u='m' c='_ZN2sf5Shape16updateFillColorsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='234' u='m' c='_ZN2sf5Shape16updateFillColorsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='241' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='243' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='244' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='245' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='246' u='m' c='_ZN2sf5Shape15updateTexCoordsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='254' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='262' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='262' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='263' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='264' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='272' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='274' u='m' c='_ZN2sf5Shape13updateOutlineEv'/>

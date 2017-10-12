@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='63' type='static void sf::priv::JoystickImpl::cleanup()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Perform the global cleanup of the joystick module
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='118' u='c' c='_ZN2sf4priv15JoystickManagerD1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='498' ll='513' type='static void sf::priv::JoystickImpl::cleanup()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='497'>////////////////////////////////////////////////////////////</doc>

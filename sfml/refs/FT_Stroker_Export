@@ -1,0 +1,21 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='674' type='void FT_Stroker_Export(FT_Stroker stroker, FT_Outline * outline)'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='653'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_Export
+   *
+   * @description:
+   *   Call this function after @FT_Stroker_GetBorderCounts to
+   *   export all borders to your own @FT_Outline structure.
+   *
+   *   Note that this function appends the border points and
+   *   contours to your outline, but does not try to resize its
+   *   arrays.
+   *
+   * @input:
+   *   stroker ::
+   *     The target stroker handle.
+   *
+   *   outline ::
+   *     The target outline handle.
+   */</doc>

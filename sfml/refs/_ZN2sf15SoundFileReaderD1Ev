@@ -1,0 +1,7 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='62' type='void sf::SoundFileReader::~SoundFileReader()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='58'>////////////////////////////////////////////////////////////
+    /// \brief Virtual destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='216' c='_ZN2sf4priv19SoundFileReaderFlacD1Ev'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='99' c='_ZN2sf4priv18SoundFileReaderOggD1Ev'/>

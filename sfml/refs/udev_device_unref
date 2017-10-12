@@ -1,0 +1,8 @@
+<dec f='include/libudev.h' l='78' type='struct udev_device * udev_device_unref(struct udev_device * udev_device)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='245' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='336' u='c' c='_ZN12_GLOBAL__N_119getJoystickVendorIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='343' u='c' c='_ZN12_GLOBAL__N_119getJoystickVendorIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='377' u='c' c='_ZN12_GLOBAL__N_120getJoystickProductIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='384' u='c' c='_ZN12_GLOBAL__N_120getJoystickProductIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='424' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='535' u='c' c='_ZN2sf4priv12JoystickImpl11isConnectedEj'/>

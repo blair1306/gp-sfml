@@ -1,0 +1,11 @@
+<def f='include/c++/5/bits/stl_deque.h' l='1547' ll='1559' type='void std::deque::pop_front()'/>
+<use f='include/c++/5/bits/deque.tcc' l='227' u='c' c='_ZNSt5deque8_M_eraseENSt11_Deque_baseIT_T0_E8iteratorE'/>
+<doc f='include/c++/5/bits/stl_deque.h' l='1539'>/**
+       *  @brief  Removes first element.
+       *
+       *  This is a typical stack operation.  It shrinks the %deque by one.
+       *
+       *  Note that no data is returned, and if the first element&apos;s data is
+       *  needed, it should be retrieved before pop_front() is called.
+       */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='779' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>

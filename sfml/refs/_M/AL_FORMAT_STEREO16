@@ -1,0 +1,4 @@
+<dec f='include/AL/al.h' l='342'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='137' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='91' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='188' u='c'/>

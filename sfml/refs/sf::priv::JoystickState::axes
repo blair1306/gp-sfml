@@ -1,0 +1,16 @@
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='67' u='r' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='67' u='r' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<dec f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='72' type='float [8]'/>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='65' u='r' c='_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE'/>
+<offset>32</offset>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='72'>///&lt; Position of each axis, in range [-100, 100]</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='666' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='667' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='669' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='671' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='672' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='673' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='674' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='675' u='w' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='189' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='190' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

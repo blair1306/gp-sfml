@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='482' type='void XRRSetOutputPrimary(Display * dpy, Window window, RROutput output)'/>

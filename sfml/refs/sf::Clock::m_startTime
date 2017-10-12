@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/Clock.hpp' l='81' type='sf::Time'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/System/Clock.hpp' l='78'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Clock.hpp' l='81'>///&lt; Time of last reset, in microseconds</doc>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='41' u='w' c='_ZN2sf5ClockC1Ev'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='49' u='r' c='_ZNK2sf5Clock14getElapsedTimeEv'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='57' u='r' c='_ZN2sf5Clock7restartEv'/>
+<use f='codebrowser/src/SFML/System/Clock.cpp' l='58' u='w' c='_ZN2sf5Clock7restartEv'/>

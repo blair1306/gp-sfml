@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='438' type='3'/>
+<doc f='include/FLAC/stream_decoder.h' l='436'>/**&lt; The frame&apos;s data did not match the CRC in the footer. */</doc>

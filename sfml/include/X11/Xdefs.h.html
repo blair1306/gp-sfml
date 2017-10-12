@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Xdefs.h source code [include/X11/Xdefs.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'include/X11/Xdefs.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>include</a>/<a href='./'>X11</a>/<a href='Xdefs.h.html'>Xdefs.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/***********************************************************</i></td></tr>
+<tr><th id="2">2</th><td><i></i></td></tr>
+<tr><th id="3">3</th><td><i>Copyright (c) 1999  The XFree86 Project Inc.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>All Rights Reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>The above copyright notice and this permission notice shall be included in</i></td></tr>
+<tr><th id="8">8</th><td><i>all copies or substantial portions of the Software.</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</i></td></tr>
+<tr><th id="11">11</th><td><i>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</i></td></tr>
+<tr><th id="12">12</th><td><i>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE</i></td></tr>
+<tr><th id="13">13</th><td><i>OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="14">14</th><td><i>AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN</i></td></tr>
+<tr><th id="15">15</th><td><i>CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>Except as contained in this notice, the name of The XFree86 Project</i></td></tr>
+<tr><th id="18">18</th><td><i>Inc. shall not be used in advertising or otherwise to promote the</i></td></tr>
+<tr><th id="19">19</th><td><i>sale, use or other dealings in this Software without prior written</i></td></tr>
+<tr><th id="20">20</th><td><i>authorization from The XFree86 Project Inc..</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>*/</i></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc"> ** Types definitions shared between server and clients </i></td></tr>
+<tr><th id="26">26</th><td><i class="doc"> **/</i></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#<span data-ppcond="28">ifndef</span> <span class="macro" data-ref="_M/_XDEFS_H">_XDEFS_H</span></u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/_XDEFS_H" data-ref="_M/_XDEFS_H">_XDEFS_H</dfn></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="31">ifdef</span> <span class="macro" data-ref="_M/_XSERVER64">_XSERVER64</span></u></td></tr>
+<tr><th id="32">32</th><td><u>#include &lt;X11/Xmd.h&gt;</u></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="31">endif</span></u> </td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><u>#<span data-ppcond="35">ifndef</span> <a class="macro" href="X.h.html#73" data-ref="_M/_XTYPEDEF_ATOM">_XTYPEDEF_ATOM</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#  define _XTYPEDEF_ATOM</u></td></tr>
+<tr><th id="37">37</th><td><u>#  ifndef _XSERVER64</u></td></tr>
+<tr><th id="38">38</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> Atom;</td></tr>
+<tr><th id="39">39</th><td><u>#  else</u></td></tr>
+<tr><th id="40">40</th><td><b>typedef</b> CARD32 Atom;</td></tr>
+<tr><th id="41">41</th><td><u>#  endif</u></td></tr>
+<tr><th id="42">42</th><td><u>#<span data-ppcond="35">endif</span></u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><u>#<span data-ppcond="44">ifndef</span> <a class="macro" href="Xlib.h.html#82" data-ref="_M/Bool">Bool</a></u></td></tr>
+<tr><th id="45">45</th><td><u>#  ifndef _XTYPEDEF_BOOL</u></td></tr>
+<tr><th id="46">46</th><td><u>#   define _XTYPEDEF_BOOL</u></td></tr>
+<tr><th id="47">47</th><td><b>typedef</b> <em>int</em> Bool;</td></tr>
+<tr><th id="48">48</th><td><u>#  endif</u></td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="44">endif</span></u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="51">ifndef</span> <span class="macro" data-ref="_M/_XTYPEDEF_POINTER">_XTYPEDEF_POINTER</span></u></td></tr>
+<tr><th id="52">52</th><td><u>#  define <dfn class="macro" id="_M/_XTYPEDEF_POINTER" data-ref="_M/_XTYPEDEF_POINTER">_XTYPEDEF_POINTER</dfn></u></td></tr>
+<tr><th id="53">53</th><td><b>typedef</b> <em>void</em> *<dfn class="typedef" id="pointer" title='pointer' data-type='void *' data-ref="pointer">pointer</dfn>;</td></tr>
+<tr><th id="54">54</th><td><u>#<span data-ppcond="51">endif</span></u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="56">ifndef</span> <span class="macro" data-ref="_M/_XTYPEDEF_CLIENTPTR">_XTYPEDEF_CLIENTPTR</span></u></td></tr>
+<tr><th id="57">57</th><td><b>typedef</b> <b>struct</b> <dfn class="type" id="_Client" title='_Client' data-ref="_Client"><a class="type" href="#_Client" title='_Client' data-ref="_Client">_Client</a></dfn> *<dfn class="typedef" id="ClientPtr" title='ClientPtr' data-type='struct _Client *' data-ref="ClientPtr">ClientPtr</dfn>;</td></tr>
+<tr><th id="58">58</th><td><u>#  define <dfn class="macro" id="_M/_XTYPEDEF_CLIENTPTR" data-ref="_M/_XTYPEDEF_CLIENTPTR">_XTYPEDEF_CLIENTPTR</dfn></u></td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="56">endif</span></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u>#<span data-ppcond="61">ifndef</span> <a class="macro" href="X.h.html#65" data-ref="_M/_XTYPEDEF_XID">_XTYPEDEF_XID</a></u></td></tr>
+<tr><th id="62">62</th><td><u>#  define _XTYPEDEF_XID</u></td></tr>
+<tr><th id="63">63</th><td><u>#  ifndef _XSERVER64</u></td></tr>
+<tr><th id="64">64</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> XID;</td></tr>
+<tr><th id="65">65</th><td><u>#  else</u></td></tr>
+<tr><th id="66">66</th><td><b>typedef</b> CARD32 XID;</td></tr>
+<tr><th id="67">67</th><td><u>#  endif</u></td></tr>
+<tr><th id="68">68</th><td><u>#<span data-ppcond="61">endif</span></u></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><u>#<span data-ppcond="70">ifndef</span> <a class="macro" href="X.h.html#69" data-ref="_M/_XTYPEDEF_MASK">_XTYPEDEF_MASK</a></u></td></tr>
+<tr><th id="71">71</th><td><u>#  define _XTYPEDEF_MASK</u></td></tr>
+<tr><th id="72">72</th><td><u>#  ifndef _XSERVER64</u></td></tr>
+<tr><th id="73">73</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> Mask;</td></tr>
+<tr><th id="74">74</th><td><u>#  else</u></td></tr>
+<tr><th id="75">75</th><td><b>typedef</b> CARD32 Mask;</td></tr>
+<tr><th id="76">76</th><td><u>#  endif</u></td></tr>
+<tr><th id="77">77</th><td><u>#<span data-ppcond="70">endif</span></u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><u>#<span data-ppcond="79">ifndef</span> <span class="macro" data-ref="_M/_XTYPEDEF_FONTPTR">_XTYPEDEF_FONTPTR</span></u></td></tr>
+<tr><th id="80">80</th><td><u>#  define <dfn class="macro" id="_M/_XTYPEDEF_FONTPTR" data-ref="_M/_XTYPEDEF_FONTPTR">_XTYPEDEF_FONTPTR</dfn></u></td></tr>
+<tr><th id="81">81</th><td><b>typedef</b> <b>struct</b> <dfn class="type" id="_Font" title='_Font' data-ref="_Font"><a class="type" href="#_Font" title='_Font' data-ref="_Font">_Font</a></dfn> *<dfn class="typedef" id="FontPtr" title='FontPtr' data-type='struct _Font *' data-ref="FontPtr">FontPtr</dfn>; <i>/* also in fonts/include/font.h */</i></td></tr>
+<tr><th id="82">82</th><td><u>#<span data-ppcond="79">endif</span></u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><u>#<span data-ppcond="84">ifndef</span> <a class="macro" href="X.h.html#99" data-ref="_M/_XTYPEDEF_FONT">_XTYPEDEF_FONT</a></u></td></tr>
+<tr><th id="85">85</th><td><u>#  define _XTYPEDEF_FONT</u></td></tr>
+<tr><th id="86">86</th><td><b>typedef</b> XID	Font;</td></tr>
+<tr><th id="87">87</th><td><u>#<span data-ppcond="84">endif</span></u></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td><u>#<span data-ppcond="89">ifndef</span> <span class="macro" data-ref="_M/_XTYPEDEF_FSID">_XTYPEDEF_FSID</span></u></td></tr>
+<tr><th id="90">90</th><td><u>#  <span data-ppcond="90">ifndef</span> <span class="macro" data-ref="_M/_XSERVER64">_XSERVER64</span></u></td></tr>
+<tr><th id="91">91</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <dfn class="typedef" id="FSID" title='FSID' data-type='unsigned long' data-ref="FSID">FSID</dfn>;</td></tr>
+<tr><th id="92">92</th><td><u>#  <span data-ppcond="90">else</span></u></td></tr>
+<tr><th id="93">93</th><td><b>typedef</b> CARD32 FSID;</td></tr>
+<tr><th id="94">94</th><td><u>#  <span data-ppcond="90">endif</span></u></td></tr>
+<tr><th id="95">95</th><td><u>#<span data-ppcond="89">endif</span></u></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><b>typedef</b> <a class="typedef" href="#FSID" title='FSID' data-type='unsigned long' data-ref="FSID">FSID</a> <dfn class="typedef" id="AccContext" title='AccContext' data-type='FSID' data-ref="AccContext">AccContext</dfn>;</td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td><i>/* OS independent time value </i></td></tr>
+<tr><th id="100">100</th><td><i>   XXX Should probably go in Xos.h */</i></td></tr>
+<tr><th id="101">101</th><td><b>typedef</b> <b>struct</b> <a class="type" href="../x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> **<dfn class="typedef" id="OSTimePtr" title='OSTimePtr' data-type='struct timeval **' data-ref="OSTimePtr">OSTimePtr</dfn>;</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><b>typedef</b> <em>void</em> (* <dfn class="typedef" id="BlockHandlerProcPtr" title='BlockHandlerProcPtr' data-type='void (*)(void *, OSTimePtr, void *)' data-ref="BlockHandlerProcPtr">BlockHandlerProcPtr</dfn>)(<em>void</em> * <i>/* blockData */</i>,</td></tr>
+<tr><th id="105">105</th><td>				     <a class="typedef" href="#OSTimePtr" title='OSTimePtr' data-type='struct timeval **' data-ref="OSTimePtr">OSTimePtr</a> <i>/* pTimeout */</i>,</td></tr>
+<tr><th id="106">106</th><td>				     <em>void</em> * <i>/* pReadmask */</i>);</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><u>#<span data-ppcond="28">endif</span></u></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp.html'>codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project include<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

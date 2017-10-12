@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='107' type='unsigned int'/>
+<offset>160</offset>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='107'>///&lt; Optional depth buffer attached to the frame buffer</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='42' u='w' c='_ZN2sf4priv20RenderTextureImplFBOC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='54' u='r' c='_ZN2sf4priv20RenderTextureImplFBOD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='56' u='r' c='_ZN2sf4priv20RenderTextureImplFBOD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='106' u='w' c='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='107' u='r' c='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='112' u='r' c='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='114' u='r' c='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>

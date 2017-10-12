@@ -1,0 +1,3 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='792' type='int stbi__bmp_info(stbi__context * s, int * x, int * y, int * comp)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6650' ll='6664' type='int stbi__bmp_info(stbi__context * s, int * x, int * y, int * comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6904' u='c' c='_ZL15stbi__info_mainP13stbi__contextPiS1_S1_'/>

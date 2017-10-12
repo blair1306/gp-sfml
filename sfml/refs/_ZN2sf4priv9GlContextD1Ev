@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='150' type='void sf::priv::GlContext::~GlContext()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='146'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='456' ll='464' type='void sf::priv::GlContext::~GlContext()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='455'>////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='173' c='_ZN2sf4priv10GlxContextD1Ev'/>

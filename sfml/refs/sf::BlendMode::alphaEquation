@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='120' type='sf::BlendMode::Equation'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='51' u='w' c='_ZN2sf9BlendModeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='64' u='w' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='79' u='w' c='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='93' u='r' c='_ZN2sfeqERKNS_9BlendModeES2_'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='93' u='r' c='_ZN2sfeqERKNS_9BlendModeES2_'/>
+<offset>160</offset>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='120'>///&lt; Blending equation for the alpha channel</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='469' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='476' u='r' c='_ZN2sf12RenderTarget14applyBlendModeERKNS_9BlendModeE'/>

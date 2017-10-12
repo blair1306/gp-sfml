@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Network/Socket.hpp' l='114' ll='118'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='110'>////////////////////////////////////////////////////////////
+    /// \brief Types of protocols that the socket can use
+    ///
+    ////////////////////////////////////////////////////////////</doc>

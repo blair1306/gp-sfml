@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='191' type='void sf::Text::setFillColor(const sf::Color &amp; color)'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='158' u='c' c='_ZN2sf4Text8setColorERKNS_5ColorE'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='163' ll='177' type='void sf::Text::setFillColor(const sf::Color &amp; color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='162'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='179'>////////////////////////////////////////////////////////////
+    /// \brief Set the fill color of the text
+    ///
+    /// By default, the text&apos;s fill color is opaque white.
+    /// Setting the fill color to a transparent color with an outline
+    /// will cause the outline to be displayed in the fill area of the text.
+    ///
+    /// \param color New fill color of the text
+    ///
+    /// \see getFillColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

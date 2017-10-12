@@ -1,0 +1,4 @@
+<dec f='include/GL/glext.h' l='895'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='100' u='a'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='262' u='c'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='636' u='c'/>

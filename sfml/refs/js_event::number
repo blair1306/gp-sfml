@@ -1,0 +1,7 @@
+<dec f='include/linux/joystick.h' l='51' type='__u8'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='662' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='664' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='685' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='686' u='r' c='_ZN2sf4priv12JoystickImpl6updateEv'/>
+<offset>56</offset>
+<doc f='include/linux/joystick.h' l='51'>/* axis/button number */</doc>

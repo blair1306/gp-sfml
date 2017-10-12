@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='185' type='-1'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='230' u='r' c='_ZN2sf5Music6onLoopEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='185'>///&lt; &quot;Invalid&quot; endSeeks value, telling us to continue uninterrupted</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='287' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='347' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='351' u='r' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='433' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='437' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

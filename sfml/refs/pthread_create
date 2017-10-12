@@ -1,0 +1,7 @@
+<dec f='include/pthread.h' l='233' type='int pthread_create(pthread_t *__restrict __newthread, const pthread_attr_t *__restrict __attr, void *(*)(void *) __start_routine, void *__restrict __arg)'/>
+<use f='include/x86_64-linux-gnu/c++/5/bits/gthr-default.h' l='105' c='__gthrw_pthread_create'/>
+<doc f='include/pthread.h' l='230'>/* Create a new thread, starting with execution of START-ROUTINE
+   getting passed ARG.  Creation attributed come from ATTR.  The new
+   handle is stored in *NEWTHREAD.  */</doc>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='42' u='c' c='_ZN2sf4priv10ThreadImplC1EPNS_6ThreadE'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='90' u='c' c='_ZN12_GLOBAL__N_113initClipboardEv'/>

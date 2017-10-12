@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Network/Ftp.hpp' l='55' ll='60'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Enumeration of transfer modes
+    ///
+    ////////////////////////////////////////////////////////////</doc>

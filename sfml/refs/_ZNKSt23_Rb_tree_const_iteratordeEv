@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_tree.h' l='273' ll='275' type='reference std::_Rb_tree_const_iterator::operator*() const'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='76' u='c' c='_ZN2sf11SoundBufferD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='261' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='272' u='c' c='_ZN2sf11SoundBuffer6updateEjj'/>

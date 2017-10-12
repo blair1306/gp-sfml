@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Config.hpp' l='82'/>
+<doc f='codebrowser/include/SFML/Config.hpp' l='81'>// Linux</doc>
+<use f='codebrowser/include/SFML/Window/WindowHandle.hpp' l='45' u='a'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='44' u='a'/>
+<use f='codebrowser/src/SFML/Window/ClipboardImpl.hpp' l='35' u='a'/>
+<use f='codebrowser/src/SFML/Window/CursorImpl.hpp' l='37' u='a'/>
+<use f='codebrowser/include/SFML/OpenGL.hpp' l='48' u='a'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='50' u='a'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='85' u='a'/>
+<use f='codebrowser/src/SFML/Window/InputImpl.hpp' l='35' u='a'/>
+<use f='codebrowser/src/SFML/Window/SensorImpl.hpp' l='38' u='a'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='41' u='a'/>

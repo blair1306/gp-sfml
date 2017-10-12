@@ -1,0 +1,2 @@
+<def f='include/c++/5/ostream' l='169' ll='171' type='__ostream_type &amp; std::basic_ostream::operator&lt;&lt;(unsigned long __n)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='368' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>

@@ -1,0 +1,49 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='545' type='priv::WindowImpl *'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='542'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='545'>///&lt; Platform-specific implementation of the window</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='45' u='w' c='_ZN2sf6WindowC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='56' u='w' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='67' u='w' c='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='124' u='w' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='127' u='r' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='141' u='w' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='144' u='r' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='159' u='r' c='_ZN2sf6Window5closeEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='160' u='w' c='_ZN2sf6Window5closeEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='171' u='r' c='_ZNK2sf6Window6isOpenEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='187' u='r' c='_ZN2sf6Window9pollEventERNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='187' u='r' c='_ZN2sf6Window9pollEventERNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='201' u='r' c='_ZN2sf6Window9waitEventERNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='201' u='r' c='_ZN2sf6Window9waitEventERNS_5EventE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='215' u='r' c='_ZNK2sf6Window11getPositionEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='215' u='r' c='_ZNK2sf6Window11getPositionEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='222' u='r' c='_ZN2sf6Window11setPositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='223' u='r' c='_ZN2sf6Window11setPositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='237' u='r' c='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='239' u='r' c='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='254' u='r' c='_ZN2sf6Window8setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='255' u='r' c='_ZN2sf6Window8setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='262' u='r' c='_ZN2sf6Window7setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='263' u='r' c='_ZN2sf6Window7setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='270' u='r' c='_ZN2sf6Window10setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='271' u='r' c='_ZN2sf6Window10setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='286' u='r' c='_ZN2sf6Window21setMouseCursorVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='287' u='r' c='_ZN2sf6Window21setMouseCursorVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='294' u='r' c='_ZN2sf6Window21setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='295' u='r' c='_ZN2sf6Window21setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='302' u='r' c='_ZN2sf6Window14setMouseCursorERKNS_6CursorE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='303' u='r' c='_ZN2sf6Window14setMouseCursorERKNS_6CursorE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='310' u='r' c='_ZN2sf6Window19setKeyRepeatEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='311' u='r' c='_ZN2sf6Window19setKeyRepeatEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='328' u='r' c='_ZN2sf6Window20setJoystickThresholdEf'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='329' u='r' c='_ZN2sf6Window20setJoystickThresholdEf'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='358' u='r' c='_ZN2sf6Window12requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='359' u='r' c='_ZN2sf6Window12requestFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='366' u='r' c='_ZNK2sf6Window8hasFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='366' u='r' c='_ZNK2sf6Window8hasFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='390' u='r' c='_ZNK2sf6Window15getSystemHandleEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='390' u='r' c='_ZNK2sf6Window15getSystemHandleEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='437' u='r' c='_ZN2sf6Window10initializeEv'/>

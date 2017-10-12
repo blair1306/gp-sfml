@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='51' type='static void sf::priv::SensorImpl::cleanup()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Perform the global cleanup of the sensor module
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='124' u='c' c='_ZN2sf4priv13SensorManagerD1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='43' ll='46' type='static void sf::priv::SensorImpl::cleanup()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/SensorImpl.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='185' type='unsigned int'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='90' u='w' c='_ZN2sf4Http7Request14setHttpVersionEjj'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='119' u='r' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='375' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>736</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='185'>///&lt; Minor HTTP version</doc>

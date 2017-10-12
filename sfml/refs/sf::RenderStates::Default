@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='110' type='const sf::RenderStates'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='107'>////////////////////////////////////////////////////////////
+    // Static member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='110'>///&lt; Special instance holding the default render states</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='37' ll='39' type='const sf::RenderStates'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='34'>////////////////////////////////////////////////////////////
+// We cannot use the default constructor here, because it accesses BlendAlpha, which is also global (and dynamically
+// initialized). Initialization order of global objects in different translation units is not defined.</doc>
+<use f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='236' c='_ZN2sf12RenderTarget4drawERKNS_8DrawableERKNS_12RenderStatesE'/>
+<use f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='248' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='236' c='_ZN2sf12RenderTarget4drawERKNS_8DrawableERKNS_12RenderStatesE'/>
+<use f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='248' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>

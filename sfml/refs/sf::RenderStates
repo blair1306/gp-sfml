@@ -1,0 +1,17 @@
+<def f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='45' ll='119'/>
+<size>104</size>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Define the states used for drawing to a RenderTarget
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf12RenderStatesC1Ev'/>
+<fun r='_ZN2sf12RenderStatesC1ERKNS_9BlendModeE'/>
+<fun r='_ZN2sf12RenderStatesC1ERKNS_9TransformE'/>
+<fun r='_ZN2sf12RenderStatesC1EPKNS_7TextureE'/>
+<fun r='_ZN2sf12RenderStatesC1EPKNS_6ShaderE'/>
+<fun r='_ZN2sf12RenderStatesC1ERKNS_9BlendModeERKNS_9TransformEPKNS_7TextureEPKNS_6ShaderE'/>
+<smbr r='sf::RenderStates::Default' t='const sf::RenderStates'/>
+<mbr r='sf::RenderStates::blendMode' o='0' t='sf::BlendMode'/>
+<mbr r='sf::RenderStates::transform' o='192' t='sf::Transform'/>
+<mbr r='sf::RenderStates::texture' o='704' t='const sf::Texture *'/>
+<mbr r='sf::RenderStates::shader' o='768' t='const sf::Shader *'/>

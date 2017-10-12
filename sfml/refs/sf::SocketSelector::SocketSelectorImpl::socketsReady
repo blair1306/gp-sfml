@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='46' type='fd_set'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='139' u='a' c='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='148' u='a' c='_ZN2sf14SocketSelector5clearEv'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='164' u='w' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='168' u='a' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='188' u='a' c='_ZNK2sf14SocketSelector7isReadyERNS_6SocketE'/>
+<offset>1024</offset>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='46'>///&lt; Set containing handles of the sockets that are ready</doc>

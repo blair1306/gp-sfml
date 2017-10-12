@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='184' type='void sf::InputSoundFile::seek(sf::Time timeOffset)'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='239' ll='242' type='void sf::InputSoundFile::seek(sf::Time timeOffset)'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='238'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='172'>////////////////////////////////////////////////////////////
+    /// \brief Change the current read position to the given time offset
+    ///
+    /// Using a time offset is handy but imprecise. If you need an accurate
+    /// result, consider using the overload which takes a sample offset.
+    ///
+    /// If the given time exceeds to total duration, this function jumps
+    /// to the end of the sound file.
+    ///
+    /// \param timeOffset Time to jump to, relative to the beginning
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='207' u='c' c='_ZN2sf5Music6onSeekENS_4TimeE'/>

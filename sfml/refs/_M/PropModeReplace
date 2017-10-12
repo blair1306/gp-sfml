@@ -1,0 +1,14 @@
+<dec f='include/X11/X.h' l='475'/>
+<doc f='include/X11/X.h' l='473'>/* Property modes */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='141' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='145' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='149' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='660' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='903' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='908' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1022' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1330' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1409' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1423' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1469' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1506' u='c'/>

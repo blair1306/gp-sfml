@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='186' ll='189'/>
+<size>16</size>
+<mbr r='_XLinearGradient::p1' o='0' t='XPointFixed'/>
+<mbr r='_XLinearGradient::p2' o='64' t='XPointFixed'/>

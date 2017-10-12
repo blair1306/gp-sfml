@@ -1,0 +1,10 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1677' type='stbi_uc *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2943' u='r' c='_ZL26stbi__free_jpeg_componentsP10stbi__jpegii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2944' u='r' c='_ZL26stbi__free_jpeg_componentsP10stbi__jpegii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2945' u='w' c='_ZL26stbi__free_jpeg_componentsP10stbi__jpegii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2964' u='w' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3014' u='w' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3559' u='w' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3560' u='r' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3586' u='r' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<offset>576</offset>

@@ -1,0 +1,2 @@
+<dec f='include/FLAC/stream_decoder.h' l='435' type='2'/>
+<doc f='include/FLAC/stream_decoder.h' l='433'>/**&lt; The decoder encountered a corrupted frame header. */</doc>

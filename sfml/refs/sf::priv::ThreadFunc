@@ -1,0 +1,8 @@
+<def f='codebrowser/include/SFML/System/Thread.inl' l='28' ll='32'/>
+<ovr f='codebrowser/include/SFML/System/Thread.inl' l='36' c='sf::priv::ThreadFunctor'/>
+<ovr f='codebrowser/include/SFML/System/Thread.inl' l='45' c='sf::priv::ThreadFunctorWithArg'/>
+<ovr f='codebrowser/include/SFML/System/Thread.inl' l='55' c='sf::priv::ThreadMemberFunc'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/Thread.inl' l='27'>// Base class for abstract thread functions</doc>
+<fun r='_ZN2sf4priv10ThreadFuncD1Ev'/>
+<fun r='_ZN2sf4priv10ThreadFunc3runEv'/>

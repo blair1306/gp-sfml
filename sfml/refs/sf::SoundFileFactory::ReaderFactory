@@ -1,0 +1,7 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='146' ll='150'/>
+<size>16</size>
+<doc f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='143'>////////////////////////////////////////////////////////////
+    // Types
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::SoundFileFactory::ReaderFactory::check' o='0' t='bool (*)(sf::InputStream &amp;)'/>
+<mbr r='sf::SoundFileFactory::ReaderFactory::create' o='64' t='sf::SoundFileReader *(*)()'/>

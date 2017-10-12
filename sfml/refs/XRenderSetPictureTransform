@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='267' type='void XRenderSetPictureTransform(Display * dpy, Picture picture, XTransform * transform)'/>

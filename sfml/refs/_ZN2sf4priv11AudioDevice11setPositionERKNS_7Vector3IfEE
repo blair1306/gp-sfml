@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='120' type='static void sf::priv::AudioDevice::setPosition(const Vector3f &amp; position)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='110'>////////////////////////////////////////////////////////////
+    /// \brief Set the position of the listener in the scene
+    ///
+    /// The default listener&apos;s position is (0, 0, 0).
+    ///
+    /// \param position New listener&apos;s position
+    ///
+    /// \see getPosition, setDirection
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='171' ll='177' type='static void sf::priv::AudioDevice::setPosition(const Vector3f &amp; position)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='170'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='58' u='c' c='_ZN2sf8Listener11setPositionERKNS_7Vector3IfEE'/>

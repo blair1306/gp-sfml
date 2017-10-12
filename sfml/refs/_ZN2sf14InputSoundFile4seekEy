@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='170' type='void sf::InputSoundFile::seek(Uint64 sampleOffset)'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='226' ll='235' type='void sf::InputSoundFile::seek(Uint64 sampleOffset)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='241' u='c' c='_ZN2sf14InputSoundFile4seekENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='225'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='154'>////////////////////////////////////////////////////////////
+    /// \brief Change the current read position to the given sample offset
+    ///
+    /// This function takes a sample offset to provide maximum
+    /// precision. If you need to jump to a given time, use the
+    /// other overload.
+    ///
+    /// The sample offset takes the channels into account.
+    /// Offsets can be calculated like this:
+    /// `sampleNumber * sampleRate * channelCount`
+    /// If the given offset exceeds to total number of samples,
+    /// this function jumps to the end of the sound file.
+    ///
+    /// \param sampleOffset Index of the sample to jump to, relative to the beginning
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='221' u='c' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='227' u='c' c='_ZN2sf5Music6onLoopEv'/>

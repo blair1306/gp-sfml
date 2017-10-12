@@ -1,0 +1,5 @@
+<dec f='include/time.h' l='123' type='__syscall_slong_t'/>
+<offset>64</offset>
+<doc f='include/time.h' l='123'>/* Nanoseconds.  */</doc>
+<use f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='57' u='r' c='_ZN2sf4priv9ClockImpl14getCurrentTimeEv'/>
+<use f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='44' u='w' c='_ZN2sf4priv9sleepImplENS_4TimeE'/>

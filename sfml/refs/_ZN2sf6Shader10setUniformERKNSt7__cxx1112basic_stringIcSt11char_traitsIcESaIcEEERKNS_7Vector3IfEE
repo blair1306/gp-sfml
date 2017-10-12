@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='315' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Vec3 &amp; vector)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='308'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p vec3 uniform
+    ///
+    /// \param name   Name of the uniform variable in GLSL
+    /// \param vector Value of the vec3 vector
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='444' ll='449' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Vec3 &amp; v)'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='680' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='701' u='c' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='443'>////////////////////////////////////////////////////////////</doc>

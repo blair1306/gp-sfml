@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='214' type='sf::Time sf::SoundBuffer::getDuration() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='206'>////////////////////////////////////////////////////////////
+    /// \brief Get the total duration of the sound
+    ///
+    /// \return Sound duration
+    ///
+    /// \see getSampleRate, getChannelCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='197' ll='200' type='sf::Time sf::SoundBuffer::getDuration() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='196'>////////////////////////////////////////////////////////////</doc>

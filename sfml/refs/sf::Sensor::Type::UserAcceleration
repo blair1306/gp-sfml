@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/Window/Sensor.hpp' l='56' type='4'/>
+<doc f='codebrowser/include/SFML/Window/Sensor.hpp' l='56'>///&lt; Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)</doc>

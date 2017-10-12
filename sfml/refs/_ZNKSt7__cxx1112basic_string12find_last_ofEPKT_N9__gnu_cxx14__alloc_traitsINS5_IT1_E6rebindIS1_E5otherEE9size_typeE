@@ -1,0 +1,18 @@
+<def f='include/c++/5/bits/basic_string.h' l='2132' ll='2137' type='size_type std::__cxx11::basic_string::find_last_of(const _CharT * __s, size_type __pos = npos) const'/>
+<use f='codebrowser/src/SFML/Audio/ALCheck.cpp' l='90' u='c' c='_ZN2sf4priv12alCheckErrorEPKcjS2_'/>
+<doc f='include/c++/5/bits/basic_string.h' l='2122'>/**
+       *  @brief  Find last position of a character of C string.
+       *  @param __s  C string containing characters to locate.
+       *  @param __pos  Index of character to search back from (default end).
+       *  @return  Index of last occurrence.
+       *
+       *  Starting from @a __pos, searches backward for one of the
+       *  characters of @a __s within this string.  If found, returns
+       *  the index where it was found.  If not found, returns npos.
+      */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='42' u='c' c='_ZN2sf4priv19SoundFileWriterFlac5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='43' u='c' c='_ZN2sf4priv18SoundFileWriterOgg5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='80' u='c' c='_ZN2sf4priv18SoundFileWriterWav5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/GLCheck.cpp' l='104' u='c' c='_ZN2sf4priv12glCheckErrorEPKcjS2_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='291' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='334' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>

@@ -1,0 +1,5 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1818' type='FT_Error FT_Init_FreeType(FT_Library * alibrary)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='134' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='199' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='254' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<doc f='include/freetype2/freetype/freetype.h' l='1816'>/*                                                                       */</doc>

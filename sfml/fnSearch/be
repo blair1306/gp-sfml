@@ -1,0 +1,9 @@
+_ZNSt8_Rb_tree5beginEv|std::_Rb_tree::begin
+_ZNKSt8multiset5beginEv|std::multiset::begin
+_ZNKSt3set5beginEv|std::set::begin
+_ZNSt17_Temporary_buffer5beginEv|std::_Temporary_buffer::begin
+_ZNSt6vector5beginEv|std::vector::begin
+_ZNSt3map5beginEv|std::map::begin
+_ZNSt8multimap5beginEv|std::multimap::begin
+_ZN2sf6String5beginB5cxx11Ev|sf::String::begin
+_ZNSt5deque5beginEv|std::deque::begin

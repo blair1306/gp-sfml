@@ -1,0 +1,6 @@
+<dec f='include/X11/Xlib.h' l='265' type='int'/>
+<offset>448</offset>
+<doc f='include/X11/Xlib.h' l='265'>/* bits per pixel */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='534' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='152' macro='1' u='r'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='951' macro='1' u='r'/>

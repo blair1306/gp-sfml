@@ -1,0 +1,12 @@
+<dec f='include/x86_64-linux-gnu/sys/select.h' l='106' type='int select(int __nfds, fd_set *__restrict __readfds, fd_set *__restrict __writefds, fd_set *__restrict __exceptfds, struct timeval *__restrict __timeout)'/>
+<doc f='include/x86_64-linux-gnu/sys/select.h' l='98'>/* Check the first NFDS descriptors each in READFDS (if not NULL) for read
+   readiness, in WRITEFDS (if not NULL) for write readiness, and in EXCEPTFDS
+   (if not NULL) for exceptional conditions.  If TIMEOUT is not NULL, time out
+   after waiting the interval specified therein.  Returns the number of ready
+   descriptors, or -1 for errors.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='168' u='c' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='178' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='261' u='c' c='_ZN12_GLOBAL__N_115hasMonitorEventEv'/>

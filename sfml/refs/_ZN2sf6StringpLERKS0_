@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='319' type='sf::String &amp; sf::String::operator+=(const sf::String &amp; right)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='311'>////////////////////////////////////////////////////////////
+    /// \brief Overload of += operator to append an UTF-32 string
+    ///
+    /// \param right String to append
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='367' u='c' c='_ZN2sf6PacketrsERNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='221' ll='225' type='sf::String &amp; sf::String::operator+=(const sf::String &amp; right)'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='395' u='c' c='_ZN2sfplERKNS_6StringES2_'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='220'>////////////////////////////////////////////////////////////</doc>

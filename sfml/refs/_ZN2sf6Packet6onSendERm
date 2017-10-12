@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='238' type='const void * sf::Packet::onSend(std::size_t &amp; size)'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='583' ll='587' type='const void * sf::Packet::onSend(std::size_t &amp; size)'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='582'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='220'>////////////////////////////////////////////////////////////
+    /// \brief Called before the packet is sent over the network
+    ///
+    /// This function can be defined by derived classes to
+    /// transform the data before it is sent; this can be
+    /// used for compression, encryption, etc.
+    /// The function must return a pointer to the modified data,
+    /// as well as the number of bytes pointed.
+    /// The default implementation provides the packet&apos;s data
+    /// without transforming it.
+    ///
+    /// \param size Variable to fill with the size of data to send
+    ///
+    /// \return Pointer to the array of bytes to send
+    ///
+    /// \see onReceive
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='311' u='c' c='_ZN2sf9TcpSocket4sendERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='172' u='c' c='_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt'/>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='137' type='void sf::VertexArray::append(const sf::Vertex &amp; vertex)'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='131'>////////////////////////////////////////////////////////////
+    /// \brief Add a vertex to the array
+    ///
+    /// \param vertex Vertex to add
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='42' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='43' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='44' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='45' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='46' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='47' u='c' c='_ZN12_GLOBAL__N_17addLineERN2sf11VertexArrayEffRKNS0_5ColorEfff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='63' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='64' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='65' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='66' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='67' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='68' u='c' c='_ZN12_GLOBAL__N_112addGlyphQuadERN2sf11VertexArrayENS0_7Vector2IfEERKNS0_5ColorERKNS0_5GlyphEff'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='86' ll='89' type='void sf::VertexArray::append(const sf::Vertex &amp; vertex)'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='85'>////////////////////////////////////////////////////////////</doc>

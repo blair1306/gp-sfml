@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='140' type='void sf::priv::WindowImplX11::setVisible(bool visible)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='134'>////////////////////////////////////////////////////////////
+    /// \brief Show or hide the window
+    ///
+    /// \param visible True to show, false to hide
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='181' c='_ZN2sf4priv10WindowImpl10setVisibleEb'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1031' ll='1055' type='void sf::priv::WindowImplX11::setVisible(bool visible)'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1475' u='c' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1030'>////////////////////////////////////////////////////////////</doc>

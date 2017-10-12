@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='100' type='void sf::Sound::pause()'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='78' ll='81' type='void sf::Sound::pause()'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='77'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='91'>////////////////////////////////////////////////////////////
+    /// \brief Pause the sound
+    ///
+    /// This function pauses the sound if it was playing,
+    /// otherwise (sound already paused or stopped) it has no effect.
+    ///
+    /// \see play, stop
+    ///
+    ////////////////////////////////////////////////////////////</doc>

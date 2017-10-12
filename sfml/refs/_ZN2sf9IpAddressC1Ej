@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='109' type='void sf::IpAddress::IpAddress(Uint32 address)'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='96'>////////////////////////////////////////////////////////////
+    /// \brief Construct the address from a 32-bits integer
+    ///
+    /// This constructor uses the internal representation of
+    /// the address directly. It should be used for optimization
+    /// purposes, and only if you got that representation from
+    /// IpAddress::toInteger().
+    ///
+    /// \param address 4 bytes of the address packed into a 32-bits integer
+    ///
+    /// \see toInteger
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='79' ll='83' type='void sf::IpAddress::IpAddress(Uint32 address)'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='137' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='78'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='90' u='c' c='_ZNK2sf9TcpSocket16getRemoteAddressEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='152' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>

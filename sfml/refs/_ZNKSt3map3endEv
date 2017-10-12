@@ -1,0 +1,9 @@
+<def f='include/c++/5/bits/stl_map.h' l='364' ll='366' type='const_iterator std::map::end() const'/>
+<doc f='include/c++/5/bits/stl_map.h' l='359'>/**
+       *  Returns a read-only (constant) iterator that points one past the last
+       *  pair in the %map.  Iteration is done in ascending order according to
+       *  the keys.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='122' u='c' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='140' u='c' c='_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='158' u='c' c='_ZNK2sf4Http8Response8getFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

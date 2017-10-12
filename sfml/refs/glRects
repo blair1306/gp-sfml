@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1487' type='void glRects(GLshort , GLshort , GLshort , GLshort )'/>
+<dec f='include/GL/gl.h' l='1111' type='void glRects(GLshort x1, GLshort y1, GLshort x2, GLshort y2)'/>

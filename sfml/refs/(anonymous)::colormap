@@ -1,0 +1,15 @@
+<dec f='include/X11/Xlib.h' l='304' type='Colormap'/>
+<dec f='include/X11/Xlib.h' l='326' type='Colormap'/>
+<dec f='include/X11/Xlib.h' l='888' type='Colormap'/>
+<offset>320</offset>
+<doc f='include/X11/Xlib.h' l='304'>/* color map to be associated with window */</doc>
+<doc f='include/X11/Xlib.h' l='326'>/* color map to be associated with window */</doc>
+<doc f='include/X11/Xlib.h' l='888'>/* COLORMAP or None */</doc>
+<dec f='include/X11/Xutil.h' l='321' type='Colormap'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='527' u='w' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<dec f='include/X11/extensions/Xrender.h' l='51' type='Colormap'/>
+<offset>256</offset>
+<dec f='include/X11/Xproto.h' l='459' type='CARD32'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='568' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<offset>224</offset>

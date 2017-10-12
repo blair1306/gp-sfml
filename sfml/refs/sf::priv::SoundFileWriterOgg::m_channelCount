@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='110' type='unsigned int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='107'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='110'>// channel count of the sound being written</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='52' u='w' c='_ZN2sf4priv18SoundFileWriterOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='72' u='w' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='137' u='r' c='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='147' u='r' c='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6889' ll='6929' type='int stbi__info_main(stbi__context * s, int * x, int * y, int * comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6948' u='c' c='stbi_info_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6958' u='c' c='stbi_info_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6965' u='c' c='stbi_info_from_callbacks'/>

@@ -1,0 +1,11 @@
+<dec f='include/X11/Xlib.h' l='92'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='69' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='527' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='530' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='57' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='140' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='965' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1245' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1273' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1292' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1300' u='c'/>

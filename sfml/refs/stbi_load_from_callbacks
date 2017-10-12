@@ -1,0 +1,3 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='355' type='stbi_uc * stbi_load_from_callbacks(const stbi_io_callbacks * clbk, void * user, int * x, int * y, int * channels_in_file, int desired_channels)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1201' ll='1206' macro='1' type='stbi_uc * stbi_load_from_callbacks(const stbi_io_callbacks * clbk, void * user, int * x, int * y, int * comp, int req_comp)'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='203' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>

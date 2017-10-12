@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='113' type='void sf::Sprite::setTextureRect(const IntRect &amp; rectangle)'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='59' u='c' c='_ZN2sf6SpriteC1ERKNS_7TextureERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='68' u='c' c='_ZN2sf6Sprite10setTextureERKNS_7TextureEb'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='76' ll='84' type='void sf::Sprite::setTextureRect(const IntRect &amp; rectangle)'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='75'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='101'>////////////////////////////////////////////////////////////
+    /// \brief Set the sub-rectangle of the texture that the sprite will display
+    ///
+    /// The texture rect is useful when you don&apos;t want to display
+    /// the whole texture, but rather a part of it.
+    /// By default, the texture rect covers the entire texture.
+    ///
+    /// \param rectangle Rectangle defining the region of the texture to display
+    ///
+    /// \see getTextureRect, setTexture
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/streambuf_iterator.h' l='102' ll='103' type='void std::istreambuf_iterator::istreambuf_iterator&lt;_CharT, _Traits&gt;()'/>
+<doc f='include/c++/5/bits/streambuf_iterator.h' l='101'>///  Construct end of input stream iterator.</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='247' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='262' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

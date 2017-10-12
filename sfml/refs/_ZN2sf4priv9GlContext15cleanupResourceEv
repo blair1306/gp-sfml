@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='70' type='static void sf::priv::GlContext::cleanupResource()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='61'>////////////////////////////////////////////////////////////
+    /// \brief Perform resource cleanup
+    ///
+    /// This function is called every time an OpenGL resource is
+    /// destroyed. When the last resource is destroyed, it makes
+    /// sure that everything that was created by initResource()
+    /// is properly released.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='286' ll='304' type='static void sf::priv::GlContext::cleanupResource()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='285'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlResource.cpp' l='44' u='c' c='_ZN2sf10GlResourceD1Ev'/>

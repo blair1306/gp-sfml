@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='241' type='void sf::View::zoom(float factor)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='226'>////////////////////////////////////////////////////////////
+    /// \brief Resize the view rectangle relatively to its current size
+    ///
+    /// Resizing the view simulates a zoom, as the zone displayed on
+    /// screen grows or shrinks.
+    /// \a factor is a multiplier:
+    /// \li 1 keeps the size unchanged
+    /// \li &gt; 1 makes the view bigger (objects appear smaller)
+    /// \li &lt; 1 makes the view smaller (objects appear bigger)
+    ///
+    /// \param factor Zoom factor to apply
+    ///
+    /// \see setSize, move, rotate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='191' ll='194' type='void sf::View::zoom(float factor)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='190'>////////////////////////////////////////////////////////////</doc>

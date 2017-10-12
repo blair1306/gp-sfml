@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='80' type='void sf::SocketSelector::add(sf::Socket &amp; socket)'/>
+<def f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='76' ll='114' type='void sf::SocketSelector::add(sf::Socket &amp; socket)'/>
+<doc f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='75'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='67'>////////////////////////////////////////////////////////////
+    /// \brief Add a new socket to the selector
+    ///
+    /// This function keeps a weak reference to the socket,
+    /// so you have to make sure that the socket is not destroyed
+    /// while it is stored in the selector.
+    /// This function does nothing if the socket is not valid.
+    ///
+    /// \param socket Reference to the socket to add
+    ///
+    /// \see remove, clear
+    ///
+    ////////////////////////////////////////////////////////////</doc>

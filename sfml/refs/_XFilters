@@ -1,0 +1,6 @@
+<def f='include/X11/extensions/Xrender.h' l='161' ll='166'/>
+<size>32</size>
+<mbr r='_XFilters::nfilter' o='0' t='int'/>
+<mbr r='_XFilters::filter' o='64' t='char **'/>
+<mbr r='_XFilters::nalias' o='128' t='int'/>
+<mbr r='_XFilters::alias' o='192' t='short *'/>

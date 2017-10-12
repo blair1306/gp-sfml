@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='276' type='sf::Transform'/>
+<offset>288</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='276'>///&lt; Precomputed projection transform corresponding to the view</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='217' u='w' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='223' u='a' c='_ZNK2sf4View12getTransformEv'/>

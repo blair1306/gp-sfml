@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='105' type='static unsigned int sf::Joystick::getButtonCount(unsigned int joystick)'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='42' ll='45' type='static unsigned int sf::Joystick::getButtonCount(unsigned int joystick)'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Return the number of buttons supported by a joystick
+    ///
+    /// If the joystick is not connected, this function returns 0.
+    ///
+    /// \param joystick Index of the joystick
+    ///
+    /// \return Number of buttons supported by the joystick
+    ///
+    ////////////////////////////////////////////////////////////</doc>

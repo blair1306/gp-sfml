@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_queue.h' l='152' ll='154' type='bool std::queue::empty() const'/>
+<doc f='include/c++/5/bits/stl_queue.h' l='149'>/**
+       *  Returns true if the %queue is empty.
+       */</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='115' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='128' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='139' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>

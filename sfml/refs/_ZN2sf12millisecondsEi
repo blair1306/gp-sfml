@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='90' type='sf::Time sf::milliseconds(Int32 )'/>
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='136' type='sf::Time sf::milliseconds(Int32 amount)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='52' u='c' c='_ZN2sf13SoundRecorderC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='387' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='80' ll='83' type='sf::Time sf::milliseconds(Int32 amount)'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='79'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='164' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1095' u='c' c='_ZN2sf4priv13WindowImplX1121setMouseCursorGrabbedEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1612' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='130' u='c' c='_ZN2sf4priv10WindowImpl8popEventERNS_5EventEb'/>

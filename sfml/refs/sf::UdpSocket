@@ -1,0 +1,24 @@
+<inh f='codebrowser/include/SFML/Network/Socket.hpp' l='45' c='sf::Socket'/>
+<def f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='45' ll='192'/>
+<size>48</size>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Specialized socket using the UDP protocol
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9UdpSocketC1Ev'/>
+<fun r='_ZNK2sf9UdpSocket12getLocalPortEv'/>
+<fun r='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<fun r='_ZN2sf9UdpSocket6unbindEv'/>
+<fun r='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<fun r='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<fun r='_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt'/>
+<fun r='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>
+<mbr r='sf::UdpSocket::m_buffer' o='192' t='std::vector&lt;char&gt;'/>
+<fun r='_ZN2sf9UdpSocketC1Ev'/>
+<fun r='_ZNK2sf9UdpSocket12getLocalPortEv'/>
+<fun r='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<fun r='_ZN2sf9UdpSocket6unbindEv'/>
+<fun r='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<fun r='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<fun r='_ZN2sf9UdpSocket4sendERNS_6PacketERKNS_9IpAddressEt'/>
+<fun r='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>

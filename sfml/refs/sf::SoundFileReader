@@ -1,0 +1,13 @@
+<def f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='43' ll='103'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for sound file decoding
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf15SoundFileReaderD1Ev'/>
+<fun r='_ZN2sf15SoundFileReader4openERNS_11InputStreamERNS0_4InfoE'/>
+<fun r='_ZN2sf15SoundFileReader4seekEy'/>
+<fun r='_ZN2sf15SoundFileReader4readEPsy'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='45' c='sf::priv::SoundFileReaderFlac'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.hpp' l='43' c='sf::priv::SoundFileReaderOgg'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='43' c='sf::priv::SoundFileReaderWav'/>

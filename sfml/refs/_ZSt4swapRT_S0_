@@ -1,0 +1,23 @@
+<def f='include/c++/5/bits/move.h' l='175' ll='188' type='void std::swap(_Tp &amp; __a, _Tp &amp; __b)'/>
+<dec f='include/c++/5/bits/algorithmfwd.h' l='571' type='void std::swap(_Tp &amp; , _Tp &amp; )'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='209' u='c' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='210' u='c' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='457' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='458' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='459' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='460' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='461' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='462' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='811' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='812' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='813' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='814' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='815' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='816' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='817' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='818' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='819' u='c' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='200' u='c' c='_ZN2sf14SocketSelectoraSERKS0_'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='82' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='158' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1268' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>

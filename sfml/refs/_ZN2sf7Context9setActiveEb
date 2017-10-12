@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='78' type='bool sf::Context::setActive(bool active)'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='70'>////////////////////////////////////////////////////////////
+    /// \brief Activate or deactivate explicitly the context
+    ///
+    /// \param active True to activate, false to deactivate
+    ///
+    /// \return True on success, false on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='74' u='c' c='_ZN2sf4priv24RenderTextureImplDefault8activateEb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='51' u='c' c='_ZN2sf4priv20RenderTextureImplFBOD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='137' u='c' c='_ZN2sf4priv20RenderTextureImplFBO8activateEb'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='45' u='c' c='_ZN2sf7ContextC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='52' u='c' c='_ZN2sf7ContextD1Ev'/>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='58' ll='66' type='bool sf::Context::setActive(bool active)'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='101' u='c' c='_ZN2sf7ContextC1ERKNS_15ContextSettingsEjj'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='57'>////////////////////////////////////////////////////////////</doc>

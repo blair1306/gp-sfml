@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='583' type='static unsigned int sf::Texture::getMaximumSize()'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='712' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='712' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='573'>////////////////////////////////////////////////////////////
+    /// \brief Get the maximum texture size allowed
+    ///
+    /// This maximum size is defined by the graphics driver.
+    /// You can expect a value of 512 pixels for low-end graphics
+    /// card, and up to 8192 pixels or more for newer hardware.
+    ///
+    /// \return Maximum size allowed for textures, in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='136' u='c' c='_ZN2sf7Texture6createEjj'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='777' ll='794' type='static unsigned int sf::Texture::getMaximumSize()'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='776'>////////////////////////////////////////////////////////////</doc>

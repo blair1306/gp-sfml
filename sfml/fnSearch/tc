@@ -1,0 +1,13 @@
+_ZN2sf11TcpListenerC1Ev|sf::TcpListener::TcpListener
+_ZN2sf11TcpListener6acceptERNS_9TcpSocketE|sf::TcpListener::accept
+_ZN2sf11TcpListener5closeEv|sf::TcpListener::close
+_ZNK2sf11TcpListener12getLocalPortEv|sf::TcpListener::getLocalPort
+_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE|sf::TcpListener::listen
+_ZN2sf9TcpSocketC1Ev|sf::TcpSocket::TcpSocket
+_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE|sf::TcpSocket::connect
+_ZN2sf9TcpSocket10disconnectEv|sf::TcpSocket::disconnect
+_ZNK2sf9TcpSocket12getLocalPortEv|sf::TcpSocket::getLocalPort
+_ZNK2sf9TcpSocket16getRemoteAddressEv|sf::TcpSocket::getRemoteAddress
+_ZNK2sf9TcpSocket13getRemotePortEv|sf::TcpSocket::getRemotePort
+_ZN2sf9TcpSocket7receiveEPvmRm|sf::TcpSocket::receive
+_ZN2sf9TcpSocket4sendEPKvm|sf::TcpSocket::send

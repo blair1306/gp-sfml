@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Window/Context.hpp' l='131' type='void sf::Context::Context(const sf::ContextSettings &amp; settings, unsigned int width, unsigned int height)'/>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='120'>////////////////////////////////////////////////////////////
+    /// \brief Construct a in-memory context
+    ///
+    /// This constructor is for internal use, you don&apos;t need
+    /// to bother with it.
+    ///
+    /// \param settings Creation parameters
+    /// \param width    Back buffer width
+    /// \param height   Back buffer height
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='65' u='c' c='_ZN2sf4priv24RenderTextureImplDefault6createEjjjb'/>
+<def f='codebrowser/src/SFML/Window/Context.cpp' l='98' ll='102' type='void sf::Context::Context(const sf::ContextSettings &amp; settings, unsigned int width, unsigned int height)'/>
+<doc f='codebrowser/src/SFML/Window/Context.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

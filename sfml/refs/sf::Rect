@@ -1,0 +1,21 @@
+<def f='codebrowser/include/SFML/Graphics/Rect.hpp' l='42' ll='161'/>
+<fun r='_ZN2sf4RectC1Ev'/>
+<fun r='_ZN2sf4RectC1ET_S1_S1_S1_'/>
+<fun r='_ZN2sf4RectC1ERKNS_7Vector2IT_EES5_'/>
+<fun r='_ZN2sf4RectC1ERKNS_4RectIT_EE'/>
+<fun r='_ZNK2sf4Rect8containsET_S1_'/>
+<fun r='_ZNK2sf4Rect8containsERKNS_7Vector2IT_EE'/>
+<fun r='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EE'/>
+<fun r='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EERS4_'/>
+<mbr r='sf::Rect::left' t='T'/>
+<mbr r='sf::Rect::top' t='T'/>
+<mbr r='sf::Rect::width' t='T'/>
+<mbr r='sf::Rect::height' t='T'/>
+<fun r='_ZN2sf4RectC1Ev'/>
+<fun r='_ZN2sf4RectC1ET_S1_S1_S1_'/>
+<fun r='_ZN2sf4RectC1ERKNS_7Vector2IT_EES5_'/>
+<fun r='_ZN2sf4RectC1ERKNS_4RectIT_EE'/>
+<fun r='_ZNK2sf4Rect8containsET_S1_'/>
+<fun r='_ZNK2sf4Rect8containsERKNS_7Vector2IT_EE'/>
+<fun r='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EE'/>
+<fun r='_ZNK2sf4Rect10intersectsERKNS_4RectIT_EERS4_'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='78' type='void sf::Sprite::Sprite(const sf::Texture &amp; texture, const IntRect &amp; rectangle)'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='54' ll='60' type='void sf::Sprite::Sprite(const sf::Texture &amp; texture, const IntRect &amp; rectangle)'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='53'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='69'>////////////////////////////////////////////////////////////
+    /// \brief Construct the sprite from a sub-rectangle of a source texture
+    ///
+    /// \param texture   Source texture
+    /// \param rectangle Sub-rectangle of the texture to assign to the sprite
+    ///
+    /// \see setTexture, setTextureRect
+    ///
+    ////////////////////////////////////////////////////////////</doc>

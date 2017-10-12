@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='514' type='Picture XRenderCreateRadialGradient(Display * dpy, const XRadialGradient * gradient, const XFixed * stops, const XRenderColor * colors, int nstops)'/>

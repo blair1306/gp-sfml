@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='414' type='bool'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='116' u='w' c='_ZN2sf12RenderTarget7setViewERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='246' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='442' u='w' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<offset>8</offset>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='414'>///&lt; Has the current view changed since last draw?</doc>

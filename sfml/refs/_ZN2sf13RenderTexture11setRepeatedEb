@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='122' type='void sf::RenderTexture::setRepeated(bool repeated)'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='106' ll='109' type='void sf::RenderTexture::setRepeated(bool repeated)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='105'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable texture repeating
+    ///
+    /// This function is similar to Texture::setRepeated.
+    /// This parameter is disabled by default.
+    ///
+    /// \param repeated True to enable repeating, false to disable it
+    ///
+    /// \see isRepeated
+    ///
+    ////////////////////////////////////////////////////////////</doc>

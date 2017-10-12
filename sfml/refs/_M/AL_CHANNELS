@@ -1,0 +1,3 @@
+<dec f='include/AL/al.h' l='349'/>
+<doc f='include/AL/al.h' l='348'>/** Buffer channel count (query only). */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='190' u='c'/>

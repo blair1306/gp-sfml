@@ -1,0 +1,7 @@
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='187' u='w' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='194' u='w' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='195' u='r' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='210' u='r' c='_ZN2sf6Shader13UniformBinderD1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='211' u='r' c='_ZN2sf6Shader13UniformBinderD1Ev'/>
+<dec f='codebrowser/src/SFML/Graphics/Shader.cpp' l='215' type='GLhandleARB'/>
+<offset>32</offset>

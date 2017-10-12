@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3755' ll='3762' macro='1' type='int stbi__bitreverse16(int n)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3769' u='c' c='_ZL17stbi__bit_reverseii'/>

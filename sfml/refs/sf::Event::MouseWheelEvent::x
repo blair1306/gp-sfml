@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Event.hpp' l='112' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/include/SFML/Window/Event.hpp' l='112'>///&lt; X position of the mouse pointer, relative to the left of the owner window</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1867' u='w' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

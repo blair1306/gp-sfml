@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='149' type='Vector2f sf::RenderTarget::mapPixelToCoords(const Vector2i &amp; point) const'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='149' ll='152' type='Vector2f sf::RenderTarget::mapPixelToCoords(const Vector2i &amp; point) const'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='148'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='131'>////////////////////////////////////////////////////////////
+    /// \brief Convert a point from target coordinates to world
+    ///        coordinates, using the current view
+    ///
+    /// This function is an overload of the mapPixelToCoords
+    /// function that implicitly uses the current view.
+    /// It is equivalent to:
+    /// \code
+    /// target.mapPixelToCoords(point, target.getView());
+    /// \endcode
+    ///
+    /// \param point Pixel to convert
+    ///
+    /// \return The converted point, in &quot;world&quot; coordinates
+    ///
+    /// \see mapCoordsToPixel
+    ///
+    ////////////////////////////////////////////////////////////</doc>

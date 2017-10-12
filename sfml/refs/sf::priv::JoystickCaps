@@ -1,0 +1,9 @@
+<def f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='45' ll='55'/>
+<size>12</size>
+<doc f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Structure holding a joystick&apos;s information
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv12JoystickCapsC1Ev'/>
+<mbr r='sf::priv::JoystickCaps::buttonCount' o='0' t='unsigned int'/>
+<mbr r='sf::priv::JoystickCaps::axes' o='32' t='bool [8]'/>

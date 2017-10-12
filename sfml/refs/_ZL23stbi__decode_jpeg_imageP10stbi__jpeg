@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3068' ll='3106' type='int stbi__decode_jpeg_image(stbi__jpeg * j)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3533' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3067'>// decode image to YCbCr format</doc>

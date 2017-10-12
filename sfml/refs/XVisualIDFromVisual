@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='1728' type='VisualID XVisualIDFromVisual(Visual * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='440' u='c' c='_ZN2sf4priv10GlxContext24updateSettingsFromWindowEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='598' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

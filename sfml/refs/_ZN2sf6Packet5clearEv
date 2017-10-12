@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='87' type='void sf::Packet::clear()'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='67' ll='72' type='void sf::Packet::clear()'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='66'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Clear the packet
+    ///
+    /// After calling Clear, the packet is empty.
+    ///
+    /// \see append
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='346' u='c' c='_ZN2sf9TcpSocket7receiveERNS_6PacketE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='189' u='c' c='_ZN2sf9UdpSocket7receiveERNS_6PacketERNS_9IpAddressERt'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='120' type='bool'/>
+<offset>512</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='174' u='w' c='_ZN12_GLOBAL__N_111streamErrorEPK19FLAC__StreamDecoder30FLAC__StreamDecoderErrorStatusPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='193' u='w' c='_ZN2sf4priv19SoundFileReaderFlac5checkERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='203' u='r' c='_ZN2sf4priv19SoundFileReaderFlac5checkERNS_11InputStreamE'/>

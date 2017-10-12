@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='66' type='void sf::String::String()'/>
+<use f='codebrowser/include/SFML/System/String.inl' l='30' u='c' c='_ZN2sf6String8fromUtf8ET_S1_'/>
+<use f='codebrowser/include/SFML/System/String.inl' l='40' u='c' c='_ZN2sf6String9fromUtf16ET_S1_'/>
+<use f='codebrowser/include/SFML/System/String.inl' l='50' u='c' c='_ZN2sf6String9fromUtf32ET_S1_'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='60'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor creates an empty string.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='77' u='c' c='_ZN2sf4TextC1Ev'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='41' ll='43' type='void sf::String::String()'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='40'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='43' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='67' u='c'/>

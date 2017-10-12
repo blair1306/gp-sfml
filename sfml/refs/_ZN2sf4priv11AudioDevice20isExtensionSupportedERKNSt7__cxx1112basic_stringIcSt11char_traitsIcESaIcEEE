@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='74' type='static bool sf::priv::AudioDevice::isExtensionSupported(const std::string &amp; extension)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.hpp' l='62'>////////////////////////////////////////////////////////////
+    /// \brief Check if an OpenAL extension is supported
+    ///
+    /// This functions automatically finds whether it
+    /// is an AL or ALC extension, and calls the corresponding
+    /// function.
+    ///
+    /// \param extension Name of the extension to test
+    ///
+    /// \return True if the extension is supported, false if not
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='104' ll='118' type='static bool sf::priv::AudioDevice::isExtensionSupported(const std::string &amp; extension)'/>
+<doc f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='103'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='249' u='c' c='_ZN2sf13SoundRecorder11isAvailableEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='250' u='c' c='_ZN2sf13SoundRecorder11isAvailableEv'/>

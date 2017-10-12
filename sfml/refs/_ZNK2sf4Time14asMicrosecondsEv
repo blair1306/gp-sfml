@@ -1,0 +1,38 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='80' type='Int64 sf::Time::asMicroseconds() const'/>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Return the time value as a number of microseconds
+    ///
+    /// \return Time in microseconds
+    ///
+    /// \see asSeconds, asMilliseconds
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='255' u='c' c='_ZNK2sf5Music13timeToSamplesENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='160' u='c' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='161' u='c' c='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='174' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='175' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='59' ll='62' type='Int64 sf::Time::asMicroseconds() const'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='96' u='c' c='_ZN2sfeqENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='96' u='c' c='_ZN2sfeqENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='103' u='c' c='_ZN2sfneENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='103' u='c' c='_ZN2sfneENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='110' u='c' c='_ZN2sfltENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='110' u='c' c='_ZN2sfltENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='117' u='c' c='_ZN2sfgtENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='117' u='c' c='_ZN2sfgtENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='124' u='c' c='_ZN2sfleENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='124' u='c' c='_ZN2sfleENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='131' u='c' c='_ZN2sfgeENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='131' u='c' c='_ZN2sfgeENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='138' u='c' c='_ZN2sfngENS_4TimeE'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='145' u='c' c='_ZN2sfplENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='145' u='c' c='_ZN2sfplENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='159' u='c' c='_ZN2sfmiENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='159' u='c' c='_ZN2sfmiENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='180' u='c' c='_ZN2sfmlENS_4TimeEx'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='222' u='c' c='_ZN2sfdvENS_4TimeEx'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='250' u='c' c='_ZN2sfrmENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='250' u='c' c='_ZN2sfrmENS_4TimeES0_'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='58'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='40' u='c' c='_ZN2sf4priv9sleepImplENS_4TimeE'/>

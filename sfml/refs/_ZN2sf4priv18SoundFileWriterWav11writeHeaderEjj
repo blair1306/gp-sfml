@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='104' type='bool sf::priv::SoundFileWriterWav::writeHeader(unsigned int sampleRate, unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// \brief Write the header of the open file
+    ///
+    /// \param sampleRate   Sample rate of the sound
+    /// \param channelCount Number of channels of the sound
+    ///
+    /// \return True on success, false on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='115' u='c' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='141' ll='182' type='bool sf::priv::SoundFileWriterWav::writeHeader(unsigned int sampleRate, unsigned int channelCount)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='140'>////////////////////////////////////////////////////////////</doc>

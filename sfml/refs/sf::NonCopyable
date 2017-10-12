@@ -1,0 +1,40 @@
+<def f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' ll='90'/>
+<ovr f='codebrowser/include/SFML/System/Mutex.hpp' l='47' c='sf::Mutex'/>
+<ovr f='codebrowser/include/SFML/System/Lock.hpp' l='43' c='sf::Lock'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/System/NonCopyable.hpp' l='36'>////////////////////////////////////////////////////////////
+/// \brief Utility class that makes any derived
+///        class non-copyable
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf11NonCopyableC1Ev'/>
+<fun r='_ZN2sf11NonCopyableD1Ev'/>
+<fun r='_ZN2sf11NonCopyableC1ERKS0_'/>
+<fun r='_ZN2sf11NonCopyableaSERKS0_'/>
+<ovr f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='47' c='sf::InputSoundFile'/>
+<ovr f='codebrowser/include/SFML/System/FileInputStream.hpp' l='55' c='sf::FileInputStream'/>
+<ovr f='codebrowser/include/SFML/System/Thread.hpp' l='48' c='sf::Thread'/>
+<ovr f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='44' c='sf::OutputSoundFile'/>
+<ovr f='codebrowser/include/SFML/Window/GlResource.hpp' l='64' c='sf::GlResource::TransientContextLock'/>
+<ovr f='codebrowser/include/SFML/Window/Context.hpp' l='50' c='sf::Context'/>
+<ovr f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='47' c='sf::priv::ImageLoader'/>
+<ovr f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='51' c='sf::RenderTarget'/>
+<ovr f='codebrowser/include/SFML/Graphics/Shader.hpp' l='52' c='sf::Shader'/>
+<ovr f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='42' c='sf::priv::RenderTextureImpl'/>
+<ovr f='codebrowser/include/SFML/Window/Cursor.hpp' l='46' c='sf::Cursor'/>
+<ovr f='codebrowser/include/SFML/Window/Window.hpp' l='58' c='sf::Window'/>
+<ovr f='codebrowser/src/SFML/Graphics/Shader.cpp' l='180' c='sf::Shader::UniformBinder'/>
+<ovr f='codebrowser/include/SFML/Network/Socket.hpp' l='45' c='sf::Socket'/>
+<ovr f='codebrowser/include/SFML/Network/Ftp.hpp' l='47' c='sf::Ftp'/>
+<ovr f='codebrowser/src/SFML/Network/Ftp.cpp' l='42' c='sf::Ftp::DataChannel'/>
+<ovr f='codebrowser/include/SFML/Network/Http.hpp' l='46' c='sf::Http'/>
+<ovr f='codebrowser/src/SFML/System/Unix/MutexImpl.hpp' l='42' c='sf::priv::MutexImpl'/>
+<ovr f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='45' c='sf::priv::ThreadImpl'/>
+<ovr f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='47' c='sf::ThreadLocal'/>
+<ovr f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='42' c='sf::priv::ThreadLocalImpl'/>
+<ovr f='codebrowser/src/SFML/Window/GlContext.hpp' l='47' c='sf::priv::GlContext'/>
+<ovr f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='46' c='sf::priv::CursorImpl'/>
+<ovr f='codebrowser/src/SFML/Window/GlContext.cpp' l='150' c='(anonymousnamespace)::TransientContext'/>
+<ovr f='codebrowser/src/SFML/Window/JoystickManager.hpp' l='44' c='sf::priv::JoystickManager'/>
+<ovr f='codebrowser/src/SFML/Window/SensorManager.hpp' l='44' c='sf::priv::SensorManager'/>
+<ovr f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='57' c='sf::priv::WindowImpl'/>

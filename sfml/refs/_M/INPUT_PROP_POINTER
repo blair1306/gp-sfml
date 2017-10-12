@@ -1,0 +1,4 @@
+<dec f='include/linux/input-event-codes.h' l='22'/>
+<doc f='include/linux/input-event-codes.h' l='18'>/*
+ * Device properties and quirks
+ */</doc>

@@ -1,0 +1,2 @@
+<dec f='include/X11/X.h' l='248'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='209' u='c'/>

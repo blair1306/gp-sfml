@@ -1,0 +1,10 @@
+<def f='codebrowser/include/SFML/System/Clock.hpp' l='41' ll='82'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/Clock.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Utility class that measures the elapsed time
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5ClockC1Ev'/>
+<fun r='_ZNK2sf5Clock14getElapsedTimeEv'/>
+<fun r='_ZN2sf5Clock7restartEv'/>
+<mbr r='sf::Clock::m_startTime' o='0' t='sf::Time'/>

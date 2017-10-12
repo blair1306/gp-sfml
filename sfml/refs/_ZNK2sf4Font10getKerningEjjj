@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='198' type='float sf::Font::getKerning(Uint32 first, Uint32 second, unsigned int characterSize) const'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='356' ll='386' type='float sf::Font::getKerning(Uint32 first, Uint32 second, unsigned int characterSize) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='355'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='182'>////////////////////////////////////////////////////////////
+    /// \brief Get the kerning offset of two glyphs
+    ///
+    /// The kerning is an extra offset (negative) to apply between two
+    /// glyphs when rendering them, to make the pair look more &quot;natural&quot;.
+    /// For example, the pair &quot;AV&quot; have a special kerning to make them
+    /// closer than other characters. Most of the glyphs pairs have a
+    /// kerning offset of zero, though.
+    ///
+    /// \param first         Unicode code point of the first character
+    /// \param second        Unicode code point of the second character
+    /// \param characterSize Reference character size
+    ///
+    /// \return Kerning value for \a first and \a second, in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='289' u='c' c='_ZNK2sf4Text16findCharacterPosEm'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='396' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>

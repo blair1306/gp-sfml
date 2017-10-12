@@ -1,0 +1,6 @@
+<inh f='codebrowser/include/SFML/System/Thread.inl' l='28' c='sf::priv::ThreadFunc'/>
+<def f='codebrowser/include/SFML/System/Thread.inl' l='45' ll='51'/>
+<fun r='_ZN2sf4priv20ThreadFunctorWithArgC1ET_T0_'/>
+<fun r='_ZN2sf4priv20ThreadFunctorWithArg3runEv'/>
+<mbr r='sf::priv::ThreadFunctorWithArg::m_function' t='F'/>
+<mbr r='sf::priv::ThreadFunctorWithArg::m_arg' t='A'/>

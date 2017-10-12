@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1521' type='void glTexCoord3iv(const GLint * )'/>
+<dec f='include/GL/gl.h' l='1068' type='void glTexCoord3iv(const GLint * v)'/>

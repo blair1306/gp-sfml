@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='152' type='int'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='668' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='48' type='int'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='138' u='a'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='138' u='a'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='138' u='a'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='138' u='a'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='167' u='w' c='_ZL18ClearExtensionVarsv'/>

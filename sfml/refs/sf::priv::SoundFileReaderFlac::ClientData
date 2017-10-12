@@ -1,0 +1,12 @@
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='113' ll='121'/>
+<size>72</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='109'>////////////////////////////////////////////////////////////
+    /// \brief Hold the state that is passed to the decoder callbacks
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<mbr r='sf::priv::SoundFileReaderFlac::ClientData::stream' o='0' t='sf::InputStream *'/>
+<mbr r='sf::priv::SoundFileReaderFlac::ClientData::info' o='64' t='SoundFileReader::Info'/>
+<mbr r='sf::priv::SoundFileReaderFlac::ClientData::buffer' o='192' t='Int16 *'/>
+<mbr r='sf::priv::SoundFileReaderFlac::ClientData::remaining' o='256' t='Uint64'/>
+<mbr r='sf::priv::SoundFileReaderFlac::ClientData::leftovers' o='320' t='std::vector&lt;Int16&gt;'/>
+<mbr r='sf::priv::SoundFileReaderFlac::ClientData::error' o='512' t='bool'/>

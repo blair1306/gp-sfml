@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='60' type='std::string'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='172' u='w' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='237' u='w' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='315' u='w' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='60'>///&lt; The font family</doc>

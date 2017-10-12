@@ -1,0 +1,11 @@
+_ZN2sf8Listener12getDirectionEv|sf::Listener::getDirection
+_ZN2sf8Listener15getGlobalVolumeEv|sf::Listener::getGlobalVolume
+_ZN2sf8Listener11getPositionEv|sf::Listener::getPosition
+_ZN2sf8Listener11getUpVectorEv|sf::Listener::getUpVector
+_ZN2sf8Listener12setDirectionEfff|sf::Listener::setDirection
+_ZN2sf8Listener15setGlobalVolumeEf|sf::Listener::setGlobalVolume
+_ZN2sf8Listener11setPositionEfff|sf::Listener::setPosition
+_ZN2sf8Listener11setUpVectorEfff|sf::Listener::setUpVector
+_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|sf::Ftp::ListingResponse::ListingResponse
+_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev|sf::Ftp::ListingResponse::getListing
+_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE|sf::TcpListener::listen

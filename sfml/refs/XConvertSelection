@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='2175' type='int XConvertSelection(Display * , Atom , Atom , Atom , Window , Time )'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='185' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>

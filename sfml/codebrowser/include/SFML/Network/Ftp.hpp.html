@@ -1,0 +1,631 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ftp.hpp source code [codebrowser/include/SFML/Network/Ftp.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Ftp "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Network/Ftp.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Network</a>/<a href='Ftp.hpp.html'>Ftp.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_FTP_HPP">SFML_FTP_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_FTP_HPP" data-ref="_M/SFML_FTP_HPP">SFML_FTP_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="Export.hpp.html">&lt;SFML/Network/Export.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="TcpSocket.hpp.html">&lt;SFML/Network/TcpSocket.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../System/NonCopyable.hpp.html">&lt;SFML/System/NonCopyable.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../System/Time.hpp.html">&lt;SFML/System/Time.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../../../include/c++/5/vector.html">&lt;vector&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td><b>class</b> <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress" id="sf::IpAddress">IpAddress</a>;</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="44">44</th><td><i>/// \brief A FTP client</i></td></tr>
+<tr><th id="45">45</th><td><i>///</i></td></tr>
+<tr><th id="46">46</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td><b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_NETWORK_API">SFML_NETWORK_API</a> <dfn class="type def" id="sf::Ftp" title='sf::Ftp' data-ref="sf::Ftp">Ftp</dfn> : <a class="type" href="../System/NonCopyable.hpp.html#sf::NonCopyable" title='sf::NonCopyable' data-ref="sf::NonCopyable">NonCopyable</a></td></tr>
+<tr><th id="48">48</th><td>{</td></tr>
+<tr><th id="49">49</th><td><b>public</b>:</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="52">52</th><td><i>    /// \brief Enumeration of transfer modes</i></td></tr>
+<tr><th id="53">53</th><td><i>    ///</i></td></tr>
+<tr><th id="54">54</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="55">55</th><td>    <b>enum</b> <dfn class="type def" id="sf::Ftp::TransferMode" title='sf::Ftp::TransferMode' data-ref="sf::Ftp::TransferMode">TransferMode</dfn></td></tr>
+<tr><th id="56">56</th><td>    {</td></tr>
+<tr><th id="57">57</th><td>        <dfn class="enum" id="sf::Ftp::TransferMode::Binary" title='sf::Ftp::TransferMode::Binary' data-ref="sf::Ftp::TransferMode::Binary">Binary</dfn>, <i class="doc">///&lt; Binary mode (file is transfered as a sequence of bytes)</i></td></tr>
+<tr><th id="58">58</th><td>        <dfn class="enum" id="sf::Ftp::TransferMode::Ascii" title='sf::Ftp::TransferMode::Ascii' data-ref="sf::Ftp::TransferMode::Ascii">Ascii</dfn>,  <i class="doc">///&lt; Text mode using ASCII encoding</i></td></tr>
+<tr><th id="59">59</th><td>        <dfn class="enum" id="sf::Ftp::TransferMode::Ebcdic" title='sf::Ftp::TransferMode::Ebcdic' data-ref="sf::Ftp::TransferMode::Ebcdic">Ebcdic</dfn>  <i class="doc">///&lt; Text mode using EBCDIC encoding</i></td></tr>
+<tr><th id="60">60</th><td>    };</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// \brief Define a FTP response</i></td></tr>
+<tr><th id="64">64</th><td><i>    ///</i></td></tr>
+<tr><th id="65">65</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="66">66</th><td>    <b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_NETWORK_API">SFML_NETWORK_API</a> <dfn class="type def" id="sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</dfn></td></tr>
+<tr><th id="67">67</th><td>    {</td></tr>
+<tr><th id="68">68</th><td>    <b>public</b>:</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="71">71</th><td><i>        /// \brief Status codes possibly returned by a FTP response</i></td></tr>
+<tr><th id="72">72</th><td><i>        ///</i></td></tr>
+<tr><th id="73">73</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td>        <b>enum</b> <dfn class="type def" id="sf::Ftp::Response::Status" title='sf::Ftp::Response::Status' data-ref="sf::Ftp::Response::Status">Status</dfn></td></tr>
+<tr><th id="75">75</th><td>        {</td></tr>
+<tr><th id="76">76</th><td>            <i>// 1xx: the requested action is being initiated,</i></td></tr>
+<tr><th id="77">77</th><td><i>            // expect another reply before proceeding with a new command</i></td></tr>
+<tr><th id="78">78</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::RestartMarkerReply" title='sf::Ftp::Response::Status::RestartMarkerReply' data-ref="sf::Ftp::Response::Status::RestartMarkerReply">RestartMarkerReply</dfn>          = <var>110</var>, <i class="doc">///&lt; Restart marker reply</i></td></tr>
+<tr><th id="79">79</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ServiceReadySoon" title='sf::Ftp::Response::Status::ServiceReadySoon' data-ref="sf::Ftp::Response::Status::ServiceReadySoon">ServiceReadySoon</dfn>            = <var>120</var>, <i class="doc">///&lt; Service ready in N minutes</i></td></tr>
+<tr><th id="80">80</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::DataConnectionAlreadyOpened" title='sf::Ftp::Response::Status::DataConnectionAlreadyOpened' data-ref="sf::Ftp::Response::Status::DataConnectionAlreadyOpened">DataConnectionAlreadyOpened</dfn> = <var>125</var>, <i class="doc">///&lt; Data connection already opened, transfer starting</i></td></tr>
+<tr><th id="81">81</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::OpeningDataConnection" title='sf::Ftp::Response::Status::OpeningDataConnection' data-ref="sf::Ftp::Response::Status::OpeningDataConnection">OpeningDataConnection</dfn>       = <var>150</var>, <i class="doc">///&lt; File status ok, about to open data connection</i></td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td>            <i>// 2xx: the requested action has been successfully completed</i></td></tr>
+<tr><th id="84">84</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::Ok" title='sf::Ftp::Response::Status::Ok' data-ref="sf::Ftp::Response::Status::Ok">Ok</dfn>                    = <var>200</var>, <i class="doc">///&lt; Command ok</i></td></tr>
+<tr><th id="85">85</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::PointlessCommand" title='sf::Ftp::Response::Status::PointlessCommand' data-ref="sf::Ftp::Response::Status::PointlessCommand">PointlessCommand</dfn>      = <var>202</var>, <i class="doc">///&lt; Command not implemented</i></td></tr>
+<tr><th id="86">86</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::SystemStatus" title='sf::Ftp::Response::Status::SystemStatus' data-ref="sf::Ftp::Response::Status::SystemStatus">SystemStatus</dfn>          = <var>211</var>, <i class="doc">///&lt; System status, or system help reply</i></td></tr>
+<tr><th id="87">87</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::DirectoryStatus" title='sf::Ftp::Response::Status::DirectoryStatus' data-ref="sf::Ftp::Response::Status::DirectoryStatus">DirectoryStatus</dfn>       = <var>212</var>, <i class="doc">///&lt; Directory status</i></td></tr>
+<tr><th id="88">88</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::FileStatus" title='sf::Ftp::Response::Status::FileStatus' data-ref="sf::Ftp::Response::Status::FileStatus">FileStatus</dfn>            = <var>213</var>, <i class="doc">///&lt; File status</i></td></tr>
+<tr><th id="89">89</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::HelpMessage" title='sf::Ftp::Response::Status::HelpMessage' data-ref="sf::Ftp::Response::Status::HelpMessage">HelpMessage</dfn>           = <var>214</var>, <i class="doc">///&lt; Help message</i></td></tr>
+<tr><th id="90">90</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::SystemType" title='sf::Ftp::Response::Status::SystemType' data-ref="sf::Ftp::Response::Status::SystemType">SystemType</dfn>            = <var>215</var>, <i class="doc">///&lt; NAME system type, where NAME is an official system name from the list in the Assigned Numbers document</i></td></tr>
+<tr><th id="91">91</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ServiceReady" title='sf::Ftp::Response::Status::ServiceReady' data-ref="sf::Ftp::Response::Status::ServiceReady">ServiceReady</dfn>          = <var>220</var>, <i class="doc">///&lt; Service ready for new user</i></td></tr>
+<tr><th id="92">92</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ClosingConnection" title='sf::Ftp::Response::Status::ClosingConnection' data-ref="sf::Ftp::Response::Status::ClosingConnection">ClosingConnection</dfn>     = <var>221</var>, <i class="doc">///&lt; Service closing control connection</i></td></tr>
+<tr><th id="93">93</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::DataConnectionOpened" title='sf::Ftp::Response::Status::DataConnectionOpened' data-ref="sf::Ftp::Response::Status::DataConnectionOpened">DataConnectionOpened</dfn>  = <var>225</var>, <i class="doc">///&lt; Data connection open, no transfer in progress</i></td></tr>
+<tr><th id="94">94</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ClosingDataConnection" title='sf::Ftp::Response::Status::ClosingDataConnection' data-ref="sf::Ftp::Response::Status::ClosingDataConnection">ClosingDataConnection</dfn> = <var>226</var>, <i class="doc">///&lt; Closing data connection, requested file action successful</i></td></tr>
+<tr><th id="95">95</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::EnteringPassiveMode" title='sf::Ftp::Response::Status::EnteringPassiveMode' data-ref="sf::Ftp::Response::Status::EnteringPassiveMode">EnteringPassiveMode</dfn>   = <var>227</var>, <i class="doc">///&lt; Entering passive mode</i></td></tr>
+<tr><th id="96">96</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::LoggedIn" title='sf::Ftp::Response::Status::LoggedIn' data-ref="sf::Ftp::Response::Status::LoggedIn">LoggedIn</dfn>              = <var>230</var>, <i class="doc">///&lt; User logged in, proceed. Logged out if appropriate</i></td></tr>
+<tr><th id="97">97</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::FileActionOk" title='sf::Ftp::Response::Status::FileActionOk' data-ref="sf::Ftp::Response::Status::FileActionOk">FileActionOk</dfn>          = <var>250</var>, <i class="doc">///&lt; Requested file action ok</i></td></tr>
+<tr><th id="98">98</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::DirectoryOk" title='sf::Ftp::Response::Status::DirectoryOk' data-ref="sf::Ftp::Response::Status::DirectoryOk">DirectoryOk</dfn>           = <var>257</var>, <i class="doc">///&lt; PATHNAME created</i></td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td>            <i>// 3xx: the command has been accepted, but the requested action</i></td></tr>
+<tr><th id="101">101</th><td><i>            // is dormant, pending receipt of further information</i></td></tr>
+<tr><th id="102">102</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::NeedPassword" title='sf::Ftp::Response::Status::NeedPassword' data-ref="sf::Ftp::Response::Status::NeedPassword">NeedPassword</dfn>       = <var>331</var>, <i class="doc">///&lt; User name ok, need password</i></td></tr>
+<tr><th id="103">103</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::NeedAccountToLogIn" title='sf::Ftp::Response::Status::NeedAccountToLogIn' data-ref="sf::Ftp::Response::Status::NeedAccountToLogIn">NeedAccountToLogIn</dfn> = <var>332</var>, <i class="doc">///&lt; Need account for login</i></td></tr>
+<tr><th id="104">104</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::NeedInformation" title='sf::Ftp::Response::Status::NeedInformation' data-ref="sf::Ftp::Response::Status::NeedInformation">NeedInformation</dfn>    = <var>350</var>, <i class="doc">///&lt; Requested file action pending further information</i></td></tr>
+<tr><th id="105">105</th><td></td></tr>
+<tr><th id="106">106</th><td>            <i>// 4xx: the command was not accepted and the requested action did not take place,</i></td></tr>
+<tr><th id="107">107</th><td><i>            // but the error condition is temporary and the action may be requested again</i></td></tr>
+<tr><th id="108">108</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ServiceUnavailable" title='sf::Ftp::Response::Status::ServiceUnavailable' data-ref="sf::Ftp::Response::Status::ServiceUnavailable">ServiceUnavailable</dfn>        = <var>421</var>, <i class="doc">///&lt; Service not available, closing control connection</i></td></tr>
+<tr><th id="109">109</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::DataConnectionUnavailable" title='sf::Ftp::Response::Status::DataConnectionUnavailable' data-ref="sf::Ftp::Response::Status::DataConnectionUnavailable">DataConnectionUnavailable</dfn> = <var>425</var>, <i class="doc">///&lt; Can't open data connection</i></td></tr>
+<tr><th id="110">110</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::TransferAborted" title='sf::Ftp::Response::Status::TransferAborted' data-ref="sf::Ftp::Response::Status::TransferAborted">TransferAborted</dfn>           = <var>426</var>, <i class="doc">///&lt; Connection closed, transfer aborted</i></td></tr>
+<tr><th id="111">111</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::FileActionAborted" title='sf::Ftp::Response::Status::FileActionAborted' data-ref="sf::Ftp::Response::Status::FileActionAborted">FileActionAborted</dfn>         = <var>450</var>, <i class="doc">///&lt; Requested file action not taken</i></td></tr>
+<tr><th id="112">112</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::LocalError" title='sf::Ftp::Response::Status::LocalError' data-ref="sf::Ftp::Response::Status::LocalError">LocalError</dfn>                = <var>451</var>, <i class="doc">///&lt; Requested action aborted, local error in processing</i></td></tr>
+<tr><th id="113">113</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::InsufficientStorageSpace" title='sf::Ftp::Response::Status::InsufficientStorageSpace' data-ref="sf::Ftp::Response::Status::InsufficientStorageSpace">InsufficientStorageSpace</dfn>  = <var>452</var>, <i class="doc">///&lt; Requested action not taken; insufficient storage space in system, file unavailable</i></td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td>            <i>// 5xx: the command was not accepted and</i></td></tr>
+<tr><th id="116">116</th><td><i>            // the requested action did not take place</i></td></tr>
+<tr><th id="117">117</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::CommandUnknown" title='sf::Ftp::Response::Status::CommandUnknown' data-ref="sf::Ftp::Response::Status::CommandUnknown">CommandUnknown</dfn>          = <var>500</var>, <i class="doc">///&lt; Syntax error, command unrecognized</i></td></tr>
+<tr><th id="118">118</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ParametersUnknown" title='sf::Ftp::Response::Status::ParametersUnknown' data-ref="sf::Ftp::Response::Status::ParametersUnknown">ParametersUnknown</dfn>       = <var>501</var>, <i class="doc">///&lt; Syntax error in parameters or arguments</i></td></tr>
+<tr><th id="119">119</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::CommandNotImplemented" title='sf::Ftp::Response::Status::CommandNotImplemented' data-ref="sf::Ftp::Response::Status::CommandNotImplemented">CommandNotImplemented</dfn>   = <var>502</var>, <i class="doc">///&lt; Command not implemented</i></td></tr>
+<tr><th id="120">120</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::BadCommandSequence" title='sf::Ftp::Response::Status::BadCommandSequence' data-ref="sf::Ftp::Response::Status::BadCommandSequence">BadCommandSequence</dfn>      = <var>503</var>, <i class="doc">///&lt; Bad sequence of commands</i></td></tr>
+<tr><th id="121">121</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ParameterNotImplemented" title='sf::Ftp::Response::Status::ParameterNotImplemented' data-ref="sf::Ftp::Response::Status::ParameterNotImplemented">ParameterNotImplemented</dfn> = <var>504</var>, <i class="doc">///&lt; Command not implemented for that parameter</i></td></tr>
+<tr><th id="122">122</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::NotLoggedIn" title='sf::Ftp::Response::Status::NotLoggedIn' data-ref="sf::Ftp::Response::Status::NotLoggedIn">NotLoggedIn</dfn>             = <var>530</var>, <i class="doc">///&lt; Not logged in</i></td></tr>
+<tr><th id="123">123</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::NeedAccountToStore" title='sf::Ftp::Response::Status::NeedAccountToStore' data-ref="sf::Ftp::Response::Status::NeedAccountToStore">NeedAccountToStore</dfn>      = <var>532</var>, <i class="doc">///&lt; Need account for storing files</i></td></tr>
+<tr><th id="124">124</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::FileUnavailable" title='sf::Ftp::Response::Status::FileUnavailable' data-ref="sf::Ftp::Response::Status::FileUnavailable">FileUnavailable</dfn>         = <var>550</var>, <i class="doc">///&lt; Requested action not taken, file unavailable</i></td></tr>
+<tr><th id="125">125</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::PageTypeUnknown" title='sf::Ftp::Response::Status::PageTypeUnknown' data-ref="sf::Ftp::Response::Status::PageTypeUnknown">PageTypeUnknown</dfn>         = <var>551</var>, <i class="doc">///&lt; Requested action aborted, page type unknown</i></td></tr>
+<tr><th id="126">126</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::NotEnoughMemory" title='sf::Ftp::Response::Status::NotEnoughMemory' data-ref="sf::Ftp::Response::Status::NotEnoughMemory">NotEnoughMemory</dfn>         = <var>552</var>, <i class="doc">///&lt; Requested file action aborted, exceeded storage allocation</i></td></tr>
+<tr><th id="127">127</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::FilenameNotAllowed" title='sf::Ftp::Response::Status::FilenameNotAllowed' data-ref="sf::Ftp::Response::Status::FilenameNotAllowed">FilenameNotAllowed</dfn>      = <var>553</var>, <i class="doc">///&lt; Requested action not taken, file name not allowed</i></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td>            <i>// 10xx: SFML custom codes</i></td></tr>
+<tr><th id="130">130</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::InvalidResponse" title='sf::Ftp::Response::Status::InvalidResponse' data-ref="sf::Ftp::Response::Status::InvalidResponse">InvalidResponse</dfn>  = <var>1000</var>, <i class="doc">///&lt; Not part of the FTP standard, generated by SFML when a received response cannot be parsed</i></td></tr>
+<tr><th id="131">131</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ConnectionFailed" title='sf::Ftp::Response::Status::ConnectionFailed' data-ref="sf::Ftp::Response::Status::ConnectionFailed">ConnectionFailed</dfn> = <var>1001</var>, <i class="doc">///&lt; Not part of the FTP standard, generated by SFML when the low-level socket connection with the server fails</i></td></tr>
+<tr><th id="132">132</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::ConnectionClosed" title='sf::Ftp::Response::Status::ConnectionClosed' data-ref="sf::Ftp::Response::Status::ConnectionClosed">ConnectionClosed</dfn> = <var>1002</var>, <i class="doc">///&lt; Not part of the FTP standard, generated by SFML when the low-level socket connection is unexpectedly closed</i></td></tr>
+<tr><th id="133">133</th><td>            <dfn class="enum" id="sf::Ftp::Response::Status::InvalidFile" title='sf::Ftp::Response::Status::InvalidFile' data-ref="sf::Ftp::Response::Status::InvalidFile">InvalidFile</dfn>      = <var>1003</var>  <i class="doc">///&lt; Not part of the FTP standard, generated by SFML when a local file cannot be read or written</i></td></tr>
+<tr><th id="134">134</th><td>        };</td></tr>
+<tr><th id="135">135</th><td></td></tr>
+<tr><th id="136">136</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="137">137</th><td><i>        /// \brief Default constructor</i></td></tr>
+<tr><th id="138">138</th><td><i>        ///</i></td></tr>
+<tr><th id="139">139</th><td><i>        /// This constructor is used by the FTP client to build</i></td></tr>
+<tr><th id="140">140</th><td><i>        /// the response.</i></td></tr>
+<tr><th id="141">141</th><td><i>        ///</i></td></tr>
+<tr><th id="142">142</th><td><i>        /// \param code    Response status code</i></td></tr>
+<tr><th id="143">143</th><td><i>        /// \param message Response message</i></td></tr>
+<tr><th id="144">144</th><td><i>        ///</i></td></tr>
+<tr><th id="145">145</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="146">146</th><td>        <b>explicit</b> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp8ResponseC1ENS1_6StatusERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::Response::Response' data-ref="_ZN2sf3Ftp8ResponseC1ENS1_6StatusERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp8ResponseC1ENS1_6StatusERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">Response</a>(<a class="type" href="#sf::Ftp::Response::Status" title='sf::Ftp::Response::Status' data-ref="sf::Ftp::Response::Status">Status</a> <dfn class="local col7 decl" id="17code" title='code' data-type='sf::Ftp::Response::Status' data-ref="17code">code</dfn> = <a class="enum" href="#sf::Ftp::Response::Status::InvalidResponse" title='sf::Ftp::Response::Status::InvalidResponse' data-ref="sf::Ftp::Response::Status::InvalidResponse">InvalidResponse</a>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="18message" title='message' data-type='const std::string &amp;' data-ref="18message">message</dfn> = <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>""</q>);</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="149">149</th><td><i>        /// \brief Check if the status code means a success</i></td></tr>
+<tr><th id="150">150</th><td><i>        ///</i></td></tr>
+<tr><th id="151">151</th><td><i>        /// This function is defined for convenience, it is</i></td></tr>
+<tr><th id="152">152</th><td><i>        /// equivalent to testing if the status code is &lt; 400.</i></td></tr>
+<tr><th id="153">153</th><td><i>        ///</i></td></tr>
+<tr><th id="154">154</th><td><i>        /// \return True if the status is a success, false if it is a failure</i></td></tr>
+<tr><th id="155">155</th><td><i>        ///</i></td></tr>
+<tr><th id="156">156</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="157">157</th><td>        <em>bool</em> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZNK2sf3Ftp8Response4isOkEv" title='sf::Ftp::Response::isOk' data-ref="_ZNK2sf3Ftp8Response4isOkEv" id="_ZNK2sf3Ftp8Response4isOkEv">isOk</a>() <em>const</em>;</td></tr>
+<tr><th id="158">158</th><td></td></tr>
+<tr><th id="159">159</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="160">160</th><td><i>        /// \brief Get the status code of the response</i></td></tr>
+<tr><th id="161">161</th><td><i>        ///</i></td></tr>
+<tr><th id="162">162</th><td><i>        /// \return Status code</i></td></tr>
+<tr><th id="163">163</th><td><i>        ///</i></td></tr>
+<tr><th id="164">164</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="165">165</th><td>        <a class="type" href="#sf::Ftp::Response::Status" title='sf::Ftp::Response::Status' data-ref="sf::Ftp::Response::Status">Status</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZNK2sf3Ftp8Response9getStatusEv" title='sf::Ftp::Response::getStatus' data-ref="_ZNK2sf3Ftp8Response9getStatusEv" id="_ZNK2sf3Ftp8Response9getStatusEv">getStatus</a>() <em>const</em>;</td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="168">168</th><td><i>        /// \brief Get the full message contained in the response</i></td></tr>
+<tr><th id="169">169</th><td><i>        ///</i></td></tr>
+<tr><th id="170">170</th><td><i>        /// \return The response message</i></td></tr>
+<tr><th id="171">171</th><td><i>        ///</i></td></tr>
+<tr><th id="172">172</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="173">173</th><td>        <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZNK2sf3Ftp8Response10getMessageB5cxx11Ev" title='sf::Ftp::Response::getMessage' data-ref="_ZNK2sf3Ftp8Response10getMessageB5cxx11Ev" id="_ZNK2sf3Ftp8Response10getMessageB5cxx11Ev">getMessage</a>() <em>const</em>;</td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td>    <b>private</b>:</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="178">178</th><td><i>        // Member data</i></td></tr>
+<tr><th id="179">179</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="180">180</th><td>        <a class="type" href="#sf::Ftp::Response::Status" title='sf::Ftp::Response::Status' data-ref="sf::Ftp::Response::Status">Status</a>      <dfn class="decl" id="sf::Ftp::Response::m_status" title='sf::Ftp::Response::m_status' data-ref="sf::Ftp::Response::m_status">m_status</dfn>;  <i class="doc">///&lt; Status code returned from the server</i></td></tr>
+<tr><th id="181">181</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="decl" id="sf::Ftp::Response::m_message" title='sf::Ftp::Response::m_message' data-ref="sf::Ftp::Response::m_message">m_message</dfn>; <i class="doc">///&lt; Last message received from the server</i></td></tr>
+<tr><th id="182">182</th><td>    };</td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="185">185</th><td><i>    /// \brief Specialization of FTP response returning a directory</i></td></tr>
+<tr><th id="186">186</th><td><i>    ///</i></td></tr>
+<tr><th id="187">187</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="188">188</th><td>    <b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_NETWORK_API">SFML_NETWORK_API</a> <dfn class="type def" id="sf::Ftp::DirectoryResponse" title='sf::Ftp::DirectoryResponse' data-ref="sf::Ftp::DirectoryResponse">DirectoryResponse</dfn> : <b>public</b> <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a></td></tr>
+<tr><th id="189">189</th><td>    {</td></tr>
+<tr><th id="190">190</th><td>    <b>public</b>:</td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="193">193</th><td><i>        /// \brief Default constructor</i></td></tr>
+<tr><th id="194">194</th><td><i>        ///</i></td></tr>
+<tr><th id="195">195</th><td><i>        /// \param response Source response</i></td></tr>
+<tr><th id="196">196</th><td><i>        ///</i></td></tr>
+<tr><th id="197">197</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="198">198</th><td>        <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE" title='sf::Ftp::DirectoryResponse::DirectoryResponse' data-ref="_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE" id="_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE">DirectoryResponse</a>(<em>const</em> <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a>&amp; <dfn class="local col9 decl" id="19response" title='response' data-type='const sf::Ftp::Response &amp;' data-ref="19response">response</dfn>);</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="201">201</th><td><i>        /// \brief Get the directory returned in the response</i></td></tr>
+<tr><th id="202">202</th><td><i>        ///</i></td></tr>
+<tr><th id="203">203</th><td><i>        /// \return Directory name</i></td></tr>
+<tr><th id="204">204</th><td><i>        ///</i></td></tr>
+<tr><th id="205">205</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="206">206</th><td>        <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZNK2sf3Ftp17DirectoryResponse12getDirectoryB5cxx11Ev" title='sf::Ftp::DirectoryResponse::getDirectory' data-ref="_ZNK2sf3Ftp17DirectoryResponse12getDirectoryB5cxx11Ev" id="_ZNK2sf3Ftp17DirectoryResponse12getDirectoryB5cxx11Ev">getDirectory</a>() <em>const</em>;</td></tr>
+<tr><th id="207">207</th><td></td></tr>
+<tr><th id="208">208</th><td>    <b>private</b>:</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="211">211</th><td><i>        // Member data</i></td></tr>
+<tr><th id="212">212</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="213">213</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="decl" id="sf::Ftp::DirectoryResponse::m_directory" title='sf::Ftp::DirectoryResponse::m_directory' data-ref="sf::Ftp::DirectoryResponse::m_directory">m_directory</dfn>; <i class="doc">///&lt; Directory extracted from the response message</i></td></tr>
+<tr><th id="214">214</th><td>    };</td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="218">218</th><td><i>    /// \brief Specialization of FTP response returning a</i></td></tr>
+<tr><th id="219">219</th><td><i>    ///        filename listing</i></td></tr>
+<tr><th id="220">220</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="221">221</th><td>    <b>class</b> <a class="macro" href="Export.hpp.html#39" title="__attribute__ ((__visibility__ (&quot;default&quot;)))" data-ref="_M/SFML_NETWORK_API">SFML_NETWORK_API</a> <dfn class="type def" id="sf::Ftp::ListingResponse" title='sf::Ftp::ListingResponse' data-ref="sf::Ftp::ListingResponse">ListingResponse</dfn> : <b>public</b> <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a></td></tr>
+<tr><th id="222">222</th><td>    {</td></tr>
+<tr><th id="223">223</th><td>    <b>public</b>:</td></tr>
+<tr><th id="224">224</th><td></td></tr>
+<tr><th id="225">225</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="226">226</th><td><i>        /// \brief Default constructor</i></td></tr>
+<tr><th id="227">227</th><td><i>        ///</i></td></tr>
+<tr><th id="228">228</th><td><i>        /// \param response  Source response</i></td></tr>
+<tr><th id="229">229</th><td><i>        /// \param data      Data containing the raw listing</i></td></tr>
+<tr><th id="230">230</th><td><i>        ///</i></td></tr>
+<tr><th id="231">231</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="232">232</th><td>        <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::ListingResponse::ListingResponse' data-ref="_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">ListingResponse</a>(<em>const</em> <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a>&amp; <dfn class="local col0 decl" id="20response" title='response' data-type='const sf::Ftp::Response &amp;' data-ref="20response">response</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="21data" title='data' data-type='const std::string &amp;' data-ref="21data">data</dfn>);</td></tr>
+<tr><th id="233">233</th><td></td></tr>
+<tr><th id="234">234</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="235">235</th><td><i>        /// \brief Return the array of directory/file names</i></td></tr>
+<tr><th id="236">236</th><td><i>        ///</i></td></tr>
+<tr><th id="237">237</th><td><i>        /// \return Array containing the requested listing</i></td></tr>
+<tr><th id="238">238</th><td><i>        ///</i></td></tr>
+<tr><th id="239">239</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="240">240</th><td>        <em>const</em> <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&gt;&amp; <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev" title='sf::Ftp::ListingResponse::getListing' data-ref="_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev" id="_ZNK2sf3Ftp15ListingResponse10getListingB5cxx11Ev">getListing</a>() <em>const</em>;</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td>    <b>private</b>:</td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td>        <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="245">245</th><td><i>        // Member data</i></td></tr>
+<tr><th id="246">246</th><td><i>        ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="247">247</th><td>        <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&gt; <dfn class="decl" id="sf::Ftp::ListingResponse::m_listing" title='sf::Ftp::ListingResponse::m_listing' data-ref="sf::Ftp::ListingResponse::m_listing">m_listing</dfn>; <i class="doc">///&lt; Directory/file names extracted from the data</i></td></tr>
+<tr><th id="248">248</th><td>    };</td></tr>
+<tr><th id="249">249</th><td></td></tr>
+<tr><th id="250">250</th><td></td></tr>
+<tr><th id="251">251</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="252">252</th><td><i>    /// \brief Destructor</i></td></tr>
+<tr><th id="253">253</th><td><i>    ///</i></td></tr>
+<tr><th id="254">254</th><td><i>    /// Automatically closes the connection with the server if</i></td></tr>
+<tr><th id="255">255</th><td><i>    /// it is still opened.</i></td></tr>
+<tr><th id="256">256</th><td><i>    ///</i></td></tr>
+<tr><th id="257">257</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="258">258</th><td>    <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3FtpD1Ev" title='sf::Ftp::~Ftp' data-ref="_ZN2sf3FtpD1Ev" id="_ZN2sf3FtpD1Ev">~Ftp</a>();</td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="261">261</th><td><i>    /// \brief Connect to the specified FTP server</i></td></tr>
+<tr><th id="262">262</th><td><i>    ///</i></td></tr>
+<tr><th id="263">263</th><td><i>    /// The port has a default value of 21, which is the standard</i></td></tr>
+<tr><th id="264">264</th><td><i>    /// port used by the FTP protocol. You shouldn't use a different</i></td></tr>
+<tr><th id="265">265</th><td><i>    /// value, unless you really know what you do.</i></td></tr>
+<tr><th id="266">266</th><td><i>    /// This function tries to connect to the server so it may take</i></td></tr>
+<tr><th id="267">267</th><td><i>    /// a while to complete, especially if the server is not</i></td></tr>
+<tr><th id="268">268</th><td><i>    /// reachable. To avoid blocking your application for too long,</i></td></tr>
+<tr><th id="269">269</th><td><i>    /// you can use a timeout. The default value, Time::Zero, means that the</i></td></tr>
+<tr><th id="270">270</th><td><i>    /// system timeout will be used (which is usually pretty long).</i></td></tr>
+<tr><th id="271">271</th><td><i>    ///</i></td></tr>
+<tr><th id="272">272</th><td><i>    /// \param server  Name or address of the FTP server to connect to</i></td></tr>
+<tr><th id="273">273</th><td><i>    /// \param port    Port used for the connection</i></td></tr>
+<tr><th id="274">274</th><td><i>    /// \param timeout Maximum time to wait</i></td></tr>
+<tr><th id="275">275</th><td><i>    ///</i></td></tr>
+<tr><th id="276">276</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="277">277</th><td><i>    ///</i></td></tr>
+<tr><th id="278">278</th><td><i>    /// \see disconnect</i></td></tr>
+<tr><th id="279">279</th><td><i>    ///</i></td></tr>
+<tr><th id="280">280</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="281">281</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE" title='sf::Ftp::connect' data-ref="_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE" id="_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE">connect</a>(<em>const</em> <a class="type" href="IpAddress.hpp.html#sf::IpAddress" title='sf::IpAddress' data-ref="sf::IpAddress">IpAddress</a>&amp; <dfn class="local col2 decl" id="22server" title='server' data-type='const sf::IpAddress &amp;' data-ref="22server">server</dfn>, <em>unsigned</em> <em>short</em> <dfn class="local col3 decl" id="23port" title='port' data-type='unsigned short' data-ref="23port">port</dfn> = <var>21</var>, <a class="type" href="../System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col4 decl" id="24timeout" title='timeout' data-type='sf::Time' data-ref="24timeout">timeout</dfn> <a class="ref fake" href="../System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="ref fake" href="../System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a>= <a class="type" href="../System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<a class="ref" href="../System/Time.hpp.html#sf::Time::Zero" title='sf::Time::Zero' data-ref="sf::Time::Zero">Zero</a>);</td></tr>
+<tr><th id="282">282</th><td></td></tr>
+<tr><th id="283">283</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="284">284</th><td><i>    /// \brief Close the connection with the server</i></td></tr>
+<tr><th id="285">285</th><td><i>    ///</i></td></tr>
+<tr><th id="286">286</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="287">287</th><td><i>    ///</i></td></tr>
+<tr><th id="288">288</th><td><i>    /// \see connect</i></td></tr>
+<tr><th id="289">289</th><td><i>    ///</i></td></tr>
+<tr><th id="290">290</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="291">291</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp10disconnectEv" title='sf::Ftp::disconnect' data-ref="_ZN2sf3Ftp10disconnectEv" id="_ZN2sf3Ftp10disconnectEv">disconnect</a>();</td></tr>
+<tr><th id="292">292</th><td></td></tr>
+<tr><th id="293">293</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="294">294</th><td><i>    /// \brief Log in using an anonymous account</i></td></tr>
+<tr><th id="295">295</th><td><i>    ///</i></td></tr>
+<tr><th id="296">296</th><td><i>    /// Logging in is mandatory after connecting to the server.</i></td></tr>
+<tr><th id="297">297</th><td><i>    /// Users that are not logged in cannot perform any operation.</i></td></tr>
+<tr><th id="298">298</th><td><i>    ///</i></td></tr>
+<tr><th id="299">299</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="300">300</th><td><i>    ///</i></td></tr>
+<tr><th id="301">301</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="302">302</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp5loginEv" title='sf::Ftp::login' data-ref="_ZN2sf3Ftp5loginEv" id="_ZN2sf3Ftp5loginEv">login</a>();</td></tr>
+<tr><th id="303">303</th><td></td></tr>
+<tr><th id="304">304</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="305">305</th><td><i>    /// \brief Log in using a username and a password</i></td></tr>
+<tr><th id="306">306</th><td><i>    ///</i></td></tr>
+<tr><th id="307">307</th><td><i>    /// Logging in is mandatory after connecting to the server.</i></td></tr>
+<tr><th id="308">308</th><td><i>    /// Users that are not logged in cannot perform any operation.</i></td></tr>
+<tr><th id="309">309</th><td><i>    ///</i></td></tr>
+<tr><th id="310">310</th><td><i>    /// \param name     User name</i></td></tr>
+<tr><th id="311">311</th><td><i>    /// \param password Password</i></td></tr>
+<tr><th id="312">312</th><td><i>    ///</i></td></tr>
+<tr><th id="313">313</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="314">314</th><td><i>    ///</i></td></tr>
+<tr><th id="315">315</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="316">316</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" title='sf::Ftp::login' data-ref="_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" id="_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_">login</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="25name" title='name' data-type='const std::string &amp;' data-ref="25name">name</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col6 decl" id="26password" title='password' data-type='const std::string &amp;' data-ref="26password">password</dfn>);</td></tr>
+<tr><th id="317">317</th><td></td></tr>
+<tr><th id="318">318</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="319">319</th><td><i>    /// \brief Send a null command to keep the connection alive</i></td></tr>
+<tr><th id="320">320</th><td><i>    ///</i></td></tr>
+<tr><th id="321">321</th><td><i>    /// This command is useful because the server may close the</i></td></tr>
+<tr><th id="322">322</th><td><i>    /// connection automatically if no command is sent.</i></td></tr>
+<tr><th id="323">323</th><td><i>    ///</i></td></tr>
+<tr><th id="324">324</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="325">325</th><td><i>    ///</i></td></tr>
+<tr><th id="326">326</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="327">327</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp9keepAliveEv" title='sf::Ftp::keepAlive' data-ref="_ZN2sf3Ftp9keepAliveEv" id="_ZN2sf3Ftp9keepAliveEv">keepAlive</a>();</td></tr>
+<tr><th id="328">328</th><td></td></tr>
+<tr><th id="329">329</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="330">330</th><td><i>    /// \brief Get the current working directory</i></td></tr>
+<tr><th id="331">331</th><td><i>    ///</i></td></tr>
+<tr><th id="332">332</th><td><i>    /// The working directory is the root path for subsequent</i></td></tr>
+<tr><th id="333">333</th><td><i>    /// operations involving directories and/or filenames.</i></td></tr>
+<tr><th id="334">334</th><td><i>    ///</i></td></tr>
+<tr><th id="335">335</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="336">336</th><td><i>    ///</i></td></tr>
+<tr><th id="337">337</th><td><i>    /// \see getDirectoryListing, changeDirectory, parentDirectory</i></td></tr>
+<tr><th id="338">338</th><td><i>    ///</i></td></tr>
+<tr><th id="339">339</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="340">340</th><td>    <a class="type" href="#sf::Ftp::DirectoryResponse" title='sf::Ftp::DirectoryResponse' data-ref="sf::Ftp::DirectoryResponse">DirectoryResponse</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp19getWorkingDirectoryEv" title='sf::Ftp::getWorkingDirectory' data-ref="_ZN2sf3Ftp19getWorkingDirectoryEv" id="_ZN2sf3Ftp19getWorkingDirectoryEv">getWorkingDirectory</a>();</td></tr>
+<tr><th id="341">341</th><td></td></tr>
+<tr><th id="342">342</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="343">343</th><td><i>    /// \brief Get the contents of the given directory</i></td></tr>
+<tr><th id="344">344</th><td><i>    ///</i></td></tr>
+<tr><th id="345">345</th><td><i>    /// This function retrieves the sub-directories and files</i></td></tr>
+<tr><th id="346">346</th><td><i>    /// contained in the given directory. It is not recursive.</i></td></tr>
+<tr><th id="347">347</th><td><i>    /// The \a directory parameter is relative to the current</i></td></tr>
+<tr><th id="348">348</th><td><i>    /// working directory.</i></td></tr>
+<tr><th id="349">349</th><td><i>    ///</i></td></tr>
+<tr><th id="350">350</th><td><i>    /// \param directory Directory to list</i></td></tr>
+<tr><th id="351">351</th><td><i>    ///</i></td></tr>
+<tr><th id="352">352</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="353">353</th><td><i>    ///</i></td></tr>
+<tr><th id="354">354</th><td><i>    /// \see getWorkingDirectory, changeDirectory, parentDirectory</i></td></tr>
+<tr><th id="355">355</th><td><i>    ///</i></td></tr>
+<tr><th id="356">356</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="357">357</th><td>    <a class="type" href="#sf::Ftp::ListingResponse" title='sf::Ftp::ListingResponse' data-ref="sf::Ftp::ListingResponse">ListingResponse</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::getDirectoryListing' data-ref="_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">getDirectoryListing</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="27directory" title='directory' data-type='const std::string &amp;' data-ref="27directory">directory</dfn> = <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>""</q>);</td></tr>
+<tr><th id="358">358</th><td></td></tr>
+<tr><th id="359">359</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="360">360</th><td><i>    /// \brief Change the current working directory</i></td></tr>
+<tr><th id="361">361</th><td><i>    ///</i></td></tr>
+<tr><th id="362">362</th><td><i>    /// The new directory must be relative to the current one.</i></td></tr>
+<tr><th id="363">363</th><td><i>    ///</i></td></tr>
+<tr><th id="364">364</th><td><i>    /// \param directory New working directory</i></td></tr>
+<tr><th id="365">365</th><td><i>    ///</i></td></tr>
+<tr><th id="366">366</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="367">367</th><td><i>    ///</i></td></tr>
+<tr><th id="368">368</th><td><i>    /// \see getWorkingDirectory, getDirectoryListing, parentDirectory</i></td></tr>
+<tr><th id="369">369</th><td><i>    ///</i></td></tr>
+<tr><th id="370">370</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="371">371</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp15changeDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::changeDirectory' data-ref="_ZN2sf3Ftp15changeDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp15changeDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">changeDirectory</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="28directory" title='directory' data-type='const std::string &amp;' data-ref="28directory">directory</dfn>);</td></tr>
+<tr><th id="372">372</th><td></td></tr>
+<tr><th id="373">373</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="374">374</th><td><i>    /// \brief Go to the parent directory of the current one</i></td></tr>
+<tr><th id="375">375</th><td><i>    ///</i></td></tr>
+<tr><th id="376">376</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="377">377</th><td><i>    ///</i></td></tr>
+<tr><th id="378">378</th><td><i>    /// \see getWorkingDirectory, getDirectoryListing, changeDirectory</i></td></tr>
+<tr><th id="379">379</th><td><i>    ///</i></td></tr>
+<tr><th id="380">380</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="381">381</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp15parentDirectoryEv" title='sf::Ftp::parentDirectory' data-ref="_ZN2sf3Ftp15parentDirectoryEv" id="_ZN2sf3Ftp15parentDirectoryEv">parentDirectory</a>();</td></tr>
+<tr><th id="382">382</th><td></td></tr>
+<tr><th id="383">383</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="384">384</th><td><i>    /// \brief Create a new directory</i></td></tr>
+<tr><th id="385">385</th><td><i>    ///</i></td></tr>
+<tr><th id="386">386</th><td><i>    /// The new directory is created as a child of the current</i></td></tr>
+<tr><th id="387">387</th><td><i>    /// working directory.</i></td></tr>
+<tr><th id="388">388</th><td><i>    ///</i></td></tr>
+<tr><th id="389">389</th><td><i>    /// \param name Name of the directory to create</i></td></tr>
+<tr><th id="390">390</th><td><i>    ///</i></td></tr>
+<tr><th id="391">391</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="392">392</th><td><i>    ///</i></td></tr>
+<tr><th id="393">393</th><td><i>    /// \see deleteDirectory</i></td></tr>
+<tr><th id="394">394</th><td><i>    ///</i></td></tr>
+<tr><th id="395">395</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="396">396</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp15createDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::createDirectory' data-ref="_ZN2sf3Ftp15createDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp15createDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">createDirectory</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col9 decl" id="29name" title='name' data-type='const std::string &amp;' data-ref="29name">name</dfn>);</td></tr>
+<tr><th id="397">397</th><td></td></tr>
+<tr><th id="398">398</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="399">399</th><td><i>    /// \brief Remove an existing directory</i></td></tr>
+<tr><th id="400">400</th><td><i>    ///</i></td></tr>
+<tr><th id="401">401</th><td><i>    /// The directory to remove must be relative to the</i></td></tr>
+<tr><th id="402">402</th><td><i>    /// current working directory.</i></td></tr>
+<tr><th id="403">403</th><td><i>    /// Use this function with caution, the directory will</i></td></tr>
+<tr><th id="404">404</th><td><i>    /// be removed permanently!</i></td></tr>
+<tr><th id="405">405</th><td><i>    ///</i></td></tr>
+<tr><th id="406">406</th><td><i>    /// \param name Name of the directory to remove</i></td></tr>
+<tr><th id="407">407</th><td><i>    ///</i></td></tr>
+<tr><th id="408">408</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="409">409</th><td><i>    ///</i></td></tr>
+<tr><th id="410">410</th><td><i>    /// \see createDirectory</i></td></tr>
+<tr><th id="411">411</th><td><i>    ///</i></td></tr>
+<tr><th id="412">412</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="413">413</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp15deleteDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::deleteDirectory' data-ref="_ZN2sf3Ftp15deleteDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp15deleteDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">deleteDirectory</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="30name" title='name' data-type='const std::string &amp;' data-ref="30name">name</dfn>);</td></tr>
+<tr><th id="414">414</th><td></td></tr>
+<tr><th id="415">415</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="416">416</th><td><i>    /// \brief Rename an existing file</i></td></tr>
+<tr><th id="417">417</th><td><i>    ///</i></td></tr>
+<tr><th id="418">418</th><td><i>    /// The filenames must be relative to the current working</i></td></tr>
+<tr><th id="419">419</th><td><i>    /// directory.</i></td></tr>
+<tr><th id="420">420</th><td><i>    ///</i></td></tr>
+<tr><th id="421">421</th><td><i>    /// \param file    File to rename</i></td></tr>
+<tr><th id="422">422</th><td><i>    /// \param newName New name of the file</i></td></tr>
+<tr><th id="423">423</th><td><i>    ///</i></td></tr>
+<tr><th id="424">424</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="425">425</th><td><i>    ///</i></td></tr>
+<tr><th id="426">426</th><td><i>    /// \see deleteFile</i></td></tr>
+<tr><th id="427">427</th><td><i>    ///</i></td></tr>
+<tr><th id="428">428</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="429">429</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" title='sf::Ftp::renameFile' data-ref="_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" id="_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_">renameFile</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="31file" title='file' data-type='const std::string &amp;' data-ref="31file">file</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col2 decl" id="32newName" title='newName' data-type='const std::string &amp;' data-ref="32newName">newName</dfn>);</td></tr>
+<tr><th id="430">430</th><td></td></tr>
+<tr><th id="431">431</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="432">432</th><td><i>    /// \brief Remove an existing file</i></td></tr>
+<tr><th id="433">433</th><td><i>    ///</i></td></tr>
+<tr><th id="434">434</th><td><i>    /// The file name must be relative to the current working</i></td></tr>
+<tr><th id="435">435</th><td><i>    /// directory.</i></td></tr>
+<tr><th id="436">436</th><td><i>    /// Use this function with caution, the file will be</i></td></tr>
+<tr><th id="437">437</th><td><i>    /// removed permanently!</i></td></tr>
+<tr><th id="438">438</th><td><i>    ///</i></td></tr>
+<tr><th id="439">439</th><td><i>    /// \param name File to remove</i></td></tr>
+<tr><th id="440">440</th><td><i>    ///</i></td></tr>
+<tr><th id="441">441</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="442">442</th><td><i>    ///</i></td></tr>
+<tr><th id="443">443</th><td><i>    /// \see renameFile</i></td></tr>
+<tr><th id="444">444</th><td><i>    ///</i></td></tr>
+<tr><th id="445">445</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="446">446</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp10deleteFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::Ftp::deleteFile' data-ref="_ZN2sf3Ftp10deleteFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" id="_ZN2sf3Ftp10deleteFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">deleteFile</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col3 decl" id="33name" title='name' data-type='const std::string &amp;' data-ref="33name">name</dfn>);</td></tr>
+<tr><th id="447">447</th><td></td></tr>
+<tr><th id="448">448</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="449">449</th><td><i>    /// \brief Download a file from the server</i></td></tr>
+<tr><th id="450">450</th><td><i>    ///</i></td></tr>
+<tr><th id="451">451</th><td><i>    /// The filename of the distant file is relative to the</i></td></tr>
+<tr><th id="452">452</th><td><i>    /// current working directory of the server, and the local</i></td></tr>
+<tr><th id="453">453</th><td><i>    /// destination path is relative to the current directory</i></td></tr>
+<tr><th id="454">454</th><td><i>    /// of your application.</i></td></tr>
+<tr><th id="455">455</th><td><i>    /// If a file with the same filename as the distant file</i></td></tr>
+<tr><th id="456">456</th><td><i>    /// already exists in the local destination path, it will</i></td></tr>
+<tr><th id="457">457</th><td><i>    /// be overwritten.</i></td></tr>
+<tr><th id="458">458</th><td><i>    ///</i></td></tr>
+<tr><th id="459">459</th><td><i>    /// \param remoteFile Filename of the distant file to download</i></td></tr>
+<tr><th id="460">460</th><td><i>    /// \param localPath  The directory in which to put the file on the local computer</i></td></tr>
+<tr><th id="461">461</th><td><i>    /// \param mode       Transfer mode</i></td></tr>
+<tr><th id="462">462</th><td><i>    ///</i></td></tr>
+<tr><th id="463">463</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="464">464</th><td><i>    ///</i></td></tr>
+<tr><th id="465">465</th><td><i>    /// \see upload</i></td></tr>
+<tr><th id="466">466</th><td><i>    ///</i></td></tr>
+<tr><th id="467">467</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="468">468</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE" title='sf::Ftp::download' data-ref="_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE" id="_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE">download</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col4 decl" id="34remoteFile" title='remoteFile' data-type='const std::string &amp;' data-ref="34remoteFile">remoteFile</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="35localPath" title='localPath' data-type='const std::string &amp;' data-ref="35localPath">localPath</dfn>, <a class="type" href="#sf::Ftp::TransferMode" title='sf::Ftp::TransferMode' data-ref="sf::Ftp::TransferMode">TransferMode</a> <dfn class="local col6 decl" id="36mode" title='mode' data-type='sf::Ftp::TransferMode' data-ref="36mode">mode</dfn> = <a class="enum" href="#sf::Ftp::TransferMode::Binary" title='sf::Ftp::TransferMode::Binary' data-ref="sf::Ftp::TransferMode::Binary">Binary</a>);</td></tr>
+<tr><th id="469">469</th><td></td></tr>
+<tr><th id="470">470</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="471">471</th><td><i>    /// \brief Upload a file to the server</i></td></tr>
+<tr><th id="472">472</th><td><i>    ///</i></td></tr>
+<tr><th id="473">473</th><td><i>    /// The name of the local file is relative to the current</i></td></tr>
+<tr><th id="474">474</th><td><i>    /// working directory of your application, and the</i></td></tr>
+<tr><th id="475">475</th><td><i>    /// remote path is relative to the current directory of the</i></td></tr>
+<tr><th id="476">476</th><td><i>    /// FTP server.</i></td></tr>
+<tr><th id="477">477</th><td><i>    ///</i></td></tr>
+<tr><th id="478">478</th><td><i>    /// \param localFile  Path of the local file to upload</i></td></tr>
+<tr><th id="479">479</th><td><i>    /// \param remotePath The directory in which to put the file on the server</i></td></tr>
+<tr><th id="480">480</th><td><i>    /// \param mode       Transfer mode</i></td></tr>
+<tr><th id="481">481</th><td><i>    ///</i></td></tr>
+<tr><th id="482">482</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="483">483</th><td><i>    ///</i></td></tr>
+<tr><th id="484">484</th><td><i>    /// \see download</i></td></tr>
+<tr><th id="485">485</th><td><i>    ///</i></td></tr>
+<tr><th id="486">486</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="487">487</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE" title='sf::Ftp::upload' data-ref="_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE" id="_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE">upload</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col7 decl" id="37localFile" title='localFile' data-type='const std::string &amp;' data-ref="37localFile">localFile</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col8 decl" id="38remotePath" title='remotePath' data-type='const std::string &amp;' data-ref="38remotePath">remotePath</dfn>, <a class="type" href="#sf::Ftp::TransferMode" title='sf::Ftp::TransferMode' data-ref="sf::Ftp::TransferMode">TransferMode</a> <dfn class="local col9 decl" id="39mode" title='mode' data-type='sf::Ftp::TransferMode' data-ref="39mode">mode</dfn> = <a class="enum" href="#sf::Ftp::TransferMode::Binary" title='sf::Ftp::TransferMode::Binary' data-ref="sf::Ftp::TransferMode::Binary">Binary</a>);</td></tr>
+<tr><th id="488">488</th><td></td></tr>
+<tr><th id="489">489</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="490">490</th><td><i>    /// \brief Send a command to the FTP server</i></td></tr>
+<tr><th id="491">491</th><td><i>    ///</i></td></tr>
+<tr><th id="492">492</th><td><i>    /// While the most often used commands are provided as member</i></td></tr>
+<tr><th id="493">493</th><td><i>    /// functions in the sf::Ftp class, this method can be used</i></td></tr>
+<tr><th id="494">494</th><td><i>    /// to send any FTP command to the server. If the command</i></td></tr>
+<tr><th id="495">495</th><td><i>    /// requires one or more parameters, they can be specified</i></td></tr>
+<tr><th id="496">496</th><td><i>    /// in \a parameter. If the server returns information, you</i></td></tr>
+<tr><th id="497">497</th><td><i>    /// can extract it from the response using Response::getMessage().</i></td></tr>
+<tr><th id="498">498</th><td><i>    ///</i></td></tr>
+<tr><th id="499">499</th><td><i>    /// \param command   Command to send</i></td></tr>
+<tr><th id="500">500</th><td><i>    /// \param parameter Command parameter</i></td></tr>
+<tr><th id="501">501</th><td><i>    ///</i></td></tr>
+<tr><th id="502">502</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="503">503</th><td><i>    ///</i></td></tr>
+<tr><th id="504">504</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="505">505</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" title='sf::Ftp::sendCommand' data-ref="_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_" id="_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_">sendCommand</a>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col0 decl" id="40command" title='command' data-type='const std::string &amp;' data-ref="40command">command</dfn>, <em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col1 decl" id="41parameter" title='parameter' data-type='const std::string &amp;' data-ref="41parameter">parameter</dfn> = <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>""</q>);</td></tr>
+<tr><th id="506">506</th><td></td></tr>
+<tr><th id="507">507</th><td><b>private</b>:</td></tr>
+<tr><th id="508">508</th><td></td></tr>
+<tr><th id="509">509</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="510">510</th><td><i>    /// \brief Receive a response from the server</i></td></tr>
+<tr><th id="511">511</th><td><i>    ///</i></td></tr>
+<tr><th id="512">512</th><td><i>    /// This function must be called after each call to</i></td></tr>
+<tr><th id="513">513</th><td><i>    /// sendCommand that expects a response.</i></td></tr>
+<tr><th id="514">514</th><td><i>    ///</i></td></tr>
+<tr><th id="515">515</th><td><i>    /// \return Server response to the request</i></td></tr>
+<tr><th id="516">516</th><td><i>    ///</i></td></tr>
+<tr><th id="517">517</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="518">518</th><td>    <a class="type" href="#sf::Ftp::Response" title='sf::Ftp::Response' data-ref="sf::Ftp::Response">Response</a> <a class="decl" href="../../../src/SFML/Network/Ftp.cpp.html#_ZN2sf3Ftp11getResponseEv" title='sf::Ftp::getResponse' data-ref="_ZN2sf3Ftp11getResponseEv" id="_ZN2sf3Ftp11getResponseEv">getResponse</a>();</td></tr>
+<tr><th id="519">519</th><td></td></tr>
+<tr><th id="520">520</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="521">521</th><td><i>    /// \brief Utility class for exchanging datas with the server</i></td></tr>
+<tr><th id="522">522</th><td><i>    ///        on the data channel</i></td></tr>
+<tr><th id="523">523</th><td><i>    ///</i></td></tr>
+<tr><th id="524">524</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="525">525</th><td>    <b>class</b> <a class="type" href="../../../src/SFML/Network/Ftp.cpp.html#sf::Ftp::DataChannel" title='sf::Ftp::DataChannel' data-ref="sf::Ftp::DataChannel" id="sf::Ftp::DataChannel">DataChannel</a>;</td></tr>
+<tr><th id="526">526</th><td></td></tr>
+<tr><th id="527">527</th><td>    <b>friend</b> <b>class</b> <a class="type" href="../../../src/SFML/Network/Ftp.cpp.html#sf::Ftp::DataChannel" title='sf::Ftp::DataChannel' data-ref="sf::Ftp::DataChannel">DataChannel</a>;</td></tr>
+<tr><th id="528">528</th><td></td></tr>
+<tr><th id="529">529</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="530">530</th><td><i>    // Member data</i></td></tr>
+<tr><th id="531">531</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="532">532</th><td>    <a class="type" href="TcpSocket.hpp.html#sf::TcpSocket" title='sf::TcpSocket' data-ref="sf::TcpSocket">TcpSocket</a>   <dfn class="decl" id="sf::Ftp::m_commandSocket" title='sf::Ftp::m_commandSocket' data-ref="sf::Ftp::m_commandSocket">m_commandSocket</dfn>; <i class="doc">///&lt; Socket holding the control connection with the server</i></td></tr>
+<tr><th id="533">533</th><td>    <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="decl" id="sf::Ftp::m_receiveBuffer" title='sf::Ftp::m_receiveBuffer' data-ref="sf::Ftp::m_receiveBuffer">m_receiveBuffer</dfn>; <i class="doc">///&lt; Received command data that is yet to be processed</i></td></tr>
+<tr><th id="534">534</th><td>};</td></tr>
+<tr><th id="535">535</th><td></td></tr>
+<tr><th id="536">536</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="537">537</th><td></td></tr>
+<tr><th id="538">538</th><td></td></tr>
+<tr><th id="539">539</th><td><u>#<span data-ppcond="25">endif</span> // SFML_FTP_HPP</u></td></tr>
+<tr><th id="540">540</th><td></td></tr>
+<tr><th id="541">541</th><td></td></tr>
+<tr><th id="542">542</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="543">543</th><td><i>/// \class sf::Ftp</i></td></tr>
+<tr><th id="544">544</th><td><i>/// \ingroup network</i></td></tr>
+<tr><th id="545">545</th><td><i>///</i></td></tr>
+<tr><th id="546">546</th><td><i>/// sf::Ftp is a very simple FTP client that allows you</i></td></tr>
+<tr><th id="547">547</th><td><i>/// to communicate with a FTP server. The FTP protocol allows</i></td></tr>
+<tr><th id="548">548</th><td><i>/// you to manipulate a remote file system (list files,</i></td></tr>
+<tr><th id="549">549</th><td><i>/// upload, download, create, remove, ...).</i></td></tr>
+<tr><th id="550">550</th><td><i>///</i></td></tr>
+<tr><th id="551">551</th><td><i>/// Using the FTP client consists of 4 parts:</i></td></tr>
+<tr><th id="552">552</th><td><i>/// \li Connecting to the FTP server</i></td></tr>
+<tr><th id="553">553</th><td><i>/// \li Logging in (either as a registered user or anonymously)</i></td></tr>
+<tr><th id="554">554</th><td><i>/// \li Sending commands to the server</i></td></tr>
+<tr><th id="555">555</th><td><i>/// \li Disconnecting (this part can be done implicitly by the destructor)</i></td></tr>
+<tr><th id="556">556</th><td><i>///</i></td></tr>
+<tr><th id="557">557</th><td><i>/// Every command returns a FTP response, which contains the</i></td></tr>
+<tr><th id="558">558</th><td><i>/// status code as well as a message from the server. Some</i></td></tr>
+<tr><th id="559">559</th><td><i>/// commands such as getWorkingDirectory() and getDirectoryListing()</i></td></tr>
+<tr><th id="560">560</th><td><i>/// return additional data, and use a class derived from</i></td></tr>
+<tr><th id="561">561</th><td><i>/// sf::Ftp::Response to provide this data. The most often used</i></td></tr>
+<tr><th id="562">562</th><td><i>/// commands are directly provided as member functions, but it is</i></td></tr>
+<tr><th id="563">563</th><td><i>/// also possible to use specific commands with the sendCommand() function.</i></td></tr>
+<tr><th id="564">564</th><td><i>///</i></td></tr>
+<tr><th id="565">565</th><td><i>/// Note that response statuses &gt;= 1000 are not part of the FTP standard,</i></td></tr>
+<tr><th id="566">566</th><td><i>/// they are generated by SFML when an internal error occurs.</i></td></tr>
+<tr><th id="567">567</th><td><i>///</i></td></tr>
+<tr><th id="568">568</th><td><i>/// All commands, especially upload and download, may take some</i></td></tr>
+<tr><th id="569">569</th><td><i>/// time to complete. This is important to know if you don't want</i></td></tr>
+<tr><th id="570">570</th><td><i>/// to block your application while the server is completing</i></td></tr>
+<tr><th id="571">571</th><td><i>/// the task.</i></td></tr>
+<tr><th id="572">572</th><td><i>///</i></td></tr>
+<tr><th id="573">573</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="574">574</th><td><i>/// \code</i></td></tr>
+<tr><th id="575">575</th><td><i>/// // Create a new FTP client</i></td></tr>
+<tr><th id="576">576</th><td><i>/// sf::Ftp ftp;</i></td></tr>
+<tr><th id="577">577</th><td><i>///</i></td></tr>
+<tr><th id="578">578</th><td><i>/// // Connect to the server</i></td></tr>
+<tr><th id="579">579</th><td><i>/// sf::Ftp::Response response = ftp.connect("ftp://ftp.myserver.com");</i></td></tr>
+<tr><th id="580">580</th><td><i>/// if (response.isOk())</i></td></tr>
+<tr><th id="581">581</th><td><i>///     std::cout &lt;&lt; "Connected" &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="582">582</th><td><i>///</i></td></tr>
+<tr><th id="583">583</th><td><i>/// // Log in</i></td></tr>
+<tr><th id="584">584</th><td><i>/// response = ftp.login("laurent", "dF6Zm89D");</i></td></tr>
+<tr><th id="585">585</th><td><i>/// if (response.isOk())</i></td></tr>
+<tr><th id="586">586</th><td><i>///     std::cout &lt;&lt; "Logged in" &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="587">587</th><td><i>///</i></td></tr>
+<tr><th id="588">588</th><td><i>/// // Print the working directory</i></td></tr>
+<tr><th id="589">589</th><td><i>/// sf::Ftp::DirectoryResponse directory = ftp.getWorkingDirectory();</i></td></tr>
+<tr><th id="590">590</th><td><i>/// if (directory.isOk())</i></td></tr>
+<tr><th id="591">591</th><td><i>///     std::cout &lt;&lt; "Working directory: " &lt;&lt; directory.getDirectory() &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="592">592</th><td><i>///</i></td></tr>
+<tr><th id="593">593</th><td><i>/// // Create a new directory</i></td></tr>
+<tr><th id="594">594</th><td><i>/// response = ftp.createDirectory("files");</i></td></tr>
+<tr><th id="595">595</th><td><i>/// if (response.isOk())</i></td></tr>
+<tr><th id="596">596</th><td><i>///     std::cout &lt;&lt; "Created new directory" &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="597">597</th><td><i>///</i></td></tr>
+<tr><th id="598">598</th><td><i>/// // Upload a file to this new directory</i></td></tr>
+<tr><th id="599">599</th><td><i>/// response = ftp.upload("local-path/file.txt", "files", sf::Ftp::Ascii);</i></td></tr>
+<tr><th id="600">600</th><td><i>/// if (response.isOk())</i></td></tr>
+<tr><th id="601">601</th><td><i>///     std::cout &lt;&lt; "File uploaded" &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="602">602</th><td><i>///</i></td></tr>
+<tr><th id="603">603</th><td><i>/// // Send specific commands (here: FEAT to list supported FTP features)</i></td></tr>
+<tr><th id="604">604</th><td><i>/// response = ftp.sendCommand("FEAT");</i></td></tr>
+<tr><th id="605">605</th><td><i>/// if (response.isOk())</i></td></tr>
+<tr><th id="606">606</th><td><i>///     std::cout &lt;&lt; "Feature list:\n" &lt;&lt; response.getMessage() &lt;&lt; std::endl;</i></td></tr>
+<tr><th id="607">607</th><td><i>///</i></td></tr>
+<tr><th id="608">608</th><td><i>/// // Disconnect from the server (optional)</i></td></tr>
+<tr><th id="609">609</th><td><i>/// ftp.disconnect();</i></td></tr>
+<tr><th id="610">610</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="611">611</th><td><i>///</i></td></tr>
+<tr><th id="612">612</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="613">613</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Network/Ftp.cpp.html'>codebrowser/src/SFML/Network/Ftp.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

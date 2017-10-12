@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='438' type='void stbi_set_flip_vertically_on_load(int flag_true_if_should_flip)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='951' ll='954' macro='1' type='void stbi_set_flip_vertically_on_load(int flag_true_if_should_flip)'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='623' type='bool'/>
+<offset>184</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='623'>///&lt; To work around the inconsistency in Y orientation</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='140' u='w' c='_ZN2sf13RenderTexture7displayEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='69' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='85' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='150' u='w' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='356' u='r' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='378' u='r' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='428' u='w' c='_ZN2sf7Texture6updateEPKhjjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='569' u='w' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='731' u='r' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='747' u='r' c='_ZN2sf7Texture4bindEPKS0_NS0_14CoordinateTypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='817' u='a' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='817' u='a' c='_ZN2sf7Texture4swapERS0_'/>

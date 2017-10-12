@@ -1,0 +1,5 @@
+<dec f='include/wchar.h' l='290' type='size_t wcslen(const wchar_t * __s)'/>
+<use f='include/c++/5/bits/char_traits.h' l='358' u='c' c='_ZNSt11char_traitsIwE6lengthEPKw'/>
+<doc f='include/wchar.h' l='289'>/* Return the number of wide characters in S.  */</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='526' u='c' c='_ZN2sf6PacketlsEPKw'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='95' u='c' c='_ZN2sf6StringC1EPKw'/>

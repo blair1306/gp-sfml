@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Graphics/Glsl.inl' l='98' ll='104' type='void sf::priv::Vector4::Vector4&lt;T&gt;()'/>
+<doc f='codebrowser/include/SFML/Graphics/Glsl.inl' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor, creates a zero vector
+    ///
+    ////////////////////////////////////////////////////////////</doc>

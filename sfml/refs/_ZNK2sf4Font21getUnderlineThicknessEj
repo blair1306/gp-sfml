@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='240' type='float sf::Font::getUnderlineThickness(unsigned int characterSize) const'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='426' ll='442' type='float sf::Font::getUnderlineThickness(unsigned int characterSize) const'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='425'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='228'>////////////////////////////////////////////////////////////
+    /// \brief Get the thickness of the underline
+    ///
+    /// Underline thickness is the vertical size of the underline.
+    ///
+    /// \param characterSize Reference character size
+    ///
+    /// \return Underline thickness, in pixels
+    ///
+    /// \see getUnderlinePosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='371' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>

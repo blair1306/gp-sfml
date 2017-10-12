@@ -1,0 +1,8 @@
+<dec f='include/c++/5/sstream' l='386' type='__stringbuf_type'/>
+<use f='include/c++/5/sstream' l='404' u='w' c='_ZNSt7__cxx1119basic_istringstreamC1ESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='405' c='_ZNSt7__cxx1119basic_istringstreamC1ESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='423' u='w' c='_ZNSt7__cxx1119basic_istringstreamC1ERKNS_12basic_stringIT_T0_T1_EESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='424' c='_ZNSt7__cxx1119basic_istringstreamC1ERKNS_12basic_stringIT_T0_T1_EESt13_Ios_Openmode'/>
+<use f='include/c++/5/sstream' l='473' c='_ZNKSt7__cxx1119basic_istringstream5rdbufEv'/>
+<use f='include/c++/5/sstream' l='481' u='c' c='_ZNKSt7__cxx1119basic_istringstream3strEv'/>
+<use f='include/c++/5/sstream' l='491' u='c' c='_ZNSt7__cxx1119basic_istringstream3strERKNS_12basic_stringIT_T0_T1_EE'/>

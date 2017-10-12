@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='149'/>
+<doc f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='148'>// Core since 1.2 - EXT_texture_edge_clamp</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='169' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='644' u='c'/>

@@ -1,0 +1,3 @@
+<def f='include/c++/5/bits/stl_vector.h' l='1558' ll='1560' type='void std::swap(vector&lt;_Tp, _Alloc&gt; &amp; __x, vector&lt;_Tp, _Alloc&gt; &amp; __y)'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='208' u='c' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='464' u='c' c='_ZN2sf4FontaSERKS0_'/>

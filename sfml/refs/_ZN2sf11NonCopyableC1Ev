@@ -1,0 +1,9 @@
+<def f='codebrowser/include/SFML/System/NonCopyable.hpp' l='53' type='void sf::NonCopyable::NonCopyable()'/>
+<doc f='codebrowser/include/SFML/System/NonCopyable.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Because this class has a copy constructor, the compiler
+    /// will not automatically generate the default constructor.
+    /// That&apos;s why we must define it explicitly.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

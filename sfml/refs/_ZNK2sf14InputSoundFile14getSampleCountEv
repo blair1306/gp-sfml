@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='109' type='Uint64 sf::InputSoundFile::getSampleCount() const'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='176' ll='179' type='Uint64 sf::InputSoundFile::getSampleCount() const'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='175'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='103'>////////////////////////////////////////////////////////////
+    /// \brief Get the total number of audio samples in the file
+    ///
+    /// \return Number of samples
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='125' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='138' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='150' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='199' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='224' u='c' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='239' u='c' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='221' u='c' c='_ZN2sf11SoundBuffer10initializeERNS_14InputSoundFileE'/>

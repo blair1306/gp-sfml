@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='263' type='void sf::SoundStream::streamData()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='256'>////////////////////////////////////////////////////////////
+    /// \brief Function called as the entry point of the thread
+    ///
+    /// This function starts the streaming loop, and returns
+    /// only when the sound is stopped.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='44' u='a' c='_ZN2sf11SoundStreamC1Ev'/>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='269' ll='402' type='void sf::SoundStream::streamData()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='268'>////////////////////////////////////////////////////////////</doc>

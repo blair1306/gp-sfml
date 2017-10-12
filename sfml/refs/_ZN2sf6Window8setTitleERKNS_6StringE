@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='296' type='void sf::Window::setTitle(const sf::String &amp; title)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='288'>////////////////////////////////////////////////////////////
+    /// \brief Change the title of the window
+    ///
+    /// \param title New title
+    ///
+    /// \see setIcon
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='252' ll='256' type='void sf::Window::setTitle(const sf::String &amp; title)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='251'>////////////////////////////////////////////////////////////</doc>

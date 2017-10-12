@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='266' type='Visual *'/>
+<offset>512</offset>
+<doc f='include/X11/Xlib.h' l='266'>/* root visual */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='950' macro='1' u='r'/>

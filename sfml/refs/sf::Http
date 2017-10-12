@@ -1,0 +1,19 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Network/Http.hpp' l='46' ll='416'/>
+<size>120</size>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='42'>////////////////////////////////////////////////////////////
+/// \brief A HTTP client
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4HttpC1Ev'/>
+<fun r='_ZN2sf4HttpC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<fun r='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<fun r='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<mbr r='sf::Http::m_connection' o='64' t='sf::TcpSocket'/>
+<mbr r='sf::Http::m_host' o='576' t='sf::IpAddress'/>
+<mbr r='sf::Http::m_hostName' o='640' t='std::string'/>
+<mbr r='sf::Http::m_port' o='896' t='unsigned short'/>
+<fun r='_ZN2sf4HttpC1Ev'/>
+<fun r='_ZN2sf4HttpC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<fun r='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<fun r='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>

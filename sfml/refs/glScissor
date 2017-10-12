@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1494' type='void glScissor(GLint , GLint , GLsizei , GLsizei )'/>
+<dec f='include/GL/gl.h' l='786' type='void glScissor(GLint x, GLint y, GLsizei width, GLsizei height)'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Window/Sensor.hpp' l='85' type='static void sf::Sensor::setEnabled(sf::Sensor::Type sensor, bool enabled)'/>
+<def f='codebrowser/src/SFML/Window/Sensor.cpp' l='42' ll='45' type='static void sf::Sensor::setEnabled(sf::Sensor::Type sensor, bool enabled)'/>
+<doc f='codebrowser/src/SFML/Window/Sensor.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Window/Sensor.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable a sensor
+    ///
+    /// All sensors are disabled by default, to avoid consuming too
+    /// much battery power. Once a sensor is enabled, it starts
+    /// sending events of the corresponding type.
+    ///
+    /// This function does nothing if the sensor is unavailable.
+    ///
+    /// \param sensor  Sensor to enable
+    /// \param enabled True to enable, false to disable
+    ///
+    ////////////////////////////////////////////////////////////</doc>

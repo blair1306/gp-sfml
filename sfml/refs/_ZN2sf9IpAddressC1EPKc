@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='79' type='void sf::IpAddress::IpAddress(const char * address)'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='67'>////////////////////////////////////////////////////////////
+    /// \brief Construct the address from a string
+    ///
+    /// Here \a address can be either a decimal address
+    /// (ex: &quot;192.168.1.56&quot;) or a network name (ex: &quot;localhost&quot;).
+    /// This is equivalent to the constructor taking a std::string
+    /// parameter, it is defined for convenience so that the
+    /// implicit conversions from literal strings to IpAddress work.
+    ///
+    /// \param address IP address or network name
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='62' ll='67' type='void sf::IpAddress::IpAddress(const char * address)'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='61'>////////////////////////////////////////////////////////////</doc>

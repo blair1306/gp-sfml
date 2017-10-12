@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1542' type='void glTexImage1D(GLenum , GLint , GLint , GLsizei , GLint , GLenum , GLenum , const void * )'/>
+<dec f='include/GL/gl.h' l='1288' type='void glTexImage1D(GLenum target, GLint level, GLint internalFormat, GLsizei width, GLint border, GLenum format, GLenum type, const GLvoid * pixels)'/>

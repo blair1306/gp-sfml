@@ -1,0 +1,18 @@
+<def f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='41' ll='121'/>
+<size>24</size>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='37'>////////////////////////////////////////////////////////////
+/// \brief Blending modes for drawing
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf9BlendModeC1Ev'/>
+<fun r='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<fun r='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_'/>
+<mbr r='sf::BlendMode::colorSrcFactor' o='0' t='sf::BlendMode::Factor'/>
+<mbr r='sf::BlendMode::colorDstFactor' o='32' t='sf::BlendMode::Factor'/>
+<mbr r='sf::BlendMode::colorEquation' o='64' t='sf::BlendMode::Equation'/>
+<mbr r='sf::BlendMode::alphaSrcFactor' o='96' t='sf::BlendMode::Factor'/>
+<mbr r='sf::BlendMode::alphaDstFactor' o='128' t='sf::BlendMode::Factor'/>
+<mbr r='sf::BlendMode::alphaEquation' o='160' t='sf::BlendMode::Equation'/>
+<fun r='_ZN2sf9BlendModeC1Ev'/>
+<fun r='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationE'/>
+<fun r='_ZN2sf9BlendModeC1ENS0_6FactorES1_NS0_8EquationES1_S1_S2_'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='617'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='387' u='c'/>
+<dec f='include/GL/gl.h' l='281'/>
+<doc f='include/GL/gl.h' l='280'>/* Lighting */</doc>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='118' type='void sf::String::String(const std::string &amp; ansiString, const std::locale &amp; locale = std::locale())'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='108'>////////////////////////////////////////////////////////////
+    /// \brief Construct from an ANSI string and a locale
+    ///
+    /// The source string is converted to UTF-32 according
+    /// to the given locale.
+    ///
+    /// \param ansiString ANSI string to convert
+    /// \param locale     Locale to use for conversion
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='83' ll='87' type='void sf::String::String(const std::string &amp; ansiString, const std::locale &amp; locale = std::locale())'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='82'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='563' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>

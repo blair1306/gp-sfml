@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='163' type='void sf::priv::WindowImpl::setTitle(const sf::String &amp; title)'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='157'>////////////////////////////////////////////////////////////
+    /// \brief Change the title of the window
+    ///
+    /// \param title New title
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='889' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='255' u='c' c='_ZN2sf6Window8setTitleERKNS_6StringE'/>

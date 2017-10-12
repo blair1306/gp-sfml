@@ -1,0 +1,2 @@
+<def f='include/c++/5/istream' l='189' ll='191' type='__istream_type &amp; std::basic_istream::operator&gt;&gt;(unsigned long &amp; __n)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='255' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

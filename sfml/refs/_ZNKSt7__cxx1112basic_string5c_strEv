@@ -1,0 +1,59 @@
+<def f='include/c++/5/bits/basic_string.h' l='1886' ll='1888' type='const _CharT * std::__cxx11::basic_string::c_str() const'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='697' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRf'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='712' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRd'/>
+<use f='include/c++/5/bits/locale_facets.tcc' l='744' u='c' c='_ZNKSt7num_get6do_getET0_S0_RSt8ios_baseRSt12_Ios_IostateRe'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1880'>/**
+       *  @brief  Return const pointer to null-terminated contents.
+       *
+       *  This is a handle to internal data.  Do not modify or dire things may
+       *  happen.
+      */</doc>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='115' u='c' c='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='117' u='c' c='_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.cpp' l='82' u='c' c='_ZN2sf4priv19SoundFileWriterFlac4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='90' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='107' u='c' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='94' u='c' c='_ZN2sf13SoundRecorder5startEj'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='191' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='include/x86_64-linux-gnu/c++/5/bits/messages_members.h' l='73' u='c' c='_ZNKSt7__cxx118messages4openERKNS_12basic_stringIcSt11char_traitsIcESaIcEEERKSt6localePKc'/>
+<use f='include/x86_64-linux-gnu/c++/5/bits/messages_members.h' l='93' u='c' c='_ZNKSt7__cxx118messages7do_openERKNS_12basic_stringIcSt11char_traitsIcESaIcEEERKSt6locale'/>
+<use f='include/c++/5/bits/locale_facets_nonio.tcc' l='376' u='c' c='_ZNKSt7__cxx119money_get6do_getET0_S1_bRSt8ios_baseRSt12_Ios_IostateRe'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='143' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='104' u='c' c='_ZN2sf4priv11ImageLoader17loadImageFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='248' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='254' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='260' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='266' u='c' c='_ZN2sf4priv11ImageLoader15saveImageToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIhSaIhEERKNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='84' u='c' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='324' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='326' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='328' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='336' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='336' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='344' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='344' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='344' u='c' c='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='1002' u='c' c='_ZN2sf6Shader18getUniformLocationERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='301' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='316' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='328' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='375' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='392' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='184' u='c' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='197' u='c' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='516' u='c' c='_ZN2sf6PacketlsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/System/FileInputStream.cpp' l='69' u='c' c='_ZN2sf15FileInputStream4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='317' u='c' c='_ZNK2sf6String7getDataEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='99' u='c' c='_ZN2sf4priv7getAtomERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='206' u='c' c='_ZL21ProcExtsFromExtStringPKc'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='268' u='c' c='_ZN12_GLOBAL__N_116getUdevAttributeEP11udev_deviceRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='279' u='c' c='_ZN12_GLOBAL__N_115getUsbAttributeEP11udev_deviceRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='321' u='c' c='_ZN12_GLOBAL__N_119getJoystickVendorIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='362' u='c' c='_ZN12_GLOBAL__N_120getJoystickProductIdEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='400' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='419' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='556' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='903' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='908' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='914' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='915' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

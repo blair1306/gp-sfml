@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/Listener.hpp' l='140' type='static void sf::Listener::setDirection(const Vector3f &amp; direction)'/>
+<doc f='codebrowser/include/SFML/Audio/Listener.hpp' l='125'>////////////////////////////////////////////////////////////
+    /// \brief Set the forward vector of the listener in the scene
+    ///
+    /// The direction (also called &quot;at vector&quot;) is the vector
+    /// pointing forward from the listener&apos;s perspective. Together
+    /// with the up vector, it defines the 3D orientation of the
+    /// listener in the scene. The direction vector doesn&apos;t
+    /// have to be normalized.
+    /// The default listener&apos;s direction is (0, 0, -1).
+    ///
+    /// \param direction New listener&apos;s direction
+    ///
+    /// \see getDirection, setUpVector, setPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='72' u='c' c='_ZN2sf8Listener12setDirectionEfff'/>
+<def f='codebrowser/src/SFML/Audio/Listener.cpp' l='77' ll='80' type='static void sf::Listener::setDirection(const Vector3f &amp; direction)'/>
+<doc f='codebrowser/src/SFML/Audio/Listener.cpp' l='76'>////////////////////////////////////////////////////////////</doc>

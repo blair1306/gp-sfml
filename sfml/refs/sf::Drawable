@@ -1,0 +1,13 @@
+<def f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='44' ll='70'/>
+<ovr f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='45' c='sf::VertexArray'/>
+<ovr f='codebrowser/include/SFML/Graphics/Shape.hpp' l='44' c='sf::Shape'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Abstract base class for objects that can be drawn
+///        to a render target
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf8DrawableD1Ev'/>
+<fun r='_ZNK2sf8Drawable4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<ovr f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='47' c='sf::Sprite'/>
+<ovr f='codebrowser/include/SFML/Graphics/Text.hpp' l='48' c='sf::Text'/>

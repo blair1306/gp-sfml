@@ -1,0 +1,10 @@
+<def f='include/c++/5/fstream' l='682' ll='683' type='void std::basic_ofstream::basic_ofstream&lt;_CharT, _Traits&gt;()'/>
+<doc f='include/c++/5/fstream' l='675'>/**
+       *  @brief  Default constructor.
+       *
+       *  Initializes @c sb using its default constructor, and passes
+       *  @c &amp;sb to the base class initializer.  Does not open any files
+       *  (you haven&apos;t given it a filename to open).
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='53' u='c' c='_ZN2sf4priv18SoundFileWriterOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='89' u='c' c='_ZN2sf4priv18SoundFileWriterWavC1Ev'/>

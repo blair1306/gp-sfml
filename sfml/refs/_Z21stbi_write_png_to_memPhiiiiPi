@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='914' ll='1004' type='unsigned char * stbi_write_png_to_mem(unsigned char * pixels, int stride_bytes, int x, int y, int n, int * out_len)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1011' u='c' c='stbi_write_png'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1025' u='c' c='stbi_write_png_to_func'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='913'>// @OPTIMIZE: provide an option that always forces left-predict or paeth predict</doc>

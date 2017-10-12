@@ -1,0 +1,3 @@
+<dec f='include/X11/extensions/Xrandr.h' l='179' type='int XRRSetScreenConfig(Display * dpy, XRRScreenConfiguration * config, Drawable draw, int size_index, Rotation rotation, Time timestamp)'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1273' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1300' u='c' c='_ZN2sf4priv13WindowImplX1114resetVideoModeEv'/>

@@ -1,0 +1,16 @@
+<inh f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='43' c='sf::SoundFileReader'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='45' ll='136'/>
+<size>88</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='41'>////////////////////////////////////////////////////////////
+/// \brief Implementation of sound file reader that handles FLAC files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv19SoundFileReaderFlac5checkERNS_11InputStreamE'/>
+<fun r='_ZN2sf4priv19SoundFileReaderFlacC1Ev'/>
+<fun r='_ZN2sf4priv19SoundFileReaderFlacD1Ev'/>
+<fun r='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>
+<fun r='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<fun r='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<fun r='_ZN2sf4priv19SoundFileReaderFlac5closeEv'/>
+<mbr r='sf::priv::SoundFileReaderFlac::m_decoder' o='64' t='FLAC__StreamDecoder *'/>
+<mbr r='sf::priv::SoundFileReaderFlac::m_clientData' o='128' t='sf::priv::SoundFileReaderFlac::ClientData'/>

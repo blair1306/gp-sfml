@@ -1,0 +1,29 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='214' type='bool sf::Texture::loadFromImage(const sf::Image &amp; image, const IntRect &amp; area = IntRect())'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='794' u='c' c='_ZN2sf4Font4PageC1Ev'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='192'>////////////////////////////////////////////////////////////
+    /// \brief Load the texture from an image
+    ///
+    /// The \a area argument can be used to load only a sub-rectangle
+    /// of the whole image. If you want the entire image then leave
+    /// the default value (which is an empty IntRect).
+    /// If the \a area rectangle crosses the bounds of the image, it
+    /// is adjusted to fit the image size.
+    ///
+    /// The maximum size for a texture depends on the graphics
+    /// driver and can be retrieved with the getMaximumSize function.
+    ///
+    /// If this function fails, the texture is left unchanged.
+    ///
+    /// \param image Image to load into the texture
+    /// \param area  Area of the image to load
+    ///
+    /// \return True if loading was successful
+    ///
+    /// \see loadFromFile, loadFromMemory
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='225' u='c' c='_ZN2sf7Texture12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='233' u='c' c='_ZN2sf7Texture14loadFromMemoryEPKvmRKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='241' u='c' c='_ZN2sf7Texture14loadFromStreamERNS_11InputStreamERKNS_4RectIiEE'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='246' ll='310' type='bool sf::Texture::loadFromImage(const sf::Image &amp; image, const IntRect &amp; area = IntRect())'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='245'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='473' type='void sf::Texture::setRepeated(bool repeated)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='451'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable repeating
+    ///
+    /// Repeating is involved when using texture coordinates
+    /// outside the texture rectangle [0, 0, width, height].
+    /// In this case, if repeat mode is enabled, the whole texture
+    /// will be repeated as many times as needed to reach the
+    /// coordinate (for example, if the X texture coordinate is
+    /// 3 * width, the texture will be repeated 3 times).
+    /// If repeat mode is disabled, the &quot;extra space&quot; will instead
+    /// be filled with border pixels.
+    /// Warning: on very old graphics cards, white pixels may appear
+    /// when the texture is repeated. With such cards, repeat mode
+    /// can be used reliably only if the texture has power-of-two
+    /// dimensions (such as 256x128).
+    /// Repeating is disabled by default.
+    ///
+    /// \param repeated True to repeat the texture, false to disable repeating
+    ///
+    /// \see isRepeated
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='108' u='c' c='_ZN2sf13RenderTexture11setRepeatedEb'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='631' ll='665' type='void sf::Texture::setRepeated(bool repeated)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='630'>////////////////////////////////////////////////////////////</doc>

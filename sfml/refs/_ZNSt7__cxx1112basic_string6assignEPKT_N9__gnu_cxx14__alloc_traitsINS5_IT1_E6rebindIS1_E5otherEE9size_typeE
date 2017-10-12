@@ -1,0 +1,13 @@
+<def f='include/c++/5/bits/basic_string.h' l='1146' ll='1151' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::assign(const _CharT * __s, size_type __n)'/>
+<doc f='include/c++/5/bits/basic_string.h' l='1136'>/**
+       *  @brief  Set value to a C substring.
+       *  @param __s  The C string to use.
+       *  @param __n  Number of characters to use.
+       *  @return  Reference to this string.
+       *
+       *  This function sets the value of this string to the first @a __n
+       *  characters of @a __s.  If @a __n is is larger than the number of
+       *  available characters in @a __s, the remainder of @a __s is used.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='466' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='296' u='c' c='_ZN2sf6PacketrsERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

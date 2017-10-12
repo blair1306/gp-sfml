@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='404' type='void sf::Texture::setSmooth(bool smooth)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='795' u='c' c='_ZN2sf4Font4PageC1Ev'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='390'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable the smooth filter
+    ///
+    /// When the filter is activated, the texture appears smoother
+    /// so that pixels are less noticeable. However if you want
+    /// the texture to look exactly the same as its source file,
+    /// you should leave it disabled.
+    /// The smooth filter is disabled by default.
+    ///
+    /// \param smooth True to enable smoothing, false to disable it
+    ///
+    /// \see isSmooth
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='94' u='c' c='_ZN2sf13RenderTexture9setSmoothEb'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='580' ll='606' type='void sf::Texture::setSmooth(bool smooth)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='579'>////////////////////////////////////////////////////////////</doc>

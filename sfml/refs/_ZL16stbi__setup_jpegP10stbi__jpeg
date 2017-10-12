@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3480' ll='3499' type='void stbi__setup_jpeg(stbi__jpeg * j)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3689' u='c' c='_ZL15stbi__jpeg_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3700' u='c' c='_ZL15stbi__jpeg_testP13stbi__context'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3479'>// set up the kernels</doc>

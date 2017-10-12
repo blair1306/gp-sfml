@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/Shader.cpp' l='214' type='sf::GlResource::TransientContextLock'/>
+<offset>8</offset>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='214'>///&lt; Lock to keep context active while uniform is bound</doc>

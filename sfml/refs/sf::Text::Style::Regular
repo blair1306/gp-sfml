@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='58' type='0'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='80' u='r' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='98' u='r' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='58'>///&lt; Regular characters, no style</doc>

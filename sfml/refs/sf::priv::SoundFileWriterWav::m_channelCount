@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='117' type='unsigned int'/>
+<offset>4224</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='117'>///&lt; Number of channels of the sound</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='91' u='w' c='_ZN2sf4priv18SoundFileWriterWavC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='122' u='w' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='194' u='r' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>

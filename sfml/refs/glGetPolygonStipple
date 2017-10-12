@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1369' type='void glGetPolygonStipple(GLubyte * )'/>
+<dec f='include/GL/gl.h' l='780' type='void glGetPolygonStipple(GLubyte * mask)'/>

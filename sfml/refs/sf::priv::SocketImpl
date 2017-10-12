@@ -1,0 +1,12 @@
+<def f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='50' ll='102'/>
+<size>1</size>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='45'>////////////////////////////////////////////////////////////
+/// \brief Helper class implementing all the non-portable
+///        socket stuff; this is the Unix version
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv10SocketImpl13createAddressEjt'/>
+<fun r='_ZN2sf4priv10SocketImpl13invalidSocketEv'/>
+<fun r='_ZN2sf4priv10SocketImpl5closeEi'/>
+<fun r='_ZN2sf4priv10SocketImpl11setBlockingEib'/>
+<fun r='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>

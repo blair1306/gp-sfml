@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='258' type='void sf::Ftp::~Ftp()'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='144' ll='147' type='void sf::Ftp::~Ftp()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='143'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='251'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// Automatically closes the connection with the server if
+    /// it is still opened.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

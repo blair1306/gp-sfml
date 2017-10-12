@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='349' type='sf::Transform &amp; sf::Transform::scale(const Vector2f &amp; factors, const Vector2f &amp; center)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='326'>////////////////////////////////////////////////////////////
+    /// \brief Combine the current transform with a scaling
+    ///
+    /// The center of scaling is provided for convenience as a second
+    /// argument, so that you can build scaling around arbitrary points
+    /// more easily (and efficiently) than the usual
+    /// translate(-center).scale(factors).translate(center).
+    ///
+    /// This function returns a reference to *this, so that calls
+    /// can be chained.
+    /// \code
+    /// sf::Transform transform;
+    /// transform.scale(sf::Vector2f(2, 1), sf::Vector2f(8, 3)).rotate(45);
+    /// \endcode
+    ///
+    /// \param factors Scaling factors
+    /// \param center Center of scaling
+    ///
+    /// \return Reference to *this
+    ///
+    /// \see translate, rotate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='246' ll='249' type='sf::Transform &amp; sf::Transform::scale(const Vector2f &amp; factors, const Vector2f &amp; center)'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='245'>////////////////////////////////////////////////////////////</doc>

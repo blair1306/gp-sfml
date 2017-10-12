@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SoundBufferRecorder.cpp source code [codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Audio</a>/<a href='SoundBufferRecorder.cpp.html'>SoundBufferRecorder.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html">&lt;SFML/Audio/SoundBufferRecorder.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../../../../include/c++/5/algorithm.html">&lt;algorithm&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../../../../include/c++/5/iterator.html">&lt;iterator&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="36">36</th><td><a class="type" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder" title='sf::SoundBufferRecorder' data-ref="sf::SoundBufferRecorder">SoundBufferRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf19SoundBufferRecorderD1Ev" title='sf::SoundBufferRecorder::~SoundBufferRecorder' data-ref="_ZN2sf19SoundBufferRecorderD1Ev">~SoundBufferRecorder</dfn>()</td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td>    <i>// Make sure to stop the recording thread</i></td></tr>
+<tr><th id="39">39</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#_ZN2sf13SoundRecorder4stopEv" title='sf::SoundRecorder::stop' data-ref="_ZN2sf13SoundRecorder4stopEv">stop</a>();</td></tr>
+<tr><th id="40">40</th><td>}</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="44">44</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder" title='sf::SoundBufferRecorder' data-ref="sf::SoundBufferRecorder">SoundBufferRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf19SoundBufferRecorder7onStartEv" title='sf::SoundBufferRecorder::onStart' data-ref="_ZN2sf19SoundBufferRecorder7onStartEv">onStart</dfn>()</td></tr>
+<tr><th id="45">45</th><td>{</td></tr>
+<tr><th id="46">46</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_samples" title='sf::SoundBufferRecorder::m_samples' data-ref="sf::SoundBufferRecorder::m_samples">m_samples</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector5clearEv" title='std::vector::clear' data-ref="_ZNSt6vector5clearEv">clear</a>();</td></tr>
+<tr><th id="47">47</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_buffer" title='sf::SoundBufferRecorder::m_buffer' data-ref="sf::SoundBufferRecorder::m_buffer">m_buffer</a> <a class="ref" href="../../../include/SFML/Audio/SoundBuffer.hpp.html#_ZN2sf11SoundBufferaSERKS0_" title='sf::SoundBuffer::operator=' data-ref="_ZN2sf11SoundBufferaSERKS0_">=</a> <a class="type" href="../../../include/SFML/Audio/SoundBuffer.hpp.html#sf::SoundBuffer" title='sf::SoundBuffer' data-ref="sf::SoundBuffer">SoundBuffer</a><a class="ref" href="../../../include/SFML/Audio/SoundBuffer.hpp.html#_ZN2sf11SoundBufferC1Ev" title='sf::SoundBuffer::SoundBuffer' data-ref="_ZN2sf11SoundBufferC1Ev">(</a>);</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="50">50</th><td>}</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="54">54</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder" title='sf::SoundBufferRecorder' data-ref="sf::SoundBufferRecorder">SoundBufferRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm" title='sf::SoundBufferRecorder::onProcessSamples' data-ref="_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm">onProcessSamples</dfn>(<em>const</em> <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>* <dfn class="local col2 decl" id="22samples" title='samples' data-type='const Int16 *' data-ref="22samples">samples</dfn>, <span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a> <dfn class="local col3 decl" id="23sampleCount" title='sampleCount' data-type='std::size_t' data-ref="23sampleCount">sampleCount</dfn>)</td></tr>
+<tr><th id="55">55</th><td>{</td></tr>
+<tr><th id="56">56</th><td>    <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/bits/algorithmfwd.h.html#_ZSt4copyT_S_T0_" title='std::copy' data-ref="_ZSt4copyT_S_T0_">copy</a>(<a class="local col2 ref" href="#22samples" title='samples' data-ref="22samples">samples</a>, <a class="local col2 ref" href="#22samples" title='samples' data-ref="22samples">samples</a> + <a class="local col3 ref" href="#23sampleCount" title='sampleCount' data-ref="23sampleCount">sampleCount</a>, <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/bits/stl_iterator.h.html#_ZSt13back_inserterRT_" title='std::back_inserter' data-ref="_ZSt13back_inserterRT_">back_inserter</a>(<span class='refarg'><a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_samples" title='sf::SoundBufferRecorder::m_samples' data-ref="sf::SoundBufferRecorder::m_samples">m_samples</a></span>));</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="59">59</th><td>}</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder" title='sf::SoundBufferRecorder' data-ref="sf::SoundBufferRecorder">SoundBufferRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf19SoundBufferRecorder6onStopEv" title='sf::SoundBufferRecorder::onStop' data-ref="_ZN2sf19SoundBufferRecorder6onStopEv">onStop</dfn>()</td></tr>
+<tr><th id="64">64</th><td>{</td></tr>
+<tr><th id="65">65</th><td>    <b>if</b> (!<a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_samples" title='sf::SoundBufferRecorder::m_samples' data-ref="sf::SoundBufferRecorder::m_samples">m_samples</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNKSt6vector5emptyEv" title='std::vector::empty' data-ref="_ZNKSt6vector5emptyEv">empty</a>())</td></tr>
+<tr><th id="66">66</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_buffer" title='sf::SoundBufferRecorder::m_buffer' data-ref="sf::SoundBufferRecorder::m_buffer">m_buffer</a>.<a class="ref" href="../../../include/SFML/Audio/SoundBuffer.hpp.html#_ZN2sf11SoundBuffer15loadFromSamplesEPKsyjj" title='sf::SoundBuffer::loadFromSamples' data-ref="_ZN2sf11SoundBuffer15loadFromSamplesEPKsyjj">loadFromSamples</a>(&amp;<a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_samples" title='sf::SoundBufferRecorder::m_samples' data-ref="sf::SoundBufferRecorder::m_samples">m_samples</a><a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vectorixEm" title='std::vector::operator[]' data-ref="_ZNSt6vectorixEm">[<var>0</var>]</a>, <a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_samples" title='sf::SoundBufferRecorder::m_samples' data-ref="sf::SoundBufferRecorder::m_samples">m_samples</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNKSt6vector4sizeEv" title='std::vector::size' data-ref="_ZNKSt6vector4sizeEv">size</a>(), <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#_ZNK2sf13SoundRecorder15getChannelCountEv" title='sf::SoundRecorder::getChannelCount' data-ref="_ZNK2sf13SoundRecorder15getChannelCountEv">getChannelCount</a>(), <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#_ZNK2sf13SoundRecorder13getSampleRateEv" title='sf::SoundRecorder::getSampleRate' data-ref="_ZNK2sf13SoundRecorder13getSampleRateEv">getSampleRate</a>());</td></tr>
+<tr><th id="67">67</th><td>}</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="71">71</th><td><em>const</em> <a class="type" href="../../../include/SFML/Audio/SoundBuffer.hpp.html#sf::SoundBuffer" title='sf::SoundBuffer' data-ref="sf::SoundBuffer">SoundBuffer</a>&amp; <a class="type" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder" title='sf::SoundBufferRecorder' data-ref="sf::SoundBufferRecorder">SoundBufferRecorder</a>::<dfn class="decl def" id="_ZNK2sf19SoundBufferRecorder9getBufferEv" title='sf::SoundBufferRecorder::getBuffer' data-ref="_ZNK2sf19SoundBufferRecorder9getBufferEv">getBuffer</dfn>() <em>const</em></td></tr>
+<tr><th id="72">72</th><td>{</td></tr>
+<tr><th id="73">73</th><td>    <b>return</b> <a class="member" href="../../../include/SFML/Audio/SoundBufferRecorder.hpp.html#sf::SoundBufferRecorder::m_buffer" title='sf::SoundBufferRecorder::m_buffer' data-ref="sf::SoundBufferRecorder::m_buffer">m_buffer</a>;</td></tr>
+<tr><th id="74">74</th><td>}</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="77">77</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

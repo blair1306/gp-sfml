@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='1441' type='XImage * XCreateImage(Display * , Visual * , unsigned int , int , int , char * , unsigned int , unsigned int , int , int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='952' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>

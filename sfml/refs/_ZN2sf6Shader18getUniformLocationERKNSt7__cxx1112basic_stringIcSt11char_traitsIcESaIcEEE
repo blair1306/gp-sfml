@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='728' type='int sf::Shader::getUniformLocation(const std::string &amp; name)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='720'>////////////////////////////////////////////////////////////
+    /// \brief Get the location ID of a shader uniform
+    ///
+    /// \param name Name of the uniform variable to search
+    ///
+    /// \return Location ID of the uniform, or -1 if not found
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='199' u='c' c='_ZN2sf6Shader13UniformBinderC1ERS0_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='551' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='586' u='c' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE'/>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='990' ll='1010' type='int sf::Shader::getUniformLocation(const std::string &amp; name)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='989'>////////////////////////////////////////////////////////////</doc>

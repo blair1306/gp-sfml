@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='298' type='void sf::SoundStream::clearQueue()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='292'>////////////////////////////////////////////////////////////
+    /// \brief Clear all the audio buffers and empty the playing queue
+    ///
+    /// This function is called when the stream is stopped.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='394' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='483' ll='493' type='void sf::SoundStream::clearQueue()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='482'>////////////////////////////////////////////////////////////</doc>

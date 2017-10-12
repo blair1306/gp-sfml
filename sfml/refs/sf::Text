@@ -1,0 +1,65 @@
+<inh f='codebrowser/include/SFML/Graphics/Drawable.hpp' l='44' c='sf::Drawable'/>
+<inh f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='41' c='sf::Transformable'/>
+<def f='codebrowser/include/SFML/Graphics/Text.hpp' l='48' ll='396'/>
+<size>352</size>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='44'>////////////////////////////////////////////////////////////
+/// \brief Graphical text that can be drawn to a render target
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4TextC1Ev'/>
+<fun r='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<fun r='_ZN2sf4Text9setStringERKNS_6StringE'/>
+<fun r='_ZN2sf4Text7setFontERKNS_4FontE'/>
+<fun r='_ZN2sf4Text16setCharacterSizeEj'/>
+<fun r='_ZN2sf4Text8setStyleEj'/>
+<fun r='_ZN2sf4Text8setColorERKNS_5ColorE'/>
+<fun r='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<fun r='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<fun r='_ZN2sf4Text19setOutlineThicknessEf'/>
+<fun r='_ZNK2sf4Text9getStringEv'/>
+<fun r='_ZNK2sf4Text7getFontEv'/>
+<fun r='_ZNK2sf4Text16getCharacterSizeEv'/>
+<fun r='_ZNK2sf4Text8getStyleEv'/>
+<fun r='_ZNK2sf4Text8getColorEv'/>
+<fun r='_ZNK2sf4Text12getFillColorEv'/>
+<fun r='_ZNK2sf4Text15getOutlineColorEv'/>
+<fun r='_ZNK2sf4Text19getOutlineThicknessEv'/>
+<fun r='_ZNK2sf4Text16findCharacterPosEm'/>
+<fun r='_ZNK2sf4Text14getLocalBoundsEv'/>
+<fun r='_ZNK2sf4Text15getGlobalBoundsEv'/>
+<fun r='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<fun r='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<mbr r='sf::Text::m_string' o='1472' t='sf::String'/>
+<mbr r='sf::Text::m_font' o='1728' t='const sf::Font *'/>
+<mbr r='sf::Text::m_characterSize' o='1792' t='unsigned int'/>
+<mbr r='sf::Text::m_style' o='1824' t='Uint32'/>
+<mbr r='sf::Text::m_fillColor' o='1856' t='sf::Color'/>
+<mbr r='sf::Text::m_outlineColor' o='1888' t='sf::Color'/>
+<mbr r='sf::Text::m_outlineThickness' o='1920' t='float'/>
+<mbr r='sf::Text::m_vertices' o='1984' t='sf::VertexArray'/>
+<mbr r='sf::Text::m_outlineVertices' o='2304' t='sf::VertexArray'/>
+<mbr r='sf::Text::m_bounds' o='2624' t='FloatRect'/>
+<mbr r='sf::Text::m_geometryNeedUpdate' o='2752' t='bool'/>
+<fun r='_ZN2sf4TextC1Ev'/>
+<fun r='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<fun r='_ZN2sf4Text9setStringERKNS_6StringE'/>
+<fun r='_ZN2sf4Text7setFontERKNS_4FontE'/>
+<fun r='_ZN2sf4Text16setCharacterSizeEj'/>
+<fun r='_ZN2sf4Text8setStyleEj'/>
+<fun r='_ZN2sf4Text8setColorERKNS_5ColorE'/>
+<fun r='_ZN2sf4Text12setFillColorERKNS_5ColorE'/>
+<fun r='_ZN2sf4Text15setOutlineColorERKNS_5ColorE'/>
+<fun r='_ZN2sf4Text19setOutlineThicknessEf'/>
+<fun r='_ZNK2sf4Text9getStringEv'/>
+<fun r='_ZNK2sf4Text7getFontEv'/>
+<fun r='_ZNK2sf4Text16getCharacterSizeEv'/>
+<fun r='_ZNK2sf4Text8getStyleEv'/>
+<fun r='_ZNK2sf4Text8getColorEv'/>
+<fun r='_ZNK2sf4Text12getFillColorEv'/>
+<fun r='_ZNK2sf4Text15getOutlineColorEv'/>
+<fun r='_ZNK2sf4Text19getOutlineThicknessEv'/>
+<fun r='_ZNK2sf4Text16findCharacterPosEm'/>
+<fun r='_ZNK2sf4Text14getLocalBoundsEv'/>
+<fun r='_ZNK2sf4Text15getGlobalBoundsEv'/>
+<fun r='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<fun r='_ZNK2sf4Text20ensureGeometryUpdateEv'/>

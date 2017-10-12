@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='473' type='bool sf::Window::hasFocus() const'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='462'>////////////////////////////////////////////////////////////
+    /// \brief Check whether the window has the input focus
+    ///
+    /// At any given time, only one window may have the input focus
+    /// to receive input events such as keystrokes or most mouse
+    /// events.
+    ///
+    /// \return True if window has focus, false otherwise
+    /// \see requestFocus
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='364' ll='367' type='bool sf::Window::hasFocus() const'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='363'>////////////////////////////////////////////////////////////</doc>

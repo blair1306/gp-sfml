@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='115' type='std::vector&lt;Vector2f&gt;'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='43' u='m' c='_ZN2sf11ConvexShape13setPointCountEm'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='51' u='m' c='_ZNK2sf11ConvexShape13getPointCountEv'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='58' u='m' c='_ZN2sf11ConvexShape8setPointEmRKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='66' u='m' c='_ZNK2sf11ConvexShape8getPointEm'/>
+<offset>2688</offset>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='112'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='115'>///&lt; Points composing the convex polygon</doc>

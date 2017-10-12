@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_deque.h' l='1436' ll='1438' type='reference std::deque::front()'/>
+<doc f='include/c++/5/bits/stl_deque.h' l='1432'>/**
+       *  Returns a read/write reference to the data at the first
+       *  element of the %deque.
+       */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='778' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>

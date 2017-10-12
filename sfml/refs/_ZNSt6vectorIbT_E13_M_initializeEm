@@ -1,0 +1,6 @@
+<use f='include/c++/5/bits/stl_bvector.h' l='605' u='c' c='_ZNSt6vectorIbT_EC1EmRKbRKS0_'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='614' u='c' c='_ZNSt6vectorIbT_EC1ERKS_IbS0_E'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='702' u='c' c='_ZNSt6vectorIbT_EaSERKS_IbS0_E'/>
+<def f='include/c++/5/bits/stl_bvector.h' l='1081' ll='1088' type='void std::vector&lt;bool, type-parameter-0-0&gt;::_M_initialize(size_type __n)'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='1106' u='c' c='_ZNSt6vectorIbT_E22_M_initialize_dispatchET_S2_St11__true_type'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='1133' u='c' c='_ZNSt6vectorIbT_E19_M_initialize_rangeET_S2_St20forward_iterator_tag'/>

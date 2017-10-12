@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='54' type='65507'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='41' u='r' c='_ZN2sf9UdpSocketC1Ev'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='103' u='r' c='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='54'>///&lt; The maximum number of bytes that can be sent in a single UDP datagram</doc>

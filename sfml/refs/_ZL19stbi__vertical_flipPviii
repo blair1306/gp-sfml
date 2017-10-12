@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1033' ll='1055' type='void stbi__vertical_flip(void * image, int w, int h, int bytes_per_pixel)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1075' u='c' c='_ZL31stbi__load_and_postprocess_8bitP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1100' u='c' c='_ZL32stbi__load_and_postprocess_16bitP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1111' u='c' c='_ZL23stbi__float_postprocessPfPiS0_S0_i'/>

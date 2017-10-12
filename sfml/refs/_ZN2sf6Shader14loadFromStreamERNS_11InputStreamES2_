@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='266' type='bool sf::Shader::loadFromStream(sf::InputStream &amp; vertexShaderStream, sf::InputStream &amp; fragmentShaderStream)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='247'>////////////////////////////////////////////////////////////
+    /// \brief Load both the vertex and fragment shaders from custom streams
+    ///
+    /// This function loads both the vertex and the fragment
+    /// shaders. If one of them fails to load, the shader is left
+    /// empty (the valid shader is unloaded).
+    /// The source codes must be valid shaders in GLSL language.
+    /// GLSL is a C-like language dedicated to OpenGL shaders;
+    /// you&apos;ll probably need to read a good documentation for
+    /// it before writing your own shaders.
+    ///
+    /// \param vertexShaderStream   Source stream to read the vertex shader from
+    /// \param fragmentShaderStream Source stream to read the fragment shader from
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromFile, loadFromMemory
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='370' ll='390' type='bool sf::Shader::loadFromStream(sf::InputStream &amp; vertexShaderStream, sf::InputStream &amp; fragmentShaderStream)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='369'>////////////////////////////////////////////////////////////</doc>

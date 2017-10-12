@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vector3.hpp source code [codebrowser/include/SFML/System/Vector3.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Vector3 "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/System/Vector3.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>System</a>/<a href='Vector3.hpp.html'>Vector3.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_VECTOR3_HPP">SFML_VECTOR3_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_VECTOR3_HPP" data-ref="_M/SFML_VECTOR3_HPP">SFML_VECTOR3_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="30">30</th><td>{</td></tr>
+<tr><th id="31">31</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="32">32</th><td><i>/// \brief Utility template class for manipulating</i></td></tr>
+<tr><th id="33">33</th><td><i>///        3-dimensional vectors</i></td></tr>
+<tr><th id="34">34</th><td><i>///</i></td></tr>
+<tr><th id="35">35</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="36">36</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="37">37</th><td><b>class</b> <dfn class="type def" id="sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</dfn></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td><b>public</b>:</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="42">42</th><td><i>    /// \brief Default constructor</i></td></tr>
+<tr><th id="43">43</th><td><i>    ///</i></td></tr>
+<tr><th id="44">44</th><td><i>    /// Creates a Vector3(0, 0, 0).</i></td></tr>
+<tr><th id="45">45</th><td><i>    ///</i></td></tr>
+<tr><th id="46">46</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="47">47</th><td>    <a class="decl" href="Vector3.inl.html#_ZN2sf7Vector3C1Ev" title='sf::Vector3::Vector3&lt;T&gt;' data-ref="_ZN2sf7Vector3C1Ev" id="_ZN2sf7Vector3C1Ev">Vector3</a>();</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="50">50</th><td><i>    /// \brief Construct the vector from its coordinates</i></td></tr>
+<tr><th id="51">51</th><td><i>    ///</i></td></tr>
+<tr><th id="52">52</th><td><i>    /// \param X X coordinate</i></td></tr>
+<tr><th id="53">53</th><td><i>    /// \param Y Y coordinate</i></td></tr>
+<tr><th id="54">54</th><td><i>    /// \param Z Z coordinate</i></td></tr>
+<tr><th id="55">55</th><td><i>    ///</i></td></tr>
+<tr><th id="56">56</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="57">57</th><td>    <a class="decl" href="Vector3.inl.html#_ZN2sf7Vector3C1ET_S1_S1_" title='sf::Vector3::Vector3&lt;T&gt;' data-ref="_ZN2sf7Vector3C1ET_S1_S1_" id="_ZN2sf7Vector3C1ET_S1_S1_">Vector3</a>(T <dfn class="local col1 decl" id="1X" title='X' data-type='T' data-ref="1X">X</dfn>, T <dfn class="local col2 decl" id="2Y" title='Y' data-type='T' data-ref="2Y">Y</dfn>, T <dfn class="local col3 decl" id="3Z" title='Z' data-type='T' data-ref="3Z">Z</dfn>);</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="60">60</th><td><i>    /// \brief Construct the vector from another type of vector</i></td></tr>
+<tr><th id="61">61</th><td><i>    ///</i></td></tr>
+<tr><th id="62">62</th><td><i>    /// This constructor doesn't replace the copy constructor,</i></td></tr>
+<tr><th id="63">63</th><td><i>    /// it's called only when U != T.</i></td></tr>
+<tr><th id="64">64</th><td><i>    /// A call to this constructor will fail to compile if U</i></td></tr>
+<tr><th id="65">65</th><td><i>    /// is not convertible to T.</i></td></tr>
+<tr><th id="66">66</th><td><i>    ///</i></td></tr>
+<tr><th id="67">67</th><td><i>    /// \param vector Vector to convert</i></td></tr>
+<tr><th id="68">68</th><td><i>    ///</i></td></tr>
+<tr><th id="69">69</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="70">70</th><td>    <b>template</b> &lt;<b>typename</b> U&gt;</td></tr>
+<tr><th id="71">71</th><td>    <b>explicit</b> <a class="decl" href="Vector3.inl.html#_ZN2sf7Vector3C1ERKNS_7Vector3IT_EE" title='sf::Vector3::Vector3&lt;T&gt;' data-ref="_ZN2sf7Vector3C1ERKNS_7Vector3IT_EE" id="_ZN2sf7Vector3C1ERKNS_7Vector3IT_EE">Vector3</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;U&gt;&amp; <dfn class="local col4 decl" id="4vector" title='vector' data-type='const Vector3&lt;U&gt; &amp;' data-ref="4vector">vector</dfn>);</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td><i>    // Member data</i></td></tr>
+<tr><th id="75">75</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="76">76</th><td>    T <dfn class="decl" id="sf::Vector3::x" title='sf::Vector3::x' data-ref="sf::Vector3::x">x</dfn>; <i class="doc">///&lt; X coordinate of the vector</i></td></tr>
+<tr><th id="77">77</th><td>    T <dfn class="decl" id="sf::Vector3::y" title='sf::Vector3::y' data-ref="sf::Vector3::y">y</dfn>; <i class="doc">///&lt; Y coordinate of the vector</i></td></tr>
+<tr><th id="78">78</th><td>    T <dfn class="decl" id="sf::Vector3::z" title='sf::Vector3::z' data-ref="sf::Vector3::z">z</dfn>; <i class="doc">///&lt; Z coordinate of the vector</i></td></tr>
+<tr><th id="79">79</th><td>};</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="82">82</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="83">83</th><td><i>/// \brief Overload of unary operator -</i></td></tr>
+<tr><th id="84">84</th><td><i>///</i></td></tr>
+<tr><th id="85">85</th><td><i>/// \param left Vector to negate</i></td></tr>
+<tr><th id="86">86</th><td><i>///</i></td></tr>
+<tr><th id="87">87</th><td><i>/// \return Memberwise opposite of the vector</i></td></tr>
+<tr><th id="88">88</th><td><i>///</i></td></tr>
+<tr><th id="89">89</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="90">90</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="91">91</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt; <a class="decl" href="Vector3.inl.html#_ZN2sfngERKNS_7Vector3IT_EE" title='sf::operator-' data-ref="_ZN2sfngERKNS_7Vector3IT_EE" id="_ZN2sfngERKNS_7Vector3IT_EE"><b>operator</b> -</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col5 decl" id="5left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="5left">left</dfn>);</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="94">94</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="95">95</th><td><i>/// \brief Overload of binary operator +=</i></td></tr>
+<tr><th id="96">96</th><td><i>///</i></td></tr>
+<tr><th id="97">97</th><td><i>/// This operator performs a memberwise addition of both vectors,</i></td></tr>
+<tr><th id="98">98</th><td><i>/// and assigns the result to \a left.</i></td></tr>
+<tr><th id="99">99</th><td><i>///</i></td></tr>
+<tr><th id="100">100</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="101">101</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="102">102</th><td><i>///</i></td></tr>
+<tr><th id="103">103</th><td><i>/// \return Reference to \a left</i></td></tr>
+<tr><th id="104">104</th><td><i>///</i></td></tr>
+<tr><th id="105">105</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="106">106</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="107">107</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <a class="decl" href="Vector3.inl.html#_ZN2sfpLERNS_7Vector3IT_EERKS2_" title='sf::operator+=' data-ref="_ZN2sfpLERNS_7Vector3IT_EERKS2_" id="_ZN2sfpLERNS_7Vector3IT_EERKS2_"><b>operator</b> +=</a>(<a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col6 decl" id="6left" title='left' data-type='Vector3&lt;T&gt; &amp;' data-ref="6left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col7 decl" id="7right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="7right">right</dfn>);</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="110">110</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="111">111</th><td><i>/// \brief Overload of binary operator -=</i></td></tr>
+<tr><th id="112">112</th><td><i>///</i></td></tr>
+<tr><th id="113">113</th><td><i>/// This operator performs a memberwise subtraction of both vectors,</i></td></tr>
+<tr><th id="114">114</th><td><i>/// and assigns the result to \a left.</i></td></tr>
+<tr><th id="115">115</th><td><i>///</i></td></tr>
+<tr><th id="116">116</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="117">117</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="118">118</th><td><i>///</i></td></tr>
+<tr><th id="119">119</th><td><i>/// \return Reference to \a left</i></td></tr>
+<tr><th id="120">120</th><td><i>///</i></td></tr>
+<tr><th id="121">121</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="122">122</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="123">123</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <a class="decl" href="Vector3.inl.html#_ZN2sfmIERNS_7Vector3IT_EERKS2_" title='sf::operator-=' data-ref="_ZN2sfmIERNS_7Vector3IT_EERKS2_" id="_ZN2sfmIERNS_7Vector3IT_EERKS2_"><b>operator</b> -=</a>(<a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col8 decl" id="8left" title='left' data-type='Vector3&lt;T&gt; &amp;' data-ref="8left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col9 decl" id="9right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="9right">right</dfn>);</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="126">126</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="127">127</th><td><i>/// \brief Overload of binary operator +</i></td></tr>
+<tr><th id="128">128</th><td><i>///</i></td></tr>
+<tr><th id="129">129</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="130">130</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="131">131</th><td><i>///</i></td></tr>
+<tr><th id="132">132</th><td><i>/// \return Memberwise addition of both vectors</i></td></tr>
+<tr><th id="133">133</th><td><i>///</i></td></tr>
+<tr><th id="134">134</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="135">135</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="136">136</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt; <a class="decl" href="Vector3.inl.html#_ZN2sfplERKNS_7Vector3IT_EES4_" title='sf::operator+' data-ref="_ZN2sfplERKNS_7Vector3IT_EES4_" id="_ZN2sfplERKNS_7Vector3IT_EES4_"><b>operator</b> +</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col0 decl" id="10left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="10left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col1 decl" id="11right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="11right">right</dfn>);</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="139">139</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="140">140</th><td><i>/// \brief Overload of binary operator -</i></td></tr>
+<tr><th id="141">141</th><td><i>///</i></td></tr>
+<tr><th id="142">142</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="143">143</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="144">144</th><td><i>///</i></td></tr>
+<tr><th id="145">145</th><td><i>/// \return Memberwise subtraction of both vectors</i></td></tr>
+<tr><th id="146">146</th><td><i>///</i></td></tr>
+<tr><th id="147">147</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="148">148</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="149">149</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt; <a class="decl" href="Vector3.inl.html#_ZN2sfmiERKNS_7Vector3IT_EES4_" title='sf::operator-' data-ref="_ZN2sfmiERKNS_7Vector3IT_EES4_" id="_ZN2sfmiERKNS_7Vector3IT_EES4_"><b>operator</b> -</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col2 decl" id="12left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="12left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col3 decl" id="13right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="13right">right</dfn>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="152">152</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="153">153</th><td><i>/// \brief Overload of binary operator *</i></td></tr>
+<tr><th id="154">154</th><td><i>///</i></td></tr>
+<tr><th id="155">155</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="156">156</th><td><i>/// \param right Right operand (a scalar value)</i></td></tr>
+<tr><th id="157">157</th><td><i>///</i></td></tr>
+<tr><th id="158">158</th><td><i>/// \return Memberwise multiplication by \a right</i></td></tr>
+<tr><th id="159">159</th><td><i>///</i></td></tr>
+<tr><th id="160">160</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="161">161</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="162">162</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt; <a class="decl" href="Vector3.inl.html#_ZN2sfmlERKNS_7Vector3IT_EES1_" title='sf::operator*' data-ref="_ZN2sfmlERKNS_7Vector3IT_EES1_" id="_ZN2sfmlERKNS_7Vector3IT_EES1_"><b>operator</b> *</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col4 decl" id="14left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="14left">left</dfn>, T <dfn class="local col5 decl" id="15right" title='right' data-type='T' data-ref="15right">right</dfn>);</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="165">165</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="166">166</th><td><i>/// \brief Overload of binary operator *</i></td></tr>
+<tr><th id="167">167</th><td><i>///</i></td></tr>
+<tr><th id="168">168</th><td><i>/// \param left  Left operand (a scalar value)</i></td></tr>
+<tr><th id="169">169</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="170">170</th><td><i>///</i></td></tr>
+<tr><th id="171">171</th><td><i>/// \return Memberwise multiplication by \a left</i></td></tr>
+<tr><th id="172">172</th><td><i>///</i></td></tr>
+<tr><th id="173">173</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="174">174</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="175">175</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt; <a class="decl" href="Vector3.inl.html#_ZN2sfmlET_RKNS_7Vector3IS0_EE" title='sf::operator*' data-ref="_ZN2sfmlET_RKNS_7Vector3IS0_EE" id="_ZN2sfmlET_RKNS_7Vector3IS0_EE"><b>operator</b> *</a>(T <dfn class="local col6 decl" id="16left" title='left' data-type='T' data-ref="16left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col7 decl" id="17right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="17right">right</dfn>);</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="178">178</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="179">179</th><td><i>/// \brief Overload of binary operator *=</i></td></tr>
+<tr><th id="180">180</th><td><i>///</i></td></tr>
+<tr><th id="181">181</th><td><i>/// This operator performs a memberwise multiplication by \a right,</i></td></tr>
+<tr><th id="182">182</th><td><i>/// and assigns the result to \a left.</i></td></tr>
+<tr><th id="183">183</th><td><i>///</i></td></tr>
+<tr><th id="184">184</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="185">185</th><td><i>/// \param right Right operand (a scalar value)</i></td></tr>
+<tr><th id="186">186</th><td><i>///</i></td></tr>
+<tr><th id="187">187</th><td><i>/// \return Reference to \a left</i></td></tr>
+<tr><th id="188">188</th><td><i>///</i></td></tr>
+<tr><th id="189">189</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="190">190</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="191">191</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <a class="decl" href="Vector3.inl.html#_ZN2sfmLERNS_7Vector3IT_EES1_" title='sf::operator*=' data-ref="_ZN2sfmLERNS_7Vector3IT_EES1_" id="_ZN2sfmLERNS_7Vector3IT_EES1_"><b>operator</b> *=</a>(<a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col8 decl" id="18left" title='left' data-type='Vector3&lt;T&gt; &amp;' data-ref="18left">left</dfn>, T <dfn class="local col9 decl" id="19right" title='right' data-type='T' data-ref="19right">right</dfn>);</td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="194">194</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="195">195</th><td><i>/// \brief Overload of binary operator /</i></td></tr>
+<tr><th id="196">196</th><td><i>///</i></td></tr>
+<tr><th id="197">197</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="198">198</th><td><i>/// \param right Right operand (a scalar value)</i></td></tr>
+<tr><th id="199">199</th><td><i>///</i></td></tr>
+<tr><th id="200">200</th><td><i>/// \return Memberwise division by \a right</i></td></tr>
+<tr><th id="201">201</th><td><i>///</i></td></tr>
+<tr><th id="202">202</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="203">203</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="204">204</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt; <a class="decl" href="Vector3.inl.html#_ZN2sfdvERKNS_7Vector3IT_EES1_" title='sf::operator/' data-ref="_ZN2sfdvERKNS_7Vector3IT_EES1_" id="_ZN2sfdvERKNS_7Vector3IT_EES1_"><b>operator</b> /</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col0 decl" id="20left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="20left">left</dfn>, T <dfn class="local col1 decl" id="21right" title='right' data-type='T' data-ref="21right">right</dfn>);</td></tr>
+<tr><th id="205">205</th><td></td></tr>
+<tr><th id="206">206</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="207">207</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="208">208</th><td><i>/// \brief Overload of binary operator /=</i></td></tr>
+<tr><th id="209">209</th><td><i>///</i></td></tr>
+<tr><th id="210">210</th><td><i>/// This operator performs a memberwise division by \a right,</i></td></tr>
+<tr><th id="211">211</th><td><i>/// and assigns the result to \a left.</i></td></tr>
+<tr><th id="212">212</th><td><i>///</i></td></tr>
+<tr><th id="213">213</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="214">214</th><td><i>/// \param right Right operand (a scalar value)</i></td></tr>
+<tr><th id="215">215</th><td><i>///</i></td></tr>
+<tr><th id="216">216</th><td><i>/// \return Reference to \a left</i></td></tr>
+<tr><th id="217">217</th><td><i>///</i></td></tr>
+<tr><th id="218">218</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="219">219</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="220">220</th><td><a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <a class="decl" href="Vector3.inl.html#_ZN2sfdVERNS_7Vector3IT_EES1_" title='sf::operator/=' data-ref="_ZN2sfdVERNS_7Vector3IT_EES1_" id="_ZN2sfdVERNS_7Vector3IT_EES1_"><b>operator</b> /=</a>(<a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col2 decl" id="22left" title='left' data-type='Vector3&lt;T&gt; &amp;' data-ref="22left">left</dfn>, T <dfn class="local col3 decl" id="23right" title='right' data-type='T' data-ref="23right">right</dfn>);</td></tr>
+<tr><th id="221">221</th><td></td></tr>
+<tr><th id="222">222</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="223">223</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="224">224</th><td><i>/// \brief Overload of binary operator ==</i></td></tr>
+<tr><th id="225">225</th><td><i>///</i></td></tr>
+<tr><th id="226">226</th><td><i>/// This operator compares strict equality between two vectors.</i></td></tr>
+<tr><th id="227">227</th><td><i>///</i></td></tr>
+<tr><th id="228">228</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="229">229</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="230">230</th><td><i>///</i></td></tr>
+<tr><th id="231">231</th><td><i>/// \return True if \a left is equal to \a right</i></td></tr>
+<tr><th id="232">232</th><td><i>///</i></td></tr>
+<tr><th id="233">233</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="234">234</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="235">235</th><td><em>bool</em> <a class="decl" href="Vector3.inl.html#_ZN2sfeqERKNS_7Vector3IT_EES4_" title='sf::operator==' data-ref="_ZN2sfeqERKNS_7Vector3IT_EES4_" id="_ZN2sfeqERKNS_7Vector3IT_EES4_"><b>operator</b> ==</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col4 decl" id="24left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="24left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col5 decl" id="25right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="25right">right</dfn>);</td></tr>
+<tr><th id="236">236</th><td></td></tr>
+<tr><th id="237">237</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="238">238</th><td><i>/// \relates Vector3</i></td></tr>
+<tr><th id="239">239</th><td><i>/// \brief Overload of binary operator !=</i></td></tr>
+<tr><th id="240">240</th><td><i>///</i></td></tr>
+<tr><th id="241">241</th><td><i>/// This operator compares strict difference between two vectors.</i></td></tr>
+<tr><th id="242">242</th><td><i>///</i></td></tr>
+<tr><th id="243">243</th><td><i>/// \param left  Left operand (a vector)</i></td></tr>
+<tr><th id="244">244</th><td><i>/// \param right Right operand (a vector)</i></td></tr>
+<tr><th id="245">245</th><td><i>///</i></td></tr>
+<tr><th id="246">246</th><td><i>/// \return True if \a left is not equal to \a right</i></td></tr>
+<tr><th id="247">247</th><td><i>///</i></td></tr>
+<tr><th id="248">248</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="249">249</th><td><b>template</b> &lt;<b>typename</b> T&gt;</td></tr>
+<tr><th id="250">250</th><td><em>bool</em> <a class="decl" href="Vector3.inl.html#_ZN2sfneERKNS_7Vector3IT_EES4_" title='sf::operator!=' data-ref="_ZN2sfneERKNS_7Vector3IT_EES4_" id="_ZN2sfneERKNS_7Vector3IT_EES4_"><b>operator</b> !=</a>(<em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col6 decl" id="26left" title='left' data-type='const Vector3&lt;T&gt; &amp;' data-ref="26left">left</dfn>, <em>const</em> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;T&gt;&amp; <dfn class="local col7 decl" id="27right" title='right' data-type='const Vector3&lt;T&gt; &amp;' data-ref="27right">right</dfn>);</td></tr>
+<tr><th id="251">251</th><td></td></tr>
+<tr><th id="252">252</th><td><u>#include <a href="Vector3.inl.html">&lt;SFML/System/Vector3.inl&gt;</a></u></td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><i>// Define the most common types</i></td></tr>
+<tr><th id="255">255</th><td><b>typedef</b> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;<em>int</em>&gt;   <dfn class="typedef" id="sf::Vector3i" title='sf::Vector3i' data-type='Vector3&lt;int&gt;' data-ref="sf::Vector3i">Vector3i</dfn>;</td></tr>
+<tr><th id="256">256</th><td><b>typedef</b> <a class="type" href="#sf::Vector3" title='sf::Vector3' data-ref="sf::Vector3">Vector3</a>&lt;<em>float</em>&gt; <dfn class="typedef" id="sf::Vector3f" title='sf::Vector3f' data-type='Vector3&lt;float&gt;' data-ref="sf::Vector3f">Vector3f</dfn>;</td></tr>
+<tr><th id="257">257</th><td></td></tr>
+<tr><th id="258">258</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td><u>#<span data-ppcond="25">endif</span> // SFML_VECTOR3_HPP</u></td></tr>
+<tr><th id="262">262</th><td></td></tr>
+<tr><th id="263">263</th><td></td></tr>
+<tr><th id="264">264</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="265">265</th><td><i>/// \class sf::Vector3</i></td></tr>
+<tr><th id="266">266</th><td><i>/// \ingroup system</i></td></tr>
+<tr><th id="267">267</th><td><i>///</i></td></tr>
+<tr><th id="268">268</th><td><i>/// sf::Vector3 is a simple class that defines a mathematical</i></td></tr>
+<tr><th id="269">269</th><td><i>/// vector with three coordinates (x, y and z). It can be used to</i></td></tr>
+<tr><th id="270">270</th><td><i>/// represent anything that has three dimensions: a size, a point,</i></td></tr>
+<tr><th id="271">271</th><td><i>/// a velocity, etc.</i></td></tr>
+<tr><th id="272">272</th><td><i>///</i></td></tr>
+<tr><th id="273">273</th><td><i>/// The template parameter T is the type of the coordinates. It</i></td></tr>
+<tr><th id="274">274</th><td><i>/// can be any type that supports arithmetic operations (+, -, /, *)</i></td></tr>
+<tr><th id="275">275</th><td><i>/// and comparisons (==, !=), for example int or float.</i></td></tr>
+<tr><th id="276">276</th><td><i>///</i></td></tr>
+<tr><th id="277">277</th><td><i>/// You generally don't have to care about the templated form (sf::Vector3&lt;T&gt;),</i></td></tr>
+<tr><th id="278">278</th><td><i>/// the most common specializations have special typedefs:</i></td></tr>
+<tr><th id="279">279</th><td><i>/// \li sf::Vector3&lt;float&gt; is sf::Vector3f</i></td></tr>
+<tr><th id="280">280</th><td><i>/// \li sf::Vector3&lt;int&gt; is sf::Vector3i</i></td></tr>
+<tr><th id="281">281</th><td><i>///</i></td></tr>
+<tr><th id="282">282</th><td><i>/// The sf::Vector3 class has a small and simple interface, its x and y members</i></td></tr>
+<tr><th id="283">283</th><td><i>/// can be accessed directly (there are no accessors like setX(), getX()) and it</i></td></tr>
+<tr><th id="284">284</th><td><i>/// contains no mathematical function like dot product, cross product, length, etc.</i></td></tr>
+<tr><th id="285">285</th><td><i>///</i></td></tr>
+<tr><th id="286">286</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="287">287</th><td><i>/// \code</i></td></tr>
+<tr><th id="288">288</th><td><i>/// sf::Vector3f v1(16.5f, 24.f, -8.2f);</i></td></tr>
+<tr><th id="289">289</th><td><i>/// v1.x = 18.2f;</i></td></tr>
+<tr><th id="290">290</th><td><i>/// float y = v1.y;</i></td></tr>
+<tr><th id="291">291</th><td><i>/// float z = v1.z;</i></td></tr>
+<tr><th id="292">292</th><td><i>///</i></td></tr>
+<tr><th id="293">293</th><td><i>/// sf::Vector3f v2 = v1 * 5.f;</i></td></tr>
+<tr><th id="294">294</th><td><i>/// sf::Vector3f v3;</i></td></tr>
+<tr><th id="295">295</th><td><i>/// v3 = v1 + v2;</i></td></tr>
+<tr><th id="296">296</th><td><i>///</i></td></tr>
+<tr><th id="297">297</th><td><i>/// bool different = (v2 != v3);</i></td></tr>
+<tr><th id="298">298</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="299">299</th><td><i>///</i></td></tr>
+<tr><th id="300">300</th><td><i>/// Note: for 2-dimensional vectors, see sf::Vector2.</i></td></tr>
+<tr><th id="301">301</th><td><i>///</i></td></tr>
+<tr><th id="302">302</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="303">303</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Audio/AlResource.cpp.html'>codebrowser/src/SFML/Audio/AlResource.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

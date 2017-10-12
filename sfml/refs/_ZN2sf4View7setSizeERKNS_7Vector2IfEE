@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='112' type='void sf::View::setSize(const Vector2f &amp; size)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='104'>////////////////////////////////////////////////////////////
+    /// \brief Set the size of the view
+    ///
+    /// \param size New size
+    ///
+    /// \see setCenter, getCenter
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='102' ll='105' type='void sf::View::setSize(const Vector2f &amp; size)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='101'>////////////////////////////////////////////////////////////</doc>

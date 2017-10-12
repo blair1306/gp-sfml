@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='93' type='sf::Socket::Status sf::UdpSocket::bind(unsigned short port, const sf::IpAddress &amp; address = IpAddress::Any)'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='67' ll='85' type='Socket::Status sf::UdpSocket::bind(unsigned short port, const sf::IpAddress &amp; address = IpAddress::Any)'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='66'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Bind the socket to a specific port
+    ///
+    /// Binding the socket to a port is necessary for being
+    /// able to receive data on that port.
+    /// You can use the special value Socket::AnyPort to tell the
+    /// system to automatically pick an available port, and then
+    /// call getLocalPort to retrieve the chosen port.
+    ///
+    /// \param port    Port to bind the socket to
+    /// \param address Address of the interface to bind to
+    ///
+    /// \return Status code
+    ///
+    /// \see unbind, getLocalPort
+    ///
+    ////////////////////////////////////////////////////////////</doc>

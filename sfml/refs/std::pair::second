@@ -1,0 +1,20 @@
+<dec f='include/c++/5/bits/stl_pair.h' l='102' type='_T2'/>
+<use f='include/c++/5/bits/stl_pair.h' l='109' u='w' c='_ZNSt4pairC1Ev'/>
+<use f='include/c++/5/bits/stl_pair.h' l='113' u='w' c='_ZNSt4pairC1ERKT_RKT0_'/>
+<use f='include/c++/5/bits/stl_pair.h' l='119' u='w' c='_ZNSt4pairC1ERKSt4pairIT_T0_E'/>
+<doc f='include/c++/5/bits/stl_pair.h' l='102'>/// @c second is a copy of the second object</doc>
+<use f='include/c++/5/bits/stl_tree.h' l='1865' u='r' c='_ZNSt8_Rb_tree16_M_insert_uniqueERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1868' c='_ZNSt8_Rb_tree16_M_insert_uniqueERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1892' c='_ZNSt8_Rb_tree15_M_insert_equalERKT0_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1975' u='r' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='1976' c='_ZNSt8_Rb_tree17_M_insert_unique_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='2057' u='r' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='include/c++/5/bits/stl_tree.h' l='2058' c='_ZNSt8_Rb_tree16_M_insert_equal_ESt23_Rb_tree_const_iteratorIT0_ERKS1_RT_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='344' u='a' c='_ZNK2sf4Font8getGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='350' u='a' c='_ZNK2sf4Font8getGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='571' u='w' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='980' u='r' c='_ZNK2sf6Shader12bindTexturesEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='997' u='r' c='_ZN2sf6Shader18getUniformLocationERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='124' u='r' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='160' u='a' c='_ZNK2sf4Http8Response8getFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='95' u='r' c='_ZN2sf4priv7getAtomERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>

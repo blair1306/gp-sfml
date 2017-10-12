@@ -1,0 +1,8 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='808' type='int stbi__hdr_test(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='986' u='c' c='_ZL15stbi__load_mainP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1213' u='c' c='_ZL16stbi__loadf_mainP13stbi__contextPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1271' u='c' c='stbi_is_hdr_from_memory'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1296' u='c' c='stbi_is_hdr_from_file'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1309' u='c' c='stbi_is_hdr_from_callbacks'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6415' ll='6424' type='int stbi__hdr_test(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6615' u='c' c='_ZL14stbi__hdr_infoP13stbi__contextPiS1_S1_'/>

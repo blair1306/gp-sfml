@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='115' type='std::ofstream'/>
+<offset>64</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='112'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterWav.hpp' l='115'>///&lt; File stream to write to</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='89' u='w' c='_ZN2sf4priv18SoundFileWriterWavC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='107' u='m' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='108' u='m' c='_ZN2sf4priv18SoundFileWriterWav4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='136' u='a' c='_ZN2sf4priv18SoundFileWriterWav5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='147' u='m' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='151' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='153' u='m' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='157' u='m' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='159' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='163' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='166' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='167' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='169' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='171' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='173' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='177' u='m' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='179' u='a' c='_ZN2sf4priv18SoundFileWriterWav11writeHeaderEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='189' u='m' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='191' u='m' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='196' u='m' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='197' u='a' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='198' u='m' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='199' u='a' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterWav.cpp' l='201' u='m' c='_ZN2sf4priv18SoundFileWriterWav5closeEv'/>

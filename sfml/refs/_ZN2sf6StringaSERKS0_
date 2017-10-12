@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='309' type='sf::String &amp; sf::String::operator=(const sf::String &amp; right)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='301'>////////////////////////////////////////////////////////////
+    /// \brief Overload of assignment operator
+    ///
+    /// \param right Instance to assign
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='116' u='c' c='_ZN2sf4Text9setStringERKNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='213' ll='217' type='sf::String &amp; sf::String::operator=(const sf::String &amp; right)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='212'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='217' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='255' u='c' c='_ZN2sf4priv13ClipboardImpl9setStringERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='563' u='c' c='_ZN2sf4priv12JoystickImpl4openEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='269' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>

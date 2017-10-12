@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='92' type='unsigned short sf::TcpSocket::getRemotePort() const'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='81'>////////////////////////////////////////////////////////////
+    /// \brief Get the port of the connected peer to which
+    ///        the socket is connected
+    ///
+    /// If the socket is not connected, this function returns 0.
+    ///
+    /// \return Remote port to which the socket is connected
+    ///
+    /// \see getRemoteAddress
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='100' ll='115' type='unsigned short sf::TcpSocket::getRemotePort() const'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='99'>////////////////////////////////////////////////////////////</doc>

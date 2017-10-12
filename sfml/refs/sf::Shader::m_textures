@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='750' type='TextureTable'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='750'>///&lt; Texture variables in the shader, mapped to their location</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='225' u='w' c='_ZN2sf6ShaderC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='555' u='m' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='556' u='m' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='560' u='m' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='566' u='m' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='855' u='m' c='_ZN2sf6Shader7compileEPKcS2_S2_'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='974' u='m' c='_ZNK2sf6Shader12bindTexturesEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='975' u='m' c='_ZNK2sf6Shader12bindTexturesEv'/>

@@ -1,0 +1,5 @@
+<dec f='include/X11/extensions/Xrandr.h' l='228' type='Rotation XRRRotations(Display * dpy, int screen, Rotation * current_rotation)'/>
+<doc f='include/X11/extensions/Xrandr.h' l='222'>/*
+ * the following are always safe to call, even if RandR is not implemented
+ * on a screen
+ */</doc>

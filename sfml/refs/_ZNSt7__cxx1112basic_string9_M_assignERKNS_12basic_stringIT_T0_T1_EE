@@ -1,0 +1,2 @@
+<dec f='include/c++/5/bits/basic_string.h' l='362' type='void std::__cxx11::basic_string::_M_assign(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __rcs)'/>
+<def f='include/c++/5/bits/basic_string.tcc' l='256' ll='280' type='void std::__cxx11::basic_string::_M_assign(const basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; __str)'/>

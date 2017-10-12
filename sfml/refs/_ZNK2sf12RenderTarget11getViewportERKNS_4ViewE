@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='129' type='IntRect sf::RenderTarget::getViewport(const sf::View &amp; view) const'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='135' ll='145' type='IntRect sf::RenderTarget::getViewport(const sf::View &amp; view) const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='160' u='c' c='_ZNK2sf12RenderTarget16mapPixelToCoordsERKNS_7Vector2IiEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='184' u='c' c='_ZNK2sf12RenderTarget16mapCoordsToPixelERKNS_7Vector2IfEERKNS_4ViewE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='431' u='c' c='_ZN2sf12RenderTarget16applyCurrentViewEv'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='134'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='116'>////////////////////////////////////////////////////////////
+    /// \brief Get the viewport of a view, applied to this render target
+    ///
+    /// The viewport is defined in the view as a ratio, this function
+    /// simply applies this ratio to the current dimensions of the
+    /// render target to calculate the pixels rectangle that the viewport
+    /// actually covers in the target.
+    ///
+    /// \param view The view for which we want to compute the viewport
+    ///
+    /// \return Viewport rectangle, expressed in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>

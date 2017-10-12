@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3707' ll='3717' type='int stbi__jpeg_info_raw(stbi__jpeg * j, int * x, int * y, int * comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3724' u='c' c='_ZL15stbi__jpeg_infoP13stbi__contextPiS1_S1_'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1434' type='void glNormal3s(GLshort , GLshort , GLshort )'/>
+<dec f='include/GL/gl.h' l='969' type='void glNormal3s(GLshort nx, GLshort ny, GLshort nz)'/>

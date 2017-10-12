@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='267' type='std::vector&lt;Uint8&gt;'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='267'>///&lt; Pixels of the image</doc>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='84' u='m' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='93' u='a' c='_ZN2sf5Image6createEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='111' u='m' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='120' u='a' c='_ZN2sf5Image6createEjjPKh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='134' u='a' c='_ZN2sf5Image12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='151' u='a' c='_ZN2sf5Image14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='158' u='a' c='_ZN2sf5Image14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='165' u='r' c='_ZNK2sf5Image10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='180' u='m' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='183' u='m' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='184' u='m' c='_ZN2sf5Image19createMaskFromColorERKNS_5ColorEh'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='234' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='235' u='m' c='_ZN2sf5Image4copyERKS0_jjRKNS_4RectIiEEb'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='277' u='m' c='_ZN2sf5Image8setPixelEjjRKNS_5ColorE'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='288' u='m' c='_ZNK2sf5Image8getPixelEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='296' u='m' c='_ZNK2sf5Image12getPixelsPtrEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='298' u='m' c='_ZNK2sf5Image12getPixelsPtrEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='311' u='m' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='317' u='m' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='318' u='m' c='_ZN2sf5Image16flipHorizontallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='335' u='m' c='_ZN2sf5Image14flipVerticallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='339' u='m' c='_ZN2sf5Image14flipVerticallyEv'/>
+<use f='codebrowser/src/SFML/Graphics/Image.cpp' l='340' u='m' c='_ZN2sf5Image14flipVerticallyEv'/>

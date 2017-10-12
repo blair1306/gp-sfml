@@ -1,0 +1,16 @@
+<dec f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='173'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='36' u='c'/>
+<use f='include/freetype2/freetype/freetype.h' l='23' u='a'/>
+<use f='include/freetype2/freetype/ftglyph.h' l='37' u='c'/>
+<use f='include/freetype2/freetype/ftoutln.h' l='25' u='c'/>
+<use f='include/freetype2/freetype/ftbitmap.h' l='24' u='c'/>
+<doc f='include/x86_64-linux-gnu/freetype2/freetype/config/ftheader.h' l='163'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_FREETYPE_H
+   *
+   * @description:
+   *   A macro used in #include statements to name the file containing the
+   *   base FreeType~2 API.
+   *
+   */</doc>

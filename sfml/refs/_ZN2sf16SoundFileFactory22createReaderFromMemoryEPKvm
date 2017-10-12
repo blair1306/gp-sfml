@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='113' type='static sf::SoundFileReader * sf::SoundFileFactory::createReaderFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='107' u='c' c='_ZN2sf14InputSoundFile14openFromMemoryEPKvm'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='100'>////////////////////////////////////////////////////////////
+    /// \brief Instantiate the right codec for the given file in memory
+    ///
+    /// It&apos;s up to the caller to release the returned reader
+    ///
+    /// \param data        Pointer to the file data in memory
+    /// \param sizeInBytes Total size of the file data, in bytes
+    ///
+    /// \return A new sound file codec that can read the given file, or null if no codec can handle it
+    ///
+    /// \see createReaderFromFilename, createReaderFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='93' ll='113' type='static sf::SoundFileReader * sf::SoundFileFactory::createReaderFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='92'>////////////////////////////////////////////////////////////</doc>

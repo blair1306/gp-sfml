@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='75' type='static void sf::SoundFileFactory::registerWriter()'/>
+<def f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='71' ll='83' type='static void sf::SoundFileFactory::registerWriter()'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='49' u='c' c='_ZN12_GLOBAL__N_137ensureDefaultReadersWritersRegisteredEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='51' u='c' c='_ZN12_GLOBAL__N_137ensureDefaultReadersWritersRegisteredEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='53' u='c' c='_ZN12_GLOBAL__N_137ensureDefaultReadersWritersRegisteredEv'/>

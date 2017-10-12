@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='447' type='char * stbi_zlib_decode_noheader_malloc(const char * buffer, int len, int * outlen)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4177' ll='4191' macro='1' type='char * stbi_zlib_decode_noheader_malloc(const char * buffer, int len, int * outlen)'/>

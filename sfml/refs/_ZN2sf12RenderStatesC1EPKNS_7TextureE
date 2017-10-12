@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='85' type='void sf::RenderStates::RenderStates(const sf::Texture * theTexture)'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Construct a default set of render states with a custom texture
+    ///
+    /// \param theTexture Texture to use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='73' ll='79' type='void sf::RenderStates::RenderStates(const sf::Texture * theTexture)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='72'>////////////////////////////////////////////////////////////</doc>

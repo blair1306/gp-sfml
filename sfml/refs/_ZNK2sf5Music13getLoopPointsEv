@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='189' type='TimeSpan sf::Music::getLoopPoints() const'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='113' ll='116' type='Music::TimeSpan sf::Music::getLoopPoints() const'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='112'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='174'>////////////////////////////////////////////////////////////
+    /// \brief Get the positions of the of the sound&apos;s looping sequence
+    ///
+    /// \return Loop Time position class.
+    ///
+    /// \warning Since setLoopPoints() performs some adjustments on the
+    /// provided values and rounds them to internal samples, a call to
+    /// getLoopPoints() is not guaranteed to return the same times passed
+    /// into a previous call to setLoopPoints(). However, it is guaranteed
+    /// to return times that will map to the valid internal samples of
+    /// this Music if they are later passed to setLoopPoints().
+    ///
+    /// \see setLoopPoints
+    ///
+    ////////////////////////////////////////////////////////////</doc>

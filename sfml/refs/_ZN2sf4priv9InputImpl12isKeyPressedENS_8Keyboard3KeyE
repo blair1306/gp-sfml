@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='55' type='static bool sf::priv::InputImpl::isKeyPressed(Keyboard::Key key)'/>
+<use f='codebrowser/src/SFML/Window/Keyboard.cpp' l='37' u='c' c='_ZN2sf8Keyboard12isKeyPressedENS0_3KeyE'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Check if a key is pressed
+    ///
+    /// \param key Key to check
+    ///
+    /// \return True if the key is pressed, false otherwise
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='41' ll='179' type='static bool sf::priv::InputImpl::isKeyPressed(Keyboard::Key key)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='40'>////////////////////////////////////////////////////////////</doc>

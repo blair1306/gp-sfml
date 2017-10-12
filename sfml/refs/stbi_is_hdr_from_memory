@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='402' type='int stbi_is_hdr_from_memory(const stbi_uc * buffer, int len)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1266' ll='1277' macro='1' type='int stbi_is_hdr_from_memory(const stbi_uc * buffer, int len)'/>

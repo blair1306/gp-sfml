@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='396' type='sf::Ftp::Response sf::Ftp::createDirectory(const std::string &amp; name)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='246' ll='249' type='Ftp::Response sf::Ftp::createDirectory(const std::string &amp; name)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='245'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='383'>////////////////////////////////////////////////////////////
+    /// \brief Create a new directory
+    ///
+    /// The new directory is created as a child of the current
+    /// working directory.
+    ///
+    /// \param name Name of the directory to create
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see deleteDirectory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

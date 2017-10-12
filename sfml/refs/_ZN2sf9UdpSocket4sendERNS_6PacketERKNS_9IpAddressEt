@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='167' type='sf::Socket::Status sf::UdpSocket::send(sf::Packet &amp; packet, const sf::IpAddress &amp; remoteAddress, unsigned short remotePort)'/>
+<def f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='160' ll='176' type='Socket::Status sf::UdpSocket::send(sf::Packet &amp; packet, const sf::IpAddress &amp; remoteAddress, unsigned short remotePort)'/>
+<doc f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='159'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/UdpSocket.hpp' l='151'>////////////////////////////////////////////////////////////
+    /// \brief Send a formatted packet of data to a remote peer
+    ///
+    /// Make sure that the packet size is not greater than
+    /// UdpSocket::MaxDatagramSize, otherwise this function will
+    /// fail and no data will be sent.
+    ///
+    /// \param packet        Packet to send
+    /// \param remoteAddress Address of the receiver
+    /// \param remotePort    Port of the receiver to send the data to
+    ///
+    /// \return Status code
+    ///
+    /// \see receive
+    ///
+    ////////////////////////////////////////////////////////////</doc>

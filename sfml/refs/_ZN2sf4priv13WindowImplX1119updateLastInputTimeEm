@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='237' type='void sf::priv::WindowImplX11::updateLastInputTime(::Time time)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='231'>////////////////////////////////////////////////////////////
+    /// \brief Update the last time we received user input
+    ///
+    /// \param time Last time we received user input
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1493' ll='1513' type='void sf::priv::WindowImplX11::updateLastInputTime(::Time time)'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1772' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1832' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1492'>////////////////////////////////////////////////////////////</doc>

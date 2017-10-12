@@ -1,0 +1,13 @@
+_ZSt7tolowerT_RKSt6locale|std::tolower
+_ZSt7toupperT_RKSt6locale|std::toupper
+_ZNK2sf5Color9toIntegerEv|sf::Color::toInteger
+_ZNK2sf9IpAddress9toIntegerEv|sf::IpAddress::toInteger
+_ZNK2sf9IpAddress8toStringB5cxx11Ev|sf::IpAddress::toString
+_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale|sf::String::toAnsiString
+_ZNK2sf6String7toUtf16B5cxx11Ev|sf::String::toUtf16
+_ZNK2sf6String7toUtf32B5cxx11Ev|sf::String::toUtf32
+_ZNK2sf6String6toUtf8B5cxx11Ev|sf::String::toUtf8
+_ZNK2sf6String12toWideStringB5cxx11Ev|sf::String::toWideString
+_ZN2sf5Touch11getPositionEj|sf::Touch::getPosition
+_ZN2sf5Touch6isDownEj|sf::Touch::isDown
+_ZNKSt14priority_queue3topEv|std::priority_queue::top

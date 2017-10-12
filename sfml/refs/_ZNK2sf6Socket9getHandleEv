@@ -1,0 +1,40 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='140' type='SocketHandle sf::Socket::getHandle() const'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='130'>////////////////////////////////////////////////////////////
+    /// \brief Return the internal handle of the socket
+    ///
+    /// The returned handle may be invalid if the socket
+    /// was not created yet (or already destroyed).
+    /// This function can only be accessed by derived classes.
+    ///
+    /// \return The internal (OS-specific) handle of the socket
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/Socket.cpp' l='72' ll='75' type='SocketHandle sf::Socket::getHandle() const'/>
+<doc f='codebrowser/src/SFML/Network/Socket.cpp' l='71'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='78' u='c' c='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='120' u='c' c='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/SocketSelector.cpp' l='177' u='c' c='_ZNK2sf14SocketSelector7isReadyERNS_6SocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='47' u='c' c='_ZNK2sf11TcpListener12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='52' u='c' c='_ZNK2sf11TcpListener12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='75' u='c' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='83' u='c' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='106' u='c' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='115' u='c' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='64' u='c' c='_ZNK2sf9TcpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='69' u='c' c='_ZNK2sf9TcpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='83' u='c' c='_ZNK2sf9TcpSocket16getRemoteAddressEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='88' u='c' c='_ZNK2sf9TcpSocket16getRemoteAddressEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='102' u='c' c='_ZNK2sf9TcpSocket13getRemotePortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='107' u='c' c='_ZNK2sf9TcpSocket13getRemotePortEv'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='132' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='150' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='170' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='170' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='178' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='246' u='c' c='_ZN2sf9TcpSocket4sendEPKvmRm'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='278' u='c' c='_ZN2sf9TcpSocket7receiveEPvmRm'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='50' u='c' c='_ZNK2sf9UdpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='55' u='c' c='_ZNK2sf9UdpSocket12getLocalPortEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='78' u='c' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='114' u='c' c='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='144' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>

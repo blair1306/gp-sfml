@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='97' type='void sf::Http::Request::setField(const std::string &amp; field, const std::string &amp; value)'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='62' ll='65' type='void sf::Http::Request::setField(const std::string &amp; field, const std::string &amp; value)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='355' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='359' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='363' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='369' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='373' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='377' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='61'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='84'>////////////////////////////////////////////////////////////
+        /// \brief Set the value of a field
+        ///
+        /// The field is created if it doesn&apos;t exist. The name of
+        /// the field is case-insensitive.
+        /// By default, a request doesn&apos;t contain any field (but the
+        /// mandatory fields are added later by the HTTP client when
+        /// sending the request).
+        ///
+        /// \param field Name of the field to set
+        /// \param value Value of the field
+        ///
+        ////////////////////////////////////////////////////////////</doc>

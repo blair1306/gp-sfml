@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SoundRecorder.cpp source code [codebrowser/src/SFML/Audio/SoundRecorder.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Audio/SoundRecorder.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Audio</a>/<a href='SoundRecorder.cpp.html'>SoundRecorder.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="../../../include/SFML/Audio/SoundRecorder.hpp.html">&lt;SFML/Audio/SoundRecorder.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="AudioDevice.hpp.html">&lt;SFML/Audio/AudioDevice.hpp&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="ALCheck.hpp.html">&lt;SFML/Audio/ALCheck.hpp&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../../include/SFML/System/Sleep.hpp.html">&lt;SFML/System/Sleep.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../../../include/SFML/System/Err.hpp.html">&lt;SFML/System/Err.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../../include/c++/5/cstring.html">&lt;cstring&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../../../../include/c++/5/cassert.html">&lt;cassert&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="36">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="37">37</th><td>    <u>#pragma warning(disable: 4355) // 'this' used in base member initializer list</u></td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="36">endif</span></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><b>namespace</b></td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>    <a class="typedef" href="../../../../include/AL/alc.h.html#ALCdevice" title='ALCdevice' data-type='struct ALCdevice_struct' data-ref="ALCdevice">ALCdevice</a>* <dfn class="tu decl def" id="(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-type='ALCdevice *' data-ref="(anonymousnamespace)::captureDevice">captureDevice</dfn> = <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="44">44</th><td>}</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td><a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorderC1Ev" title='sf::SoundRecorder::SoundRecorder' data-ref="_ZN2sf13SoundRecorderC1Ev">SoundRecorder</dfn>() :</td></tr>
+<tr><th id="50">50</th><td><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_thread" title='sf::SoundRecorder::m_thread' data-ref="sf::SoundRecorder::m_thread">m_thread</a>            <a class="ref" href="../../../include/SFML/System/Thread.inl.html#_ZN2sf6ThreadC1EMT_FvvEPS1_" title='sf::Thread::Thread' data-ref="_ZN2sf6ThreadC1EMT_FvvEPS1_">(</a>&amp;<a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<a class="member" href="#_ZN2sf13SoundRecorder6recordEv" title='sf::SoundRecorder::record' data-ref="_ZN2sf13SoundRecorder6recordEv">record</a>, <b>this</b>),</td></tr>
+<tr><th id="51">51</th><td><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_sampleRate" title='sf::SoundRecorder::m_sampleRate' data-ref="sf::SoundRecorder::m_sampleRate">m_sampleRate</a>        (<var>0</var>),</td></tr>
+<tr><th id="52">52</th><td><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_processingInterval" title='sf::SoundRecorder::m_processingInterval' data-ref="sf::SoundRecorder::m_processingInterval">m_processingInterval</a><a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_">(</a><a class="ref" href="../../../include/SFML/System/Time.hpp.html#_ZN2sf12millisecondsEi" title='sf::milliseconds' data-ref="_ZN2sf12millisecondsEi">milliseconds</a>(<var>100</var>)),</td></tr>
+<tr><th id="53">53</th><td><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a>       (<b>false</b>),</td></tr>
+<tr><th id="54">54</th><td><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a>        <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1ERKNS_12basic_stringIT_T0_T1_EE" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1ERKNS_12basic_stringIT_T0_T1_EE">(</a><a class="member" href="#_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev" title='sf::SoundRecorder::getDefaultDevice' data-ref="_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev">getDefaultDevice</a>()),</td></tr>
+<tr><th id="55">55</th><td><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_channelCount" title='sf::SoundRecorder::m_channelCount' data-ref="sf::SoundRecorder::m_channelCount">m_channelCount</a>      (<var>1</var>)</td></tr>
+<tr><th id="56">56</th><td>{</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td>}</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="62">62</th><td><a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf13SoundRecorderD1Ev" title='sf::SoundRecorder::~SoundRecorder' data-ref="_ZN2sf13SoundRecorderD1Ev">~SoundRecorder</dfn>()</td></tr>
+<tr><th id="63">63</th><td>{</td></tr>
+<tr><th id="64">64</th><td>    <i>// This assertion is triggered if the recording is still running while</i></td></tr>
+<tr><th id="65">65</th><td><i>    // the object is destroyed. It ensures that stop() is called in the</i></td></tr>
+<tr><th id="66">66</th><td><i>    // destructor of the derived class, which makes sure that the recording</i></td></tr>
+<tr><th id="67">67</th><td><i>    // thread finishes before the derived object is destroyed. Otherwise a</i></td></tr>
+<tr><th id="68">68</th><td><i>    // "pure virtual method called" exception is triggered.</i></td></tr>
+<tr><th id="69">69</th><td>    <a class="macro" href="../../../../include/assert.h.html#50" title="(static_cast&lt;void&gt; (0))" data-ref="_M/assert">assert</a>(!m_isCapturing &amp;&amp; <q>"You must call stop() in the destructor of your derived class, so that the recording thread finishes before your object is destroyed."</q>);</td></tr>
+<tr><th id="70">70</th><td>}</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder5startEj" title='sf::SoundRecorder::start' data-ref="_ZN2sf13SoundRecorder5startEj">start</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col1 decl" id="161sampleRate" title='sampleRate' data-type='unsigned int' data-ref="161sampleRate">sampleRate</dfn>)</td></tr>
+<tr><th id="75">75</th><td>{</td></tr>
+<tr><th id="76">76</th><td>    <i>// Check if the device can do audio capture</i></td></tr>
+<tr><th id="77">77</th><td>    <b>if</b> (!<a class="member" href="#_ZN2sf13SoundRecorder11isAvailableEv" title='sf::SoundRecorder::isAvailable' data-ref="_ZN2sf13SoundRecorder11isAvailableEv">isAvailable</a>())</td></tr>
+<tr><th id="78">78</th><td>    {</td></tr>
+<tr><th id="79">79</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to start capture: your system cannot capture audio data (call SoundRecorder::isAvailable to check it)"</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="80">80</th><td>        <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="81">81</th><td>    }</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td>    <i>// Check that another capture is not already running</i></td></tr>
+<tr><th id="84">84</th><td>    <b>if</b> (<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>)</td></tr>
+<tr><th id="85">85</th><td>    {</td></tr>
+<tr><th id="86">86</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Trying to start audio capture, but another capture is already running"</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="87">87</th><td>        <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="88">88</th><td>    }</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>    <i>// Determine the recording format</i></td></tr>
+<tr><th id="91">91</th><td>    <a class="typedef" href="../../../../include/AL/alc.h.html#ALCenum" title='ALCenum' data-type='int' data-ref="ALCenum">ALCenum</a> <dfn class="local col2 decl" id="162format" title='format' data-type='ALCenum' data-ref="162format">format</dfn> = (<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_channelCount" title='sf::SoundRecorder::m_channelCount' data-ref="sf::SoundRecorder::m_channelCount">m_channelCount</a> == <var>1</var>) ? <a class="macro" href="../../../../include/AL/al.h.html#340" title="0x1101" data-ref="_M/AL_FORMAT_MONO16">AL_FORMAT_MONO16</a> : <a class="macro" href="../../../../include/AL/al.h.html#342" title="0x1103" data-ref="_M/AL_FORMAT_STEREO16">AL_FORMAT_STEREO16</a>;</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td>    <i>// Open the capture device for capturing 16 bits samples</i></td></tr>
+<tr><th id="94">94</th><td>    <a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='w' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a> = <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureOpenDevice" title='alcCaptureOpenDevice' data-ref="alcCaptureOpenDevice">alcCaptureOpenDevice</a>(<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a>.<a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string5c_strEv" title='std::__cxx11::basic_string::c_str' data-ref="_ZNKSt7__cxx1112basic_string5c_strEv">c_str</a>(), <a class="local col1 ref" href="#161sampleRate" title='sampleRate' data-ref="161sampleRate">sampleRate</a>, <a class="local col2 ref" href="#162format" title='format' data-ref="162format">format</a>, <a class="local col1 ref" href="#161sampleRate" title='sampleRate' data-ref="161sampleRate">sampleRate</a>);</td></tr>
+<tr><th id="95">95</th><td>    <b>if</b> (!<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>)</td></tr>
+<tr><th id="96">96</th><td>    {</td></tr>
+<tr><th id="97">97</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to open the audio capture device with the name: "</q> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE">&lt;&lt;</a> <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="98">98</th><td>        <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="99">99</th><td>    }</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td>    <i>// Clear the array of samples</i></td></tr>
+<tr><th id="102">102</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_samples" title='sf::SoundRecorder::m_samples' data-ref="sf::SoundRecorder::m_samples">m_samples</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector5clearEv" title='std::vector::clear' data-ref="_ZNSt6vector5clearEv">clear</a>();</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td>    <i>// Store the sample rate</i></td></tr>
+<tr><th id="105">105</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_sampleRate" title='sf::SoundRecorder::m_sampleRate' data-ref="sf::SoundRecorder::m_sampleRate">m_sampleRate</a> = <a class="local col1 ref" href="#161sampleRate" title='sampleRate' data-ref="161sampleRate">sampleRate</a>;</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td>    <i>// Notify derived class</i></td></tr>
+<tr><th id="108">108</th><td>    <b>if</b> (<a class="virtual member" href="#_ZN2sf13SoundRecorder7onStartEv" title='sf::SoundRecorder::onStart' data-ref="_ZN2sf13SoundRecorder7onStartEv">onStart</a>())</td></tr>
+<tr><th id="109">109</th><td>    {</td></tr>
+<tr><th id="110">110</th><td>        <i>// Start the capture</i></td></tr>
+<tr><th id="111">111</th><td>        <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureStart" title='alcCaptureStart' data-ref="alcCaptureStart">alcCaptureStart</a>(<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>);</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td>        <i>// Start the capture in a new thread, to avoid blocking the main thread</i></td></tr>
+<tr><th id="114">114</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a> = <b>true</b>;</td></tr>
+<tr><th id="115">115</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_thread" title='sf::SoundRecorder::m_thread' data-ref="sf::SoundRecorder::m_thread">m_thread</a>.<a class="ref" href="../../../include/SFML/System/Thread.hpp.html#_ZN2sf6Thread6launchEv" title='sf::Thread::launch' data-ref="_ZN2sf6Thread6launchEv">launch</a>();</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td>        <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="118">118</th><td>    }</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td>    <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="121">121</th><td>}</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="125">125</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder4stopEv" title='sf::SoundRecorder::stop' data-ref="_ZN2sf13SoundRecorder4stopEv">stop</dfn>()</td></tr>
+<tr><th id="126">126</th><td>{</td></tr>
+<tr><th id="127">127</th><td>    <i>// Stop the capturing thread if there is one</i></td></tr>
+<tr><th id="128">128</th><td>    <b>if</b> (<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a>)</td></tr>
+<tr><th id="129">129</th><td>    {</td></tr>
+<tr><th id="130">130</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a> = <b>false</b>;</td></tr>
+<tr><th id="131">131</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_thread" title='sf::SoundRecorder::m_thread' data-ref="sf::SoundRecorder::m_thread">m_thread</a>.<a class="ref" href="../../../include/SFML/System/Thread.hpp.html#_ZN2sf6Thread4waitEv" title='sf::Thread::wait' data-ref="_ZN2sf6Thread4waitEv">wait</a>();</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td>        <i>// Notify derived class</i></td></tr>
+<tr><th id="134">134</th><td>        <a class="virtual member" href="#_ZN2sf13SoundRecorder6onStopEv" title='sf::SoundRecorder::onStop' data-ref="_ZN2sf13SoundRecorder6onStopEv">onStop</a>();</td></tr>
+<tr><th id="135">135</th><td>    }</td></tr>
+<tr><th id="136">136</th><td>}</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="140">140</th><td><em>unsigned</em> <em>int</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZNK2sf13SoundRecorder13getSampleRateEv" title='sf::SoundRecorder::getSampleRate' data-ref="_ZNK2sf13SoundRecorder13getSampleRateEv">getSampleRate</dfn>() <em>const</em></td></tr>
+<tr><th id="141">141</th><td>{</td></tr>
+<tr><th id="142">142</th><td>    <b>return</b> <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_sampleRate" title='sf::SoundRecorder::m_sampleRate' data-ref="sf::SoundRecorder::m_sampleRate">m_sampleRate</a>;</td></tr>
+<tr><th id="143">143</th><td>}</td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="147">147</th><td><span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&gt; <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder19getAvailableDevicesB5cxx11Ev" title='sf::SoundRecorder::getAvailableDevices' data-ref="_ZN2sf13SoundRecorder19getAvailableDevicesB5cxx11Ev">getAvailableDevices</dfn>()</td></tr>
+<tr><th id="148">148</th><td>{</td></tr>
+<tr><th id="149">149</th><td>    <span class="namespace">std::</span><a class="type" href="../../../../include/c++/5/bits/stl_vector.h.html#std::vector" title='std::vector' data-ref="std::vector">vector</a>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&gt; <a class="ref fake" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vectorC1Ev" title='std::vector::vector&lt;_Tp, _Alloc&gt;' data-ref="_ZNSt6vectorC1Ev"></a><dfn class="local col3 decl" id="163deviceNameList" title='deviceNameList' data-type='std::vector&lt;std::string&gt;' data-ref="163deviceNameList">deviceNameList</dfn>;</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td>    <em>const</em> <a class="typedef" href="../../../../include/AL/al.h.html#ALchar" title='ALchar' data-type='char' data-ref="ALchar">ALchar</a>* <dfn class="local col4 decl" id="164deviceList" title='deviceList' data-type='const ALchar *' data-ref="164deviceList">deviceList</dfn> = <a class="ref" href="../../../../include/AL/alc.h.html#alcGetString" title='alcGetString' data-ref="alcGetString">alcGetString</a>(<span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <a class="macro" href="../../../../include/AL/alc.h.html#149" title="0x310" data-ref="_M/ALC_CAPTURE_DEVICE_SPECIFIER">ALC_CAPTURE_DEVICE_SPECIFIER</a>);</td></tr>
+<tr><th id="152">152</th><td>    <b>if</b> (<a class="local col4 ref" href="#164deviceList" title='deviceList' data-ref="164deviceList">deviceList</a>)</td></tr>
+<tr><th id="153">153</th><td>    {</td></tr>
+<tr><th id="154">154</th><td>        <b>while</b> (*<a class="local col4 ref" href="#164deviceList" title='deviceList' data-ref="164deviceList">deviceList</a>)</td></tr>
+<tr><th id="155">155</th><td>        {</td></tr>
+<tr><th id="156">156</th><td>            <a class="local col3 ref" href="#163deviceNameList" title='deviceNameList' data-ref="163deviceNameList">deviceNameList</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector9push_backERKT_" title='std::vector::push_back' data-ref="_ZNSt6vector9push_backERKT_">push_back</a>(<a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="local col4 ref" href="#164deviceList" title='deviceList' data-ref="164deviceList">deviceList</a>);</td></tr>
+<tr><th id="157">157</th><td>            <a class="local col4 ref" href="#164deviceList" title='deviceList' data-ref="164deviceList">deviceList</a> += <span class="namespace">std::</span><a class="ref" href="../../../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col4 ref" href="#164deviceList" title='deviceList' data-ref="164deviceList">deviceList</a>) + <var>1</var>;</td></tr>
+<tr><th id="158">158</th><td>        }</td></tr>
+<tr><th id="159">159</th><td>    }</td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td>    <b>return</b> <a class="local col3 ref" href="#163deviceNameList" title='deviceNameList' data-ref="163deviceNameList">deviceNameList</a>;</td></tr>
+<tr><th id="162">162</th><td>}</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="166">166</th><td><span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev" title='sf::SoundRecorder::getDefaultDevice' data-ref="_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev">getDefaultDevice</dfn>()</td></tr>
+<tr><th id="167">167</th><td>{</td></tr>
+<tr><th id="168">168</th><td>    <b>return</b> <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="ref" href="../../../../include/AL/alc.h.html#alcGetString" title='alcGetString' data-ref="alcGetString">alcGetString</a>(<span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <a class="macro" href="../../../../include/AL/alc.h.html#151" title="0x311" data-ref="_M/ALC_CAPTURE_DEFAULT_DEVICE_SPECIFIER">ALC_CAPTURE_DEFAULT_DEVICE_SPECIFIER</a>);</td></tr>
+<tr><th id="169">169</th><td>}</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="173">173</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::SoundRecorder::setDevice' data-ref="_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">setDevice</dfn>(<em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <dfn class="local col5 decl" id="165name" title='name' data-type='const std::string &amp;' data-ref="165name">name</dfn>)</td></tr>
+<tr><th id="174">174</th><td>{</td></tr>
+<tr><th id="175">175</th><td>    <i>// Store the device name</i></td></tr>
+<tr><th id="176">176</th><td>    <b>if</b> (<a class="local col5 ref" href="#165name" title='name' data-ref="165name">name</a>.<a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string5emptyEv" title='std::__cxx11::basic_string::empty' data-ref="_ZNKSt7__cxx1112basic_string5emptyEv">empty</a>())</td></tr>
+<tr><th id="177">177</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSERKNS_12basic_stringIT_T0_T1_EE" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSERKNS_12basic_stringIT_T0_T1_EE">=</a> <a class="member" href="#_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev" title='sf::SoundRecorder::getDefaultDevice' data-ref="_ZN2sf13SoundRecorder16getDefaultDeviceB5cxx11Ev">getDefaultDevice</a>();</td></tr>
+<tr><th id="178">178</th><td>    <b>else</b></td></tr>
+<tr><th id="179">179</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSERKNS_12basic_stringIT_T0_T1_EE" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSERKNS_12basic_stringIT_T0_T1_EE">=</a> <a class="local col5 ref" href="#165name" title='name' data-ref="165name">name</a>;</td></tr>
+<tr><th id="180">180</th><td></td></tr>
+<tr><th id="181">181</th><td>    <b>if</b> (<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a>)</td></tr>
+<tr><th id="182">182</th><td>    {</td></tr>
+<tr><th id="183">183</th><td>        <i>// Stop the capturing thread</i></td></tr>
+<tr><th id="184">184</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a> = <b>false</b>;</td></tr>
+<tr><th id="185">185</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_thread" title='sf::SoundRecorder::m_thread' data-ref="sf::SoundRecorder::m_thread">m_thread</a>.<a class="ref" href="../../../include/SFML/System/Thread.hpp.html#_ZN2sf6Thread4waitEv" title='sf::Thread::wait' data-ref="_ZN2sf6Thread4waitEv">wait</a>();</td></tr>
+<tr><th id="186">186</th><td></td></tr>
+<tr><th id="187">187</th><td>        <i>// Determine the recording format</i></td></tr>
+<tr><th id="188">188</th><td>        <a class="typedef" href="../../../../include/AL/alc.h.html#ALCenum" title='ALCenum' data-type='int' data-ref="ALCenum">ALCenum</a> <dfn class="local col6 decl" id="166format" title='format' data-type='ALCenum' data-ref="166format">format</dfn> = (<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_channelCount" title='sf::SoundRecorder::m_channelCount' data-ref="sf::SoundRecorder::m_channelCount">m_channelCount</a> == <var>1</var>) ? <a class="macro" href="../../../../include/AL/al.h.html#340" title="0x1101" data-ref="_M/AL_FORMAT_MONO16">AL_FORMAT_MONO16</a> : <a class="macro" href="../../../../include/AL/al.h.html#342" title="0x1103" data-ref="_M/AL_FORMAT_STEREO16">AL_FORMAT_STEREO16</a>;</td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td>        <i>// Open the requested capture device for capturing 16 bits samples</i></td></tr>
+<tr><th id="191">191</th><td>        <a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='w' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a> = <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureOpenDevice" title='alcCaptureOpenDevice' data-ref="alcCaptureOpenDevice">alcCaptureOpenDevice</a>(<a class="local col5 ref" href="#165name" title='name' data-ref="165name">name</a>.<a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string5c_strEv" title='std::__cxx11::basic_string::c_str' data-ref="_ZNKSt7__cxx1112basic_string5c_strEv">c_str</a>(), <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_sampleRate" title='sf::SoundRecorder::m_sampleRate' data-ref="sf::SoundRecorder::m_sampleRate">m_sampleRate</a>, <a class="local col6 ref" href="#166format" title='format' data-ref="166format">format</a>, <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_sampleRate" title='sf::SoundRecorder::m_sampleRate' data-ref="sf::SoundRecorder::m_sampleRate">m_sampleRate</a>);</td></tr>
+<tr><th id="192">192</th><td>        <b>if</b> (!<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>)</td></tr>
+<tr><th id="193">193</th><td>        {</td></tr>
+<tr><th id="194">194</th><td>            <i>// Notify derived class</i></td></tr>
+<tr><th id="195">195</th><td>            <a class="virtual member" href="#_ZN2sf13SoundRecorder6onStopEv" title='sf::SoundRecorder::onStop' data-ref="_ZN2sf13SoundRecorder6onStopEv">onStop</a>();</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td>            <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to open the audio capture device with the name: "</q> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE">&lt;&lt;</a> <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="198">198</th><td>            <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="199">199</th><td>        }</td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td>        <i>// Start the capture</i></td></tr>
+<tr><th id="202">202</th><td>        <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureStart" title='alcCaptureStart' data-ref="alcCaptureStart">alcCaptureStart</a>(<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>);</td></tr>
+<tr><th id="203">203</th><td></td></tr>
+<tr><th id="204">204</th><td>        <i>// Start the capture in a new thread, to avoid blocking the main thread</i></td></tr>
+<tr><th id="205">205</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a> = <b>true</b>;</td></tr>
+<tr><th id="206">206</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_thread" title='sf::SoundRecorder::m_thread' data-ref="sf::SoundRecorder::m_thread">m_thread</a>.<a class="ref" href="../../../include/SFML/System/Thread.hpp.html#_ZN2sf6Thread6launchEv" title='sf::Thread::launch' data-ref="_ZN2sf6Thread6launchEv">launch</a>();</td></tr>
+<tr><th id="207">207</th><td>    }</td></tr>
+<tr><th id="208">208</th><td></td></tr>
+<tr><th id="209">209</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="210">210</th><td>}</td></tr>
+<tr><th id="211">211</th><td></td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="214">214</th><td><em>const</em> <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a>&amp; <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZNK2sf13SoundRecorder9getDeviceB5cxx11Ev" title='sf::SoundRecorder::getDevice' data-ref="_ZNK2sf13SoundRecorder9getDeviceB5cxx11Ev">getDevice</dfn>() <em>const</em></td></tr>
+<tr><th id="215">215</th><td>{</td></tr>
+<tr><th id="216">216</th><td>    <b>return</b> <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_deviceName" title='sf::SoundRecorder::m_deviceName' data-ref="sf::SoundRecorder::m_deviceName">m_deviceName</a>;</td></tr>
+<tr><th id="217">217</th><td>}</td></tr>
+<tr><th id="218">218</th><td></td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="221">221</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder15setChannelCountEj" title='sf::SoundRecorder::setChannelCount' data-ref="_ZN2sf13SoundRecorder15setChannelCountEj">setChannelCount</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="167channelCount" title='channelCount' data-type='unsigned int' data-ref="167channelCount">channelCount</dfn>)</td></tr>
+<tr><th id="222">222</th><td>{</td></tr>
+<tr><th id="223">223</th><td>    <b>if</b> (<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a>)</td></tr>
+<tr><th id="224">224</th><td>    {</td></tr>
+<tr><th id="225">225</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"It's not possible to change the channels while recording."</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="226">226</th><td>        <b>return</b>;</td></tr>
+<tr><th id="227">227</th><td>    }</td></tr>
+<tr><th id="228">228</th><td></td></tr>
+<tr><th id="229">229</th><td>    <b>if</b> (<a class="local col7 ref" href="#167channelCount" title='channelCount' data-ref="167channelCount">channelCount</a> &lt; <var>1</var> || <a class="local col7 ref" href="#167channelCount" title='channelCount' data-ref="167channelCount">channelCount</a> &gt; <var>2</var>)</td></tr>
+<tr><th id="230">230</th><td>    {</td></tr>
+<tr><th id="231">231</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Unsupported channel count: "</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEj" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEj">&lt;&lt;</a> <a class="local col7 ref" href="#167channelCount" title='channelCount' data-ref="167channelCount">channelCount</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>" Currently only mono (1) and stereo (2) recording is supported."</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="232">232</th><td>        <b>return</b>;</td></tr>
+<tr><th id="233">233</th><td>    }</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_channelCount" title='sf::SoundRecorder::m_channelCount' data-ref="sf::SoundRecorder::m_channelCount">m_channelCount</a> = <a class="local col7 ref" href="#167channelCount" title='channelCount' data-ref="167channelCount">channelCount</a>;</td></tr>
+<tr><th id="236">236</th><td>}</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td></td></tr>
+<tr><th id="239">239</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="240">240</th><td><em>unsigned</em> <em>int</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZNK2sf13SoundRecorder15getChannelCountEv" title='sf::SoundRecorder::getChannelCount' data-ref="_ZNK2sf13SoundRecorder15getChannelCountEv">getChannelCount</dfn>() <em>const</em></td></tr>
+<tr><th id="241">241</th><td>{</td></tr>
+<tr><th id="242">242</th><td>    <b>return</b> <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_channelCount" title='sf::SoundRecorder::m_channelCount' data-ref="sf::SoundRecorder::m_channelCount">m_channelCount</a>;</td></tr>
+<tr><th id="243">243</th><td>}</td></tr>
+<tr><th id="244">244</th><td></td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="247">247</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder11isAvailableEv" title='sf::SoundRecorder::isAvailable' data-ref="_ZN2sf13SoundRecorder11isAvailableEv">isAvailable</dfn>()</td></tr>
+<tr><th id="248">248</th><td>{</td></tr>
+<tr><th id="249">249</th><td>    <b>return</b> (<span class="namespace">priv::</span><a class="type" href="AudioDevice.hpp.html#sf::priv::AudioDevice" title='sf::priv::AudioDevice' data-ref="sf::priv::AudioDevice">AudioDevice</a>::<a class="ref" href="AudioDevice.hpp.html#_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::priv::AudioDevice::isExtensionSupported' data-ref="_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">isExtensionSupported</a>(<a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>"ALC_EXT_CAPTURE"</q>) != <a class="macro" href="../../../../include/AL/al.h.html#83" title="0" data-ref="_M/AL_FALSE">AL_FALSE</a>) ||</td></tr>
+<tr><th id="250">250</th><td>           (<span class="namespace">priv::</span><a class="type" href="AudioDevice.hpp.html#sf::priv::AudioDevice" title='sf::priv::AudioDevice' data-ref="sf::priv::AudioDevice">AudioDevice</a>::<a class="ref" href="AudioDevice.hpp.html#_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE" title='sf::priv::AudioDevice::isExtensionSupported' data-ref="_ZN2sf4priv11AudioDevice20isExtensionSupportedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE">isExtensionSupported</a>(<a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>"ALC_EXT_capture"</q>) != <a class="macro" href="../../../../include/AL/al.h.html#83" title="0" data-ref="_M/AL_FALSE">AL_FALSE</a>); <i>// "bug" in Mac OS X 10.5 and 10.6</i></td></tr>
+<tr><th id="251">251</th><td>}</td></tr>
+<tr><th id="252">252</th><td></td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="255">255</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder21setProcessingIntervalENS_4TimeE" title='sf::SoundRecorder::setProcessingInterval' data-ref="_ZN2sf13SoundRecorder21setProcessingIntervalENS_4TimeE">setProcessingInterval</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col8 decl" id="168interval" title='interval' data-type='sf::Time' data-ref="168interval">interval</dfn>)</td></tr>
+<tr><th id="256">256</th><td>{</td></tr>
+<tr><th id="257">257</th><td>    <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_processingInterval" title='sf::SoundRecorder::m_processingInterval' data-ref="sf::SoundRecorder::m_processingInterval">m_processingInterval</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="local col8 ref" href="#168interval" title='interval' data-ref="168interval">interval</a>;</td></tr>
+<tr><th id="258">258</th><td>}</td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="262">262</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf13SoundRecorder7onStartEv" title='sf::SoundRecorder::onStart' data-ref="_ZN2sf13SoundRecorder7onStartEv">onStart</dfn>()</td></tr>
+<tr><th id="263">263</th><td>{</td></tr>
+<tr><th id="264">264</th><td>    <i>// Nothing to do</i></td></tr>
+<tr><th id="265">265</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="266">266</th><td>}</td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td></td></tr>
+<tr><th id="269">269</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="270">270</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="virtual decl def" id="_ZN2sf13SoundRecorder6onStopEv" title='sf::SoundRecorder::onStop' data-ref="_ZN2sf13SoundRecorder6onStopEv">onStop</dfn>()</td></tr>
+<tr><th id="271">271</th><td>{</td></tr>
+<tr><th id="272">272</th><td>    <i>// Nothing to do</i></td></tr>
+<tr><th id="273">273</th><td>}</td></tr>
+<tr><th id="274">274</th><td></td></tr>
+<tr><th id="275">275</th><td></td></tr>
+<tr><th id="276">276</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="277">277</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder6recordEv" title='sf::SoundRecorder::record' data-ref="_ZN2sf13SoundRecorder6recordEv">record</dfn>()</td></tr>
+<tr><th id="278">278</th><td>{</td></tr>
+<tr><th id="279">279</th><td>    <b>while</b> (<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a>)</td></tr>
+<tr><th id="280">280</th><td>    {</td></tr>
+<tr><th id="281">281</th><td>        <i>// Process available samples</i></td></tr>
+<tr><th id="282">282</th><td>        <a class="member" href="#_ZN2sf13SoundRecorder22processCapturedSamplesEv" title='sf::SoundRecorder::processCapturedSamples' data-ref="_ZN2sf13SoundRecorder22processCapturedSamplesEv">processCapturedSamples</a>();</td></tr>
+<tr><th id="283">283</th><td></td></tr>
+<tr><th id="284">284</th><td>        <i>// Don't bother the CPU while waiting for more captured data</i></td></tr>
+<tr><th id="285">285</th><td>        <a class="ref" href="../../../include/SFML/System/Sleep.hpp.html#_ZN2sf5sleepENS_4TimeE" title='sf::sleep' data-ref="_ZN2sf5sleepENS_4TimeE">sleep</a>(<a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_processingInterval" title='sf::SoundRecorder::m_processingInterval' data-ref="sf::SoundRecorder::m_processingInterval">m_processingInterval</a>);</td></tr>
+<tr><th id="286">286</th><td>    }</td></tr>
+<tr><th id="287">287</th><td></td></tr>
+<tr><th id="288">288</th><td>    <i>// Capture is finished: clean up everything</i></td></tr>
+<tr><th id="289">289</th><td>    <a class="member" href="#_ZN2sf13SoundRecorder7cleanupEv" title='sf::SoundRecorder::cleanup' data-ref="_ZN2sf13SoundRecorder7cleanupEv">cleanup</a>();</td></tr>
+<tr><th id="290">290</th><td>}</td></tr>
+<tr><th id="291">291</th><td></td></tr>
+<tr><th id="292">292</th><td></td></tr>
+<tr><th id="293">293</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="294">294</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder22processCapturedSamplesEv" title='sf::SoundRecorder::processCapturedSamples' data-ref="_ZN2sf13SoundRecorder22processCapturedSamplesEv">processCapturedSamples</dfn>()</td></tr>
+<tr><th id="295">295</th><td>{</td></tr>
+<tr><th id="296">296</th><td>    <i>// Get the number of samples available</i></td></tr>
+<tr><th id="297">297</th><td>    <a class="typedef" href="../../../../include/AL/alc.h.html#ALCint" title='ALCint' data-type='int' data-ref="ALCint">ALCint</a> <dfn class="local col9 decl" id="169samplesAvailable" title='samplesAvailable' data-type='ALCint' data-ref="169samplesAvailable">samplesAvailable</dfn>;</td></tr>
+<tr><th id="298">298</th><td>    <a class="ref" href="../../../../include/AL/alc.h.html#alcGetIntegerv" title='alcGetIntegerv' data-ref="alcGetIntegerv">alcGetIntegerv</a>(<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>, <a class="macro" href="../../../../include/AL/alc.h.html#153" title="0x312" data-ref="_M/ALC_CAPTURE_SAMPLES">ALC_CAPTURE_SAMPLES</a>, <var>1</var>, &amp;<a class="local col9 ref" href="#169samplesAvailable" title='samplesAvailable' data-ref="169samplesAvailable">samplesAvailable</a>);</td></tr>
+<tr><th id="299">299</th><td></td></tr>
+<tr><th id="300">300</th><td>    <b>if</b> (<a class="local col9 ref" href="#169samplesAvailable" title='samplesAvailable' data-ref="169samplesAvailable">samplesAvailable</a> &gt; <var>0</var>)</td></tr>
+<tr><th id="301">301</th><td>    {</td></tr>
+<tr><th id="302">302</th><td>        <i>// Get the recorded samples</i></td></tr>
+<tr><th id="303">303</th><td>        <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_samples" title='sf::SoundRecorder::m_samples' data-ref="sf::SoundRecorder::m_samples">m_samples</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vector6resizeEmT_" title='std::vector::resize' data-ref="_ZNSt6vector6resizeEmT_">resize</a>(<a class="local col9 ref" href="#169samplesAvailable" title='samplesAvailable' data-ref="169samplesAvailable">samplesAvailable</a> * <a class="member" href="#_ZNK2sf13SoundRecorder15getChannelCountEv" title='sf::SoundRecorder::getChannelCount' data-ref="_ZNK2sf13SoundRecorder15getChannelCountEv">getChannelCount</a>());</td></tr>
+<tr><th id="304">304</th><td>        <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureSamples" title='alcCaptureSamples' data-ref="alcCaptureSamples">alcCaptureSamples</a>(<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>, &amp;<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_samples" title='sf::SoundRecorder::m_samples' data-ref="sf::SoundRecorder::m_samples">m_samples</a><a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vectorixEm" title='std::vector::operator[]' data-ref="_ZNSt6vectorixEm">[<var>0</var>]</a>, <a class="local col9 ref" href="#169samplesAvailable" title='samplesAvailable' data-ref="169samplesAvailable">samplesAvailable</a>);</td></tr>
+<tr><th id="305">305</th><td></td></tr>
+<tr><th id="306">306</th><td>        <i>// Forward them to the derived class</i></td></tr>
+<tr><th id="307">307</th><td>        <b>if</b> (!<a class="virtual member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#_ZN2sf13SoundRecorder16onProcessSamplesEPKsm" title='sf::SoundRecorder::onProcessSamples' data-ref="_ZN2sf13SoundRecorder16onProcessSamplesEPKsm">onProcessSamples</a>(&amp;<a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_samples" title='sf::SoundRecorder::m_samples' data-ref="sf::SoundRecorder::m_samples">m_samples</a><a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNSt6vectorixEm" title='std::vector::operator[]' data-ref="_ZNSt6vectorixEm">[<var>0</var>]</a>, <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_samples" title='sf::SoundRecorder::m_samples' data-ref="sf::SoundRecorder::m_samples">m_samples</a>.<a class="ref" href="../../../../include/c++/5/bits/stl_vector.h.html#_ZNKSt6vector4sizeEv" title='std::vector::size' data-ref="_ZNKSt6vector4sizeEv">size</a>()))</td></tr>
+<tr><th id="308">308</th><td>        {</td></tr>
+<tr><th id="309">309</th><td>            <i>// The user wants to stop the capture</i></td></tr>
+<tr><th id="310">310</th><td>            <a class="member" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder::m_isCapturing" title='sf::SoundRecorder::m_isCapturing' data-ref="sf::SoundRecorder::m_isCapturing">m_isCapturing</a> = <b>false</b>;</td></tr>
+<tr><th id="311">311</th><td>        }</td></tr>
+<tr><th id="312">312</th><td>    }</td></tr>
+<tr><th id="313">313</th><td>}</td></tr>
+<tr><th id="314">314</th><td></td></tr>
+<tr><th id="315">315</th><td></td></tr>
+<tr><th id="316">316</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="317">317</th><td><em>void</em> <a class="type" href="../../../include/SFML/Audio/SoundRecorder.hpp.html#sf::SoundRecorder" title='sf::SoundRecorder' data-ref="sf::SoundRecorder">SoundRecorder</a>::<dfn class="decl def" id="_ZN2sf13SoundRecorder7cleanupEv" title='sf::SoundRecorder::cleanup' data-ref="_ZN2sf13SoundRecorder7cleanupEv">cleanup</dfn>()</td></tr>
+<tr><th id="318">318</th><td>{</td></tr>
+<tr><th id="319">319</th><td>    <i>// Stop the capture</i></td></tr>
+<tr><th id="320">320</th><td>    <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureStop" title='alcCaptureStop' data-ref="alcCaptureStop">alcCaptureStop</a>(<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>);</td></tr>
+<tr><th id="321">321</th><td></td></tr>
+<tr><th id="322">322</th><td>    <i>// Get the samples left in the buffer</i></td></tr>
+<tr><th id="323">323</th><td>    <a class="member" href="#_ZN2sf13SoundRecorder22processCapturedSamplesEv" title='sf::SoundRecorder::processCapturedSamples' data-ref="_ZN2sf13SoundRecorder22processCapturedSamplesEv">processCapturedSamples</a>();</td></tr>
+<tr><th id="324">324</th><td></td></tr>
+<tr><th id="325">325</th><td>    <i>// Close the device</i></td></tr>
+<tr><th id="326">326</th><td>    <a class="ref" href="../../../../include/AL/alc.h.html#alcCaptureCloseDevice" title='alcCaptureCloseDevice' data-ref="alcCaptureCloseDevice">alcCaptureCloseDevice</a>(<a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='r' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a>);</td></tr>
+<tr><th id="327">327</th><td>    <a class="tu ref" href="#(anonymousnamespace)::captureDevice" title='(anonymous namespace)::captureDevice' data-use='w' data-ref="(anonymousnamespace)::captureDevice">captureDevice</a> = <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="328">328</th><td>}</td></tr>
+<tr><th id="329">329</th><td></td></tr>
+<tr><th id="330">330</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="331">331</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

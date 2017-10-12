@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='283' type='void sf::SoundRecorder::cleanup()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='277'>////////////////////////////////////////////////////////////
+    /// \brief Clean up the recorder&apos;s internal resources
+    ///
+    /// This function is called when the capture stops.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='289' u='c' c='_ZN2sf13SoundRecorder6recordEv'/>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='317' ll='328' type='void sf::SoundRecorder::cleanup()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='316'>////////////////////////////////////////////////////////////</doc>

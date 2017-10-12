@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='295' type='void sf::Shape::updateOutline()'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='291'>////////////////////////////////////////////////////////////
+    /// \brief Update the outline vertices&apos; position
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='208' u='c' c='_ZN2sf5Shape6updateEv'/>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='252' ll='295' type='void sf::Shape::updateOutline()'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='251'>////////////////////////////////////////////////////////////</doc>

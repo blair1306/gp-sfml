@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='396' type='void stbi_ldr_to_hdr_gamma(float gamma)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1320' macro='1' type='void stbi_ldr_to_hdr_gamma(float gamma)'/>

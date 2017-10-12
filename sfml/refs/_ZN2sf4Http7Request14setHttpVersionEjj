@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='132' type='void sf::Http::Request::setHttpVersion(unsigned int major, unsigned int minor)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='56' u='c' c='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='87' ll='91' type='void sf::Http::Request::setHttpVersion(unsigned int major, unsigned int minor)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='86'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='123'>////////////////////////////////////////////////////////////
+        /// \brief Set the HTTP version for the request
+        ///
+        /// The HTTP version is 1.0 by default.
+        ///
+        /// \param major Major HTTP version number
+        /// \param minor Minor HTTP version number
+        ///
+        ////////////////////////////////////////////////////////////</doc>

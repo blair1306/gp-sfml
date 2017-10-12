@@ -1,0 +1,2 @@
+<dec f='include/X11/keysymdef.h' l='206'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='391' u='c'/>

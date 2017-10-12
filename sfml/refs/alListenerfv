@@ -1,0 +1,4 @@
+<dec f='include/AL/al.h' l='489' type='void alListenerfv(ALenum param, const ALfloat * values)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='75' u='c' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='193' u='c' c='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='213' u='c' c='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>

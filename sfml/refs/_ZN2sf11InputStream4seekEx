@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/System/InputStream.hpp' l='73' type='Int64 sf::InputStream::seek(Int64 position)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='152' u='c' c='_ZN2sf14InputSoundFile14openFromStreamERNS_11InputStreamE'/>
+<doc f='codebrowser/include/SFML/System/InputStream.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Change the current reading position
+    ///
+    /// \param position The position to seek to, from the beginning
+    ///
+    /// \return The position actually sought to, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='125' u='c' c='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='60' u='c' c='_ZN12_GLOBAL__N_110streamSeekEPK19FLAC__StreamDecodermPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='57' u='c' c='_ZN12_GLOBAL__N_14seekEPvli'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='139' u='c' c='_ZN2sf4priv18SoundFileReaderWav4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='278' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='298' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='51' u='c' c='_ZN12_GLOBAL__N_14readEP13FT_StreamRec_mPhm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='262' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='57' u='c' c='_ZN12_GLOBAL__N_14skipEPvi'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='191' u='c' c='_ZN2sf4priv11ImageLoader19loadImageFromStreamERNS_11InputStreamERSt6vectorIhSaIhEERNS_7Vector2IjEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='112' u='c' c='_ZN12_GLOBAL__N_117getStreamContentsERN2sf11InputStreamERSt6vectorIcSaIcEE'/>
+<ovr f='codebrowser/src/SFML/System/FileInputStream.cpp' l='91' c='_ZN2sf15FileInputStream4seekEx'/>
+<ovr f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='72' c='_ZN2sf17MemoryInputStream4seekEx'/>

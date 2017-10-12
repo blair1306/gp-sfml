@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='64' type='void sf::VertexArray::VertexArray(sf::PrimitiveType type, std::size_t vertexCount = 0)'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='57'>////////////////////////////////////////////////////////////
+    /// \brief Construct the vertex array with a type and an initial number of vertices
+    ///
+    /// \param type        Type of primitives
+    /// \param vertexCount Initial number of vertices in the array
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='166' u='c' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='167' u='c' c='_ZN2sf5ShapeC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='84' u='c' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='85' u='c' c='_ZN2sf4TextC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='102' u='c' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='103' u='c' c='_ZN2sf4TextC1ERKNS_6StringERKNS_4FontEj'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='43' ll='47' type='void sf::VertexArray::VertexArray(sf::PrimitiveType type, std::size_t vertexCount = 0)'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

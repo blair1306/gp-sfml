@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='91' type='void sf::RenderTarget::setView(const sf::View &amp; view)'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='113' ll='117' type='void sf::RenderTarget::setView(const sf::View &amp; view)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='410' u='c' c='_ZN2sf12RenderTarget13resetGLStatesEv'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='112'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Change the current active view
+    ///
+    /// The view is like a 2D camera, it controls which part of
+    /// the 2D scene is visible, and how it is viewed in the
+    /// render target.
+    /// The new view will affect everything that is drawn, until
+    /// another view is set.
+    /// The render target keeps its own copy of the view object,
+    /// so it is not necessary to keep the original one alive
+    /// after calling this function.
+    /// To restore the original view of the target, you can pass
+    /// the result of getDefaultView() to this function.
+    ///
+    /// \param view New view to use
+    ///
+    /// \see getView, getDefaultView
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='103' u='c' c='_ZN2sf12RenderWindow8onResizeEv'/>

@@ -1,0 +1,5 @@
+<def f='include/X11/extensions/Xrender.h' l='178' ll='180'/>
+<size>12</size>
+<mbr r='_XSpanFix::left' o='0' t='XFixed'/>
+<mbr r='_XSpanFix::right' o='32' t='XFixed'/>
+<mbr r='_XSpanFix::y' o='64' t='XFixed'/>

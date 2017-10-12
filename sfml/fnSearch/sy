@@ -1,0 +1,3 @@
+_ZNSt15basic_streambuf4syncEv|std::basic_streambuf::sync
+_ZNSt13basic_filebuf4syncEv|std::basic_filebuf::sync
+_ZNSt13basic_istream4syncEv|std::basic_istream::sync

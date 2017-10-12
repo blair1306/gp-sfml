@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='156' type='sf::SoundFileWriter *(*)()'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='79' u='w' c='_ZN2sf16SoundFileFactory14registerWriterEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='93' c='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<offset>64</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='146' u='r' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

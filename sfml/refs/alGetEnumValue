@@ -1,0 +1,5 @@
+<dec f='include/AL/al.h' l='483' type='ALenum alGetEnumValue(const ALchar * ename)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='138' u='c' c='_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='139' u='c' c='_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='140' u='c' c='_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='141' u='c' c='_ZN2sf4priv11AudioDevice25getFormatFromChannelCountEj'/>

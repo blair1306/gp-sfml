@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='191' type='sf::Color &amp; sf::operator+=(sf::Color &amp; left, const sf::Color &amp; right)'/>
+<def f='codebrowser/src/SFML/Graphics/Color.cpp' l='136' ll='139' type='sf::Color &amp; sf::operator+=(sf::Color &amp; left, const sf::Color &amp; right)'/>
+<doc f='codebrowser/src/SFML/Graphics/Color.cpp' l='135'>////////////////////////////////////////////////////////////</doc>

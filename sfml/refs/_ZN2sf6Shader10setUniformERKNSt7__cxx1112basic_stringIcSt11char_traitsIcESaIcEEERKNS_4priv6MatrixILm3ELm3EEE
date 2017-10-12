@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='422' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Mat3 &amp; matrix)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='415'>////////////////////////////////////////////////////////////
+    /// \brief Specify value for \p mat3 matrix
+    ///
+    /// \param name   Name of the uniform variable in GLSL
+    /// \param matrix Value of the mat3 matrix
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='526' ll='531' type='void sf::Shader::setUniform(const std::string &amp; name, const Glsl::Mat3 &amp; matrix)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='525'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='503' type='Iterator sf::String::end()'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='491'>////////////////////////////////////////////////////////////
+    /// \brief Return an iterator to the end of the string
+    ///
+    /// The end iterator refers to 1 position past the last character;
+    /// thus it represents an invalid character and should never be
+    /// accessed.
+    ///
+    /// \return Read-write iterator to the end of the string characters
+    ///
+    /// \see begin
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='336' ll='339' type='String::Iterator sf::String::end()'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='335'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/include/SFML/Network/Http.hpp' l='62' ll='69'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='58'>////////////////////////////////////////////////////////////
+        /// \brief Enumerate the available HTTP methods for a request
+        ///
+        ////////////////////////////////////////////////////////////</doc>

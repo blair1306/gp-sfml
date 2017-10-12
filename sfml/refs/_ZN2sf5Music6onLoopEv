@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='246' type='Int64 sf::Music::onLoop()'/>
+<inh f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='252' c='_ZN2sf11SoundStream6onLoopEv'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='212' ll='231' type='Int64 sf::Music::onLoop()'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='211'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='236'>////////////////////////////////////////////////////////////
+    /// \brief Change the current playing position in the stream source to the loop offset
+    ///
+    /// This is called by the underlying SoundStream whenever it needs us to reset
+    /// the seek position for a loop. We then determine whether we are looping on a
+    /// loop point or the end-of-file, perform the seek, and return the new position.
+    ///
+    /// \return The seek position after looping (or -1 if there&apos;s no loop)
+    ///
+    ////////////////////////////////////////////////////////////</doc>

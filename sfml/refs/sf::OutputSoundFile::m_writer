@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='96' type='sf::SoundFileWriter *'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='37' u='w' c='_ZN2sf15OutputSoundFileC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='57' u='w' c='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='58' u='r' c='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='62' u='r' c='_ZN2sf15OutputSoundFile12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='75' u='r' c='_ZN2sf15OutputSoundFile5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='76' u='r' c='_ZN2sf15OutputSoundFile5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='84' u='r' c='_ZN2sf15OutputSoundFile5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/OutputSoundFile.cpp' l='85' u='w' c='_ZN2sf15OutputSoundFile5closeEv'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='93'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/OutputSoundFile.hpp' l='96'>///&lt; Writer that handles I/O on the file&apos;s format</doc>

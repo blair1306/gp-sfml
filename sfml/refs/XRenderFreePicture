@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='272' type='void XRenderFreePicture(Display * dpy, Picture picture)'/>

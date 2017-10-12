@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='173' type='const std::string &amp; sf::Ftp::Response::getMessage() const'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='92' ll='95' type='const std::string &amp; sf::Ftp::Response::getMessage() const'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='105' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='106' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='107' u='c' c='_ZN2sf3Ftp17DirectoryResponseC1ERKNS0_8ResponseE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='541' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='545' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='91'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='167'>////////////////////////////////////////////////////////////
+        /// \brief Get the full message contained in the response
+        ///
+        /// \return The response message
+        ///
+        ////////////////////////////////////////////////////////////</doc>

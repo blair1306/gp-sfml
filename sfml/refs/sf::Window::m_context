@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='546' type='priv::GlContext *'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='546'>///&lt; Platform-specific implementation of the OpenGL context</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='46' u='w' c='_ZN2sf6WindowC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='57' u='w' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='68' u='w' c='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='127' u='w' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='144' u='w' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='155' u='r' c='_ZN2sf6Window5closeEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='156' u='w' c='_ZN2sf6Window5closeEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='180' u='r' c='_ZNK2sf6Window11getSettingsEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='180' u='r' c='_ZNK2sf6Window11getSettingsEv'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='279' u='r' c='_ZN2sf6Window22setVerticalSyncEnabledEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='336' u='r' c='_ZNK2sf6Window9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='338' u='r' c='_ZNK2sf6Window9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='376' u='r' c='_ZN2sf6Window7displayEv'/>

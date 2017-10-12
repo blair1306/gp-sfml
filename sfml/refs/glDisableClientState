@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1585' type='void glDisableClientState(GLenum )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='279' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<dec f='include/GL/gl.h' l='805' type='void glDisableClientState(GLenum cap)'/>

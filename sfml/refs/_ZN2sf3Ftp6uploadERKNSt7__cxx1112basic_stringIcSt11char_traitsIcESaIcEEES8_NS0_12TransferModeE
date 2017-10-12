@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='487' type='sf::Ftp::Response sf::Ftp::upload(const std::string &amp; localFile, const std::string &amp; remotePath, sf::Ftp::TransferMode mode = Binary)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='325' ll='361' type='Ftp::Response sf::Ftp::upload(const std::string &amp; localFile, const std::string &amp; remotePath, sf::Ftp::TransferMode mode = Binary)'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='324'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='470'>////////////////////////////////////////////////////////////
+    /// \brief Upload a file to the server
+    ///
+    /// The name of the local file is relative to the current
+    /// working directory of your application, and the
+    /// remote path is relative to the current directory of the
+    /// FTP server.
+    ///
+    /// \param localFile  Path of the local file to upload
+    /// \param remotePath The directory in which to put the file on the server
+    /// \param mode       Transfer mode
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see download
+    ///
+    ////////////////////////////////////////////////////////////</doc>

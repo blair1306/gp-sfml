@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='3514' type='int XWarpPointer(Display * , Window , Window , int , int , unsigned int , unsigned int , int , int )'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='278' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='295' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEERKNS_6WindowE'/>

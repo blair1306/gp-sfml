@@ -1,0 +1,9 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2104' ll='2112' macro='1' type='stbi_uc stbi__clamp(int x)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2203' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2204' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2205' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2206' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2207' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2208' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2209' u='c' c='_ZL16stbi__idct_blockPhiPs'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2210' u='c' c='_ZL16stbi__idct_blockPhiPs'/>

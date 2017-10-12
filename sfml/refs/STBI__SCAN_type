@@ -1,0 +1,4 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1338' type='1'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3051' u='r' c='_ZL24stbi__decode_jpeg_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3701' u='r' c='_ZL15stbi__jpeg_testP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4695' u='r' c='_ZL20stbi__parse_png_fileP9stbi__pngii'/>

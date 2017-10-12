@@ -1,0 +1,4 @@
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='45' u='c' c='_ZN2sf12RenderWindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='61' u='c' c='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='124' u='c' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='71' u='c' c='_ZN2sf4priv10WindowImpl6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>

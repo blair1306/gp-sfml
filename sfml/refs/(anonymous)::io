@@ -1,0 +1,11 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='687' type='stbi_io_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='704' u='m' c='_ZL15stbi__start_memP13stbi__contextPKhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='713' u='w' c='_ZL21stbi__start_callbacksP13stbi__contextP17stbi_io_callbacksPv'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1344' u='m' c='_ZL19stbi__refill_bufferP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1371' u='m' c='_ZL12stbi__at_eofP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1372' u='m' c='_ZL12stbi__at_eofP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1387' u='m' c='_ZL10stbi__skipP13stbi__contexti'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1391' u='m' c='_ZL10stbi__skipP13stbi__contexti'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1400' u='m' c='_ZL10stbi__getnP13stbi__contextPhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1407' u='m' c='_ZL10stbi__getnP13stbi__contextPhi'/>
+<offset>128</offset>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='279' type='bool'/>
+<offset>1320</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='279'>///&lt; Internal state telling if the inverse transform needs to be updated</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='41' u='w' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='54' u='w' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='67' u='w' c='_ZN2sf4ViewC1ERKNS_7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='79' u='w' c='_ZN2sf4View9setCenterEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='97' u='w' c='_ZN2sf4View7setSizeEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='116' u='w' c='_ZN2sf4View11setRotationEf'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='137' u='w' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='231' u='r' c='_ZNK2sf4View19getInverseTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='234' u='w' c='_ZNK2sf4View19getInverseTransformEv'/>

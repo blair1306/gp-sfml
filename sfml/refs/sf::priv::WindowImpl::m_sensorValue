@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='275' type='Vector3f [6]'/>
+<offset>5056</offset>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='275'>///&lt; Previous value of the sensors</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='93' u='w' c='_ZN2sf4priv10WindowImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='237' u='r' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='238' u='w' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='241' u='r' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='246' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='247' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='248' u='m' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

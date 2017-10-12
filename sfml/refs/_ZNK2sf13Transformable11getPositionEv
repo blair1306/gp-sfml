@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='172' type='const Vector2f &amp; sf::Transformable::getPosition() const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='164'>////////////////////////////////////////////////////////////
+    /// \brief get the position of the object
+    ///
+    /// \return Current position
+    ///
+    /// \see setPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='118' ll='121' type='const Vector2f &amp; sf::Transformable::getPosition() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='117'>////////////////////////////////////////////////////////////</doc>

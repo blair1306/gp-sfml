@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='227' type='bool sf::SoundRecorder::onStart()'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='44' c='_ZN2sf19SoundBufferRecorder7onStartEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='216'>////////////////////////////////////////////////////////////
+    /// \brief Start capturing audio data
+    ///
+    /// This virtual function may be overridden by a derived class
+    /// if something has to be done every time a new capture
+    /// starts. If not, this function can be ignored; the default
+    /// implementation does nothing.
+    ///
+    /// \return True to start the capture, or false to abort it
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='108' u='c' c='_ZN2sf13SoundRecorder5startEj'/>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='262' ll='266' type='bool sf::SoundRecorder::onStart()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='261'>////////////////////////////////////////////////////////////</doc>

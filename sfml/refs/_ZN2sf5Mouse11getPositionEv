@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Window/Mouse.hpp' l='91' type='static Vector2i sf::Mouse::getPosition()'/>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='82'>////////////////////////////////////////////////////////////
+    /// \brief Get the current position of the mouse in desktop coordinates
+    ///
+    /// This function returns the global position of the mouse
+    /// cursor on the desktop.
+    ///
+    /// \return Current position of the mouse
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Mouse.cpp' l='43' ll='46' type='static Vector2i sf::Mouse::getPosition()'/>
+<doc f='codebrowser/src/SFML/Window/Mouse.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

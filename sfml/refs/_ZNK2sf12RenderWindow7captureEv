@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='158' type='sf::Image sf::RenderWindow::capture() const'/>
+<def f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='79' ll='88' type='sf::Image sf::RenderWindow::capture() const'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='78'>////////////////////////////////////////////////////////////</doc>

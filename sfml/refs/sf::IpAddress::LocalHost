@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='186' type='const sf::IpAddress'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='186'>///&lt; The &quot;localhost&quot; address (for connecting a computer to itself locally)</doc>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='40' type='const sf::IpAddress'/>

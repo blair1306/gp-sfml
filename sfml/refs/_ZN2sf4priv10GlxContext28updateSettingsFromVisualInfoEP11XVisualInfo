@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='143' type='void sf::priv::GlxContext::updateSettingsFromVisualInfo(XVisualInfo * visualInfo)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='137'>////////////////////////////////////////////////////////////
+    /// \brief Update the context visual settings from XVisualInfo
+    ///
+    /// \param visualInfo XVisualInfo to update settings from
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='392' ll='423' type='void sf::priv::GlxContext::updateSettingsFromVisualInfo(XVisualInfo * visualInfo)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='447' u='c' c='_ZN2sf4priv10GlxContext24updateSettingsFromWindowEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='510' u='c' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='391'>////////////////////////////////////////////////////////////</doc>

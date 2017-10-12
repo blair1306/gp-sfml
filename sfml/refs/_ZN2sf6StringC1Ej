@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='94' type='void sf::String::String(Uint32 utf32Char)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='88'>////////////////////////////////////////////////////////////
+    /// \brief Construct from single UTF-32 character
+    ///
+    /// \param utf32Char UTF-32 character to convert
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='367' u='c' c='_ZN2sf6PacketrsERNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='61' ll='64' type='void sf::String::String(Uint32 utf32Char)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='60'>////////////////////////////////////////////////////////////</doc>

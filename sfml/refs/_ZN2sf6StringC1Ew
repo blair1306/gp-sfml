@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='86' type='void sf::String::String(wchar_t wideChar)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='80'>////////////////////////////////////////////////////////////
+    /// \brief Construct from single wide character
+    ///
+    /// \param wideChar Wide character to convert
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='54' ll='57' type='void sf::String::String(wchar_t wideChar)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='53'>////////////////////////////////////////////////////////////</doc>

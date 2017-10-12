@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6055' ll='6063' type='int stbi__gif_test_raw(stbi__context * s)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6067' u='c' c='_ZL14stbi__gif_testP13stbi__context'/>

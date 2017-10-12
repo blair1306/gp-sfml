@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='64' type='0'/>
+<use f='codebrowser/include/SFML/Network/Http.hpp' l='82' c='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<use f='codebrowser/include/SFML/Network/Http.hpp' l='82' c='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='110' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='64'>///&lt; Request in get mode, standard method to retrieve a page</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='153' u='r' c='_ZN2sf9IpAddress16getPublicAddressENS_4TimeE'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Window/VideoMode.hpp' l='69' type='static sf::VideoMode sf::VideoMode::getDesktopMode()'/>
+<doc f='codebrowser/include/SFML/Window/VideoMode.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Get the current desktop video mode
+    ///
+    /// \return Current desktop video mode
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='115' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='165' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1232' u='c' c='_ZN2sf4priv13WindowImplX1112setVideoModeERKNS_9VideoModeE'/>
+<def f='codebrowser/src/SFML/Window/VideoMode.cpp' l='57' ll='61' type='static sf::VideoMode sf::VideoMode::getDesktopMode()'/>
+<doc f='codebrowser/src/SFML/Window/VideoMode.cpp' l='56'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='144' u='c' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>

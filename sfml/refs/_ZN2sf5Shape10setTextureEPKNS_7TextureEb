@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Graphics/Shape.hpp' l='74' type='void sf::Shape::setTexture(const sf::Texture * texture, bool resetRect = false)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shape.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Change the source texture of the shape
+    ///
+    /// The \a texture argument refers to a texture that must
+    /// exist as long as the shape uses it. Indeed, the shape
+    /// doesn&apos;t store its own copy of the texture, but rather keeps
+    /// a pointer to the one that you passed to this function.
+    /// If the source texture is destroyed and the shape tries to
+    /// use it, the behavior is undefined.
+    /// \a texture can be NULL to disable texturing.
+    /// If \a resetRect is true, the TextureRect property of
+    /// the shape is automatically adjusted to the size of the new
+    /// texture. If it is false, the texture rect is left unchanged.
+    ///
+    /// \param texture   New texture
+    /// \param resetRect Should the texture rect be reset to the size of the new texture?
+    ///
+    /// \see getTexture, setTextureRect
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shape.cpp' l='64' ll='75' type='void sf::Shape::setTexture(const sf::Texture * texture, bool resetRect = false)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shape.cpp' l='63'>////////////////////////////////////////////////////////////</doc>

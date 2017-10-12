@@ -1,0 +1,4 @@
+<dec f='include/linux/joystick.h' l='89'/>
+<doc f='include/linux/joystick.h' l='85'>/*
+ * v0.x compatibility definitions
+ */</doc>

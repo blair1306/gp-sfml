@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='172' type='void sf::priv::WindowImplX11::setKeyRepeatEnabled(bool enabled)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='166'>////////////////////////////////////////////////////////////
+    /// \brief Enable or disable automatic key-repeat
+    ///
+    /// \param enabled True to enable, false to disable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='213' c='_ZN2sf4priv10WindowImpl19setKeyRepeatEnabledEb'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1109' ll='1112' type='void sf::priv::WindowImplX11::setKeyRepeatEnabled(bool enabled)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1108'>////////////////////////////////////////////////////////////</doc>

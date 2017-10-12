@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='116' type='0'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='116'>///&lt; TCP protocol</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='84' u='r' c='_ZN2sf6Socket6createEv'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='109' u='r' c='_ZN2sf6Socket6createEi'/>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='38' u='r' c='_ZN2sf11TcpListenerC1Ev'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='55' u='r' c='_ZN2sf9TcpSocketC1Ev'/>

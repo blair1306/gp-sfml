@@ -1,0 +1,15 @@
+<dec f='include/c++/5/bits/basic_string.h' l='117' type='0'/>
+<use f='include/c++/5/bits/basic_string.h' l='121'/>
+<use f='include/c++/5/bits/basic_string.h' l='780' u='r' c='_ZNKSt7__cxx1112basic_string8capacityEv'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='75' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='77' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='79' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='81' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='86' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='94' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='104' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='115' c='_ZNSt7__cxx1112basic_string4swapERNS_12basic_stringIT_T0_T1_EE'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='172' u='r' c='_ZNSt7__cxx1112basic_string12_M_constructET_S1_St18input_iterator_tag'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='221' c='_ZNSt7__cxx1112basic_string12_M_constructET_S1_St20forward_iterator_tag'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='244' c='_ZNSt7__cxx1112basic_string12_M_constructEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeES6_'/>
+<use f='include/c++/5/bits/basic_string.tcc' l='295' c='_ZNSt7__cxx1112basic_string7reserveEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeE'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='70' type='void sf::View::View(const Vector2f &amp; center, const Vector2f &amp; size)'/>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Construct the view from its center and size
+    ///
+    /// \param center Center of the zone to display
+    /// \param size   Size of zone to display
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/View.cpp' l='61' ll='70' type='void sf::View::View(const Vector2f &amp; center, const Vector2f &amp; size)'/>
+<doc f='codebrowser/src/SFML/Graphics/View.cpp' l='60'>////////////////////////////////////////////////////////////</doc>

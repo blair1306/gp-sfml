@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='117' type='bool sf::SoundBuffer::loadFromStream(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='104'>////////////////////////////////////////////////////////////
+    /// \brief Load the sound buffer from a custom stream
+    ///
+    /// See the documentation of sf::InputSoundFile for the list
+    /// of supported formats.
+    ///
+    /// \param stream Source stream to read from
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromFile, loadFromMemory, loadFromSamples
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='107' ll='114' type='bool sf::SoundBuffer::loadFromStream(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='106'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='327' type='sf::Ftp::Response sf::Ftp::keepAlive()'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='193' ll='196' type='Ftp::Response sf::Ftp::keepAlive()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='192'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='318'>////////////////////////////////////////////////////////////
+    /// \brief Send a null command to keep the connection alive
+    ///
+    /// This command is useful because the server may close the
+    /// connection automatically if no command is sent.
+    ///
+    /// \return Server response to the request
+    ///
+    ////////////////////////////////////////////////////////////</doc>

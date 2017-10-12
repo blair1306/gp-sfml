@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='53' type='8'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='50' u='r' c='_ZN2sf4priv12JoystickCapsC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='54'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='67' u='r' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='72'/>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='53'>///&lt; Maximum number of supported axes</doc>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='184' u='r' c='_ZN2sf4priv10WindowImpl21processJoystickEventsEv'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='204' type='unsigned int sf::SoundBuffer::getChannelCount() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='193'>////////////////////////////////////////////////////////////
+    /// \brief Get the number of channels used by the sound
+    ///
+    /// If the sound is mono then the number of channels will
+    /// be 1, 2 for stereo, etc.
+    ///
+    /// \return Number of channels
+    ///
+    /// \see getSampleRate, getDuration
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='61' u='c' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='148' u='c' c='_ZNK2sf11SoundBuffer10saveToFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='187' ll='193' type='unsigned int sf::SoundBuffer::getChannelCount() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='186'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,3 @@
+<dec f='include/ogg/ogg.h' l='163' type='int ogg_stream_flush(ogg_stream_state * os, ogg_page * og)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='120' u='c' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='182' u='c' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>

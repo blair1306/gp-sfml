@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrandr.h' l='539' type='void XRRChangeProviderProperty(Display * dpy, RRProvider provider, Atom property, Atom type, int format, int mode, const unsigned char * data, int nelements)'/>

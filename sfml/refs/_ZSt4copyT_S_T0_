@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/stl_algobase.h' l='461' ll='473' type='_OI std::copy(_II __first, _II __last, _OI __result)'/>
+<dec f='include/c++/5/bits/algorithmfwd.h' l='213' type='_OIter std::copy(_IIter , _IIter , _OIter )'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='1076' u='c' c='_ZNSt6vectorIbT_E15_M_copy_alignedESt19_Bit_const_iteratorS2_St13_Bit_iterator'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='1077' u='c' c='_ZNSt6vectorIbT_E15_M_copy_alignedESt19_Bit_const_iteratorS2_St13_Bit_iterator'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='56' u='c' c='_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='293' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='301' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>
+<use f='codebrowser/src/SFML/Graphics/Glsl.cpp' l='62' u='c' c='_ZN2sf4priv10copyMatrixEPKfmPf'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='406' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='247' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='686' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='694' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>

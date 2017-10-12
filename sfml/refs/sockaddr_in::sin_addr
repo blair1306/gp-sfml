@@ -1,0 +1,8 @@
+<dec f='include/netinet/in.h' l='243' type='struct in_addr'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='137' u='m' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='201' u='m' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>32</offset>
+<doc f='include/netinet/in.h' l='243'>/* Internet address.  */</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='90' u='m' c='_ZNK2sf9TcpSocket16getRemoteAddressEv'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='152' u='m' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='44' u='m' c='_ZN2sf4priv10SocketImpl13createAddressEjt'/>

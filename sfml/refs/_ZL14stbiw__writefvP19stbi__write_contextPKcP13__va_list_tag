@@ -1,0 +1,3 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='254' ll='281' type='void stbiw__writefv(stbi__write_context * s, const char * fmt, __va_list_tag * v)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='287' u='c' c='_ZL13stbiw__writefP19stbi__write_contextPKcz'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='365' u='c' c='_ZL14stbiw__outfileP19stbi__write_contextiiiiiiPviiPKcz'/>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='96' type='bool sf::Texture::create(unsigned int width, unsigned int height)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='716' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='85'>////////////////////////////////////////////////////////////
+    /// \brief Create the texture
+    ///
+    /// If this function fails, the texture is left unchanged.
+    ///
+    /// \param width  Width of the texture
+    /// \param height Height of the texture
+    ///
+    /// \return True if creation was successful
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='55' u='c' c='_ZN2sf13RenderTexture6createEjjb'/>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='84' u='c' c='_ZNK2sf12RenderWindow7captureEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='92' u='c' c='_ZN2sf7TextureC1ERKS0_'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='123' ll='218' type='bool sf::Texture::create(unsigned int width, unsigned int height)'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='257' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='280' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='122'>////////////////////////////////////////////////////////////</doc>

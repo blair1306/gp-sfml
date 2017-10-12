@@ -1,0 +1,4 @@
+<dec f='include/X11/keysymdef.h' l='315'/>
+<doc f='include/X11/keysymdef.h' l='313'>/* Modifiers */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='47' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='368' u='c'/>

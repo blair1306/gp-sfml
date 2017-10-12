@@ -1,0 +1,6 @@
+<dec f='include/AL/al.h' l='522' type='void alGetSourcei(ALuint source, ALenum param, ALint * value)'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='133' u='c' c='_ZNK2sf5Sound7getLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='148' u='c' c='_ZNK2sf11SoundSource20isRelativeToListenerEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='196' u='c' c='_ZNK2sf11SoundSource9getStatusEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='329' u='c' c='_ZN2sf11SoundStream10streamDataEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='487' u='c' c='_ZN2sf11SoundStream10clearQueueEv'/>

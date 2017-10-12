@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='253' type='std::string sf::String::toAnsiString(const std::locale &amp; locale = std::locale()) const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='238'>////////////////////////////////////////////////////////////
+    /// \brief Convert the Unicode string to an ANSI string
+    ///
+    /// The UTF-32 string is converted to an ANSI string in
+    /// the encoding defined by \a locale.
+    /// Characters that do not fit in the target encoding are
+    /// discarded from the returned string.
+    ///
+    /// \param locale Locale to use for conversion
+    ///
+    /// \return Converted ANSI string
+    ///
+    /// \see toWideString, operator std::string
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/String.cpp' l='138' u='c' c='_ZNK2sf6StringcvNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEB5cxx11Ev'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='150' ll='160' type='std::string sf::String::toAnsiString(const std::locale &amp; locale = std::locale()) const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='149'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='692' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='914' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='915' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

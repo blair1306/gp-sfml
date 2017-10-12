@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='58' type='3'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='58'>///&lt; The TCP socket has been disconnected</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='288' u='r' c='_ZN2sf9TcpSocket7receiveEPvmRm'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='100' u='r' c='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='101' u='r' c='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='102' u='r' c='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='103' u='r' c='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='104' u='r' c='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='105' u='r' c='_ZN2sf4priv10SocketImpl14getErrorStatusEv'/>

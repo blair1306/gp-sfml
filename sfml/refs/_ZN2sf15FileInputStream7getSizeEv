@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/System/FileInputStream.hpp' l='118' type='Int64 sf::FileInputStream::getSize()'/>
+<doc f='codebrowser/include/SFML/System/FileInputStream.hpp' l='112'>////////////////////////////////////////////////////////////
+    /// \brief Return the size of the stream
+    ///
+    /// \return The total number of bytes available in the stream, or -1 on error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='89' c='_ZN2sf11InputStream7getSizeEv'/>
+<def f='codebrowser/src/SFML/System/FileInputStream.cpp' l='126' ll='144' type='Int64 sf::FileInputStream::getSize()'/>
+<doc f='codebrowser/src/SFML/System/FileInputStream.cpp' l='125'>////////////////////////////////////////////////////////////</doc>

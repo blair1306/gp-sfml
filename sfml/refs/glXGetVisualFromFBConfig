@@ -1,0 +1,4 @@
+<dec f='include/GL/glx.h' l='251' type='XVisualInfo * glXGetVisualFromFBConfig(Display * dpy, GLXFBConfig config)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='484' u='c' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='580' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='636' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

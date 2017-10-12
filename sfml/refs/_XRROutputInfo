@@ -1,0 +1,17 @@
+<def f='include/X11/extensions/Xrandr.h' l='283' ll='299'/>
+<size>96</size>
+<mbr r='_XRROutputInfo::timestamp' o='0' t='Time'/>
+<mbr r='_XRROutputInfo::crtc' o='64' t='RRCrtc'/>
+<mbr r='_XRROutputInfo::name' o='128' t='char *'/>
+<mbr r='_XRROutputInfo::nameLen' o='192' t='int'/>
+<mbr r='_XRROutputInfo::mm_width' o='256' t='unsigned long'/>
+<mbr r='_XRROutputInfo::mm_height' o='320' t='unsigned long'/>
+<mbr r='_XRROutputInfo::connection' o='384' t='Connection'/>
+<mbr r='_XRROutputInfo::subpixel_order' o='400' t='SubpixelOrder'/>
+<mbr r='_XRROutputInfo::ncrtc' o='416' t='int'/>
+<mbr r='_XRROutputInfo::crtcs' o='448' t='RRCrtc *'/>
+<mbr r='_XRROutputInfo::nclone' o='512' t='int'/>
+<mbr r='_XRROutputInfo::clones' o='576' t='RROutput *'/>
+<mbr r='_XRROutputInfo::nmode' o='640' t='int'/>
+<mbr r='_XRROutputInfo::npreferred' o='672' t='int'/>
+<mbr r='_XRROutputInfo::modes' o='704' t='RRMode *'/>

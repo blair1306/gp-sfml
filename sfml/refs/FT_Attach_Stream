@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/freetype.h' l='2252' type='FT_Error FT_Attach_Stream(FT_Face face, FT_Open_Args * parameters)'/>
+<doc f='include/freetype2/freetype/freetype.h' l='2250'>/*                                                                       */</doc>

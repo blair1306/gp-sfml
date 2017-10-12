@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='190' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(wchar_t * data)'/>
+<def f='codebrowser/src/SFML/Network/Packet.cpp' l='307' ll='326' type='sf::Packet &amp; sf::Packet::operator&gt;&gt;(wchar_t * data)'/>
+<doc f='codebrowser/src/SFML/Network/Packet.cpp' l='306'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,15 @@
+_ZSt4swapRT_S0_|std::swap
+_ZSt11swap_rangesT_S_T0_|std::swap_ranges
+_ZNSt8_Rb_tree4swapERSt8_Rb_treeIT_T0_T1_T2_T3_E|std::_Rb_tree::swap
+_ZNSt8multiset4swapERSt8multisetIT_T0_T1_E|std::multiset::swap
+_ZNSt3set4swapERSt3setIT_T0_T1_E|std::set::swap
+_ZSt4swapRSt8_Rb_treeIT_T0_T1_T2_T3_ES6_|std::swap
+_ZSt4swapRSt6vectorIT_T0_ES3_|std::swap
+_ZNSt6vector4swapERSt6vectorIT_T0_E|std::vector::swap
+_ZNSt3map4swapERSt3mapIT_T0_T1_T2_E|std::map::swap
+_ZNSt8multimap4swapERSt8multimapIT_T0_T1_T2_E|std::multimap::swap
+_ZSt4swapRSt3mapIT_T0_T1_T2_ES5_|std::swap
+_ZN2sf7Texture4swapERS0_|sf::Texture::swap
+_ZNSt5deque4swapERSt5dequeIT_T0_E|std::deque::swap
+_ZSt4swapRSt5dequeIT_T0_ES3_|std::swap
+_ZN2sf4priv13WindowImplX1118switchToFullscreenEv|sf::priv::WindowImplX11::switchToFullscreen

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='76' type='void sf::priv::GlxContext::GlxContext(sf::priv::GlxContext * shared, const sf::ContextSettings &amp; settings, unsigned int width, unsigned int height)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='419' u='c' c='_ZN2sf4priv9GlContext6createERKNS_15ContextSettingsEjj'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='67'>////////////////////////////////////////////////////////////
+    /// \brief Create a new context that embeds its own rendering target
+    ///
+    /// \param shared   Context to share the new one with
+    /// \param settings Creation parameters
+    /// \param width    Back buffer width, in pixels
+    /// \param height   Back buffer height, in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='148' ll='169' type='void sf::priv::GlxContext::GlxContext(sf::priv::GlxContext * shared, const sf::ContextSettings &amp; settings, unsigned int width, unsigned int height)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='147'>////////////////////////////////////////////////////////////</doc>

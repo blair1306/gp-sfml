@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='415' type='unsigned short'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='303' u='w' c='_ZN2sf4HttpC1Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='324' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='331' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='337' u='w' c='_ZN2sf4Http7setHostERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEt'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='384' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>896</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='415'>///&lt; Port used for connection with host</doc>

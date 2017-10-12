@@ -1,0 +1,5 @@
+<def f='include/c++/5/ostream' l='126' ll='134' type='__ostream_type &amp; std::basic_ostream::operator&lt;&lt;(std::ios_base &amp;(*)(std::ios_base &amp;) __pf)'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='727' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='723' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='736' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='732' u='c' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>

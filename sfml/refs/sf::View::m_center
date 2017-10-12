@@ -1,0 +1,25 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='272' type='Vector2f'/>
+<offset>0</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='269'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='272'>///&lt; Center of the view, in scene coordinates</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='36' u='w' c='_ZN2sf4ViewC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='49' u='w' c='_ZN2sf4ViewC1ERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='62' u='w' c='_ZN2sf4ViewC1ERKNS_7Vector2IfEES4_'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='75' u='m' c='_ZN2sf4View9setCenterEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='76' u='m' c='_ZN2sf4View9setCenterEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='130' u='m' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='131' u='m' c='_ZN2sf4View5resetERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='144' u='a' c='_ZNK2sf4View9getCenterEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='172' u='m' c='_ZN2sf4View4moveEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='172' u='m' c='_ZN2sf4View4moveEff'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='179' u='r' c='_ZN2sf4View4moveERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='207' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='207' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='207' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='208' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='208' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='208' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='213' u='m' c='_ZNK2sf4View12getTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='214' u='m' c='_ZNK2sf4View12getTransformEv'/>

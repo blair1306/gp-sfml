@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1017' ll='1031' type='stbi__uint16 * stbi__convert_8_to_16(stbi_uc * orig, int w, int h, int channels)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1091' u='c' c='_ZL32stbi__load_and_postprocess_16bitP13stbi__contextPiS1_S1_i'/>

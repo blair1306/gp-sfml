@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='98' type='void sf::priv::WindowImplX11::setPosition(const Vector2i &amp; position)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='92'>////////////////////////////////////////////////////////////
+    /// \brief Change the position of the window on screen
+    ///
+    /// \param position New position of the window, in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='710' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='139' c='_ZN2sf4priv10WindowImpl11setPositionERKNS_7Vector2IiEE'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='853' ll='857' type='void sf::priv::WindowImplX11::setPosition(const Vector2i &amp; position)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='852'>////////////////////////////////////////////////////////////</doc>

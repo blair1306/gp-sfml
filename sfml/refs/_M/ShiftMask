@@ -1,0 +1,5 @@
+<dec f='include/X11/X.h' l='221'/>
+<doc f='include/X11/X.h' l='218'>/* Key masks. Used as modifiers to GrabButton and GrabKey, results of QueryPointer,
+   state in various key-, mouse-, and button-related events. */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1722' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1798' u='c'/>

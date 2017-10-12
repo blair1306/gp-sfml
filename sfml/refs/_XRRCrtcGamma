@@ -1,0 +1,6 @@
+<def f='include/X11/extensions/Xrandr.h' l='394' ll='399'/>
+<size>32</size>
+<mbr r='_XRRCrtcGamma::size' o='0' t='int'/>
+<mbr r='_XRRCrtcGamma::red' o='64' t='unsigned short *'/>
+<mbr r='_XRRCrtcGamma::green' o='128' t='unsigned short *'/>
+<mbr r='_XRRCrtcGamma::blue' o='192' t='unsigned short *'/>

@@ -1,0 +1,2 @@
+<dec f='include/X11/cursorfont.h' l='87'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='129' u='c'/>

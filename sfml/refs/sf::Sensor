@@ -1,0 +1,12 @@
+<def f='codebrowser/include/SFML/Window/Sensor.hpp' l='42' ll='96'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/Sensor.hpp' l='38'>////////////////////////////////////////////////////////////
+/// \brief Give access to the real-time state of the sensors
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6Sensor11isAvailableENS0_4TypeE'/>
+<fun r='_ZN2sf6Sensor10setEnabledENS0_4TypeEb'/>
+<fun r='_ZN2sf6Sensor8getValueENS0_4TypeE'/>
+<fun r='_ZN2sf6Sensor11isAvailableENS0_4TypeE'/>
+<fun r='_ZN2sf6Sensor10setEnabledENS0_4TypeEb'/>
+<fun r='_ZN2sf6Sensor8getValueENS0_4TypeE'/>

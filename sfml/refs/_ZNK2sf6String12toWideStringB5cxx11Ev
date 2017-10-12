@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='266' type='std::wstring sf::String::toWideString() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='255'>////////////////////////////////////////////////////////////
+    /// \brief Convert the Unicode string to a wide string
+    ///
+    /// Characters that do not fit in the target encoding are
+    /// discarded from the returned string.
+    ///
+    /// \return Converted wide string
+    ///
+    /// \see toAnsiString, operator std::wstring
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/String.cpp' l='145' u='c' c='_ZNK2sf6StringcvNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEEB5cxx11Ev'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='164' ll='174' type='std::wstring sf::String::toWideString() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='163'>////////////////////////////////////////////////////////////</doc>

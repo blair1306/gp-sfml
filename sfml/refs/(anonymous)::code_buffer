@@ -1,0 +1,34 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1682' type='stbi__uint32'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1787' u='w' c='_ZL24stbi__grow_buffer_unsafeP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1805' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1811' u='w' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1822' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1836' u='r' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1841' u='w' c='_ZL22stbi__jpeg_huff_decodeP10stbi__jpegP13stbi__huffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1856' u='r' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1857' u='r' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1857' u='r' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1859' u='w' c='_ZL20stbi__extend_receiveP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1870' u='r' c='_ZL19stbi__jpeg_get_bitsP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1870' u='r' c='_ZL19stbi__jpeg_get_bitsP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1871' u='w' c='_ZL19stbi__jpeg_get_bitsP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1881' u='r' c='_ZL18stbi__jpeg_get_bitP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1882' u='w' c='_ZL18stbi__jpeg_get_bitP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1928' u='r' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1933' u='w' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2002' u='r' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2007' u='w' c='_ZL31stbi__jpeg_decode_block_prog_acP10stbi__jpegPsP13stbi__huffmanS1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2627' u='w' c='_ZL16stbi__jpeg_resetP10stbi__jpeg'/>
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3829' type='stbi__uint32'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3849' u='w' c='_ZL15stbi__fill_bitsP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3858' u='r' c='_ZL14stbi__zreceiveP10stbi__zbufi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3859' u='w' c='_ZL14stbi__zreceiveP10stbi__zbufi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3869' u='r' c='_ZL30stbi__zhuffman_decode_slowpathP10stbi__zbufP14stbi__zhuffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3877' u='w' c='_ZL30stbi__zhuffman_decode_slowpathP10stbi__zbufP14stbi__zhuffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3886' u='r' c='_ZL21stbi__zhuffman_decodeP10stbi__zbufP14stbi__zhuffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3889' u='w' c='_ZL21stbi__zhuffman_decodeP10stbi__zbufP14stbi__zhuffman'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4029' u='r' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4030' u='w' c='_ZL30stbi__parse_uncompressed_blockP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4097' u='w' c='_ZL16stbi__parse_zlibP10stbi__zbufi'/>
+<offset>160</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1682'>// jpeg entropy-coded buffer</doc>

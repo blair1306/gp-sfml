@@ -1,0 +1,8 @@
+_ZNKSt9basic_ios3tieEv|std::basic_ios::tie
+_ZNK2sf5Music13timeToSamplesENS_4TimeE|sf::Music::timeToSamples
+_ZNKSt8time_put6do_putET0_RSt8ios_baseT_PK2tmcc|std::time_put::do_put
+_ZNKSt8time_put3putET0_RSt8ios_baseT_PK2tmcc|std::time_put::put
+_ZN2sf4TimeC1Ev|sf::Time::Time
+_ZNK2sf4Time14asMicrosecondsEv|sf::Time::asMicroseconds
+_ZNK2sf4Time14asMillisecondsEv|sf::Time::asMilliseconds
+_ZNK2sf4Time9asSecondsEv|sf::Time::asSeconds

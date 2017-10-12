@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='108' type='static std::vector&lt;std::string&gt; sf::SoundRecorder::getAvailableDevices()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='99'>////////////////////////////////////////////////////////////
+    /// \brief Get a list of the names of all available audio capture devices
+    ///
+    /// This function returns a vector of strings, containing
+    /// the names of all available audio capture devices.
+    ///
+    /// \return A vector of strings containing the names
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='147' ll='162' type='static std::vector&lt;std::string&gt; sf::SoundRecorder::getAvailableDevices()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='146'>////////////////////////////////////////////////////////////</doc>

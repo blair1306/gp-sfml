@@ -1,0 +1,5 @@
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='55' u='c' c='_ZN2sf12RenderStatesC1ERKNS_9TransformE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='96' u='c' c='_ZN2sf12RenderStatesC1ERKNS_9BlendModeERKNS_9TransformEPKNS_7TextureEPKNS_6ShaderE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='92' u='c' c='_ZNK2sf9Transform10getInverseEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='255' u='c' c='_ZN2sfmlERKNS_9TransformES2_'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='255' u='c' c='_ZN2sfmlERKNS_9TransformES2_'/>

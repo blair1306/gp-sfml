@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='224' type='sf::SoundBuffer &amp; sf::SoundBuffer::operator=(const sf::SoundBuffer &amp; right)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='216'>////////////////////////////////////////////////////////////
+    /// \brief Overload of assignment operator
+    ///
+    /// \param right Instance to assign
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='204' ll='214' type='sf::SoundBuffer &amp; sf::SoundBuffer::operator=(const sf::SoundBuffer &amp; right)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='203'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='47' u='c' c='_ZN2sf19SoundBufferRecorder7onStartEv'/>

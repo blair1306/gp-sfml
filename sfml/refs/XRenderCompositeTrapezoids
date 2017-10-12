@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='414' type='void XRenderCompositeTrapezoids(Display * dpy, int op, Picture src, Picture dst, const XRenderPictFormat * maskFormat, int xSrc, int ySrc, const XTrapezoid * traps, int ntrap)'/>

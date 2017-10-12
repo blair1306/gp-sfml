@@ -1,0 +1,17 @@
+<inh f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' c='sf::GlResource'/>
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Window/Context.hpp' l='50' ll='139'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Window/Context.hpp' l='46'>////////////////////////////////////////////////////////////
+/// \brief Class holding a valid drawing context
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf7ContextC1Ev'/>
+<fun r='_ZN2sf7ContextD1Ev'/>
+<fun r='_ZN2sf7Context9setActiveEb'/>
+<fun r='_ZNK2sf7Context11getSettingsEv'/>
+<fun r='_ZN2sf7Context20isExtensionAvailableEPKc'/>
+<fun r='_ZN2sf7Context11getFunctionEPKc'/>
+<fun r='_ZN2sf7Context16getActiveContextEv'/>
+<fun r='_ZN2sf7ContextC1ERKNS_15ContextSettingsEjj'/>
+<mbr r='sf::Context::m_context' o='0' t='priv::GlContext *'/>

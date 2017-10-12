@@ -1,0 +1,14 @@
+<inh f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='47' c='sf::ThreadLocal'/>
+<def f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='41' ll='103'/>
+<fun r='_ZN2sf14ThreadLocalPtrC1EPT_'/>
+<fun r='_ZNK2sf14ThreadLocalPtrdeEv'/>
+<fun r='_ZNK2sf14ThreadLocalPtrptEv'/>
+<fun r='_ZNK2sf14ThreadLocalPtrcvPT_Ev'/>
+<fun r='_ZN2sf14ThreadLocalPtraSEPT_'/>
+<fun r='_ZN2sf14ThreadLocalPtraSERKNS_14ThreadLocalPtrIT_EE'/>
+<fun r='_ZN2sf14ThreadLocalPtrC1EPT_'/>
+<fun r='_ZNK2sf14ThreadLocalPtrdeEv'/>
+<fun r='_ZNK2sf14ThreadLocalPtrptEv'/>
+<fun r='_ZNK2sf14ThreadLocalPtrcvPT_Ev'/>
+<fun r='_ZN2sf14ThreadLocalPtraSEPT_'/>
+<fun r='_ZN2sf14ThreadLocalPtraSERKNS_14ThreadLocalPtrIT_EE'/>

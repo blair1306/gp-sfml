@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='213' type='int XRenderSetSubpixelOrder(Display * dpy, int screen, int subpixel)'/>

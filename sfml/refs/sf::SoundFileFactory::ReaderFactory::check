@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='148' type='bool (*)(sf::InputStream &amp;)'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='47' u='w' c='_ZN2sf16SoundFileFactory14registerReaderEv'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='82' u='r' c='_ZN2sf16SoundFileFactory24createReaderFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='106' u='r' c='_ZN2sf16SoundFileFactory22createReaderFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='126' u='r' c='_ZN2sf16SoundFileFactory22createReaderFromStreamERNS_11InputStreamE'/>

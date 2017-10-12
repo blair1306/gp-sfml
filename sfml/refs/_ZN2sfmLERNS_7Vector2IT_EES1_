@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/SFML/System/Vector2.hpp' l='189' type='Vector2&lt;T&gt; &amp; sf::operator*=(Vector2&lt;T&gt; &amp; left, T right)'/>
+<def f='codebrowser/include/SFML/System/Vector2.inl' l='120' ll='126' type='Vector2&lt;T&gt; &amp; sf::operator*=(Vector2&lt;T&gt; &amp; left, T right)'/>

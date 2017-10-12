@@ -1,0 +1,4 @@
+<dec f='include/X11/X.h' l='387'/>
+<doc f='include/X11/X.h' l='385'>/* Note that CopyFromParent is already defined as 0 above */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='535' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='578' u='c'/>

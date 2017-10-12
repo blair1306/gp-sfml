@@ -1,0 +1,14 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='42' ll='65'/>
+<size>72</size>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='41'>////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf3Ftp11DataChannelC1ERS0_'/>
+<fun r='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<fun r='_ZN2sf3Ftp11DataChannel4sendERSi'/>
+<fun r='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<mbr r='sf::Ftp::DataChannel::m_ftp' o='0' t='sf::Ftp &amp;'/>
+<mbr r='sf::Ftp::DataChannel::m_dataSocket' o='64' t='sf::TcpSocket'/>
+<fun r='_ZN2sf3Ftp11DataChannelC1ERS0_'/>
+<fun r='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<fun r='_ZN2sf3Ftp11DataChannel7receiveERSo'/>
+<fun r='_ZN2sf3Ftp11DataChannel4sendERSi'/>

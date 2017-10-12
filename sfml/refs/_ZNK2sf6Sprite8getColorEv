@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='162' type='const sf::Color &amp; sf::Sprite::getColor() const'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='113' ll='116' type='const sf::Color &amp; sf::Sprite::getColor() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='112'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='154'>////////////////////////////////////////////////////////////
+    /// \brief Get the global color of the sprite
+    ///
+    /// \return Global color of the sprite
+    ///
+    /// \see setColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

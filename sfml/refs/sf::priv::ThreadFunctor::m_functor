@@ -1,0 +1,3 @@
+<use f='codebrowser/include/SFML/System/Thread.inl' l='38' u='w' c='_ZN2sf4priv13ThreadFunctorC1ET_'/>
+<use f='codebrowser/include/SFML/System/Thread.inl' l='39' u='c' c='_ZN2sf4priv13ThreadFunctor3runEv'/>
+<dec f='codebrowser/include/SFML/System/Thread.inl' l='40' type='T'/>

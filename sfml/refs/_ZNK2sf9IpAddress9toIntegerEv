@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='139' type='Uint32 sf::IpAddress::toInteger() const'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='125'>////////////////////////////////////////////////////////////
+    /// \brief Get an integer representation of the address
+    ///
+    /// The returned number is the internal representation of the
+    /// address, and should be used for optimization purposes only
+    /// (like sending the address through a socket).
+    /// The integer produced by this function can then be converted
+    /// back to a sf::IpAddress with the proper constructor.
+    ///
+    /// \return 32-bits unsigned integer representation of the address
+    ///
+    /// \see toString
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='97' ll='100' type='Uint32 sf::IpAddress::toInteger() const'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='96'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='74' u='c' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='125' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='77' u='c' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='111' u='c' c='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>

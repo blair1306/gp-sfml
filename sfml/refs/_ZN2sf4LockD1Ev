@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/Lock.hpp' l='63' type='void sf::Lock::~Lock()'/>
+<doc f='codebrowser/include/SFML/System/Lock.hpp' l='57'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// The destructor of sf::Lock automatically unlocks its mutex.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Lock.cpp' l='43' ll='46' type='void sf::Lock::~Lock()'/>
+<doc f='codebrowser/src/SFML/System/Lock.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

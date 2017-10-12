@@ -1,0 +1,2 @@
+<use f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='55' u='c' c='_ZN2sf4priv9ClockImpl14getCurrentTimeEv'/>
+<use f='codebrowser/src/SFML/System/Unix/SleepImpl.cpp' l='43' u='c' c='_ZN2sf4priv9sleepImplENS_4TimeE'/>

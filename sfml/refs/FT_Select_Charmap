@@ -1,0 +1,5 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3258' type='FT_Error FT_Select_Charmap(FT_Face face, FT_Encoding encoding)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='159' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='224' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='300' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3256'>/*                                                                       */</doc>

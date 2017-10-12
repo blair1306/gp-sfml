@@ -1,0 +1,2 @@
+<dec f='include/AL/alc.h' l='180' type='ALCboolean alcCloseDevice(ALCdevice * device)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='99' u='c' c='_ZN2sf4priv11AudioDeviceD1Ev'/>

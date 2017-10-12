@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='77' type='void sf::Texture::Texture(const sf::Texture &amp; copy)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Copy constructor
+    ///
+    /// \param copy instance to copy
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='78' ll='105' type='void sf::Texture::Texture(const sf::Texture &amp; copy)'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='800' u='c' c='_ZN2sf7TextureaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='77'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='78' type='void sf::String::String(char ansiChar, const std::locale &amp; locale = std::locale())'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='68'>////////////////////////////////////////////////////////////
+    /// \brief Construct from a single ANSI character and a locale
+    ///
+    /// The source character is converted to UTF-32 according
+    /// to the given locale.
+    ///
+    /// \param ansiChar ANSI character to convert
+    /// \param locale   Locale to use for conversion
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='47' ll='50' type='void sf::String::String(char ansiChar, const std::locale &amp; locale = std::locale())'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='46'>////////////////////////////////////////////////////////////</doc>

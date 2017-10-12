@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='316' type='Uint32'/>
+<offset>544</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='316'>///&lt; Format of the internal sound buffers</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='51' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='85' u='w' c='_ZN2sf11SoundStream10initializeEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='88' u='r' c='_ZN2sf11SoundStream10initializeEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='101' u='r' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='450' u='r' c='_ZN2sf11SoundStream17fillAndPushBufferEjb'/>

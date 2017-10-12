@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1416' type='void glMapGrid2d(GLint , GLdouble , GLdouble , GLint , GLdouble , GLdouble )'/>
+<dec f='include/GL/gl.h' l='1400' type='void glMapGrid2d(GLint un, GLdouble u1, GLdouble u2, GLint vn, GLdouble v1, GLdouble v2)'/>

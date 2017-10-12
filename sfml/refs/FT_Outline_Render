@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftoutln.h' l='483' type='FT_Error FT_Outline_Render(FT_Library library, FT_Outline * outline, FT_Raster_Params * params)'/>
+<doc f='include/freetype2/freetype/ftoutln.h' l='481'>/*                                                                       */</doc>

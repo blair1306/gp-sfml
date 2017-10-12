@@ -1,0 +1,3 @@
+<dec f='include/X11/Xlib.h' l='2561' type='int XFreeGC(Display * , GC )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='969' u='c' c='_ZN2sf4priv13WindowImplX117setIconEjjPKh'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1523' u='c' c='_ZN2sf4priv13WindowImplX1118createHiddenCursorEv'/>

@@ -1,0 +1,14 @@
+<def f='include/c++/5/bits/stl_map.h' l='869' ll='871' type='const_iterator std::map::find(const key_type &amp; __x) const'/>
+<doc f='include/c++/5/bits/stl_map.h' l='857'>/**
+       *  @brief Tries to locate an element in a %map.
+       *  @param  __x  Key of (key, value) %pair to be located.
+       *  @return  Read-only (constant) iterator pointing to sought-after
+       *           element, or end() if not found.
+       *
+       *  This function takes a key and tries to locate the element with which
+       *  the key matches.  If successful the function returns a constant
+       *  iterator pointing to the sought after %pair. If unsuccessful it
+       *  returns the past-the-end ( @c end() ) iterator.
+       */</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='140' u='c' c='_ZNK2sf4Http7Request8hasFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='157' u='c' c='_ZNK2sf4Http8Response8getFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

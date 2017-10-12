@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='126' type='void sf::Text::setFont(const sf::Font &amp; font)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='123' ll='130' type='void sf::Text::setFont(const sf::Font &amp; font)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='122'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Set the text&apos;s font
+    ///
+    /// The \a font argument refers to a font that must
+    /// exist as long as the text uses it. Indeed, the text
+    /// doesn&apos;t store its own copy of the font, but rather keeps
+    /// a pointer to the one that you passed to this function.
+    /// If the font is destroyed and the text tries to
+    /// use it, the behavior is undefined.
+    ///
+    /// \param font New font
+    ///
+    /// \see getFont
+    ///
+    ////////////////////////////////////////////////////////////</doc>

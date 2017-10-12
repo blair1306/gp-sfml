@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='90' type='void sf::Window::Window(sf::VideoMode mode, const sf::String &amp; title, Uint32 style = Style::Default, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Construct a new window
+    ///
+    /// This constructor creates the window with the size and pixel
+    /// depth defined in \a mode. An optional style can be passed to
+    /// customize the look and behavior of the window (borders,
+    /// title bar, resizable, closable, ...). If \a style contains
+    /// Style::Fullscreen, then \a mode must be a valid video mode.
+    ///
+    /// The fourth parameter is an optional structure specifying
+    /// advanced OpenGL context settings such as antialiasing,
+    /// depth-buffer bits, etc.
+    ///
+    /// \param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)
+    /// \param title    Title of the window
+    /// \param style    %Window style, a bitwise OR combination of sf::Style enumerators
+    /// \param settings Additional settings for the underlying OpenGL context
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='55' ll='62' type='void sf::Window::Window(sf::VideoMode mode, const sf::String &amp; title, Uint32 style = Style::Default, const sf::ContextSettings &amp; settings = sf::ContextSettings())'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='54'>////////////////////////////////////////////////////////////</doc>

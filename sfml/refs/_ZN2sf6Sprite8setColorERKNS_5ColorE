@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='128' type='void sf::Sprite::setColor(const sf::Color &amp; color)'/>
+<def f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='88' ll='95' type='void sf::Sprite::setColor(const sf::Color &amp; color)'/>
+<doc f='codebrowser/src/SFML/Graphics/Sprite.cpp' l='87'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Sprite.hpp' l='115'>////////////////////////////////////////////////////////////
+    /// \brief Set the global color of the sprite
+    ///
+    /// This color is modulated (multiplied) with the sprite&apos;s
+    /// texture. It can be used to colorize the sprite, or change
+    /// its global opacity.
+    /// By default, the sprite&apos;s color is opaque white.
+    ///
+    /// \param color New color of the sprite
+    ///
+    /// \see getColor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

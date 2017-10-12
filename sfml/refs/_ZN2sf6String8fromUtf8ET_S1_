@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='172' type='static sf::String sf::String::fromUtf8(T begin, T end)'/>
+<def f='codebrowser/include/SFML/System/String.inl' l='28' ll='33' type='static sf::String sf::String::fromUtf8(T begin, T end)'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='217' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='269' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>

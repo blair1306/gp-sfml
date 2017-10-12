@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='399' type='void sf::String::insert(std::size_t position, const sf::String &amp; str)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='389'>////////////////////////////////////////////////////////////
+    /// \brief Insert one or more characters into the string
+    ///
+    /// This function inserts the characters of \a str
+    /// into the string, starting from \a position.
+    ///
+    /// \param position Position of insertion
+    /// \param str      Characters to insert
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='271' ll='274' type='void sf::String::insert(std::size_t position, const sf::String &amp; str)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='270'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,29 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='305' type='sf::Transform &amp; sf::Transform::scale(float scaleX, float scaleY, float centerX, float centerY)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='280'>////////////////////////////////////////////////////////////
+    /// \brief Combine the current transform with a scaling
+    ///
+    /// The center of scaling is provided for convenience as a second
+    /// argument, so that you can build scaling around arbitrary points
+    /// more easily (and efficiently) than the usual
+    /// translate(-center).scale(factors).translate(center).
+    ///
+    /// This function returns a reference to *this, so that calls
+    /// can be chained.
+    /// \code
+    /// sf::Transform transform;
+    /// transform.scale(2, 1, 8, 3).rotate(45);
+    /// \endcode
+    ///
+    /// \param scaleX Scaling factor on X axis
+    /// \param scaleY Scaling factor on Y axis
+    /// \param centerX X coordinate of the center of scaling
+    /// \param centerY Y coordinate of the center of scaling
+    ///
+    /// \return Reference to *this
+    ///
+    /// \see translate, rotate
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='228' ll='235' type='sf::Transform &amp; sf::Transform::scale(float scaleX, float scaleY, float centerX, float centerY)'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='248' u='c' c='_ZN2sf9Transform5scaleERKNS_7Vector2IfEES4_'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='227'>////////////////////////////////////////////////////////////</doc>

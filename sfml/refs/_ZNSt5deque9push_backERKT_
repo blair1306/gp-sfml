@@ -1,0 +1,14 @@
+<def f='include/c++/5/bits/stl_deque.h' l='1515' ll='1527' type='void std::deque::push_back(const value_type &amp; __x)'/>
+<use f='include/c++/5/bits/deque.tcc' l='206' u='c' c='_ZNSt5deque6insertENSt11_Deque_baseIT_T0_E8iteratorERKS1_'/>
+<use f='include/c++/5/bits/deque.tcc' l='411' u='c' c='_ZNSt5deque19_M_range_initializeET_S0_St18input_iterator_tag'/>
+<use f='include/c++/5/bits/deque.tcc' l='641' u='c' c='_ZNSt5deque13_M_insert_auxENSt11_Deque_baseIT_T0_E8iteratorERKS1_'/>
+<doc f='include/c++/5/bits/stl_deque.h' l='1506'>/**
+       *  @brief  Add data to the end of the %deque.
+       *  @param  __x  Data to be added.
+       *
+       *  This is a typical stack operation.  The function creates an
+       *  element at the end of the %deque and assigns the given data
+       *  to it.  Due to the nature of a %deque this operation can be
+       *  done in constant time.
+       */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='773' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>

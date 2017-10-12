@@ -1,0 +1,25 @@
+<def f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='43' ll='162'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/Network/SocketSelector.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Multiplexer that allows to read from multiple sockets
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf14SocketSelectorC1Ev'/>
+<fun r='_ZN2sf14SocketSelectorC1ERKS0_'/>
+<fun r='_ZN2sf14SocketSelectorD1Ev'/>
+<fun r='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<fun r='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<fun r='_ZN2sf14SocketSelector5clearEv'/>
+<fun r='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<fun r='_ZNK2sf14SocketSelector7isReadyERNS_6SocketE'/>
+<fun r='_ZN2sf14SocketSelectoraSERKS0_'/>
+<mbr r='sf::SocketSelector::m_impl' o='0' t='sf::SocketSelector::SocketSelectorImpl *'/>
+<fun r='_ZN2sf14SocketSelectorC1Ev'/>
+<fun r='_ZN2sf14SocketSelectorC1ERKS0_'/>
+<fun r='_ZN2sf14SocketSelectorD1Ev'/>
+<fun r='_ZN2sf14SocketSelector3addERNS_6SocketE'/>
+<fun r='_ZN2sf14SocketSelector6removeERNS_6SocketE'/>
+<fun r='_ZN2sf14SocketSelector5clearEv'/>
+<fun r='_ZN2sf14SocketSelector4waitENS_4TimeE'/>
+<fun r='_ZNK2sf14SocketSelector7isReadyERNS_6SocketE'/>
+<fun r='_ZN2sf14SocketSelectoraSERKS0_'/>

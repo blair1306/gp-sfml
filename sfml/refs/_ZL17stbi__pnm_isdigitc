@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6833' ll='6836' type='int stbi__pnm_isdigit(char c)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6842' u='c' c='_ZL20stbi__pnm_getintegerP13stbi__contextPc'/>

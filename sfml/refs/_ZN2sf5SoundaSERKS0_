@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='202' type='sf::Sound &amp; sf::Sound::operator=(const sf::Sound &amp; right)'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='157' ll='180' type='sf::Sound &amp; sf::Sound::operator=(const sf::Sound &amp; right)'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='156'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='194'>////////////////////////////////////////////////////////////
+    /// \brief Overload of assignment operator
+    ///
+    /// \param right Instance to assign
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>

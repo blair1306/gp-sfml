@@ -1,0 +1,13 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1041' ll='1042' type='const unsigned char [64]'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1138' u='r' c='_ZL20stbiw__jpg_processDUP19stbi__write_contextPiS1_PfS2_iPA2_KtS5_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1270' u='r' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1272' u='r' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1277' u='r' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1278' u='r' c='_ZL19stbi_write_jpg_coreP19stbi__write_contextiiiPKvi'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image_write.h' l='1033'>/* ***************************************************************************
+ *
+ * JPEG writer
+ *
+ * This is based on Jon Olick&apos;s jo_jpeg.cpp:
+ * public domain Simple, Minimalistic JPEG writer - http://www.jonolick.com/code.html
+ */</doc>

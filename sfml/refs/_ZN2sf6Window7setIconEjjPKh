@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='315' type='void sf::Window::setIcon(unsigned int width, unsigned int height, const Uint8 * pixels)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='298'>////////////////////////////////////////////////////////////
+    /// \brief Change the window&apos;s icon
+    ///
+    /// \a pixels must be an array of \a width x \a height pixels
+    /// in 32-bits RGBA format.
+    ///
+    /// The OS default icon is used by default.
+    ///
+    /// \param width  Icon&apos;s width, in pixels
+    /// \param height Icon&apos;s height, in pixels
+    /// \param pixels Pointer to the array of pixels in memory. The
+    ///               pixels are copied, so you need not keep the
+    ///               source alive after calling this function.
+    ///
+    /// \see setTitle
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='260' ll='264' type='void sf::Window::setIcon(unsigned int width, unsigned int height, const Uint8 * pixels)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='259'>////////////////////////////////////////////////////////////</doc>

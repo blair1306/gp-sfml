@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='309' type='sf::Thread'/>
+<offset>128</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='306'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='309'>///&lt; Thread running the background tasks</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='44' u='w' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='72' u='m' c='_ZN2sf11SoundStreamD1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='135' u='m' c='_ZN2sf11SoundStream4playEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='166' u='m' c='_ZN2sf11SoundStream4stopEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='225' u='m' c='_ZN2sf11SoundStream16setPlayingOffsetENS_4TimeE'/>

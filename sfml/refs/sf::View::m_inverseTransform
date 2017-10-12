@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/SFML/Graphics/View.hpp' l='277' type='sf::Transform'/>
+<offset>800</offset>
+<doc f='codebrowser/include/SFML/Graphics/View.hpp' l='277'>///&lt; Precomputed inverse projection transform corresponding to the view</doc>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='233' u='w' c='_ZNK2sf4View19getInverseTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/View.cpp' l='237' u='a' c='_ZNK2sf4View19getInverseTransformEv'/>

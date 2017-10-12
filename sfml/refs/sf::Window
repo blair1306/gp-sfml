@@ -1,0 +1,48 @@
+<inh f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' c='sf::GlResource'/>
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Window/Window.hpp' l='58' ll='550'/>
+<ovr f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='44' c='sf::RenderWindow'/>
+<size>48</size>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='54'>////////////////////////////////////////////////////////////
+/// \brief Window that serves as a target for OpenGL rendering
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf6WindowC1Ev'/>
+<fun r='_ZN2sf6WindowC1ENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf6WindowC1EmRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf6WindowD1Ev'/>
+<fun r='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>
+<fun r='_ZN2sf6Window5closeEv'/>
+<fun r='_ZNK2sf6Window6isOpenEv'/>
+<fun r='_ZNK2sf6Window11getSettingsEv'/>
+<fun r='_ZN2sf6Window9pollEventERNS_5EventE'/>
+<fun r='_ZN2sf6Window9waitEventERNS_5EventE'/>
+<fun r='_ZNK2sf6Window11getPositionEv'/>
+<fun r='_ZN2sf6Window11setPositionERKNS_7Vector2IiEE'/>
+<fun r='_ZNK2sf6Window7getSizeEv'/>
+<fun r='_ZN2sf6Window7setSizeERKNS_7Vector2IjEE'/>
+<fun r='_ZN2sf6Window8setTitleERKNS_6StringE'/>
+<fun r='_ZN2sf6Window7setIconEjjPKh'/>
+<fun r='_ZN2sf6Window10setVisibleEb'/>
+<fun r='_ZN2sf6Window22setVerticalSyncEnabledEb'/>
+<fun r='_ZN2sf6Window21setMouseCursorVisibleEb'/>
+<fun r='_ZN2sf6Window21setMouseCursorGrabbedEb'/>
+<fun r='_ZN2sf6Window14setMouseCursorERKNS_6CursorE'/>
+<fun r='_ZN2sf6Window19setKeyRepeatEnabledEb'/>
+<fun r='_ZN2sf6Window17setFramerateLimitEj'/>
+<fun r='_ZN2sf6Window20setJoystickThresholdEf'/>
+<fun r='_ZNK2sf6Window9setActiveEb'/>
+<fun r='_ZN2sf6Window12requestFocusEv'/>
+<fun r='_ZNK2sf6Window8hasFocusEv'/>
+<fun r='_ZN2sf6Window7displayEv'/>
+<fun r='_ZNK2sf6Window15getSystemHandleEv'/>
+<fun r='_ZN2sf6Window8onCreateEv'/>
+<fun r='_ZN2sf6Window8onResizeEv'/>
+<fun r='_ZN2sf6Window11filterEventERKNS_5EventE'/>
+<fun r='_ZN2sf6Window10initializeEv'/>
+<mbr r='sf::Window::m_impl' o='64' t='priv::WindowImpl *'/>
+<mbr r='sf::Window::m_context' o='128' t='priv::GlContext *'/>
+<mbr r='sf::Window::m_clock' o='192' t='sf::Clock'/>
+<mbr r='sf::Window::m_frameTimeLimit' o='256' t='sf::Time'/>
+<mbr r='sf::Window::m_size' o='320' t='Vector2u'/>

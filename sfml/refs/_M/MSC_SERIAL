@@ -1,0 +1,4 @@
+<dec f='include/linux/input-event-codes.h' l='759'/>
+<doc f='include/linux/input-event-codes.h' l='755'>/*
+ * Misc events
+ */</doc>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='74' type='bool sf::InputSoundFile::openFromFile(const std::string &amp; filename)'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='61' ll='97' type='bool sf::InputSoundFile::openFromFile(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='60'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file from the disk for reading
+    ///
+    /// The supported audio formats are: WAV (PCM only), OGG/Vorbis, FLAC.
+    /// The supported sample sizes for FLAC and WAV are 8, 16, 24 and 32 bit.
+    ///
+    /// \param filename Path of the sound file to load
+    ///
+    /// \return True if the file was successfully opened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='61' u='c' c='_ZN2sf5Music12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='88' u='c' c='_ZN2sf11SoundBuffer12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

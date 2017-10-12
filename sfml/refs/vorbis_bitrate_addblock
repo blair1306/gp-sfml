@@ -1,0 +1,2 @@
+<dec f='include/vorbis/codec.h' l='198' type='int vorbis_bitrate_addblock(vorbis_block * vb)'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='171' u='c' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>

@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Time.cpp source code [codebrowser/src/SFML/System/Time.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/System/Time.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>System</a>/<a href='Time.cpp.html'>Time.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="../../../include/SFML/System/Time.hpp.html">&lt;SFML/System/Time.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="32">32</th><td>{</td></tr>
+<tr><th id="33">33</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="34">34</th><td><em>const</em> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<a class="ref fake" href="#_ZN2sf4TimeC1Ev" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1Ev"></a><dfn class="decl def" id="sf::Time::Zero" title='sf::Time::Zero' data-ref="sf::Time::Zero">Zero</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="38">38</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<dfn class="decl def" id="_ZN2sf4TimeC1Ev" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1Ev">Time</dfn>() :</td></tr>
+<tr><th id="39">39</th><td><a class="member" href="../../../include/SFML/System/Time.hpp.html#sf::Time::m_microseconds" title='sf::Time::m_microseconds' data-ref="sf::Time::m_microseconds">m_microseconds</a>(<var>0</var>)</td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td>}</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="45">45</th><td><em>float</em> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<dfn class="decl def" id="_ZNK2sf4Time9asSecondsEv" title='sf::Time::asSeconds' data-ref="_ZNK2sf4Time9asSecondsEv">asSeconds</dfn>() <em>const</em></td></tr>
+<tr><th id="46">46</th><td>{</td></tr>
+<tr><th id="47">47</th><td>    <b>return</b> <a class="member" href="../../../include/SFML/System/Time.hpp.html#sf::Time::m_microseconds" title='sf::Time::m_microseconds' data-ref="sf::Time::m_microseconds">m_microseconds</a> / <var>1000000.f</var>;</td></tr>
+<tr><th id="48">48</th><td>}</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="52">52</th><td><a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int32" title='sf::Int32' data-type='int' data-ref="sf::Int32">Int32</a> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<dfn class="decl def" id="_ZNK2sf4Time14asMillisecondsEv" title='sf::Time::asMilliseconds' data-ref="_ZNK2sf4Time14asMillisecondsEv">asMilliseconds</dfn>() <em>const</em></td></tr>
+<tr><th id="53">53</th><td>{</td></tr>
+<tr><th id="54">54</th><td>    <b>return</b> <b>static_cast</b>&lt;<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int32" title='sf::Int32' data-type='int' data-ref="sf::Int32">Int32</a>&gt;(<a class="member" href="../../../include/SFML/System/Time.hpp.html#sf::Time::m_microseconds" title='sf::Time::m_microseconds' data-ref="sf::Time::m_microseconds">m_microseconds</a> / <var>1000</var>);</td></tr>
+<tr><th id="55">55</th><td>}</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="59">59</th><td><a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<dfn class="decl def" id="_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</dfn>() <em>const</em></td></tr>
+<tr><th id="60">60</th><td>{</td></tr>
+<tr><th id="61">61</th><td>    <b>return</b> <a class="member" href="../../../include/SFML/System/Time.hpp.html#sf::Time::m_microseconds" title='sf::Time::m_microseconds' data-ref="sf::Time::m_microseconds">m_microseconds</a>;</td></tr>
+<tr><th id="62">62</th><td>}</td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="66">66</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>::<dfn class="decl def" id="_ZN2sf4TimeC1Ex" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1Ex">Time</dfn>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col1 decl" id="1microseconds" title='microseconds' data-type='Int64' data-ref="1microseconds">microseconds</dfn>) :</td></tr>
+<tr><th id="67">67</th><td><a class="member" href="../../../include/SFML/System/Time.hpp.html#sf::Time::m_microseconds" title='sf::Time::m_microseconds' data-ref="sf::Time::m_microseconds">m_microseconds</a>(<a class="local col1 ref" href="#1microseconds" title='microseconds' data-ref="1microseconds">microseconds</a>)</td></tr>
+<tr><th id="68">68</th><td>{</td></tr>
+<tr><th id="69">69</th><td>}</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="73">73</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sf7secondsEf" title='sf::seconds' data-ref="_ZN2sf7secondsEf">seconds</dfn>(<em>float</em> <dfn class="local col2 decl" id="2amount" title='amount' data-type='float' data-ref="2amount">amount</dfn>)</td></tr>
+<tr><th id="74">74</th><td>{</td></tr>
+<tr><th id="75">75</th><td>    <b>return</b> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a><a class="ref" href="#_ZN2sf4TimeC1Ex" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1Ex">(</a><b>static_cast</b>&lt;<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a>&gt;(<a class="local col2 ref" href="#2amount" title='amount' data-ref="2amount">amount</a> * <var>1000000</var>));</td></tr>
+<tr><th id="76">76</th><td>}</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="80">80</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sf12millisecondsEi" title='sf::milliseconds' data-ref="_ZN2sf12millisecondsEi">milliseconds</dfn>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int32" title='sf::Int32' data-type='int' data-ref="sf::Int32">Int32</a> <dfn class="local col3 decl" id="3amount" title='amount' data-type='Int32' data-ref="3amount">amount</dfn>)</td></tr>
+<tr><th id="81">81</th><td>{</td></tr>
+<tr><th id="82">82</th><td>    <b>return</b> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a><a class="ref" href="#_ZN2sf4TimeC1Ex" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1Ex">(</a><b>static_cast</b>&lt;<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a>&gt;(<a class="local col3 ref" href="#3amount" title='amount' data-ref="3amount">amount</a>) * <var>1000</var>);</td></tr>
+<tr><th id="83">83</th><td>}</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="87">87</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</dfn>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col4 decl" id="4amount" title='amount' data-type='Int64' data-ref="4amount">amount</dfn>)</td></tr>
+<tr><th id="88">88</th><td>{</td></tr>
+<tr><th id="89">89</th><td>    <b>return</b> <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a><a class="ref" href="#_ZN2sf4TimeC1Ex" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1Ex">(</a><a class="local col4 ref" href="#4amount" title='amount' data-ref="4amount">amount</a>);</td></tr>
+<tr><th id="90">90</th><td>}</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="94">94</th><td><em>bool</em> <dfn class="decl def" id="_ZN2sfeqENS_4TimeES0_" title='sf::operator==' data-ref="_ZN2sfeqENS_4TimeES0_"><b>operator</b> ==</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col5 decl" id="5left" title='left' data-type='sf::Time' data-ref="5left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col6 decl" id="6right" title='right' data-type='sf::Time' data-ref="6right">right</dfn>)</td></tr>
+<tr><th id="95">95</th><td>{</td></tr>
+<tr><th id="96">96</th><td>    <b>return</b> <a class="local col5 ref" href="#5left" title='left' data-ref="5left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() == <a class="local col6 ref" href="#6right" title='right' data-ref="6right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>();</td></tr>
+<tr><th id="97">97</th><td>}</td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="101">101</th><td><em>bool</em> <dfn class="decl def" id="_ZN2sfneENS_4TimeES0_" title='sf::operator!=' data-ref="_ZN2sfneENS_4TimeES0_"><b>operator</b> !=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col7 decl" id="7left" title='left' data-type='sf::Time' data-ref="7left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col8 decl" id="8right" title='right' data-type='sf::Time' data-ref="8right">right</dfn>)</td></tr>
+<tr><th id="102">102</th><td>{</td></tr>
+<tr><th id="103">103</th><td>    <b>return</b> <a class="local col7 ref" href="#7left" title='left' data-ref="7left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() != <a class="local col8 ref" href="#8right" title='right' data-ref="8right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>();</td></tr>
+<tr><th id="104">104</th><td>}</td></tr>
+<tr><th id="105">105</th><td></td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="108">108</th><td><em>bool</em> <dfn class="decl def" id="_ZN2sfltENS_4TimeES0_" title='sf::operator&lt;' data-ref="_ZN2sfltENS_4TimeES0_"><b>operator</b> &lt;</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col9 decl" id="9left" title='left' data-type='sf::Time' data-ref="9left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col0 decl" id="10right" title='right' data-type='sf::Time' data-ref="10right">right</dfn>)</td></tr>
+<tr><th id="109">109</th><td>{</td></tr>
+<tr><th id="110">110</th><td>    <b>return</b> <a class="local col9 ref" href="#9left" title='left' data-ref="9left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() &lt; <a class="local col0 ref" href="#10right" title='right' data-ref="10right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>();</td></tr>
+<tr><th id="111">111</th><td>}</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="115">115</th><td><em>bool</em> <dfn class="decl def" id="_ZN2sfgtENS_4TimeES0_" title='sf::operator&gt;' data-ref="_ZN2sfgtENS_4TimeES0_"><b>operator</b> &gt;</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col1 decl" id="11left" title='left' data-type='sf::Time' data-ref="11left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col2 decl" id="12right" title='right' data-type='sf::Time' data-ref="12right">right</dfn>)</td></tr>
+<tr><th id="116">116</th><td>{</td></tr>
+<tr><th id="117">117</th><td>    <b>return</b> <a class="local col1 ref" href="#11left" title='left' data-ref="11left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() &gt; <a class="local col2 ref" href="#12right" title='right' data-ref="12right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>();</td></tr>
+<tr><th id="118">118</th><td>}</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="122">122</th><td><em>bool</em> <dfn class="decl def" id="_ZN2sfleENS_4TimeES0_" title='sf::operator&lt;=' data-ref="_ZN2sfleENS_4TimeES0_"><b>operator</b> &lt;=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col3 decl" id="13left" title='left' data-type='sf::Time' data-ref="13left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col4 decl" id="14right" title='right' data-type='sf::Time' data-ref="14right">right</dfn>)</td></tr>
+<tr><th id="123">123</th><td>{</td></tr>
+<tr><th id="124">124</th><td>    <b>return</b> <a class="local col3 ref" href="#13left" title='left' data-ref="13left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() &lt;= <a class="local col4 ref" href="#14right" title='right' data-ref="14right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>();</td></tr>
+<tr><th id="125">125</th><td>}</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="129">129</th><td><em>bool</em> <dfn class="decl def" id="_ZN2sfgeENS_4TimeES0_" title='sf::operator&gt;=' data-ref="_ZN2sfgeENS_4TimeES0_"><b>operator</b> &gt;=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col5 decl" id="15left" title='left' data-type='sf::Time' data-ref="15left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col6 decl" id="16right" title='right' data-type='sf::Time' data-ref="16right">right</dfn>)</td></tr>
+<tr><th id="130">130</th><td>{</td></tr>
+<tr><th id="131">131</th><td>    <b>return</b> <a class="local col5 ref" href="#15left" title='left' data-ref="15left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() &gt;= <a class="local col6 ref" href="#16right" title='right' data-ref="16right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>();</td></tr>
+<tr><th id="132">132</th><td>}</td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="136">136</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfngENS_4TimeE" title='sf::operator-' data-ref="_ZN2sfngENS_4TimeE"><b>operator</b> -</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col7 decl" id="17right" title='right' data-type='sf::Time' data-ref="17right">right</dfn>)</td></tr>
+<tr><th id="137">137</th><td>{</td></tr>
+<tr><th id="138">138</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</a>(-<a class="local col7 ref" href="#17right" title='right' data-ref="17right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>());</td></tr>
+<tr><th id="139">139</th><td>}</td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="143">143</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfplENS_4TimeES0_" title='sf::operator+' data-ref="_ZN2sfplENS_4TimeES0_"><b>operator</b> +</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col8 decl" id="18left" title='left' data-type='sf::Time' data-ref="18left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col9 decl" id="19right" title='right' data-type='sf::Time' data-ref="19right">right</dfn>)</td></tr>
+<tr><th id="144">144</th><td>{</td></tr>
+<tr><th id="145">145</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</a>(<a class="local col8 ref" href="#18left" title='left' data-ref="18left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() + <a class="local col9 ref" href="#19right" title='right' data-ref="19right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>());</td></tr>
+<tr><th id="146">146</th><td>}</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="150">150</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfpLERNS_4TimeES0_" title='sf::operator+=' data-ref="_ZN2sfpLERNS_4TimeES0_"><b>operator</b> +=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col0 decl" id="20left" title='left' data-type='sf::Time &amp;' data-ref="20left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col1 decl" id="21right" title='right' data-type='sf::Time' data-ref="21right">right</dfn>)</td></tr>
+<tr><th id="151">151</th><td>{</td></tr>
+<tr><th id="152">152</th><td>    <b>return</b> <a class="local col0 ref" href="#20left" title='left' data-ref="20left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col0 ref" href="#20left" title='left' data-ref="20left">left</a> <a class="ref" href="#_ZN2sfplENS_4TimeES0_" title='sf::operator+' data-ref="_ZN2sfplENS_4TimeES0_">+</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col1 ref" href="#21right" title='right' data-ref="21right">right</a>;</td></tr>
+<tr><th id="153">153</th><td>}</td></tr>
+<tr><th id="154">154</th><td></td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="157">157</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfmiENS_4TimeES0_" title='sf::operator-' data-ref="_ZN2sfmiENS_4TimeES0_"><b>operator</b> -</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col2 decl" id="22left" title='left' data-type='sf::Time' data-ref="22left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col3 decl" id="23right" title='right' data-type='sf::Time' data-ref="23right">right</dfn>)</td></tr>
+<tr><th id="158">158</th><td>{</td></tr>
+<tr><th id="159">159</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</a>(<a class="local col2 ref" href="#22left" title='left' data-ref="22left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() - <a class="local col3 ref" href="#23right" title='right' data-ref="23right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>());</td></tr>
+<tr><th id="160">160</th><td>}</td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td></td></tr>
+<tr><th id="163">163</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="164">164</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfmIERNS_4TimeES0_" title='sf::operator-=' data-ref="_ZN2sfmIERNS_4TimeES0_"><b>operator</b> -=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col4 decl" id="24left" title='left' data-type='sf::Time &amp;' data-ref="24left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col5 decl" id="25right" title='right' data-type='sf::Time' data-ref="25right">right</dfn>)</td></tr>
+<tr><th id="165">165</th><td>{</td></tr>
+<tr><th id="166">166</th><td>    <b>return</b> <a class="local col4 ref" href="#24left" title='left' data-ref="24left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col4 ref" href="#24left" title='left' data-ref="24left">left</a> <a class="ref" href="#_ZN2sfmiENS_4TimeES0_" title='sf::operator-' data-ref="_ZN2sfmiENS_4TimeES0_">-</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col5 ref" href="#25right" title='right' data-ref="25right">right</a>;</td></tr>
+<tr><th id="167">167</th><td>}</td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="171">171</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfmlENS_4TimeEf" title='sf::operator*' data-ref="_ZN2sfmlENS_4TimeEf"><b>operator</b> *</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col6 decl" id="26left" title='left' data-type='sf::Time' data-ref="26left">left</dfn>, <em>float</em> <dfn class="local col7 decl" id="27right" title='right' data-type='float' data-ref="27right">right</dfn>)</td></tr>
+<tr><th id="172">172</th><td>{</td></tr>
+<tr><th id="173">173</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf7secondsEf" title='sf::seconds' data-ref="_ZN2sf7secondsEf">seconds</a>(<a class="local col6 ref" href="#26left" title='left' data-ref="26left">left</a>.<a class="ref" href="#_ZNK2sf4Time9asSecondsEv" title='sf::Time::asSeconds' data-ref="_ZNK2sf4Time9asSecondsEv">asSeconds</a>() * <a class="local col7 ref" href="#27right" title='right' data-ref="27right">right</a>);</td></tr>
+<tr><th id="174">174</th><td>}</td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="178">178</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfmlENS_4TimeEx" title='sf::operator*' data-ref="_ZN2sfmlENS_4TimeEx"><b>operator</b> *</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col8 decl" id="28left" title='left' data-type='sf::Time' data-ref="28left">left</dfn>, <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col9 decl" id="29right" title='right' data-type='Int64' data-ref="29right">right</dfn>)</td></tr>
+<tr><th id="179">179</th><td>{</td></tr>
+<tr><th id="180">180</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</a>(<a class="local col8 ref" href="#28left" title='left' data-ref="28left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() * <a class="local col9 ref" href="#29right" title='right' data-ref="29right">right</a>);</td></tr>
+<tr><th id="181">181</th><td>}</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="185">185</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfmlEfNS_4TimeE" title='sf::operator*' data-ref="_ZN2sfmlEfNS_4TimeE"><b>operator</b> *</dfn>(<em>float</em> <dfn class="local col0 decl" id="30left" title='left' data-type='float' data-ref="30left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col1 decl" id="31right" title='right' data-type='sf::Time' data-ref="31right">right</dfn>)</td></tr>
+<tr><th id="186">186</th><td>{</td></tr>
+<tr><th id="187">187</th><td>    <b>return</b> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col1 ref" href="#31right" title='right' data-ref="31right">right</a> <a class="ref" href="#_ZN2sfmlENS_4TimeEf" title='sf::operator*' data-ref="_ZN2sfmlENS_4TimeEf">*</a> <a class="local col0 ref" href="#30left" title='left' data-ref="30left">left</a>;</td></tr>
+<tr><th id="188">188</th><td>}</td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="192">192</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfmlExNS_4TimeE" title='sf::operator*' data-ref="_ZN2sfmlExNS_4TimeE"><b>operator</b> *</dfn>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col2 decl" id="32left" title='left' data-type='Int64' data-ref="32left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col3 decl" id="33right" title='right' data-type='sf::Time' data-ref="33right">right</dfn>)</td></tr>
+<tr><th id="193">193</th><td>{</td></tr>
+<tr><th id="194">194</th><td>    <b>return</b> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col3 ref" href="#33right" title='right' data-ref="33right">right</a> <a class="ref" href="#_ZN2sfmlENS_4TimeEx" title='sf::operator*' data-ref="_ZN2sfmlENS_4TimeEx">*</a> <a class="local col2 ref" href="#32left" title='left' data-ref="32left">left</a>;</td></tr>
+<tr><th id="195">195</th><td>}</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="199">199</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfmLERNS_4TimeEf" title='sf::operator*=' data-ref="_ZN2sfmLERNS_4TimeEf"><b>operator</b> *=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col4 decl" id="34left" title='left' data-type='sf::Time &amp;' data-ref="34left">left</dfn>, <em>float</em> <dfn class="local col5 decl" id="35right" title='right' data-type='float' data-ref="35right">right</dfn>)</td></tr>
+<tr><th id="200">200</th><td>{</td></tr>
+<tr><th id="201">201</th><td>    <b>return</b> <a class="local col4 ref" href="#34left" title='left' data-ref="34left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col4 ref" href="#34left" title='left' data-ref="34left">left</a> <a class="ref" href="#_ZN2sfmlENS_4TimeEf" title='sf::operator*' data-ref="_ZN2sfmlENS_4TimeEf">*</a> <a class="local col5 ref" href="#35right" title='right' data-ref="35right">right</a>;</td></tr>
+<tr><th id="202">202</th><td>}</td></tr>
+<tr><th id="203">203</th><td></td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="206">206</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfmLERNS_4TimeEx" title='sf::operator*=' data-ref="_ZN2sfmLERNS_4TimeEx"><b>operator</b> *=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col6 decl" id="36left" title='left' data-type='sf::Time &amp;' data-ref="36left">left</dfn>, <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col7 decl" id="37right" title='right' data-type='Int64' data-ref="37right">right</dfn>)</td></tr>
+<tr><th id="207">207</th><td>{</td></tr>
+<tr><th id="208">208</th><td>    <b>return</b> <a class="local col6 ref" href="#36left" title='left' data-ref="36left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col6 ref" href="#36left" title='left' data-ref="36left">left</a> <a class="ref" href="#_ZN2sfmlENS_4TimeEx" title='sf::operator*' data-ref="_ZN2sfmlENS_4TimeEx">*</a> <a class="local col7 ref" href="#37right" title='right' data-ref="37right">right</a>;</td></tr>
+<tr><th id="209">209</th><td>}</td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td></td></tr>
+<tr><th id="212">212</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="213">213</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfdvENS_4TimeEf" title='sf::operator/' data-ref="_ZN2sfdvENS_4TimeEf"><b>operator</b> /</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col8 decl" id="38left" title='left' data-type='sf::Time' data-ref="38left">left</dfn>, <em>float</em> <dfn class="local col9 decl" id="39right" title='right' data-type='float' data-ref="39right">right</dfn>)</td></tr>
+<tr><th id="214">214</th><td>{</td></tr>
+<tr><th id="215">215</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf7secondsEf" title='sf::seconds' data-ref="_ZN2sf7secondsEf">seconds</a>(<a class="local col8 ref" href="#38left" title='left' data-ref="38left">left</a>.<a class="ref" href="#_ZNK2sf4Time9asSecondsEv" title='sf::Time::asSeconds' data-ref="_ZNK2sf4Time9asSecondsEv">asSeconds</a>() / <a class="local col9 ref" href="#39right" title='right' data-ref="39right">right</a>);</td></tr>
+<tr><th id="216">216</th><td>}</td></tr>
+<tr><th id="217">217</th><td></td></tr>
+<tr><th id="218">218</th><td></td></tr>
+<tr><th id="219">219</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="220">220</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfdvENS_4TimeEx" title='sf::operator/' data-ref="_ZN2sfdvENS_4TimeEx"><b>operator</b> /</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col0 decl" id="40left" title='left' data-type='sf::Time' data-ref="40left">left</dfn>, <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col1 decl" id="41right" title='right' data-type='Int64' data-ref="41right">right</dfn>)</td></tr>
+<tr><th id="221">221</th><td>{</td></tr>
+<tr><th id="222">222</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</a>(<a class="local col0 ref" href="#40left" title='left' data-ref="40left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() / <a class="local col1 ref" href="#41right" title='right' data-ref="41right">right</a>);</td></tr>
+<tr><th id="223">223</th><td>}</td></tr>
+<tr><th id="224">224</th><td></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="227">227</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfdVERNS_4TimeEf" title='sf::operator/=' data-ref="_ZN2sfdVERNS_4TimeEf"><b>operator</b> /=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col2 decl" id="42left" title='left' data-type='sf::Time &amp;' data-ref="42left">left</dfn>, <em>float</em> <dfn class="local col3 decl" id="43right" title='right' data-type='float' data-ref="43right">right</dfn>)</td></tr>
+<tr><th id="228">228</th><td>{</td></tr>
+<tr><th id="229">229</th><td>    <b>return</b> <a class="local col2 ref" href="#42left" title='left' data-ref="42left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col2 ref" href="#42left" title='left' data-ref="42left">left</a> <a class="ref" href="#_ZN2sfdvENS_4TimeEf" title='sf::operator/' data-ref="_ZN2sfdvENS_4TimeEf">/</a> <a class="local col3 ref" href="#43right" title='right' data-ref="43right">right</a>;</td></tr>
+<tr><th id="230">230</th><td>}</td></tr>
+<tr><th id="231">231</th><td></td></tr>
+<tr><th id="232">232</th><td></td></tr>
+<tr><th id="233">233</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="234">234</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfdVERNS_4TimeEx" title='sf::operator/=' data-ref="_ZN2sfdVERNS_4TimeEx"><b>operator</b> /=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col4 decl" id="44left" title='left' data-type='sf::Time &amp;' data-ref="44left">left</dfn>, <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int64" title='sf::Int64' data-type='long long' data-ref="sf::Int64">Int64</a> <dfn class="local col5 decl" id="45right" title='right' data-type='Int64' data-ref="45right">right</dfn>)</td></tr>
+<tr><th id="235">235</th><td>{</td></tr>
+<tr><th id="236">236</th><td>    <b>return</b> <a class="local col4 ref" href="#44left" title='left' data-ref="44left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col4 ref" href="#44left" title='left' data-ref="44left">left</a> <a class="ref" href="#_ZN2sfdvENS_4TimeEx" title='sf::operator/' data-ref="_ZN2sfdvENS_4TimeEx">/</a> <a class="local col5 ref" href="#45right" title='right' data-ref="45right">right</a>;</td></tr>
+<tr><th id="237">237</th><td>}</td></tr>
+<tr><th id="238">238</th><td></td></tr>
+<tr><th id="239">239</th><td></td></tr>
+<tr><th id="240">240</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="241">241</th><td><em>float</em> <dfn class="decl def" id="_ZN2sfdvENS_4TimeES0_" title='sf::operator/' data-ref="_ZN2sfdvENS_4TimeES0_"><b>operator</b> /</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col6 decl" id="46left" title='left' data-type='sf::Time' data-ref="46left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col7 decl" id="47right" title='right' data-type='sf::Time' data-ref="47right">right</dfn>)</td></tr>
+<tr><th id="242">242</th><td>{</td></tr>
+<tr><th id="243">243</th><td>    <b>return</b> <a class="local col6 ref" href="#46left" title='left' data-ref="46left">left</a>.<a class="ref" href="#_ZNK2sf4Time9asSecondsEv" title='sf::Time::asSeconds' data-ref="_ZNK2sf4Time9asSecondsEv">asSeconds</a>() / <a class="local col7 ref" href="#47right" title='right' data-ref="47right">right</a>.<a class="ref" href="#_ZNK2sf4Time9asSecondsEv" title='sf::Time::asSeconds' data-ref="_ZNK2sf4Time9asSecondsEv">asSeconds</a>();</td></tr>
+<tr><th id="244">244</th><td>}</td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td></td></tr>
+<tr><th id="247">247</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="248">248</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="decl def" id="_ZN2sfrmENS_4TimeES0_" title='sf::operator%' data-ref="_ZN2sfrmENS_4TimeES0_"><b>operator</b> %</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col8 decl" id="48left" title='left' data-type='sf::Time' data-ref="48left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col9 decl" id="49right" title='right' data-type='sf::Time' data-ref="49right">right</dfn>)</td></tr>
+<tr><th id="249">249</th><td>{</td></tr>
+<tr><th id="250">250</th><td>    <b>return</b> <a class="ref" href="#_ZN2sf12microsecondsEx" title='sf::microseconds' data-ref="_ZN2sf12microsecondsEx">microseconds</a>(<a class="local col8 ref" href="#48left" title='left' data-ref="48left">left</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>() % <a class="local col9 ref" href="#49right" title='right' data-ref="49right">right</a>.<a class="ref" href="#_ZNK2sf4Time14asMicrosecondsEv" title='sf::Time::asMicroseconds' data-ref="_ZNK2sf4Time14asMicrosecondsEv">asMicroseconds</a>());</td></tr>
+<tr><th id="251">251</th><td>}</td></tr>
+<tr><th id="252">252</th><td></td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="255">255</th><td><a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="decl def" id="_ZN2sfrMERNS_4TimeES0_" title='sf::operator%=' data-ref="_ZN2sfrMERNS_4TimeES0_"><b>operator</b> %=</dfn>(<a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a>&amp; <dfn class="local col0 decl" id="50left" title='left' data-type='sf::Time &amp;' data-ref="50left">left</dfn>, <a class="type" href="../../../include/SFML/System/Time.hpp.html#sf::Time" title='sf::Time' data-ref="sf::Time">Time</a> <dfn class="local col1 decl" id="51right" title='right' data-type='sf::Time' data-ref="51right">right</dfn>)</td></tr>
+<tr><th id="256">256</th><td>{</td></tr>
+<tr><th id="257">257</th><td>    <b>return</b> <a class="local col0 ref" href="#50left" title='left' data-ref="50left">left</a> <a class="ref" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::operator=' data-ref="_ZN2sf4TimeaSERKS0_">=</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col0 ref" href="#50left" title='left' data-ref="50left">left</a> <a class="ref" href="#_ZN2sfrmENS_4TimeES0_" title='sf::operator%' data-ref="_ZN2sfrmENS_4TimeES0_">%</a> <a class="ref fake" href="../../../include/SFML/System/Time.hpp.html#40" title='sf::Time::Time' data-ref="_ZN2sf4TimeC1ERKS0_"></a><a class="local col1 ref" href="#51right" title='right' data-ref="51right">right</a>;</td></tr>
+<tr><th id="258">258</th><td>}</td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="261">261</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

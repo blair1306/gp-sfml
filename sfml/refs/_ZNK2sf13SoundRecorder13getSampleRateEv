@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='97' type='unsigned int sf::SoundRecorder::getSampleRate() const'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='66' u='c' c='_ZN2sf19SoundBufferRecorder6onStopEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='87'>////////////////////////////////////////////////////////////
+    /// \brief Get the sample rate
+    ///
+    /// The sample rate defines the number of audio samples
+    /// captured per second. The higher, the better the quality
+    /// (for example, 44100 samples/sec is CD quality).
+    ///
+    /// \return Sample rate, in samples per second
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='140' ll='143' type='unsigned int sf::SoundRecorder::getSampleRate() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='139'>////////////////////////////////////////////////////////////</doc>

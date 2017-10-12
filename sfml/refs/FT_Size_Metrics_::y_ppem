@@ -1,0 +1,3 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1504' type='FT_UShort'/>
+<offset>16</offset>
+<doc f='include/freetype2/freetype/freetype.h' l='1504'>/* vertical pixels per EM                 */</doc>

@@ -1,0 +1,4 @@
+<dec f='include/X11/Xutil.h' l='471' type='XVisualInfo * XGetVisualInfo(Display * , long , XVisualInfo * , int * )'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='318' u='c' c='_ZN2sf4priv10GlxContext16selectBestVisualEP9_XDisplayjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='442' u='c' c='_ZN2sf4priv10GlxContext24updateSettingsFromWindowEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='600' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

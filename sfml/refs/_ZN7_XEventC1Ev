@@ -1,0 +1,5 @@
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='105' u='c' c='_ZN12_GLOBAL__N_113hostSelectionEPv'/>
+<use f='codebrowser/src/SFML/Window/Unix/ClipboardImpl.cpp' l='187' u='c' c='_ZN2sf4priv13ClipboardImpl9getStringEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='769' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1197' u='c' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1344' u='c' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>

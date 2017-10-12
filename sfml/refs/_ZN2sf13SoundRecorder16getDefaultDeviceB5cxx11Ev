@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='120' type='static std::string sf::SoundRecorder::getDefaultDevice()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='110'>////////////////////////////////////////////////////////////
+    /// \brief Get the name of the default audio capture device
+    ///
+    /// This function returns the name of the default audio
+    /// capture device. If none is available, an empty string
+    /// is returned.
+    ///
+    /// \return The name of the default audio capture device
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='54' u='c' c='_ZN2sf13SoundRecorderC1Ev'/>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='166' ll='169' type='static std::string sf::SoundRecorder::getDefaultDevice()'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='177' u='c' c='_ZN2sf13SoundRecorder9setDeviceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='165'>////////////////////////////////////////////////////////////</doc>

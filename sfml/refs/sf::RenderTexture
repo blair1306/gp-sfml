@@ -1,0 +1,33 @@
+<inh f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='51' c='sf::RenderTarget'/>
+<def f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='47' ll='212'/>
+<size>520</size>
+<doc f='codebrowser/include/SFML/Graphics/RenderTexture.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Target for off-screen 2D rendering into a texture
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf13RenderTextureC1Ev'/>
+<fun r='_ZN2sf13RenderTextureD1Ev'/>
+<fun r='_ZN2sf13RenderTexture6createEjjb'/>
+<fun r='_ZN2sf13RenderTexture9setSmoothEb'/>
+<fun r='_ZNK2sf13RenderTexture8isSmoothEv'/>
+<fun r='_ZN2sf13RenderTexture11setRepeatedEb'/>
+<fun r='_ZNK2sf13RenderTexture10isRepeatedEv'/>
+<fun r='_ZN2sf13RenderTexture14generateMipmapEv'/>
+<fun r='_ZN2sf13RenderTexture9setActiveEb'/>
+<fun r='_ZN2sf13RenderTexture7displayEv'/>
+<fun r='_ZNK2sf13RenderTexture7getSizeEv'/>
+<fun r='_ZNK2sf13RenderTexture10getTextureEv'/>
+<mbr r='sf::RenderTexture::m_impl' o='3776' t='priv::RenderTextureImpl *'/>
+<mbr r='sf::RenderTexture::m_texture' o='3840' t='sf::Texture'/>
+<fun r='_ZN2sf13RenderTextureC1Ev'/>
+<fun r='_ZN2sf13RenderTextureD1Ev'/>
+<fun r='_ZN2sf13RenderTexture6createEjjb'/>
+<fun r='_ZN2sf13RenderTexture9setSmoothEb'/>
+<fun r='_ZNK2sf13RenderTexture8isSmoothEv'/>
+<fun r='_ZN2sf13RenderTexture11setRepeatedEb'/>
+<fun r='_ZNK2sf13RenderTexture10isRepeatedEv'/>
+<fun r='_ZN2sf13RenderTexture14generateMipmapEv'/>
+<fun r='_ZN2sf13RenderTexture9setActiveEb'/>
+<fun r='_ZN2sf13RenderTexture7displayEv'/>
+<fun r='_ZNK2sf13RenderTexture7getSizeEv'/>
+<fun r='_ZNK2sf13RenderTexture10getTextureEv'/>

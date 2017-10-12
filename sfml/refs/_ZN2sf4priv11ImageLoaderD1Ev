@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='120' type='void sf::priv::ImageLoader::~ImageLoader()'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.hpp' l='116'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='88' ll='91' type='void sf::priv::ImageLoader::~ImageLoader()'/>
+<doc f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='87'>////////////////////////////////////////////////////////////</doc>

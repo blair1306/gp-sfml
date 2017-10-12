@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='77' type='void sf::RenderStates::RenderStates(const sf::Transform &amp; theTransform)'/>
+<doc f='codebrowser/include/SFML/Graphics/RenderStates.hpp' l='71'>////////////////////////////////////////////////////////////
+    /// \brief Construct a default set of render states with a custom transform
+    ///
+    /// \param theTransform Transform to use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='53' ll='59' type='void sf::RenderStates::RenderStates(const sf::Transform &amp; theTransform)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderStates.cpp' l='52'>////////////////////////////////////////////////////////////</doc>

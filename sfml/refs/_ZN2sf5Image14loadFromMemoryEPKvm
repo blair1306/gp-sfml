@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='122' type='bool sf::Image::loadFromMemory(const void * data, std::size_t size)'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='106'>////////////////////////////////////////////////////////////
+    /// \brief Load the image from a file in memory
+    ///
+    /// The supported image formats are bmp, png, tga, jpg, gif,
+    /// psd, hdr and pic. Some format options are not supported,
+    /// like progressive jpeg.
+    /// If this function fails, the image is left unchanged.
+    ///
+    /// \param data Pointer to the file data in memory
+    /// \param size Size of the data to load, in bytes
+    ///
+    /// \return True if loading was successful
+    ///
+    /// \see loadFromFile, loadFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='149' ll='152' type='bool sf::Image::loadFromMemory(const void * data, std::size_t size)'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='148'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='233' u='c' c='_ZN2sf7Texture14loadFromMemoryEPKvmRKNS_4RectIiEE'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='392' type='void stbi_hdr_to_ldr_scale(float scale)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1327' macro='1' type='void stbi_hdr_to_ldr_scale(float scale)'/>

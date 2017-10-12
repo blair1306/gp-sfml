@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='129' type='void sf::VertexArray::resize(std::size_t vertexCount)'/>
+<doc f='codebrowser/include/SFML/Graphics/VertexArray.hpp' l='117'>////////////////////////////////////////////////////////////
+    /// \brief Resize the vertex array
+    ///
+    /// If \a vertexCount is greater than the current size, the previous
+    /// vertices are kept and new (default-constructed) vertices are
+    /// added.
+    /// If \a vertexCount is less than the current size, existing vertices
+    /// are removed from the array.
+    ///
+    /// \param vertexCount New size of the array (number of vertices)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='181' u='c' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='182' u='c' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='186' u='c' c='_ZN2sf5Shape6updateEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='255' u='c' c='_ZN2sf5Shape13updateOutlineEv'/>
+<def f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='79' ll='82' type='void sf::VertexArray::resize(std::size_t vertexCount)'/>
+<doc f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='78'>////////////////////////////////////////////////////////////</doc>

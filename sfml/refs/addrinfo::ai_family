@@ -1,0 +1,4 @@
+<dec f='include/netdb.h' l='570' type='int'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='195' u='w' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<offset>32</offset>
+<doc f='include/netdb.h' l='570'>/* Protocol family for socket.  */</doc>

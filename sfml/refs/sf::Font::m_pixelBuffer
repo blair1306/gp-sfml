@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='356' type='std::vector&lt;Uint8&gt;'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='93' u='w' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='93' u='r' c='_ZN2sf4FontC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='464' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='464' u='a' c='_ZN2sf4FontaSERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='514' u='a' c='_ZN2sf4Font7cleanupEv'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='616' u='m' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='618' u='m' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='640' u='m' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='654' u='m' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='665' u='m' c='_ZNK2sf4Font9loadGlyphEjjbf'/>
+<offset>960</offset>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='356'>///&lt; Pixel buffer holding a glyph&apos;s pixels before being written to the texture</doc>

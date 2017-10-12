@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='55' type='void sf::Transformable::~Transformable()'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Virtual destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Graphics/Shape.cpp' l='58' c='_ZN2sf5ShapeD1Ev'/>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='49' ll='51' type='void sf::Transformable::~Transformable()'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='48'>////////////////////////////////////////////////////////////</doc>

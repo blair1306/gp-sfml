@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='102' type='bool sf::SoundBuffer::loadFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='88'>////////////////////////////////////////////////////////////
+    /// \brief Load the sound buffer from a file in memory
+    ///
+    /// See the documentation of sf::InputSoundFile for the list
+    /// of supported formats.
+    ///
+    /// \param data        Pointer to the file data in memory
+    /// \param sizeInBytes Size of the data to load, in bytes
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromFile, loadFromStream, loadFromSamples
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='96' ll='103' type='bool sf::SoundBuffer::loadFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='95'>////////////////////////////////////////////////////////////</doc>

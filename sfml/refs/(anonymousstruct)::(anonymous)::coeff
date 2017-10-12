@@ -1,0 +1,9 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1678' type='short *'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2710' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2741' u='r' c='_ZL30stbi__parse_entropy_coded_dataP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2778' u='r' c='_ZL17stbi__jpeg_finishP10stbi__jpeg'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='2941' u='w' c='_ZL26stbi__free_jpeg_componentsP10stbi__jpegii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3012' u='w' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3027' u='w' c='_ZL26stbi__process_frame_headerP10stbi__jpegi'/>
+<offset>640</offset>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1678'>// progressive only</doc>

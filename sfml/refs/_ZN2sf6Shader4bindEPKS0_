@@ -1,0 +1,25 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='661' type='static void sf::Shader::bind(const sf::Shader * shader)'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='515' u='c' c='_ZN2sf12RenderTarget11applyShaderEPKNS_6ShaderE'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='640'>////////////////////////////////////////////////////////////
+    /// \brief Bind a shader for rendering
+    ///
+    /// This function is not part of the graphics API, it mustn&apos;t be
+    /// used when drawing SFML entities. It must be used only if you
+    /// mix sf::Shader with OpenGL code.
+    ///
+    /// \code
+    /// sf::Shader s1, s2;
+    /// ...
+    /// sf::Shader::bind(&amp;s1);
+    /// // draw OpenGL stuff that use s1...
+    /// sf::Shader::bind(&amp;s2);
+    /// // draw OpenGL stuff that use s2...
+    /// sf::Shader::bind(NULL);
+    /// // draw OpenGL stuff that use no shader...
+    /// \endcode
+    ///
+    /// \param shader Shader to bind, can be null to use no shader
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='741' ll='770' type='static void sf::Shader::bind(const sf::Shader * shader)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='740'>////////////////////////////////////////////////////////////</doc>

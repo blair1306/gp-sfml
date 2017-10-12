@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='72' type='bool sf::priv::SoundFileReaderWav::open(sf::InputStream &amp; stream, sf::SoundFileReader::Info &amp; info)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Open a sound file for reading
+    ///
+    /// \param stream Stream to open
+    /// \param info   Structure to fill with the attributes of the loaded sound
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='77' c='_ZN2sf15SoundFileReader4openERNS_11InputStreamERNS0_4InfoE'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='120' ll='131' type='bool sf::priv::SoundFileReaderWav::open(sf::InputStream &amp; stream, sf::SoundFileReader::Info &amp; info)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='119'>////////////////////////////////////////////////////////////</doc>

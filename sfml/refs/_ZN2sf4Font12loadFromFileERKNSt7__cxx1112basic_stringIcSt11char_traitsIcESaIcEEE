@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='109' type='bool sf::Font::loadFromFile(const std::string &amp; filename)'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='122' ll='185' type='bool sf::Font::loadFromFile(const std::string &amp; filename)'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='121'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='89'>////////////////////////////////////////////////////////////
+    /// \brief Load the font from a file
+    ///
+    /// The supported font formats are: TrueType, Type 1, CFF,
+    /// OpenType, SFNT, X11 PCF, Windows FNT, BDF, PFR and Type 42.
+    /// Note that this function knows nothing about the standard
+    /// fonts installed on the user&apos;s system, thus you can&apos;t
+    /// load them directly.
+    ///
+    /// \warning SFML cannot preload all the font data in this
+    /// function, so the file has to remain accessible until
+    /// the sf::Font object loads a new font or is destroyed.
+    ///
+    /// \param filename Path of the font file to load
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromMemory, loadFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>

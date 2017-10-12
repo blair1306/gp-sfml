@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Audio/Listener.hpp' l='186' type='static void sf::Listener::setUpVector(const Vector3f &amp; upVector)'/>
+<doc f='codebrowser/include/SFML/Audio/Listener.hpp' l='171'>////////////////////////////////////////////////////////////
+    /// \brief Set the upward vector of the listener in the scene
+    ///
+    /// The up vector is the vector that points upward from the
+    /// listener&apos;s perspective. Together with the direction, it
+    /// defines the 3D orientation of the listener in the scene.
+    /// The up vector doesn&apos;t have to be normalized.
+    /// The default listener&apos;s up vector is (0, 1, 0). It is usually
+    /// not necessary to change it, especially in 2D scenarios.
+    ///
+    /// \param upVector New listener&apos;s up vector
+    ///
+    /// \see getUpVector, setDirection, setPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Listener.cpp' l='93' u='c' c='_ZN2sf8Listener11setUpVectorEfff'/>
+<def f='codebrowser/src/SFML/Audio/Listener.cpp' l='98' ll='101' type='static void sf::Listener::setUpVector(const Vector3f &amp; upVector)'/>
+<doc f='codebrowser/src/SFML/Audio/Listener.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

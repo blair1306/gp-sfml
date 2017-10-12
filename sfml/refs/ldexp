@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='106' type='double ldexp(double __x, int __exponent)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6454' u='c' c='_ZL17stbi__hdr_convertPfPhi'/>

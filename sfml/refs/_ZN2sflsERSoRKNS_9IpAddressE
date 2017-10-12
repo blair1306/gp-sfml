@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='294' type='std::ostream &amp; sf::operator&lt;&lt;(std::ostream &amp; stream, const sf::IpAddress &amp; address)'/>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='266' ll='269' type='std::ostream &amp; sf::operator&lt;&lt;(std::ostream &amp; stream, const sf::IpAddress &amp; address)'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='265'>////////////////////////////////////////////////////////////</doc>

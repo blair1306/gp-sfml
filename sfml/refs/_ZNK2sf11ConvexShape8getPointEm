@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='108' type='Vector2f sf::ConvexShape::getPoint(std::size_t index) const'/>
+<inh f='codebrowser/include/SFML/Graphics/Shape.hpp' l='213' c='_ZNK2sf5Shape8getPointEm'/>
+<def f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='64' ll='67' type='Vector2f sf::ConvexShape::getPoint(std::size_t index) const'/>
+<doc f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='63'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='93'>////////////////////////////////////////////////////////////
+    /// \brief Get the position of a point
+    ///
+    /// The returned point is in local coordinates, that is,
+    /// the shape&apos;s transforms (position, rotation, scale) are
+    /// not taken into account.
+    /// The result is undefined if \a index is out of the valid range.
+    ///
+    /// \param index Index of the point to get, in range [0 .. getPointCount() - 1]
+    ///
+    /// \return Position of the index-th point of the polygon
+    ///
+    /// \see setPoint
+    ///
+    ////////////////////////////////////////////////////////////</doc>

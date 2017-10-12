@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='126' type='void sf::String::String(const wchar_t * wideString)'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='120'>////////////////////////////////////////////////////////////
+    /// \brief Construct from null-terminated C-style wide string
+    ///
+    /// \param wideString Wide string to convert
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='91' ll='102' type='void sf::String::String(const wchar_t * wideString)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='90'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.hpp' l='117' type='Int16 *'/>
+<offset>192</offset>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='141' u='r' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='144' u='w' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='258' u='w' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='306' u='w' c='_ZN2sf4priv19SoundFileReaderFlac4readEPsy'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='924'/>
+<dec f='include/GL/gl.h' l='658'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='696' u='c'/>
+<doc f='include/GL/gl.h' l='657'>/* Utility */</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='218' type='bool sf::priv::GlContext::makeCurrent(bool current)'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='209'>////////////////////////////////////////////////////////////
+    /// \brief Activate the context as the current target
+    ///        for rendering
+    ///
+    /// \param current Whether to make the context current or no longer current
+    ///
+    /// \return True on success, false if any error happened
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='484' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='508' u='c' c='_ZN2sf4priv9GlContext9setActiveEb'/>
+<ovr f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='217' c='_ZN2sf4priv10GlxContext11makeCurrentEb'/>

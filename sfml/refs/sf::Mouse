@@ -1,0 +1,11 @@
+<def f='codebrowser/include/SFML/Window/Mouse.hpp' l='43' ll='128'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/Mouse.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Give access to the real-time state of the mouse
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5Mouse15isButtonPressedENS0_6ButtonE'/>
+<fun r='_ZN2sf5Mouse11getPositionEv'/>
+<fun r='_ZN2sf5Mouse11getPositionERKNS_6WindowE'/>
+<fun r='_ZN2sf5Mouse11setPositionERKNS_7Vector2IiEE'/>
+<fun r='_ZN2sf5Mouse11setPositionERKNS_7Vector2IiEERKNS_6WindowE'/>

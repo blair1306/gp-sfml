@@ -1,0 +1,3 @@
+<dec f='include/AL/al.h' l='488' type='void alListener3f(ALenum param, ALfloat value1, ALfloat value2, ALfloat value3)'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='74' u='c' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='174' u='c' c='_ZN2sf4priv11AudioDevice11setPositionERKNS_7Vector3IfEE'/>

@@ -1,0 +1,14 @@
+<def f='include/c++/5/bits/stl_iterator.h' l='491' ll='493' type='back_insert_iterator&lt;_Container&gt; std::back_inserter(_Container &amp; __x)'/>
+<use f='codebrowser/src/SFML/Audio/SoundBufferRecorder.cpp' l='56' u='c' c='_ZN2sf19SoundBufferRecorder16onProcessSamplesEPKsm'/>
+<use f='codebrowser/include/SFML/System/String.inl' l='31' u='c' c='_ZN2sf6String8fromUtf8ET_S1_'/>
+<use f='codebrowser/include/SFML/System/String.inl' l='41' u='c' c='_ZN2sf6String9fromUtf16ET_S1_'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='247' u='c' c='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='76' u='c' c='_ZN2sf6StringC1EPKcRKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='86' u='c' c='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='99' u='c' c='_ZN2sf6StringC1EPKw'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='109' u='c' c='_ZN2sf6StringC1ERKNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEE'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='157' u='c' c='_ZNK2sf6String12toAnsiStringB5cxx11ERKSt6locale'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='171' u='c' c='_ZNK2sf6String12toWideStringB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='185' u='c' c='_ZNK2sf6String6toUtf8B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/System/String.cpp' l='199' u='c' c='_ZNK2sf6String7toUtf16B5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='896' u='c' c='_ZN2sf4priv13WindowImplX118setTitleERKNS_6StringE'/>

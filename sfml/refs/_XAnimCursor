@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='173' ll='176'/>
+<size>16</size>
+<mbr r='_XAnimCursor::cursor' o='0' t='Cursor'/>
+<mbr r='_XAnimCursor::delay' o='64' t='unsigned long'/>

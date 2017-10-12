@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='51' type='void sf::Color::Color()'/>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='44'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Constructs an opaque black color. It is equivalent to
+    /// sf::Color(0, 0, 0, 255).
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Color.cpp' l='49' ll='56' type='void sf::Color::Color()'/>
+<doc f='codebrowser/src/SFML/Graphics/Color.cpp' l='48'>////////////////////////////////////////////////////////////</doc>

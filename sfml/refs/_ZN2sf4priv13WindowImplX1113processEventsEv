@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='195' type='void sf::priv::WindowImplX11::processEvents()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='191'>////////////////////////////////////////////////////////////
+    /// \brief Process incoming events from the operating system
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='254' c='_ZN2sf4priv10WindowImpl13processEventsEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='767' ll='782' type='void sf::priv::WindowImplX11::processEvents()'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1042' u='c' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1053' u='c' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='766'>////////////////////////////////////////////////////////////</doc>

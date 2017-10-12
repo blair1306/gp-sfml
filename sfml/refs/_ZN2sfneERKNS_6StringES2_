@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='552' type='bool sf::operator!=(const sf::String &amp; left, const sf::String &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='114' u='c' c='_ZN2sf4Text9setStringERKNS_6StringE'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='357' ll='360' type='bool sf::operator!=(const sf::String &amp; left, const sf::String &amp; right)'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='356'>////////////////////////////////////////////////////////////</doc>

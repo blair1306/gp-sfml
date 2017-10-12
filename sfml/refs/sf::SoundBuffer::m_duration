@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='277' type='sf::Time'/>
+<offset>256</offset>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='277'>///&lt; Sound duration</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='43' u='w' c='_ZN2sf11SoundBufferC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='54' u='w' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='54' u='r' c='_ZN2sf11SoundBufferC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='199' u='r' c='_ZNK2sf11SoundBuffer11getDurationEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='210' u='a' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='210' u='a' c='_ZN2sf11SoundBufferaSERKS0_'/>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='268' u='w' c='_ZN2sf11SoundBuffer6updateEjj'/>

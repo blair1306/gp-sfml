@@ -1,0 +1,13 @@
+<def f='codebrowser/include/SFML/System/Time.hpp' l='40' ll='110'/>
+<size>8</size>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='36'>////////////////////////////////////////////////////////////
+/// \brief Represents a time value
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4TimeC1Ev'/>
+<fun r='_ZNK2sf4Time9asSecondsEv'/>
+<fun r='_ZNK2sf4Time14asMillisecondsEv'/>
+<fun r='_ZNK2sf4Time14asMicrosecondsEv'/>
+<smbr r='sf::Time::Zero' t='const sf::Time'/>
+<fun r='_ZN2sf4TimeC1Ex'/>
+<mbr r='sf::Time::m_microseconds' o='0' t='Int64'/>

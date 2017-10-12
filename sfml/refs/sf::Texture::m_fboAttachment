@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='624' type='bool'/>
+<offset>192</offset>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='624'>///&lt; Is this texture owned by a framebuffer object?</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='307' u='r' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTexture.cpp' l='72' u='w' c='_ZN2sf13RenderTexture6createEjjb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='70' u='w' c='_ZN2sf7TextureC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='86' u='w' c='_ZN2sf7TextureC1ERKS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='151' u='w' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='818' u='a' c='_ZN2sf7Texture4swapERS0_'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='818' u='a' c='_ZN2sf7Texture4swapERS0_'/>

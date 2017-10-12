@@ -1,0 +1,6 @@
+_ZN2sf8DrawableD1Ev|sf::Drawable::~Drawable
+_ZN2sf12RenderTarget4drawERKNS_8DrawableERKNS_12RenderStatesE|sf::RenderTarget::draw
+_ZNK2sf5Shape4drawERNS_12RenderTargetENS_12RenderStatesE|sf::Shape::draw
+_ZNK2sf6Sprite4drawERNS_12RenderTargetENS_12RenderStatesE|sf::Sprite::draw
+_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE|sf::Text::draw
+_ZNK2sf11VertexArray4drawERNS_12RenderTargetENS_12RenderStatesE|sf::VertexArray::draw

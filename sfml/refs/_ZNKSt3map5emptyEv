@@ -1,0 +1,4 @@
+<def f='include/c++/5/bits/stl_map.h' l='446' ll='448' type='bool std::map::empty() const'/>
+<doc f='include/c++/5/bits/stl_map.h' l='443'>/** Returns true if the %map is empty.  (Thus begin() would equal
+       *  end().)
+      */</doc>

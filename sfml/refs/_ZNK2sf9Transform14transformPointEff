@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Graphics/Transform.hpp' l='109' type='Vector2f sf::Transform::transformPoint(float x, float y) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Transform.hpp' l='100'>////////////////////////////////////////////////////////////
+    /// \brief Transform a 2D point
+    ///
+    /// \param x X coordinate of the point to transform
+    /// \param y Y coordinate of the point to transform
+    ///
+    /// \return Transformed point
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transform.cpp' l='98' ll='102' type='Vector2f sf::Transform::transformPoint(float x, float y) const'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='108' u='c' c='_ZNK2sf9Transform14transformPointERKNS_7Vector2IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='118' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='119' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='120' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='121' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='118' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='119' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='120' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Transform.cpp' l='121' u='c' c='_ZNK2sf9Transform13transformRectERKNS_4RectIfEE'/>
+<doc f='codebrowser/src/SFML/Graphics/Transform.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

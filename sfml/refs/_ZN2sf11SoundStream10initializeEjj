@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='210' type='void sf::SoundStream::initialize(unsigned int channelCount, unsigned int sampleRate)'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='245' u='c' c='_ZN2sf5Music10initializeEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='196'>////////////////////////////////////////////////////////////
+    /// \brief Define the audio stream parameters
+    ///
+    /// This function must be called by derived classes as soon
+    /// as they know the audio settings of the stream to play.
+    /// Any attempt to manipulate the stream (play(), ...) before
+    /// calling this function will fail.
+    /// It can be called multiple times if the settings of the
+    /// audio stream change, but only when the stream is stopped.
+    ///
+    /// \param channelCount Number of channels of the stream
+    /// \param sampleRate   Sample rate, in samples per second
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='77' ll='94' type='void sf::SoundStream::initialize(unsigned int channelCount, unsigned int sampleRate)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='76'>////////////////////////////////////////////////////////////</doc>

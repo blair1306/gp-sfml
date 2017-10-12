@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>GLCheck.cpp source code [codebrowser/src/SFML/Graphics/GLCheck.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Graphics/GLCheck.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Graphics</a>/<a href='GLCheck.cpp.html'>GLCheck.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="GLCheck.hpp.html">&lt;SFML/Graphics/GLCheck.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../../../include/SFML/System/Err.hpp.html">&lt;SFML/System/Err.hpp&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../../../../include/c++/5/string.html">&lt;string&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="38">38</th><td><em>void</em> <dfn class="decl def" id="_ZN2sf4priv12glCheckErrorEPKcjS2_" title='sf::priv::glCheckError' data-ref="_ZN2sf4priv12glCheckErrorEPKcjS2_">glCheckError</dfn>(<em>const</em> <em>char</em>* <dfn class="local col1 decl" id="1file" title='file' data-type='const char *' data-ref="1file">file</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="2line" title='line' data-type='unsigned int' data-ref="2line">line</dfn>, <em>const</em> <em>char</em>* <dfn class="local col3 decl" id="3expression" title='expression' data-type='const char *' data-ref="3expression">expression</dfn>)</td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td>    <i>// Get the last error</i></td></tr>
+<tr><th id="41">41</th><td>    <a class="typedef" href="GLLoader.hpp.html#GLenum" title='GLenum' data-type='unsigned int' data-ref="GLenum">GLenum</a> <dfn class="local col4 decl" id="4errorCode" title='errorCode' data-type='GLenum' data-ref="4errorCode">errorCode</dfn> = <a class="ref" href="GLLoader.hpp.html#glGetError" title='glGetError' data-ref="glGetError">glGetError</a>();</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td>    <b>if</b> (<a class="local col4 ref" href="#4errorCode" title='errorCode' data-ref="4errorCode">errorCode</a> != <a class="macro" href="GLLoader.hpp.html#720" title="0" data-ref="_M/GL_NO_ERROR">GL_NO_ERROR</a>)</td></tr>
+<tr><th id="44">44</th><td>    {</td></tr>
+<tr><th id="45">45</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="local col5 decl" id="5fileString" title='fileString' data-type='std::string' data-ref="5fileString">fileString</dfn> = <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><a class="local col1 ref" href="#1file" title='file' data-ref="1file">file</a>;</td></tr>
+<tr><th id="46">46</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="local col6 decl" id="6error" title='error' data-type='std::string' data-ref="6error">error</dfn> = <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>"Unknown error"</q>;</td></tr>
+<tr><th id="47">47</th><td>        <span class="namespace">std::</span><a class="typedef" href="../../../../include/c++/5/bits/stringfwd.h.html#std::__cxx11::string" title='std::__cxx11::string' data-type='basic_string&lt;char&gt;' data-ref="std::__cxx11::string">string</a> <dfn class="local col7 decl" id="7description" title='description' data-type='std::string' data-ref="7description">description</dfn>  = <a class="ref fake" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_" title='std::__cxx11::basic_string::basic_string&lt;_CharT, _Traits, _Alloc&gt;' data-ref="_ZNSt7__cxx1112basic_stringC1EPKT_RKT1_"></a><q>"No description"</q>;</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>        <i>// Decode the error code</i></td></tr>
+<tr><th id="50">50</th><td>        <b>switch</b> (<a class="local col4 ref" href="#4errorCode" title='errorCode' data-ref="4errorCode">errorCode</a>)</td></tr>
+<tr><th id="51">51</th><td>        {</td></tr>
+<tr><th id="52">52</th><td>            <b>case</b> <a class="macro" href="GLLoader.hpp.html#601" title="0x0500" data-ref="_M/GL_INVALID_ENUM">GL_INVALID_ENUM</a>:</td></tr>
+<tr><th id="53">53</th><td>            {</td></tr>
+<tr><th id="54">54</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_INVALID_ENUM"</q>;</td></tr>
+<tr><th id="55">55</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"An unacceptable value has been specified for an enumerated argument."</q>;</td></tr>
+<tr><th id="56">56</th><td>                <b>break</b>;</td></tr>
+<tr><th id="57">57</th><td>            }</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>            <b>case</b> <a class="macro" href="GLLoader.hpp.html#603" title="0x0501" data-ref="_M/GL_INVALID_VALUE">GL_INVALID_VALUE</a>:</td></tr>
+<tr><th id="60">60</th><td>            {</td></tr>
+<tr><th id="61">61</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_INVALID_VALUE"</q>;</td></tr>
+<tr><th id="62">62</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"A numeric argument is out of range."</q>;</td></tr>
+<tr><th id="63">63</th><td>                <b>break</b>;</td></tr>
+<tr><th id="64">64</th><td>            }</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>            <b>case</b> <a class="macro" href="GLLoader.hpp.html#602" title="0x0502" data-ref="_M/GL_INVALID_OPERATION">GL_INVALID_OPERATION</a>:</td></tr>
+<tr><th id="67">67</th><td>            {</td></tr>
+<tr><th id="68">68</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_INVALID_OPERATION"</q>;</td></tr>
+<tr><th id="69">69</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"The specified operation is not allowed in the current state."</q>;</td></tr>
+<tr><th id="70">70</th><td>                <b>break</b>;</td></tr>
+<tr><th id="71">71</th><td>            }</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>            <b>case</b> <a class="macro" href="GLLoader.hpp.html#844" title="0x0503" data-ref="_M/GL_STACK_OVERFLOW">GL_STACK_OVERFLOW</a>:</td></tr>
+<tr><th id="74">74</th><td>            {</td></tr>
+<tr><th id="75">75</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_STACK_OVERFLOW"</q>;</td></tr>
+<tr><th id="76">76</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"This command would cause a stack overflow."</q>;</td></tr>
+<tr><th id="77">77</th><td>                <b>break</b>;</td></tr>
+<tr><th id="78">78</th><td>            }</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>            <b>case</b> <a class="macro" href="GLLoader.hpp.html#845" title="0x0504" data-ref="_M/GL_STACK_UNDERFLOW">GL_STACK_UNDERFLOW</a>:</td></tr>
+<tr><th id="81">81</th><td>            {</td></tr>
+<tr><th id="82">82</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_STACK_UNDERFLOW"</q>;</td></tr>
+<tr><th id="83">83</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"This command would cause a stack underflow."</q>;</td></tr>
+<tr><th id="84">84</th><td>                <b>break</b>;</td></tr>
+<tr><th id="85">85</th><td>            }</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td>            <b>case</b> <a class="macro" href="GLLoader.hpp.html#732" title="0x0505" data-ref="_M/GL_OUT_OF_MEMORY">GL_OUT_OF_MEMORY</a>:</td></tr>
+<tr><th id="88">88</th><td>            {</td></tr>
+<tr><th id="89">89</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_OUT_OF_MEMORY"</q>;</td></tr>
+<tr><th id="90">90</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"There is not enough memory left to execute the command."</q>;</td></tr>
+<tr><th id="91">91</th><td>                <b>break</b>;</td></tr>
+<tr><th id="92">92</th><td>            }</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td>            <b>case</b> <a class="macro" href="GLExtensions.hpp.html#247" title="0x0506" data-ref="_M/GLEXT_GL_INVALID_FRAMEBUFFER_OPERATION">GLEXT_GL_INVALID_FRAMEBUFFER_OPERATION</a>:</td></tr>
+<tr><th id="95">95</th><td>            {</td></tr>
+<tr><th id="96">96</th><td>                <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"GL_INVALID_FRAMEBUFFER_OPERATION"</q>;</td></tr>
+<tr><th id="97">97</th><td>                <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNSt7__cxx1112basic_stringaSEPKT_" title='std::__cxx11::basic_string::operator=' data-ref="_ZNSt7__cxx1112basic_stringaSEPKT_">=</a> <q>"The object bound to FRAMEBUFFER_BINDING is not \"framebuffer complete\"."</q>;</td></tr>
+<tr><th id="98">98</th><td>                <b>break</b>;</td></tr>
+<tr><th id="99">99</th><td>            }</td></tr>
+<tr><th id="100">100</th><td>        }</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>        <i>// Log the error</i></td></tr>
+<tr><th id="103">103</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"An internal OpenGL call failed in "</q></td></tr>
+<tr><th id="104">104</th><td>              <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE">&lt;&lt;</a> <a class="local col5 ref" href="#5fileString" title='fileString' data-ref="5fileString">fileString</a>.<a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string6substrEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_" title='std::__cxx11::basic_string::substr' data-ref="_ZNKSt7__cxx1112basic_string6substrEN9__gnu_cxx14__alloc_traitsINS2_IT1_E6rebindIT_E5otherEE9size_typeESA_">substr</a>(<a class="local col5 ref" href="#5fileString" title='fileString' data-ref="5fileString">fileString</a>.<a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZNKSt7__cxx1112basic_string12find_last_ofEPKT_N9__gnu_cxx14__alloc_traitsINS5_IT1_E6rebindIS1_E5otherEE9size_typeE" title='std::__cxx11::basic_string::find_last_of' data-ref="_ZNKSt7__cxx1112basic_string12find_last_ofEPKT_N9__gnu_cxx14__alloc_traitsINS5_IT1_E6rebindIS1_E5otherEE9size_typeE">find_last_of</a>(<q>"\\/"</q>) + <var>1</var>) <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"("</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEj" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEj">&lt;&lt;</a> <a class="local col2 ref" href="#2line" title='line' data-ref="2line">line</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>")."</q></td></tr>
+<tr><th id="105">105</th><td>              <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"\nExpression:\n   "</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <a class="local col3 ref" href="#3expression" title='expression' data-ref="3expression">expression</a></td></tr>
+<tr><th id="106">106</th><td>              <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"\nError description:\n   "</q> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE">&lt;&lt;</a> <a class="local col6 ref" href="#6error" title='error' data-ref="6error">error</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"\n   "</q> <a class="ref" href="../../../../include/c++/5/bits/basic_string.h.html#_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIT_T0_ERKNSt7__cxx1112basic_stringIS0_S1_T1_EE">&lt;&lt;</a> <a class="local col7 ref" href="#7description" title='description' data-ref="7description">description</a> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"\n"</q></td></tr>
+<tr><th id="107">107</th><td>              <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="108">108</th><td>    }</td></tr>
+<tr><th id="109">109</th><td>}</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>} <i>// namespace priv</i></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="115">115</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

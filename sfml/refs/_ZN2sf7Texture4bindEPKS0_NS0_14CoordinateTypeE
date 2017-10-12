@@ -1,0 +1,36 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='571' type='static void sf::Texture::bind(const sf::Texture * texture, sf::Texture::CoordinateType coordinateType = Normalized)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='540'>////////////////////////////////////////////////////////////
+    /// \brief Bind a texture for rendering
+    ///
+    /// This function is not part of the graphics API, it mustn&apos;t be
+    /// used when drawing SFML entities. It must be used only if you
+    /// mix sf::Texture with OpenGL code.
+    ///
+    /// \code
+    /// sf::Texture t1, t2;
+    /// ...
+    /// sf::Texture::bind(&amp;t1);
+    /// // draw OpenGL stuff that use t1...
+    /// sf::Texture::bind(&amp;t2);
+    /// // draw OpenGL stuff that use t2...
+    /// sf::Texture::bind(NULL);
+    /// // draw OpenGL stuff that use no texture...
+    /// \endcode
+    ///
+    /// The \a coordinateType argument controls how texture
+    /// coordinates will be interpreted. If Normalized (the default), they
+    /// must be in range [0 .. 1], which is the default way of handling
+    /// texture coordinates with OpenGL. If Pixels, they must be given
+    /// in pixels (range [0 .. size]). This mode is used internally by
+    /// the graphics classes of SFML, it makes the definition of texture
+    /// coordinates more intuitive for the high-level API, users don&apos;t need
+    /// to compute normalized values.
+    ///
+    /// \param texture Pointer to the texture to bind, can be null to use no texture
+    /// \param coordinateType Type of texture coordinates to use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='506' u='c' c='_ZN2sf12RenderTarget12applyTextureEPKNS_7TextureE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='980' u='c' c='_ZNK2sf6Shader12bindTexturesEv'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='721' ll='773' type='static void sf::Texture::bind(const sf::Texture * texture, sf::Texture::CoordinateType coordinateType = Normalized)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='720'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,5 @@
+<dec f='include/X11/extensions/Xrender.h' l='41' type='short'/>
+<offset>80</offset>
+<dec f='include/X11/Xproto.h' l='340' type='CARD32'/>
+<dec f='include/X11/Xproto.h' l='785' type='CARD32'/>
+<offset>160</offset>

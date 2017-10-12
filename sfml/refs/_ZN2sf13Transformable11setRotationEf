@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='98' type='void sf::Transformable::setRotation(float angle)'/>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief set the orientation of the object
+    ///
+    /// This function completely overwrites the previous rotation.
+    /// See the rotate function to add an angle based on the previous rotation instead.
+    /// The default rotation of a transformable object is 0.
+    ///
+    /// \param angle New rotation, in degrees
+    ///
+    /// \see rotate, getRotation
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='72' ll='80' type='void sf::Transformable::setRotation(float angle)'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='162' u='c' c='_ZN2sf13Transformable6rotateEf'/>
+<doc f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='71'>////////////////////////////////////////////////////////////</doc>

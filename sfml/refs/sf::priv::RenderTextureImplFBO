@@ -1,0 +1,18 @@
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='42' c='sf::priv::RenderTextureImpl'/>
+<inh f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' c='sf::GlResource'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='45' ll='108'/>
+<size>24</size>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Specialization of RenderTextureImpl using the
+///        FrameBuffer Object OpenGL extension
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv20RenderTextureImplFBOC1Ev'/>
+<fun r='_ZN2sf4priv20RenderTextureImplFBOD1Ev'/>
+<fun r='_ZN2sf4priv20RenderTextureImplFBO11isAvailableEv'/>
+<fun r='_ZN2sf4priv20RenderTextureImplFBO6createEjjjb'/>
+<fun r='_ZN2sf4priv20RenderTextureImplFBO8activateEb'/>
+<fun r='_ZN2sf4priv20RenderTextureImplFBO13updateTextureEj'/>
+<mbr r='sf::priv::RenderTextureImplFBO::m_context' o='64' t='sf::Context *'/>
+<mbr r='sf::priv::RenderTextureImplFBO::m_frameBuffer' o='128' t='unsigned int'/>
+<mbr r='sf::priv::RenderTextureImplFBO::m_depthBuffer' o='160' t='unsigned int'/>

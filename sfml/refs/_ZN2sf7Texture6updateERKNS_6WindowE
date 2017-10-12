@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='371' type='void sf::Texture::update(const sf::Window &amp; window)'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='353'>////////////////////////////////////////////////////////////
+    /// \brief Update the texture from the contents of a window
+    ///
+    /// Although the source window can be smaller than the texture,
+    /// this function is usually used for updating the whole texture.
+    /// The other overload, which has (x, y) additional arguments,
+    /// is more convenient for updating a sub-area of the texture.
+    ///
+    /// No additional check is performed on the size of the window,
+    /// passing a window bigger than the texture will lead to an
+    /// undefined behavior.
+    ///
+    /// This function does nothing if either the texture or the window
+    /// was not previously created.
+    ///
+    /// \param window Window to copy to the texture
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='85' u='c' c='_ZNK2sf12RenderWindow7captureEv'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='545' ll='548' type='void sf::Texture::update(const sf::Window &amp; window)'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='544'>////////////////////////////////////////////////////////////</doc>

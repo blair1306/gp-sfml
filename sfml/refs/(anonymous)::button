@@ -1,0 +1,8 @@
+<dec f='include/X11/Xlib.h' l='587' type='unsigned int'/>
+<offset>672</offset>
+<doc f='include/X11/Xlib.h' l='587'>/* detail */</doc>
+<dec f='include/X11/Xproto.h' l='1479' type='CARD8'/>
+<dec f='include/X11/Xproto.h' l='1486' type='CARD8'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1810' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1840' u='r' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<offset>8</offset>

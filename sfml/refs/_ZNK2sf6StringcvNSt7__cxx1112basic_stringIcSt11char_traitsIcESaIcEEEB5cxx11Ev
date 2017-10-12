@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='221' type='std::string sf::String::operator basic_string() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='206'>////////////////////////////////////////////////////////////
+    /// \brief Implicit conversion operator to std::string (ANSI string)
+    ///
+    /// The current global locale is used for conversion. If you
+    /// want to explicitly specify a locale, see toAnsiString.
+    /// Characters that do not fit in the target encoding are
+    /// discarded from the returned string.
+    /// This operator is defined for convenience, and is equivalent
+    /// to calling toAnsiString().
+    ///
+    /// \return Converted ANSI string
+    ///
+    /// \see toAnsiString, operator std::wstring
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='136' ll='139' type='std::string sf::String::operator basic_string() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='135'>////////////////////////////////////////////////////////////</doc>

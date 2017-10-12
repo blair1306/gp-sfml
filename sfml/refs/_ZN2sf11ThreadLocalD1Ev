@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='63' type='void sf::ThreadLocal::~ThreadLocal()'/>
+<def f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='48' ll='51' type='void sf::ThreadLocal::~ThreadLocal()'/>
+<doc f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='47'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>

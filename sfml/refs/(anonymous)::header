@@ -1,0 +1,12 @@
+<dec f='include/FLAC/format.h' l='474' type='FLAC__FrameHeader'/>
+<dec f='include/ogg/ogg.h' l='44' type='unsigned char *'/>
+<dec f='include/ogg/ogg.h' l='69' type='unsigned char [282]'/>
+<offset>640</offset>
+<doc f='include/ogg/ogg.h' l='69'>/* working space for header encode */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='111' u='m' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='111' u='m' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='116' u='m' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='118' u='m' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='122' u='m' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='122' u='r' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='184' u='r' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>

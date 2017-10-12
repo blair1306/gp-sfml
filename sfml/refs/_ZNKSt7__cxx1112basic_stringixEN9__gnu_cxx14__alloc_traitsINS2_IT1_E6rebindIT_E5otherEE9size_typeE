@@ -1,0 +1,12 @@
+<def f='include/c++/5/bits/basic_string.h' l='830' ll='835' type='const_reference std::__cxx11::basic_string::operator[](size_type __pos) const'/>
+<doc f='include/c++/5/bits/basic_string.h' l='820'>/**
+       *  @brief  Subscript access to the data contained in the %string.
+       *  @param  __pos  The index of the character to access.
+       *  @return  Read-only (constant) reference to the character.
+       *
+       *  This operator allows for easy, array-style, data access.
+       *  Note that data access with this operator is unchecked and
+       *  out_of_range lookups are not defined. (For checked lookups
+       *  see at().)
+       */</doc>
+<use f='codebrowser/src/SFML/System/String.cpp' l='231' u='c' c='_ZNK2sf6StringixEm'/>

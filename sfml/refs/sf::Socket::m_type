@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='176' type='sf::Socket::Type'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='173'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='176'>///&lt; Type of the socket (TCP or UDP)</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='37' u='w' c='_ZN2sf6SocketC1ENS0_4TypeE'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='84' u='r' c='_ZN2sf6Socket6createEv'/>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='109' u='r' c='_ZN2sf6Socket6createEi'/>

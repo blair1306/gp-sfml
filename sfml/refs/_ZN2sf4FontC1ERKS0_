@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='79' type='void sf::Font::Font(const sf::Font &amp; copy)'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='85' ll='104' type='void sf::Font::Font(const sf::Font &amp; copy)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='455' u='c' c='_ZN2sf4FontaSERKS0_'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='84'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='73'>////////////////////////////////////////////////////////////
+    /// \brief Copy constructor
+    ///
+    /// \param copy Instance to copy
+    ///
+    ////////////////////////////////////////////////////////////</doc>

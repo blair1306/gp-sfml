@@ -1,0 +1,4 @@
+_ZNSt20raw_storage_iteratordeEv|std::raw_storage_iterator::operator*
+_ZNSt20raw_storage_iteratorppEv|std::raw_storage_iterator::operator++
+_ZNSt20raw_storage_iteratoraSERKT0_|std::raw_storage_iterator::operator=
+_ZSt14random_shuffleT_S_|std::random_shuffle

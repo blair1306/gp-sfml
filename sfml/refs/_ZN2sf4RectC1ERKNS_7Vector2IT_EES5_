@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='79' type='void sf::Rect::Rect&lt;T&gt;(const Vector2&lt;T&gt; &amp; position, const Vector2&lt;T&gt; &amp; size)'/>
+<def f='codebrowser/include/SFML/Graphics/Rect.inl' l='51' ll='59' type='void sf::Rect::Rect&lt;T&gt;(const Vector2&lt;T&gt; &amp; position, const Vector2&lt;T&gt; &amp; size)'/>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='69'>////////////////////////////////////////////////////////////
+    /// \brief Construct the rectangle from position and size
+    ///
+    /// Be careful, the last parameter is the size,
+    /// not the bottom-right corner!
+    ///
+    /// \param position Position of the top-left corner of the rectangle
+    /// \param size     Size of the rectangle
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Rect.inl' l='50'>////////////////////////////////////////////////////////////</doc>

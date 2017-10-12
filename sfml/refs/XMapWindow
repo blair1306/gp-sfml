@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='2806' type='int XMapWindow(Display * , Window )'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1035' u='c' c='_ZN2sf4priv13WindowImplX1110setVisibleEb'/>

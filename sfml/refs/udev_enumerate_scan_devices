@@ -1,0 +1,3 @@
+<dec f='include/libudev.h' l='157' type='int udev_enumerate_scan_devices(struct udev_enumerate * udev_enumerate)'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='201' u='c' c='_ZN12_GLOBAL__N_117updatePluggedListEP11udev_device'/>
+<doc f='include/libudev.h' l='156'>/* run enumeration with active filters */</doc>

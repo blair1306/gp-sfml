@@ -1,0 +1,16 @@
+<inh f='codebrowser/include/SFML/System/InputStream.hpp' l='41' c='sf::InputStream'/>
+<def f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='43' ll='110'/>
+<size>32</size>
+<doc f='codebrowser/include/SFML/System/MemoryInputStream.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Implementation of input stream based on a memory chunk
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf17MemoryInputStreamC1Ev'/>
+<fun r='_ZN2sf17MemoryInputStream4openEPKvm'/>
+<fun r='_ZN2sf17MemoryInputStream4readEPvx'/>
+<fun r='_ZN2sf17MemoryInputStream4seekEx'/>
+<fun r='_ZN2sf17MemoryInputStream4tellEv'/>
+<fun r='_ZN2sf17MemoryInputStream7getSizeEv'/>
+<mbr r='sf::MemoryInputStream::m_data' o='64' t='const char *'/>
+<mbr r='sf::MemoryInputStream::m_size' o='128' t='Int64'/>
+<mbr r='sf::MemoryInputStream::m_offset' o='192' t='Int64'/>

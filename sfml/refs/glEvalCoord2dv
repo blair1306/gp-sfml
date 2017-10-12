@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1336' type='void glEvalCoord2dv(const GLdouble * )'/>
+<dec f='include/GL/gl.h' l='1394' type='void glEvalCoord2dv(const GLdouble * u)'/>

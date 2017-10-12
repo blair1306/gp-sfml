@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='264' type='sf::Font &amp; sf::Font::operator=(const sf::Font &amp; right)'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='453' ll='471' type='sf::Font &amp; sf::Font::operator=(const sf::Font &amp; right)'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='452'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='256'>////////////////////////////////////////////////////////////
+    /// \brief Overload of assignment operator
+    ///
+    /// \param right Instance to assign
+    ///
+    /// \return Reference to self
+    ///
+    ////////////////////////////////////////////////////////////</doc>

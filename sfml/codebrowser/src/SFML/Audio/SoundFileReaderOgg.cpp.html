@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SoundFileReaderOgg.cpp source code [codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Audio</a>/<a href='SoundFileReaderOgg.cpp.html'>SoundFileReaderOgg.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="SoundFileReaderOgg.hpp.html">&lt;SFML/Audio/SoundFileReaderOgg.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../../../include/SFML/System/MemoryInputStream.hpp.html">&lt;SFML/System/MemoryInputStream.hpp&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../../../include/SFML/System/Err.hpp.html">&lt;SFML/System/Err.hpp&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../../../include/c++/5/algorithm.html">&lt;algorithm&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../../../../include/c++/5/cctype.html">&lt;cctype&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../../../include/c++/5/cassert.html">&lt;cassert&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>namespace</b></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="tu decl def" id="_ZN12_GLOBAL__N_14readEPvmmS0_" title='(anonymous namespace)::read' data-type='size_t (anonymous namespace)::read(void * ptr, size_t size, size_t nmemb, void * data)' data-ref="_ZN12_GLOBAL__N_14readEPvmmS0_">read</dfn>(<em>void</em>* <dfn class="local col1 decl" id="1ptr" title='ptr' data-type='void *' data-ref="1ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="2size" title='size' data-type='size_t' data-ref="2size">size</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="3nmemb" title='nmemb' data-type='size_t' data-ref="3nmemb">nmemb</dfn>, <em>void</em>* <dfn class="local col4 decl" id="4data" title='data' data-type='void *' data-ref="4data">data</dfn>)</td></tr>
+<tr><th id="39">39</th><td>    {</td></tr>
+<tr><th id="40">40</th><td>        <span class="namespace">sf::</span><a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>* <dfn class="local col5 decl" id="5stream" title='stream' data-type='sf::InputStream *' data-ref="5stream">stream</dfn> = <b>static_cast</b>&lt;<span class="namespace">sf::</span><a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>*&gt;(<a class="local col4 ref" href="#4data" title='data' data-ref="4data">data</a>);</td></tr>
+<tr><th id="41">41</th><td>        <b>return</b> <b>static_cast</b>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>&gt;(<a class="local col5 ref" href="#5stream" title='stream' data-ref="5stream">stream</a>-&gt;<a class="virtual ref" href="../../../include/SFML/System/InputStream.hpp.html#_ZN2sf11InputStream4readEPvx" title='sf::InputStream::read' data-ref="_ZN2sf11InputStream4readEPvx">read</a>(<a class="local col1 ref" href="#1ptr" title='ptr' data-ref="1ptr">ptr</a>, <a class="local col2 ref" href="#2size" title='size' data-ref="2size">size</a> * <a class="local col3 ref" href="#3nmemb" title='nmemb' data-ref="3nmemb">nmemb</a>));</td></tr>
+<tr><th id="42">42</th><td>    }</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td>    <em>int</em> <dfn class="tu decl def" id="_ZN12_GLOBAL__N_14seekEPvli" title='(anonymous namespace)::seek' data-type='int (anonymous namespace)::seek(void * data, ogg_int64_t offset, int whence)' data-ref="_ZN12_GLOBAL__N_14seekEPvli">seek</dfn>(<em>void</em>* <dfn class="local col6 decl" id="6data" title='data' data-type='void *' data-ref="6data">data</dfn>, <a class="typedef" href="../../../../include/ogg/config_types.h.html#ogg_int64_t" title='ogg_int64_t' data-type='int64_t' data-ref="ogg_int64_t">ogg_int64_t</a> <dfn class="local col7 decl" id="7offset" title='offset' data-type='ogg_int64_t' data-ref="7offset">offset</dfn>, <em>int</em> <dfn class="local col8 decl" id="8whence" title='whence' data-type='int' data-ref="8whence">whence</dfn>)</td></tr>
+<tr><th id="45">45</th><td>    {</td></tr>
+<tr><th id="46">46</th><td>        <span class="namespace">sf::</span><a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>* <dfn class="local col9 decl" id="9stream" title='stream' data-type='sf::InputStream *' data-ref="9stream">stream</dfn> = <b>static_cast</b>&lt;<span class="namespace">sf::</span><a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>*&gt;(<a class="local col6 ref" href="#6data" title='data' data-ref="6data">data</a>);</td></tr>
+<tr><th id="47">47</th><td>        <b>switch</b> (<a class="local col8 ref" href="#8whence" title='whence' data-ref="8whence">whence</a>)</td></tr>
+<tr><th id="48">48</th><td>        {</td></tr>
+<tr><th id="49">49</th><td>            <b>case</b> <a class="macro" href="../../../../include/stdio.h.html#140" title="0" data-ref="_M/SEEK_SET">SEEK_SET</a>:</td></tr>
+<tr><th id="50">50</th><td>                <b>break</b>;</td></tr>
+<tr><th id="51">51</th><td>            <b>case</b> <a class="macro" href="../../../../include/stdio.h.html#141" title="1" data-ref="_M/SEEK_CUR">SEEK_CUR</a>:</td></tr>
+<tr><th id="52">52</th><td>                <a class="local col7 ref" href="#7offset" title='offset' data-ref="7offset">offset</a> += <a class="local col9 ref" href="#9stream" title='stream' data-ref="9stream">stream</a>-&gt;<a class="virtual ref" href="../../../include/SFML/System/InputStream.hpp.html#_ZN2sf11InputStream4tellEv" title='sf::InputStream::tell' data-ref="_ZN2sf11InputStream4tellEv">tell</a>();</td></tr>
+<tr><th id="53">53</th><td>                <b>break</b>;</td></tr>
+<tr><th id="54">54</th><td>            <b>case</b> <a class="macro" href="../../../../include/stdio.h.html#142" title="2" data-ref="_M/SEEK_END">SEEK_END</a>:</td></tr>
+<tr><th id="55">55</th><td>                <a class="local col7 ref" href="#7offset" title='offset' data-ref="7offset">offset</a> = <a class="local col9 ref" href="#9stream" title='stream' data-ref="9stream">stream</a>-&gt;<a class="virtual ref" href="../../../include/SFML/System/InputStream.hpp.html#_ZN2sf11InputStream7getSizeEv" title='sf::InputStream::getSize' data-ref="_ZN2sf11InputStream7getSizeEv">getSize</a>() - <a class="local col7 ref" href="#7offset" title='offset' data-ref="7offset">offset</a>;</td></tr>
+<tr><th id="56">56</th><td>        }</td></tr>
+<tr><th id="57">57</th><td>        <b>return</b> <b>static_cast</b>&lt;<em>int</em>&gt;(<a class="local col9 ref" href="#9stream" title='stream' data-ref="9stream">stream</a>-&gt;<a class="virtual ref" href="../../../include/SFML/System/InputStream.hpp.html#_ZN2sf11InputStream4seekEx" title='sf::InputStream::seek' data-ref="_ZN2sf11InputStream4seekEx">seek</a>(<a class="local col7 ref" href="#7offset" title='offset' data-ref="7offset">offset</a>));</td></tr>
+<tr><th id="58">58</th><td>    }</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td>    <em>long</em> <dfn class="tu decl def" id="_ZN12_GLOBAL__N_14tellEPv" title='(anonymous namespace)::tell' data-type='long (anonymous namespace)::tell(void * data)' data-ref="_ZN12_GLOBAL__N_14tellEPv">tell</dfn>(<em>void</em>* <dfn class="local col0 decl" id="10data" title='data' data-type='void *' data-ref="10data">data</dfn>)</td></tr>
+<tr><th id="61">61</th><td>    {</td></tr>
+<tr><th id="62">62</th><td>        <span class="namespace">sf::</span><a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>* <dfn class="local col1 decl" id="11stream" title='stream' data-type='sf::InputStream *' data-ref="11stream">stream</dfn> = <b>static_cast</b>&lt;<span class="namespace">sf::</span><a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>*&gt;(<a class="local col0 ref" href="#10data" title='data' data-ref="10data">data</a>);</td></tr>
+<tr><th id="63">63</th><td>        <b>return</b> <b>static_cast</b>&lt;<em>long</em>&gt;(<a class="local col1 ref" href="#11stream" title='stream' data-ref="11stream">stream</a>-&gt;<a class="virtual ref" href="../../../include/SFML/System/InputStream.hpp.html#_ZN2sf11InputStream4tellEv" title='sf::InputStream::tell' data-ref="_ZN2sf11InputStream4tellEv">tell</a>());</td></tr>
+<tr><th id="64">64</th><td>    }</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>    <em>static</em> <a class="typedef" href="../../../../include/vorbis/vorbisfile.h.html#ov_callbacks" title='ov_callbacks' data-type='struct ov_callbacks' data-ref="ov_callbacks">ov_callbacks</a> <dfn class="tu decl def" id="(anonymousnamespace)::callbacks" title='(anonymous namespace)::callbacks' data-type='ov_callbacks' data-ref="(anonymousnamespace)::callbacks">callbacks</dfn> = {&amp;<a class="tu ref" href="#_ZN12_GLOBAL__N_14readEPvmmS0_" title='(anonymous namespace)::read' data-use='a' data-ref="_ZN12_GLOBAL__N_14readEPvmmS0_">read</a>, &amp;<a class="tu ref" href="#_ZN12_GLOBAL__N_14seekEPvli" title='(anonymous namespace)::seek' data-use='a' data-ref="_ZN12_GLOBAL__N_14seekEPvli">seek</a>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, &amp;<a class="tu ref" href="#_ZN12_GLOBAL__N_14tellEPv" title='(anonymous namespace)::tell' data-use='a' data-ref="_ZN12_GLOBAL__N_14tellEPv">tell</a>};</td></tr>
+<tr><th id="67">67</th><td>}</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="70">70</th><td>{</td></tr>
+<tr><th id="71">71</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="72">72</th><td>{</td></tr>
+<tr><th id="73">73</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="74">74</th><td><em>bool</em> <a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="decl def" id="_ZN2sf4priv18SoundFileReaderOgg5checkERNS_11InputStreamE" title='sf::priv::SoundFileReaderOgg::check' data-ref="_ZN2sf4priv18SoundFileReaderOgg5checkERNS_11InputStreamE">check</dfn>(<a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col2 decl" id="12stream" title='stream' data-type='sf::InputStream &amp;' data-ref="12stream">stream</dfn>)</td></tr>
+<tr><th id="75">75</th><td>{</td></tr>
+<tr><th id="76">76</th><td>    <a class="typedef" href="../../../../include/vorbis/vorbisfile.h.html#OggVorbis_File" title='OggVorbis_File' data-type='struct OggVorbis_File' data-ref="OggVorbis_File">OggVorbis_File</a> <a class="ref fake" href="../../../../include/vorbis/vorbisfile.h.html#111" title='OggVorbis_File::OggVorbis_File' data-ref="_ZN14OggVorbis_FileC1Ev"></a><dfn class="local col3 decl" id="13file" title='file' data-type='OggVorbis_File' data-ref="13file">file</dfn>;</td></tr>
+<tr><th id="77">77</th><td>    <b>if</b> (<a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_test_callbacks" title='ov_test_callbacks' data-ref="ov_test_callbacks">ov_test_callbacks</a>(&amp;<a class="local col2 ref" href="#12stream" title='stream' data-ref="12stream">stream</a>, &amp;<a class="local col3 ref" href="#13file" title='file' data-ref="13file">file</a>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <var>0</var>, <a class="ref fake" href="../../../../include/vorbis/vorbisfile.h.html#39" title='(anonymous struct)::' data-ref="_ZN12ov_callbacksC1ERKS_"></a><a class="tu ref" href="#(anonymousnamespace)::callbacks" title='(anonymous namespace)::callbacks' data-use='r' data-ref="(anonymousnamespace)::callbacks">callbacks</a>) == <var>0</var>)</td></tr>
+<tr><th id="78">78</th><td>    {</td></tr>
+<tr><th id="79">79</th><td>        <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_clear" title='ov_clear' data-ref="ov_clear">ov_clear</a>(&amp;<a class="local col3 ref" href="#13file" title='file' data-ref="13file">file</a>);</td></tr>
+<tr><th id="80">80</th><td>        <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="81">81</th><td>    }</td></tr>
+<tr><th id="82">82</th><td>    <b>else</b></td></tr>
+<tr><th id="83">83</th><td>    {</td></tr>
+<tr><th id="84">84</th><td>        <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="85">85</th><td>    }</td></tr>
+<tr><th id="86">86</th><td>}</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="90">90</th><td><a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="decl def" id="_ZN2sf4priv18SoundFileReaderOggC1Ev" title='sf::priv::SoundFileReaderOgg::SoundFileReaderOgg' data-ref="_ZN2sf4priv18SoundFileReaderOggC1Ev">SoundFileReaderOgg</dfn>() :</td></tr>
+<tr><th id="91">91</th><td><a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>      <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#111" title='OggVorbis_File::OggVorbis_File' data-ref="_ZN14OggVorbis_FileC1Ev">(</a>),</td></tr>
+<tr><th id="92">92</th><td><a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_channelCount" title='sf::priv::SoundFileReaderOgg::m_channelCount' data-ref="sf::priv::SoundFileReaderOgg::m_channelCount">m_channelCount</a>(<var>0</var>)</td></tr>
+<tr><th id="93">93</th><td>{</td></tr>
+<tr><th id="94">94</th><td>    <a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>.<a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#OggVorbis_File::datasource" title='OggVorbis_File::datasource' data-ref="OggVorbis_File::datasource">datasource</a> = <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="95">95</th><td>}</td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="99">99</th><td><a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="virtual decl def" id="_ZN2sf4priv18SoundFileReaderOggD1Ev" title='sf::priv::SoundFileReaderOgg::~SoundFileReaderOgg' data-ref="_ZN2sf4priv18SoundFileReaderOggD1Ev">~SoundFileReaderOgg</dfn>()</td></tr>
+<tr><th id="100">100</th><td>{</td></tr>
+<tr><th id="101">101</th><td>    <a class="member" href="#_ZN2sf4priv18SoundFileReaderOgg5closeEv" title='sf::priv::SoundFileReaderOgg::close' data-ref="_ZN2sf4priv18SoundFileReaderOgg5closeEv">close</a>();</td></tr>
+<tr><th id="102">102</th><td>}</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="106">106</th><td><em>bool</em> <a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="virtual decl def" id="_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE" title='sf::priv::SoundFileReaderOgg::open' data-ref="_ZN2sf4priv18SoundFileReaderOgg4openERNS_11InputStreamERNS_15SoundFileReader4InfoE">open</dfn>(<a class="type" href="../../../include/SFML/System/InputStream.hpp.html#sf::InputStream" title='sf::InputStream' data-ref="sf::InputStream">InputStream</a>&amp; <dfn class="local col4 decl" id="14stream" title='stream' data-type='sf::InputStream &amp;' data-ref="14stream">stream</dfn>, <a class="type" href="../../../include/SFML/Audio/SoundFileReader.hpp.html#sf::SoundFileReader::Info" title='sf::SoundFileReader::Info' data-ref="sf::SoundFileReader::Info">Info</a>&amp; <dfn class="local col5 decl" id="15info" title='info' data-type='sf::SoundFileReader::Info &amp;' data-ref="15info">info</dfn>)</td></tr>
+<tr><th id="107">107</th><td>{</td></tr>
+<tr><th id="108">108</th><td>    <i>// Open the Vorbis stream</i></td></tr>
+<tr><th id="109">109</th><td>    <em>int</em> <dfn class="local col6 decl" id="16status" title='status' data-type='int' data-ref="16status">status</dfn> = <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_open_callbacks" title='ov_open_callbacks' data-ref="ov_open_callbacks">ov_open_callbacks</a>(&amp;<a class="local col4 ref" href="#14stream" title='stream' data-ref="14stream">stream</a>, &amp;<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>, <var>0</var>, <a class="ref fake" href="../../../../include/vorbis/vorbisfile.h.html#39" title='(anonymous struct)::' data-ref="_ZN12ov_callbacksC1ERKS_"></a><a class="tu ref" href="#(anonymousnamespace)::callbacks" title='(anonymous namespace)::callbacks' data-use='r' data-ref="(anonymousnamespace)::callbacks">callbacks</a>);</td></tr>
+<tr><th id="110">110</th><td>    <b>if</b> (<a class="local col6 ref" href="#16status" title='status' data-ref="16status">status</a> &lt; <var>0</var>)</td></tr>
+<tr><th id="111">111</th><td>    {</td></tr>
+<tr><th id="112">112</th><td>        <a class="ref" href="../../../include/SFML/System/Err.hpp.html#_ZN2sf3errEv" title='sf::err' data-ref="_ZN2sf3errEv">err</a>() <a class="ref" href="../../../../include/c++/5/ostream.html#_ZStlsRSt13basic_ostreamIcT_EPKc" title='std::operator&lt;&lt;' data-ref="_ZStlsRSt13basic_ostreamIcT_EPKc">&lt;&lt;</a> <q>"Failed to open Vorbis file for reading"</q> <a class="ref" href="../../../../include/c++/5/ostream.html#_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E" title='std::basic_ostream::operator&lt;&lt;' data-ref="_ZNSt13basic_ostreamlsEPFRSt13basic_ostreamIT_T0_ES5_E">&lt;&lt;</a> <span class="namespace">std::</span><a class="ref" href="../../../../include/c++/5/ostream.html#_ZSt4endlRSt13basic_ostreamIT_T0_E" title='std::endl' data-ref="_ZSt4endlRSt13basic_ostreamIT_T0_E">endl</a>;</td></tr>
+<tr><th id="113">113</th><td>        <b>return</b> <b>false</b>;</td></tr>
+<tr><th id="114">114</th><td>    }</td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td>    <i>// Retrieve the music attributes</i></td></tr>
+<tr><th id="117">117</th><td>    <a class="typedef" href="../../../../include/vorbis/codec.h.html#vorbis_info" title='vorbis_info' data-type='struct vorbis_info' data-ref="vorbis_info">vorbis_info</a>* <dfn class="local col7 decl" id="17vorbisInfo" title='vorbisInfo' data-type='vorbis_info *' data-ref="17vorbisInfo">vorbisInfo</dfn> = <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_info" title='ov_info' data-ref="ov_info">ov_info</a>(&amp;<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>, -<var>1</var>);</td></tr>
+<tr><th id="118">118</th><td>    <a class="local col5 ref" href="#15info" title='info' data-ref="15info">info</a>.<a class="ref" href="../../../include/SFML/Audio/SoundFileReader.hpp.html#sf::SoundFileReader::Info::channelCount" title='sf::SoundFileReader::Info::channelCount' data-ref="sf::SoundFileReader::Info::channelCount">channelCount</a> = <a class="local col7 ref" href="#17vorbisInfo" title='vorbisInfo' data-ref="17vorbisInfo">vorbisInfo</a>-&gt;<a class="ref" href="../../../../include/vorbis/codec.h.html#vorbis_info::channels" title='vorbis_info::channels' data-ref="vorbis_info::channels">channels</a>;</td></tr>
+<tr><th id="119">119</th><td>    <a class="local col5 ref" href="#15info" title='info' data-ref="15info">info</a>.<a class="ref" href="../../../include/SFML/Audio/SoundFileReader.hpp.html#sf::SoundFileReader::Info::sampleRate" title='sf::SoundFileReader::Info::sampleRate' data-ref="sf::SoundFileReader::Info::sampleRate">sampleRate</a> = <a class="local col7 ref" href="#17vorbisInfo" title='vorbisInfo' data-ref="17vorbisInfo">vorbisInfo</a>-&gt;<a class="ref" href="../../../../include/vorbis/codec.h.html#vorbis_info::rate" title='vorbis_info::rate' data-ref="vorbis_info::rate">rate</a>;</td></tr>
+<tr><th id="120">120</th><td>    <a class="local col5 ref" href="#15info" title='info' data-ref="15info">info</a>.<a class="ref" href="../../../include/SFML/Audio/SoundFileReader.hpp.html#sf::SoundFileReader::Info::sampleCount" title='sf::SoundFileReader::Info::sampleCount' data-ref="sf::SoundFileReader::Info::sampleCount">sampleCount</a> = <b>static_cast</b>&lt;<span class="namespace">std::</span><a class="typedef" href="../../../../include/x86_64-linux-gnu/c++/5/bits/c++config.h.html#std::size_t" title='std::size_t' data-type='unsigned long' data-ref="std::size_t">size_t</a>&gt;(<a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_pcm_total" title='ov_pcm_total' data-ref="ov_pcm_total">ov_pcm_total</a>(&amp;<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>, -<var>1</var>) * <a class="local col7 ref" href="#17vorbisInfo" title='vorbisInfo' data-ref="17vorbisInfo">vorbisInfo</a>-&gt;<a class="ref" href="../../../../include/vorbis/codec.h.html#vorbis_info::channels" title='vorbis_info::channels' data-ref="vorbis_info::channels">channels</a>);</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td>    <i>// We must keep the channel count for the seek function</i></td></tr>
+<tr><th id="123">123</th><td>    <a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_channelCount" title='sf::priv::SoundFileReaderOgg::m_channelCount' data-ref="sf::priv::SoundFileReaderOgg::m_channelCount">m_channelCount</a> = <a class="local col5 ref" href="#15info" title='info' data-ref="15info">info</a>.<a class="ref" href="../../../include/SFML/Audio/SoundFileReader.hpp.html#sf::SoundFileReader::Info::channelCount" title='sf::SoundFileReader::Info::channelCount' data-ref="sf::SoundFileReader::Info::channelCount">channelCount</a>;</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td>    <b>return</b> <b>true</b>;</td></tr>
+<tr><th id="126">126</th><td>}</td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="130">130</th><td><em>void</em> <a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="virtual decl def" id="_ZN2sf4priv18SoundFileReaderOgg4seekEy" title='sf::priv::SoundFileReaderOgg::seek' data-ref="_ZN2sf4priv18SoundFileReaderOgg4seekEy">seek</dfn>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a> <dfn class="local col8 decl" id="18sampleOffset" title='sampleOffset' data-type='Uint64' data-ref="18sampleOffset">sampleOffset</dfn>)</td></tr>
+<tr><th id="131">131</th><td>{</td></tr>
+<tr><th id="132">132</th><td>    <a class="macro" href="../../../../include/assert.h.html#50" title="(static_cast&lt;void&gt; (0))" data-ref="_M/assert">assert</a>(m_vorbis.datasource);</td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td>    <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_pcm_seek" title='ov_pcm_seek' data-ref="ov_pcm_seek">ov_pcm_seek</a>(&amp;<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>, <a class="local col8 ref" href="#18sampleOffset" title='sampleOffset' data-ref="18sampleOffset">sampleOffset</a> / <a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_channelCount" title='sf::priv::SoundFileReaderOgg::m_channelCount' data-ref="sf::priv::SoundFileReaderOgg::m_channelCount">m_channelCount</a>);</td></tr>
+<tr><th id="135">135</th><td>}</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="139">139</th><td><a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a> <a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="virtual decl def" id="_ZN2sf4priv18SoundFileReaderOgg4readEPsy" title='sf::priv::SoundFileReaderOgg::read' data-ref="_ZN2sf4priv18SoundFileReaderOgg4readEPsy">read</dfn>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>* <dfn class="local col9 decl" id="19samples" title='samples' data-type='Int16 *' data-ref="19samples">samples</dfn>, <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a> <dfn class="local col0 decl" id="20maxCount" title='maxCount' data-type='Uint64' data-ref="20maxCount">maxCount</dfn>)</td></tr>
+<tr><th id="140">140</th><td>{</td></tr>
+<tr><th id="141">141</th><td>    <a class="macro" href="../../../../include/assert.h.html#50" title="(static_cast&lt;void&gt; (0))" data-ref="_M/assert">assert</a>(m_vorbis.datasource);</td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td>    <i>// Try to read the requested number of samples, stop only on error or end of file</i></td></tr>
+<tr><th id="144">144</th><td>    <a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Uint64" title='sf::Uint64' data-type='unsigned long long' data-ref="sf::Uint64">Uint64</a> <dfn class="local col1 decl" id="21count" title='count' data-type='Uint64' data-ref="21count">count</dfn> = <var>0</var>;</td></tr>
+<tr><th id="145">145</th><td>    <b>while</b> (<a class="local col1 ref" href="#21count" title='count' data-ref="21count">count</a> &lt; <a class="local col0 ref" href="#20maxCount" title='maxCount' data-ref="20maxCount">maxCount</a>)</td></tr>
+<tr><th id="146">146</th><td>    {</td></tr>
+<tr><th id="147">147</th><td>        <em>int</em> <dfn class="local col2 decl" id="22bytesToRead" title='bytesToRead' data-type='int' data-ref="22bytesToRead">bytesToRead</dfn> = <b>static_cast</b>&lt;<em>int</em>&gt;(<a class="local col0 ref" href="#20maxCount" title='maxCount' data-ref="20maxCount">maxCount</a> - <a class="local col1 ref" href="#21count" title='count' data-ref="21count">count</a>) * <b>sizeof</b>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>);</td></tr>
+<tr><th id="148">148</th><td>        <em>long</em> <dfn class="local col3 decl" id="23bytesRead" title='bytesRead' data-type='long' data-ref="23bytesRead">bytesRead</dfn> = <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_read" title='ov_read' data-ref="ov_read">ov_read</a>(&amp;<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>, <b>reinterpret_cast</b>&lt;<em>char</em>*&gt;(<a class="local col9 ref" href="#19samples" title='samples' data-ref="19samples">samples</a>), <a class="local col2 ref" href="#22bytesToRead" title='bytesToRead' data-ref="22bytesToRead">bytesToRead</a>, <var>0</var>, <var>2</var>, <var>1</var>, <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="149">149</th><td>        <b>if</b> (<a class="local col3 ref" href="#23bytesRead" title='bytesRead' data-ref="23bytesRead">bytesRead</a> &gt; <var>0</var>)</td></tr>
+<tr><th id="150">150</th><td>        {</td></tr>
+<tr><th id="151">151</th><td>            <em>long</em> <dfn class="local col4 decl" id="24samplesRead" title='samplesRead' data-type='long' data-ref="24samplesRead">samplesRead</dfn> = <a class="local col3 ref" href="#23bytesRead" title='bytesRead' data-ref="23bytesRead">bytesRead</a> / <b>sizeof</b>(<a class="typedef" href="../../../include/SFML/Config.hpp.html#sf::Int16" title='sf::Int16' data-type='short' data-ref="sf::Int16">Int16</a>);</td></tr>
+<tr><th id="152">152</th><td>            <a class="local col1 ref" href="#21count" title='count' data-ref="21count">count</a> += <a class="local col4 ref" href="#24samplesRead" title='samplesRead' data-ref="24samplesRead">samplesRead</a>;</td></tr>
+<tr><th id="153">153</th><td>            <a class="local col9 ref" href="#19samples" title='samples' data-ref="19samples">samples</a> += <a class="local col4 ref" href="#24samplesRead" title='samplesRead' data-ref="24samplesRead">samplesRead</a>;</td></tr>
+<tr><th id="154">154</th><td>        }</td></tr>
+<tr><th id="155">155</th><td>        <b>else</b></td></tr>
+<tr><th id="156">156</th><td>        {</td></tr>
+<tr><th id="157">157</th><td>            <i>// error or end of file</i></td></tr>
+<tr><th id="158">158</th><td>            <b>break</b>;</td></tr>
+<tr><th id="159">159</th><td>        }</td></tr>
+<tr><th id="160">160</th><td>    }</td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td>    <b>return</b> <a class="local col1 ref" href="#21count" title='count' data-ref="21count">count</a>;</td></tr>
+<tr><th id="163">163</th><td>}</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="167">167</th><td><em>void</em> <a class="type" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg" title='sf::priv::SoundFileReaderOgg' data-ref="sf::priv::SoundFileReaderOgg">SoundFileReaderOgg</a>::<dfn class="decl def" id="_ZN2sf4priv18SoundFileReaderOgg5closeEv" title='sf::priv::SoundFileReaderOgg::close' data-ref="_ZN2sf4priv18SoundFileReaderOgg5closeEv">close</dfn>()</td></tr>
+<tr><th id="168">168</th><td>{</td></tr>
+<tr><th id="169">169</th><td>    <b>if</b> (<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>.<a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#OggVorbis_File::datasource" title='OggVorbis_File::datasource' data-ref="OggVorbis_File::datasource">datasource</a>)</td></tr>
+<tr><th id="170">170</th><td>    {</td></tr>
+<tr><th id="171">171</th><td>        <a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#ov_clear" title='ov_clear' data-ref="ov_clear">ov_clear</a>(&amp;<a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>);</td></tr>
+<tr><th id="172">172</th><td>        <a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_vorbis" title='sf::priv::SoundFileReaderOgg::m_vorbis' data-ref="sf::priv::SoundFileReaderOgg::m_vorbis">m_vorbis</a>.<a class="ref" href="../../../../include/vorbis/vorbisfile.h.html#OggVorbis_File::datasource" title='OggVorbis_File::datasource' data-ref="OggVorbis_File::datasource">datasource</a> = <span class="macro" title="__null" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="173">173</th><td>        <a class="member" href="SoundFileReaderOgg.hpp.html#sf::priv::SoundFileReaderOgg::m_channelCount" title='sf::priv::SoundFileReaderOgg::m_channelCount' data-ref="sf::priv::SoundFileReaderOgg::m_channelCount">m_channelCount</a> = <var>0</var>;</td></tr>
+<tr><th id="174">174</th><td>    }</td></tr>
+<tr><th id="175">175</th><td>}</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td>} <i>// namespace priv</i></td></tr>
+<tr><th id="178">178</th><td></td></tr>
+<tr><th id="179">179</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="180">180</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

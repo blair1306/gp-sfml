@@ -1,0 +1,7 @@
+<def f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='49' ll='61'/>
+<doc f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='43'>////////////////////////////////////////////////////////
+    /// \brief Enumeration of the blending factors
+    ///
+    /// The factors are mapped directly to their OpenGL equivalents,
+    /// specified by glBlendFunc() or glBlendFuncSeparate().
+    ////////////////////////////////////////////////////////</doc>

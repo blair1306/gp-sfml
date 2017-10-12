@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/System/Thread.hpp' l='190' type='priv::ThreadFunc *'/>
+<use f='codebrowser/include/SFML/System/Thread.inl' l='70' u='w' c='_ZN2sf6ThreadC1ET_'/>
+<use f='codebrowser/include/SFML/System/Thread.inl' l='79' u='w' c='_ZN2sf6ThreadC1ET_T0_'/>
+<use f='codebrowser/include/SFML/System/Thread.inl' l='88' u='w' c='_ZN2sf6ThreadC1EMT_FvvEPS1_'/>
+<offset>64</offset>
+<doc f='codebrowser/include/SFML/System/Thread.hpp' l='190'>///&lt; Abstraction of the function to run</doc>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='44' u='r' c='_ZN2sf6ThreadD1Ev'/>
+<use f='codebrowser/src/SFML/System/Thread.cpp' l='83' u='r' c='_ZN2sf6Thread3runEv'/>

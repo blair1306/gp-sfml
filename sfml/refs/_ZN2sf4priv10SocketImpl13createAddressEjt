@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='68' type='static sockaddr_in sf::priv::SocketImpl::createAddress(Uint32 address, unsigned short port)'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='118' u='c' c='_ZN2sf9IpAddress15getLocalAddressEv'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='59'>////////////////////////////////////////////////////////////
+    /// \brief Create an internal sockaddr_in address
+    ///
+    /// \param address Target address
+    /// \param port    Target port
+    ///
+    /// \return sockaddr_in ready to be used by socket functions
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='74' u='c' c='_ZN2sf11TcpListener6listenEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='125' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='77' u='c' c='_ZN2sf9UdpSocket4bindEtRKNS_9IpAddressE'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='111' u='c' c='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='140' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<def f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='40' ll='53' type='static sockaddr_in sf::priv::SocketImpl::createAddress(Uint32 address, unsigned short port)'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='39'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/SFML/System/Vector3.hpp' l='77' type='T'/>
+<use f='codebrowser/include/SFML/System/Vector3.inl' l='30' u='w' c='_ZN2sf7Vector3C1Ev'/>
+<use f='codebrowser/include/SFML/System/Vector3.inl' l='41' u='w' c='_ZN2sf7Vector3C1ET_S1_S1_'/>
+<use f='codebrowser/include/SFML/System/Vector3.inl' l='53' u='w' c='_ZN2sf7Vector3C1ERKNS_7Vector3IT_EE'/>
+<doc f='codebrowser/include/SFML/System/Vector3.hpp' l='77'>///&lt; Y coordinate of the vector</doc>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='68' u='r' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='71' u='r' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='68' u='r' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='71' u='r' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='74' u='r' c='_ZN2sf4priv11AudioDeviceC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='174' u='r' c='_ZN2sf4priv11AudioDevice11setPositionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='192' u='r' c='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='192' u='r' c='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='192' u='r' c='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='192' u='r' c='_ZN2sf4priv11AudioDevice12setDirectionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='212' u='r' c='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='212' u='r' c='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='212' u='r' c='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/AudioDevice.cpp' l='212' u='r' c='_ZN2sf4priv11AudioDevice11setUpVectorERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='89' u='r' c='_ZN2sf11SoundSource11setPositionERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='138' u='a' c='_ZNK2sf11SoundSource11getPositionEv'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='448' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='484' u='r' c='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE'/>
+<use f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='247' u='r' c='_ZN2sf4priv10WindowImpl19processSensorEventsEv'/>

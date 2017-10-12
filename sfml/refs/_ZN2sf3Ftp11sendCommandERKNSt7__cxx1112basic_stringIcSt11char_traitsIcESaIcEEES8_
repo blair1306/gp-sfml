@@ -1,0 +1,36 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='505' type='sf::Ftp::Response sf::Ftp::sendCommand(const std::string &amp; command, const std::string &amp; parameter = &quot;&quot;)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='172' u='c' c='_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='174' u='c' c='_ZN2sf3Ftp5loginERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='184' u='c' c='_ZN2sf3Ftp10disconnectEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='195' u='c' c='_ZN2sf3Ftp9keepAliveEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='202' u='c' c='_ZN2sf3Ftp19getWorkingDirectoryEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='216' u='c' c='_ZN2sf3Ftp19getDirectoryListingERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='234' u='c' c='_ZN2sf3Ftp15changeDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='241' u='c' c='_ZN2sf3Ftp15parentDirectoryEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='248' u='c' c='_ZN2sf3Ftp15createDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='255' u='c' c='_ZN2sf3Ftp15deleteDirectoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='262' u='c' c='_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='264' u='c' c='_ZN2sf3Ftp10renameFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='273' u='c' c='_ZN2sf3Ftp10deleteFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='286' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='349' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='365' ll='380' type='Ftp::Response sf::Ftp::sendCommand(const std::string &amp; command, const std::string &amp; parameter = &quot;&quot;)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='537' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='580' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='364'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='489'>////////////////////////////////////////////////////////////
+    /// \brief Send a command to the FTP server
+    ///
+    /// While the most often used commands are provided as member
+    /// functions in the sf::Ftp class, this method can be used
+    /// to send any FTP command to the server. If the command
+    /// requires one or more parameters, they can be specified
+    /// in \a parameter. If the server returns information, you
+    /// can extract it from the response using Response::getMessage().
+    ///
+    /// \param command   Command to send
+    /// \param parameter Command parameter
+    ///
+    /// \return Server response to the request
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='64' type='void sf::priv::ThreadLocalImpl::setValue(void * value)'/>
+<use f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='57' u='c' c='_ZN2sf11ThreadLocal8setValueEPv'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.hpp' l='58'>////////////////////////////////////////////////////////////
+    /// \brief Set the thread-specific value of the variable
+    ///
+    /// \param value Value of the variable for this thread
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.cpp' l='51' ll='54' type='void sf::priv::ThreadLocalImpl::setValue(void * value)'/>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadLocalImpl.cpp' l='50'>////////////////////////////////////////////////////////////</doc>

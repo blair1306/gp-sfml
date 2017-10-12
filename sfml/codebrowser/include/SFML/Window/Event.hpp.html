@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Event.hpp source code [codebrowser/include/SFML/Window/Event.hpp] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="sf::Event "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/include/SFML/Window/Event.hpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>include</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='Event.hpp.html'>Event.hpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="25">ifndef</span> <span class="macro" data-ref="_M/SFML_EVENT_HPP">SFML_EVENT_HPP</span></u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/SFML_EVENT_HPP" data-ref="_M/SFML_EVENT_HPP">SFML_EVENT_HPP</dfn></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="29">29</th><td><i>// Headers</i></td></tr>
+<tr><th id="30">30</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../Config.hpp.html">&lt;SFML/Config.hpp&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="Joystick.hpp.html">&lt;SFML/Window/Joystick.hpp&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="Keyboard.hpp.html">&lt;SFML/Window/Keyboard.hpp&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="Mouse.hpp.html">&lt;SFML/Window/Mouse.hpp&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="Sensor.hpp.html">&lt;SFML/Window/Sensor.hpp&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="41">41</th><td><i>/// \brief Defines a system event and its parameters</i></td></tr>
+<tr><th id="42">42</th><td><i>///</i></td></tr>
+<tr><th id="43">43</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="44">44</th><td><b>class</b> <dfn class="type def" id="sf::Event" title='sf::Event' data-ref="sf::Event">Event</dfn></td></tr>
+<tr><th id="45">45</th><td>{</td></tr>
+<tr><th id="46">46</th><td><b>public</b>:</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td><i>    /// \brief Size events parameters (Resized)</i></td></tr>
+<tr><th id="50">50</th><td><i>    ///</i></td></tr>
+<tr><th id="51">51</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="52">52</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::SizeEvent" title='sf::Event::SizeEvent' data-ref="sf::Event::SizeEvent">SizeEvent</dfn></td></tr>
+<tr><th id="53">53</th><td>    {</td></tr>
+<tr><th id="54">54</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Event::SizeEvent::width" title='sf::Event::SizeEvent::width' data-ref="sf::Event::SizeEvent::width">width</dfn>;  <i class="doc">///&lt; New width, in pixels</i></td></tr>
+<tr><th id="55">55</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Event::SizeEvent::height" title='sf::Event::SizeEvent::height' data-ref="sf::Event::SizeEvent::height">height</dfn>; <i class="doc">///&lt; New height, in pixels</i></td></tr>
+<tr><th id="56">56</th><td>    };</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="59">59</th><td><i>    /// \brief Keyboard event parameters (KeyPressed, KeyReleased)</i></td></tr>
+<tr><th id="60">60</th><td><i>    ///</i></td></tr>
+<tr><th id="61">61</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="62">62</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::KeyEvent" title='sf::Event::KeyEvent' data-ref="sf::Event::KeyEvent">KeyEvent</dfn></td></tr>
+<tr><th id="63">63</th><td>    {</td></tr>
+<tr><th id="64">64</th><td>        <a class="type" href="Keyboard.hpp.html#sf::Keyboard" title='sf::Keyboard' data-ref="sf::Keyboard">Keyboard</a>::<a class="type" href="Keyboard.hpp.html#sf::Keyboard::Key" title='sf::Keyboard::Key' data-ref="sf::Keyboard::Key">Key</a> <dfn class="decl" id="sf::Event::KeyEvent::code" title='sf::Event::KeyEvent::code' data-ref="sf::Event::KeyEvent::code">code</dfn>;    <i class="doc">///&lt; Code of the key that has been pressed</i></td></tr>
+<tr><th id="65">65</th><td>        <em>bool</em>          <dfn class="decl" id="sf::Event::KeyEvent::alt" title='sf::Event::KeyEvent::alt' data-ref="sf::Event::KeyEvent::alt">alt</dfn>;     <i class="doc">///&lt; Is the Alt key pressed?</i></td></tr>
+<tr><th id="66">66</th><td>        <em>bool</em>          <dfn class="decl" id="sf::Event::KeyEvent::control" title='sf::Event::KeyEvent::control' data-ref="sf::Event::KeyEvent::control">control</dfn>; <i class="doc">///&lt; Is the Control key pressed?</i></td></tr>
+<tr><th id="67">67</th><td>        <em>bool</em>          <dfn class="decl" id="sf::Event::KeyEvent::shift" title='sf::Event::KeyEvent::shift' data-ref="sf::Event::KeyEvent::shift">shift</dfn>;   <i class="doc">///&lt; Is the Shift key pressed?</i></td></tr>
+<tr><th id="68">68</th><td>        <em>bool</em>          <dfn class="decl" id="sf::Event::KeyEvent::system" title='sf::Event::KeyEvent::system' data-ref="sf::Event::KeyEvent::system">system</dfn>;  <i class="doc">///&lt; Is the System key pressed?</i></td></tr>
+<tr><th id="69">69</th><td>    };</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="72">72</th><td><i>    /// \brief Text event parameters (TextEntered)</i></td></tr>
+<tr><th id="73">73</th><td><i>    ///</i></td></tr>
+<tr><th id="74">74</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="75">75</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::TextEvent" title='sf::Event::TextEvent' data-ref="sf::Event::TextEvent">TextEvent</dfn></td></tr>
+<tr><th id="76">76</th><td>    {</td></tr>
+<tr><th id="77">77</th><td>        <a class="typedef" href="../Config.hpp.html#sf::Uint32" title='sf::Uint32' data-type='unsigned int' data-ref="sf::Uint32">Uint32</a> <dfn class="decl" id="sf::Event::TextEvent::unicode" title='sf::Event::TextEvent::unicode' data-ref="sf::Event::TextEvent::unicode">unicode</dfn>; <i class="doc">///&lt; UTF-32 Unicode value of the character</i></td></tr>
+<tr><th id="78">78</th><td>    };</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="81">81</th><td><i>    /// \brief Mouse move event parameters (MouseMoved)</i></td></tr>
+<tr><th id="82">82</th><td><i>    ///</i></td></tr>
+<tr><th id="83">83</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="84">84</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::MouseMoveEvent" title='sf::Event::MouseMoveEvent' data-ref="sf::Event::MouseMoveEvent">MouseMoveEvent</dfn></td></tr>
+<tr><th id="85">85</th><td>    {</td></tr>
+<tr><th id="86">86</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::MouseMoveEvent::x" title='sf::Event::MouseMoveEvent::x' data-ref="sf::Event::MouseMoveEvent::x">x</dfn>; <i class="doc">///&lt; X position of the mouse pointer, relative to the left of the owner window</i></td></tr>
+<tr><th id="87">87</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::MouseMoveEvent::y" title='sf::Event::MouseMoveEvent::y' data-ref="sf::Event::MouseMoveEvent::y">y</dfn>; <i class="doc">///&lt; Y position of the mouse pointer, relative to the top of the owner window</i></td></tr>
+<tr><th id="88">88</th><td>    };</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="91">91</th><td><i>    /// \brief Mouse buttons events parameters</i></td></tr>
+<tr><th id="92">92</th><td><i>    ///        (MouseButtonPressed, MouseButtonReleased)</i></td></tr>
+<tr><th id="93">93</th><td><i>    ///</i></td></tr>
+<tr><th id="94">94</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="95">95</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::MouseButtonEvent" title='sf::Event::MouseButtonEvent' data-ref="sf::Event::MouseButtonEvent">MouseButtonEvent</dfn></td></tr>
+<tr><th id="96">96</th><td>    {</td></tr>
+<tr><th id="97">97</th><td>        <a class="type" href="Mouse.hpp.html#sf::Mouse" title='sf::Mouse' data-ref="sf::Mouse">Mouse</a>::<a class="type" href="Mouse.hpp.html#sf::Mouse::Button" title='sf::Mouse::Button' data-ref="sf::Mouse::Button">Button</a> <dfn class="decl" id="sf::Event::MouseButtonEvent::button" title='sf::Event::MouseButtonEvent::button' data-ref="sf::Event::MouseButtonEvent::button">button</dfn>; <i class="doc">///&lt; Code of the button that has been pressed</i></td></tr>
+<tr><th id="98">98</th><td>        <em>int</em>           <dfn class="decl" id="sf::Event::MouseButtonEvent::x" title='sf::Event::MouseButtonEvent::x' data-ref="sf::Event::MouseButtonEvent::x">x</dfn>;      <i class="doc">///&lt; X position of the mouse pointer, relative to the left of the owner window</i></td></tr>
+<tr><th id="99">99</th><td>        <em>int</em>           <dfn class="decl" id="sf::Event::MouseButtonEvent::y" title='sf::Event::MouseButtonEvent::y' data-ref="sf::Event::MouseButtonEvent::y">y</dfn>;      <i class="doc">///&lt; Y position of the mouse pointer, relative to the top of the owner window</i></td></tr>
+<tr><th id="100">100</th><td>    };</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="103">103</th><td><i>    /// \brief Mouse wheel events parameters (MouseWheelMoved)</i></td></tr>
+<tr><th id="104">104</th><td><i>    ///</i></td></tr>
+<tr><th id="105">105</th><td><i>    /// \deprecated This event is deprecated and potentially inaccurate.</i></td></tr>
+<tr><th id="106">106</th><td><i>    ///             Use MouseWheelScrollEvent instead.</i></td></tr>
+<tr><th id="107">107</th><td><i>    ///</i></td></tr>
+<tr><th id="108">108</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="109">109</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::MouseWheelEvent" title='sf::Event::MouseWheelEvent' data-ref="sf::Event::MouseWheelEvent">MouseWheelEvent</dfn></td></tr>
+<tr><th id="110">110</th><td>    {</td></tr>
+<tr><th id="111">111</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::MouseWheelEvent::delta" title='sf::Event::MouseWheelEvent::delta' data-ref="sf::Event::MouseWheelEvent::delta">delta</dfn>; <i class="doc">///&lt; Number of ticks the wheel has moved (positive is up, negative is down)</i></td></tr>
+<tr><th id="112">112</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::MouseWheelEvent::x" title='sf::Event::MouseWheelEvent::x' data-ref="sf::Event::MouseWheelEvent::x">x</dfn>;     <i class="doc">///&lt; X position of the mouse pointer, relative to the left of the owner window</i></td></tr>
+<tr><th id="113">113</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::MouseWheelEvent::y" title='sf::Event::MouseWheelEvent::y' data-ref="sf::Event::MouseWheelEvent::y">y</dfn>;     <i class="doc">///&lt; Y position of the mouse pointer, relative to the top of the owner window</i></td></tr>
+<tr><th id="114">114</th><td>    };</td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="117">117</th><td><i>    /// \brief Mouse wheel events parameters (MouseWheelScrolled)</i></td></tr>
+<tr><th id="118">118</th><td><i>    ///</i></td></tr>
+<tr><th id="119">119</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="120">120</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::MouseWheelScrollEvent" title='sf::Event::MouseWheelScrollEvent' data-ref="sf::Event::MouseWheelScrollEvent">MouseWheelScrollEvent</dfn></td></tr>
+<tr><th id="121">121</th><td>    {</td></tr>
+<tr><th id="122">122</th><td>        <a class="type" href="Mouse.hpp.html#sf::Mouse" title='sf::Mouse' data-ref="sf::Mouse">Mouse</a>::<a class="type" href="Mouse.hpp.html#sf::Mouse::Wheel" title='sf::Mouse::Wheel' data-ref="sf::Mouse::Wheel">Wheel</a> <dfn class="decl" id="sf::Event::MouseWheelScrollEvent::wheel" title='sf::Event::MouseWheelScrollEvent::wheel' data-ref="sf::Event::MouseWheelScrollEvent::wheel">wheel</dfn>; <i class="doc">///&lt; Which wheel (for mice with multiple ones)</i></td></tr>
+<tr><th id="123">123</th><td>        <em>float</em>        <dfn class="decl" id="sf::Event::MouseWheelScrollEvent::delta" title='sf::Event::MouseWheelScrollEvent::delta' data-ref="sf::Event::MouseWheelScrollEvent::delta">delta</dfn>; <i class="doc">///&lt; Wheel offset (positive is up/left, negative is down/right). High-precision mice may use non-integral offsets.</i></td></tr>
+<tr><th id="124">124</th><td>        <em>int</em>          <dfn class="decl" id="sf::Event::MouseWheelScrollEvent::x" title='sf::Event::MouseWheelScrollEvent::x' data-ref="sf::Event::MouseWheelScrollEvent::x">x</dfn>;     <i class="doc">///&lt; X position of the mouse pointer, relative to the left of the owner window</i></td></tr>
+<tr><th id="125">125</th><td>        <em>int</em>          <dfn class="decl" id="sf::Event::MouseWheelScrollEvent::y" title='sf::Event::MouseWheelScrollEvent::y' data-ref="sf::Event::MouseWheelScrollEvent::y">y</dfn>;     <i class="doc">///&lt; Y position of the mouse pointer, relative to the top of the owner window</i></td></tr>
+<tr><th id="126">126</th><td>    };</td></tr>
+<tr><th id="127">127</th><td></td></tr>
+<tr><th id="128">128</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="129">129</th><td><i>    /// \brief Joystick connection events parameters</i></td></tr>
+<tr><th id="130">130</th><td><i>    ///        (JoystickConnected, JoystickDisconnected)</i></td></tr>
+<tr><th id="131">131</th><td><i>    ///</i></td></tr>
+<tr><th id="132">132</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="133">133</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::JoystickConnectEvent" title='sf::Event::JoystickConnectEvent' data-ref="sf::Event::JoystickConnectEvent">JoystickConnectEvent</dfn></td></tr>
+<tr><th id="134">134</th><td>    {</td></tr>
+<tr><th id="135">135</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Event::JoystickConnectEvent::joystickId" title='sf::Event::JoystickConnectEvent::joystickId' data-ref="sf::Event::JoystickConnectEvent::joystickId">joystickId</dfn>; <i class="doc">///&lt; Index of the joystick (in range [0 .. Joystick::Count - 1])</i></td></tr>
+<tr><th id="136">136</th><td>    };</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="139">139</th><td><i>    /// \brief Joystick axis move event parameters (JoystickMoved)</i></td></tr>
+<tr><th id="140">140</th><td><i>    ///</i></td></tr>
+<tr><th id="141">141</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="142">142</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::JoystickMoveEvent" title='sf::Event::JoystickMoveEvent' data-ref="sf::Event::JoystickMoveEvent">JoystickMoveEvent</dfn></td></tr>
+<tr><th id="143">143</th><td>    {</td></tr>
+<tr><th id="144">144</th><td>        <em>unsigned</em> <em>int</em>   <dfn class="decl" id="sf::Event::JoystickMoveEvent::joystickId" title='sf::Event::JoystickMoveEvent::joystickId' data-ref="sf::Event::JoystickMoveEvent::joystickId">joystickId</dfn>; <i class="doc">///&lt; Index of the joystick (in range [0 .. Joystick::Count - 1])</i></td></tr>
+<tr><th id="145">145</th><td>        <a class="type" href="Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<a class="type" href="Joystick.hpp.html#sf::Joystick::Axis" title='sf::Joystick::Axis' data-ref="sf::Joystick::Axis">Axis</a> <dfn class="decl" id="sf::Event::JoystickMoveEvent::axis" title='sf::Event::JoystickMoveEvent::axis' data-ref="sf::Event::JoystickMoveEvent::axis">axis</dfn>;       <i class="doc">///&lt; Axis on which the joystick moved</i></td></tr>
+<tr><th id="146">146</th><td>        <em>float</em>          <dfn class="decl" id="sf::Event::JoystickMoveEvent::position" title='sf::Event::JoystickMoveEvent::position' data-ref="sf::Event::JoystickMoveEvent::position">position</dfn>;   <i class="doc">///&lt; New position on the axis (in range [-100 .. 100])</i></td></tr>
+<tr><th id="147">147</th><td>    };</td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="150">150</th><td><i>    /// \brief Joystick buttons events parameters</i></td></tr>
+<tr><th id="151">151</th><td><i>    ///        (JoystickButtonPressed, JoystickButtonReleased)</i></td></tr>
+<tr><th id="152">152</th><td><i>    ///</i></td></tr>
+<tr><th id="153">153</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="154">154</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::JoystickButtonEvent" title='sf::Event::JoystickButtonEvent' data-ref="sf::Event::JoystickButtonEvent">JoystickButtonEvent</dfn></td></tr>
+<tr><th id="155">155</th><td>    {</td></tr>
+<tr><th id="156">156</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Event::JoystickButtonEvent::joystickId" title='sf::Event::JoystickButtonEvent::joystickId' data-ref="sf::Event::JoystickButtonEvent::joystickId">joystickId</dfn>; <i class="doc">///&lt; Index of the joystick (in range [0 .. Joystick::Count - 1])</i></td></tr>
+<tr><th id="157">157</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Event::JoystickButtonEvent::button" title='sf::Event::JoystickButtonEvent::button' data-ref="sf::Event::JoystickButtonEvent::button">button</dfn>;     <i class="doc">///&lt; Index of the button that has been pressed (in range [0 .. Joystick::ButtonCount - 1])</i></td></tr>
+<tr><th id="158">158</th><td>    };</td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="161">161</th><td><i>    /// \brief Touch events parameters (TouchBegan, TouchMoved, TouchEnded)</i></td></tr>
+<tr><th id="162">162</th><td><i>    ///</i></td></tr>
+<tr><th id="163">163</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="164">164</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::TouchEvent" title='sf::Event::TouchEvent' data-ref="sf::Event::TouchEvent">TouchEvent</dfn></td></tr>
+<tr><th id="165">165</th><td>    {</td></tr>
+<tr><th id="166">166</th><td>        <em>unsigned</em> <em>int</em> <dfn class="decl" id="sf::Event::TouchEvent::finger" title='sf::Event::TouchEvent::finger' data-ref="sf::Event::TouchEvent::finger">finger</dfn>; <i class="doc">///&lt; Index of the finger in case of multi-touch events</i></td></tr>
+<tr><th id="167">167</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::TouchEvent::x" title='sf::Event::TouchEvent::x' data-ref="sf::Event::TouchEvent::x">x</dfn>;               <i class="doc">///&lt; X position of the touch, relative to the left of the owner window</i></td></tr>
+<tr><th id="168">168</th><td>        <em>int</em> <dfn class="decl" id="sf::Event::TouchEvent::y" title='sf::Event::TouchEvent::y' data-ref="sf::Event::TouchEvent::y">y</dfn>;               <i class="doc">///&lt; Y position of the touch, relative to the top of the owner window</i></td></tr>
+<tr><th id="169">169</th><td>    };</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="172">172</th><td><i>    /// \brief Sensor event parameters (SensorChanged)</i></td></tr>
+<tr><th id="173">173</th><td><i>    ///</i></td></tr>
+<tr><th id="174">174</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="175">175</th><td>    <b>struct</b> <dfn class="type def" id="sf::Event::SensorEvent" title='sf::Event::SensorEvent' data-ref="sf::Event::SensorEvent">SensorEvent</dfn></td></tr>
+<tr><th id="176">176</th><td>    {</td></tr>
+<tr><th id="177">177</th><td>        <a class="type" href="Sensor.hpp.html#sf::Sensor" title='sf::Sensor' data-ref="sf::Sensor">Sensor</a>::<a class="type" href="Sensor.hpp.html#sf::Sensor::Type" title='sf::Sensor::Type' data-ref="sf::Sensor::Type">Type</a> <dfn class="decl" id="sf::Event::SensorEvent::type" title='sf::Event::SensorEvent::type' data-ref="sf::Event::SensorEvent::type">type</dfn>; <i class="doc">///&lt; Type of the sensor</i></td></tr>
+<tr><th id="178">178</th><td>        <em>float</em> <dfn class="decl" id="sf::Event::SensorEvent::x" title='sf::Event::SensorEvent::x' data-ref="sf::Event::SensorEvent::x">x</dfn>;           <i class="doc">///&lt; Current value of the sensor on X axis</i></td></tr>
+<tr><th id="179">179</th><td>        <em>float</em> <dfn class="decl" id="sf::Event::SensorEvent::y" title='sf::Event::SensorEvent::y' data-ref="sf::Event::SensorEvent::y">y</dfn>;           <i class="doc">///&lt; Current value of the sensor on Y axis</i></td></tr>
+<tr><th id="180">180</th><td>        <em>float</em> <dfn class="decl" id="sf::Event::SensorEvent::z" title='sf::Event::SensorEvent::z' data-ref="sf::Event::SensorEvent::z">z</dfn>;           <i class="doc">///&lt; Current value of the sensor on Z axis</i></td></tr>
+<tr><th id="181">181</th><td>    };</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="184">184</th><td><i>    /// \brief Enumeration of the different types of events</i></td></tr>
+<tr><th id="185">185</th><td><i>    ///</i></td></tr>
+<tr><th id="186">186</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="187">187</th><td>    <b>enum</b> <dfn class="type def" id="sf::Event::EventType" title='sf::Event::EventType' data-ref="sf::Event::EventType">EventType</dfn></td></tr>
+<tr><th id="188">188</th><td>    {</td></tr>
+<tr><th id="189">189</th><td>        <dfn class="enum" id="sf::Event::EventType::Closed" title='sf::Event::EventType::Closed' data-ref="sf::Event::EventType::Closed">Closed</dfn>,                 <i class="doc">///&lt; The window requested to be closed (no data)</i></td></tr>
+<tr><th id="190">190</th><td>        <dfn class="enum" id="sf::Event::EventType::Resized" title='sf::Event::EventType::Resized' data-ref="sf::Event::EventType::Resized">Resized</dfn>,                <i class="doc">///&lt; The window was resized (data in event.size)</i></td></tr>
+<tr><th id="191">191</th><td>        <dfn class="enum" id="sf::Event::EventType::LostFocus" title='sf::Event::EventType::LostFocus' data-ref="sf::Event::EventType::LostFocus">LostFocus</dfn>,              <i class="doc">///&lt; The window lost the focus (no data)</i></td></tr>
+<tr><th id="192">192</th><td>        <dfn class="enum" id="sf::Event::EventType::GainedFocus" title='sf::Event::EventType::GainedFocus' data-ref="sf::Event::EventType::GainedFocus">GainedFocus</dfn>,            <i class="doc">///&lt; The window gained the focus (no data)</i></td></tr>
+<tr><th id="193">193</th><td>        <dfn class="enum" id="sf::Event::EventType::TextEntered" title='sf::Event::EventType::TextEntered' data-ref="sf::Event::EventType::TextEntered">TextEntered</dfn>,            <i class="doc">///&lt; A character was entered (data in event.text)</i></td></tr>
+<tr><th id="194">194</th><td>        <dfn class="enum" id="sf::Event::EventType::KeyPressed" title='sf::Event::EventType::KeyPressed' data-ref="sf::Event::EventType::KeyPressed">KeyPressed</dfn>,             <i class="doc">///&lt; A key was pressed (data in event.key)</i></td></tr>
+<tr><th id="195">195</th><td>        <dfn class="enum" id="sf::Event::EventType::KeyReleased" title='sf::Event::EventType::KeyReleased' data-ref="sf::Event::EventType::KeyReleased">KeyReleased</dfn>,            <i class="doc">///&lt; A key was released (data in event.key)</i></td></tr>
+<tr><th id="196">196</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseWheelMoved" title='sf::Event::EventType::MouseWheelMoved' data-ref="sf::Event::EventType::MouseWheelMoved">MouseWheelMoved</dfn>,        <i class="doc">///&lt; The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)</i></td></tr>
+<tr><th id="197">197</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseWheelScrolled" title='sf::Event::EventType::MouseWheelScrolled' data-ref="sf::Event::EventType::MouseWheelScrolled">MouseWheelScrolled</dfn>,     <i class="doc">///&lt; The mouse wheel was scrolled (data in event.mouseWheelScroll)</i></td></tr>
+<tr><th id="198">198</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseButtonPressed" title='sf::Event::EventType::MouseButtonPressed' data-ref="sf::Event::EventType::MouseButtonPressed">MouseButtonPressed</dfn>,     <i class="doc">///&lt; A mouse button was pressed (data in event.mouseButton)</i></td></tr>
+<tr><th id="199">199</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseButtonReleased" title='sf::Event::EventType::MouseButtonReleased' data-ref="sf::Event::EventType::MouseButtonReleased">MouseButtonReleased</dfn>,    <i class="doc">///&lt; A mouse button was released (data in event.mouseButton)</i></td></tr>
+<tr><th id="200">200</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseMoved" title='sf::Event::EventType::MouseMoved' data-ref="sf::Event::EventType::MouseMoved">MouseMoved</dfn>,             <i class="doc">///&lt; The mouse cursor moved (data in event.mouseMove)</i></td></tr>
+<tr><th id="201">201</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseEntered" title='sf::Event::EventType::MouseEntered' data-ref="sf::Event::EventType::MouseEntered">MouseEntered</dfn>,           <i class="doc">///&lt; The mouse cursor entered the area of the window (no data)</i></td></tr>
+<tr><th id="202">202</th><td>        <dfn class="enum" id="sf::Event::EventType::MouseLeft" title='sf::Event::EventType::MouseLeft' data-ref="sf::Event::EventType::MouseLeft">MouseLeft</dfn>,              <i class="doc">///&lt; The mouse cursor left the area of the window (no data)</i></td></tr>
+<tr><th id="203">203</th><td>        <dfn class="enum" id="sf::Event::EventType::JoystickButtonPressed" title='sf::Event::EventType::JoystickButtonPressed' data-ref="sf::Event::EventType::JoystickButtonPressed">JoystickButtonPressed</dfn>,  <i class="doc">///&lt; A joystick button was pressed (data in event.joystickButton)</i></td></tr>
+<tr><th id="204">204</th><td>        <dfn class="enum" id="sf::Event::EventType::JoystickButtonReleased" title='sf::Event::EventType::JoystickButtonReleased' data-ref="sf::Event::EventType::JoystickButtonReleased">JoystickButtonReleased</dfn>, <i class="doc">///&lt; A joystick button was released (data in event.joystickButton)</i></td></tr>
+<tr><th id="205">205</th><td>        <dfn class="enum" id="sf::Event::EventType::JoystickMoved" title='sf::Event::EventType::JoystickMoved' data-ref="sf::Event::EventType::JoystickMoved">JoystickMoved</dfn>,          <i class="doc">///&lt; The joystick moved along an axis (data in event.joystickMove)</i></td></tr>
+<tr><th id="206">206</th><td>        <dfn class="enum" id="sf::Event::EventType::JoystickConnected" title='sf::Event::EventType::JoystickConnected' data-ref="sf::Event::EventType::JoystickConnected">JoystickConnected</dfn>,      <i class="doc">///&lt; A joystick was connected (data in event.joystickConnect)</i></td></tr>
+<tr><th id="207">207</th><td>        <dfn class="enum" id="sf::Event::EventType::JoystickDisconnected" title='sf::Event::EventType::JoystickDisconnected' data-ref="sf::Event::EventType::JoystickDisconnected">JoystickDisconnected</dfn>,   <i class="doc">///&lt; A joystick was disconnected (data in event.joystickConnect)</i></td></tr>
+<tr><th id="208">208</th><td>        <dfn class="enum" id="sf::Event::EventType::TouchBegan" title='sf::Event::EventType::TouchBegan' data-ref="sf::Event::EventType::TouchBegan">TouchBegan</dfn>,             <i class="doc">///&lt; A touch event began (data in event.touch)</i></td></tr>
+<tr><th id="209">209</th><td>        <dfn class="enum" id="sf::Event::EventType::TouchMoved" title='sf::Event::EventType::TouchMoved' data-ref="sf::Event::EventType::TouchMoved">TouchMoved</dfn>,             <i class="doc">///&lt; A touch moved (data in event.touch)</i></td></tr>
+<tr><th id="210">210</th><td>        <dfn class="enum" id="sf::Event::EventType::TouchEnded" title='sf::Event::EventType::TouchEnded' data-ref="sf::Event::EventType::TouchEnded">TouchEnded</dfn>,             <i class="doc">///&lt; A touch event ended (data in event.touch)</i></td></tr>
+<tr><th id="211">211</th><td>        <dfn class="enum" id="sf::Event::EventType::SensorChanged" title='sf::Event::EventType::SensorChanged' data-ref="sf::Event::EventType::SensorChanged">SensorChanged</dfn>,          <i class="doc">///&lt; A sensor value changed (data in event.sensor)</i></td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td>        <dfn class="enum" id="sf::Event::EventType::Count" title='sf::Event::EventType::Count' data-ref="sf::Event::EventType::Count">Count</dfn>                   <i class="doc">///&lt; Keep last -- the total number of event types</i></td></tr>
+<tr><th id="214">214</th><td>    };</td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td>    <i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="217">217</th><td><i>    // Member data</i></td></tr>
+<tr><th id="218">218</th><td><i>    ////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="219">219</th><td>    <a class="type" href="#sf::Event::EventType" title='sf::Event::EventType' data-ref="sf::Event::EventType">EventType</a> <dfn class="decl" id="sf::Event::type" title='sf::Event::type' data-ref="sf::Event::type">type</dfn>; <i class="doc">///&lt; Type of the event</i></td></tr>
+<tr><th id="220">220</th><td></td></tr>
+<tr><th id="221">221</th><td>    <b>union</b></td></tr>
+<tr><th id="222">222</th><td>    {</td></tr>
+<tr><th id="223">223</th><td>        <a class="type" href="#sf::Event::SizeEvent" title='sf::Event::SizeEvent' data-ref="sf::Event::SizeEvent">SizeEvent</a>             <dfn class="decl" id="sf::Event::(anonymous)::size" title='sf::Event::(anonymous union)::size' data-ref="sf::Event::(anonymous)::size">size</dfn>;              <i class="doc">///&lt; Size event parameters (Event::Resized)</i></td></tr>
+<tr><th id="224">224</th><td>        <a class="type" href="#sf::Event::KeyEvent" title='sf::Event::KeyEvent' data-ref="sf::Event::KeyEvent">KeyEvent</a>              <dfn class="decl" id="sf::Event::(anonymous)::key" title='sf::Event::(anonymous union)::key' data-ref="sf::Event::(anonymous)::key">key</dfn>;               <i class="doc">///&lt; Key event parameters (Event::KeyPressed, Event::KeyReleased)</i></td></tr>
+<tr><th id="225">225</th><td>        <a class="type" href="#sf::Event::TextEvent" title='sf::Event::TextEvent' data-ref="sf::Event::TextEvent">TextEvent</a>             <dfn class="decl" id="sf::Event::(anonymous)::text" title='sf::Event::(anonymous union)::text' data-ref="sf::Event::(anonymous)::text">text</dfn>;              <i class="doc">///&lt; Text event parameters (Event::TextEntered)</i></td></tr>
+<tr><th id="226">226</th><td>        <a class="type" href="#sf::Event::MouseMoveEvent" title='sf::Event::MouseMoveEvent' data-ref="sf::Event::MouseMoveEvent">MouseMoveEvent</a>        <dfn class="decl" id="sf::Event::(anonymous)::mouseMove" title='sf::Event::(anonymous union)::mouseMove' data-ref="sf::Event::(anonymous)::mouseMove">mouseMove</dfn>;         <i class="doc">///&lt; Mouse move event parameters (Event::MouseMoved)</i></td></tr>
+<tr><th id="227">227</th><td>        <a class="type" href="#sf::Event::MouseButtonEvent" title='sf::Event::MouseButtonEvent' data-ref="sf::Event::MouseButtonEvent">MouseButtonEvent</a>      <dfn class="decl" id="sf::Event::(anonymous)::mouseButton" title='sf::Event::(anonymous union)::mouseButton' data-ref="sf::Event::(anonymous)::mouseButton">mouseButton</dfn>;       <i class="doc">///&lt; Mouse button event parameters (Event::MouseButtonPressed, Event::MouseButtonReleased)</i></td></tr>
+<tr><th id="228">228</th><td>        <a class="type" href="#sf::Event::MouseWheelEvent" title='sf::Event::MouseWheelEvent' data-ref="sf::Event::MouseWheelEvent">MouseWheelEvent</a>       <dfn class="decl" id="sf::Event::(anonymous)::mouseWheel" title='sf::Event::(anonymous union)::mouseWheel' data-ref="sf::Event::(anonymous)::mouseWheel">mouseWheel</dfn>;        <i class="doc">///&lt; Mouse wheel event parameters (Event::MouseWheelMoved) (deprecated)</i></td></tr>
+<tr><th id="229">229</th><td>        <a class="type" href="#sf::Event::MouseWheelScrollEvent" title='sf::Event::MouseWheelScrollEvent' data-ref="sf::Event::MouseWheelScrollEvent">MouseWheelScrollEvent</a> <dfn class="decl" id="sf::Event::(anonymous)::mouseWheelScroll" title='sf::Event::(anonymous union)::mouseWheelScroll' data-ref="sf::Event::(anonymous)::mouseWheelScroll">mouseWheelScroll</dfn>;  <i class="doc">///&lt; Mouse wheel event parameters (Event::MouseWheelScrolled)</i></td></tr>
+<tr><th id="230">230</th><td>        <a class="type" href="#sf::Event::JoystickMoveEvent" title='sf::Event::JoystickMoveEvent' data-ref="sf::Event::JoystickMoveEvent">JoystickMoveEvent</a>     <dfn class="decl" id="sf::Event::(anonymous)::joystickMove" title='sf::Event::(anonymous union)::joystickMove' data-ref="sf::Event::(anonymous)::joystickMove">joystickMove</dfn>;      <i class="doc">///&lt; Joystick move event parameters (Event::JoystickMoved)</i></td></tr>
+<tr><th id="231">231</th><td>        <a class="type" href="#sf::Event::JoystickButtonEvent" title='sf::Event::JoystickButtonEvent' data-ref="sf::Event::JoystickButtonEvent">JoystickButtonEvent</a>   <dfn class="decl" id="sf::Event::(anonymous)::joystickButton" title='sf::Event::(anonymous union)::joystickButton' data-ref="sf::Event::(anonymous)::joystickButton">joystickButton</dfn>;    <i class="doc">///&lt; Joystick button event parameters (Event::JoystickButtonPressed, Event::JoystickButtonReleased)</i></td></tr>
+<tr><th id="232">232</th><td>        <a class="type" href="#sf::Event::JoystickConnectEvent" title='sf::Event::JoystickConnectEvent' data-ref="sf::Event::JoystickConnectEvent">JoystickConnectEvent</a>  <dfn class="decl" id="sf::Event::(anonymous)::joystickConnect" title='sf::Event::(anonymous union)::joystickConnect' data-ref="sf::Event::(anonymous)::joystickConnect">joystickConnect</dfn>;   <i class="doc">///&lt; Joystick (dis)connect event parameters (Event::JoystickConnected, Event::JoystickDisconnected)</i></td></tr>
+<tr><th id="233">233</th><td>        <a class="type" href="#sf::Event::TouchEvent" title='sf::Event::TouchEvent' data-ref="sf::Event::TouchEvent">TouchEvent</a>            <dfn class="decl" id="sf::Event::(anonymous)::touch" title='sf::Event::(anonymous union)::touch' data-ref="sf::Event::(anonymous)::touch">touch</dfn>;             <i class="doc">///&lt; Touch events parameters (Event::TouchBegan, Event::TouchMoved, Event::TouchEnded)</i></td></tr>
+<tr><th id="234">234</th><td>        <a class="type" href="#sf::Event::SensorEvent" title='sf::Event::SensorEvent' data-ref="sf::Event::SensorEvent">SensorEvent</a>           <dfn class="decl" id="sf::Event::(anonymous)::sensor" title='sf::Event::(anonymous union)::sensor' data-ref="sf::Event::(anonymous)::sensor">sensor</dfn>;            <i class="doc">///&lt; Sensor event parameters (Event::SensorChanged)</i></td></tr>
+<tr><th id="235">235</th><td>    };</td></tr>
+<tr><th id="236">236</th><td>};</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="239">239</th><td></td></tr>
+<tr><th id="240">240</th><td></td></tr>
+<tr><th id="241">241</th><td><u>#<span data-ppcond="25">endif</span> // SFML_EVENT_HPP</u></td></tr>
+<tr><th id="242">242</th><td></td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="245">245</th><td><i>/// \class sf::Event</i></td></tr>
+<tr><th id="246">246</th><td><i>/// \ingroup window</i></td></tr>
+<tr><th id="247">247</th><td><i>///</i></td></tr>
+<tr><th id="248">248</th><td><i>/// sf::Event holds all the informations about a system event</i></td></tr>
+<tr><th id="249">249</th><td><i>/// that just happened. Events are retrieved using the</i></td></tr>
+<tr><th id="250">250</th><td><i>/// sf::Window::pollEvent and sf::Window::waitEvent functions.</i></td></tr>
+<tr><th id="251">251</th><td><i>///</i></td></tr>
+<tr><th id="252">252</th><td><i>/// A sf::Event instance contains the type of the event</i></td></tr>
+<tr><th id="253">253</th><td><i>/// (mouse moved, key pressed, window closed, ...) as well</i></td></tr>
+<tr><th id="254">254</th><td><i>/// as the details about this particular event. Please note that</i></td></tr>
+<tr><th id="255">255</th><td><i>/// the event parameters are defined in a union, which means that</i></td></tr>
+<tr><th id="256">256</th><td><i>/// only the member matching the type of the event will be properly</i></td></tr>
+<tr><th id="257">257</th><td><i>/// filled; all other members will have undefined values and must not</i></td></tr>
+<tr><th id="258">258</th><td><i>/// be read if the type of the event doesn't match. For example,</i></td></tr>
+<tr><th id="259">259</th><td><i>/// if you received a KeyPressed event, then you must read the</i></td></tr>
+<tr><th id="260">260</th><td><i>/// event.key member, all other members such as event.mouseMove</i></td></tr>
+<tr><th id="261">261</th><td><i>/// or event.text will have undefined values.</i></td></tr>
+<tr><th id="262">262</th><td><i>///</i></td></tr>
+<tr><th id="263">263</th><td><i>/// Usage example:</i></td></tr>
+<tr><th id="264">264</th><td><i>/// \code</i></td></tr>
+<tr><th id="265">265</th><td><i>/// sf::Event event;</i></td></tr>
+<tr><th id="266">266</th><td><i>/// while (window.pollEvent(event))</i></td></tr>
+<tr><th id="267">267</th><td><i>/// {</i></td></tr>
+<tr><th id="268">268</th><td><i>///     // Request for closing the window</i></td></tr>
+<tr><th id="269">269</th><td><i>///     if (event.type == sf::Event::Closed)</i></td></tr>
+<tr><th id="270">270</th><td><i>///         window.close();</i></td></tr>
+<tr><th id="271">271</th><td><i>///</i></td></tr>
+<tr><th id="272">272</th><td><i>///     // The escape key was pressed</i></td></tr>
+<tr><th id="273">273</th><td><i>///     if ((event.type == sf::Event::KeyPressed) &amp;&amp; (event.key.code == sf::Keyboard::Escape))</i></td></tr>
+<tr><th id="274">274</th><td><i>///         window.close();</i></td></tr>
+<tr><th id="275">275</th><td><i>///</i></td></tr>
+<tr><th id="276">276</th><td><i>///     // The window was resized</i></td></tr>
+<tr><th id="277">277</th><td><i>///     if (event.type == sf::Event::Resized)</i></td></tr>
+<tr><th id="278">278</th><td><i>///         doSomethingWithTheNewSize(event.size.width, event.size.height);</i></td></tr>
+<tr><th id="279">279</th><td><i>///</i></td></tr>
+<tr><th id="280">280</th><td><i>///     // etc ...</i></td></tr>
+<tr><th id="281">281</th><td><i>/// }</i></td></tr>
+<tr><th id="282">282</th><td><i>/// \endcode</i></td></tr>
+<tr><th id="283">283</th><td><i>///</i></td></tr>
+<tr><th id="284">284</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="285">285</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../src/SFML/Window/Unix/GlxContext.cpp.html'>codebrowser/src/SFML/Window/Unix/GlxContext.cpp</a><br/>Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

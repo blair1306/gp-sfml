@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='290' type='unsigned int sf::Http::Response::getMinorHttpVersion() const'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='185' ll='188' type='unsigned int sf::Http::Response::getMinorHttpVersion() const'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='184'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='282'>////////////////////////////////////////////////////////////
+        /// \brief Get the minor HTTP version number of the response
+        ///
+        /// \return Minor HTTP version number
+        ///
+        /// \see getMajorHttpVersion
+        ///
+        ////////////////////////////////////////////////////////////</doc>

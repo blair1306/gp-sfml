@@ -1,0 +1,17 @@
+<dec f='include/freetype2/freetype/ftstroke.h' l='691' type='void FT_Stroker_Done(FT_Stroker stroker)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='162' u='c' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='227' u='c' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='304' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='491' u='c' c='_ZN2sf4Font7cleanupEv'/>
+<doc f='include/freetype2/freetype/ftstroke.h' l='678'>/**************************************************************
+   *
+   * @function:
+   *   FT_Stroker_Done
+   *
+   * @description:
+   *   Destroy a stroker object.
+   *
+   * @input:
+   *   stroker ::
+   *     A stroker handle.  Can be NULL.
+   */</doc>

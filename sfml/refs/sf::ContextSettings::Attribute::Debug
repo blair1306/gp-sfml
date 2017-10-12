@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='47' type='4'/>
+<doc f='codebrowser/include/SFML/Window/ContextSettings.hpp' l='47'>///&lt; Debug attribute</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='625' u='r' c='_ZN2sf4priv9GlContext10initializeERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='725' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='734' u='r' c='_ZN2sf4priv9GlContext13checkSettingsERKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='671' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='680' u='r' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>

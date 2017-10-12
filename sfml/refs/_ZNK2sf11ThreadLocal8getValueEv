@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='79' type='void * sf::ThreadLocal::getValue() const'/>
+<def f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='62' ll='65' type='void * sf::ThreadLocal::getValue() const'/>
+<doc f='codebrowser/src/SFML/System/ThreadLocal.cpp' l='61'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocal.hpp' l='73'>////////////////////////////////////////////////////////////
+    /// \brief Retrieve the thread-specific value of the variable
+    ///
+    /// \return Value of the variable for the current thread
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='40' u='c' c='_ZNK2sf14ThreadLocalPtrdeEv'/>
+<use f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='48' u='c' c='_ZNK2sf14ThreadLocalPtrptEv'/>
+<use f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='56' u='c' c='_ZNK2sf14ThreadLocalPtrcvPT_Ev'/>

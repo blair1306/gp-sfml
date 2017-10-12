@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='211' type='void sf::priv::WindowImplX11::setVideoMode(const sf::VideoMode &amp; mode)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='205'>////////////////////////////////////////////////////////////
+    /// \brief Set fullscreen video mode
+    ///
+    /// \param Mode video mode to switch to
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='711' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1229' ll='1283' type='void sf::priv::WindowImplX11::setVideoMode(const sf::VideoMode &amp; mode)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1228'>////////////////////////////////////////////////////////////</doc>

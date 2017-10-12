@@ -1,0 +1,102 @@
+<def f='codebrowser/include/SFML/System/Utf.hpp' l='47' ll='248'/>
+<def f='codebrowser/include/SFML/System/Utf.hpp' l='254' ll='455'/>
+<def f='codebrowser/include/SFML/System/Utf.hpp' l='461' ll='729'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/System/Utf.hpp' l='43'>////////////////////////////////////////////////////////////
+/// \brief Specialization of the Utf template for UTF-8
+///
+////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Utf.hpp' l='250'>////////////////////////////////////////////////////////////
+/// \brief Specialization of the Utf template for UTF-16
+///
+////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/Utf.hpp' l='457'>////////////////////////////////////////////////////////////
+/// \brief Specialization of the Utf template for UTF-32
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf3UtfILj8EE6decodeET_S2_Rjj'/>
+<fun r='_ZN2sf3UtfILj8EE6encodeEjT_h'/>
+<fun r='_ZN2sf3UtfILj8EE4nextET_S2_'/>
+<fun r='_ZN2sf3UtfILj8EE5countET_S2_'/>
+<fun r='_ZN2sf3UtfILj8EE8fromAnsiET_S2_T0_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj8EE8fromWideET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE10fromLatin1ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE6toAnsiET_S2_T0_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj8EE6toWideET_S2_T0_w'/>
+<fun r='_ZN2sf3UtfILj8EE8toLatin1ET_S2_T0_c'/>
+<fun r='_ZN2sf3UtfILj8EE6toUtf8ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE7toUtf16ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE7toUtf32ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE6decodeET_S2_Rjj'/>
+<fun r='_ZN2sf3UtfILj16EE6encodeEjT_t'/>
+<fun r='_ZN2sf3UtfILj16EE4nextET_S2_'/>
+<fun r='_ZN2sf3UtfILj16EE5countET_S2_'/>
+<fun r='_ZN2sf3UtfILj16EE8fromAnsiET_S2_T0_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj16EE8fromWideET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE10fromLatin1ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE6toAnsiET_S2_T0_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj16EE6toWideET_S2_T0_w'/>
+<fun r='_ZN2sf3UtfILj16EE8toLatin1ET_S2_T0_c'/>
+<fun r='_ZN2sf3UtfILj16EE6toUtf8ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE7toUtf16ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE7toUtf32ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE6decodeET_S2_Rjj'/>
+<fun r='_ZN2sf3UtfILj32EE6encodeEjT_j'/>
+<fun r='_ZN2sf3UtfILj32EE4nextET_S2_'/>
+<fun r='_ZN2sf3UtfILj32EE5countET_S2_'/>
+<fun r='_ZN2sf3UtfILj32EE8fromAnsiET_S2_T0_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE8fromWideET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE10fromLatin1ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE6toAnsiET_S2_T0_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE6toWideET_S2_T0_w'/>
+<fun r='_ZN2sf3UtfILj32EE8toLatin1ET_S2_T0_c'/>
+<fun r='_ZN2sf3UtfILj32EE6toUtf8ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE7toUtf16ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE7toUtf32ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE10decodeAnsiET_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE10decodeWideET_'/>
+<fun r='_ZN2sf3UtfILj32EE10encodeAnsiEjT_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE10encodeWideEjT_w'/>
+<fun r='_ZN2sf3UtfILj8EE6decodeET_S2_Rjj'/>
+<fun r='_ZN2sf3UtfILj8EE6encodeEjT_h'/>
+<fun r='_ZN2sf3UtfILj8EE4nextET_S2_'/>
+<fun r='_ZN2sf3UtfILj8EE5countET_S2_'/>
+<fun r='_ZN2sf3UtfILj8EE8fromAnsiET_S2_T0_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj8EE8fromWideET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE10fromLatin1ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE6toAnsiET_S2_T0_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj8EE6toWideET_S2_T0_w'/>
+<fun r='_ZN2sf3UtfILj8EE8toLatin1ET_S2_T0_c'/>
+<fun r='_ZN2sf3UtfILj8EE6toUtf8ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE7toUtf16ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj8EE7toUtf32ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE6decodeET_S2_Rjj'/>
+<fun r='_ZN2sf3UtfILj16EE6encodeEjT_t'/>
+<fun r='_ZN2sf3UtfILj16EE4nextET_S2_'/>
+<fun r='_ZN2sf3UtfILj16EE5countET_S2_'/>
+<fun r='_ZN2sf3UtfILj16EE8fromAnsiET_S2_T0_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj16EE8fromWideET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE10fromLatin1ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE6toAnsiET_S2_T0_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj16EE6toWideET_S2_T0_w'/>
+<fun r='_ZN2sf3UtfILj16EE8toLatin1ET_S2_T0_c'/>
+<fun r='_ZN2sf3UtfILj16EE6toUtf8ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE7toUtf16ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj16EE7toUtf32ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE6decodeET_S2_Rjj'/>
+<fun r='_ZN2sf3UtfILj32EE6encodeEjT_j'/>
+<fun r='_ZN2sf3UtfILj32EE4nextET_S2_'/>
+<fun r='_ZN2sf3UtfILj32EE5countET_S2_'/>
+<fun r='_ZN2sf3UtfILj32EE8fromAnsiET_S2_T0_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE8fromWideET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE10fromLatin1ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE6toAnsiET_S2_T0_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE6toWideET_S2_T0_w'/>
+<fun r='_ZN2sf3UtfILj32EE8toLatin1ET_S2_T0_c'/>
+<fun r='_ZN2sf3UtfILj32EE6toUtf8ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE7toUtf16ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE7toUtf32ET_S2_T0_'/>
+<fun r='_ZN2sf3UtfILj32EE10decodeAnsiET_RKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE10decodeWideET_'/>
+<fun r='_ZN2sf3UtfILj32EE10encodeAnsiEjT_cRKSt6locale'/>
+<fun r='_ZN2sf3UtfILj32EE10encodeWideEjT_w'/>

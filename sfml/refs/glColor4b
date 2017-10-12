@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1299' type='void glColor4b(GLbyte , GLbyte , GLbyte , GLbyte )'/>
+<dec f='include/GL/gl.h' l='999' type='void glColor4b(GLbyte red, GLbyte green, GLbyte blue, GLbyte alpha)'/>

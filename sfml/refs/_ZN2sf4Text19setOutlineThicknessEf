@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='218' type='void sf::Text::setOutlineThickness(float thickness)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='199' ll='206' type='void sf::Text::setOutlineThickness(float thickness)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='198'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='205'>////////////////////////////////////////////////////////////
+    /// \brief Set the thickness of the text&apos;s outline
+    ///
+    /// By default, the outline thickness is 0.
+    ///
+    /// Be aware that using a negative value for the outline
+    /// thickness will cause distorted rendering.
+    ///
+    /// \param thickness New outline thickness, in pixels
+    ///
+    /// \see getOutlineThickness
+    ///
+    ////////////////////////////////////////////////////////////</doc>

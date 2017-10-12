@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='101' type='static Socket::Status sf::priv::SocketImpl::getErrorStatus()'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='95'>////////////////////////////////////////////////////////////
+    /// Get the last socket error status
+    ///
+    /// \return Status corresponding to the last socket error
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpListener.cpp' l='119' u='c' c='_ZN2sf11TcpListener6acceptERNS_9TcpSocketE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='133' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='158' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='190' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='196' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='251' u='c' c='_ZN2sf9TcpSocket4sendEPKvmRm'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='292' u='c' c='_ZN2sf9TcpSocket7receiveEPvmRm'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='118' u='c' c='_ZN2sf9UdpSocket4sendEPKvmRKNS_9IpAddressEt'/>
+<use f='codebrowser/src/SFML/Network/UdpSocket.cpp' l='148' u='c' c='_ZN2sf9UdpSocket7receiveEPvmRmRNS_9IpAddressERt'/>
+<def f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='89' ll='108' type='static Socket::Status sf::priv::SocketImpl::getErrorStatus()'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='88'>////////////////////////////////////////////////////////////</doc>

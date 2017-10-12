@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='251' type='const sf::Font * sf::Text::getFont() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='217' ll='220' type='const sf::Font * sf::Text::getFont() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='216'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='239'>////////////////////////////////////////////////////////////
+    /// \brief Get the text&apos;s font
+    ///
+    /// If the text has no font attached, a NULL pointer is returned.
+    /// The returned pointer is const, which means that you
+    /// cannot modify the font when you get it from this function.
+    ///
+    /// \return Pointer to the text&apos;s font
+    ///
+    /// \see setFont
+    ///
+    ////////////////////////////////////////////////////////////</doc>

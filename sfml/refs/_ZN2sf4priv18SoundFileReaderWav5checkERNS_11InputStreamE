@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='55' type='static bool sf::priv::SoundFileReaderWav::check(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.hpp' l='47'>////////////////////////////////////////////////////////////
+    /// \brief Check if this reader can handle a file given by an input stream
+    ///
+    /// \param stream Source stream to check
+    ///
+    /// \return True if the file is supported by this reader
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='98' ll='106' type='static bool sf::priv::SoundFileReaderWav::check(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

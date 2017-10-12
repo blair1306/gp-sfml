@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1319' type='void glDeleteLists(GLuint , GLsizei )'/>
+<dec f='include/GL/gl.h' l='909' type='void glDeleteLists(GLuint list, GLsizei range)'/>

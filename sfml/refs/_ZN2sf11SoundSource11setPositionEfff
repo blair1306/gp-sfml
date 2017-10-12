@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='114' type='void sf::SoundSource::setPosition(float x, float y, float z)'/>
+<doc f='codebrowser/include/SFML/Audio/SoundSource.hpp' l='100'>////////////////////////////////////////////////////////////
+    /// \brief Set the 3D position of the sound in the audio scene
+    ///
+    /// Only sounds with one channel (mono sounds) can be
+    /// spatialized.
+    /// The default position of a sound is (0, 0, 0).
+    ///
+    /// \param x X coordinate of the position of the sound in the scene
+    /// \param y Y coordinate of the position of the sound in the scene
+    /// \param z Z coordinate of the position of the sound in the scene
+    ///
+    /// \see getPosition
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='80' ll='83' type='void sf::SoundSource::setPosition(float x, float y, float z)'/>
+<use f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='89' u='c' c='_ZN2sf11SoundSource11setPositionERKNS_7Vector3IfEE'/>
+<doc f='codebrowser/src/SFML/Audio/SoundSource.cpp' l='79'>////////////////////////////////////////////////////////////</doc>

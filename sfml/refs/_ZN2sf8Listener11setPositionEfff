@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/Listener.hpp' l='82' type='static void sf::Listener::setPosition(float x, float y, float z)'/>
+<doc f='codebrowser/include/SFML/Audio/Listener.hpp' l='70'>////////////////////////////////////////////////////////////
+    /// \brief Set the position of the listener in the scene
+    ///
+    /// The default listener&apos;s position is (0, 0, 0).
+    ///
+    /// \param x X coordinate of the listener&apos;s position
+    /// \param y Y coordinate of the listener&apos;s position
+    /// \param z Z coordinate of the listener&apos;s position
+    ///
+    /// \see getPosition, setDirection
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/Listener.cpp' l='49' ll='52' type='static void sf::Listener::setPosition(float x, float y, float z)'/>
+<doc f='codebrowser/src/SFML/Audio/Listener.cpp' l='48'>////////////////////////////////////////////////////////////</doc>

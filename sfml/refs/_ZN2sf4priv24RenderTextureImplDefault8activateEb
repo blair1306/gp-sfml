@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='84' type='bool sf::priv::RenderTextureImplDefault::activate(bool active)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Activate or deactivate the render texture for rendering
+    ///
+    /// \param active True to activate, false to deactivate
+    ///
+    /// \return True on success, false on failure
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<inh f='codebrowser/src/SFML/Graphics/RenderTextureImpl.hpp' l='73' c='_ZN2sf4priv17RenderTextureImpl8activateEb'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='72' ll='75' type='bool sf::priv::RenderTextureImplDefault::activate(bool active)'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='71'>////////////////////////////////////////////////////////////</doc>

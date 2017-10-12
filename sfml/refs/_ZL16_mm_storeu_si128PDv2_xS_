@@ -1,0 +1,3 @@
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3246' u='c' c='_ZL28stbi__resample_row_hv_2_simdPhS_S_ii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3403' u='c' c='_ZL23stbi__YCbCr_to_RGB_simdPhPKhS1_S1_ii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3404' u='c' c='_ZL23stbi__YCbCr_to_RGB_simdPhPKhS1_S1_ii'/>

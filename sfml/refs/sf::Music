@@ -1,0 +1,39 @@
+<inh f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='45' c='sf::SoundStream'/>
+<def f='codebrowser/include/SFML/Audio/Music.hpp' l='48' ll='283'/>
+<size>208</size>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='44'>////////////////////////////////////////////////////////////
+/// \brief Streamed music played from an audio file
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5MusicC1Ev'/>
+<fun r='_ZN2sf5MusicD1Ev'/>
+<fun r='_ZN2sf5Music12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf5Music14openFromMemoryEPKvm'/>
+<fun r='_ZN2sf5Music14openFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf5Music11getDurationEv'/>
+<fun r='_ZNK2sf5Music13getLoopPointsEv'/>
+<fun r='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<fun r='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<fun r='_ZN2sf5Music6onSeekENS_4TimeE'/>
+<fun r='_ZN2sf5Music6onLoopEv'/>
+<fun r='_ZN2sf5Music10initializeEv'/>
+<fun r='_ZNK2sf5Music13timeToSamplesENS_4TimeE'/>
+<fun r='_ZNK2sf5Music13samplesToTimeEy'/>
+<mbr r='sf::Music::m_file' o='896' t='sf::InputSoundFile'/>
+<mbr r='sf::Music::m_samples' o='1280' t='std::vector&lt;Int16&gt;'/>
+<mbr r='sf::Music::m_mutex' o='1472' t='sf::Mutex'/>
+<mbr r='sf::Music::m_loopSpan' o='1536' t='Span&lt;Uint64&gt;'/>
+<fun r='_ZN2sf5MusicC1Ev'/>
+<fun r='_ZN2sf5MusicD1Ev'/>
+<fun r='_ZN2sf5Music12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf5Music14openFromMemoryEPKvm'/>
+<fun r='_ZN2sf5Music14openFromStreamERNS_11InputStreamE'/>
+<fun r='_ZNK2sf5Music11getDurationEv'/>
+<fun r='_ZNK2sf5Music13getLoopPointsEv'/>
+<fun r='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<fun r='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<fun r='_ZN2sf5Music6onSeekENS_4TimeE'/>
+<fun r='_ZN2sf5Music6onLoopEv'/>
+<fun r='_ZN2sf5Music10initializeEv'/>
+<fun r='_ZNK2sf5Music13timeToSamplesENS_4TimeE'/>
+<fun r='_ZNK2sf5Music13samplesToTimeEy'/>

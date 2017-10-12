@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Texture.hpp' l='69' type='void sf::Texture::Texture()'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='715' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<doc f='codebrowser/include/SFML/Graphics/Texture.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Creates an empty texture.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='83' u='c' c='_ZNK2sf12RenderWindow7captureEv'/>
+<def f='codebrowser/src/SFML/Graphics/Texture.cpp' l='62' ll='74' type='void sf::Texture::Texture()'/>
+<doc f='codebrowser/src/SFML/Graphics/Texture.cpp' l='61'>////////////////////////////////////////////////////////////</doc>

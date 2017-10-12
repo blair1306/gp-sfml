@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='326' type='bool'/>
+<offset>1344</offset>
+<doc f='codebrowser/include/SFML/Graphics/Transformable.hpp' l='326'>///&lt; Does the transform need to be recomputed?</doc>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='43' u='w' c='_ZN2sf13TransformableC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='60' u='w' c='_ZN2sf13Transformable11setPositionEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='79' u='w' c='_ZN2sf13Transformable11setRotationEf'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='89' u='w' c='_ZN2sf13Transformable8setScaleEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='106' u='w' c='_ZN2sf13Transformable9setOriginEff'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='210' u='r' c='_ZNK2sf13Transformable19getInverseTransformEv'/>
+<use f='codebrowser/src/SFML/Graphics/Transformable.cpp' l='213' u='w' c='_ZNK2sf13Transformable19getInverseTransformEv'/>

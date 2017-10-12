@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Graphics/BlendMode.hpp' l='133' type='bool sf::operator==(const sf::BlendMode &amp; left, const sf::BlendMode &amp; right)'/>
+<def f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='86' ll='94' type='bool sf::operator==(const sf::BlendMode &amp; left, const sf::BlendMode &amp; right)'/>
+<use f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='100' u='c' c='_ZN2sfneERKNS_9BlendModeES2_'/>
+<doc f='codebrowser/src/SFML/Graphics/BlendMode.cpp' l='85'>////////////////////////////////////////////////////////////</doc>

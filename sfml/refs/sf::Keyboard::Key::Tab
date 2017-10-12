@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='111' type='60'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='111'>///&lt; The Tabulation key</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='71' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='393' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='59' type='2'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='576' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='59'>///&lt; Text mode using EBCDIC encoding</doc>

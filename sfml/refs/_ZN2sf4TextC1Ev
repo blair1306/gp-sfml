@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='71' type='void sf::Text::Text()'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='76' ll='90' type='void sf::Text::Text()'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='75'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='65'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Creates an empty text.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

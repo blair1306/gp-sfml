@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='105' type='Joystick::Identification sf::priv::JoystickImpl::getIdentification() const'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='99'>////////////////////////////////////////////////////////////
+    /// \brief Get the joystick identification
+    ///
+    /// \return Joystick identification
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='94' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='635' ll='638' type='Joystick::Identification sf::priv::JoystickImpl::getIdentification() const'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='634'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='380' type='void sf::Text::ensureGeometryUpdate() const'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='314' u='c' c='_ZNK2sf4Text14getLocalBoundsEv'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='332' u='c' c='_ZNK2sf4Text4drawERNS_12RenderTargetENS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='347' ll='507' type='void sf::Text::ensureGeometryUpdate() const'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='346'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='373'>////////////////////////////////////////////////////////////
+    /// \brief Make sure the text&apos;s geometry is updated
+    ///
+    /// All the attributes related to rendering are cached, such
+    /// that the geometry is only updated when necessary.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

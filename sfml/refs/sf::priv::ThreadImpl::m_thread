@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='84' type='pthread_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='81'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/src/SFML/System/Unix/ThreadImpl.hpp' l='84'>///&lt; pthread thread instance</doc>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='42' u='a' c='_ZN2sf4priv10ThreadImplC1EPNS_6ThreadE'/>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='55' u='r' c='_ZN2sf4priv10ThreadImpl4waitEv'/>
+<use f='codebrowser/src/SFML/System/Unix/ThreadImpl.cpp' l='66' u='r' c='_ZN2sf4priv10ThreadImpl9terminateEv'/>

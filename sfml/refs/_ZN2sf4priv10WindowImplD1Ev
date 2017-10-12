@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='90' type='void sf::priv::WindowImpl::~WindowImpl()'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='718' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<def f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='98' ll='101' type='void sf::priv::WindowImpl::~WindowImpl()'/>
+<doc f='codebrowser/src/SFML/Window/WindowImpl.cpp' l='97'>////////////////////////////////////////////////////////////</doc>

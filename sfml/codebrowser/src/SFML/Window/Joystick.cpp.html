@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Joystick.cpp source code [codebrowser/src/SFML/Window/Joystick.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/Window/Joystick.cpp'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>SFML</a>/<a href='./'>Window</a>/<a href='Joystick.cpp.html'>Joystick.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="../../../include/SFML/Window/Joystick.hpp.html">&lt;SFML/Window/Joystick.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="JoystickManager.hpp.html">&lt;SFML/Window/JoystickManager.hpp&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="33">33</th><td>{</td></tr>
+<tr><th id="34">34</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="35">35</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick11isConnectedEj" title='sf::Joystick::isConnected' data-ref="_ZN2sf8Joystick11isConnectedEj">isConnected</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="37joystick" title='joystick' data-type='unsigned int' data-ref="37joystick">joystick</dfn>)</td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td>    <b>return</b> <span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZNK2sf4priv15JoystickManager8getStateEj" title='sf::priv::JoystickManager::getState' data-ref="_ZNK2sf4priv15JoystickManager8getStateEj">getState</a>(<a class="local col7 ref" href="#37joystick" title='joystick' data-ref="37joystick">joystick</a>).<a class="ref" href="JoystickImpl.hpp.html#sf::priv::JoystickState::connected" title='sf::priv::JoystickState::connected' data-ref="sf::priv::JoystickState::connected">connected</a>;</td></tr>
+<tr><th id="38">38</th><td>}</td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="42">42</th><td><em>unsigned</em> <em>int</em> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick14getButtonCountEj" title='sf::Joystick::getButtonCount' data-ref="_ZN2sf8Joystick14getButtonCountEj">getButtonCount</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col8 decl" id="38joystick" title='joystick' data-type='unsigned int' data-ref="38joystick">joystick</dfn>)</td></tr>
+<tr><th id="43">43</th><td>{</td></tr>
+<tr><th id="44">44</th><td>    <b>return</b> <span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZNK2sf4priv15JoystickManager15getCapabilitiesEj" title='sf::priv::JoystickManager::getCapabilities' data-ref="_ZNK2sf4priv15JoystickManager15getCapabilitiesEj">getCapabilities</a>(<a class="local col8 ref" href="#38joystick" title='joystick' data-ref="38joystick">joystick</a>).<a class="ref" href="JoystickImpl.hpp.html#sf::priv::JoystickCaps::buttonCount" title='sf::priv::JoystickCaps::buttonCount' data-ref="sf::priv::JoystickCaps::buttonCount">buttonCount</a>;</td></tr>
+<tr><th id="45">45</th><td>}</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="49">49</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick7hasAxisEjNS0_4AxisE" title='sf::Joystick::hasAxis' data-ref="_ZN2sf8Joystick7hasAxisEjNS0_4AxisE">hasAxis</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col9 decl" id="39joystick" title='joystick' data-type='unsigned int' data-ref="39joystick">joystick</dfn>, <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Axis" title='sf::Joystick::Axis' data-ref="sf::Joystick::Axis">Axis</a> <dfn class="local col0 decl" id="40axis" title='axis' data-type='sf::Joystick::Axis' data-ref="40axis">axis</dfn>)</td></tr>
+<tr><th id="50">50</th><td>{</td></tr>
+<tr><th id="51">51</th><td>    <b>return</b> <span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZNK2sf4priv15JoystickManager15getCapabilitiesEj" title='sf::priv::JoystickManager::getCapabilities' data-ref="_ZNK2sf4priv15JoystickManager15getCapabilitiesEj">getCapabilities</a>(<a class="local col9 ref" href="#39joystick" title='joystick' data-ref="39joystick">joystick</a>).<a class="ref" href="JoystickImpl.hpp.html#sf::priv::JoystickCaps::axes" title='sf::priv::JoystickCaps::axes' data-ref="sf::priv::JoystickCaps::axes">axes</a>[<a class="local col0 ref" href="#40axis" title='axis' data-ref="40axis">axis</a>];</td></tr>
+<tr><th id="52">52</th><td>}</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="56">56</th><td><em>bool</em> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick15isButtonPressedEjj" title='sf::Joystick::isButtonPressed' data-ref="_ZN2sf8Joystick15isButtonPressedEjj">isButtonPressed</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col1 decl" id="41joystick" title='joystick' data-type='unsigned int' data-ref="41joystick">joystick</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="42button" title='button' data-type='unsigned int' data-ref="42button">button</dfn>)</td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>    <b>return</b> <span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZNK2sf4priv15JoystickManager8getStateEj" title='sf::priv::JoystickManager::getState' data-ref="_ZNK2sf4priv15JoystickManager8getStateEj">getState</a>(<a class="local col1 ref" href="#41joystick" title='joystick' data-ref="41joystick">joystick</a>).<a class="ref" href="JoystickImpl.hpp.html#sf::priv::JoystickState::buttons" title='sf::priv::JoystickState::buttons' data-ref="sf::priv::JoystickState::buttons">buttons</a>[<a class="local col2 ref" href="#42button" title='button' data-ref="42button">button</a>];</td></tr>
+<tr><th id="59">59</th><td>}</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="63">63</th><td><em>float</em> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE" title='sf::Joystick::getAxisPosition' data-ref="_ZN2sf8Joystick15getAxisPositionEjNS0_4AxisE">getAxisPosition</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col3 decl" id="43joystick" title='joystick' data-type='unsigned int' data-ref="43joystick">joystick</dfn>, <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Axis" title='sf::Joystick::Axis' data-ref="sf::Joystick::Axis">Axis</a> <dfn class="local col4 decl" id="44axis" title='axis' data-type='sf::Joystick::Axis' data-ref="44axis">axis</dfn>)</td></tr>
+<tr><th id="64">64</th><td>{</td></tr>
+<tr><th id="65">65</th><td>    <b>return</b> <span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZNK2sf4priv15JoystickManager8getStateEj" title='sf::priv::JoystickManager::getState' data-ref="_ZNK2sf4priv15JoystickManager8getStateEj">getState</a>(<a class="local col3 ref" href="#43joystick" title='joystick' data-ref="43joystick">joystick</a>).<a class="ref" href="JoystickImpl.hpp.html#sf::priv::JoystickState::axes" title='sf::priv::JoystickState::axes' data-ref="sf::priv::JoystickState::axes">axes</a>[<a class="local col4 ref" href="#44axis" title='axis' data-ref="44axis">axis</a>];</td></tr>
+<tr><th id="66">66</th><td>}</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="70">70</th><td><a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Identification" title='sf::Joystick::Identification' data-ref="sf::Joystick::Identification">Identification</a> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick17getIdentificationEj" title='sf::Joystick::getIdentification' data-ref="_ZN2sf8Joystick17getIdentificationEj">getIdentification</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col5 decl" id="45joystick" title='joystick' data-type='unsigned int' data-ref="45joystick">joystick</dfn>)</td></tr>
+<tr><th id="71">71</th><td>{</td></tr>
+<tr><th id="72">72</th><td>    <b>return</b> <a class="ref fake" href="../../../include/SFML/Window/Joystick.hpp.html#76" title='sf::Joystick::Identification::Identification' data-ref="_ZN2sf8Joystick14IdentificationC1ERKS1_"></a><span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZNK2sf4priv15JoystickManager17getIdentificationEj" title='sf::priv::JoystickManager::getIdentification' data-ref="_ZNK2sf4priv15JoystickManager17getIdentificationEj">getIdentification</a>(<a class="local col5 ref" href="#45joystick" title='joystick' data-ref="45joystick">joystick</a>);</td></tr>
+<tr><th id="73">73</th><td>}</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="77">77</th><td><em>void</em> <a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<dfn class="decl def" id="_ZN2sf8Joystick6updateEv" title='sf::Joystick::update' data-ref="_ZN2sf8Joystick6updateEv">update</dfn>()</td></tr>
+<tr><th id="78">78</th><td>{</td></tr>
+<tr><th id="79">79</th><td>    <b>return</b> <span class="namespace">priv::</span><a class="type" href="JoystickManager.hpp.html#sf::priv::JoystickManager" title='sf::priv::JoystickManager' data-ref="sf::priv::JoystickManager">JoystickManager</a>::<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager11getInstanceEv" title='sf::priv::JoystickManager::getInstance' data-ref="_ZN2sf4priv15JoystickManager11getInstanceEv">getInstance</a>().<a class="ref" href="JoystickManager.hpp.html#_ZN2sf4priv15JoystickManager6updateEv" title='sf::priv::JoystickManager::update' data-ref="_ZN2sf4priv15JoystickManager6updateEv">update</a>();</td></tr>
+<tr><th id="80">80</th><td>}</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="84">84</th><td><a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick" title='sf::Joystick' data-ref="sf::Joystick">Joystick</a>::<a class="type" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Identification" title='sf::Joystick::Identification' data-ref="sf::Joystick::Identification">Identification</a>::<dfn class="decl def" id="_ZN2sf8Joystick14IdentificationC1Ev" title='sf::Joystick::Identification::Identification' data-ref="_ZN2sf8Joystick14IdentificationC1Ev">Identification</dfn>() :</td></tr>
+<tr><th id="85">85</th><td><a class="member" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Identification::name" title='sf::Joystick::Identification::name' data-ref="sf::Joystick::Identification::name">name</a>     <a class="ref" href="../../../include/SFML/System/String.hpp.html#_ZN2sf6StringC1EPKcRKSt6locale" title='sf::String::String' data-ref="_ZN2sf6StringC1EPKcRKSt6locale">(</a><q>"No Joystick"</q>),</td></tr>
+<tr><th id="86">86</th><td><a class="member" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Identification::vendorId" title='sf::Joystick::Identification::vendorId' data-ref="sf::Joystick::Identification::vendorId">vendorId</a> (<var>0</var>),</td></tr>
+<tr><th id="87">87</th><td><a class="member" href="../../../include/SFML/Window/Joystick.hpp.html#sf::Joystick::Identification::productId" title='sf::Joystick::Identification::productId' data-ref="sf::Joystick::Identification::productId">productId</a>(<var>0</var>)</td></tr>
+<tr><th id="88">88</th><td>{</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>}</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

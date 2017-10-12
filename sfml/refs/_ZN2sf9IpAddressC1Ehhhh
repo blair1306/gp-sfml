@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Network/IpAddress.hpp' l='94' type='void sf::IpAddress::IpAddress(Uint8 byte0, Uint8 byte1, Uint8 byte2, Uint8 byte3)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='562' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/include/SFML/Network/IpAddress.hpp' l='81'>////////////////////////////////////////////////////////////
+    /// \brief Construct the address from 4 bytes
+    ///
+    /// Calling IpAddress(a, b, c, d) is equivalent to calling
+    /// IpAddress(&quot;a.b.c.d&quot;), but safer as it doesn&apos;t have to
+    /// parse a string to get the address components.
+    ///
+    /// \param byte0 First byte of the address
+    /// \param byte1 Second byte of the address
+    /// \param byte2 Third byte of the address
+    /// \param byte3 Fourth byte of the address
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='39' u='c'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='40' u='c'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='41' u='c'/>
+<def f='codebrowser/src/SFML/Network/IpAddress.cpp' l='71' ll='75' type='void sf::IpAddress::IpAddress(Uint8 byte0, Uint8 byte1, Uint8 byte2, Uint8 byte3)'/>
+<doc f='codebrowser/src/SFML/Network/IpAddress.cpp' l='70'>////////////////////////////////////////////////////////////</doc>

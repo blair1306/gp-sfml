@@ -1,0 +1,19 @@
+<dec f='include/c++/5/istream' l='486' type='__istream_type &amp; std::basic_istream::read(char_type * __s, streamsize __n)'/>
+<def f='include/c++/5/bits/istream.tcc' l='647' ll='674' type='basic_istream&lt;_CharT, _Traits&gt; &amp; std::basic_istream::read(char_type * __s, streamsize __n)'/>
+<doc f='include/c++/5/istream' l='470'>/**
+       *  @brief  Extraction without delimiters.
+       *  @param  __s  A character array.
+       *  @param  __n  Maximum number of characters to store.
+       *  @return  *this
+       *
+       *  If the stream state is @c good(), extracts characters and stores
+       *  them into @a __s until one of the following happens:
+       *  - @a __n characters are stored
+       *  - the input sequence reaches end-of-file, in which case the error
+       *    state is set to @c failbit|eofbit.
+       *
+       *  @note  This function is not overloaded on signed char and
+       *         unsigned char.
+      */</doc>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='93' u='c' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='626' u='c' c='_ZN2sf3Ftp11DataChannel4sendERSi'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6838' ll='6848' type='int stbi__pnm_getinteger(stbi__context * s, char * c)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6874' u='c' c='_ZL14stbi__pnm_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6877' u='c' c='_ZL14stbi__pnm_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6880' u='c' c='_ZL14stbi__pnm_infoP13stbi__contextPiS1_S1_'/>

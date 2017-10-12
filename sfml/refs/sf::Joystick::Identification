@@ -1,0 +1,11 @@
+<def f='codebrowser/include/SFML/Window/Joystick.hpp' l='76' ll='83'/>
+<size>40</size>
+<doc f='codebrowser/include/SFML/Window/Joystick.hpp' l='72'>////////////////////////////////////////////////////////////
+    /// \brief Structure holding a joystick&apos;s identification
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf8Joystick14IdentificationC1Ev'/>
+<mbr r='sf::Joystick::Identification::name' o='0' t='sf::String'/>
+<mbr r='sf::Joystick::Identification::vendorId' o='256' t='unsigned int'/>
+<mbr r='sf::Joystick::Identification::productId' o='288' t='unsigned int'/>
+<fun r='_ZN2sf8Joystick14IdentificationC1Ev'/>

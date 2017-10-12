@@ -1,0 +1,9 @@
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Window/GlResource.hpp' l='64' ll='78'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/GlResource.hpp' l='60'>////////////////////////////////////////////////////////////
+    /// \brief RAII helper class to temporarily lock an available context for use
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf10GlResource20TransientContextLockC1Ev'/>
+<fun r='_ZN2sf10GlResource20TransientContextLockD1Ev'/>

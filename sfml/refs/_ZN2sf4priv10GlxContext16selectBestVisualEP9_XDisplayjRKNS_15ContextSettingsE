@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='133' type='static XVisualInfo sf::priv::GlxContext::selectBestVisual(::Display * display, unsigned int bitsPerPixel, const sf::ContextSettings &amp; settings)'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.hpp' l='123'>////////////////////////////////////////////////////////////
+    /// \brief Select the best GLX visual for a given set of settings
+    ///
+    /// \param display      X display
+    /// \param bitsPerPixel Pixel depth, in bits per pixel
+    /// \param settings     Requested context settings
+    ///
+    /// \return The best visual
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='311' ll='388' type='static XVisualInfo sf::priv::GlxContext::selectBestVisual(::Display * display, unsigned int bitsPerPixel, const sf::ContextSettings &amp; settings)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='457' u='c' c='_ZN2sf4priv10GlxContext13createSurfaceEPS1_jjj'/>
+<doc f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='310'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='564' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='496' type='void sf::Shader::setUniformArray(const std::string &amp; name, const float * scalarArray, std::size_t length)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='488'>////////////////////////////////////////////////////////////
+    /// \brief Specify values for \p float[] array uniform
+    ///
+    /// \param name        Name of the uniform variable in GLSL
+    /// \param scalarArray pointer to array of \p float values
+    /// \param length      Number of elements in the array
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='592' ll='597' type='void sf::Shader::setUniformArray(const std::string &amp; name, const float * scalarArray, std::size_t length)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='591'>////////////////////////////////////////////////////////////</doc>

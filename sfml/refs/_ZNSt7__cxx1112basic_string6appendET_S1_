@@ -1,0 +1,2 @@
+<def f='include/c++/5/bits/basic_string.h' l='1069' ll='1071' type='basic_string&lt;_CharT, _Traits, _Alloc&gt; &amp; std::__cxx11::basic_string::append(_InputIterator __first, _InputIterator __last)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='400' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>

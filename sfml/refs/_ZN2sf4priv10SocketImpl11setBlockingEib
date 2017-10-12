@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='93' type='static void sf::priv::SocketImpl::setBlocking(SocketHandle sock, bool block)'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.hpp' l='86'>////////////////////////////////////////////////////////////
+    /// \brief Set a socket as blocking or non-blocking
+    ///
+    /// \param sock  Handle of the socket
+    /// \param block New blocking state of the socket
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Socket.cpp' l='58' u='c' c='_ZN2sf6Socket11setBlockingEb'/>
+<def f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='71' ll='85' type='static void sf::priv::SocketImpl::setBlocking(SocketHandle sock, bool block)'/>
+<doc f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='70'>////////////////////////////////////////////////////////////</doc>

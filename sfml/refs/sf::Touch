@@ -1,0 +1,12 @@
+<def f='codebrowser/include/SFML/Window/Touch.hpp' l='43' ll='83'/>
+<size>1</size>
+<doc f='codebrowser/include/SFML/Window/Touch.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Give access to the real-time state of the touches
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf5Touch6isDownEj'/>
+<fun r='_ZN2sf5Touch11getPositionEj'/>
+<fun r='_ZN2sf5Touch11getPositionEjRKNS_6WindowE'/>
+<fun r='_ZN2sf5Touch6isDownEj'/>
+<fun r='_ZN2sf5Touch11getPositionEj'/>
+<fun r='_ZN2sf5Touch11getPositionEjRKNS_6WindowE'/>

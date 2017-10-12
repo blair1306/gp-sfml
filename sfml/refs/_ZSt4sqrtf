@@ -1,0 +1,2 @@
+<def f='include/c++/5/cmath' l='481' ll='483' type='float std::sqrt(float __x)'/>
+<use f='codebrowser/src/SFML/Graphics/Shape.cpp' l='41' u='c' c='_ZN12_GLOBAL__N_113computeNormalERKN2sf7Vector2IfEES4_'/>

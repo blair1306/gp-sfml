@@ -1,0 +1,11 @@
+<def f='codebrowser/include/SFML/Audio/Music.hpp' l='75' ll='80' type='void sf::Music::Span::Span&lt;T&gt;(T off, T len)'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='40' u='c' c='_ZN2sf5MusicC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='115' u='c' c='_ZNK2sf5Music13getLoopPointsEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='122' u='c' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='68'>////////////////////////////////////////////////////////////
+        /// \brief Initialization constructor
+        ///
+        /// \param off Initial Offset
+        /// \param len Initial Length
+        ///
+        ////////////////////////////////////////////////////////////</doc>

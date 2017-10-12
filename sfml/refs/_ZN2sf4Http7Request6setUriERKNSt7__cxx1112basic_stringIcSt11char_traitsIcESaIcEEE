@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='121' type='void sf::Http::Request::setUri(const std::string &amp; uri)'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='55' u='c' c='_ZN2sf4Http7RequestC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS1_6MethodES9_'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='76' ll='83' type='void sf::Http::Request::setUri(const std::string &amp; uri)'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='75'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='111'>////////////////////////////////////////////////////////////
+        /// \brief Set the requested URI
+        ///
+        /// The URI is the resource (usually a web page or a file)
+        /// that you want to get or post.
+        /// The URI is &quot;/&quot; (the root page) by default.
+        ///
+        /// \param uri URI to request, relative to the host
+        ///
+        ////////////////////////////////////////////////////////////</doc>

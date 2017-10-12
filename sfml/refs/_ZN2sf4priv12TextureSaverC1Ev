@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='52' type='void sf::priv::TextureSaver::TextureSaver()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplDefault.cpp' l='82' u='c' c='_ZN2sf4priv24RenderTextureImplDefault13updateTextureEj'/>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.hpp' l='46'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// The current texture binding is saved.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='167' u='c' c='_ZN2sf7Texture6createEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='285' u='c' c='_ZN2sf7Texture13loadFromImageERKNS_5ImageERKNS_4RectIiEE'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='330' u='c' c='_ZNK2sf7Texture11copyToImageEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='421' u='c' c='_ZN2sf7Texture6updateEPKhjjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='562' u='c' c='_ZN2sf7Texture6updateERKNS_6WindowEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='591' u='c' c='_ZN2sf7Texture9setSmoothEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='642' u='c' c='_ZN2sf7Texture11setRepeatedEb'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='690' u='c' c='_ZN2sf7Texture14generateMipmapEv'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='711' u='c' c='_ZN2sf7Texture16invalidateMipmapEv'/>
+<def f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='36' ll='39' type='void sf::priv::TextureSaver::TextureSaver()'/>
+<doc f='codebrowser/src/SFML/Graphics/TextureSaver.cpp' l='35'>////////////////////////////////////////////////////////////</doc>

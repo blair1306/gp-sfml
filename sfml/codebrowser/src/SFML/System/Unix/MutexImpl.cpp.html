@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MutexImpl.cpp source code [codebrowser/src/SFML/System/Unix/MutexImpl.cpp] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/SFML/System/Unix/MutexImpl.cpp'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>SFML</a>/<a href='..'>System</a>/<a href='./'>Unix</a>/<a href='MutexImpl.cpp.html'>MutexImpl.cpp</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="2">2</th><td><i>//</i></td></tr>
+<tr><th id="3">3</th><td><i>// SFML - Simple and Fast Multimedia Library</i></td></tr>
+<tr><th id="4">4</th><td><i>// Copyright (C) 2007-2017 Laurent Gomila (laurent@sfml-dev.org)</i></td></tr>
+<tr><th id="5">5</th><td><i>//</i></td></tr>
+<tr><th id="6">6</th><td><i>// This software is provided 'as-is', without any express or implied warranty.</i></td></tr>
+<tr><th id="7">7</th><td><i>// In no event will the authors be held liable for any damages arising from the use of this software.</i></td></tr>
+<tr><th id="8">8</th><td><i>//</i></td></tr>
+<tr><th id="9">9</th><td><i>// Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>// including commercial applications, and to alter it and redistribute it freely,</i></td></tr>
+<tr><th id="11">11</th><td><i>// subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i>//</i></td></tr>
+<tr><th id="13">13</th><td><i>// 1. The origin of this software must not be misrepresented;</i></td></tr>
+<tr><th id="14">14</th><td><i>//    you must not claim that you wrote the original software.</i></td></tr>
+<tr><th id="15">15</th><td><i>//    If you use this software in a product, an acknowledgment</i></td></tr>
+<tr><th id="16">16</th><td><i>//    in the product documentation would be appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>//</i></td></tr>
+<tr><th id="18">18</th><td><i>// 2. Altered source versions must be plainly marked as such,</i></td></tr>
+<tr><th id="19">19</th><td><i>//    and must not be misrepresented as being the original software.</i></td></tr>
+<tr><th id="20">20</th><td><i>//</i></td></tr>
+<tr><th id="21">21</th><td><i>// 3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="22">22</th><td><i>//</i></td></tr>
+<tr><th id="23">23</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="26">26</th><td><i>// Headers</i></td></tr>
+<tr><th id="27">27</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="MutexImpl.hpp.html">&lt;SFML/System/Unix/MutexImpl.hpp&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>namespace</b> <span class="namespace">sf</span></td></tr>
+<tr><th id="32">32</th><td>{</td></tr>
+<tr><th id="33">33</th><td><b>namespace</b> <span class="namespace">priv</span></td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="36">36</th><td><a class="type" href="MutexImpl.hpp.html#sf::priv::MutexImpl" title='sf::priv::MutexImpl' data-ref="sf::priv::MutexImpl">MutexImpl</a>::<dfn class="decl def" id="_ZN2sf4priv9MutexImplC1Ev" title='sf::priv::MutexImpl::MutexImpl' data-ref="_ZN2sf4priv9MutexImplC1Ev">MutexImpl</dfn>()</td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td>    <i>// Make it recursive to follow the expected behavior</i></td></tr>
+<tr><th id="39">39</th><td>    <a class="typedef" href="../../../../../include/x86_64-linux-gnu/bits/pthreadtypes.h.html#pthread_mutexattr_t" title='pthread_mutexattr_t' data-type='union pthread_mutexattr_t' data-ref="pthread_mutexattr_t">pthread_mutexattr_t</a> <a class="ref fake" href="../../../../../include/x86_64-linux-gnu/bits/pthreadtypes.h.html#130" title='(anonymous union)::' data-ref="_ZN19pthread_mutexattr_tC1Ev"></a><dfn class="local col1 decl" id="1attributes" title='attributes' data-type='pthread_mutexattr_t' data-ref="1attributes">attributes</dfn>;</td></tr>
+<tr><th id="40">40</th><td>    <a class="ref" href="../../../../../include/pthread.h.html#pthread_mutexattr_init" title='pthread_mutexattr_init' data-ref="pthread_mutexattr_init">pthread_mutexattr_init</a>(&amp;<a class="local col1 ref" href="#1attributes" title='attributes' data-ref="1attributes">attributes</a>);</td></tr>
+<tr><th id="41">41</th><td>    <a class="ref" href="../../../../../include/pthread.h.html#pthread_mutexattr_settype" title='pthread_mutexattr_settype' data-ref="pthread_mutexattr_settype">pthread_mutexattr_settype</a>(&amp;<a class="local col1 ref" href="#1attributes" title='attributes' data-ref="1attributes">attributes</a>, <a class="enum" href="../../../../../include/pthread.h.html#PTHREAD_MUTEX_RECURSIVE" title='PTHREAD_MUTEX_RECURSIVE' data-ref="PTHREAD_MUTEX_RECURSIVE">PTHREAD_MUTEX_RECURSIVE</a>);</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td>    <a class="ref" href="../../../../../include/pthread.h.html#pthread_mutex_init" title='pthread_mutex_init' data-ref="pthread_mutex_init">pthread_mutex_init</a>(&amp;<a class="member" href="MutexImpl.hpp.html#sf::priv::MutexImpl::m_mutex" title='sf::priv::MutexImpl::m_mutex' data-ref="sf::priv::MutexImpl::m_mutex">m_mutex</a>, &amp;<a class="local col1 ref" href="#1attributes" title='attributes' data-ref="1attributes">attributes</a>);</td></tr>
+<tr><th id="44">44</th><td>}</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="48">48</th><td><a class="type" href="MutexImpl.hpp.html#sf::priv::MutexImpl" title='sf::priv::MutexImpl' data-ref="sf::priv::MutexImpl">MutexImpl</a>::<dfn class="decl def" id="_ZN2sf4priv9MutexImplD1Ev" title='sf::priv::MutexImpl::~MutexImpl' data-ref="_ZN2sf4priv9MutexImplD1Ev">~MutexImpl</dfn>()</td></tr>
+<tr><th id="49">49</th><td>{</td></tr>
+<tr><th id="50">50</th><td>    <a class="ref" href="../../../../../include/pthread.h.html#pthread_mutex_destroy" title='pthread_mutex_destroy' data-ref="pthread_mutex_destroy">pthread_mutex_destroy</a>(&amp;<a class="member" href="MutexImpl.hpp.html#sf::priv::MutexImpl::m_mutex" title='sf::priv::MutexImpl::m_mutex' data-ref="sf::priv::MutexImpl::m_mutex">m_mutex</a>);</td></tr>
+<tr><th id="51">51</th><td>}</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="55">55</th><td><em>void</em> <a class="type" href="MutexImpl.hpp.html#sf::priv::MutexImpl" title='sf::priv::MutexImpl' data-ref="sf::priv::MutexImpl">MutexImpl</a>::<dfn class="decl def" id="_ZN2sf4priv9MutexImpl4lockEv" title='sf::priv::MutexImpl::lock' data-ref="_ZN2sf4priv9MutexImpl4lockEv">lock</dfn>()</td></tr>
+<tr><th id="56">56</th><td>{</td></tr>
+<tr><th id="57">57</th><td>    <a class="ref" href="../../../../../include/pthread.h.html#pthread_mutex_lock" title='pthread_mutex_lock' data-ref="pthread_mutex_lock">pthread_mutex_lock</a>(&amp;<a class="member" href="MutexImpl.hpp.html#sf::priv::MutexImpl::m_mutex" title='sf::priv::MutexImpl::m_mutex' data-ref="sf::priv::MutexImpl::m_mutex">m_mutex</a>);</td></tr>
+<tr><th id="58">58</th><td>}</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><i>////////////////////////////////////////////////////////////</i></td></tr>
+<tr><th id="62">62</th><td><em>void</em> <a class="type" href="MutexImpl.hpp.html#sf::priv::MutexImpl" title='sf::priv::MutexImpl' data-ref="sf::priv::MutexImpl">MutexImpl</a>::<dfn class="decl def" id="_ZN2sf4priv9MutexImpl6unlockEv" title='sf::priv::MutexImpl::unlock' data-ref="_ZN2sf4priv9MutexImpl6unlockEv">unlock</dfn>()</td></tr>
+<tr><th id="63">63</th><td>{</td></tr>
+<tr><th id="64">64</th><td>    <a class="ref" href="../../../../../include/pthread.h.html#pthread_mutex_unlock" title='pthread_mutex_unlock' data-ref="pthread_mutex_unlock">pthread_mutex_unlock</a>(&amp;<a class="member" href="MutexImpl.hpp.html#sf::priv::MutexImpl::m_mutex" title='sf::priv::MutexImpl::m_mutex' data-ref="sf::priv::MutexImpl::m_mutex">m_mutex</a>);</td></tr>
+<tr><th id="65">65</th><td>}</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>} <i>// namespace priv</i></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>} <i>// namespace sf</i></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Oct-12</em> from project codebrowser revision <em>2.4.0-67-g2aa70de</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

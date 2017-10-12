@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1276' type='void glClear(GLbitfield )'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='107' u='c' c='_ZN2sf12RenderTarget5clearERKNS_5ColorE'/>
+<dec f='include/GL/gl.h' l='752' type='void glClear(GLbitfield mask)'/>

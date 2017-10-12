@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/SensorManager.hpp' l='121' type='bool'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/SensorManager.hpp' l='121'>///&lt; Is the sensor available on this device?</doc>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='47' u='r' c='_ZN2sf4priv13SensorManager11isAvailableENS_6Sensor4TypeE'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='54' u='r' c='_ZN2sf4priv13SensorManager10setEnabledENS_6Sensor4TypeEb'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='86' u='r' c='_ZN2sf4priv13SensorManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='102' u='w' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='105' u='r' c='_ZN2sf4priv13SensorManagerC1Ev'/>
+<use f='codebrowser/src/SFML/Window/SensorManager.cpp' l='119' u='r' c='_ZN2sf4priv13SensorManagerD1Ev'/>

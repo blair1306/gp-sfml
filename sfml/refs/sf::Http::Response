@@ -1,0 +1,27 @@
+<def f='codebrowser/include/SFML/Network/Http.hpp' l='193' ll='346'/>
+<size>96</size>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='189'>////////////////////////////////////////////////////////////
+    /// \brief Define a HTTP response
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4Http8ResponseC1Ev'/>
+<fun r='_ZNK2sf4Http8Response8getFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf4Http8Response9getStatusEv'/>
+<fun r='_ZNK2sf4Http8Response19getMajorHttpVersionEv'/>
+<fun r='_ZNK2sf4Http8Response19getMinorHttpVersionEv'/>
+<fun r='_ZNK2sf4Http8Response7getBodyB5cxx11Ev'/>
+<fun r='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4Http8Response11parseFieldsERSi'/>
+<mbr r='sf::Http::Response::m_fields' o='0' t='FieldTable'/>
+<mbr r='sf::Http::Response::m_status' o='384' t='sf::Http::Response::Status'/>
+<mbr r='sf::Http::Response::m_majorVersion' o='416' t='unsigned int'/>
+<mbr r='sf::Http::Response::m_minorVersion' o='448' t='unsigned int'/>
+<mbr r='sf::Http::Response::m_body' o='512' t='std::string'/>
+<fun r='_ZN2sf4Http8ResponseC1Ev'/>
+<fun r='_ZNK2sf4Http8Response8getFieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZNK2sf4Http8Response9getStatusEv'/>
+<fun r='_ZNK2sf4Http8Response19getMajorHttpVersionEv'/>
+<fun r='_ZNK2sf4Http8Response19getMinorHttpVersionEv'/>
+<fun r='_ZNK2sf4Http8Response7getBodyB5cxx11Ev'/>
+<fun r='_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4Http8Response11parseFieldsERSi'/>

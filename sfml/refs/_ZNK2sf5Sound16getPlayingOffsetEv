@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='184' type='sf::Time sf::Sound::getPlayingOffset() const'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='140' ll='146' type='sf::Time sf::Sound::getPlayingOffset() const'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='139'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='176'>////////////////////////////////////////////////////////////
+    /// \brief Get the current playing position of the sound
+    ///
+    /// \return Current playing position, from the beginning of the sound
+    ///
+    /// \see setPlayingOffset
+    ///
+    ////////////////////////////////////////////////////////////</doc>

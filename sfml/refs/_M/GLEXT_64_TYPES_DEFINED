@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='92'/>
+<doc f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='91'>// This code block is duplicated in glxext.h, so must be protected</doc>
+<dec f='include/GL/glext.h' l='1388'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='71' u='a'/>
+<doc f='include/GL/glext.h' l='1387'>/* This code block is duplicated in glxext.h, so must be protected */</doc>

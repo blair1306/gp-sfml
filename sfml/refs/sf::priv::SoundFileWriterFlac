@@ -1,0 +1,16 @@
+<inh f='codebrowser/include/SFML/Audio/SoundFileWriter.hpp' l='41' c='sf::SoundFileWriter'/>
+<def f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='44' ll='107'/>
+<size>48</size>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterFlac.hpp' l='40'>////////////////////////////////////////////////////////////
+/// \brief Implementation of sound file writer that handles FLAC files
+///
+////////////////////////////////////////////////////////////</doc>
+<fun r='_ZN2sf4priv19SoundFileWriterFlac5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<fun r='_ZN2sf4priv19SoundFileWriterFlacC1Ev'/>
+<fun r='_ZN2sf4priv19SoundFileWriterFlacD1Ev'/>
+<fun r='_ZN2sf4priv19SoundFileWriterFlac4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<fun r='_ZN2sf4priv19SoundFileWriterFlac5writeEPKsy'/>
+<fun r='_ZN2sf4priv19SoundFileWriterFlac5closeEv'/>
+<mbr r='sf::priv::SoundFileWriterFlac::m_encoder' o='64' t='FLAC__StreamEncoder *'/>
+<mbr r='sf::priv::SoundFileWriterFlac::m_channelCount' o='128' t='unsigned int'/>
+<mbr r='sf::priv::SoundFileWriterFlac::m_samples32' o='192' t='std::vector&lt;Int32&gt;'/>

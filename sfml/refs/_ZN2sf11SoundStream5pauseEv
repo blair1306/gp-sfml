@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='88' type='void sf::SoundStream::pause()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundStream.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Pause the audio stream
+    ///
+    /// This function pauses the stream if it was playing,
+    /// otherwise (stream already paused or stopped) it has no effect.
+    ///
+    /// \see play, stop
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='140' ll='153' type='void sf::SoundStream::pause()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='139'>////////////////////////////////////////////////////////////</doc>

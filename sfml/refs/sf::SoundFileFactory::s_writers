@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='164' type='WriterFactoryArray'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='82' u='m' c='_ZN2sf16SoundFileFactory14registerWriterEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='91' u='m' c='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='91' u='m' c='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='94' u='m' c='_ZN2sf16SoundFileFactory16unregisterWriterEv'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileFactory.hpp' l='164'>///&lt; List of all registered writers</doc>
+<def f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='62' type='SoundFileFactory::WriterFactoryArray'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='143' u='m' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileFactory.cpp' l='143' u='m' c='_ZN2sf16SoundFileFactory24createWriterFromFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>

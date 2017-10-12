@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='278' type='::Cursor'/>
+<offset>6720</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='278'>///&lt; As X11 doesn&apos;t provide cursor hiding, we must create a transparent one</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='489' u='w' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='537' u='w' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='732' u='r' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='733' u='r' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1061' u='r' c='_ZN2sf4priv13WindowImplX1121setMouseCursorVisibleEb'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1529' u='w' c='_ZN2sf4priv13WindowImplX1118createHiddenCursorEv'/>

@@ -1,0 +1,7 @@
+<def f='include/c++/5/bits/stl_algobase.h' l='739' ll='749' type='void std::fill(_ForwardIterator __first, _ForwardIterator __last, const _Tp &amp; __value)'/>
+<dec f='include/c++/5/bits/algorithmfwd.h' l='242' type='void std::fill(_FIter , _FIter , const _Tp &amp; )'/>
+<use f='include/c++/5/bits/stl_bvector.h' l='402' u='c' c='_ZSt4fillSt13_Bit_iteratorS_RKb'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='50' u='c' c='_ZN2sf4priv12JoystickCapsC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='67' u='c' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<use f='codebrowser/src/SFML/Window/JoystickImpl.hpp' l='68' u='c' c='_ZN2sf4priv13JoystickStateC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='446' u='c' c='_ZN2sf4priv12JoystickImplC1Ev'/>

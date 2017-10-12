@@ -1,0 +1,6 @@
+<def f='include/c++/5/bits/stl_deque.h' l='1348' ll='1350' type='bool std::deque::empty() const'/>
+<doc f='include/c++/5/bits/stl_deque.h' l='1344'>/**
+       *  Returns true if the %deque is empty.  (Thus begin() would
+       *  equal end().)
+       */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='776' u='c' c='_ZN2sf4priv13WindowImplX1113processEventsEv'/>

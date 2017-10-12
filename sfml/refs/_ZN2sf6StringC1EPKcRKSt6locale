@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='106' type='void sf::String::String(const char * ansiString, const std::locale &amp; locale = std::locale())'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='96'>////////////////////////////////////////////////////////////
+    /// \brief Construct from a null-terminated C-style ANSI string and a locale
+    ///
+    /// The source string is converted to UTF-32 according
+    /// to the given locale.
+    ///
+    /// \param ansiString ANSI string to convert
+    /// \param locale     Locale to use for conversion
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/String.cpp' l='68' ll='79' type='void sf::String::String(const char * ansiString, const std::locale &amp; locale = std::locale())'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='67'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Joystick.cpp' l='85' u='c' c='_ZN2sf8Joystick14IdentificationC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='69' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='69' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='69' u='c'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='80' type='29'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='80'>///&lt; The 3 key</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='141' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='463' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>

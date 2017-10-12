@@ -1,0 +1,3 @@
+<def f='include/c++/5/streambuf' l='534' ll='535' type='char_type * std::basic_streambuf::epptr() const'/>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='62' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBuf8overflowEi'/>
+<use f='codebrowser/src/SFML/System/Err.cpp' l='90' u='c' c='_ZN12_GLOBAL__N_119DefaultErrStreamBuf4syncEv'/>

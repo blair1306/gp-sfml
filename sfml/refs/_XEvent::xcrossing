@@ -1,0 +1,4 @@
+<dec f='include/X11/Xlib.h' l='979' type='XCrossingEvent'/>
+<offset>0</offset>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1905' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1917' u='m' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>

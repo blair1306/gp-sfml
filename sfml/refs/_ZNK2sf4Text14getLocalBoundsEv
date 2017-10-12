@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='346' type='FloatRect sf::Text::getLocalBounds() const'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='312' ll='317' type='FloatRect sf::Text::getLocalBounds() const'/>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='323' u='c' c='_ZNK2sf4Text15getGlobalBoundsEv'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='311'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='334'>////////////////////////////////////////////////////////////
+    /// \brief Get the local bounding rectangle of the entity
+    ///
+    /// The returned rectangle is in local coordinates, which means
+    /// that it ignores the transformations (translation, rotation,
+    /// scale, ...) that are applied to the entity.
+    /// In other words, this function returns the bounds of the
+    /// entity in the entity&apos;s coordinate system.
+    ///
+    /// \return Local bounding rectangle of the entity
+    ///
+    ////////////////////////////////////////////////////////////</doc>

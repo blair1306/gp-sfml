@@ -1,0 +1,12 @@
+_ZNSt17_Temporary_buffer5beginEv|std::_Temporary_buffer::begin
+_ZNSt17_Temporary_buffer3endEv|std::_Temporary_buffer::end
+_ZNKSt17_Temporary_buffer14requested_sizeEv|std::_Temporary_buffer::requested_size
+_ZNKSt17_Temporary_buffer4sizeEv|std::_Temporary_buffer::size
+_ZN2sf4priv10ThreadFuncD1Ev|sf::priv::ThreadFunc::~ThreadFunc
+_ZN2sf7TextureD1Ev|sf::Texture::~Texture
+_ZN2sf4priv12TextureSaverD1Ev|sf::priv::TextureSaver::~TextureSaver
+_ZN2sf13TransformableD1Ev|sf::Transformable::~Transformable
+_ZN2sf6ThreadD1Ev|sf::Thread::~Thread
+_ZN2sf11ThreadLocalD1Ev|sf::ThreadLocal::~ThreadLocal
+_ZN2sf4priv15ThreadLocalImplD1Ev|sf::priv::ThreadLocalImpl::~ThreadLocalImpl
+_ZN2sf10GlResource20TransientContextLockD1Ev|sf::GlResource::TransientContextLock::~TransientContextLock

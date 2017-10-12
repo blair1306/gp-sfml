@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/System/Mutex.hpp' l='55' type='void sf::Mutex::Mutex()'/>
+<use f='codebrowser/src/SFML/Audio/AlResource.cpp' l='38' u='c'/>
+<doc f='codebrowser/include/SFML/System/Mutex.hpp' l='51'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='45' u='c' c='_ZN2sf11SoundStreamC1Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='59' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='60' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='43' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='44' u='c'/>
+<def f='codebrowser/src/SFML/System/Mutex.cpp' l='40' ll='43' type='void sf::Mutex::Mutex()'/>
+<doc f='codebrowser/src/SFML/System/Mutex.cpp' l='39'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='137' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='43' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='43' u='c'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='66' u='c'/>

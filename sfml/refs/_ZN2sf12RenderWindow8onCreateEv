@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='170' type='void sf::RenderWindow::onCreate()'/>
+<inh f='codebrowser/include/SFML/Window/Window.hpp' l='509' c='_ZN2sf6Window8onCreateEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='92' ll='96' type='void sf::RenderWindow::onCreate()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='91'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='162'>////////////////////////////////////////////////////////////
+    /// \brief Function called after the window has been created
+    ///
+    /// This function is called so that derived classes can
+    /// perform their own specific initialization as soon as
+    /// the window is created.
+    ///
+    ////////////////////////////////////////////////////////////</doc>

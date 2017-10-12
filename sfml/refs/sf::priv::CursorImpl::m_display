@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='95' type='::Display *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/SFML/Window/Unix/CursorImpl.hpp' l='92'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='43' u='w' c='_ZN2sf4priv10CursorImplC1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='55' u='r' c='_ZN2sf4priv10CursorImplD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='90' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='90' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='92' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='92' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='101' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='107' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='108' u='r' c='_ZN2sf4priv10CursorImpl14loadFromPixelsEPKhNS_7Vector2IjEES5_'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='137' u='r' c='_ZN2sf4priv10CursorImpl14loadFromSystemENS_6Cursor4TypeE'/>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='147' u='r' c='_ZN2sf4priv10CursorImpl7releaseEv'/>

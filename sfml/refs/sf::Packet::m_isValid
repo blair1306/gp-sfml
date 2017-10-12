@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Network/Packet.hpp' l='286' type='bool'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='41' u='w' c='_ZN2sf6PacketC1Ev'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='71' u='w' c='_ZN2sf6Packet5clearEv'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='99' u='r' c='_ZNK2sf6PacketcvMS0_FbmEEv'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='576' u='w' c='_ZN2sf6Packet9checkSizeEm'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='576' u='r' c='_ZN2sf6Packet9checkSizeEm'/>
+<use f='codebrowser/src/SFML/Network/Packet.cpp' l='578' u='r' c='_ZN2sf6Packet9checkSizeEm'/>
+<offset>384</offset>
+<doc f='codebrowser/include/SFML/Network/Packet.hpp' l='286'>///&lt; Reading state of the packet</doc>

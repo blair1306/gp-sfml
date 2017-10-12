@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Graphics/Font.hpp' l='130' type='bool sf::Font::loadFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<def f='codebrowser/src/SFML/Graphics/Font.cpp' l='189' ll='240' type='bool sf::Font::loadFromMemory(const void * data, std::size_t sizeInBytes)'/>
+<doc f='codebrowser/src/SFML/Graphics/Font.cpp' l='188'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Font.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Load the font from a file in memory
+    ///
+    /// The supported font formats are: TrueType, Type 1, CFF,
+    /// OpenType, SFNT, X11 PCF, Windows FNT, BDF, PFR and Type 42.
+    ///
+    /// \warning SFML cannot preload all the font data in this
+    /// function, so the buffer pointed by \a data has to remain
+    /// valid until the sf::Font object loads a new font or
+    /// is destroyed.
+    ///
+    /// \param data        Pointer to the file data in memory
+    /// \param sizeInBytes Size of the data to load, in bytes
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see loadFromFile, loadFromStream
+    ///
+    ////////////////////////////////////////////////////////////</doc>

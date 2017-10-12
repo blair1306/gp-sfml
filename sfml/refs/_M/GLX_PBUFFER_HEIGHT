@@ -1,0 +1,2 @@
+<dec f='include/GL/glx.h' l='150'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='504' u='c'/>

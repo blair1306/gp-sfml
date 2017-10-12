@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='516' type='void sf::Shader::setUniformArray(const std::string &amp; name, const Glsl::Vec3 * vectorArray, std::size_t length)'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='508'>////////////////////////////////////////////////////////////
+    /// \brief Specify values for \p vec3[] array uniform
+    ///
+    /// \param name        Name of the uniform variable in GLSL
+    /// \param vectorArray pointer to array of \p vec3 values
+    /// \param length      Number of elements in the array
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='612' ll='619' type='void sf::Shader::setUniformArray(const std::string &amp; name, const Glsl::Vec3 * vectorArray, std::size_t length)'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='611'>////////////////////////////////////////////////////////////</doc>

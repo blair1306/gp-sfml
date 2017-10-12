@@ -1,0 +1,1 @@
+<dec f='include/X11/extensions/Xrender.h' l='236' type='XIndexValue * XRenderQueryPictIndexValues(Display * dpy, const XRenderPictFormat * format, int * num)'/>

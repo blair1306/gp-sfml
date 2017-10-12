@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1390' type='void glIndexsv(const GLshort * )'/>
+<dec f='include/GL/gl.h' l='987' type='void glIndexsv(const GLshort * c)'/>

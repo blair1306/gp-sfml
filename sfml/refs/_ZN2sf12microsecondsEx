@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='91' type='sf::Time sf::microseconds(Int64 )'/>
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='149' type='sf::Time sf::microseconds(Int64 amount)'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='266' u='c' c='_ZNK2sf5Music13samplesToTimeEy'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='87' ll='90' type='sf::Time sf::microseconds(Int64 amount)'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='138' u='c' c='_ZN2sfngENS_4TimeE'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='145' u='c' c='_ZN2sfplENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='159' u='c' c='_ZN2sfmiENS_4TimeES0_'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='180' u='c' c='_ZN2sfmlENS_4TimeEx'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='222' u='c' c='_ZN2sfdvENS_4TimeEx'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='250' u='c' c='_ZN2sfrmENS_4TimeES0_'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='86'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/Unix/ClockImpl.cpp' l='57' u='c' c='_ZN2sf4priv9ClockImpl14getCurrentTimeEv'/>

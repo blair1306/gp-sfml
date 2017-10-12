@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Graphics/Shader.hpp' l='82' type='sf::Shader::CurrentTextureType'/>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='76'>////////////////////////////////////////////////////////////
+    /// \brief Represents the texture of the object being drawn
+    ///
+    /// \see setUniform(const std::string&amp;, CurrentTextureType)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Shader.cpp' l='176' type='Shader::CurrentTextureType'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='729' u='r' c='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE'/>
+<doc f='codebrowser/src/SFML/Graphics/Shader.cpp' l='175'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,4 @@
+<dec f='include/linux/input.h' l='34'/>
+<doc f='include/linux/input.h' l='30'>/*
+ * Protocol version.
+ */</doc>

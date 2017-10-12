@@ -1,0 +1,10 @@
+<def f='include/X11/extensions/Xrandr.h' l='426' ll='435'/>
+<size>128</size>
+<mbr r='_XRRCrtcTransformAttributes::pendingTransform' o='0' t='XTransform'/>
+<mbr r='_XRRCrtcTransformAttributes::pendingFilter' o='320' t='char *'/>
+<mbr r='_XRRCrtcTransformAttributes::pendingNparams' o='384' t='int'/>
+<mbr r='_XRRCrtcTransformAttributes::pendingParams' o='448' t='XFixed *'/>
+<mbr r='_XRRCrtcTransformAttributes::currentTransform' o='512' t='XTransform'/>
+<mbr r='_XRRCrtcTransformAttributes::currentFilter' o='832' t='char *'/>
+<mbr r='_XRRCrtcTransformAttributes::currentNparams' o='896' t='int'/>
+<mbr r='_XRRCrtcTransformAttributes::currentParams' o='960' t='XFixed *'/>

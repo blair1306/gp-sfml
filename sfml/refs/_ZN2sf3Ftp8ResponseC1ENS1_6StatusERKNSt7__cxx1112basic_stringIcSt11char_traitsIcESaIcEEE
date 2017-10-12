@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='146' type='void sf::Ftp::Response::Response(sf::Ftp::Response::Status code = InvalidResponse, const std::string &amp; message = &quot;&quot;)'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='69' ll='74' type='void sf::Ftp::Response::Response(sf::Ftp::Response::Status code = InvalidResponse, const std::string &amp; message = &quot;&quot;)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='155' u='c' c='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='303' u='c' c='_ZN2sf3Ftp8downloadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='330' u='c' c='_ZN2sf3Ftp6uploadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_NS0_12TransferModeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='376' u='c' c='_ZN2sf3Ftp11sendCommandERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='402' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='469' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='516' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='585' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='68'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='136'>////////////////////////////////////////////////////////////
+        /// \brief Default constructor
+        ///
+        /// This constructor is used by the FTP client to build
+        /// the response.
+        ///
+        /// \param code    Response status code
+        /// \param message Response message
+        ///
+        ////////////////////////////////////////////////////////////</doc>

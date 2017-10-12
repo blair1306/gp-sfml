@@ -1,0 +1,4 @@
+<def f='include/X11/extensions/Xrender.h' l='138' ll='140'/>
+<size>16</size>
+<mbr r='_XLineFixed::p1' o='0' t='XPointFixed'/>
+<mbr r='_XLineFixed::p2' o='64' t='XPointFixed'/>

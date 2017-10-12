@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/SFML/Window/Unix/GlxExtensions.hpp' l='243' type='int sfglx_LoadFunctions(Display * display, int screen)'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='92' u='c' c='_ZN2sf4priv20ensureExtensionsInitEP9_XDisplayi'/>
+<def f='codebrowser/src/SFML/Window/Unix/GlxExtensions.cpp' l='211' ll='218' type='int sfglx_LoadFunctions(Display * display, int screen)'/>

@@ -1,0 +1,2 @@
+<dec f='include/freetype2/freetype/ftoutln.h' l='317' type='void FT_Outline_Transform(const FT_Outline * outline, const FT_Matrix * matrix)'/>
+<doc f='include/freetype2/freetype/ftoutln.h' l='315'>/*                                                                       */</doc>

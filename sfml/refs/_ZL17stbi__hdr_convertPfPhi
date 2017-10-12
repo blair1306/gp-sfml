@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6449' ll='6474' type='void stbi__hdr_convert(float * output, stbi_uc * input, int req_comp)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6538' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6557' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6595' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>

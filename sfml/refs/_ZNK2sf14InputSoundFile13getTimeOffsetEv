@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='144' type='sf::Time sf::InputSoundFile::getTimeOffset() const'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='208' ll='215' type='sf::Time sf::InputSoundFile::getTimeOffset() const'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='207'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='138'>////////////////////////////////////////////////////////////
+    /// \brief Get the read offset of the file in time
+    ///
+    /// \return Time position
+    ///
+    ////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,21 @@
+_ZSt12partial_sortT_S_S_|std::partial_sort
+_ZSt17partial_sort_copyT_S_T0_S0_|std::partial_sort_copy
+_ZSt9partitionT_S_T0_|std::partition
+_ZN2sf5Sound5pauseEv|sf::Sound::pause
+_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE|sf::priv::SoundFileReaderWav::parseHeader
+_ZN2sf11SoundStream5pauseEv|sf::SoundStream::pause
+_ZN2sf4Font4PageC1Ev|sf::Font::Page::Page
+_ZN2sf3Ftp15parentDirectoryEv|sf::Ftp::parentDirectory
+_ZN2sf4Http8Response5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE|sf::Http::Response::parse
+_ZN2sf4Http8Response11parseFieldsERSi|sf::Http::Response::parseFields
+_ZN2sf6PacketC1Ev|sf::Packet::Packet
+_ZN2sf6Packet6appendEPKvm|sf::Packet::append
+_ZN2sf6Packet9checkSizeEm|sf::Packet::checkSize
+_ZN2sf6Packet5clearEv|sf::Packet::clear
+_ZNK2sf6Packet11endOfPacketEv|sf::Packet::endOfPacket
+_ZNK2sf6Packet7getDataEv|sf::Packet::getData
+_ZNK2sf6Packet11getDataSizeEv|sf::Packet::getDataSize
+_ZN2sf6Packet9onReceiveEPKvm|sf::Packet::onReceive
+_ZN2sf6Packet6onSendERm|sf::Packet::onSend
+_ZNK2sf6PacketcvMS0_FbmEEv|sf::Packet::operator bool (sf::Packet::*)(unsigned long)
+_ZN2sf6PacketD1Ev|sf::Packet::~Packet

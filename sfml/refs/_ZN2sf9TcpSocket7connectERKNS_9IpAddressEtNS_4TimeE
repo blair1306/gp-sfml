@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='111' type='sf::Socket::Status sf::TcpSocket::connect(const sf::IpAddress &amp; remoteAddress, unsigned short remotePort, sf::Time timeout = Time::Zero)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='154' u='c' c='_ZN2sf3Ftp7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='568' u='c' c='_ZN2sf3Ftp11DataChannel4openENS0_12TransferModeE'/>
+<doc f='codebrowser/include/SFML/Network/TcpSocket.hpp' l='94'>////////////////////////////////////////////////////////////
+    /// \brief Connect the socket to a remote peer
+    ///
+    /// In blocking mode, this function may take a while, especially
+    /// if the remote peer is not reachable. The last parameter allows
+    /// you to stop trying to connect after a given timeout.
+    /// If the socket was previously connected, it is first disconnected.
+    ///
+    /// \param remoteAddress Address of the remote peer
+    /// \param remotePort    Port of the remote peer
+    /// \param timeout       Optional maximum time to wait
+    ///
+    /// \return Status code
+    ///
+    /// \see disconnect
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='384' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<def f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='119' ll='205' type='Socket::Status sf::TcpSocket::connect(const sf::IpAddress &amp; remoteAddress, unsigned short remotePort, sf::Time timeout = Time::Zero)'/>
+<doc f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='118'>////////////////////////////////////////////////////////////</doc>

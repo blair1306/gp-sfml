@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1406' type='void glLoadMatrixd(const GLdouble * )'/>
+<dec f='include/GL/gl.h' l='885' type='void glLoadMatrixd(const GLdouble * m)'/>

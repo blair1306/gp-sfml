@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Graphics/Color.hpp' l='83' type='const sf::Color'/>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='80'>////////////////////////////////////////////////////////////
+    // Static member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Color.hpp' l='83'>///&lt; Black predefined color</doc>
+<def f='codebrowser/src/SFML/Graphics/Color.cpp' l='37' type='const sf::Color'/>
+<doc f='codebrowser/src/SFML/Graphics/Color.cpp' l='34'>////////////////////////////////////////////////////////////
+// Static member data
+////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,37 @@
+<def f='include/c++/5/bits/stl_vector.h' l='912' ll='927' type='void std::vector::push_back(const value_type &amp; __x)'/>
+<use f='include/c++/5/bits/stl_vector.h' l='1276' u='c' c='_ZNSt6vector19_M_range_initializeET_S0_St18input_iterator_tag'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='51' u='c' c='_ZN2sf16SoundFileFactory14registerReaderEv'/>
+<use f='codebrowser/include/SFML/Audio/SoundFileFactory.inl' l='82' u='c' c='_ZN2sf16SoundFileFactory14registerWriterEv'/>
+<doc f='include/c++/5/bits/stl_vector.h' l='902'>/**
+       *  @brief  Add data to the end of the %vector.
+       *  @param  __x  Data to be added.
+       *
+       *  This is a typical stack operation.  The function creates an
+       *  element at the end of the %vector and assigns the given data
+       *  to it.  Due to the nature of a %vector this operation can be
+       *  done in constant time if the %vector has preallocated space
+       *  available.
+       */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='151' u='c' c='_ZN12_GLOBAL__N_111streamWriteEPK19FLAC__StreamDecoderPK11FLAC__FramePKPKiPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='156' u='c' c='_ZN2sf13SoundRecorder19getAvailableDevicesB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='729' u='c' c='_ZNK2sf4Font13findGlyphRectERNS0_4PageEjj'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='95' u='c' c='_ZN12_GLOBAL__N_115getFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIcS4_E'/>
+<use f='codebrowser/src/SFML/Graphics/Shader.cpp' l='116' u='c' c='_ZN12_GLOBAL__N_117getStreamContentsERN2sf11InputStreamERSt6vectorIcSaIcEE'/>
+<use f='codebrowser/src/SFML/Graphics/VertexArray.cpp' l='88' u='c' c='_ZN2sf11VertexArray6appendERKNS_6VertexE'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='129' u='c' c='_ZN2sf3Ftp15ListingResponseC1ERKNS0_8ResponseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='249' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='270' u='c' c='_ZN2sf4priv9GlContext12initResourceEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='661' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='662' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='663' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='664' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='673' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='674' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='675' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='676' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='688' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='689' u='c' c='_ZN2sf4priv10GlxContext13createContextEPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='86' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1384' u='c' c='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1413' u='c' c='_ZN2sf4priv13WindowImplX1112setProtocolsEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1488' u='c' c='_ZN2sf4priv13WindowImplX1110initializeEv'/>

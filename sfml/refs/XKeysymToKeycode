@@ -1,0 +1,2 @@
+<dec f='include/X11/Xlib.h' l='2773' type='KeyCode XKeysymToKeycode(Display * , KeySym )'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='159' u='c' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>

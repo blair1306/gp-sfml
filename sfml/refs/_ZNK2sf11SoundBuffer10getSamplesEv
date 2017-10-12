@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='164' type='const Int16 * sf::SoundBuffer::getSamples() const'/>
+<doc f='codebrowser/include/SFML/Audio/SoundBuffer.hpp' l='152'>////////////////////////////////////////////////////////////
+    /// \brief Get the array of audio samples stored in the buffer
+    ///
+    /// The format of the returned samples is 16 bits signed integer
+    /// (sf::Int16). The total number of samples in this array
+    /// is given by the getSampleCount() function.
+    ///
+    /// \return Read-only pointer to the array of sound samples
+    ///
+    /// \see getSampleCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='163' ll='166' type='const Int16 * sf::SoundBuffer::getSamples() const'/>
+<doc f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='162'>////////////////////////////////////////////////////////////</doc>

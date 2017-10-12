@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='113' type='Vector2u sf::RenderWindow::getSize() const'/>
+<inh f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='256' c='_ZNK2sf12RenderTarget7getSizeEv'/>
+<def f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='65' ll='68' type='Vector2u sf::RenderWindow::getSize() const'/>
+<use f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='81' u='c' c='_ZNK2sf12RenderWindow7captureEv'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderWindow.cpp' l='64'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderWindow.hpp' l='104'>////////////////////////////////////////////////////////////
+    /// \brief Get the size of the rendering region of the window
+    ///
+    /// The size doesn&apos;t include the titlebar and borders
+    /// of the window.
+    ///
+    /// \return Size in pixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>

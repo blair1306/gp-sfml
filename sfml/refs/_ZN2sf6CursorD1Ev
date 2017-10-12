@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Window/Cursor.hpp' l='110' type='void sf::Cursor::~Cursor()'/>
+<doc f='codebrowser/include/SFML/Window/Cursor.hpp' l='103'>////////////////////////////////////////////////////////////
+    /// \brief Destructor
+    ///
+    /// This destructor releases the system resources
+    /// associated with this cursor, if any.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Cursor.cpp' l='43' ll='46' type='void sf::Cursor::~Cursor()'/>
+<doc f='codebrowser/src/SFML/Window/Cursor.cpp' l='42'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,6 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3772' ll='3817' type='int stbi__zbuild_huffman(stbi__zhuffman * z, const stbi_uc * sizelist, int num)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3989' u='c' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4015' u='c' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4016' u='c' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4108' u='c' c='_ZL16stbi__parse_zlibP10stbi__zbufi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4109' u='c' c='_ZL16stbi__parse_zlibP10stbi__zbufi'/>

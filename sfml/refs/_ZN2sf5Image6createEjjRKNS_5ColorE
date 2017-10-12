@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='72' type='void sf::Image::create(unsigned int width, unsigned int height, const sf::Color &amp; color = sf::Color(0, 0, 0))'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='786' u='c' c='_ZN2sf4Font4PageC1Ev'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='64'>////////////////////////////////////////////////////////////
+    /// \brief Create the image and fill it with a unique color
+    ///
+    /// \param width  Width of the image
+    /// \param height Height of the image
+    /// \param color  Fill color
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='65' ll='99' type='void sf::Image::create(unsigned int width, unsigned int height, const sf::Color &amp; color = sf::Color(0, 0, 0))'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='64'>////////////////////////////////////////////////////////////</doc>

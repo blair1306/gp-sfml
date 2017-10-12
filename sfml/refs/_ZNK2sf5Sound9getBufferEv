@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/Sound.hpp' l='164' type='const sf::SoundBuffer * sf::Sound::getBuffer() const'/>
+<def f='codebrowser/src/SFML/Audio/Sound.cpp' l='123' ll='126' type='const sf::SoundBuffer * sf::Sound::getBuffer() const'/>
+<doc f='codebrowser/src/SFML/Audio/Sound.cpp' l='122'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Sound.hpp' l='158'>////////////////////////////////////////////////////////////
+    /// \brief Get the audio buffer attached to the sound
+    ///
+    /// \return Sound buffer attached to the sound (can be NULL)
+    ///
+    ////////////////////////////////////////////////////////////</doc>

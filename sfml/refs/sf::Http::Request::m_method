@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='182' type='sf::Http::Request::Method'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='71' u='w' c='_ZN2sf4Http7Request9setMethodENS1_6MethodE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='108' u='r' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='371' u='r' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<offset>384</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='182'>///&lt; Method to use for the request</doc>

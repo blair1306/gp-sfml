@@ -1,0 +1,10 @@
+<dec f='include/FLAC/stream_decoder.h' l='743' type='FLAC__StreamDecoder * FLAC__stream_decoder_new()'/>
+<doc f='include/FLAC/stream_decoder.h' l='736'>/** Create a new stream decoder instance.  The instance is created with
+ *  default settings; see the individual FLAC__stream_decoder_set_*()
+ *  functions for each setting&apos;s default.
+ *
+ * \retval FLAC__StreamDecoder*
+ *    \c NULL if there was an error allocating memory, else the new instance.
+ */</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='186' u='c' c='_ZN2sf4priv19SoundFileReaderFlac5checkERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='226' u='c' c='_ZN2sf4priv19SoundFileReaderFlac4openERNS_11InputStreamERNS_15SoundFileReader4InfoE'/>

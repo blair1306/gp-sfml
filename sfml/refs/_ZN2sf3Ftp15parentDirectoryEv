@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/Network/Ftp.hpp' l='381' type='sf::Ftp::Response sf::Ftp::parentDirectory()'/>
+<def f='codebrowser/src/SFML/Network/Ftp.cpp' l='239' ll='242' type='Ftp::Response sf::Ftp::parentDirectory()'/>
+<doc f='codebrowser/src/SFML/Network/Ftp.cpp' l='238'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Ftp.hpp' l='373'>////////////////////////////////////////////////////////////
+    /// \brief Go to the parent directory of the current one
+    ///
+    /// \return Server response to the request
+    ///
+    /// \see getWorkingDirectory, getDirectoryListing, changeDirectory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

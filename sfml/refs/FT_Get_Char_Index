@@ -1,0 +1,4 @@
+<dec f='include/freetype2/freetype/freetype.h' l='3343' type='FT_UInt FT_Get_Char_Index(FT_Face face, FT_ULong charcode)'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='367' u='c' c='_ZNK2sf4Font10getKerningEjjj'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='368' u='c' c='_ZNK2sf4Font10getKerningEjjj'/>
+<doc f='include/freetype2/freetype/freetype.h' l='3341'>/*                                                                       */</doc>

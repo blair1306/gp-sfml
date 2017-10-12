@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='243' type='void sf::Http::Response::Response()'/>
+<def f='codebrowser/src/SFML/Network/Http.cpp' l='145' ll='151' type='void sf::Http::Response::Response()'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='381' u='c' c='_ZN2sf4Http11sendRequestERKNS0_7RequestENS_4TimeE'/>
+<doc f='codebrowser/src/SFML/Network/Http.cpp' l='144'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='237'>////////////////////////////////////////////////////////////
+        /// \brief Default constructor
+        ///
+        /// Constructs an empty response.
+        ///
+        ////////////////////////////////////////////////////////////</doc>

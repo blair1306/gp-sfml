@@ -1,0 +1,8 @@
+<def f='include/X11/extensions/Xrender.h' l='90' ll='97'/>
+<size>12</size>
+<mbr r='_XGlyphInfo::width' o='0' t='unsigned short'/>
+<mbr r='_XGlyphInfo::height' o='16' t='unsigned short'/>
+<mbr r='_XGlyphInfo::x' o='32' t='short'/>
+<mbr r='_XGlyphInfo::y' o='48' t='short'/>
+<mbr r='_XGlyphInfo::xOff' o='64' t='short'/>
+<mbr r='_XGlyphInfo::yOff' o='80' t='short'/>

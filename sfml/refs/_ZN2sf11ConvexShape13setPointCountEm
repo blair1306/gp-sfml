@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='64' type='void sf::ConvexShape::setPointCount(std::size_t count)'/>
+<use f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='36' u='c' c='_ZN2sf11ConvexShapeC1Em'/>
+<def f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='41' ll='45' type='void sf::ConvexShape::setPointCount(std::size_t count)'/>
+<doc f='codebrowser/src/SFML/Graphics/ConvexShape.cpp' l='40'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/ConvexShape.hpp' l='54'>////////////////////////////////////////////////////////////
+    /// \brief Set the number of points of the polygon
+    ///
+    /// \a count must be greater than 2 to define a valid shape.
+    ///
+    /// \param count New number of points of the polygon
+    ///
+    /// \see getPointCount
+    ///
+    ////////////////////////////////////////////////////////////</doc>

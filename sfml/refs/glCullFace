@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1318' type='void glCullFace(GLenum )'/>
+<dec f='include/GL/gl.h' l='764' type='void glCullFace(GLenum mode)'/>

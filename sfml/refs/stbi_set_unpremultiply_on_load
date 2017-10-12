@@ -1,0 +1,2 @@
+<dec f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='431' type='void stbi_set_unpremultiply_on_load(int flag_true_if_should_unpremultiply)'/>
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4625' ll='4628' macro='1' type='void stbi_set_unpremultiply_on_load(int flag_true_if_should_unpremultiply)'/>

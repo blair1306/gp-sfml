@@ -1,0 +1,13 @@
+<def f='include/X11/extensions/Xrandr.h' l='556' ll='568'/>
+<size>56</size>
+<mbr r='_XRRMonitorInfo::name' o='0' t='Atom'/>
+<mbr r='_XRRMonitorInfo::primary' o='64' t='int'/>
+<mbr r='_XRRMonitorInfo::automatic' o='96' t='int'/>
+<mbr r='_XRRMonitorInfo::noutput' o='128' t='int'/>
+<mbr r='_XRRMonitorInfo::x' o='160' t='int'/>
+<mbr r='_XRRMonitorInfo::y' o='192' t='int'/>
+<mbr r='_XRRMonitorInfo::width' o='224' t='int'/>
+<mbr r='_XRRMonitorInfo::height' o='256' t='int'/>
+<mbr r='_XRRMonitorInfo::mwidth' o='288' t='int'/>
+<mbr r='_XRRMonitorInfo::mheight' o='320' t='int'/>
+<mbr r='_XRRMonitorInfo::outputs' o='384' t='RROutput *'/>

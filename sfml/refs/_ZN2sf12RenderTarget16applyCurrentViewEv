@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='371' type='void sf::RenderTarget::applyCurrentView()'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='247' u='c' c='_ZN2sf12RenderTarget4drawEPKNS_6VertexEmNS_13PrimitiveTypeERKNS_12RenderStatesE'/>
+<def f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='428' ll='443' type='void sf::RenderTarget::applyCurrentView()'/>
+<doc f='codebrowser/src/SFML/Graphics/RenderTarget.cpp' l='427'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/RenderTarget.hpp' l='367'>////////////////////////////////////////////////////////////
+    /// \brief Apply the current view
+    ///
+    ////////////////////////////////////////////////////////////</doc>

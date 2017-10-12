@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/Time.hpp' l='50' type='void sf::Time::Time()'/>
+<doc f='codebrowser/include/SFML/System/Time.hpp' l='44'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// Sets the time value to zero.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundBuffer.cpp' l='43' u='c' c='_ZN2sf11SoundBufferC1Ev'/>
+<use f='codebrowser/src/SFML/System/Time.cpp' l='34' u='c'/>
+<def f='codebrowser/src/SFML/System/Time.cpp' l='38' ll='41' type='void sf::Time::Time()'/>
+<doc f='codebrowser/src/SFML/System/Time.cpp' l='37'>////////////////////////////////////////////////////////////</doc>

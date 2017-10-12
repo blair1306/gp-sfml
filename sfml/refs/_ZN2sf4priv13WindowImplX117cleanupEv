@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='255' type='void sf::priv::WindowImplX11::cleanup()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.hpp' l='251'>////////////////////////////////////////////////////////////
+    /// \brief Cleanup graphical resources attached to the window
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='721' u='c' c='_ZN2sf4priv13WindowImplX11D1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1537' ll='1544' type='void sf::priv::WindowImplX11::cleanup()'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1586' u='c' c='_ZN2sf4priv13WindowImplX1112processEventER7_XEvent'/>
+<doc f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1536'>////////////////////////////////////////////////////////////</doc>

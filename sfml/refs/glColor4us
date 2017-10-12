@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1313' type='void glColor4us(GLushort , GLushort , GLushort , GLushort )'/>
+<dec f='include/GL/gl.h' l='1013' type='void glColor4us(GLushort red, GLushort green, GLushort blue, GLushort alpha)'/>

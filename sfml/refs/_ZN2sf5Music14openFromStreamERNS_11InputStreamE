@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='164' type='bool sf::Music::openFromStream(sf::InputStream &amp; stream)'/>
+<def f='codebrowser/src/SFML/Audio/Music.cpp' l='89' ll='102' type='bool sf::Music::openFromStream(sf::InputStream &amp; stream)'/>
+<doc f='codebrowser/src/SFML/Audio/Music.cpp' l='88'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='145'>////////////////////////////////////////////////////////////
+    /// \brief Open a music from an audio file in a custom stream
+    ///
+    /// This function doesn&apos;t start playing the music (call play()
+    /// to do so).
+    /// See the documentation of sf::InputSoundFile for the list
+    /// of supported formats.
+    ///
+    /// \warning Since the music is not loaded at once but rather
+    /// streamed continuously, the \a stream must remain accessible
+    /// until the sf::Music object loads a new music or is destroyed.
+    ///
+    /// \param stream Source stream to read from
+    ///
+    /// \return True if loading succeeded, false if it failed
+    ///
+    /// \see openFromFile, openFromMemory
+    ///
+    ////////////////////////////////////////////////////////////</doc>

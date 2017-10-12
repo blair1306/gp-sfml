@@ -1,0 +1,3 @@
+<def f='include/c++/5/ostream' l='507' ll='509' type='basic_ostream&lt;char, _Traits&gt; &amp; std::operator&lt;&lt;(basic_ostream&lt;char, _Traits&gt; &amp; __out, char __c)'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='457' u='c' c='_ZN2sf3Ftp11getResponseEv'/>
+<use f='codebrowser/src/SFML/Network/Ftp.cpp' l='487' u='c' c='_ZN2sf3Ftp11getResponseEv'/>

@@ -1,0 +1,19 @@
+<dec f='include/string.h' l='62' type='void * memset(void * __s, int __c, size_t __n)'/>
+<doc f='include/string.h' l='61'>/* Set N bytes of S to C.  */</doc>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='266' u='c' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='958' u='c' c='_ZL15stbi__load_mainP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1733' u='c' c='_ZL19stbi__build_huffmanP13stbi__huffmanPi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1915' u='c' c='_ZL23stbi__jpeg_decode_blockP10stbi__jpegPsP13stbi__huffmanS3_S1_iPt'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1967' u='c' c='_ZL31stbi__jpeg_decode_block_prog_dcP10stbi__jpegPsP13stbi__huffmani'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3778' u='c' c='_ZL20stbi__zbuild_huffmanP14stbi__zhuffmanPKhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3779' u='c' c='_ZL20stbi__zbuild_huffmanP14stbi__zhuffmanPKhi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3984' u='c' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4010' u='c' c='_ZL27stbi__compute_huffman_codesP10stbi__zbuf'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6005' u='c' c='_ZL14stbi__pic_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6378' u='c' c='_ZL14stbi__gif_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/src/SFML/Network/IpAddress.cpp' l='194' u='c' c='_ZN2sf9IpAddress7resolveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Unix/SocketImpl.cpp' l='43' u='c' c='_ZN2sf4priv10SocketImpl13createAddressEjt'/>
+<use f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='406' u='c' c='_ZN12_GLOBAL__N_115getJoystickNameB5cxx11Ej'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='634' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1198' u='c' c='_ZN2sf4priv13WindowImplX119grabFocusEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1345' u='c' c='_ZN2sf4priv13WindowImplX1118switchToFullscreenEv'/>

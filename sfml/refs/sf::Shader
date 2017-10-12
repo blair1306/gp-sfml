@@ -1,0 +1,63 @@
+<inh f='codebrowser/include/SFML/Window/GlResource.hpp' l='44' c='sf::GlResource'/>
+<inh f='codebrowser/include/SFML/System/NonCopyable.hpp' l='41' c='sf::NonCopyable'/>
+<def f='codebrowser/include/SFML/Graphics/Shader.hpp' l='52' ll='752'/>
+<size>104</size>
+<doc f='codebrowser/include/SFML/Graphics/Shader.hpp' l='48'>////////////////////////////////////////////////////////////
+/// \brief Shader class (vertex, geometry and fragment)
+///
+////////////////////////////////////////////////////////////</doc>
+<smbr r='sf::Shader::CurrentTexture' t='sf::Shader::CurrentTextureType'/>
+<fun r='_ZN2sf6ShaderC1Ev'/>
+<fun r='_ZN2sf6ShaderD1Ev'/>
+<fun r='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<fun r='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf6Shader12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<fun r='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_4TypeE'/>
+<fun r='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_'/>
+<fun r='_ZN2sf6Shader14loadFromMemoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_'/>
+<fun r='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamENS0_4TypeE'/>
+<fun r='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_'/>
+<fun r='_ZN2sf6Shader14loadFromStreamERNS_11InputStreamES2_S2_'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IfEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IiEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IiEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IiEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IbEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IbEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv7Vector4IbEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm3ELm3EEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4priv6MatrixILm4ELm4EEE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<fun r='_ZN2sf6Shader10setUniformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE'/>
+<fun r='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKfm'/>
+<fun r='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector2IfEEm'/>
+<fun r='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_7Vector3IfEEm'/>
+<fun r='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv7Vector4IfEEm'/>
+<fun r='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm3ELm3EEEm'/>
+<fun r='_ZN2sf6Shader15setUniformArrayERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKNS_4priv6MatrixILm4ELm4EEEm'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEf'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEff'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEfff'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEffff'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector2IfEE'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7Vector3IfEE'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_5ColorE'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_9TransformE'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_7TextureE'/>
+<fun r='_ZN2sf6Shader12setParameterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_18CurrentTextureTypeE'/>
+<fun r='_ZNK2sf6Shader15getNativeHandleEv'/>
+<fun r='_ZN2sf6Shader4bindEPKS0_'/>
+<fun r='_ZN2sf6Shader11isAvailableEv'/>
+<fun r='_ZN2sf6Shader19isGeometryAvailableEv'/>
+<fun r='_ZN2sf6Shader7compileEPKcS2_S2_'/>
+<fun r='_ZNK2sf6Shader12bindTexturesEv'/>
+<fun r='_ZN2sf6Shader18getUniformLocationERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<mbr r='sf::Shader::m_shaderProgram' o='0' t='unsigned int'/>
+<mbr r='sf::Shader::m_currentTexture' o='32' t='int'/>
+<mbr r='sf::Shader::m_textures' o='64' t='TextureTable'/>
+<mbr r='sf::Shader::m_uniforms' o='448' t='UniformTable'/>

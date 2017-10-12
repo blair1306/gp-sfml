@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/SFML/Window/Unix/Display.hpp' l='48' type='Display * sf::priv::OpenDisplay()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/Display.hpp' l='39'>////////////////////////////////////////////////////////////
+/// \brief Get the shared Display
+///
+/// This function increments the reference count of the display,
+/// it must be matched with a call to CloseDisplay.
+///
+/// \return Pointer to the shared display
+///
+////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/CursorImpl.cpp' l='43' u='c' c='_ZN2sf4priv10CursorImplC1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='54' ll='73' type='Display * sf::priv::OpenDisplay()'/>
+<use f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='97' u='c' c='_ZN2sf4priv7getAtomERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb'/>
+<doc f='codebrowser/src/SFML/Window/Unix/Display.cpp' l='53'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='109' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='134' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEPKNS0_10WindowImplEj'/>
+<use f='codebrowser/src/SFML/Window/Unix/GlxContext.cpp' l='159' u='c' c='_ZN2sf4priv10GlxContextC1EPS1_RKNS_15ContextSettingsEjj'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='156' u='c' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='193' u='c' c='_ZN2sf4priv9InputImpl20isMouseButtonPressedENS_5Mouse6ButtonE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='224' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='249' u='c' c='_ZN2sf4priv9InputImpl16getMousePositionERKNS_6WindowE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='276' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEE'/>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='290' u='c' c='_ZN2sf4priv9InputImpl16setMousePositionERKNS_7Vector2IiEERKNS_6WindowE'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='46' u='c' c='_ZN2sf4priv13VideoModeImpl18getFullscreenModesEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/VideoModeImpl.cpp' l='129' u='c' c='_ZN2sf4priv13VideoModeImpl14getDesktopModeEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='153' u='c' c='_ZN12_GLOBAL__N_113ewmhSupportedEv'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='502' u='c' c='_ZN2sf4priv13WindowImplX11C1Em'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='550' u='c' c='_ZN2sf4priv13WindowImplX11C1ENS_9VideoModeERKNS_6StringEmRKNS_15ContextSettingsE'/>

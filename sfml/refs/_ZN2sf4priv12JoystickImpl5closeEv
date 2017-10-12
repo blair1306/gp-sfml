@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='89' type='void sf::priv::JoystickImpl::close()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.hpp' l='85'>////////////////////////////////////////////////////////////
+    /// \brief Close the joystick
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='79' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='115' u='c' c='_ZN2sf4priv15JoystickManagerD1Ev'/>
+<def f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='587' ll='591' type='void sf::priv::JoystickImpl::close()'/>
+<doc f='codebrowser/src/SFML/Window/Unix/JoystickImpl.cpp' l='586'>////////////////////////////////////////////////////////////</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='152' type='Uint64 sf::InputSoundFile::getSampleOffset() const'/>
+<def f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='219' ll='222' type='Uint64 sf::InputSoundFile::getSampleOffset() const'/>
+<doc f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='218'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/InputSoundFile.hpp' l='146'>////////////////////////////////////////////////////////////
+    /// \brief Get the read offset of the file in samples
+    ///
+    /// \return Sample position
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='184' u='c' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='216' u='c' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='222' u='c' c='_ZN2sf5Music6onLoopEv'/>

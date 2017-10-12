@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/SFML/Graphics/GLExtensions.hpp' l='237'/>
+<use f='codebrowser/src/SFML/Graphics/RenderTextureImplFBO.cpp' l='122' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='497' u='c'/>
+<use f='codebrowser/src/SFML/Graphics/Texture.cpp' l='500' u='c'/>

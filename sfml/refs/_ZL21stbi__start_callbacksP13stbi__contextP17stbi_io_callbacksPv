@@ -1,0 +1,8 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='711' ll='720' type='void stbi__start_callbacks(stbi__context * s, stbi_io_callbacks * c, void * user)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='748' u='c' c='_ZL16stbi__start_fileP13stbi__contextP8_IO_FILE'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1190' u='c' c='stbi_load_16_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1204' u='c' c='stbi_load_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1237' u='c' c='stbi_loadf_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1308' u='c' c='stbi_is_hdr_from_callbacks'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6964' u='c' c='stbi_info_from_callbacks'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='710'>// initialize a callback-based context</doc>

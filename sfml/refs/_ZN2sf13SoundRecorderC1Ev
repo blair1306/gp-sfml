@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='196' type='void sf::SoundRecorder::SoundRecorder()'/>
+<doc f='codebrowser/include/SFML/Audio/SoundRecorder.hpp' l='190'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// This constructor is only meant to be called by derived classes.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='49' ll='58' type='void sf::SoundRecorder::SoundRecorder()'/>
+<doc f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='48'>////////////////////////////////////////////////////////////</doc>

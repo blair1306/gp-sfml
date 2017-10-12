@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Graphics/Rect.hpp' l='124' type='bool sf::Rect::contains(const Vector2&lt;T&gt; &amp; point) const'/>
+<def f='codebrowser/include/SFML/Graphics/Rect.inl' l='91' ll='95' type='bool sf::Rect::contains(const Vector2&lt;T&gt; &amp; point) const'/>
+<doc f='codebrowser/include/SFML/Graphics/Rect.hpp' l='111'>////////////////////////////////////////////////////////////
+    /// \brief Check if a point is inside the rectangle&apos;s area
+    ///
+    /// This check is non-inclusive. If the point lies on the
+    /// edge of the rectangle, this function will return false.
+    ///
+    /// \param point Point to test
+    ///
+    /// \return True if the point is inside, false otherwise
+    ///
+    /// \see intersects
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Rect.inl' l='90'>////////////////////////////////////////////////////////////</doc>

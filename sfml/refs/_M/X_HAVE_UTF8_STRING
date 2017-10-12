@@ -1,0 +1,5 @@
+<dec f='include/X11/Xlib.h' l='70'/>
+<doc f='include/X11/Xlib.h' l='68'>/* API mentioning &quot;UTF8&quot; or &quot;utf8&quot; is an XFree86 extension, introduced in
+   November 2000. Its presence is indicated through the following macro. */</doc>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='911' u='a'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='1729' u='a'/>

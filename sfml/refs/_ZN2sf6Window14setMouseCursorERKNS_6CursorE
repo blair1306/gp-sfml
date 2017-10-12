@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='382' type='void sf::Window::setMouseCursor(const sf::Cursor &amp; cursor)'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='365'>////////////////////////////////////////////////////////////
+    /// \brief Set the displayed cursor to a native system cursor
+    ///
+    /// Upon window creation, the arrow cursor is used by default.
+    ///
+    /// \warning The cursor must not be destroyed while in use by
+    ///          the window.
+    ///
+    /// \warning Features related to Cursor are not supported on
+    ///          iOS and Android.
+    ///
+    /// \param cursor Native system cursor type to display
+    ///
+    /// \see sf::Cursor::loadFromSystem
+    /// \see sf::Cursor::loadFromPixels
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='300' ll='304' type='void sf::Window::setMouseCursor(const sf::Cursor &amp; cursor)'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='299'>////////////////////////////////////////////////////////////</doc>

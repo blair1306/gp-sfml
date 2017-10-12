@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/SFML/Network/Socket.hpp' l='106' type='bool sf::Socket::isBlocking() const'/>
+<doc f='codebrowser/include/SFML/Network/Socket.hpp' l='98'>////////////////////////////////////////////////////////////
+    /// \brief Tell whether the socket is in blocking or non-blocking mode
+    ///
+    /// \return True if the socket is blocking, false otherwise
+    ///
+    /// \see setBlocking
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Network/Socket.cpp' l='65' ll='68' type='bool sf::Socket::isBlocking() const'/>
+<doc f='codebrowser/src/SFML/Network/Socket.cpp' l='64'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='143' u='c' c='_ZN2sf9TcpSocket7connectERKNS_9IpAddressEtNS_4TimeE'/>
+<use f='codebrowser/src/SFML/Network/TcpSocket.cpp' l='222' u='c' c='_ZN2sf9TcpSocket4sendEPKvm'/>

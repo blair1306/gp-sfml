@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/SFML/Audio/Music.hpp' l='279' type='sf::InputSoundFile'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='39' u='w' c='_ZN2sf5MusicC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='61' u='m' c='_ZN2sf5Music12openFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='78' u='m' c='_ZN2sf5Music14openFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='95' u='m' c='_ZN2sf5Music14openFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='108' u='m' c='_ZNK2sf5Music11getDurationEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='125' u='m' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='138' u='m' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='150' u='m' c='_ZN2sf5Music13setLoopPointsENS0_4SpanINS_4TimeEEE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='184' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='195' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='199' u='m' c='_ZN2sf5Music9onGetDataERNS_11SoundStream5ChunkE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='207' u='m' c='_ZN2sf5Music6onSeekENS_4TimeE'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='216' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='221' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='222' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='224' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='227' u='m' c='_ZN2sf5Music6onLoopEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='239' u='m' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='242' u='m' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='242' u='m' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='245' u='m' c='_ZN2sf5Music10initializeEv'/>
+<use f='codebrowser/src/SFML/Audio/Music.cpp' l='245' u='m' c='_ZN2sf5Music10initializeEv'/>
+<offset>896</offset>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='276'>////////////////////////////////////////////////////////////
+    // Member data
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Audio/Music.hpp' l='279'>///&lt; The streamed music file</doc>

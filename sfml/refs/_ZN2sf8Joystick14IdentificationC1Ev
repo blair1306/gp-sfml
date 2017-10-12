@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Joystick.hpp' l='78' type='void sf::Joystick::Identification::Identification()'/>
+<def f='codebrowser/src/SFML/Window/Joystick.cpp' l='84' ll='90' type='void sf::Joystick::Identification::Identification()'/>
+<doc f='codebrowser/src/SFML/Window/Joystick.cpp' l='83'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/JoystickManager.cpp' l='82' u='c' c='_ZN2sf4priv15JoystickManager6updateEv'/>

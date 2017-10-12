@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1495' type='void glSelectBuffer(GLsizei , GLuint * )'/>
+<dec f='include/GL/gl.h' l='1435' type='void glSelectBuffer(GLsizei size, GLuint * buffer)'/>

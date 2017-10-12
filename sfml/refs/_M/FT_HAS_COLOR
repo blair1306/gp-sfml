@@ -1,0 +1,11 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1404'/>
+<doc f='include/freetype2/freetype/freetype.h' l='1394'>/*************************************************************************
+   *
+   * @macro:
+   *   FT_HAS_COLOR( face )
+   *
+   * @description:
+   *   A macro that returns true whenever a face object contains
+   *   tables for color glyphs.
+   *
+   */</doc>

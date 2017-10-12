@@ -1,0 +1,5 @@
+<dec f='include/AL/al.h' l='312'/>
+<doc f='include/AL/al.h' l='311'>/** Source buffer position, in seconds */</doc>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='118' u='c'/>
+<use f='codebrowser/src/SFML/Audio/Sound.cpp' l='143' u='c'/>
+<use f='codebrowser/src/SFML/Audio/SoundStream.cpp' l='235' u='c'/>

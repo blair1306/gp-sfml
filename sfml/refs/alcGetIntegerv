@@ -1,0 +1,2 @@
+<dec f='include/AL/alc.h' l='202' type='void alcGetIntegerv(ALCdevice * device, ALCenum param, ALCsizei size, ALCint * values)'/>
+<use f='codebrowser/src/SFML/Audio/SoundRecorder.cpp' l='298' u='c' c='_ZN2sf13SoundRecorder22processCapturedSamplesEv'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/SFML/Graphics/Text.hpp' l='159' type='void sf::Text::setStyle(Uint32 style)'/>
+<def f='codebrowser/src/SFML/Graphics/Text.cpp' l='145' ll='152' type='void sf::Text::setStyle(Uint32 style)'/>
+<doc f='codebrowser/src/SFML/Graphics/Text.cpp' l='144'>////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/Graphics/Text.hpp' l='147'>////////////////////////////////////////////////////////////
+    /// \brief Set the text&apos;s style
+    ///
+    /// You can pass a combination of one or more styles, for
+    /// example sf::Text::Bold | sf::Text::Italic.
+    /// The default style is sf::Text::Regular.
+    ///
+    /// \param style New style
+    ///
+    /// \see getStyle
+    ///
+    ////////////////////////////////////////////////////////////</doc>

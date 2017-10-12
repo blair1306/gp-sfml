@@ -1,0 +1,4 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='896' ll='900' type='int stbi__mad4sizes_valid(int a, int b, int c, int d, int add)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='917' u='c' c='_ZL17stbi__malloc_mad4iiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6521' u='c' c='_ZL14stbi__hdr_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<doc f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='895'>// returns 1 if &quot;a*b*c*d + add&quot; has no negative terms/factors and doesn&apos;t overflow</doc>

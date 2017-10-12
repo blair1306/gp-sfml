@@ -1,0 +1,2 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='651' ll='657' type='int stbi__sse2_available()'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3487' u='c' c='_ZL16stbi__setup_jpegP10stbi__jpeg'/>

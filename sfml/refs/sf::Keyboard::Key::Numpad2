@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/SFML/Window/Keyboard.hpp' l='128' type='77'/>
+<doc f='codebrowser/include/SFML/Window/Keyboard.hpp' l='128'>///&lt; The numpad 2 key</doc>
+<use f='codebrowser/src/SFML/Window/Unix/InputImpl.cpp' l='104' c='_ZN2sf4priv9InputImpl12isKeyPressedENS_8Keyboard3KeyE'/>
+<use f='codebrowser/src/SFML/Window/Unix/WindowImplX11.cpp' l='426' u='r' c='_ZN12_GLOBAL__N_110keysymToSFEm'/>

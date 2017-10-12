@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='91' type='void sf::SoundFileReader::seek(Uint64 sampleOffset)'/>
+<use f='codebrowser/src/SFML/Audio/InputSoundFile.cpp' l='233' u='c' c='_ZN2sf14InputSoundFile4seekEy'/>
+<doc f='codebrowser/include/SFML/Audio/SoundFileReader.hpp' l='79'>////////////////////////////////////////////////////////////
+    /// \brief Change the current read position to the given sample offset
+    ///
+    /// The sample offset takes the channels into account.
+    /// Offsets can be calculated like this:
+    /// `sampleNumber * sampleRate * channelCount`
+    /// If the given offset exceeds to total number of samples,
+    /// this function must jump to the end of the file.
+    ///
+    /// \param sampleOffset Index of the sample to jump to, relative to the beginning
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='253' c='_ZN2sf4priv19SoundFileReaderFlac4seekEy'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='130' c='_ZN2sf4priv18SoundFileReaderOgg4seekEy'/>
+<ovr f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='135' c='_ZN2sf4priv18SoundFileReaderWav4seekEy'/>

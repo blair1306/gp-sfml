@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/SFML/Network/Http.hpp' l='183' type='std::string'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='78' u='w' c='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='81' u='m' c='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='81' u='m' c='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='82' u='m' c='_ZN2sf4Http7Request6setUriERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Network/Http.cpp' l='118' u='r' c='_ZNK2sf4Http7Request7prepareB5cxx11Ev'/>
+<offset>448</offset>
+<doc f='codebrowser/include/SFML/Network/Http.hpp' l='183'>///&lt; Target URI of the request</doc>

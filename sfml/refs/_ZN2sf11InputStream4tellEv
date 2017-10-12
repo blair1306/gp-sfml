@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/SFML/System/InputStream.hpp' l='81' type='Int64 sf::InputStream::tell()'/>
+<doc f='codebrowser/include/SFML/System/InputStream.hpp' l='75'>////////////////////////////////////////////////////////////
+    /// \brief Get the current reading position in the stream
+    ///
+    /// \return The current position, or -1 on error.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='71' u='c' c='_ZN12_GLOBAL__N_110streamTellEPK19FLAC__StreamDecoderPmPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderFlac.cpp' l='103' u='c' c='_ZN12_GLOBAL__N_19streamEofEPK19FLAC__StreamDecoderPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='52' u='c' c='_ZN12_GLOBAL__N_14seekEPvli'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderOgg.cpp' l='63' u='c' c='_ZN12_GLOBAL__N_14tellEPv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='149' u='c' c='_ZN2sf4priv18SoundFileReaderWav4readEPsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='278' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='290' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileReaderWav.cpp' l='298' u='c' c='_ZN2sf4priv18SoundFileReaderWav11parseHeaderERNS_15SoundFileReader4InfoE'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='57' u='c' c='_ZN12_GLOBAL__N_14skipEPvi'/>
+<use f='codebrowser/src/SFML/Graphics/ImageLoader.cpp' l='62' u='c' c='_ZN12_GLOBAL__N_13eofEPv'/>
+<ovr f='codebrowser/src/SFML/System/FileInputStream.cpp' l='112' c='_ZN2sf15FileInputStream4tellEv'/>
+<ovr f='codebrowser/src/SFML/System/MemoryInputStream.cpp' l='83' c='_ZN2sf17MemoryInputStream4tellEv'/>

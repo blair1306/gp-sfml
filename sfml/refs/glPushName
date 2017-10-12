@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/SFML/Graphics/GLLoader.hpp' l='1454' type='void glPushName(GLuint )'/>
+<dec f='include/GL/gl.h' l='1441' type='void glPushName(GLuint name)'/>

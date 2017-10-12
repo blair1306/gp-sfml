@@ -1,0 +1,7 @@
+_ZNKSt7modulusclERKT_S2_|std::modulus::operator()
+_ZSt4modffPf|std::modf
+_ZN2sf13Transformable4moveEff|sf::Transformable::move
+_ZN2sf4View4moveEff|sf::View::move
+_ZN2sf5Mouse11getPositionEv|sf::Mouse::getPosition
+_ZN2sf5Mouse15isButtonPressedENS0_6ButtonE|sf::Mouse::isButtonPressed
+_ZN2sf5Mouse11setPositionERKNS_7Vector2IiEE|sf::Mouse::setPosition

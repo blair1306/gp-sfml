@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/SFML/Window/Window.hpp' l='162' type='void sf::Window::close()'/>
+<doc f='codebrowser/include/SFML/Window/Window.hpp' l='152'>////////////////////////////////////////////////////////////
+    /// \brief Close the window and destroy all the attached resources
+    ///
+    /// After calling this function, the sf::Window instance remains
+    /// valid and you can call create() to recreate the window.
+    /// All other functions such as pollEvent() or display() will
+    /// still work (i.e. you don&apos;t have to test isOpen() every time),
+    /// and will have no effect on closed windows.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='79' u='c' c='_ZN2sf6WindowD1Ev'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='87' u='c' c='_ZN2sf6Window6createENS_9VideoModeERKNS_6StringEjRKNS_15ContextSettingsE'/>
+<use f='codebrowser/src/SFML/Window/Window.cpp' l='138' u='c' c='_ZN2sf6Window6createEmRKNS_15ContextSettingsE'/>
+<def f='codebrowser/src/SFML/Window/Window.cpp' l='152' ll='165' type='void sf::Window::close()'/>
+<doc f='codebrowser/src/SFML/Window/Window.cpp' l='151'>////////////////////////////////////////////////////////////</doc>

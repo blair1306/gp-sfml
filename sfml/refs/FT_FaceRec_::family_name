@@ -1,0 +1,8 @@
+<dec f='include/freetype2/freetype/freetype.h' l='1044' type='FT_String *'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='172' u='r' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='172' u='r' c='_ZN2sf4Font12loadFromFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='237' u='r' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='237' u='r' c='_ZN2sf4Font14loadFromMemoryEPKvm'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='315' u='r' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<use f='codebrowser/src/SFML/Graphics/Font.cpp' l='315' u='r' c='_ZN2sf4Font14loadFromStreamERNS_11InputStreamE'/>
+<offset>320</offset>

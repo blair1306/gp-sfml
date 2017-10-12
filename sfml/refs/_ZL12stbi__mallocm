@@ -1,0 +1,17 @@
+<def f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='845' ll='848' type='void * stbi__malloc(size_t size)'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='906' u='c' c='_ZL17stbi__malloc_mad2iii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='912' u='c' c='_ZL17stbi__malloc_mad3iiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='918' u='c' c='_ZL17stbi__malloc_mad4iiiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1007' u='c' c='_ZL21stbi__convert_16_to_8Ptiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1023' u='c' c='_ZL21stbi__convert_8_to_16Phiii'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='1528' u='c' c='_ZL22stbi__convert_format16Ptiijj'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3559' u='c' c='_ZL15load_jpeg_imageP10stbi__jpegPiS1_S1_i'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3686' u='c' c='_ZL15stbi__jpeg_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3698' u='c' c='_ZL15stbi__jpeg_testP13stbi__context'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='3722' u='c' c='_ZL15stbi__jpeg_infoP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4132' u='c' c='stbi_zlib_decode_malloc_guesssize'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4153' u='c' c='stbi_zlib_decode_malloc_guesssize_headerflag'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='4180' u='c' c='stbi_zlib_decode_noheader_malloc'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='5687' u='c' c='_ZL14stbi__psd_loadP13stbi__contextPiS1_S1_iP17stbi__result_infoi'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6113' u='c' c='_ZL18stbi__gif_info_rawP13stbi__contextPiS1_S1_'/>
+<use f='codebrowser/extlibs/headers/stb_image/stb_image.h' l='6377' u='c' c='_ZL14stbi__gif_loadP13stbi__contextPiS1_S1_iP17stbi__result_info'/>

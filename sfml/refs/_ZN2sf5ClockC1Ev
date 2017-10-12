@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/SFML/System/Clock.hpp' l='51' type='void sf::Clock::Clock()'/>
+<doc f='codebrowser/include/SFML/System/Clock.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// The clock starts automatically after being constructed.
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/System/Clock.cpp' l='40' ll='43' type='void sf::Clock::Clock()'/>
+<doc f='codebrowser/src/SFML/System/Clock.cpp' l='39'>////////////////////////////////////////////////////////////</doc>

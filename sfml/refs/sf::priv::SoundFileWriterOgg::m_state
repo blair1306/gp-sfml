@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='114' type='vorbis_dsp_state'/>
+<offset>7936</offset>
+<doc f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.hpp' l='114'>// current encoding state</doc>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='56' u='w' c='_ZN2sf4priv18SoundFileWriterOggC1Ev'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='87' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='104' u='a' c='_ZN2sf4priv18SoundFileWriterOgg4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='142' u='a' c='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='151' u='a' c='_ZN2sf4priv18SoundFileWriterOgg5writeEPKsy'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='166' u='a' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='167' u='a' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='175' u='a' c='_ZN2sf4priv18SoundFileWriterOgg11flushBlocksEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='201' u='a' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>
+<use f='codebrowser/src/SFML/Audio/SoundFileWriterOgg.cpp' l='210' u='a' c='_ZN2sf4priv18SoundFileWriterOgg5closeEv'/>

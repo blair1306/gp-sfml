@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/SFML/System/Mutex.hpp' l='73' type='void sf::Mutex::lock()'/>
+<doc f='codebrowser/include/SFML/System/Mutex.hpp' l='63'>////////////////////////////////////////////////////////////
+    /// \brief Lock the mutex
+    ///
+    /// If the mutex is already locked in another thread,
+    /// this call will block the execution until the mutex
+    /// is released.
+    ///
+    /// \see unlock
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/System/Lock.cpp' l='38' u='c' c='_ZN2sf4LockC1ERNS_5MutexE'/>
+<def f='codebrowser/src/SFML/System/Mutex.cpp' l='54' ll='57' type='void sf::Mutex::lock()'/>
+<doc f='codebrowser/src/SFML/System/Mutex.cpp' l='53'>////////////////////////////////////////////////////////////</doc>

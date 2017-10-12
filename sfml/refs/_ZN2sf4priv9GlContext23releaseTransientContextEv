@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/SFML/Window/GlContext.hpp' l='82' type='static void sf::priv::GlContext::releaseTransientContext()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.hpp' l='78'>////////////////////////////////////////////////////////////
+    /// \brief Releases a context after short-term use on the current thread
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Window/GlContext.cpp' l='324' ll='342' type='static void sf::priv::GlContext::releaseTransientContext()'/>
+<doc f='codebrowser/src/SFML/Window/GlContext.cpp' l='323'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlResource.cpp' l='58' u='c' c='_ZN2sf10GlResource20TransientContextLockD1Ev'/>

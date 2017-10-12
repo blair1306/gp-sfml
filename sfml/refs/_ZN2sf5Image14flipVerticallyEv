@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/SFML/Graphics/Image.hpp' l='259' type='void sf::Image::flipVertically()'/>
+<doc f='codebrowser/include/SFML/Graphics/Image.hpp' l='255'>////////////////////////////////////////////////////////////
+    /// \brief Flip the image vertically (top &lt;-&gt; bottom)
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<def f='codebrowser/src/SFML/Graphics/Image.cpp' l='333' ll='350' type='void sf::Image::flipVertically()'/>
+<doc f='codebrowser/src/SFML/Graphics/Image.cpp' l='332'>////////////////////////////////////////////////////////////</doc>

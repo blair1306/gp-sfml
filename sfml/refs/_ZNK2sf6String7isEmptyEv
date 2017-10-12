@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/SFML/System/String.hpp' l='375' type='bool sf::String::isEmpty() const'/>
+<doc f='codebrowser/include/SFML/System/String.hpp' l='367'>////////////////////////////////////////////////////////////
+    /// \brief Check whether the string is empty or not
+    ///
+    /// \return True if the string is empty (i.e. contains no character)
+    ///
+    /// \see clear, getSize
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Graphics/Text.cpp' l='362' u='c' c='_ZNK2sf4Text20ensureGeometryUpdateEv'/>
+<def f='codebrowser/src/SFML/System/String.cpp' l='257' ll='260' type='bool sf::String::isEmpty() const'/>
+<doc f='codebrowser/src/SFML/System/String.cpp' l='256'>////////////////////////////////////////////////////////////</doc>

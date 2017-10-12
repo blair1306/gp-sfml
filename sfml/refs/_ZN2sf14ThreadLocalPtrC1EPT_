@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='51' type='void sf::ThreadLocalPtr::ThreadLocalPtr&lt;T&gt;(T * value = __null)'/>
+<def f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='29' ll='33' type='void sf::ThreadLocalPtr::ThreadLocalPtr&lt;T&gt;(T * value = __null)'/>
+<use f='codebrowser/src/SFML/Window/Context.cpp' l='36' u='c'/>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.hpp' l='45'>////////////////////////////////////////////////////////////
+    /// \brief Default constructor
+    ///
+    /// \param value Optional value to initialize the variable
+    ///
+    ////////////////////////////////////////////////////////////</doc>
+<doc f='codebrowser/include/SFML/System/ThreadLocalPtr.inl' l='28'>////////////////////////////////////////////////////////////</doc>
+<use f='codebrowser/src/SFML/Window/GlContext.cpp' l='143' u='c'/>
